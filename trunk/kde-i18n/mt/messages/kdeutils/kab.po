@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
 "PO-Revision-Date: 2001-07-08 10:49CET\n"
 "Last-Translator: Ramon Casha <ramon.casha@linux.org.mt>\n"
 "Language-Team: Maltese <mt@li.org>\n"
@@ -71,18 +71,21 @@ msgid "Entry List"
 msgstr "Lista ta' elementi"
 
 #: rc.cpp:15
+#, fuzzy
 msgid ""
-"<qt>Search entries by entering<br> - one of their <b>e-mail "
-"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+"<qt>Search entries by entering"
+"<br> - one of their <b>email addresses</b>"
+"<br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
-"<qt>Fittex indirizzi billi ddaħħal<br>  - wieħed mill-<b>indirizzi "
-"e-mail</b><br>  - l-<b>isem</b> jew<br>  - il-<b>kunjom</b></qt>"
+"<qt>Fittex indirizzi billi ddaħħal"
+"<br>  - wieħed mill-<b>indirizzi e-mail</b>"
+"<br>  - l-<b>isem</b> jew<br>  - il-<b>kunjom</b></qt>"
 
 #: rc.cpp:17
 msgid "<qt>Select an entry to display it.</qt>"
 msgstr "<qt> Agħżel indirizz biex turih.</qt>"
 
-#: kab_htmlexport.cc:380 rc.cpp:18
+#: kab_htmlexport.cc:377 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Issettja l-esportazzjoni HTML"
 
@@ -222,19 +225,21 @@ msgstr "Dar / triq:"
 msgid "Job title:"
 msgstr "Tip ta' xogħol:"
 
-#: look_edit_tabaddresses.cc:337 rc.cpp:56
-msgid "Delivery label"
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+#, fuzzy
+msgid "Delivery Label"
 msgstr "Tikketta tat-twassil"
 
-#: kab_main.cc:31 kab_main.cc:38
+#: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
 msgstr "Ktieb tal-indirizzi KDE"
 
-#: kab_main.cc:51
+#: kab_main.cc:49
+#, fuzzy
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b>"
+"<b>File->Import->KDE 1 Addressbook</b>"
 " to use your old database with the new version.</qt>"
 msgstr ""
 "<qt>Verżjoni 2 tal-ktieb tal-indirizzi KDE mhuwiex kompatibbli ma' dak "
@@ -242,23 +247,24 @@ msgstr ""
 "ġdid. Agħżel <b>Fajl->Importa->ktieb tal-indirizzi KDE 1</b> biex tuża "
 "d-database antik mal-verżjoni ġdida.</qt>"
 
-#: kab_main.cc:56
-msgid "new format"
+#: kab_main.cc:54
+#, fuzzy
+msgid "New Format"
 msgstr "format ġdid"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
-#: look_edit_tabuser.cc:49
+#: look_edit_tabuser.cc:47
 msgid "Out of memory."
 msgstr "Spiċċat il-memorja"
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
 msgid "General failure"
 msgstr "Falliment ġenerali"
 
-#: kab_topwidget.cc:93
+#: kab_topwidget.cc:82
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
@@ -268,116 +274,139 @@ msgstr ""
 "Il-ktieb tal-indirizzi KDE ma jistax jaħdem mingħajru.\n"
 "Il-programm se jkollu jagħlaq."
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
 msgid "Database error"
 msgstr "Problema fid-database"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:197
 msgid "Welcome to kab 2.1"
 msgstr "Merħba għal KAB 2.1"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:198
 msgid "The KDE Addressbook 2.1."
 msgstr "Ktieb tal-Indirizzi 2.1 tal-KDE"
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:199
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Miktub minn Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:200
 msgid "Visit www.kde.org for the latest news."
 msgstr "Żur www.kde.org għall-aħħar aħbarijiet"
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:271
 msgid "&Export to HTML..."
 msgstr "&Esporta għal HTML..."
 
-#: kab_topwidget.cc:282
-msgid "&First entry"
+#: kab_topwidget.cc:275
+#, fuzzy
+msgid "&First Entry"
 msgstr "L-&ewwel indirizz"
 
-#: kab_topwidget.cc:286
-msgid "&Previous entry"
+#: kab_topwidget.cc:279
+#, fuzzy
+msgid "&Previous Entry"
 msgstr "L-indirizz ta' &qabel"
 
-#: kab_topwidget.cc:290
-msgid "&Next entry"
+#: kab_topwidget.cc:283
+#, fuzzy
+msgid "&Next Entry"
 msgstr "L-indirizz li &jmiss"
 
-#: kab_topwidget.cc:294
-msgid "&Last entry"
+#: kab_topwidget.cc:287
+#, fuzzy
+msgid "&Last Entry"
 msgstr "L-&aħħar indirizz"
 
-#: kab_topwidget.cc:298
-msgid "&Add entry..."
+#: kab_topwidget.cc:291
+#, fuzzy
+msgid "&Add Entry..."
 msgstr "&Żid indirizz..."
 
-#: kab_topwidget.cc:302
-msgid "&Edit entry..."
+#: kab_topwidget.cc:295
+#, fuzzy
+msgid "&Edit Entry..."
 msgstr "&Editja indirizz..."
 
-#: kab_topwidget.cc:306
-msgid "&Remove entry"
+#: kab_topwidget.cc:299
+#, fuzzy
+msgid "&Remove Entry"
 msgstr "&Neħħi indirizz"
 
-#: kab_topwidget.cc:310
-msgid "Send an e&mail"
+#: kab_topwidget.cc:303
+#, fuzzy
+msgid "Send an E&mail"
 msgstr "Ibgħat &messaġġ imejl"
 
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:307
 msgid "&Browse"
 msgstr "&Browse"
 
-#: kab_topwidget.cc:318
-msgid "&Search entries..."
+#: kab_topwidget.cc:311
+#, fuzzy
+msgid "&Search Entries..."
 msgstr "&Fittex elementi..."
 
-#: kab_topwidget.cc:322
-msgid "Show search results"
+#: kab_topwidget.cc:315
+#, fuzzy
+msgid "Show Search Results"
 msgstr "Uri r-riżultati tat-tfittix"
 
-#: kab_topwidget.cc:327
-msgid "Show main toolbar"
+#: kab_topwidget.cc:320
+#, fuzzy
+msgid "Show Main Toolbar"
 msgstr "Uri toolbar prinċipali"
 
-#: kab_topwidget.cc:332
-msgid "Show entry navigation toolbar"
+#: kab_topwidget.cc:325
+#, fuzzy
+msgid "Show Entry Navigation Toolbar"
 msgstr "Uri toolbar tan-navigazzjoni tal-indirizzi"
 
-#: kab_topwidget.cc:337
-msgid "Show entry navigation list"
+#: kab_topwidget.cc:330
+#, fuzzy
+msgid "Show Entry Navigation List"
 msgstr "Uri lista tan-navigazzjoni tal-indirizzi"
 
-#: kab_topwidget.cc:342
-msgid "Print entry..."
+#: kab_topwidget.cc:335
+#, fuzzy
+msgid "Print Entry..."
 msgstr "Printja indirizz..."
 
-#: kab_topwidget.cc:346
-msgid "Print entries..."
+#: kab_topwidget.cc:339
+#, fuzzy
+msgid "Print Entries..."
 msgstr "Printja indirizzi..."
 
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:343
 msgid "&Editing"
 msgstr "&Modifikazzjoni"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:347
 msgid "&Business Card"
 msgstr "&Business Card"
 
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr ""
+
 #: kab_topwidget.cc:377
-msgid "&KDE 1 address book"
+#, fuzzy
+msgid "&KDE 1 Address Book"
 msgstr "&Ktieb tal-indirizzi KDE 1"
 
 #: kab_topwidget.cc:379
-msgid "&Netscape address book"
+#, fuzzy
+msgid "&Netscape Address Book"
 msgstr "Ktieb tal-indirizzi &Netscape"
 
 #: kab_topwidget.cc:386
-msgid "&Create new database..."
+#, fuzzy
+msgid "&Create New Database..."
 msgstr "&Oħloq database ġdid"
 
 #: kab_topwidget.cc:390
-msgid "Open default &database"
+#, fuzzy
+msgid "Open Default &Database"
 msgstr "Iftaħ &database standard"
 
 #: kab_topwidget.cc:394
@@ -389,18 +418,21 @@ msgid "&Print"
 msgstr "&Printja"
 
 #: kab_topwidget.cc:410
-msgid "Enable all &messages"
+#, fuzzy
+msgid "Enable all &Messages"
 msgstr "Uża l-&messaġġi kollha"
 
 #: kab_topwidget.cc:412
-msgid "&Configure this file..."
+#, fuzzy
+msgid "&Configure this File..."
 msgstr "I&kkonfigura dan il-fajl"
 
 #: kab_topwidget.cc:415
-msgid "&Preferences for the KDE address book..."
+#, fuzzy
+msgid "&Preferences for KDE Address Book..."
 msgstr "&Preferenzi għall-ktieb tal-indizzi KDE..."
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:538
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
@@ -410,7 +442,7 @@ msgstr ""
 "Il-ktieb tal-indirizzi KDE ma jistax jaħdem mingħajrha.\n"
 "Il-programm se jkollu jagħlaq."
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:570
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -420,44 +452,48 @@ msgstr ""
 "Trid tikteb it-tibdiliet?\n"
 "(Jekk ma jinkitbux jintilfu.)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:572
 msgid "Save changes?"
 msgstr "Trid tikteb tibdiliet?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
 msgid "Error changing the entry."
 msgstr "Problema waqt it-tibdil fl-element."
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:609
 msgid "No entries."
 msgstr "M'hemmx elementi"
 
-#: kab_topwidget.cc:726
+#: kab_topwidget.cc:727
 msgid "Cannot locate default database."
 msgstr "Ma nistax insib id-database standard."
 
-#: kab_topwidget.cc:727
+#: kab_topwidget.cc:728
 msgid "Critical failure"
 msgstr "Problema kritika"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:733
 msgid "The standard file could not be loaded."
 msgstr "Il-fajl standard ma setax jinqara'."
 
-#: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
 msgid "File error"
 msgstr "Problema fil-fajl"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:750
 msgid "Business card view."
 msgstr "Dehra \"business card\""
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:762
 msgid "Editing view."
 msgstr "Dehra għat-tibdil"
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr ""
+
+#: kab_topwidget.cc:782
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
@@ -465,23 +501,23 @@ msgstr ""
 "Din l-azzjoni terġa' tibda turi l-messaġġi kollha li kont tfejt qabel.\n"
 "Trid tkompli?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:784
 msgid "Enable messages?"
 msgstr "Uri l-messaġġi?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:803
 msgid "New entry added."
 msgstr "Indirizz ġdid miżjud."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:804
 msgid "Saving new entry."
 msgstr "Qed jikteb l-indirizz il-ġdid"
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:806
 msgid "Done."
 msgstr "Lest."
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:827
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
@@ -491,7 +527,7 @@ msgstr ""
 "Permess miċħud.\n"
 "Għandu mnejn m'għandekx permessi tikteb f'dal-fajl."
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:835
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -499,122 +535,121 @@ msgstr ""
 "Ma stajtx inżid indirizz ġdid.\n"
 "Kawża mhix magħrufa."
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:841
 msgid "No entry added."
 msgstr "Ebda indirizz ma ġie miżjud."
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:859
 msgid "Really remove this entry?"
 msgstr "Żgur li trid tneħħi l-indirizz?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
 msgid "Question"
 msgstr "Mistoqsija"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:866
 msgid "Entry deleted."
 msgstr "Indirizz imħassar."
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:868
 msgid "Database saved."
 msgstr "Database miktub."
 
-#: kab_topwidget.cc:860
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
+#: kab_topwidget.cc:875
+#, fuzzy
+msgid "Could not delete the entry (probably permission denied)."
 msgstr ""
 "Ma stajtx inħassar l-indirizz\n"
 "(aktarx permess miċħud)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
 msgid "Permission denied."
 msgstr "Permess miċħud."
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:940
 msgid "Send an email"
 msgstr "Ibgħat imejl"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:949
 msgid "No email addresses."
 msgstr "M'hemmx indirizz tal-imejl"
 
-#: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
 msgid "Rejected."
 msgstr "Rifjutat."
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:994
 msgid "Browse to ..."
 msgstr "Browse għal..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1003
 msgid "No URLs."
 msgstr "M'hemmx URLs."
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1070
 msgid "Restoring last view."
 msgstr "Qed nirrestawra l-aħħar dehra."
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1072
 msgid "Not restoring last view."
 msgstr "Mhux qed nirrestawra l-aħħar dehra."
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1083
 msgid "Remembering last entry."
 msgstr "ftakar l-aħħar indirizz."
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1085
 msgid "Not remembering last entry."
 msgstr "tiftakarx l-aħħar indirizz."
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1096
 msgid "Displaying assembled name in window title."
 msgstr "Uri l-isem magħqud fit-titlu tat-tieqa."
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1098
 msgid "Not displaying assembled name in window title."
 msgstr "Bla ma turi l-isem magħqud fit-titlu tat-tieqa."
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1109
 msgid "Creating backup file on startup."
 msgstr "Oħloq backup tal-fajl fil-bidu."
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1111
 msgid "Not creating a backup file on startup."
 msgstr "Toħloqx backup tal-fajl fil-bidu."
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1258
 msgid "Search entries"
 msgstr "Fittex indirizzi"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
 msgid "(ERROR)"
 msgstr "(PROBLEMA)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1320
 msgid "Could not get an overview over the existing entries."
 msgstr "Ma stajtx nikseb rendikont tal-elementi eżistenti."
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
 msgid "Internal Error"
 msgstr "Problema interna"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
 msgid "Could not query an existing entry."
 msgstr "Ma stajtx naqra' element eżistenti"
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid "Search results ("
 msgstr "Riżultati tat-tfittix ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid " hits):"
 msgstr " sejbiet)"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1421
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
@@ -622,19 +657,19 @@ msgstr ""
 "Jiddispjaċini\n"
 "Ebda indirizz ma' qabel mal-kriterji."
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1422
 msgid "No hits"
 msgstr "Ebda qbil"
 
-#: kab_kab1importer.cc:197
+#: kab_kab1importer.cc:196
 msgid "Home"
 msgstr "Bidu"
 
-#: kab_kab1importer.cc:239
+#: kab_kab1importer.cc:238
 msgid "Imported kab 1 addressbook."
 msgstr "Ktieb tal-indirizzi KAB 1 importat"
 
-#: kab_kab1importer.cc:278
+#: kab_kab1importer.cc:277
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
@@ -642,7 +677,7 @@ msgstr ""
 "Ma stajtx insib il-ktieb tal-indirizzi kab 1.\n"
 "Aktarx qatt ma użajt kab 1."
 
-#: kab_kab1importer.cc:292
+#: kab_kab1importer.cc:291
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
@@ -650,7 +685,7 @@ msgstr ""
 "Ma stajtx naqra' l-ktieb tal-indirizzi kab 1.\n"
 "Forsi biddiltu manwalment."
 
-#: kab_kab1importer.cc:307
+#: kab_kab1importer.cc:306
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
@@ -658,232 +693,246 @@ msgstr ""
 "Ma stajtx insib is-sezzjoni tal-elementi fil-ktieb tal-indirizzi kab 1.\n"
 "Forsi biddiltu manwalment."
 
-#: kab_kab1importer.cc:335
+#: kab_kab1importer.cc:334
+#, fuzzy
 msgid ""
-"Warning: There were errors importing the KDE 1\n"
-"address database.\n"
-"\n"
+"Warning: There were errors importing the KDE 1 address database.\n"
 msgstr ""
 "Twissija: Kien hemm problemi waqt l-importazzjoni \n"
 "tal-ktieb tal-indirizzi KDE 1\n"
 "\n"
 
-#: kab_kab1importer.cc:340
+#: kab_kab1importer.cc:339
+#, fuzzy
 msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
 msgstr ""
 "Żgur li trid iżżid l-indirizzi mill-ktieb tal-indirizzi KDE1\n"
 "għal ġo dal-fajl?\n"
 "Ma tkunx tista' treġġa' l-bidliet lura."
 
-#: kab_netscape_io.cc:104
+#: kab_netscape_io.cc:101
 msgid "Netscape Messenger addressbook export files (*.ldif)"
 msgstr "Fajls esportati mill-ktieb tal-indirizzi Netscape Messenger (*.ldif)"
 
-#: kab_netscape_io.cc:105
+#: kab_netscape_io.cc:102
 msgid "All files"
 msgstr "Fajls kollha"
 
-#: kab_netscape_io.cc:107
+#: kab_netscape_io.cc:104
 msgid "Import Netscape Messanger addressbook export files..."
 msgstr "Importa fajl esportat mill-ktieb tal-indirizzi Netscape Messenger"
 
-#: kab_netscape_io.cc:115
+#: kab_netscape_io.cc:112
 #, c-format
 msgid "Unable to read the file %1."
 msgstr "Ma stajtx naqra l-fajl %1."
 
-#: kab_netscape_io.cc:129
+#: kab_netscape_io.cc:126
 msgid "Entry imported on %1 from '%2'"
 msgstr "Element importat nhar %1 minn \"%2\""
 
-#: kab_netscape_io.cc:144
+#: kab_netscape_io.cc:141
 msgid "Main contact information"
 msgstr "Informazzjoni dwar il-kuntatt prinċipali"
 
-#: kab_netscape_io.cc:182
+#: kab_netscape_io.cc:179
 #, c-format
 msgid "Nickname: %1"
 msgstr "Laqam: %1"
 
-#: kab_netscape_io.cc:188
+#: kab_netscape_io.cc:185
 msgid "Mailformat: Text"
 msgstr "Format tal-imejl: Test"
 
-#: kab_netscape_io.cc:189
+#: kab_netscape_io.cc:186
 msgid "Mailformat: HTML"
 msgstr "Format tal-imejl: HTML"
 
-#: kab_netscape_io.cc:196
+#: kab_netscape_io.cc:193
 #, c-format
 msgid "Last modified: %1"
 msgstr "L-aħħar mibdul: %1"
 
-#: kab_netscape_io.cc:295
+#: kab_netscape_io.cc:292
 msgid "%1 addresses imported."
 msgstr "%1 indirizzi importati."
 
-#: kab_netscape_io.cc:297
+#: kab_netscape_io.cc:294
 msgid "No addresses imported."
 msgstr "Ma ġewx importati indirizzi."
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:213
 msgid "Printing finished."
 msgstr "Printjar lest."
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:215
 msgid "Printing failed."
 msgstr "Printjar falla."
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:331
 msgid "Email address:"
 msgstr "Indirizz imejl:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:332
 msgid "Email addresses:"
 msgstr "Indirizzi imejl:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:344
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:345
 msgid "Telephones:"
 msgstr "Telefon:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:366
 msgid "Web Page:"
 msgstr "Paġna web:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:367
 msgid "Web Pages:"
 msgstr "Paġni web:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:378
 msgid "Talk Address:"
 msgstr "Indirizz talk:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:379
 msgid "Talk Addresses:"
 msgstr "Indirizzi talk:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Address:"
 msgstr "Indirizz:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Addresses:"
 msgstr "Indirizzi:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:527
 msgid "Unnamed address:"
 msgstr "Indirizz bla isem:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
 msgid "(Deliver to:)"
 msgstr "(Ibgħat lil:)"
 
-#: kab_htmlexport.cc:318
+#: kab_htmlexport.cc:315
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+"<qt><b>Warning!</b>"
+"<br>Do not change this setting unless you installed a customized version of "
+"the template files delivered with your kab installation at another "
+"point.</qt>"
 msgstr ""
-"<qt><b>Twissija!</b><br>"
-"Tibdilx dan is-seting sakemm ma nstallajtx verżjoni personalizzata tal-fajl "
-"mudell li ġie mal-kab.</qt>"
+"<qt><b>Twissija!</b>"
+"<br>Tibdilx dan is-seting sakemm ma nstallajtx verżjoni personalizzata "
+"tal-fajl mudell li ġie mal-kab.</qt>"
 
-#: kab_htmlexport.cc:323
+#: kab_htmlexport.cc:320
 msgid "HTML Export Templates"
 msgstr "Mudell tal-esportazzjoni HTML"
 
-#: kab_htmlexport.cc:329
+#: kab_htmlexport.cc:326
 msgid "Select Template Folder"
 msgstr "Agħżel direttorju tal-mudelli"
 
-#: kab_htmlexport.cc:343
+#: kab_htmlexport.cc:340
 msgid "Select Target Folder"
 msgstr "Agħżel direttorju tad-destinazzjoni"
 
-#: kab_htmlexport.cc:392
+#: kab_htmlexport.cc:389
 msgid "You have to specify both a template and a target folder!"
 msgstr "Trid tispeċifika direttorju kemm għall mudelli u bħala destinazzjoni."
 
-#: kab_htmlexport.cc:393
+#: kab_htmlexport.cc:390
 msgid "Corrections needed"
 msgstr "Korrezzjonijiet meħtieġa"
 
-#: kab_htmlexport.cc:447
+#: kab_htmlexport.cc:444
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Resources are used as support files like backgrounds or bullets in "
+"the resulting HTML files.)</i></qt>"
 msgstr ""
 "<qt>Tal-inqas fajl wieħed ta' <b>riżors</b> li jintuża biex jiġi "
 "esportat il-ktieb tal-indirizzi għall-HTML huwa nieqes. Trid tkompli "
-"xorta?<br><br> <i>(Ir-riżorsi huma fajls bħall-istampa ta' sfond jew "
-"\"bullets\" fir-riżultat.)</i></qt>"
+"xorta?"
+"<br>"
+"<br> <i>(Ir-riżorsi huma fajls bħall-istampa ta' sfond jew \"bullets\" "
+"fir-riżultat.)</i></qt>"
 
-#: kab_htmlexport.cc:452
+#: kab_htmlexport.cc:449
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Templates are used as a basis to create the HTML files themselves. "
+"The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
 "<qt>Tal-inqas wieħed mill <b>fajls mudell</b> li jintużaw biex jiġi "
 "esportat il-ktieb tal-indirizzi għall-HTML huwa nieqes. Trid tkompli "
-"xorta?<br><br> <i>(Il-mudelli jintużaw biex joħolqu l-HTML innifsu. "
-"L-esportazzjoni kważi żgur li ma taħdimx mingħajru.)</i></qt>"
+"xorta?"
+"<br>"
+"<br> <i>(Il-mudelli jintużaw biex joħolqu l-HTML innifsu. L-esportazzjoni "
+"kważi żgur li ma taħdimx mingħajru.)</i></qt>"
 
-#: kab_htmlexport.cc:492
+#: kab_htmlexport.cc:489
 msgid "Missing Resource"
 msgstr "Riżors nieqes"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
-#: kab_openfile.cc:53
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
 msgid "Cancelled."
 msgstr "Kanċellat."
 
-#: kab_htmlexport.cc:504
+#: kab_htmlexport.cc:501
 msgid "Missing Template"
 msgstr "Mudell nieqes"
 
-#: kab_htmlexport.cc:543
+#: kab_htmlexport.cc:540
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b>"
+"<br>"
+"<br>Exporting to HTML failed. Problems might be caused by insufficient "
+"permissions in the target directory or failures in the setup of your KDE 2 "
+"installation."
+"<br>"
+"<br>If you created your own template folder, mistakes in there may also "
+"cause errors. As a last possibility, the KDE address book may be buggy, too "
+":-(.</qt>"
 msgstr ""
-"<qt><b>Jiddispjaċini!</b><br><br>L-esportazzjoni għall-HTML falliet. "
-"Il-problemi jistgħu ikunu kkawżati minn nuqqas ta' permessi "
-"għad-direttorju destinazzjoni, jew problemi waqt l-installazzjoni tal-KDE "
-"2.<br><br>"
-" Jekk int ħloqt id-direttorju ta' mudelli personalizzati, żbalji f'dawn "
-"ukoll jistgħu joħolqu problemi. Bħala possibbiltà finali, jista' jkun li "
-"l-ktieb tal-indirizzi tal-KDE jista' jkun fih xi bugs ukoll :-(.</qt>"
+"<qt><b>Jiddispjaċini!</b>"
+"<br>"
+"<br>L-esportazzjoni għall-HTML falliet. Il-problemi jistgħu ikunu "
+"kkawżati minn nuqqas ta' permessi għad-direttorju destinazzjoni, jew "
+"problemi waqt l-installazzjoni tal-KDE 2."
+"<br>"
+"<br> Jekk int ħloqt id-direttorju ta' mudelli personalizzati, żbalji "
+"f'dawn ukoll jistgħu joħolqu problemi. Bħala possibbiltà finali, jista' "
+"jkun li l-ktieb tal-indirizzi tal-KDE jista' jkun fih xi bugs ukoll :-(.</qt>"
 
-#: kab_htmlexport.cc:551
+#: kab_htmlexport.cc:548
 msgid "Error exporting to HTML"
 msgstr "Problema waqt esportazzjoni għall-HTML"
 
-#: kab_createnew.cc:43 kab_openfile.cc:43
+#: kab_createnew.cc:37 kab_openfile.cc:37
 msgid "Could not find the users home directory."
 msgstr "Ma nistax insib id-direttorju tal-bidu tal-user."
 
-#: kab_createnew.cc:44 kab_openfile.cc:44
+#: kab_createnew.cc:38 kab_openfile.cc:38
 msgid "Intern error!"
 msgstr "Problema interna!"
 
-#: kab_createnew.cc:62 kab_openfile.cc:60
+#: kab_createnew.cc:56 kab_openfile.cc:54
 msgid "Only local files supported yet."
 msgstr "Fajls lokali biss aċċettati għalissa."
 
-#: kab_createnew.cc:75
+#: kab_createnew.cc:69
 msgid ""
 "This file is a directory, or it already exists.\n"
 "Please select another filename.\n"
@@ -893,7 +942,7 @@ msgstr ""
 "Jekk jogħġbok agħżel fajl ieħor.\n"
 "Irid ikollok permess biex tikteb fid-diretttorju biex toħloq il-fajl ġdid."
 
-#: kab_createnew.cc:91
+#: kab_createnew.cc:85
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
@@ -901,27 +950,27 @@ msgstr ""
 "L-isem tal-fajl ma jispiċċax b' \".kab\".\n"
 "Dan ġie mibdul għal %1\n"
 
-#: kab_createnew.cc:93
+#: kab_createnew.cc:87
 msgid "Note"
 msgstr "Nota"
 
-#: kab_createnew.cc:100
+#: kab_createnew.cc:94
 msgid "The file could not be created, possibly permission denied."
 msgstr "Il-fajl ma setax jinħoloq, forsi permess miċħud."
 
-#: kab_createnew.cc:101 kab_save.cc:58
+#: kab_createnew.cc:95 kab_save.cc:56
 msgid "kab: File error"
 msgstr "KAB: Problema fil-fajl"
 
-#: kab_createnew.cc:109
+#: kab_createnew.cc:103
 msgid "The file has been created, but could not be loaded."
 msgstr "Il-fajl inħoloq, imma ma setax jinqara'."
 
-#: kab_openfile.cc:45
+#: kab_openfile.cc:39
 msgid "Could not find the users home directory"
 msgstr "Ma stajtx insib id-direttorju tal-bidu tal-user."
 
-#: kab_openfile.cc:72
+#: kab_openfile.cc:66
 msgid ""
 "The file does not exist or is a directory.\n"
 "Use \"Create new database...\" to create a new one.\n"
@@ -931,75 +980,110 @@ msgstr ""
 "Uża \"Oħloq database ġdid...\" biex toħloq wieħed ġdid.\n"
 "Agħżel fajl eżistenti biex taqrah."
 
-#: kab_openfile.cc:86
+#: kab_openfile.cc:80
 msgid "The file could not be loaded."
 msgstr "Il-fajl ma setax jinqara."
 
-#: kab_save.cc:36 kab_save.cc:50
+#: kab_save.cc:34 kab_save.cc:48
 msgid "Internal error."
 msgstr "Problema interna."
 
-#: kab_save.cc:44
+#: kab_save.cc:42
 msgid "Entry stored."
 msgstr "Indirizz ġie mistur."
 
-#: kab_save.cc:57
+#: kab_save.cc:55
 msgid "The file could not be saved (permission denied)."
 msgstr "Il-fajl ma setax jinkiteb (permess miċħud)."
 
-#: kab_save.cc:61
+#: kab_save.cc:59
 msgid "File saved."
 msgstr "Fajl inkiteb."
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:173
 msgid "email: "
 msgstr "imejl: "
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:190
 msgid "tel: "
 msgstr "tel: "
 
-#: look_edit.cc:36
-msgid "User Fields"
-msgstr "Elementi għall-użu ġenerali"
+#: look_details.cc:43
+#, fuzzy
+msgid "Show postal addresses"
+msgstr "Editja indirizzi talk"
 
-#: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
+#: look_details.cc:44
+#, fuzzy
+msgid "Show email addresses"
+msgstr "M'hemmx indirizz tal-imejl"
+
+#: look_details.cc:45
+#, fuzzy
+msgid "Show telephone numbers"
+msgstr "Editja numri tat-telefon"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr ""
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr ""
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr ""
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr ""
+
+#: look_edit.cc:33
+msgid "User fields"
+msgstr "Elementi ġenerali"
+
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
-#: look_edit_tabuser.cc:50
+#: look_edit_tabuser.cc:48
 msgid "General failure."
 msgstr "Falliment ġenerali."
 
-#: dialog_configurefile.cc:130 look_edit.cc:70
-msgid "(User fields)"
+#: dialog_configurefile.cc:126 look_edit.cc:67
+#, fuzzy
+msgid "(User Fields)"
 msgstr "(Elementi għall-użu ġenerali)"
 
-#: look_edit.cc:74
+#: look_edit.cc:71
 msgid "&Person"
 msgstr "&Persuna"
 
-#: look_edit.cc:75
+#: look_edit.cc:72
 msgid "&Telephone"
 msgstr "&Telefon"
 
-#: look_edit.cc:76
+#: look_edit.cc:73
 msgid "&Addresses"
 msgstr "&Indirizzi"
 
-#: look_edit.cc:77
+#: look_edit.cc:74
 msgid "&Birthday"
 msgstr "&Jum it-twelid"
 
-#: look_edit.cc:78
-msgid "Comment"
+#: look_edit.cc:75
+#, fuzzy
+msgid "Co&mment"
 msgstr "Kumment"
 
 #: look_edit_tabperson.cc:40
-msgid "Email addresses..."
+#, fuzzy
+msgid "Email Addresses..."
 msgstr "Indirizzi imejl..."
 
 #: look_edit_tabperson.cc:41
-msgid "Talk addresses..."
+#, fuzzy
+msgid "Talk Addresses..."
 msgstr "Indirizzi talk..."
 
 #: look_edit_tabperson.cc:42
@@ -1043,11 +1127,13 @@ msgid "Rank:"
 msgstr "Grad:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
-msgid "Edit email addresses"
+#, fuzzy
+msgid "Edit Email Addresses"
 msgstr "Editja indirizzi imejl"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
-msgid "Edit talk addresses"
+#, fuzzy
+msgid "Edit Talk Addresses"
 msgstr "Editja indirizzi talk"
 
 #: look_edit_tabperson.cc:228
@@ -1058,35 +1144,35 @@ msgstr "Editja URLs"
 msgid "I know this person's birthday:"
 msgstr "Naf jum twelid din il-persuna:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
 msgid "User field 1:"
 msgstr "Element ġenerali 1:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
 msgid "User field 2:"
 msgstr "Element ġenerali 2:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
 msgid "User field 3:"
 msgstr "Element ġenerali 3:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
 msgid "User field 4:"
 msgstr "Element ġenerali 4:"
 
-#: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
 msgid "(User field 1)"
 msgstr "(Element ġenerali 1)"
 
-#: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
 msgid "(User field 2)"
 msgstr "(Element ġenerali 2)"
 
-#: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
 msgid "(User field 3)"
 msgstr "(Element ġenerali 3)"
 
-#: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
 msgid "(User field 4)"
 msgstr "(Element ġenerali 4)"
 
@@ -1095,115 +1181,118 @@ msgid "Edit URLs (internet addresses)"
 msgstr "Editja URLs (indirizzi fuq l-internet)"
 
 #: look_edit_tabcontact.cc:32
-msgid "Edit telephone numbers"
+#, fuzzy
+msgid "Edit Telephone Numbers"
 msgstr "Editja numri tat-telefon"
 
-#: look_edit_tabaddresses.cc:231
+#: look_edit_tabaddresses.cc:222
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?"
+"<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Kont taf li tista' tippridefinixxi t-tipi ta' indirizzi?<br>Ara "
-"<b>Editja->Ikkonfigura dal-fajl</b>.</qt>"
+"<qt>Kont taf li tista' tippridefinixxi t-tipi ta' indirizzi?"
+"<br>Ara <b>Editja->Ikkonfigura dal-fajl</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:233
-msgid "A note"
+#: look_edit_tabaddresses.cc:224
+#, fuzzy
+msgid "A Note"
 msgstr "Nota"
 
-#: look_edit_tabaddresses.cc:255
+#: look_edit_tabaddresses.cc:246
 msgid "Really delete this address?"
 msgstr "Żgur li trid tħassar dan l-indirizz?"
 
-#: look_edit_tabaddresses.cc:317
+#: look_edit_tabaddresses.cc:308
 msgid "Organization"
 msgstr "Ditta/għaqda"
 
-#: look_edit_tabtelephone.cc:46
+#: look_edit_tabtelephone.cc:44
 msgid "Fixed:"
 msgstr "Telefon fiss:"
 
-#: look_edit_tabtelephone.cc:47
+#: look_edit_tabtelephone.cc:45
 msgid "Mobile:"
 msgstr "Mobile:"
 
-#: look_edit_tabtelephone.cc:48
+#: look_edit_tabtelephone.cc:46
 msgid "Fax:"
 msgstr "Faks:"
 
-#: look_edit_tabtelephone.cc:49
+#: look_edit_tabtelephone.cc:47
 msgid "Modem:"
 msgstr "Modem:"
 
-#: look_edit_tabtelephone.cc:50
+#: look_edit_tabtelephone.cc:48
 msgid "User defined 1:"
 msgstr "Element ġenerali 1:"
 
-#: look_edit_tabtelephone.cc:51
+#: look_edit_tabtelephone.cc:49
 msgid "User defined 2:"
 msgstr "Element ġenerali 2:"
 
-#: look_edit_tabtelephone.cc:52
+#: look_edit_tabtelephone.cc:50
 msgid "User defined 3:"
 msgstr "Element ġenerali 3:"
 
-#: look_edit_tabtelephone.cc:64
+#: look_edit_tabtelephone.cc:62
 msgid "Type"
 msgstr "Tip"
 
-#: look_edit_tabtelephone.cc:66
+#: look_edit_tabtelephone.cc:64
 msgid "Number"
 msgstr "Numru"
 
-#: widget_editstringlist.cc:41
+#: widget_editstringlist.cc:39
 msgid "Add a new string"
 msgstr "Żid string ġdid"
 
-#: widget_editstringlist.cc:42
+#: widget_editstringlist.cc:40
 msgid "Move this string up"
 msgstr "Mexxi dan l-istring 'il fuq"
 
-#: widget_editstringlist.cc:43
+#: widget_editstringlist.cc:41
 msgid "Move this string down"
 msgstr "Mexxi dan l-istring 'l isfel"
 
-#: widget_editstringlist.cc:44
+#: widget_editstringlist.cc:42
 msgid "Delete this string"
 msgstr "Ħassar dan l-istring"
 
-#: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
 msgstr "Aċċettat."
 
 #: dialog_editentry.cc:68
-msgid "Edit entry"
+#, fuzzy
+msgid "Edit Entry"
 msgstr "Editja element"
 
-#: dialog_configurefile.cc:51
+#: dialog_configurefile.cc:47
 msgid "Cannot query configuration data."
 msgstr "Ma nistax jaqra l-informazzjoni ta' konfigurazzjoni"
 
-#: dialog_configurefile.cc:52
+#: dialog_configurefile.cc:48
 msgid "Internal failure"
 msgstr "Problema interna"
 
-#: dialog_configurefile.cc:68
+#: dialog_configurefile.cc:64
 msgid "Settings applied."
 msgstr "Setings applikati"
 
-#: dialog_configurefile.cc:95
+#: dialog_configurefile.cc:91
 msgid "Tab name"
 msgstr "Isem tat-tabb"
 
-#: dialog_configurefile.cc:154
-msgid "User fields"
-msgstr "Elementi ġenerali"
+#: dialog_configurefile.cc:150
+msgid "User Fields"
+msgstr "Elementi għall-użu ġenerali"
 
-#: dialog_configurefile.cc:166
+#: dialog_configurefile.cc:162
 msgid "Address types"
 msgstr "Tipi ta' indirizz"
 
-#: dialog_configurefile.cc:190
+#: dialog_configurefile.cc:186
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -1211,7 +1300,7 @@ msgstr ""
 "Ma stajtx nikteb is-setings.\n"
 "Forsi m'għandekx permess tikteb f'dan il-fajl."
 
-#: dialog_configurekab.cc:37
+#: dialog_configurekab.cc:35
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
@@ -1219,15 +1308,15 @@ msgstr ""
 "Il-fajl ta' konfigurazzjoni tiegħek ġie korrott.\n"
 "KAB ma jistax jiġi konfigurat."
 
-#: dialog_configurekab.cc:39
+#: dialog_configurekab.cc:37
 msgid "Fatal error"
 msgstr "Problema fatali"
 
-#: dialog_configurekab.cc:40
+#: dialog_configurekab.cc:38
 msgid "Configuration file corrupt."
 msgstr "Fajl ta' konfigurazzjoni korrott."
 
-#: dialog_configurekab.cc:58
+#: dialog_configurekab.cc:56
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
@@ -1235,19 +1324,19 @@ msgstr ""
 "Kien hemm problema biex nikteb il-preferenzi tiegħek.\n"
 "Uħud minnhom jistgħu jintilfu."
 
-#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
 msgid "Error saving preferences."
 msgstr "Problema waqt il-ktib tal-preferenzi."
 
-#: dialog_configurekab.cc:63
+#: dialog_configurekab.cc:61
 msgid "KDE address book preferences."
 msgstr "Preferenzi tal-ktieb tal-indirizzi KDE."
 
-#: dialog_configurekab.cc:65
+#: dialog_configurekab.cc:63
 msgid "Preferences saved."
 msgstr "Preferenzi miktuba."
 
-#: dialog_configurekab.cc:69
+#: dialog_configurekab.cc:67
 msgid ""
 "Cannot save your preferences.\n"
 "You may not have permission to write the file."
@@ -1255,24 +1344,25 @@ msgstr ""
 "Ma nistax nikteb il-preferenzi tiegħek.\n"
 "Għandu mnejn m'għandekx permess tikteb fil-fajl."
 
-#: dialog_configurekab.cc:88
+#: dialog_configurekab.cc:86
 msgid "Remember last selected view"
 msgstr "Ftakar l-aħħar dehra magħżula"
 
-#: dialog_configurekab.cc:90
+#: dialog_configurekab.cc:88
 msgid "Remember last selected entry"
 msgstr "Ftakar l-aħħar indirizz magħżula"
 
-#: dialog_configurekab.cc:92
+#: dialog_configurekab.cc:90
 msgid "Show assembled name in window title"
 msgstr "Uri l-isem magħqud fit-titlu tal-window"
 
-#: dialog_configurekab.cc:94
+#: dialog_configurekab.cc:92
 msgid "Create backup file on startup"
 msgstr "Oħloq backup tal-fajl malli tibda'"
 
-#: dialog_configurekab.cc:95
-msgid "General settings"
+#: dialog_configurekab.cc:93
+#, fuzzy
+msgid "General Settings"
 msgstr "Setings ġenerali"
 
 #: dialog_insinuation.cc:29
@@ -1287,30 +1377,30 @@ msgstr "Dipartiment:"
 msgid "Sub-Department:"
 msgstr "Sotto-dipartiment:"
 
-#: kab_entrylist.cc:55
+#: kab_entrylist.cc:49
 msgid "..."
 msgstr "..."
 
-#: kab_entrylist.cc:81
+#: kab_entrylist.cc:75
 msgid "No match."
 msgstr "Ebda qbil."
 
-#: kab_entrylist.cc:94
+#: kab_entrylist.cc:88
 msgid "Calculating..."
 msgstr "Qed nikkalkula..."
 
-#: kab_entrylist.cc:110
+#: kab_entrylist.cc:104
 msgid "(Disabled)"
 msgstr "(mitfi)"
 
-#: kab_entrylist.cc:113
+#: kab_entrylist.cc:107
 msgid "Error creating index for incremental search."
 msgstr "Ma stajtx noħloq indiċi għal tfittxija inkrementali"
 
-#: kab_entrylist.cc:114
+#: kab_entrylist.cc:108
 msgid "Incremental search disabled."
 msgstr "Tfittix inkrementali mitfi."
 
-#: kab_entrylist.cc:163
+#: kab_entrylist.cc:157
 msgid "(No items to search)"
 msgstr "(Ebda oġġett x'infittex)"
