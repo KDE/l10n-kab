@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Meni Livne <meni@mail.com>, 1999.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Meni Livne <meni@mail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"X-Generator: KTranslator v 0.5.0"
+
+#: AddressBookAbout.cpp:25
+msgid "About addressbook"
+msgstr "תובותכה רפס תודוא"
+
+#: AddressBookAbout.cpp:35
+msgid "Image load failure"
+msgstr "החילצה אל הנומתה תאלעה"
+
+#: AddressBookAbout.cpp:36
+msgid "Could not load addressbook logo image!"
+msgstr "תובותכה רפס לש וגולה תנומת תא תולעהל רשפא יא"
+
+#: AddressBookAbout.cpp:37
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"תויהל רומא ןאכ\n"
+"תובותכה רפס לש וגולה"
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "ידי לע בתכנ"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 1.0, May 1999"
+msgstr "1999 יאמ ,kab 1.0"
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "הלעפהב האיגש"
+
+#: toplevelwidget.cc:37
+msgid "The program's menubar could not be constructed."
+msgstr ".תינכותה לש טירפתה תרוש תא תונבל רשפא יא"
+
+#: toplevelwidget.cc:45
+msgid "The program's statusbar could not be constructed."
+msgstr ".תינכותה לש בצמש תרוש תא תונבל רשפא יא"
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE לש תובותכה רפס"
+
+#: toplevelwidget.cc:73
+msgid "HTML table"
+msgstr "HTML תלבט"
+
+#: toplevelwidget.cc:82
+msgid "Export"
+msgstr "אציי"
+
+#: toplevelwidget.cc:84
+msgid "Search &entries"
+msgstr "תומוש&רב שפח"
+
+#: toplevelwidget.cc:86
+msgid "&Print"
+msgstr "ספד&ה"
+
+#: toplevelwidget.cc:98
+msgid "&Add entry"
+msgstr "המושר ףס&וה"
+
+#: toplevelwidget.cc:100
+msgid "&Edit entry"
+msgstr "המושר ךור&ע"
+
+#: toplevelwidget.cc:102
+msgid "&Remove entry"
+msgstr "המושר רס&ה"
+
+#: toplevelwidget.cc:114
+msgid "&Mail"
+msgstr "ראו&ד"
+
+#: toplevelwidget.cc:116
+msgid "&Talk"
+msgstr "&Talk"
+
+#: toplevelwidget.cc:118
+msgid "&Browse"
+msgstr "ףדפ&ד"
+
+#: toplevelwidget.cc:123
+msgid "Help on Addressbook"
+msgstr "תובותכה רפס לע הרזע"
+
+#: toplevelwidget.cc:128
+msgid "About Addressbook"
+msgstr "תובותכה רפס תודוא"
+
+#: toplevelwidget.cc:130
+msgid "About &Qt"
+msgstr "&Qt תודוא"
+
+#: toplevelwidget.cc:131
+msgid "About &KDE"
+msgstr "&KDE תודוא"
+
+#: toplevelwidget.cc:138
+msgid "&About"
+msgstr "תודו&א"
+
+#: toplevelwidget.cc:190
+msgid "About Qt"
+msgstr "Qt תודוא"
