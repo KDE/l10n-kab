@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab.po  VERSION\n"
-"POT-Creation-Date: 2000-08-06 23:50+0200\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
 "PO-Revision-Date: 2000-08-12 18:15-0700\n"
 "Last-Translator: Andy Rysin <arysin@yahoo.com>\n"
 "Language-Team: UKRAINIAN <linux@linux.org.ua>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
-msgstr ""
+msgstr "Адресна книга KDE"
 
 #: kab_main.cc:47
 msgid ""
@@ -27,12 +27,12 @@ msgstr ""
 
 #: kab_main.cc:52
 msgid "new format"
-msgstr ""
+msgstr "новий формат"
 
-#: dialog_configurefile.cc:127 kab_topwidget.cc:63 look_edit.cc:42
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
 #: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
-#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:242
-#: look_edit_tabperson.cc:281 look_edit_tabuser.cc:49
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
 msgid "Out of memory."
 msgstr "Недостатньо оперативно╖ пам'ят╕."
 
@@ -46,23 +46,23 @@ msgstr ""
 
 #: kab_topwidget.cc:76 kab_topwidget.cc:353
 msgid "Database error"
-msgstr ""
+msgstr "Помилка бази даних"
 
 #: kab_topwidget.cc:158
 msgid "Welcome to kab 2.0"
-msgstr ""
+msgstr "Ласкаво просимо до kab 2.0"
 
 #: kab_topwidget.cc:218
 msgid "&KDE 1 address book"
-msgstr ""
+msgstr "Адресна книга &KDE 1 address book"
 
 #: kab_topwidget.cc:220
 msgid "&Create new database..."
-msgstr ""
+msgstr "&Створити нову базу даних..."
 
 #: kab_topwidget.cc:224
 msgid "Open default &database"
-msgstr ""
+msgstr "В╕дкрити типову &базу даних"
 
 #: kab_topwidget.cc:229
 msgid "&Import"
@@ -70,11 +70,11 @@ msgstr "&╤мпорт"
 
 #: kab_topwidget.cc:234
 msgid "&Add entry..."
-msgstr ""
+msgstr "&Додати запис..."
 
 #: kab_topwidget.cc:236
 msgid "&Edit entry..."
-msgstr ""
+msgstr "&Редагувати запис..."
 
 #: kab_topwidget.cc:238
 msgid "&Remove entry"
@@ -82,7 +82,7 @@ msgstr "&Стерти пункт"
 
 #: kab_topwidget.cc:241
 msgid "Send an e&mail"
-msgstr ""
+msgstr "В╕д╕слати електронного л&иста"
 
 #: kab_topwidget.cc:243
 msgid "&Browse"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: kab_topwidget.cc:247
 msgid "&Configure this file..."
-msgstr ""
+msgstr "&Настро╖ти цей файл..."
 
 #: kab_topwidget.cc:250
 msgid "&Preferences for the KDE address book..."
@@ -106,11 +106,11 @@ msgstr ""
 
 #: kab_topwidget.cc:256
 msgid "&Editing"
-msgstr ""
+msgstr "&Редагування"
 
 #: kab_topwidget.cc:273
 msgid "New entry"
-msgstr ""
+msgstr "Новий запис"
 
 #: dialog_editentry.cc:69 kab_topwidget.cc:275
 msgid "Edit entry"
@@ -118,23 +118,23 @@ msgstr ""
 
 #: kab_topwidget.cc:277
 msgid "Delete entry"
-msgstr ""
+msgstr "Витерти запис"
 
 #: kab_topwidget.cc:280
 msgid "First entry"
-msgstr ""
+msgstr "Перший запис"
 
 #: kab_topwidget.cc:282
 msgid "Previous entry"
-msgstr ""
+msgstr "Попередн╕й запис"
 
 #: kab_topwidget.cc:288
 msgid "Next entry"
-msgstr ""
+msgstr "Наступний запис"
 
 #: kab_topwidget.cc:291
 msgid "Last entry"
-msgstr ""
+msgstr "Останн╕й запис"
 
 #: kab_topwidget.cc:352
 msgid "The database interface could not be created."
@@ -159,18 +159,18 @@ msgstr "Нема╓ пункт╕в."
 msgid "The standard file could not be loaded."
 msgstr ""
 
-#: dialog_configurefile.cc:178 kab_createnew.cc:78 kab_createnew.cc:109
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
 #: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
 msgid "File error"
-msgstr "Помилка файлу"
+msgstr "Файлова помилка"
 
 #: kab_topwidget.cc:563
 msgid "Business card view."
-msgstr ""
+msgstr "Вигляд в╕зитно╖ картки."
 
 #: kab_topwidget.cc:571
 msgid "Editing view."
-msgstr ""
+msgstr "Вигляд редагування."
 
 #: kab_topwidget.cc:578
 msgid ""
@@ -180,15 +180,15 @@ msgstr ""
 
 #: kab_topwidget.cc:580
 msgid "Enable messages?"
-msgstr ""
+msgstr "Дозволити пов╕домлення?"
 
 #: kab_topwidget.cc:598
 msgid "New entry added."
-msgstr ""
+msgstr "Елемент не додано."
 
 #: kab_topwidget.cc:599
 msgid "Saving new entry."
-msgstr ""
+msgstr "Збер╕гаю новий елемент."
 
 #: kab_topwidget.cc:601
 msgid "Done."
@@ -221,7 +221,7 @@ msgstr "Запитання"
 
 #: kab_topwidget.cc:652
 msgid "Entry deleted."
-msgstr ""
+msgstr "Запис витерто."
 
 #: kab_topwidget.cc:660
 msgid ""
@@ -233,57 +233,57 @@ msgstr ""
 msgid "Permission denied."
 msgstr "Доступ заборонено."
 
-#: kab_topwidget.cc:778
+#: kab_topwidget.cc:785
 msgid "Send an email"
-msgstr ""
+msgstr "В╕д╕слати електронного листа"
 
-#: kab_topwidget.cc:787
+#: kab_topwidget.cc:794
 msgid "No email addresses."
 msgstr ""
 
 #: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:801
-#: kab_topwidget.cc:844
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
 msgid "Rejected."
 msgstr ""
 
-#: kab_topwidget.cc:823
+#: kab_topwidget.cc:830
 msgid "Browse to ..."
 msgstr ""
 
-#: kab_topwidget.cc:832
+#: kab_topwidget.cc:839
 msgid "No URLs."
-msgstr ""
+msgstr "URL в╕дсутн╕."
 
-#: kab_topwidget.cc:927
+#: kab_topwidget.cc:934
 msgid "Restoring last view."
-msgstr ""
+msgstr "В╕дновнюю останн╕й вигляд."
 
-#: kab_topwidget.cc:929
+#: kab_topwidget.cc:936
 msgid "Not restoring last view."
 msgstr ""
 
-#: kab_topwidget.cc:940
+#: kab_topwidget.cc:947
 msgid "Remembering last entry."
 msgstr ""
 
-#: kab_topwidget.cc:942
+#: kab_topwidget.cc:949
 msgid "Not remembering last entry."
 msgstr ""
 
-#: kab_topwidget.cc:953
+#: kab_topwidget.cc:960
 msgid "Displaying assembled name in window title."
 msgstr ""
 
-#: kab_topwidget.cc:955
+#: kab_topwidget.cc:962
 msgid "Not displaying assembled name in window title."
 msgstr ""
 
-#: kab_topwidget.cc:966
+#: kab_topwidget.cc:973
 msgid "Creating backup file on startup."
 msgstr ""
 
-#: kab_topwidget.cc:968
+#: kab_topwidget.cc:975
 msgid "Not creating a backup file on startup."
 msgstr ""
 
@@ -333,7 +333,7 @@ msgstr ""
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Intern error!"
-msgstr ""
+msgstr "Внутр╕шня помилка."
 
 #: kab_createnew.cc:54 kab_openfile.cc:52
 msgid "Cancelled."
@@ -341,7 +341,7 @@ msgstr "Скасовано."
 
 #: kab_createnew.cc:61 kab_openfile.cc:59
 msgid "Only local files supported yet."
-msgstr "П╕дтримуються т╕льк╕ локальн╕ файли."
+msgstr "П╕дтримуються т╕льки локальн╕ файли."
 
 #: kab_createnew.cc:74
 msgid ""
@@ -364,7 +364,7 @@ msgstr "Нотатка"
 msgid "The file could not be created, possibly permission denied."
 msgstr ""
 
-#: kab_createnew.cc:100 kab_save.cc:59
+#: kab_createnew.cc:100 kab_save.cc:61
 msgid "kab: File error"
 msgstr ""
 
@@ -375,7 +375,7 @@ msgstr ""
 #: kab_openfile.cc:71
 msgid ""
 "The file does not exist or is a directory.\n"
-"Use \"New File\" to create a new one.\n"
+"Use \"Create new database...\" to create a new one.\n"
 "Select an existing file to load it."
 msgstr ""
 
@@ -391,50 +391,54 @@ msgstr "Внутр╕шня помилка."
 msgid "Entry stored."
 msgstr ""
 
-#: kab_save.cc:58
+#: kab_save.cc:60
 msgid "The file could not be saved (permission denied)."
 msgstr ""
 
-#: kab_save.cc:62
+#: kab_save.cc:64
 msgid "File saved."
 msgstr "Файл збережено."
 
-#: look_businesscard.cc:174
+#: look_businesscard.cc:175
 msgid "email: "
 msgstr ""
 
-#: look_businesscard.cc:191
+#: look_businesscard.cc:192
 msgid "tel: "
-msgstr ""
+msgstr "тел: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr ""
+msgstr "Поля користувача"
 
-#: dialog_configurefile.cc:128 look_edit.cc:43 look_edit.cc:57
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
 #: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
-#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:243
-#: look_edit_tabperson.cc:282 look_edit_tabuser.cc:50
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
 msgid "General failure."
 msgstr ""
 
-#: look_edit.cc:71
-msgid "&Person"
-msgstr ""
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(Поля користувача)"
 
-#: look_edit.cc:72
+#: look_edit.cc:74
+msgid "&Person"
+msgstr "&Особа"
+
+#: look_edit.cc:75
 msgid "&Telephone"
 msgstr "&Телефон"
 
-#: look_edit.cc:73
+#: look_edit.cc:76
 msgid "&Addresses"
-msgstr ""
+msgstr "&Адреси"
 
-#: look_edit.cc:74
+#: look_edit.cc:77
 msgid "&Birthday"
-msgstr ""
+msgstr "&День народження"
 
-#: look_edit.cc:75
+#: look_edit.cc:78
 msgid "Comment"
 msgstr "Коментар"
 
@@ -460,7 +464,7 @@ msgstr "╤м'я:"
 
 #: look_edit_tabperson.cc:76
 msgid "Middle name:"
-msgstr ""
+msgstr "По-батьков╕:"
 
 #: look_edit_tabperson.cc:78
 msgid "Last name:"
@@ -482,17 +486,17 @@ msgstr "Розряд:"
 msgid "Edit email addresses"
 msgstr ""
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:207
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
 msgid "Edit talk addresses"
 msgstr ""
 
-#: look_edit_tabperson.cc:222
+#: look_edit_tabperson.cc:224
 msgid "Edit URLs"
 msgstr ""
 
 #: dialog_configurefile.cc:91 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr ""
+msgstr "Поле користувача 1"
 
 #: dialog_configurefile.cc:91 look_edit_tabuser.cc:35
 msgid "User field 2:"
@@ -504,6 +508,22 @@ msgstr ""
 
 #: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
 msgid "User field 4:"
+msgstr ""
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr ""
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr ""
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr ""
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
 msgstr ""
 
 #: look_edit_tabcontact.cc:31
@@ -540,7 +560,7 @@ msgstr ""
 
 #: look_edit_tabaddresses.cc:111 look_edit_tabaddresses.cc:246
 msgid "Street:"
-msgstr ""
+msgstr "Вулиця:"
 
 #: look_edit_tabaddresses.cc:120 look_edit_tabaddresses.cc:253
 msgid "City"
@@ -552,7 +572,7 @@ msgstr "Стан"
 
 #: look_edit_tabaddresses.cc:122 look_edit_tabaddresses.cc:257
 msgid "Zipcode"
-msgstr ""
+msgstr "Поштовий ╕ндекс"
 
 #: look_edit_tabaddresses.cc:142 look_edit_tabaddresses.cc:273
 msgid "Country:"
@@ -586,11 +606,11 @@ msgstr ""
 
 #: look_edit_tabtelephone.cc:48
 msgid "Fax:"
-msgstr ""
+msgstr "Факс"
 
 #: look_edit_tabtelephone.cc:49
 msgid "Modem:"
-msgstr ""
+msgstr "Модем:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
@@ -641,15 +661,15 @@ msgstr ""
 msgid "Tab name"
 msgstr ""
 
-#: dialog_configurefile.cc:133
+#: dialog_configurefile.cc:149
 msgid "User fields"
 msgstr ""
 
-#: dialog_configurefile.cc:145
+#: dialog_configurefile.cc:161
 msgid "Address types"
 msgstr ""
 
-#: dialog_configurefile.cc:176
+#: dialog_configurefile.cc:192
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -711,16 +731,16 @@ msgstr ""
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
-msgstr ""
+msgstr "Загальн╕ настройки"
 
 #: dialog_insinuation.cc:29
 msgid "Organisation:"
-msgstr ""
+msgstr "Установа:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr ""
+msgstr "В╕дд╕л:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
-msgstr ""
+msgstr "П╕дрозд╕л:"
