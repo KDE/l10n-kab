@@ -1,124 +1,805 @@
-# SOME DESCRIPTIVE TITLE.
+# Hebrew Translation of KDE
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Meni Livne <meni@mail.com>, 1999.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-24 02:39+0100\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Meni Livne <meni@mail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.5.0"
 
-#: AddressBookAbout.cpp:25
-msgid "About addressbook"
-msgstr "������� ��� �����"
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr "KDE לש תובותכה רפס"
 
-#: AddressBookAbout.cpp:35
-msgid "Image load failure"
-msgstr "������ �� ������ �����"
-
-#: AddressBookAbout.cpp:36
-msgid "Could not load addressbook logo image!"
-msgstr "������� ��� �� ����� ����� �� ������ ���� ��"
-
-#: AddressBookAbout.cpp:37
+#: kab_main.cc:47
 msgid ""
-"Here you would see\n"
-"the addressbook logo."
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
 msgstr ""
-"����� ���� ���\n"
-"������� ��� �� �����"
+"<qt><p align=right>תמאות הניא KDE לש תובותכה רפס לש 2 "
+"הסריג<br>רפס לש םינותנה סיסב לע ןגהל ידכ "
+".תמדוקה הסריגל<br>רחב .שדח ץבוקב שומיש "
+"השעיי ,ךלש תובותכה <br><b>KDE 1 לש תובותכ "
+"רפס&lt;-אביי&lt;-ץבוק</b>ב<br>םע ךלש ןשיה "
+"םינותנה סיסבב שמתשהל ידכ<br>.השדחה "
+"הסריגה</qt>"
 
-#: AddressBookAbout.cpp:44
-msgid "written and maintained by"
-msgstr "��� �� ����"
+#: kab_main.cc:52
+msgid "new format"
+msgstr "השדח הסריג"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 1.0, May 1999"
-msgstr "1999 ��� ,kab 1.0"
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
+#: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
+msgid "Out of memory."
+msgstr ".ןורכיז יד ןיא"
 
-#: toplevelwidget.cc:35 toplevelwidget.cc:43
-msgid "Initialization failure"
-msgstr "������ �����"
+#: kab_topwidget.cc:64
+msgid "General failure"
+msgstr "יללכ ןולשיכ"
 
-#: toplevelwidget.cc:37
-msgid "The program's menubar could not be constructed."
-msgstr ".������� �� ������ ���� �� ����� ���� ��"
+#: kab_topwidget.cc:75
+msgid "Could not connect to the address database."
+msgstr ""
+".תובותכה לש םינותנה סיסב לא רבחתהל ןתינ אל"
 
-#: toplevelwidget.cc:45
-msgid "The program's statusbar could not be constructed."
-msgstr ".������� �� ���� ���� �� ����� ���� ��"
+#: kab_topwidget.cc:76 kab_topwidget.cc:353
+msgid "Database error"
+msgstr "םינותנה סיסבב האיגש"
 
-#: toplevelwidget.cc:58
-msgid "KDE addressbook."
-msgstr "KDE �� ������� ���"
+#: kab_topwidget.cc:158
+msgid "Welcome to kab 2.0"
+msgstr "kab 2.0 לא םיאבה םיכורב"
 
-#: toplevelwidget.cc:73
-msgid "HTML table"
-msgstr "HTML ����"
+#: kab_topwidget.cc:218
+msgid "&KDE 1 address book"
+msgstr "KDE 1 לש תובותכ רפ&ס"
 
-#: toplevelwidget.cc:82
-msgid "Export"
-msgstr "����"
+#: kab_topwidget.cc:220
+msgid "&Create new database..."
+msgstr "...שדח םינותנ סיסב רו&צ"
 
-#: toplevelwidget.cc:84
-msgid "Search &entries"
-msgstr "�����&�� ���"
+#: kab_topwidget.cc:224
+msgid "Open default &database"
+msgstr "םינותנה סיסב לש לדח&מה תרירב תא חתפ"
 
-#: toplevelwidget.cc:86
-msgid "&Print"
-msgstr "���&�"
+#: kab_topwidget.cc:229
+msgid "&Import"
+msgstr "א&ביי"
 
-#: toplevelwidget.cc:98
-msgid "&Add entry"
-msgstr "����� ��&��"
+#: kab_topwidget.cc:234
+msgid "&Add entry..."
+msgstr "...המושר ףס&וה"
 
-#: toplevelwidget.cc:100
-msgid "&Edit entry"
-msgstr "����� ���&�"
+#: kab_topwidget.cc:236
+msgid "&Edit entry..."
+msgstr "...המושר תכי&רע"
 
-#: toplevelwidget.cc:102
+#: kab_topwidget.cc:238
 msgid "&Remove entry"
-msgstr "����� ��&�"
+msgstr "המושר רס&ה"
 
-#: toplevelwidget.cc:114
-msgid "&Mail"
-msgstr "���&�"
+#: kab_topwidget.cc:241
+msgid "Send an e&mail"
+msgstr "ל\"או&ד חלש"
 
-#: toplevelwidget.cc:116
-msgid "&Talk"
-msgstr "&Talk"
-
-#: toplevelwidget.cc:118
+#: kab_topwidget.cc:243
 msgid "&Browse"
-msgstr "���&�"
+msgstr "השיל&ג"
 
-#: toplevelwidget.cc:123
-msgid "Help on Addressbook"
-msgstr "������� ��� �� ����"
+#: kab_topwidget.cc:245
+msgid "Enable all &messages"
+msgstr "תועדוהה ל&כ תא רשפא"
 
-#: toplevelwidget.cc:128
-msgid "About Addressbook"
-msgstr "������� ��� �����"
+#: kab_topwidget.cc:247
+msgid "&Configure this file..."
+msgstr "...הז ץבוק תרו&צת עבק"
 
-#: toplevelwidget.cc:130
-msgid "About &Qt"
-msgstr "&Qt �����"
+#: kab_topwidget.cc:250
+msgid "&Preferences for the KDE address book..."
+msgstr "...KDE לש תובותכה רפסל תו&פדעה"
 
-#: toplevelwidget.cc:131
-msgid "About &KDE"
-msgstr "&KDE �����"
+#: kab_topwidget.cc:254
+msgid "&Business card"
+msgstr "רוקי&ב סיטרכ"
 
-#: toplevelwidget.cc:138
-msgid "&About"
-msgstr "����&�"
+#: kab_topwidget.cc:256
+msgid "&Editing"
+msgstr "ה&כירע"
 
-#: toplevelwidget.cc:190
-msgid "About Qt"
-msgstr "Qt �����"
+#: kab_topwidget.cc:273
+msgid "New entry"
+msgstr "השדח המושר"
+
+#: dialog_editentry.cc:69 kab_topwidget.cc:275
+msgid "Edit entry"
+msgstr "המושר תכירע"
+
+#: kab_topwidget.cc:277
+msgid "Delete entry"
+msgstr "המושר קחמ"
+
+#: kab_topwidget.cc:280
+msgid "First entry"
+msgstr "הנושארה המושרה"
+
+#: kab_topwidget.cc:282
+msgid "Previous entry"
+msgstr "תמדוקה המושרה"
+
+#: kab_topwidget.cc:288
+msgid "Next entry"
+msgstr "האבה המושרה"
+
+#: kab_topwidget.cc:291
+msgid "Last entry"
+msgstr "הנורחאה המושרה"
+
+#: kab_topwidget.cc:352
+msgid "The database interface could not be created."
+msgstr ".םינותנה סיסב קשממ תא רוציל ןתינ אל"
+
+#: kab_topwidget.cc:380
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+".וז המושר תיניש\n"
+"?םייונישה תא רומשל\n"
+"(ודבאי ורמשנ אלש םייוניש)"
+
+#: kab_topwidget.cc:382
+msgid "Save changes?"
+msgstr "?םייוניש רומשל"
+
+#: kab_topwidget.cc:410
+msgid "No entries."
+msgstr ".תומושר ןיא"
+
+#: kab_topwidget.cc:549
+msgid "The standard file could not be loaded."
+msgstr ".ינקתה ץבוקה תא חותפל ןתינ אל"
+
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
+#: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
+msgid "File error"
+msgstr "ץבוקב האיגש"
+
+#: kab_topwidget.cc:563
+msgid "Business card view."
+msgstr ".רוקיב סיטרכ תגוצת"
+
+#: kab_topwidget.cc:571
+msgid "Editing view."
+msgstr ".הכירע תגוצת"
+
+#: kab_topwidget.cc:578
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+".םדוקמ תונימז ויה אלש תועדוהה לכ תא שדחמ "
+"רשפאי הז רבד\n"
+"?ךישמהל"
+
+#: kab_topwidget.cc:580
+msgid "Enable messages?"
+msgstr "?תונימזל תועדוהה תא ךופהל"
+
+#: kab_topwidget.cc:598
+msgid "New entry added."
+msgstr ".הפסוה השדח המושר"
+
+#: kab_topwidget.cc:599
+msgid "Saving new entry."
+msgstr ".השדח המושר רמוש"
+
+#: kab_topwidget.cc:601
+msgid "Done."
+msgstr ".םלשוה"
+
+#: kab_topwidget.cc:613
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+".השדחה המושרה תא ףיסוהל ןתינ אל\n"
+"תיחדנ האשרהה\n"
+".הז ץבוק לע הביתכ תואשרה ךל ןיא"
+
+#: kab_topwidget.cc:621
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+".השדחה המושרה תא ףיסוהל ןתינ אל\n"
+".עודי אל םרוג"
+
+#: kab_topwidget.cc:627
+msgid "No entry added."
+msgstr ".המושר הפסוה אל"
+
+#: kab_topwidget.cc:645
+msgid "Really remove this entry?"
+msgstr "?וז המושר ריסהל תמאב"
+
+#: kab_topwidget.cc:646 look_edit_tabaddresses.cc:433
+msgid "Question"
+msgstr "הלאש"
+
+#: kab_topwidget.cc:652
+msgid "Entry deleted."
+msgstr ".הקחמנ המושר"
+
+#: kab_topwidget.cc:660
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"המושרה תא קוחמל ןתינ אל\n"
+".(תיחדנ האשרההש הארנכ)"
+
+#: dialog_configurefile.cc:61 kab_save.cc:48 kab_topwidget.cc:663
+msgid "Permission denied."
+msgstr ".תיחדנ האשרהה"
+
+#: kab_topwidget.cc:785
+msgid "Send an email"
+msgstr "ל\"אוד חלש"
+
+#: kab_topwidget.cc:794
+msgid "No email addresses."
+msgstr ".ל\"אוד תובותכ ןיא"
+
+#: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
+msgid "Rejected."
+msgstr ".ברוס"
+
+#: kab_topwidget.cc:830
+msgid "Browse to ..."
+msgstr "...לא השילג"
+
+#: kab_topwidget.cc:839
+msgid "No URLs."
+msgstr ".תובותכ ןיא"
+
+#: kab_topwidget.cc:934
+msgid "Restoring last view."
+msgstr ".הנורחאה הגוצתה תא רזחשמ"
+
+#: kab_topwidget.cc:936
+msgid "Not restoring last view."
+msgstr ".הנורחאה הגוצתה תא רזחשמ אל"
+
+#: kab_topwidget.cc:947
+msgid "Remembering last entry."
+msgstr ".הנורחאה המושרה תא רכוז"
+
+#: kab_topwidget.cc:949
+msgid "Not remembering last entry."
+msgstr ".הנורחאה המושרה תא רכוז אל"
+
+#: kab_topwidget.cc:960
+msgid "Displaying assembled name in window title."
+msgstr ".ןולחה תרתוכב אלמה םשה תא גיצמ"
+
+#: kab_topwidget.cc:962
+msgid "Not displaying assembled name in window title."
+msgstr ".ןולחה תרתוכב אלמה םשה תא גיצמ אל"
+
+#: kab_topwidget.cc:973
+msgid "Creating backup file on startup."
+msgstr ".הלעפהב יוביג ץבוק רצוי"
+
+#: kab_topwidget.cc:975
+msgid "Not creating a backup file on startup."
+msgstr ".הלעפהב יוביג ץבוק רצוי אל"
+
+#: kab_kab1importer.cc:197
+msgid "Home"
+msgstr "תיב"
+
+#: kab_kab1importer.cc:239
+msgid "Imported kab 1 addressbook."
+msgstr ".אבוי kab 1 לש תובותכ רפס"
+
+#: kab_kab1importer.cc:278
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+".kab 1 לש םינותנה סיסב ץבוק לא תשגל ןתינ אל\n"
+".kab 1-ב תשמתשה אל םלועמש םה םייוכיסה בור"
+
+#: kab_kab1importer.cc:292
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+".kab 1 לש םינותנה סיסב ץבוק תא אורקל ןתינ אל\n"
+".תינדי ךלש םינותנה סיסב ץבוק תא תינישש "
+"םייוכיסה בור"
+
+#: kab_kab1importer.cc:307
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+".ךלש םינותנה סיסבב תומושרה ףיעס תא אוצמל "
+"ןתינ אל\n"
+".תינדי ךלש םינותנה סיסב ץבוק תא תינישש "
+"םייוכיסה בור"
+
+#: kab_kab1importer.cc:335
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"ינותנ סיסב אובייב תואיגש ועריא :הרהזא\n"
+".KDE 1 לש תובותכה\n"
+"\n"
+
+#: kab_kab1importer.cc:340
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"תובותכה רפס לש תומושר ףיסוהל ךנוצרבש חוטב "
+"התא םאה\n"
+"?הז ץבוקל ךלש KDE 1 לש\n"
+".הלא םייוניש לטבל לכות אל"
+
+#: kab_createnew.cc:42 kab_openfile.cc:42
+msgid "Could not find the users home directory."
+msgstr ".שמתשמה לש תיבה תיירפס תא אוצמל ןתינ אל"
+
+#: kab_createnew.cc:43 kab_openfile.cc:43
+msgid "Intern error!"
+msgstr "!תימינפ האיגש"
+
+#: kab_createnew.cc:54 kab_openfile.cc:52
+msgid "Cancelled."
+msgstr ".לטוב"
+
+#: kab_createnew.cc:61 kab_openfile.cc:59
+msgid "Only local files supported yet."
+msgstr ".תעכ םיכמתנ םיימוקמ םיצבק קר"
+
+#: kab_createnew.cc:74
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+".םייק רבכ אוהש וא ,הירפס אוה הז ץבוק\n"
+".רחא ץבוק םש רחב אנא\n"
+".שדחה ץבוקה תא רוציל ידכ הביתכ תאשרה ךל "
+"תויהל תבייח"
+
+#: kab_createnew.cc:90
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+".\".kab\"-ב םייתסמ אל ץבוקה םש\n"
+"%1 לא הנוש אוה\n"
+
+#: kab_createnew.cc:92
+msgid "Note"
+msgstr "הרעה"
+
+#: kab_createnew.cc:99
+msgid "The file could not be created, possibly permission denied."
+msgstr ""
+".תיחדנ תאשרההו ןכתיי ,ץבוקה תא רוציל ןתינ "
+"אל"
+
+#: kab_createnew.cc:100 kab_save.cc:61
+msgid "kab: File error"
+msgstr "ץבוקב האיגש :kab"
+
+#: kab_createnew.cc:108
+msgid "The file has been created, but could not be loaded."
+msgstr ".ותוא ןועטל ןתינ אל ךא ,רצונ ץבוקה"
+
+#: kab_openfile.cc:71
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"שמתשה .הירפס אוהש וא םייק אל ץבוקה\n"
+"ץבוק רוציל ידכ \"שדח םינותנ סיסב רוצ\"ב\n"
+".ותוא ןועטל ידכ םייק ץבוק רחב .שדח"
+
+#: kab_openfile.cc:85
+msgid "The file could not be loaded."
+msgstr ".ץבוקה תא חותפל ןתינ אל"
+
+#: kab_save.cc:37 kab_save.cc:51
+msgid "Internal error."
+msgstr ".תימינפ האיגש"
+
+#: kab_save.cc:45
+msgid "Entry stored."
+msgstr ".הנסחוא המושרה"
+
+#: kab_save.cc:60
+msgid "The file could not be saved (permission denied)."
+msgstr ".(תיחדנ האשרהה) ץבוקה תא רומשל ןתינ אל"
+
+#: kab_save.cc:64
+msgid "File saved."
+msgstr ".רמשנ ץבוקה"
+
+#: look_businesscard.cc:175
+msgid "email: "
+msgstr ":ל\"אוד "
+
+#: look_businesscard.cc:192
+msgid "tel: "
+msgstr ":.לט "
+
+#: look_edit.cc:36
+msgid "User Fields"
+msgstr "שמתשמ יפיעס"
+
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
+#: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
+msgid "General failure."
+msgstr ".יללכ ןולשיכ"
+
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(שמתשמ יפיעס)"
+
+#: look_edit.cc:74
+msgid "&Person"
+msgstr "םד&א"
+
+#: look_edit.cc:75
+msgid "&Telephone"
+msgstr "ןופל&ט"
+
+#: look_edit.cc:76
+msgid "&Addresses"
+msgstr "תובות&כ"
+
+#: look_edit.cc:77
+msgid "&Birthday"
+msgstr "תדלומו&י"
+
+#: look_edit.cc:78
+msgid "Comment"
+msgstr "הרעה"
+
+#: look_edit_tabperson.cc:38
+msgid "Email addresses..."
+msgstr "...ל\"אוד תובותכ"
+
+#: look_edit_tabperson.cc:39
+msgid "Talk addresses..."
+msgstr "...Talk תובותכ"
+
+#: look_edit_tabperson.cc:40
+msgid "URLs..."
+msgstr "...תובותכ"
+
+#: look_edit_tabperson.cc:63
+msgid "Formatted name:"
+msgstr ":בצועמ םש"
+
+#: look_edit_tabperson.cc:74
+msgid "First name:"
+msgstr ":יטרפ םש"
+
+#: look_edit_tabperson.cc:76
+msgid "Middle name:"
+msgstr ":יעצמא םש"
+
+#: look_edit_tabperson.cc:78
+msgid "Last name:"
+msgstr ":החפשמ םש"
+
+#: look_edit_tabperson.cc:95
+msgid "Name prefix:"
+msgstr ":םשה תמודיק"
+
+#: look_edit_tabperson.cc:97
+msgid "Title:"
+msgstr ":ראות"
+
+#: look_edit_tabperson.cc:99
+msgid "Rank:"
+msgstr ":הגרד"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:192
+msgid "Edit email addresses"
+msgstr "ל\"אודה תובותכ תכירע"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
+msgid "Edit talk addresses"
+msgstr "Talk-ה תובותכ תכירע"
+
+#: look_edit_tabperson.cc:224
+msgid "Edit URLs"
+msgstr "תובותכה תכירע"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:34
+msgid "User field 1:"
+msgstr ":1 שמתשמ ףיעס"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:35
+msgid "User field 2:"
+msgstr ":2 שמתשמ ףיעס"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:36
+msgid "User field 3:"
+msgstr ":3 שמתשמ ףיעס"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
+msgid "User field 4:"
+msgstr ":4 שמתשמ ףיעס"
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr "(1 שמתשמ ףיעס)"
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr "(2 שמתשמ ףיעס)"
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr "(3 שמתשמ ףיעס)"
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
+msgstr "(4 שמתשמ ףיעס)"
+
+#: look_edit_tabcontact.cc:31
+msgid "Edit URLs (internet addresses)"
+msgstr "(טנרטניאב) תובותכה תכירע"
+
+#: look_edit_tabcontact.cc:32
+msgid "Edit telephone numbers"
+msgstr "ןופלטה ירפסמ תכירע"
+
+#: look_edit_tabaddresses.cc:63 look_edit_tabaddresses.cc:208
+msgid "Add another address"
+msgstr "תפסונ תבותכ ףסוה"
+
+#: look_edit_tabaddresses.cc:66 look_edit_tabaddresses.cc:212
+msgid "Delete this address"
+msgstr "וז תבותכ קחמ"
+
+#: look_edit_tabaddresses.cc:79
+msgid "Headline:"
+msgstr ":תרתוכ"
+
+#: look_edit_tabaddresses.cc:94 look_edit_tabaddresses.cc:225
+msgid "Assignment:"
+msgstr ":דיקפת"
+
+#: look_edit_tabaddresses.cc:101
+msgid "Insinuation..."
+msgstr "...הזימר"
+
+#: look_edit_tabaddresses.cc:103 look_edit_tabaddresses.cc:234
+msgid "Edit organisational attributes"
+msgstr "םיינוגראה םינייפאמה תכירע"
+
+#: look_edit_tabaddresses.cc:111 look_edit_tabaddresses.cc:246
+msgid "Street:"
+msgstr ":בוחר"
+
+#: look_edit_tabaddresses.cc:120 look_edit_tabaddresses.cc:253
+msgid "City"
+msgstr "בושיי"
+
+#: look_edit_tabaddresses.cc:121 look_edit_tabaddresses.cc:255
+msgid "State"
+msgstr "הנידמ"
+
+#: look_edit_tabaddresses.cc:122 look_edit_tabaddresses.cc:257
+msgid "Zipcode"
+msgstr "דוקימ"
+
+#: look_edit_tabaddresses.cc:142 look_edit_tabaddresses.cc:273
+msgid "Country:"
+msgstr ":ץרא"
+
+#: look_edit_tabaddresses.cc:408
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt><p align=right>רידגהל ךתורשפאבש "
+"תעדיה<br>?תובותכ יגוס שארמ<br>.<b>&lt;- הכירע</b>ב "
+"ןייע<br>.<b>הז ץבוק תרוצת עבק</b></qt>"
+
+#: look_edit_tabaddresses.cc:410
+msgid "A note"
+msgstr "הרעה"
+
+#: look_edit_tabaddresses.cc:432
+msgid "Really delete this address?"
+msgstr "?וז תבותכ ריסהל תמאב"
+
+#: look_edit_tabaddresses.cc:494
+msgid "Insinuation"
+msgstr "הזימר"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fixed:"
+msgstr ":עובק"
+
+#: look_edit_tabtelephone.cc:47
+msgid "Mobile:"
+msgstr ":דיינ"
+
+#: look_edit_tabtelephone.cc:48
+msgid "Fax:"
+msgstr ":סקפ"
+
+#: look_edit_tabtelephone.cc:49
+msgid "Modem:"
+msgstr ":םדומ"
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 1:"
+msgstr ":1 שמתשמ י\"ע רדגומ"
+
+#: look_edit_tabtelephone.cc:51
+msgid "User defined 2:"
+msgstr ":2 שמתשמ י\"ע רדגומ"
+
+#: look_edit_tabtelephone.cc:52
+msgid "User defined 3:"
+msgstr ":3 שמתשמ י\"ע רדגומ"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Type"
+msgstr "גוס"
+
+#: look_edit_tabtelephone.cc:66
+msgid "Number"
+msgstr "רפסמ"
+
+#: widget_editstringlist.cc:40
+msgid "Add a new string"
+msgstr "השדח תזורחמ ףסוה"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string up"
+msgstr "הלעמל וז תזורחמ זזה"
+
+#: widget_editstringlist.cc:42
+msgid "Move this string down"
+msgstr "הטמל וז תזורחמ זזה"
+
+#: widget_editstringlist.cc:43
+msgid "Delete this string"
+msgstr "וז תזורחמ קחמ"
+
+#: dialog_configurefile.cc:58 dialog_configurekab.cc:53 dialog_editentry.cc:51
+#: dialog_editentry.cc:74
+msgid "Accepted."
+msgstr ".לבקתנ"
+
+#: dialog_configurefile.cc:63
+msgid "Settings applied."
+msgstr ".ולחוה תורדגהה"
+
+#: dialog_configurefile.cc:90
+msgid "Tab name"
+msgstr "סיטרכה םש"
+
+#: dialog_configurefile.cc:149
+msgid "User fields"
+msgstr "שמתשמ יפיעס"
+
+#: dialog_configurefile.cc:161
+msgid "Address types"
+msgstr "תובותכ יגוס"
+
+#: dialog_configurefile.cc:192
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+".ךלש תורדגהה תא רומשל ןתינ אל\n"
+".הז ץבוק לע בותכל תואשרה ךל ןיאו ןכתיי"
+
+#: dialog_configurekab.cc:37
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+".םוגפ ךלש הרוצתה ץבוק\n"
+".KAB תרוצת תא עובקל ןתינ אל"
+
+#: dialog_configurekab.cc:39
+msgid "Fatal error"
+msgstr "הרומח האיגש"
+
+#: dialog_configurekab.cc:40
+msgid "Configuration file corrupt."
+msgstr ".םוגפ הרוצתה ץבוק"
+
+#: dialog_configurekab.cc:58
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+".ךלש תופדעהה תרימשב האיגש העריא\n"
+".ודבאנ ןהמ קלחש ןכתיי"
+
+#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+msgid "Error saving preferences."
+msgstr "תופדעהה תרימשב האיגש"
+
+#: dialog_configurekab.cc:63
+msgid "KDE address book preferences."
+msgstr "KDE לש תובותכה רפס תופדעה"
+
+#: dialog_configurekab.cc:65
+msgid "Preferences saved."
+msgstr ".ורמשנ תופדעהה"
+
+#: dialog_configurekab.cc:69
+msgid ""
+"Cannot save your preferences.\n"
+"May be permission denied."
+msgstr ""
+".ךלש תופדעהה תא רומשל ןתינ אל\n"
+".תיחדנ האשרההו ןכתיי"
+
+#: dialog_configurekab.cc:88
+msgid "Remember last selected view"
+msgstr "הרחבנש הנורחאה הגוצתה תא רוכז"
+
+#: dialog_configurekab.cc:90
+msgid "Remember last selected entry"
+msgstr "הרחבנש הנורחאה המושרה תא רוכז"
+
+#: dialog_configurekab.cc:92
+msgid "Show assembled name in window title"
+msgstr "ןולחה תרתוכב אלמה םשה תא גצה"
+
+#: dialog_configurekab.cc:94
+msgid "Create backup file on startup"
+msgstr "הלעפהב יוביג ץבוק רוצ"
+
+#: dialog_configurekab.cc:95
+msgid "General settings"
+msgstr "תויללכ תורדגה"
+
+#: dialog_insinuation.cc:29
+msgid "Organisation:"
+msgstr ":ןוגרא"
+
+#: dialog_insinuation.cc:30
+msgid "Department:"
+msgstr ":הקלחמ"
+
+#: dialog_insinuation.cc:31
+msgid "Sub-Department:"
+msgstr ":רודמ"
