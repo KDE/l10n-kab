@@ -1,118 +1,792 @@
+# KTranslator Generated File
+# KTranslator Generated File
+# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1998-11-07 00:00+0000\n"
-"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
+"PO-Revision-Date: 2000-08-10 04:50+0300\n"
+"Last-Translator: Ricardo Cruz <rick2@ricjoa.fe.up.pt>\n"
 "Language-Team: pt\n"
 "MIME-Version:\n"
-"Content-Type:\n"
-"Content-Transfer-Encoding:\n"
+"Content-Type: text/plain; charset=utf8\n"
+"Content-Transfer-Encoding: none\n"
 
-#: AddressBookAbout.cpp:25
-msgid "About addressbook"
-msgstr "Acerca do livro de endere�os"
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr "Livro de endereços do KDE"
 
-#: AddressBookAbout.cpp:35
-msgid "Image load failure"
-msgstr "Erro ao carregar imagem"
-
-#: AddressBookAbout.cpp:36
-msgid "Could not load addressbook logo image!"
-msgstr "N�o consegui carregar o logotipo!"
-
-#: AddressBookAbout.cpp:37
+#: kab_main.cc:47
 msgid ""
-"Here you would see\n"
-"the addressbook logo."
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
 msgstr ""
-"Aqui deveria estar\n"
-"o logotipo."
+"<qt>A 2ª Versão do livro de endereços do KDE não é compatível com a "
+"anterior.\n"
+"Para protegeres os teus endereços, outro ficheiro será usado.\n"
+"Corre <b>Ficheiro->Importar->Livro de endereços do KDE 1</b> para usares o\n"
+"antigo com a nova versão.</qt>"
 
-#: AddressBookAbout.cpp:44
-msgid "written and maintained by"
-msgstr "escrito e mantido por"
+#: kab_main.cc:52
+msgid "new format"
+msgstr "novo formato"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr ""
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
+#: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
+msgid "Out of memory."
+msgstr "Memória insuficiente."
 
-#: toplevelwidget.cc:35 toplevelwidget.cc:43
-msgid "Initialization failure"
-msgstr "Erro de initializa��o"
+#: kab_topwidget.cc:64
+msgid "General failure"
+msgstr "Insucesso geral"
 
-#: toplevelwidget.cc:37
-msgid "The program's menubar could not be constructed."
-msgstr "N�o foi poss�vel construir a barra de menu."
+#: kab_topwidget.cc:75
+msgid "Could not connect to the address database."
+msgstr "Não consegui ligar ao livro de endereços."
 
-#: toplevelwidget.cc:45
-msgid "The program's statusbar could not be constructed."
-msgstr "N�o foi poss�vel contruir a barra de estado."
+#: kab_topwidget.cc:76 kab_topwidget.cc:353
+msgid "Database error"
+msgstr "Erro da base de dados"
 
-#: toplevelwidget.cc:58
-msgid "KDE addressbook."
-msgstr "Livro de endere�os KDE."
+#: kab_topwidget.cc:158
+msgid "Welcome to kab 2.0"
+msgstr "Bem-Vindo ao kab 2.0"
 
-#: toplevelwidget.cc:73
-msgid "HTML table"
-msgstr "Tabela HTML"
+#: kab_topwidget.cc:218
+msgid "&KDE 1 address book"
+msgstr "Livro de endereços do &KDE 1"
 
-#: toplevelwidget.cc:82
-msgid "Export"
-msgstr "Exportar"
+#: kab_topwidget.cc:220
+msgid "&Create new database..."
+msgstr "&Criar nova base de dados..."
 
-#: toplevelwidget.cc:84
-msgid "Search &entries"
-msgstr "P&rocurar"
+#: kab_topwidget.cc:224
+msgid "Open default &database"
+msgstr "Abrir base de &dados por omissão"
 
-#: toplevelwidget.cc:86
-msgid "&Print"
-msgstr "Im&primir"
+#: kab_topwidget.cc:229
+msgid "&Import"
+msgstr "&Importar"
 
-#: toplevelwidget.cc:98
-msgid "&Add entry"
-msgstr "&Adicionar"
+#: kab_topwidget.cc:234
+msgid "&Add entry..."
+msgstr "&Adicionar entrada..."
 
-#: toplevelwidget.cc:100
-msgid "&Edit entry"
-msgstr "&Editar"
+#: kab_topwidget.cc:236
+msgid "&Edit entry..."
+msgstr "&Editar entrada..."
 
-#: toplevelwidget.cc:102
+#: kab_topwidget.cc:238
 msgid "&Remove entry"
-msgstr "&Remover"
+msgstr "&Remover entrada"
 
-#: toplevelwidget.cc:114
-msgid "&Mail"
-msgstr "Enviar &Mail"
+#: kab_topwidget.cc:241
+msgid "Send an e&mail"
+msgstr "Mandar um e&mail"
 
-#: toplevelwidget.cc:116
-msgid "&Talk"
-msgstr "Fazer &Talk"
-
-#: toplevelwidget.cc:118
+#: kab_topwidget.cc:243
 msgid "&Browse"
-msgstr "Abrir p�gina &WWW"
+msgstr "&Navegador"
 
-#: toplevelwidget.cc:123
-msgid "Help on Addressbook"
-msgstr "Ajuda"
+#: kab_topwidget.cc:245
+msgid "Enable all &messages"
+msgstr "Activar todas as &mensagens"
 
-#: toplevelwidget.cc:128
-msgid "About Addressbook"
-msgstr "Acerca do livro de endere�os"
+#: kab_topwidget.cc:247
+msgid "&Configure this file..."
+msgstr "&Configurar este ficheiro..."
 
-#: toplevelwidget.cc:130
-msgid "About &Qt"
-msgstr "Acerca do &Qt"
+#: kab_topwidget.cc:250
+msgid "&Preferences for the KDE address book..."
+msgstr "&Preferências do Livro de Endereços do KDE..."
 
-#: toplevelwidget.cc:131
-msgid "About &KDE"
-msgstr "Acerca do &KDE"
+#: kab_topwidget.cc:254
+msgid "&Business card"
+msgstr "Cartão de &Negócios"
 
-#: toplevelwidget.cc:138
-msgid "&About"
-msgstr "&Acerca"
+#: kab_topwidget.cc:256
+msgid "&Editing"
+msgstr "A &Editar"
 
-#: toplevelwidget.cc:190
-msgid "About Qt"
-msgstr "Acerca do Qt"
+#: kab_topwidget.cc:273
+msgid "New entry"
+msgstr "Nova entrada"
+
+#: dialog_editentry.cc:69 kab_topwidget.cc:275
+msgid "Edit entry"
+msgstr "Editar entrada"
+
+#: kab_topwidget.cc:277
+msgid "Delete entry"
+msgstr "Remover entrada"
+
+#: kab_topwidget.cc:280
+msgid "First entry"
+msgstr "Primeira entrada"
+
+#: kab_topwidget.cc:282
+msgid "Previous entry"
+msgstr "Entrada anterior"
+
+#: kab_topwidget.cc:288
+msgid "Next entry"
+msgstr "Entrada seguinte"
+
+#: kab_topwidget.cc:291
+msgid "Last entry"
+msgstr "Última entrada"
+
+#: kab_topwidget.cc:352
+msgid "The database interface could not be created."
+msgstr "Não foi possível construir a interface da base de dados."
+
+#: kab_topwidget.cc:380
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"Tu mudaste esta entrada.\n"
+"Gravar as modificações?\n"
+"(As modificações não gravadas serão perdidas.)"
+
+#: kab_topwidget.cc:382
+msgid "Save changes?"
+msgstr "Gravar modificações?"
+
+#: kab_topwidget.cc:410
+msgid "No entries."
+msgstr "Nenhuma entrada."
+
+#: kab_topwidget.cc:549
+msgid "The standard file could not be loaded."
+msgstr "Não consegui ler o ficheiro normal."
+
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
+#: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
+msgid "File error"
+msgstr "Erro no ficheiro"
+
+#: kab_topwidget.cc:563
+msgid "Business card view."
+msgstr "Visualizar cartão de negócios."
+
+#: kab_topwidget.cc:571
+msgid "Editing view."
+msgstr "A editar a vista."
+
+#: kab_topwidget.cc:578
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"Isto vai reactivar todas as mensagens que tu desactivaste anteriormente.\n"
+"Continuar?"
+
+#: kab_topwidget.cc:580
+msgid "Enable messages?"
+msgstr "Activar mensagens?"
+
+#: kab_topwidget.cc:598
+msgid "New entry added."
+msgstr "Foi adicionada uma nova entrada."
+
+#: kab_topwidget.cc:599
+msgid "Saving new entry."
+msgstr "A gravar a nova entrada."
+
+#: kab_topwidget.cc:601
+msgid "Done."
+msgstr "Acabado."
+
+#: kab_topwidget.cc:613
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+"Não consigo adicionar a nova entrada.\n"
+"Permissão negada.\n"
+"Não tens permissões de escrita neste ficheiro."
+
+#: kab_topwidget.cc:621
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Não consigo adicionar a nova entrada.\n"
+"Causa desconhecida."
+
+#: kab_topwidget.cc:627
+msgid "No entry added."
+msgstr "Não foi adicionada nenhuma entrada."
+
+#: kab_topwidget.cc:645
+msgid "Really remove this entry?"
+msgstr "Realmente apagar esta entrada?"
+
+#: kab_topwidget.cc:646 look_edit_tabaddresses.cc:433
+msgid "Question"
+msgstr "Questão"
+
+#: kab_topwidget.cc:652
+msgid "Entry deleted."
+msgstr "Entrada apagada."
+
+#: kab_topwidget.cc:660
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"Não consegui apagar a entrada\n"
+"(provavelmente permissão recusada)."
+
+#: dialog_configurefile.cc:61 kab_save.cc:48 kab_topwidget.cc:663
+msgid "Permission denied."
+msgstr "Permissão recusada."
+
+#: kab_topwidget.cc:785
+msgid "Send an email"
+msgstr "Mandar um email"
+
+#: kab_topwidget.cc:794
+msgid "No email addresses."
+msgstr "Não há endereços de email."
+
+#: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
+msgid "Rejected."
+msgstr "Rejeitado."
+
+#: kab_topwidget.cc:830
+msgid "Browse to ..."
+msgstr "Navegar para ..."
+
+#: kab_topwidget.cc:839
+msgid "No URLs."
+msgstr "Não há URLs."
+
+#: kab_topwidget.cc:934
+msgid "Restoring last view."
+msgstr "A restaurar a última vista."
+
+#: kab_topwidget.cc:936
+msgid "Not restoring last view."
+msgstr "A não restaurar a última vista."
+
+#: kab_topwidget.cc:947
+msgid "Remembering last entry."
+msgstr "A tentar lembrar-se da última entrada."
+
+#: kab_topwidget.cc:949
+msgid "Not remembering last entry."
+msgstr "A não tentar lembrar-se da última entrada."
+
+#: kab_topwidget.cc:960
+msgid "Displaying assembled name in window title."
+msgstr "A mostrar no título da janela o nome construído."
+
+#: kab_topwidget.cc:962
+msgid "Not displaying assembled name in window title."
+msgstr "A não mostrar no título da janela o nome construído."
+
+#: kab_topwidget.cc:973
+msgid "Creating backup file on startup."
+msgstr "A criar o ficheiro de segurança no arranque."
+
+#: kab_topwidget.cc:975
+msgid "Not creating a backup file on startup."
+msgstr "A não criar o ficheiro de segurança no arranque."
+
+#: kab_kab1importer.cc:197
+msgid "Home"
+msgstr "Início"
+
+#: kab_kab1importer.cc:239
+msgid "Imported kab 1 addressbook."
+msgstr "Livro de endereços do kab 1 importado."
+
+#: kab_kab1importer.cc:278
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"Não consegui aceder ao ficheiro da base de dados kab 1.\n"
+"Tu provavelmente nunca utilizaste o kab 1."
+
+#: kab_kab1importer.cc:292
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Não consegui ler o ficheiro de base de dados do kab 1.\n"
+"Tu provavelmente modificaste o teu ficheiro da base de dados manualmente."
+
+#: kab_kab1importer.cc:307
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Não consegui encontrar as secções de entrada na tua base de dados.\n"
+"Tu provavelmente modificaste o teu ficheiro da base de dados manualmente."
+
+#: kab_kab1importer.cc:335
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"Aviso: Ocorreram erros ao importar a base de dados\n"
+"do livro de endereços do KDE 1.\n"
+"\n"
+
+#: kab_kab1importer.cc:340
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"Queres mesmo adicionar as entradas do livro de endereços\n"
+"do KDE 1 para este ficheiro?\n"
+"Não serás capaz de reverter estas modificações."
+
+#: kab_createnew.cc:42 kab_openfile.cc:42
+msgid "Could not find the users home directory."
+msgstr "Não consegui encontrar a directoria pessoal dos utilizadores."
+
+#: kab_createnew.cc:43 kab_openfile.cc:43
+msgid "Intern error!"
+msgstr "Erro interno!"
+
+#: kab_createnew.cc:54 kab_openfile.cc:52
+msgid "Cancelled."
+msgstr "Cancelado."
+
+#: kab_createnew.cc:61 kab_openfile.cc:59
+msgid "Only local files supported yet."
+msgstr "Só são suportados ficheiros locais."
+
+#: kab_createnew.cc:74
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"Este ficheiro é uma directoria, ou já existe.\n"
+"Por favor, escolhe outro nome.\n"
+"Tens de ter permissões de escrita para criares o novo ficheiro."
+
+#: kab_createnew.cc:90
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+"O nome do ficheiro não acaba em \".kab\".\n"
+"Ele foi modificado para %1\n"
+
+#: kab_createnew.cc:92
+msgid "Note"
+msgstr "Nota"
+
+#: kab_createnew.cc:99
+msgid "The file could not be created, possibly permission denied."
+msgstr "Não consegui criar o ficheiro, possivelmente por permissão recusada."
+
+#: kab_createnew.cc:100 kab_save.cc:61
+msgid "kab: File error"
+msgstr "kab: Erro de ficheiro"
+
+#: kab_createnew.cc:108
+msgid "The file has been created, but could not be loaded."
+msgstr "O ficheiro foi criado, mas não consigo lê-lo."
+
+#: kab_openfile.cc:71
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"O ficheiro não existe ou é uma directoria.\n"
+"Usa \"Criar nova base de dados\" para criar um novo.\n"
+"Escolhe um ficheiro existente para lê-lo."
+
+#: kab_openfile.cc:85
+msgid "The file could not be loaded."
+msgstr "Não consigo ler o ficheiro."
+
+#: kab_save.cc:37 kab_save.cc:51
+msgid "Internal error."
+msgstr "Erro interno."
+
+#: kab_save.cc:45
+msgid "Entry stored."
+msgstr "Entrada armazenada."
+
+#: kab_save.cc:60
+msgid "The file could not be saved (permission denied)."
+msgstr "Não consegui guardar o ficheiro (permissão recusada)."
+
+#: kab_save.cc:64
+msgid "File saved."
+msgstr "Ficheiro gravado."
+
+#: look_businesscard.cc:175
+msgid "email: "
+msgstr "email: "
+
+#: look_businesscard.cc:192
+msgid "tel: "
+msgstr "tel: "
+
+#: look_edit.cc:36
+msgid "User Fields"
+msgstr "Campos do Utilizador"
+
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
+#: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
+msgid "General failure."
+msgstr "Insucesso geral."
+
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(Campos do utilizador)"
+
+#: look_edit.cc:74
+msgid "&Person"
+msgstr "&Pessoa"
+
+#: look_edit.cc:75
+msgid "&Telephone"
+msgstr "&Telefone"
+
+#: look_edit.cc:76
+msgid "&Addresses"
+msgstr "&Endereços"
+
+#: look_edit.cc:77
+msgid "&Birthday"
+msgstr "&Nascimento"
+
+#: look_edit.cc:78
+msgid "Comment"
+msgstr "Comentário"
+
+#: look_edit_tabperson.cc:38
+msgid "Email addresses..."
+msgstr "Endereços de E-mail..."
+
+#: look_edit_tabperson.cc:39
+msgid "Talk addresses..."
+msgstr "Endereços de Talk..."
+
+#: look_edit_tabperson.cc:40
+msgid "URLs..."
+msgstr "URLs..."
+
+#: look_edit_tabperson.cc:63
+msgid "Formatted name:"
+msgstr "Nome formatado:"
+
+#: look_edit_tabperson.cc:74
+msgid "First name:"
+msgstr "Primeiro nome:"
+
+#: look_edit_tabperson.cc:76
+msgid "Middle name:"
+msgstr "Nome do meio:"
+
+#: look_edit_tabperson.cc:78
+msgid "Last name:"
+msgstr "Último nome:"
+
+#: look_edit_tabperson.cc:95
+msgid "Name prefix:"
+msgstr "Apelido:"
+
+#: look_edit_tabperson.cc:97
+msgid "Title:"
+msgstr "Título:"
+
+#: look_edit_tabperson.cc:99
+msgid "Rank:"
+msgstr "Classe:"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:192
+msgid "Edit email addresses"
+msgstr "Editar os endereços de email"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
+msgid "Edit talk addresses"
+msgstr "Editar os endereços de talk"
+
+#: look_edit_tabperson.cc:224
+msgid "Edit URLs"
+msgstr "Editar os URLs"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:34
+msgid "User field 1:"
+msgstr "Campo do utilizador 1:"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:35
+msgid "User field 2:"
+msgstr "Campo do utilizador 2:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:36
+msgid "User field 3:"
+msgstr "Campo do utilizador 3:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
+msgid "User field 4:"
+msgstr "Campo do utilizador 4:"
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr "(Campo do utilizador 1)"
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr "(Campo do utilizador 2)"
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr "(Campo do utilizador 3)"
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
+msgstr "(Campo do utilizador 4)"
+
+#: look_edit_tabcontact.cc:31
+msgid "Edit URLs (internet addresses)"
+msgstr "Editar URLs (endereços da internet)"
+
+#: look_edit_tabcontact.cc:32
+msgid "Edit telephone numbers"
+msgstr "Editar números de telefone"
+
+#: look_edit_tabaddresses.cc:63 look_edit_tabaddresses.cc:208
+msgid "Add another address"
+msgstr "Adicionar outro endereço"
+
+#: look_edit_tabaddresses.cc:66 look_edit_tabaddresses.cc:212
+msgid "Delete this address"
+msgstr "Apagar este endereço"
+
+#: look_edit_tabaddresses.cc:79
+msgid "Headline:"
+msgstr "Cabeçalho:"
+
+#: look_edit_tabaddresses.cc:94 look_edit_tabaddresses.cc:225
+msgid "Assignment:"
+msgstr "Transferência:"
+
+#: look_edit_tabaddresses.cc:101
+msgid "Insinuation..."
+msgstr "Insinuação..."
+
+#: look_edit_tabaddresses.cc:103 look_edit_tabaddresses.cc:234
+msgid "Edit organisational attributes"
+msgstr "Editar atributos organizacionais"
+
+#: look_edit_tabaddresses.cc:111 look_edit_tabaddresses.cc:246
+msgid "Street:"
+msgstr "Rua:"
+
+#: look_edit_tabaddresses.cc:120 look_edit_tabaddresses.cc:253
+msgid "City"
+msgstr "Cidade"
+
+#: look_edit_tabaddresses.cc:121 look_edit_tabaddresses.cc:255
+msgid "State"
+msgstr "Estado"
+
+#: look_edit_tabaddresses.cc:122 look_edit_tabaddresses.cc:257
+msgid "Zipcode"
+msgstr "Código Postal"
+
+#: look_edit_tabaddresses.cc:142 look_edit_tabaddresses.cc:273
+msgid "Country:"
+msgstr "País:"
+
+#: look_edit_tabaddresses.cc:408
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt>Sabes que podes pré-definir os tipos de endereços?<br>Vê "
+"<b>Editar->Configurar este ficheiro</b>.</qt>"
+
+#: look_edit_tabaddresses.cc:410
+msgid "A note"
+msgstr "Uma nota"
+
+#: look_edit_tabaddresses.cc:432
+msgid "Really delete this address?"
+msgstr "Apagar realmente este endereço?"
+
+#: look_edit_tabaddresses.cc:494
+msgid "Insinuation"
+msgstr "Insinuação"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fixed:"
+msgstr "Fixo:"
+
+#: look_edit_tabtelephone.cc:47
+msgid "Mobile:"
+msgstr "Móvel:"
+
+#: look_edit_tabtelephone.cc:48
+msgid "Fax:"
+msgstr "Fax:"
+
+#: look_edit_tabtelephone.cc:49
+msgid "Modem:"
+msgstr "Modem:"
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 1:"
+msgstr "Utilizador definido 1:"
+
+#: look_edit_tabtelephone.cc:51
+msgid "User defined 2:"
+msgstr "Utilizador definido 2:"
+
+#: look_edit_tabtelephone.cc:52
+msgid "User defined 3:"
+msgstr "Utilizador definido 3:"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Type"
+msgstr "Tipo"
+
+#: look_edit_tabtelephone.cc:66
+msgid "Number"
+msgstr "Número"
+
+#: widget_editstringlist.cc:40
+msgid "Add a new string"
+msgstr "Adicionar um novo texto"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string up"
+msgstr "Subir este texto"
+
+#: widget_editstringlist.cc:42
+msgid "Move this string down"
+msgstr "Descer este texto"
+
+#: widget_editstringlist.cc:43
+msgid "Delete this string"
+msgstr "Apagar este texto"
+
+#: dialog_configurefile.cc:58 dialog_configurekab.cc:53 dialog_editentry.cc:51
+#: dialog_editentry.cc:74
+msgid "Accepted."
+msgstr "Aceite."
+
+#: dialog_configurefile.cc:63
+msgid "Settings applied."
+msgstr "Configurações aceites."
+
+#: dialog_configurefile.cc:90
+msgid "Tab name"
+msgstr "Nome tab"
+
+#: dialog_configurefile.cc:149
+msgid "User fields"
+msgstr "Campo dos utilizadores"
+
+#: dialog_configurefile.cc:161
+msgid "Address types"
+msgstr "Tipos de endereços"
+
+#: dialog_configurefile.cc:192
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"Não consegui gravar as tuas configurações.\n"
+"Provavelmente não tens permissões de escrita nesse ficheiro."
+
+#: dialog_configurekab.cc:37
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+"O teu ficheiro de configuração é incorrecto.\n"
+"O KAB não se conseguiu configurar."
+
+#: dialog_configurekab.cc:39
+msgid "Fatal error"
+msgstr "Erro fatal"
+
+#: dialog_configurekab.cc:40
+msgid "Configuration file corrupt."
+msgstr "Ficheiro de configuração inválido."
+
+#: dialog_configurekab.cc:58
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+"Ocorreu um erro na gravação das tuas preferências.\n"
+"Algumas poderão ser perdidas."
+
+#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+msgid "Error saving preferences."
+msgstr "Erro na gravação das preferências."
+
+#: dialog_configurekab.cc:63
+msgid "KDE address book preferences."
+msgstr "Preferências do Livro de Endereços do KDE"
+
+#: dialog_configurekab.cc:65
+msgid "Preferences saved."
+msgstr "Preferências gravadas."
+
+#: dialog_configurekab.cc:69
+msgid ""
+"Cannot save your preferences.\n"
+"May be permission denied."
+msgstr ""
+"Não consegui gravar as tuas preferências.\n"
+"Talvez a permissão tenha sido negada."
+
+#: dialog_configurekab.cc:88
+msgid "Remember last selected view"
+msgstr "Lembra-te da última vista seleccionada"
+
+#: dialog_configurekab.cc:90
+msgid "Remember last selected entry"
+msgstr "Lembra-te da última entrada seleccionada"
+
+#: dialog_configurekab.cc:92
+msgid "Show assembled name in window title"
+msgstr "Mostrar no título da janela o nome construído"
+
+#: dialog_configurekab.cc:94
+msgid "Create backup file on startup"
+msgstr "Criar ficheiros de segurança no arranque"
+
+#: dialog_configurekab.cc:95
+msgid "General settings"
+msgstr "Configurações gerais"
+
+#: dialog_insinuation.cc:29
+msgid "Organisation:"
+msgstr "Organização:"
+
+#: dialog_insinuation.cc:30
+msgid "Department:"
+msgstr "Departamento:"
+
+#: dialog_insinuation.cc:31
+msgid "Sub-Department:"
+msgstr "Sub-Departamento:"
