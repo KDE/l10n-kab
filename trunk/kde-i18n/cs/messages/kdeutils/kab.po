@@ -5,118 +5,415 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1999-01-16 10:30+01:00\n"
+"POT-Creation-Date: 2000-01-10 00:55+0100\n"
+"PO-Revision-Date: 1999-07-30 10:51+02:00\n"
 "Last-Translator: Martin ©pirk <spirk@kla.pvt.cz>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: AddressBookAbout.cpp:25
-msgid "About addressbook"
-msgstr "Adresáø - o programu"
-
-#: AddressBookAbout.cpp:35
-msgid "Image load failure"
-msgstr "Selhalo naèítání obrázku"
-
-#: AddressBookAbout.cpp:36
-msgid "Could not load addressbook logo image!"
-msgstr "Nemohu naèíst logo programu"
-
-#: AddressBookAbout.cpp:37
+#: kab_main.cc:15
 msgid ""
-"Here you would see\n"
-"the addressbook logo."
+"Version 2 of the KDE address book is not compatible with the previous one.\n"
+"To protect your address database, another file will be used.\n"
+"Run \"File->Import->KDE 1 addressbook\" to use your old\n"
+"database with the new version."
 msgstr ""
-"Zde má být logo\n"
-"programu."
 
-#: AddressBookAbout.cpp:44
-msgid "written and maintained by"
-msgstr "autor programu"
+#: kab_main.cc:21
+msgid "new format"
+msgstr ""
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, December 1998"
+#: dialog_configurefile.cc:112 kab_topwidget.cc:38 look_edit.cc:17
+#: look_edit.cc:27 look_edit_tabperson.cc:35 look_edit_tabperson.cc:102
+#: look_edit_tabperson.cc:142
+msgid "Out of memory."
+msgstr ""
 
-#: toplevelwidget.cc:35 toplevelwidget.cc:43
-msgid "Initialization failure"
-msgstr "Chyba inicializace"
+#: dialog_configurefile.cc:113 kab_topwidget.cc:39 look_edit.cc:18
+#: look_edit.cc:28 look_edit_tabperson.cc:36 look_edit_tabperson.cc:103
+#: look_edit_tabperson.cc:143
+msgid "General failure."
+msgstr ""
 
-#: toplevelwidget.cc:37
-msgid "The program's menubar could not be constructed."
-msgstr "Nelze vytvoøit programové menu"
+#: kab_topwidget.cc:57
+msgid "Could not connect to the address database."
+msgstr ""
 
-#: toplevelwidget.cc:45
-msgid "The program's statusbar could not be constructed."
-msgstr "Nelze vytvoøit informaèní øádek programu"
+#: kab_topwidget.cc:58
+msgid "Database error."
+msgstr ""
 
-#: toplevelwidget.cc:58
-msgid "KDE addressbook."
+#: kab_topwidget.cc:67
+msgid "Welcome to kab 2.0"
+msgstr ""
+
+#: kab_topwidget.cc:78
+#, fuzzy
+msgid "&KDE 1 address book"
 msgstr "KDE adresáø"
 
-#: toplevelwidget.cc:73
-msgid "HTML table"
-msgstr "HTML tabulka"
+#: kab_topwidget.cc:80
+msgid "&Create new database"
+msgstr ""
 
-#: toplevelwidget.cc:82
-msgid "Export"
-msgstr "Export"
+#: kab_topwidget.cc:82
+msgid "&Open"
+msgstr ""
 
-#: toplevelwidget.cc:84
-msgid "Search &entries"
-msgstr "&Vyhledat"
+#: kab_topwidget.cc:84
+msgid "Open default &database"
+msgstr ""
 
-#: toplevelwidget.cc:86
-msgid "&Print"
-msgstr "&Tisk"
+#: kab_topwidget.cc:89
+msgid "&Import..."
+msgstr ""
 
-#: toplevelwidget.cc:98
+#: kab_topwidget.cc:94
 msgid "&Add entry"
 msgstr "&Pøidat polo¾ku"
 
-#: toplevelwidget.cc:100
+#: kab_topwidget.cc:95
 msgid "&Edit entry"
 msgstr "&Upravit polo¾ku"
 
-#: toplevelwidget.cc:102
+#: kab_topwidget.cc:96
 msgid "&Remove entry"
 msgstr "&Odstranit polo¾ku"
 
-#: toplevelwidget.cc:114
-msgid "&Mail"
-msgstr "Poslat &mail"
+#: kab_topwidget.cc:98
+msgid "Enable all &messages"
+msgstr ""
 
-#: toplevelwidget.cc:116
-msgid "&Talk"
-msgstr "Spustit &talk"
+#: kab_topwidget.cc:100
+msgid "&Configure this file"
+msgstr ""
 
-#: toplevelwidget.cc:118
-msgid "&Browse"
-msgstr "Otevøít we&b"
+#: kab_topwidget.cc:104
+msgid "&Business card"
+msgstr ""
 
-#: toplevelwidget.cc:123
-msgid "Help on Addressbook"
-msgstr "Nápovìda"
+#: kab_topwidget.cc:106
+#, fuzzy
+msgid "&Editing"
+msgstr "&Upravit polo¾ku"
 
-#: toplevelwidget.cc:128
-msgid "About Addressbook"
-msgstr "O programu"
+#: kab_topwidget.cc:140
+#, fuzzy
+msgid "The database interface could not be created."
+msgstr "Nelze vytvoøit informaèní øádek programu"
 
-#: toplevelwidget.cc:130
-msgid "About &Qt"
-msgstr "O &Qt"
+#: kab_topwidget.cc:141
+msgid "Database error"
+msgstr ""
 
-#: toplevelwidget.cc:131
-msgid "About &KDE"
-msgstr "O &KDE"
+#: kab_topwidget.cc:171
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
 
-#: toplevelwidget.cc:138
-msgid "&About"
-msgstr "Nápovìda"
+#: kab_topwidget.cc:173
+msgid "Save changes?"
+msgstr ""
 
-#: toplevelwidget.cc:190
-msgid "About Qt"
-msgstr "Knihovna Qt"
+#: kab_topwidget.cc:198
+#, fuzzy
+msgid "No entries."
+msgstr "&Vyhledat"
+
+#: kab_topwidget.cc:290
+#, fuzzy
+msgid "The standard file could not be loaded."
+msgstr "Nelze vytvoøit informaèní øádek programu"
+
+#: kab_createnew.cc:69 kab_save.cc:47 kab_topwidget.cc:291
+msgid "kab: File error"
+msgstr ""
+
+#: kab_topwidget.cc:303
+msgid "Business card view."
+msgstr ""
+
+#: kab_topwidget.cc:311
+msgid "Editing view."
+msgstr ""
+
+#: kab_topwidget.cc:318
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+
+#: kab_topwidget.cc:320
+msgid "Enable messages?"
+msgstr ""
+
+#: kab_topwidget.cc:342
+#, fuzzy
+msgid "Really remove this entry?"
+msgstr "&Odstranit polo¾ku"
+
+#: kab_topwidget.cc:343
+msgid "Question"
+msgstr ""
+
+#: kab_topwidget.cc:349
+msgid "Entry deleted."
+msgstr ""
+
+#: kab_topwidget.cc:356
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+
+#: dialog_configurefile.cc:46 kab_save.cc:35 kab_topwidget.cc:359
+msgid "Permission denied."
+msgstr ""
+
+#: kab_kab1importer.cc:175
+msgid "Home"
+msgstr ""
+
+#: kab_kab1importer.cc:219
+#, fuzzy
+msgid "Imported kab 1 addressbook."
+msgstr "Adresáø - o programu"
+
+#: dialog_configurefile.cc:52 dialog_editentry.cc:41 kab_kab1importer.cc:222
+msgid "Rejected."
+msgstr ""
+
+#: kab_kab1importer.cc:258
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+
+#: kab_kab1importer.cc:272
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+
+#: kab_kab1importer.cc:287
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+
+#: kab_kab1importer.cc:315
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+
+#: kab_kab1importer.cc:320
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+
+#: kab_createnew.cc:24 kab_openfile.cc:24
+msgid "Could not find the users home directory."
+msgstr ""
+
+#: kab_createnew.cc:25 kab_openfile.cc:25
+msgid "Intern error!"
+msgstr ""
+
+#: kab_createnew.cc:34 kab_openfile.cc:34
+msgid "Cancelled."
+msgstr ""
+
+#: kab_createnew.cc:43
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+
+#: dialog_configurefile.cc:147 kab_createnew.cc:47 kab_createnew.cc:78
+#: kab_openfile.cc:45 kab_openfile.cc:56
+msgid "File error"
+msgstr ""
+
+#: kab_createnew.cc:59
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to\n"
+msgstr ""
+
+#: kab_createnew.cc:61
+msgid "Note"
+msgstr ""
+
+#: kab_createnew.cc:68
+msgid "The file could not be created, possibly permission denied."
+msgstr ""
+
+#: kab_createnew.cc:77
+msgid "The file has been created, but could not be loaded."
+msgstr ""
+
+#: kab_openfile.cc:42
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"New File\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+
+#: kab_openfile.cc:55
+#, fuzzy
+msgid "The file could not be loaded."
+msgstr "Nelze vytvoøit programové menu"
+
+#: kab_save.cc:24 kab_save.cc:38
+msgid "Internal error."
+msgstr ""
+
+#: kab_save.cc:32
+msgid "Entry stored."
+msgstr ""
+
+#: kab_save.cc:46
+msgid "The file could not be saved (permission denied)."
+msgstr ""
+
+#: kab_save.cc:50
+msgid "File saved."
+msgstr ""
+
+#: look_businesscard.cc:154
+msgid "email: "
+msgstr ""
+
+#: look_businesscard.cc:172
+msgid "tel: "
+msgstr ""
+
+#: look_edit.cc:31
+#, fuzzy
+msgid "&Person"
+msgstr "&Tisk"
+
+#: look_edit.cc:32
+msgid "&Birthday"
+msgstr ""
+
+#: look_edit.cc:33
+msgid "Comment"
+msgstr ""
+
+#: look_edit_tabperson.cc:25
+msgid "First name"
+msgstr ""
+
+#: look_edit_tabperson.cc:25
+msgid "Middle name"
+msgstr ""
+
+#: look_edit_tabperson.cc:25
+msgid "Last Name"
+msgstr ""
+
+#: look_edit_tabperson.cc:26
+msgid "Formatted name"
+msgstr ""
+
+#: look_edit_tabperson.cc:26
+msgid "Name prefix"
+msgstr ""
+
+#: look_edit_tabperson.cc:26
+msgid "Title"
+msgstr ""
+
+#: look_edit_tabperson.cc:26
+msgid "Rank"
+msgstr ""
+
+#: dialog_configurefile.cc:43 dialog_editentry.cc:39
+msgid "Accepted."
+msgstr ""
+
+#: dialog_configurefile.cc:48
+msgid "Settings applied."
+msgstr ""
+
+#: dialog_configurefile.cc:74
+msgid "Tab name"
+msgstr ""
+
+#: dialog_configurefile.cc:75
+msgid "User field 1:"
+msgstr ""
+
+#: dialog_configurefile.cc:75
+msgid "User field 2:"
+msgstr ""
+
+#: dialog_configurefile.cc:76
+msgid "User field 3:"
+msgstr ""
+
+#: dialog_configurefile.cc:76
+msgid "User field 4:"
+msgstr ""
+
+#: dialog_configurefile.cc:118
+msgid "User fields"
+msgstr ""
+
+#: dialog_configurefile.cc:145
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+
+#~ msgid "written and maintained by"
+#~ msgstr "autor programu"
+
+#~ msgid "Initialization failure"
+#~ msgstr "Chyba inicializace"
+
+#~ msgid "HTML table"
+#~ msgstr "HTML tabulka"
+
+#~ msgid "Export"
+#~ msgstr "Export"
+
+#~ msgid "&Mail"
+#~ msgstr "Poslat &mail"
+
+#~ msgid "&Talk"
+#~ msgstr "Spustit &talk"
+
+#~ msgid "&Browse"
+#~ msgstr "Otevøít we&b"
+
+#~ msgid "Help on Addressbook"
+#~ msgstr "Nápovìda"
+
+#~ msgid "About Addressbook"
+#~ msgstr "O programu"
+
+#~ msgid "About &Qt"
+#~ msgstr "O &Qt"
+
+#~ msgid "About &KDE"
+#~ msgstr "O &KDE"
+
+#~ msgid "&About"
+#~ msgstr "Nápovìda"
+
+#~ msgid "About Qt"
+#~ msgstr "Knihovna Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, December 1998"
