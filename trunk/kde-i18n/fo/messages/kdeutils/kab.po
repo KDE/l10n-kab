@@ -1,0 +1,1488 @@
+# Faroese translation of KDE, kdeutils/kab.
+# Copyright © 2001 KDE and Linux-áhugafelagið.
+# Føroysku umsetararnir <cvsuser@flug.fo>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE/kdeutils/kab\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
+"PO-Revision-Date: 2002-04-07 12:37CEST\n"
+"Last-Translator: Jacob Sparre Andersen <jacob@flug.fo>\n"
+"Language-Team: føroyskt <cvsuser@flug.fo>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: rc.cpp:1
+msgid "Export to HTML"
+msgstr "Útflyt til HTML"
+
+#: rc.cpp:2
+msgid "Exporting of addresses"
+msgstr ""
+
+#: rc.cpp:3
+#, fuzzy
+msgid "Export addresses along with entries"
+msgstr "Útflyt"
+
+#: rc.cpp:4
+#, fuzzy
+msgid "How should I export your addresses?"
+msgstr "útflyt?"
+
+#: rc.cpp:5
+#, fuzzy
+msgid "Address and person in one line"
+msgstr "Adressa ein"
+
+#: rc.cpp:6
+msgid "All addresses"
+msgstr ""
+
+#: rc.cpp:7
+msgid "Up to ... addresses"
+msgstr "Upp til ... adressur"
+
+#: rc.cpp:8
+msgid "Select style of HTML "
+msgstr ""
+
+#: rc.cpp:9
+#, fuzzy
+msgid "Style of the resulting file"
+msgstr "tann"
+
+#: rc.cpp:10
+#, fuzzy
+msgid "Plain HTML text without tables or lines"
+msgstr "uttan"
+
+#: rc.cpp:11
+msgid "Expect more here..."
+msgstr ""
+
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
+msgid "Form1"
+msgstr ""
+
+#: rc.cpp:13
+#, fuzzy
+msgid "Enter the delivery label for this address here:"
+msgstr "tann adressa/atsetur:"
+
+#: rc.cpp:14
+msgid "Entry List"
+msgstr ""
+
+#: rc.cpp:15
+#, fuzzy
+msgid ""
+"<qt>Search entries by entering<br> - one of their <b>email addresses</b><br> "
+"- the <b>first name</b> or<br> - the <b>last name</b></qt>"
+msgstr ""
+"<qt> Leita inngangar<br> ein<b></b><br> tann<b> fyrsta</b><br> tann<b> "
+"seinasta</b></qt>"
+
+#: rc.cpp:17
+#, fuzzy
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt> inngangur til</qt>"
+
+#: kab_htmlexport.cc:377 rc.cpp:18
+msgid "Setup HTML export"
+msgstr ""
+
+#: rc.cpp:19
+#, fuzzy
+msgid "Template folder:"
+msgstr "fíluskrá:"
+
+#: rc.cpp:20
+#, fuzzy
+msgid "Target folder:"
+msgstr "fíluskrá:"
+
+#: rc.cpp:21 rc.cpp:22
+msgid "Choose ..."
+msgstr ""
+
+#: rc.cpp:26
+#, fuzzy
+msgid ""
+"Hide the search results window. This will not clear your search results."
+msgstr "tann leita gluggi leita."
+
+#: rc.cpp:27
+#, fuzzy
+msgid ""
+"Hide the search results window. This will close the search results window "
+"and clear all results of previous searches."
+msgstr "tann leita gluggi stong tann leita gluggi øll."
+
+#: rc.cpp:29
+#, fuzzy
+msgid "Clear the search results and hide this window."
+msgstr "Reinsa tann leita gluggi."
+
+#: rc.cpp:31
+#, fuzzy
+msgid "Print your search results."
+msgstr "Prent leita."
+
+#: rc.cpp:33
+#, fuzzy
+msgid "Search for people in your addressbook:"
+msgstr "Leita:"
+
+#: rc.cpp:34
+#, fuzzy
+msgid "Select fields to search here."
+msgstr "til leita."
+
+#: rc.cpp:35
+#, fuzzy
+msgid ""
+"Select fields to search here. \n"
+"All entries where this field matches the pattern (consisting of wildcards or "
+"regular expressions) given below will be displayed in the Search Results "
+"Window."
+msgstr ""
+"til leita\n"
+" inngangar tann undir tann Leita Gluggi."
+
+#: rc.cpp:36
+msgid "... matches ..."
+msgstr ""
+
+#: rc.cpp:37
+msgid "*"
+msgstr ""
+
+#: rc.cpp:38
+msgid "Enter your expression here."
+msgstr ""
+
+#: rc.cpp:39
+msgid "Options:"
+msgstr ""
+
+#: rc.cpp:40
+msgid "Case sensitive search"
+msgstr ""
+
+#: rc.cpp:41
+#, fuzzy
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr "til ein/eitt leita."
+
+#: rc.cpp:42
+msgid "Expressions"
+msgstr ""
+
+#: rc.cpp:43
+msgid "Wildcards"
+msgstr ""
+
+#: rc.cpp:44
+msgid ""
+"Check this button if you use widlcards in your expression (as in shell "
+"commands)."
+msgstr ""
+
+#: rc.cpp:45
+#, fuzzy
+msgid "Regular expressions"
+msgstr "Vanligt"
+
+#: rc.cpp:46
+msgid ""
+"Check this box if you use classical regular expressions in your pattern."
+msgstr ""
+
+#: rc.cpp:48
+msgid "Address type (e.g. Home):"
+msgstr "Adressuslag (til dømis \"Heima\"):"
+
+#: rc.cpp:49
+msgid "Organization..."
+msgstr ""
+
+#: rc.cpp:50
+msgid "Country:"
+msgstr "Land:"
+
+#: rc.cpp:51
+msgid "Zip code"
+msgstr ""
+
+#: rc.cpp:52
+msgid "State"
+msgstr "Land"
+
+#: rc.cpp:53
+msgid "City"
+msgstr "Býur"
+
+#: rc.cpp:54
+msgid "Street address:"
+msgstr "Gøtuadressa:"
+
+#: rc.cpp:55
+msgid "Job title:"
+msgstr ""
+
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+msgid "Delivery Label"
+msgstr ""
+
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr ""
+
+#: kab_main.cc:49
+#, fuzzy
+msgid ""
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run <b>File-"
+">Import->KDE 1 Addressbook</b> to use your old database with the new version."
+"</qt>"
+msgstr ""
+"<qt> tann adressa/atsetur tann ein adressa/atsetur ein/eitt fíla<b> Fíla "
+"Innflyt</b> til tann</qt>"
+
+#: kab_main.cc:54
+#, fuzzy
+msgid "New Format"
+msgstr "eitt snið"
+
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
+#: look_edit_tabuser.cc:47
+#, fuzzy
+msgid "Out of memory."
+msgstr "minni."
+
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
+#, fuzzy
+msgid "General failure"
+msgstr "Almen"
+
+#: kab_topwidget.cc:82
+#, fuzzy
+msgid ""
+"Could not connect to the address database.\n"
+"The KDE addressbook will not run without it.\n"
+"The application will be closed."
+msgstr ""
+"til tann adressa/atsetur\n"
+" koyra uttan\n"
+" forrit."
+
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
+msgid "Database error"
+msgstr "Dátugrunnsvilla"
+
+#: kab_topwidget.cc:197
+#, fuzzy
+msgid "Welcome to kab 2.1"
+msgstr "til"
+
+#: kab_topwidget.cc:198
+msgid "The KDE Addressbook 2.1."
+msgstr ""
+
+#: kab_topwidget.cc:199
+msgid "Written by Mirko Boehm (mirko@kde.org)."
+msgstr ""
+
+#: kab_topwidget.cc:200
+#, fuzzy
+msgid "Visit www.kde.org for the latest news."
+msgstr "tann."
+
+#: kab_topwidget.cc:271
+msgid "&Export to HTML..."
+msgstr "Út&flyt til HTML..."
+
+#: kab_topwidget.cc:275
+#, fuzzy
+msgid "&First Entry"
+msgstr "Rætta"
+
+#: kab_topwidget.cc:279
+#, fuzzy
+msgid "&Previous Entry"
+msgstr "fyrra"
+
+#: kab_topwidget.cc:283
+#, fuzzy
+msgid "&Next Entry"
+msgstr "&Næsta inngangur"
+
+#: kab_topwidget.cc:287
+#, fuzzy
+msgid "&Last Entry"
+msgstr "&Næsta inngangur"
+
+#: kab_topwidget.cc:291
+#, fuzzy
+msgid "&Add Entry..."
+msgstr "Legg inngangur &afturat..."
+
+#: kab_topwidget.cc:295
+#, fuzzy
+msgid "&Edit Entry..."
+msgstr "&Rætta inngangur..."
+
+#: kab_topwidget.cc:299
+#, fuzzy
+msgid "&Remove Entry"
+msgstr "&Sletta inngangur"
+
+#: kab_topwidget.cc:303
+#, fuzzy
+msgid "Send an E&mail"
+msgstr "Send teldupost"
+
+#: kab_topwidget.cc:307
+msgid "&Browse"
+msgstr ""
+
+#: kab_topwidget.cc:311
+#, fuzzy
+msgid "&Search Entries..."
+msgstr "&Leita í inngangar..."
+
+#: kab_topwidget.cc:315
+#, fuzzy
+msgid "Show Search Results"
+msgstr "leita"
+
+#: kab_topwidget.cc:320
+#, fuzzy
+msgid "Show Main Toolbar"
+msgstr "inngangur"
+
+#: kab_topwidget.cc:325
+#, fuzzy
+msgid "Show Entry Navigation Toolbar"
+msgstr "inngangur"
+
+#: kab_topwidget.cc:330
+#, fuzzy
+msgid "Show Entry Navigation List"
+msgstr "inngangur"
+
+#: kab_topwidget.cc:335
+#, fuzzy
+msgid "Print Entry..."
+msgstr "Prent inngangur..."
+
+#: kab_topwidget.cc:339
+#, fuzzy
+msgid "Print Entries..."
+msgstr "Prent inngangar..."
+
+#: kab_topwidget.cc:343
+msgid "&Editing"
+msgstr ""
+
+#: kab_topwidget.cc:347
+msgid "&Business Card"
+msgstr ""
+
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr ""
+
+#: kab_topwidget.cc:377
+#, fuzzy
+msgid "&KDE 1 Address Book"
+msgstr "adressa/atsetur"
+
+#: kab_topwidget.cc:379
+#, fuzzy
+msgid "&Netscape Address Book"
+msgstr "adressa/atsetur"
+
+#: kab_topwidget.cc:386
+msgid "&Create New Database..."
+msgstr ""
+
+#: kab_topwidget.cc:390
+#, fuzzy
+msgid "Open Default &Database"
+msgstr "Opna forsett &dátugrunnur"
+
+#: kab_topwidget.cc:394
+msgid "&Import"
+msgstr ""
+
+#: kab_topwidget.cc:395
+msgid "&Print"
+msgstr ""
+
+#: kab_topwidget.cc:410
+#, fuzzy
+msgid "Enable all &Messages"
+msgstr "øll"
+
+#: kab_topwidget.cc:412
+#, fuzzy
+msgid "&Configure this File..."
+msgstr "Set upp fíla."
+
+#: kab_topwidget.cc:415
+#, fuzzy
+msgid "&Preferences for KDE Address Book..."
+msgstr "tann adressa/atsetur."
+
+#: kab_topwidget.cc:538
+#, fuzzy
+msgid ""
+"The database interface could not be created.\n"
+"The KDE addressbook will not run without it.\n"
+"The application will be closed."
+msgstr ""
+"\n"
+" koyra uttan\n"
+" forrit."
+
+#: kab_topwidget.cc:570
+#, fuzzy
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"broytt inngangur\n"
+" Goym\n"
+
+#: kab_topwidget.cc:572
+#, fuzzy
+msgid "Save changes?"
+msgstr "Goym?"
+
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
+#, fuzzy
+msgid "Error changing the entry."
+msgstr "Feilur tann inngangur."
+
+#: kab_topwidget.cc:609
+#, fuzzy
+msgid "No entries."
+msgstr "Nei inngangar."
+
+#: kab_topwidget.cc:727
+#, fuzzy
+msgid "Cannot locate default database."
+msgstr "forsett(ur)."
+
+#: kab_topwidget.cc:728
+msgid "Critical failure"
+msgstr ""
+
+#: kab_topwidget.cc:733
+#, fuzzy
+msgid "The standard file could not be loaded."
+msgstr "fíla."
+
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
+#, fuzzy
+msgid "File error"
+msgstr "Fílafeilur"
+
+#: kab_topwidget.cc:750
+msgid "Business card view."
+msgstr ""
+
+#: kab_topwidget.cc:762
+msgid "Editing view."
+msgstr ""
+
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr ""
+
+#: kab_topwidget.cc:782
+#, fuzzy
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"øll\n"
+" Hald áfram?"
+
+#: kab_topwidget.cc:784
+msgid "Enable messages?"
+msgstr ""
+
+#: kab_topwidget.cc:803
+#, fuzzy
+msgid "New entry added."
+msgstr "Nýggj inngangur."
+
+#: kab_topwidget.cc:804
+#, fuzzy
+msgid "Saving new entry."
+msgstr "Goymir inngangur."
+
+#: kab_topwidget.cc:806
+#, fuzzy
+msgid "Done."
+msgstr "Liðugt."
+
+#: kab_topwidget.cc:827
+#, fuzzy
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You may not have write permission for this file."
+msgstr ""
+"tann inngangur\n"
+"\n"
+" fíla."
+
+#: kab_topwidget.cc:835
+#, fuzzy
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"tann inngangur\n"
+" Ókendur."
+
+#: kab_topwidget.cc:841
+#, fuzzy
+msgid "No entry added."
+msgstr "Nei inngangur."
+
+#: kab_topwidget.cc:859
+#, fuzzy
+msgid "Really remove this entry?"
+msgstr "inngangur?"
+
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
+msgid "Question"
+msgstr ""
+
+#: kab_topwidget.cc:866
+msgid "Entry deleted."
+msgstr ""
+
+#: kab_topwidget.cc:868
+#, fuzzy
+msgid "Database saved."
+msgstr "Dátugrunnur."
+
+#: kab_topwidget.cc:875
+#, fuzzy
+msgid "Could not delete the entry (probably permission denied)."
+msgstr ""
+"tann inngangur\n"
+"."
+
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
+msgid "Permission denied."
+msgstr ""
+
+#: kab_topwidget.cc:940
+msgid "Send an email"
+msgstr ""
+
+#: kab_topwidget.cc:949
+#, fuzzy
+msgid "No email addresses."
+msgstr "Nei."
+
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
+msgid "Rejected."
+msgstr ""
+
+#: kab_topwidget.cc:994
+#, fuzzy
+msgid "Browse to ..."
+msgstr "til."
+
+#: kab_topwidget.cc:1003
+#, fuzzy
+msgid "No URLs."
+msgstr "Nei."
+
+#: kab_topwidget.cc:1070
+#, fuzzy
+msgid "Restoring last view."
+msgstr "seinasta."
+
+#: kab_topwidget.cc:1072
+#, fuzzy
+msgid "Not restoring last view."
+msgstr "seinasta."
+
+#: kab_topwidget.cc:1083
+#, fuzzy
+msgid "Remembering last entry."
+msgstr "seinasta inngangur."
+
+#: kab_topwidget.cc:1085
+#, fuzzy
+msgid "Not remembering last entry."
+msgstr "seinasta inngangur."
+
+#: kab_topwidget.cc:1096
+#, fuzzy
+msgid "Displaying assembled name in window title."
+msgstr "gluggi."
+
+#: kab_topwidget.cc:1098
+#, fuzzy
+msgid "Not displaying assembled name in window title."
+msgstr "gluggi."
+
+#: kab_topwidget.cc:1109
+#, fuzzy
+msgid "Creating backup file on startup."
+msgstr "fíla."
+
+#: kab_topwidget.cc:1111
+#, fuzzy
+msgid "Not creating a backup file on startup."
+msgstr "ein/eitt fíla."
+
+#: kab_topwidget.cc:1258
+#, fuzzy
+msgid "Search entries"
+msgstr "Leita"
+
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
+#, fuzzy
+msgid "(ERROR)"
+msgstr "FEILUR"
+
+#: kab_topwidget.cc:1320
+#, fuzzy
+msgid "Could not get an overview over the existing entries."
+msgstr "tann inngangar."
+
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
+msgid "Internal Error"
+msgstr ""
+
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
+#, fuzzy
+msgid "Could not query an existing entry."
+msgstr "inngangur."
+
+#: kab_topwidget.cc:1416
+#, fuzzy
+msgid "Search results ("
+msgstr "Leita"
+
+#: kab_topwidget.cc:1416
+msgid " hits):"
+msgstr ""
+
+#: kab_topwidget.cc:1421
+#, fuzzy
+msgid ""
+"Sorry!\n"
+"No entry matched your criterion."
+msgstr ""
+"Orsaka\n"
+" Nei inngangur."
+
+#: kab_topwidget.cc:1422
+#, fuzzy
+msgid "No hits"
+msgstr "Nei"
+
+#: kab_kab1importer.cc:196
+#, fuzzy
+msgid "Home"
+msgstr "Heim"
+
+#: kab_kab1importer.cc:238
+msgid "Imported kab 1 addressbook."
+msgstr ""
+
+#: kab_kab1importer.cc:277
+#, fuzzy
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"tann fíla\n"
+"."
+
+#: kab_kab1importer.cc:291
+#, fuzzy
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"tann fíla\n"
+" broytt fíla."
+
+#: kab_kab1importer.cc:306
+#, fuzzy
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"tann inngangar\n"
+" broytt fíla."
+
+#: kab_kab1importer.cc:334
+#, fuzzy
+msgid "Warning: There were errors importing the KDE 1 address database.\n"
+msgstr ""
+"Ávaring villur tann\n"
+" adressa/atsetur\n"
+
+#: kab_kab1importer.cc:339
+#, fuzzy
+msgid ""
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
+msgstr ""
+"til tann inngangar\n"
+" adressa/atsetur til fíla\n"
+" til."
+
+#: kab_netscape_io.cc:101
+#, fuzzy
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr "útflyt"
+
+#: kab_netscape_io.cc:102
+msgid "All files"
+msgstr ""
+
+#: kab_netscape_io.cc:104
+#, fuzzy
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr "Innflyt útflyt."
+
+#: kab_netscape_io.cc:112
+#, fuzzy, c-format
+msgid "Unable to read the file %1."
+msgstr "til tann fíla."
+
+#: kab_netscape_io.cc:126
+msgid "Entry imported on %1 from '%2'"
+msgstr ""
+
+#: kab_netscape_io.cc:141
+msgid "Main contact information"
+msgstr ""
+
+#: kab_netscape_io.cc:179
+#, fuzzy, c-format
+msgid "Nickname: %1"
+msgstr "Eyknevni"
+
+#: kab_netscape_io.cc:185
+msgid "Mailformat: Text"
+msgstr ""
+
+#: kab_netscape_io.cc:186
+msgid "Mailformat: HTML"
+msgstr ""
+
+#: kab_netscape_io.cc:193
+#, fuzzy, c-format
+msgid "Last modified: %1"
+msgstr "broytt"
+
+#: kab_netscape_io.cc:292
+msgid "%1 addresses imported."
+msgstr ""
+
+#: kab_netscape_io.cc:294
+#, fuzzy
+msgid "No addresses imported."
+msgstr "Nei."
+
+#: kab_printmethods.cc:213
+msgid "Printing finished."
+msgstr ""
+
+#: kab_printmethods.cc:215
+msgid "Printing failed."
+msgstr ""
+
+#: kab_printmethods.cc:331
+#, fuzzy
+msgid "Email address:"
+msgstr "Teldupostadressa:"
+
+#: kab_printmethods.cc:332
+#, fuzzy
+msgid "Email addresses:"
+msgstr "Teldupostur:"
+
+#: kab_printmethods.cc:344
+msgid "Telephone:"
+msgstr ""
+
+#: kab_printmethods.cc:345
+msgid "Telephones:"
+msgstr ""
+
+#: kab_printmethods.cc:366
+#, fuzzy
+msgid "Web Page:"
+msgstr "Síða:"
+
+#: kab_printmethods.cc:367
+msgid "Web Pages:"
+msgstr ""
+
+#: kab_printmethods.cc:378
+#, fuzzy
+msgid "Talk Address:"
+msgstr "Adressa:"
+
+#: kab_printmethods.cc:379
+msgid "Talk Addresses:"
+msgstr ""
+
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
+#, fuzzy
+msgid "Address:"
+msgstr "Adressa:"
+
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
+msgid "Addresses:"
+msgstr ""
+
+#: kab_printmethods.cc:527
+#, fuzzy
+msgid "Unnamed address:"
+msgstr "adressa/atsetur:"
+
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
+#, fuzzy
+msgid "(Deliver to:)"
+msgstr "til"
+
+#: kab_htmlexport.cc:315
+#, fuzzy
+msgid ""
+"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
+"customized version of the template files delivered with your kab "
+"installation at another point.</qt>"
+msgstr "<qt><b> Ávaring</b><br> ein/eitt tann formur</qt>"
+
+#: kab_htmlexport.cc:320
+#, fuzzy
+msgid "HTML Export Templates"
+msgstr "Útflyt"
+
+#: kab_htmlexport.cc:326
+msgid "Select Template Folder"
+msgstr ""
+
+#: kab_htmlexport.cc:340
+msgid "Select Target Folder"
+msgstr ""
+
+#: kab_htmlexport.cc:389
+#, fuzzy
+msgid "You have to specify both a template and a target folder!"
+msgstr "til ein/eitt formur ein/eitt mál fíluskrá!"
+
+#: kab_htmlexport.cc:390
+msgid "Corrections needed"
+msgstr ""
+
+#: kab_htmlexport.cc:444
+#, fuzzy
+msgid ""
+"<qt>At least one <b>resource file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
+"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+msgstr ""
+"<qt> ein<b> fíla</b> til útflyt adressa/atsetur til Hald áfram<br><br><i> "
+"tann</i></qt>"
+
+#: kab_htmlexport.cc:449
+#, fuzzy
+msgid ""
+"<qt>At least one <b>template file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
+"to create the HTML files themselves. The HTML export will most probably not "
+"work without it.)</i></qt>"
+msgstr ""
+"<qt> ein<b> formur fíla</b> til útflyt adressa/atsetur til Hald "
+"áfram<br><br><i> ein/eitt til ger tann útflyt uttan</i></qt>"
+
+#: kab_htmlexport.cc:489
+msgid "Missing Resource"
+msgstr ""
+
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
+msgid "Cancelled."
+msgstr ""
+
+#: kab_htmlexport.cc:501
+msgid "Missing Template"
+msgstr ""
+
+#: kab_htmlexport.cc:540
+#, fuzzy
+msgid ""
+"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
+"by insufficient permissions in the target directory or failures in the setup "
+"of your KDE 2 installation.<br><br>If you created your own template folder, "
+"mistakes in there may also cause errors. As a last possibility, the KDE "
+"address book may be buggy, too :-(.</qt>"
+msgstr ""
+"<qt><b> Orsaka</b><br><br> til tann mál fíluskrá tann uppseting<br><br> "
+"formur fíluskrá villur ein/eitt seinasta tann adressa/atsetur</qt>"
+
+#: kab_htmlexport.cc:548
+#, fuzzy
+msgid "Error exporting to HTML"
+msgstr "Feilur til"
+
+#: kab_createnew.cc:37 kab_openfile.cc:37
+#, fuzzy
+msgid "Could not find the users home directory."
+msgstr "tann fíluskrá."
+
+#: kab_createnew.cc:38 kab_openfile.cc:38
+#, fuzzy
+msgid "Intern error!"
+msgstr "villa!"
+
+#: kab_createnew.cc:56 kab_openfile.cc:54
+msgid "Only local files supported yet."
+msgstr ""
+
+#: kab_createnew.cc:69
+#, fuzzy
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"fíla ein/eitt fíluskrá\n"
+"\n"
+" til til ger tann fíla."
+
+#: kab_createnew.cc:85
+#, fuzzy
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+"\n"
+" broytt til"
+
+#: kab_createnew.cc:87
+msgid "Note"
+msgstr ""
+
+#: kab_createnew.cc:94
+#, fuzzy
+msgid "The file could not be created, possibly permission denied."
+msgstr "fíla."
+
+#: kab_createnew.cc:95 kab_save.cc:56
+#, fuzzy
+msgid "kab: File error"
+msgstr "Fíla"
+
+#: kab_createnew.cc:103
+#, fuzzy
+msgid "The file has been created, but could not be loaded."
+msgstr "fíla."
+
+#: kab_openfile.cc:39
+#, fuzzy
+msgid "Could not find the users home directory"
+msgstr "tann"
+
+#: kab_openfile.cc:66
+#, fuzzy
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"fíla ein/eitt fíluskrá\n"
+" til ger ein/eitt ein\n"
+" fíla til."
+
+#: kab_openfile.cc:80
+#, fuzzy
+msgid "The file could not be loaded."
+msgstr "fíla."
+
+#: kab_save.cc:34 kab_save.cc:48
+#, fuzzy
+msgid "Internal error."
+msgstr "villa."
+
+#: kab_save.cc:42
+msgid "Entry stored."
+msgstr ""
+
+#: kab_save.cc:55
+#, fuzzy
+msgid "The file could not be saved (permission denied)."
+msgstr "fíla."
+
+#: kab_save.cc:59
+#, fuzzy
+msgid "File saved."
+msgstr "Fíla goymd."
+
+#: look_businesscard.cc:173
+msgid "email: "
+msgstr ""
+
+#: look_businesscard.cc:190
+msgid "tel: "
+msgstr ""
+
+#: look_details.cc:43
+#, fuzzy
+msgid "Show postal addresses"
+msgstr "Rætta"
+
+#: look_details.cc:44
+#, fuzzy
+msgid "Show email addresses"
+msgstr "Nei."
+
+#: look_details.cc:45
+#, fuzzy
+msgid "Show telephone numbers"
+msgstr "Rætta"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr ""
+
+#: look_details.cc:190
+#, fuzzy
+msgid "Select background"
+msgstr "bakgrundini"
+
+#: look_details.cc:191
+#, fuzzy
+msgid "Bordered backgrounds"
+msgstr "bakgrundini"
+
+#: look_details.cc:192
+#, fuzzy
+msgid "Tiled backgrounds"
+msgstr "bakgrundini"
+
+#: look_edit.cc:33
+msgid "User fields"
+msgstr ""
+
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
+#: look_edit_tabuser.cc:48
+#, fuzzy
+msgid "General failure."
+msgstr "Almen."
+
+#: dialog_configurefile.cc:126 look_edit.cc:67
+#, fuzzy
+msgid "(User Fields)"
+msgstr "brúkarafelt"
+
+#: look_edit.cc:71
+msgid "&Person"
+msgstr ""
+
+#: look_edit.cc:72
+msgid "&Telephone"
+msgstr ""
+
+#: look_edit.cc:73
+msgid "&Addresses"
+msgstr ""
+
+#: look_edit.cc:74
+msgid "&Birthday"
+msgstr ""
+
+#: look_edit.cc:75
+#, fuzzy
+msgid "Co&mment"
+msgstr "Viðmerking"
+
+#: look_edit_tabperson.cc:40
+#, fuzzy
+msgid "Email Addresses..."
+msgstr "Teldupostur."
+
+#: look_edit_tabperson.cc:41
+#, fuzzy
+msgid "Talk Addresses..."
+msgstr "Adressa:"
+
+#: look_edit_tabperson.cc:42
+msgid "URLs..."
+msgstr ""
+
+#: look_edit_tabperson.cc:65
+msgid "Formatted name:"
+msgstr ""
+
+#: look_edit_tabperson.cc:68
+#, fuzzy
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if <b>kab</"
+"b> assembles it in the wrong way.</qt>"
+msgstr "<qt> tann<i></i> tann<b></b> tann</qt>"
+
+#: look_edit_tabperson.cc:78
+msgid "First name:"
+msgstr ""
+
+#: look_edit_tabperson.cc:80
+msgid "Middle name:"
+msgstr ""
+
+#: look_edit_tabperson.cc:82
+msgid "Last name:"
+msgstr ""
+
+#: look_edit_tabperson.cc:99
+#, fuzzy
+msgid "Name prefix:"
+msgstr "Navn:"
+
+#: look_edit_tabperson.cc:101
+msgid "Title:"
+msgstr ""
+
+#: look_edit_tabperson.cc:103
+msgid "Rank:"
+msgstr ""
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
+#, fuzzy
+msgid "Edit Email Addresses"
+msgstr "Rætta"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
+#, fuzzy
+msgid "Edit Talk Addresses"
+msgstr "Rætta"
+
+#: look_edit_tabperson.cc:228
+#, fuzzy
+msgid "Edit URLs"
+msgstr "Rætta"
+
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
+msgstr ""
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
+msgid "User field 1:"
+msgstr ""
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
+msgid "User field 2:"
+msgstr ""
+
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
+msgid "User field 3:"
+msgstr ""
+
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
+msgid "User field 4:"
+msgstr ""
+
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
+msgid "(User field 1)"
+msgstr ""
+
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
+msgid "(User field 2)"
+msgstr ""
+
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
+msgid "(User field 3)"
+msgstr ""
+
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
+msgid "(User field 4)"
+msgstr ""
+
+#: look_edit_tabcontact.cc:31
+#, fuzzy
+msgid "Edit URLs (internet addresses)"
+msgstr "Rætta"
+
+#: look_edit_tabcontact.cc:32
+#, fuzzy
+msgid "Edit Telephone Numbers"
+msgstr "Rætta"
+
+#: look_edit_tabaddresses.cc:222
+#, fuzzy
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See <b>Edit-"
+">Configure this file</b>.</qt>"
+msgstr "<qt><br><b> Rætta Set upp fíla</b></qt>"
+
+#: look_edit_tabaddresses.cc:224
+#, fuzzy
+msgid "A Note"
+msgstr "viðmerking/gevið gætur"
+
+#: look_edit_tabaddresses.cc:246
+#, fuzzy
+msgid "Really delete this address?"
+msgstr "adressa/atsetur?"
+
+#: look_edit_tabaddresses.cc:308
+msgid "Organization"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:44
+msgid "Fixed:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:45
+msgid "Mobile:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fax:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:47
+msgid "Modem:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:48
+msgid "User defined 1:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:49
+msgid "User defined 2:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 3:"
+msgstr ""
+
+#: look_edit_tabtelephone.cc:62
+#, fuzzy
+msgid "Type"
+msgstr "Slag"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Number"
+msgstr ""
+
+#: widget_editstringlist.cc:39
+#, fuzzy
+msgid "Add a new string"
+msgstr "Legg afturat ein/eitt"
+
+#: widget_editstringlist.cc:40
+#, fuzzy
+msgid "Move this string up"
+msgstr "Flyta"
+
+#: widget_editstringlist.cc:41
+#, fuzzy
+msgid "Move this string down"
+msgstr "Flyta"
+
+#: widget_editstringlist.cc:42
+#, fuzzy
+msgid "Delete this string"
+msgstr "Sletta"
+
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
+#: dialog_editentry.cc:73
+msgid "Accepted."
+msgstr ""
+
+#: dialog_editentry.cc:68
+#, fuzzy
+msgid "Edit Entry"
+msgstr "Rætta"
+
+#: dialog_configurefile.cc:47
+#, fuzzy
+msgid "Cannot query configuration data."
+msgstr "samanseting."
+
+#: dialog_configurefile.cc:48
+msgid "Internal failure"
+msgstr ""
+
+#: dialog_configurefile.cc:64
+#, fuzzy
+msgid "Settings applied."
+msgstr "Uppseting."
+
+#: dialog_configurefile.cc:91
+msgid "Tab name"
+msgstr ""
+
+#: dialog_configurefile.cc:150
+msgid "User Fields"
+msgstr ""
+
+#: dialog_configurefile.cc:162
+#, fuzzy
+msgid "Address types"
+msgstr "Adressa"
+
+#: dialog_configurefile.cc:186
+#, fuzzy
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"uppseting\n"
+" til til fíla."
+
+#: dialog_configurekab.cc:35
+#, fuzzy
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+"samanseting fíla\n"
+" kann ikki."
+
+#: dialog_configurekab.cc:37
+msgid "Fatal error"
+msgstr ""
+
+#: dialog_configurekab.cc:38
+#, fuzzy
+msgid "Configuration file corrupt."
+msgstr "Uppseting fíla."
+
+#: dialog_configurekab.cc:56
+#, fuzzy
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+"villa\n"
+"."
+
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
+#, fuzzy
+msgid "Error saving preferences."
+msgstr "Feilur."
+
+#: dialog_configurekab.cc:61
+#, fuzzy
+msgid "KDE address book preferences."
+msgstr "adressa/atsetur."
+
+#: dialog_configurekab.cc:63
+msgid "Preferences saved."
+msgstr ""
+
+#: dialog_configurekab.cc:67
+#, fuzzy
+msgid ""
+"Cannot save your preferences.\n"
+"You may not have permission to write the file."
+msgstr ""
+"\n"
+" til tann fíla."
+
+#: dialog_configurekab.cc:86
+#, fuzzy
+msgid "Remember last selected view"
+msgstr "seinasta"
+
+#: dialog_configurekab.cc:88
+#, fuzzy
+msgid "Remember last selected entry"
+msgstr "seinasta"
+
+#: dialog_configurekab.cc:90
+#, fuzzy
+msgid "Show assembled name in window title"
+msgstr "gluggi"
+
+#: dialog_configurekab.cc:92
+#, fuzzy
+msgid "Create backup file on startup"
+msgstr "fíla"
+
+#: dialog_configurekab.cc:93
+#, fuzzy
+msgid "General Settings"
+msgstr "Almen"
+
+#: dialog_insinuation.cc:29
+msgid "Organization:"
+msgstr ""
+
+#: dialog_insinuation.cc:30
+#, fuzzy
+msgid "Department:"
+msgstr "Deild:"
+
+#: dialog_insinuation.cc:31
+#, fuzzy
+msgid "Sub-Department:"
+msgstr "Deild:"
+
+#: kab_entrylist.cc:49
+#, fuzzy
+msgid "..."
+msgstr "..."
+
+#: kab_entrylist.cc:75
+#, fuzzy
+msgid "No match."
+msgstr "Nei."
+
+#: kab_entrylist.cc:88
+msgid "Calculating..."
+msgstr ""
+
+#: kab_entrylist.cc:104
+#, fuzzy
+msgid "(Disabled)"
+msgstr "Ógildað"
+
+#: kab_entrylist.cc:107
+#, fuzzy
+msgid "Error creating index for incremental search."
+msgstr "Feilur leita."
+
+#: kab_entrylist.cc:108
+#, fuzzy
+msgid "Incremental search disabled."
+msgstr "leita."
+
+#: kab_entrylist.cc:157
+#, fuzzy
+msgid "(No items to search)"
+msgstr "Nei til leita"
