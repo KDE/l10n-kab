@@ -1,18 +1,18 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Anders Widell <d95-awi@nada.kth.se>, 1998.
-# Mattias Newzella <newzella@swipnet.se>, 2000-2001.
+# Mattias Newzella <newzella@linux.nu>, 2000, 2001, 2002.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
-"PO-Revision-Date: 2001-05-19 11:19\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
+"PO-Revision-Date: 2002-03-23 11:38GMT\n"
 "Last-Translator: Mattias Newzella <newzella@linux.nu>\n"
-"Language-Team: Swedish <swedoc-request@lists.lysator.liu.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.8\n"
+"X-Generator: KBabel 0.9.5\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -28,7 +28,7 @@ msgstr "Exportera adresser tillsammans med poster"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
-msgstr "Hur ska jag exportera dina adresser?"
+msgstr "Hur ska dina adresser exporteras?"
 
 #: rc.cpp:5
 msgid "Address and person in one line"
@@ -72,17 +72,19 @@ msgstr "Postlista"
 
 #: rc.cpp:15
 msgid ""
-"<qt>Search entries by entering<br> - one of their <b>e-mail "
-"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+"<qt>Search entries by entering"
+"<br> - one of their <b>email addresses</b>"
+"<br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
-"<qt>Sök poster genom att ange<br> antingen <b>e-postadresser "
-"</b><br><b>förnamnet</b> eller<br><b>efternamnet</b></qt>"
+"<qt>Sök poster genom att ange"
+"<br> - antingen <b>e-postadresser</b>"
+"<br> - <b>förnamnet</b> eller<br> - <b>efternamnet</b></qt>"
 
 #: rc.cpp:17
 msgid "<qt>Select an entry to display it.</qt>"
 msgstr "<qt>Välj en post för att visa den.</qt>"
 
-#: kab_htmlexport.cc:380 rc.cpp:18
+#: kab_htmlexport.cc:377 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Ställ in HTML-export"
 
@@ -158,11 +160,11 @@ msgstr "Alternativ:"
 
 #: rc.cpp:40
 msgid "Case sensitive search"
-msgstr "Storlekskänslig sökning"
+msgstr "Skiftlägeskänslig sökning"
 
 #: rc.cpp:41
 msgid "Check this box if you want to do a case-sensitive search."
-msgstr "Markera den här rutan om du vill göra en storlekskänslig sökning."
+msgstr "Markera den här rutan om du vill göra en skiftlägeskänslig sökning."
 
 #: rc.cpp:42
 msgid "Expressions"
@@ -177,8 +179,8 @@ msgid ""
 "Check this button if you use widlcards in your expression (as in shell "
 "commands)."
 msgstr ""
-"Markera den knappen om du använder jokertecken i ditt uttryck (som i "
-"skalkommandon."
+"Markera den här knappen om du använder jokertecken i ditt uttryck (som i "
+"skalkommandon)."
 
 #: rc.cpp:45
 msgid "Regular expressions"
@@ -222,43 +224,43 @@ msgstr "Gatuadress:"
 msgid "Job title:"
 msgstr "Jobbtitel:"
 
-#: look_edit_tabaddresses.cc:337 rc.cpp:56
-msgid "Delivery label"
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+msgid "Delivery Label"
 msgstr "Leveransetikett"
 
-#: kab_main.cc:31 kab_main.cc:38
+#: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
 msgstr "KDE-adressbok"
 
-#: kab_main.cc:51
+#: kab_main.cc:49
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b>"
+"<b>File->Import->KDE 1 Addressbook</b>"
 " to use your old database with the new version.</qt>"
 msgstr ""
 "<qt>Version 2 av KDE:s adressbok är inte kompatibel med den föregående. "
-"För att skydda din adressdatabas, kommer en ny fil att användas. Kör "
+"För att skydda din adressdatabas kommer en ny fil att användas. Använd "
 "<b>Arkiv->Importera->KDE1-adressbok</b> för att använda din gamla databas "
 "med den nya versionen.</qt>"
 
-#: kab_main.cc:56
-msgid "new format"
-msgstr "nytt format"
+#: kab_main.cc:54
+msgid "New Format"
+msgstr "Nytt format"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
-#: look_edit_tabuser.cc:49
+#: look_edit_tabuser.cc:47
 msgid "Out of memory."
 msgstr "Slut på minne."
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
 msgid "General failure"
 msgstr "Allmänt fel"
 
-#: kab_topwidget.cc:93
+#: kab_topwidget.cc:82
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
@@ -268,116 +270,120 @@ msgstr ""
 "KDE:s adressbok fungerar inte utan den.\n"
 "Programmet kommer att avslutas."
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
 msgid "Database error"
 msgstr "Databasfel"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:197
 msgid "Welcome to kab 2.1"
 msgstr "Välkommen till Kab 2.1"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:198
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE-adressbok 2.1"
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:199
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Skriven av Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:200
 msgid "Visit www.kde.org for the latest news."
 msgstr "Besök www.kde.org för de senaste nyheterna."
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:271
 msgid "&Export to HTML..."
 msgstr "&Exportera till HTML..."
 
-#: kab_topwidget.cc:282
-msgid "&First entry"
+#: kab_topwidget.cc:275
+msgid "&First Entry"
 msgstr "&Första posten"
 
-#: kab_topwidget.cc:286
-msgid "&Previous entry"
+#: kab_topwidget.cc:279
+msgid "&Previous Entry"
 msgstr "Föregående &post"
 
-#: kab_topwidget.cc:290
-msgid "&Next entry"
+#: kab_topwidget.cc:283
+msgid "&Next Entry"
 msgstr "&Nästa post"
 
-#: kab_topwidget.cc:294
-msgid "&Last entry"
+#: kab_topwidget.cc:287
+msgid "&Last Entry"
 msgstr "&Sista posten"
 
-#: kab_topwidget.cc:298
-msgid "&Add entry..."
+#: kab_topwidget.cc:291
+msgid "&Add Entry..."
 msgstr "&Lägg till post..."
 
-#: kab_topwidget.cc:302
-msgid "&Edit entry..."
+#: kab_topwidget.cc:295
+msgid "&Edit Entry..."
 msgstr "R&edigera post..."
 
-#: kab_topwidget.cc:306
-msgid "&Remove entry"
+#: kab_topwidget.cc:299
+msgid "&Remove Entry"
 msgstr "&Ta bort post"
 
-#: kab_topwidget.cc:310
-msgid "Send an e&mail"
+#: kab_topwidget.cc:303
+msgid "Send an E&mail"
 msgstr "Skicka &e-post"
 
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:307
 msgid "&Browse"
 msgstr "&Bläddra"
 
-#: kab_topwidget.cc:318
-msgid "&Search entries..."
+#: kab_topwidget.cc:311
+msgid "&Search Entries..."
 msgstr "&Sök efter poster..."
 
-#: kab_topwidget.cc:322
-msgid "Show search results"
+#: kab_topwidget.cc:315
+msgid "Show Search Results"
 msgstr "Visa sökresultat"
 
-#: kab_topwidget.cc:327
-msgid "Show main toolbar"
+#: kab_topwidget.cc:320
+msgid "Show Main Toolbar"
 msgstr "Visa huvudverktygsraden"
 
-#: kab_topwidget.cc:332
-msgid "Show entry navigation toolbar"
+#: kab_topwidget.cc:325
+msgid "Show Entry Navigation Toolbar"
 msgstr "Visa verktygsrad för postnavigering"
 
-#: kab_topwidget.cc:337
-msgid "Show entry navigation list"
+#: kab_topwidget.cc:330
+msgid "Show Entry Navigation List"
 msgstr "Visa postnavigeringslista"
 
-#: kab_topwidget.cc:342
-msgid "Print entry..."
+#: kab_topwidget.cc:335
+msgid "Print Entry..."
 msgstr "Skriv ut post..."
 
-#: kab_topwidget.cc:346
-msgid "Print entries..."
+#: kab_topwidget.cc:339
+msgid "Print Entries..."
 msgstr "Skriv ut poster..."
 
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:343
 msgid "&Editing"
 msgstr "&Redigering"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:347
 msgid "&Business Card"
 msgstr "&Visitkort"
 
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr "Detaljerad vy"
+
 #: kab_topwidget.cc:377
-msgid "&KDE 1 address book"
+msgid "&KDE 1 Address Book"
 msgstr "&KDE1-adressbok"
 
 #: kab_topwidget.cc:379
-msgid "&Netscape address book"
+msgid "&Netscape Address Book"
 msgstr "&Netscape-adressbok"
 
 #: kab_topwidget.cc:386
-msgid "&Create new database..."
+msgid "&Create New Database..."
 msgstr "&Skapa ny databas..."
 
 #: kab_topwidget.cc:390
-msgid "Open default &database"
+msgid "Open Default &Database"
 msgstr "Öppna standard&databas"
 
 #: kab_topwidget.cc:394
@@ -389,18 +395,18 @@ msgid "&Print"
 msgstr "&Skriv ut"
 
 #: kab_topwidget.cc:410
-msgid "Enable all &messages"
+msgid "Enable all &Messages"
 msgstr "Aktivera alla &meddelanden"
 
 #: kab_topwidget.cc:412
-msgid "&Configure this file..."
+msgid "&Configure this File..."
 msgstr "&Anpassa den här filen..."
 
 #: kab_topwidget.cc:415
-msgid "&Preferences for the KDE address book..."
+msgid "&Preferences for KDE Address Book..."
 msgstr "&Inställningar för KDE:s adressbok..."
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:538
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
@@ -410,7 +416,7 @@ msgstr ""
 "KDE:s adressbok fungerar inte utan det.\n"
 "Programmet kommer att avslutas."
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:570
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -420,69 +426,73 @@ msgstr ""
 "Spara ändringar?\n"
 "(Osparade ändringar kommer att gå förlorade.)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:572
 msgid "Save changes?"
 msgstr "Spara ändringar?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
 msgid "Error changing the entry."
 msgstr "Fel vid ändring av post."
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:609
 msgid "No entries."
 msgstr "Inga poster."
 
-#: kab_topwidget.cc:726
+#: kab_topwidget.cc:727
 msgid "Cannot locate default database."
 msgstr "Kan inte lokalisera standarddatabas."
 
-#: kab_topwidget.cc:727
+#: kab_topwidget.cc:728
 msgid "Critical failure"
 msgstr "Kritiskt fel"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:733
 msgid "The standard file could not be loaded."
 msgstr "Standardfilen kunde inte laddas."
 
-#: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
 msgid "File error"
 msgstr "Filfel"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:750
 msgid "Business card view."
 msgstr "Visitkortsvy."
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:762
 msgid "Editing view."
 msgstr "Redigeringsvy."
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr "Detaljerad vy."
+
+#: kab_topwidget.cc:782
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
-"Det här kommer att återaktivera alla meddelanden som du avaktiverade "
+"Det här kommer att återaktivera alla meddelanden som du inaktiverade "
 "förut.\n"
 "Fortsätta?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:784
 msgid "Enable messages?"
 msgstr "Aktivera meddelanden?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:803
 msgid "New entry added."
 msgstr "Ny post tillagd."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:804
 msgid "Saving new entry."
 msgstr "Sparar ny post."
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:806
 msgid "Done."
 msgstr "Klar."
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:827
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
@@ -492,7 +502,7 @@ msgstr ""
 "Behörighet saknas.\n"
 "Du kanske inte har behörighet att skriva till den här filen."
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:835
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -500,122 +510,118 @@ msgstr ""
 "Kan inte lägga till den nya posten.\n"
 "Okänd orsak."
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:841
 msgid "No entry added."
 msgstr "Ingen post tillagd."
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:859
 msgid "Really remove this entry?"
 msgstr "Vill du verkligen ta bort den här posten?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
 msgid "Question"
 msgstr "Fråga"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:866
 msgid "Entry deleted."
 msgstr "Post raderad."
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:868
 msgid "Database saved."
 msgstr "Databas sparad."
 
-#: kab_topwidget.cc:860
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
-msgstr ""
-"Kunde inte ta bort posten\n"
-"(förmodligen nekad åtkomst)."
+#: kab_topwidget.cc:875
+msgid "Could not delete the entry (probably permission denied)."
+msgstr "Kunde inte ta bort posten (förmodligen nekad åtkomst)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
 msgid "Permission denied."
 msgstr "Åtkomst nekas."
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:940
 msgid "Send an email"
 msgstr "Skicka e-post"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:949
 msgid "No email addresses."
 msgstr "Inga e-postadresser."
 
-#: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
 msgid "Rejected."
 msgstr "Avvisad."
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:994
 msgid "Browse to ..."
-msgstr "Bläddra till ..."
+msgstr "Bläddra till..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1003
 msgid "No URLs."
 msgstr "Inga webbadresser."
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1070
 msgid "Restoring last view."
 msgstr "Återställer senaste vy."
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1072
 msgid "Not restoring last view."
 msgstr "Återställer inte senaste vy."
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1083
 msgid "Remembering last entry."
 msgstr "Kommer ihåg senaste post."
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1085
 msgid "Not remembering last entry."
 msgstr "Kommer inte ihåg senaste post."
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1096
 msgid "Displaying assembled name in window title."
 msgstr "Visar ihopsatt namn i fönstertitel."
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1098
 msgid "Not displaying assembled name in window title."
 msgstr "Visar inte ihopsatt namn i fönstertitel."
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1109
 msgid "Creating backup file on startup."
 msgstr "Skapar en säkerhetskopia vid uppstart."
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1111
 msgid "Not creating a backup file on startup."
 msgstr "Skapar inte en säkerhetskopia vid uppstart."
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1258
 msgid "Search entries"
 msgstr "Sök efter poster"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
 msgid "(ERROR)"
 msgstr "(FEL)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1320
 msgid "Could not get an overview over the existing entries."
 msgstr "Kunde inte få en överblick av de existerande posterna."
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
 msgid "Internal Error"
 msgstr "Internt fel"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
 msgid "Could not query an existing entry."
 msgstr "Kunde inte förfråga en existerande post."
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid "Search results ("
 msgstr "Sökresultat ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid " hits):"
 msgstr " träffar):"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1421
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
@@ -623,27 +629,27 @@ msgstr ""
 "Tyvärr!\n"
 "Ingen post matchade ditt kriteria."
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1422
 msgid "No hits"
 msgstr "Inga träffar"
 
-#: kab_kab1importer.cc:197
+#: kab_kab1importer.cc:196
 msgid "Home"
 msgstr "Hem"
 
-#: kab_kab1importer.cc:239
+#: kab_kab1importer.cc:238
 msgid "Imported kab 1 addressbook."
 msgstr "Importerad Kab1-adressbok."
 
-#: kab_kab1importer.cc:278
+#: kab_kab1importer.cc:277
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
 msgstr ""
 "Kunde inte komma åt Kab1:s databasfil.\n"
-"Du har antagligen aldrig använt kab1."
+"Du har antagligen aldrig använt Kab1."
 
-#: kab_kab1importer.cc:292
+#: kab_kab1importer.cc:291
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
@@ -651,7 +657,7 @@ msgstr ""
 "Kunde inte läsa Kab1:s databasfil.\n"
 "Du har antagligen ändrat din databasfil manuellt."
 
-#: kab_kab1importer.cc:307
+#: kab_kab1importer.cc:306
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
@@ -659,240 +665,249 @@ msgstr ""
 "Kunde inte hitta postsektionen i din databas.\n"
 "Du har antagligen ändrat din databasfil manuellt."
 
-#: kab_kab1importer.cc:335
-msgid ""
-"Warning: There were errors importing the KDE 1\n"
-"address database.\n"
-"\n"
-msgstr ""
-"Varning: Det uppstod fel när KDE1:s\n"
-"adressdatabas importerades.\n"
-"\n"
+#: kab_kab1importer.cc:334
+msgid "Warning: There were errors importing the KDE 1 address database.\n"
+msgstr "Varning: Det uppstod fel när KDE1:s adressdatabas importerades.\n"
 
-#: kab_kab1importer.cc:340
+#: kab_kab1importer.cc:339
 msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
 msgstr ""
-"Vill du verkligen lägga till posterna från din\n"
-"KDE1-adressbok till den här filen?\n"
+"Vill du verkligen lägga till posterna från din KDE1-adressbok till den "
+"här filen?\n"
 "Du kommer inte att kunna ångra de här ändringarna."
 
-#: kab_netscape_io.cc:104
+#: kab_netscape_io.cc:101
 msgid "Netscape Messenger addressbook export files (*.ldif)"
 msgstr "Exportfiler för Netscape Messenger-adressbok (*.ldif)"
 
-#: kab_netscape_io.cc:105
+#: kab_netscape_io.cc:102
 msgid "All files"
 msgstr "Alla filer"
 
-#: kab_netscape_io.cc:107
+#: kab_netscape_io.cc:104
 msgid "Import Netscape Messanger addressbook export files..."
 msgstr "Importera exportfiler för Netscape Messenger-adressbok..."
 
-#: kab_netscape_io.cc:115
+#: kab_netscape_io.cc:112
 #, c-format
 msgid "Unable to read the file %1."
 msgstr "Kunde inte läsa filen %1."
 
-#: kab_netscape_io.cc:129
+#: kab_netscape_io.cc:126
 msgid "Entry imported on %1 from '%2'"
-msgstr "Post importerad på %1 från '%2'"
+msgstr "Post importerad på %1 från \"%2\""
 
-#: kab_netscape_io.cc:144
+#: kab_netscape_io.cc:141
 msgid "Main contact information"
 msgstr "Huvudsaklig kontaktinformation"
 
-#: kab_netscape_io.cc:182
+#: kab_netscape_io.cc:179
 #, c-format
 msgid "Nickname: %1"
 msgstr "Smeknamn: %1"
 
-#: kab_netscape_io.cc:188
+#: kab_netscape_io.cc:185
 msgid "Mailformat: Text"
 msgstr "Brevformat: Text"
 
-#: kab_netscape_io.cc:189
+#: kab_netscape_io.cc:186
 msgid "Mailformat: HTML"
 msgstr "Brevformat: HTML"
 
-#: kab_netscape_io.cc:196
+#: kab_netscape_io.cc:193
 #, c-format
 msgid "Last modified: %1"
 msgstr "Senast ändrad: %1"
 
-#: kab_netscape_io.cc:295
+#: kab_netscape_io.cc:292
 msgid "%1 addresses imported."
 msgstr "%1 adresser importerade."
 
-#: kab_netscape_io.cc:297
+#: kab_netscape_io.cc:294
 msgid "No addresses imported."
 msgstr "Inga adresser importerade."
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:213
 msgid "Printing finished."
 msgstr "Utskrift klar."
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:215
 msgid "Printing failed."
 msgstr "Utskriften misslyckades."
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:331
 msgid "Email address:"
 msgstr "E-postadress:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:332
 msgid "Email addresses:"
 msgstr "E-postadresser:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:344
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:345
 msgid "Telephones:"
 msgstr "Telefoner:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:366
 msgid "Web Page:"
 msgstr "Webbsida:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:367
 msgid "Web Pages:"
 msgstr "Webbsidor:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:378
 msgid "Talk Address:"
 msgstr "\"Talk\"-adress:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:379
 msgid "Talk Addresses:"
 msgstr "\"Talk\"-adresser:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Address:"
 msgstr "Adress:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Addresses:"
 msgstr "Adresser:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:527
 msgid "Unnamed address:"
 msgstr "Namnlös adress:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
 msgid "(Deliver to:)"
 msgstr "(Leverera till:)"
 
-#: kab_htmlexport.cc:318
+#: kab_htmlexport.cc:315
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+"<qt><b>Warning!</b>"
+"<br>Do not change this setting unless you installed a customized version of "
+"the template files delivered with your kab installation at another "
+"point.</qt>"
 msgstr ""
-"<qt><b>Varning!</b><br>Ändra inte den här inställningen om du inte "
-"installerade en anpassad version av mallfilerna som levererades med din "
-"kab-installation vid ett annat tillfälle.</qt>"
+"<qt><b>Varning!</b>"
+"<br>Ändra inte den här inställningen om du inte installerade en anpassad "
+"version av mallfilerna som levererades med din Kab-installation vid ett "
+"annat tillfälle.</qt>"
 
-#: kab_htmlexport.cc:323
+#: kab_htmlexport.cc:320
 msgid "HTML Export Templates"
 msgstr "HTML-exportmallar"
 
-#: kab_htmlexport.cc:329
+#: kab_htmlexport.cc:326
 msgid "Select Template Folder"
 msgstr "Välj mallkatalog"
 
-#: kab_htmlexport.cc:343
+#: kab_htmlexport.cc:340
 msgid "Select Target Folder"
 msgstr "Välj målkatalog"
 
-#: kab_htmlexport.cc:392
+#: kab_htmlexport.cc:389
 msgid "You have to specify both a template and a target folder!"
 msgstr "Du måste ange både en mall- och en målkatalog!"
 
-#: kab_htmlexport.cc:393
+#: kab_htmlexport.cc:390
 msgid "Corrections needed"
 msgstr "Korrigeringar behövs"
 
-#: kab_htmlexport.cc:447
+#: kab_htmlexport.cc:444
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Resources are used as support files like backgrounds or bullets in "
+"the resulting HTML files.)</i></qt>"
 msgstr ""
 "<qt>Minst en <b>resursfil</b> för export av adressboken till HTML saknas. "
-"Vill du fortsätta ändå?<br/><br/><i>"
-"(Resursfiler används som stödfiler, t ex bakgrunder och ikoner, i "
+"Vill du fortsätta ändå?"
+"<br/>"
+"<br/><i>(Resursfiler används som stödfiler, t ex bakgrunder och ikoner, i "
 "HTML-filerna.)</i></qt>"
 
-#: kab_htmlexport.cc:452
+#: kab_htmlexport.cc:449
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Templates are used as a basis to create the HTML files themselves. "
+"The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
 "<qt>Minst en <b>mallfil</b> för export av adressboken till HTML saknas. "
-"Vill du fortsätta ändå?<br/><br/><i>(Mallfiler används som grund för "
-"själva HTML-filerna. Export till HTML fungerar troligtvis inte untan "
-"dem.)</i></qt>"
+"Vill du fortsätta ändå?"
+"<br/>"
+"<br/><i>"
+"(Mallfiler används som grund för själva HTML-filerna. Export till HTML "
+"fungerar troligtvis inte utan dem.)</i></qt>"
 
-#: kab_htmlexport.cc:492
+#: kab_htmlexport.cc:489
 msgid "Missing Resource"
 msgstr "Resurs saknas"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
-#: kab_openfile.cc:53
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
 msgid "Cancelled."
 msgstr "Avbruten."
 
-#: kab_htmlexport.cc:504
+#: kab_htmlexport.cc:501
 msgid "Missing Template"
 msgstr "Mall saknas"
 
-#: kab_htmlexport.cc:543
+#: kab_htmlexport.cc:540
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b>"
+"<br>"
+"<br>Exporting to HTML failed. Problems might be caused by insufficient "
+"permissions in the target directory or failures in the setup of your KDE 2 "
+"installation."
+"<br>"
+"<br>If you created your own template folder, mistakes in there may also "
+"cause errors. As a last possibility, the KDE address book may be buggy, too "
+":-(.</qt>"
 msgstr ""
-"<qt><b>Tyvärr!</b><br/><br/>"
-"Export till HTML misslyckades. Problemet kan ha orsakats av otillräckliga "
-"rättigheter i målkatalogen eller fel vid installationen av KDE "
-"2.<br/><br/>Om du skapat en egen mallkatalog kan misstag i den ha orsakat "
-"felet. Problemet kan också vara ett fel i KDE:s adressbok. :-(</qt>"
+"<qt><b>Tyvärr!</b>"
+"<br/>"
+"<br/>Export till HTML misslyckades. Problemet kan ha orsakats av "
+"otillräcklig behörighet i målkatalogen eller fel vid installationen av "
+"KDE."
+"<br/>"
+"<br/>Om du skapat en egen mallkatalog kan misstag i den ha orsakat felet. "
+"Problemet kan också vara ett fel i KDE:s adressbok.</qt>"
 
-#: kab_htmlexport.cc:551
+#: kab_htmlexport.cc:548
 msgid "Error exporting to HTML"
-msgstr "Fel vid exportering till HTML"
+msgstr "Fel vid export till HTML"
 
-#: kab_createnew.cc:43 kab_openfile.cc:43
+#: kab_createnew.cc:37 kab_openfile.cc:37
 msgid "Could not find the users home directory."
 msgstr "Kunde inte hitta användarens hemkatalog."
 
-#: kab_createnew.cc:44 kab_openfile.cc:44
+#: kab_createnew.cc:38 kab_openfile.cc:38
 msgid "Intern error!"
 msgstr "Internt fel!"
 
-#: kab_createnew.cc:62 kab_openfile.cc:60
+#: kab_createnew.cc:56 kab_openfile.cc:54
 msgid "Only local files supported yet."
-msgstr "Än så länge stöds bara lokala filer."
+msgstr "För tillfället stöds endast lokala filer."
 
-#: kab_createnew.cc:75
+#: kab_createnew.cc:69
 msgid ""
 "This file is a directory, or it already exists.\n"
 "Please select another filename.\n"
 "You must have permission to write to create the new file."
 msgstr ""
 "Den här filen är en katalog, eller så finns den redan.\n"
-"Var god och välj ett annat filnamn.\n"
+"Välj ett annat filnamn.\n"
 "Du måste ha skrivbehörighet för att skapa den nya filen."
 
-#: kab_createnew.cc:91
+#: kab_createnew.cc:85
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
@@ -900,27 +915,27 @@ msgstr ""
 "Filnamnet hade inte ändelsen \".kab\".\n"
 "Det har blivit ändrat till %1\n"
 
-#: kab_createnew.cc:93
+#: kab_createnew.cc:87
 msgid "Note"
 msgstr "Observera"
 
-#: kab_createnew.cc:100
+#: kab_createnew.cc:94
 msgid "The file could not be created, possibly permission denied."
 msgstr "Filen kunde inte skapas, förmodligen nekad åtkomst."
 
-#: kab_createnew.cc:101 kab_save.cc:58
+#: kab_createnew.cc:95 kab_save.cc:56
 msgid "kab: File error"
 msgstr "Kab: filfel"
 
-#: kab_createnew.cc:109
+#: kab_createnew.cc:103
 msgid "The file has been created, but could not be loaded."
 msgstr "Filen har skapats, men kunde inte laddas."
 
-#: kab_openfile.cc:45
+#: kab_openfile.cc:39
 msgid "Could not find the users home directory"
 msgstr "Kunde inte hitta användarens hemkatalog"
 
-#: kab_openfile.cc:72
+#: kab_openfile.cc:66
 msgid ""
 "The file does not exist or is a directory.\n"
 "Use \"Create new database...\" to create a new one.\n"
@@ -930,75 +945,103 @@ msgstr ""
 "Använd \"Skapa ny databas...\" för att skapa en ny.\n"
 "Välj en existerande fil för att ladda den."
 
-#: kab_openfile.cc:86
+#: kab_openfile.cc:80
 msgid "The file could not be loaded."
 msgstr "Filen kunde inte laddas."
 
-#: kab_save.cc:36 kab_save.cc:50
+#: kab_save.cc:34 kab_save.cc:48
 msgid "Internal error."
 msgstr "Internt fel."
 
-#: kab_save.cc:44
+#: kab_save.cc:42
 msgid "Entry stored."
 msgstr "Post lagrad."
 
-#: kab_save.cc:57
+#: kab_save.cc:55
 msgid "The file could not be saved (permission denied)."
 msgstr "Filen kunde inte sparas (åtkomst nekas)."
 
-#: kab_save.cc:61
+#: kab_save.cc:59
 msgid "File saved."
 msgstr "Filen sparad."
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:173
 msgid "email: "
 msgstr "e-post: "
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:190
 msgid "tel: "
 msgstr "tel: "
 
-#: look_edit.cc:36
-msgid "User Fields"
+#: look_details.cc:43
+msgid "Show postal addresses"
+msgstr "Visa postadresser"
+
+#: look_details.cc:44
+msgid "Show email addresses"
+msgstr "Visa e-postadresser"
+
+#: look_details.cc:45
+msgid "Show telephone numbers"
+msgstr "Visa telefonnummer"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr "Visa webbsidor (URL)"
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr "Välj bakgrund"
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr "Bakgrund med kanter"
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr "Mönstrad bakgrund"
+
+#: look_edit.cc:33
+msgid "User fields"
 msgstr "Användarfält"
 
-#: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
-#: look_edit_tabuser.cc:50
+#: look_edit_tabuser.cc:48
 msgid "General failure."
 msgstr "Allmänt fel."
 
-#: dialog_configurefile.cc:130 look_edit.cc:70
-msgid "(User fields)"
+#: dialog_configurefile.cc:126 look_edit.cc:67
+msgid "(User Fields)"
 msgstr "(Användarfält)"
 
-#: look_edit.cc:74
+#: look_edit.cc:71
 msgid "&Person"
 msgstr "&Person"
 
-#: look_edit.cc:75
+#: look_edit.cc:72
 msgid "&Telephone"
 msgstr "&Telefon"
 
-#: look_edit.cc:76
+#: look_edit.cc:73
 msgid "&Addresses"
 msgstr "&Adresser"
 
-#: look_edit.cc:77
+#: look_edit.cc:74
 msgid "&Birthday"
 msgstr "&Födelsedag"
 
-#: look_edit.cc:78
-msgid "Comment"
-msgstr "Kommentar"
+#: look_edit.cc:75
+msgid "Co&mment"
+msgstr "Ko&mmentar"
 
 #: look_edit_tabperson.cc:40
-msgid "Email addresses..."
+msgid "Email Addresses..."
 msgstr "E-postadresser..."
 
 #: look_edit_tabperson.cc:41
-msgid "Talk addresses..."
+msgid "Talk Addresses..."
 msgstr "\"Talk\"-adresser..."
 
 #: look_edit_tabperson.cc:42
@@ -1015,7 +1058,7 @@ msgid ""
 "<b>kab</b> assembles it in the wrong way.</qt>"
 msgstr ""
 "<qt>Här anger du det <i>fullständiga namnet</i> på personen eller "
-"organisationen om <b>kab</b> sätter ihop det på ett felaktigt sätt.</qt>"
+"organisationen om <b>Kab</b> sätter ihop det på ett felaktigt sätt.</qt>"
 
 #: look_edit_tabperson.cc:78
 msgid "First name:"
@@ -1042,11 +1085,11 @@ msgid "Rank:"
 msgstr "Rang:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
-msgid "Edit email addresses"
+msgid "Edit Email Addresses"
 msgstr "Redigera e-postadresser"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
-msgid "Edit talk addresses"
+msgid "Edit Talk Addresses"
 msgstr "Redigera \"talk\"-adresser"
 
 #: look_edit_tabperson.cc:228
@@ -1057,35 +1100,35 @@ msgstr "Redigera webbadresser"
 msgid "I know this person's birthday:"
 msgstr "Jag känner till den här personens födelsedag:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
 msgid "User field 1:"
 msgstr "Användarfält 1:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
 msgid "User field 2:"
 msgstr "Användarfält 2:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
 msgid "User field 3:"
 msgstr "Användarfält 3:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
 msgid "User field 4:"
 msgstr "Användarfält 4:"
 
-#: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
 msgid "(User field 1)"
 msgstr "(Användarfält 1)"
 
-#: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
 msgid "(User field 2)"
 msgstr "(Användarfält 2)"
 
-#: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
 msgid "(User field 3)"
 msgstr "(Användarfält 3)"
 
-#: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
 msgid "(User field 4)"
 msgstr "(Användarfält 4)"
 
@@ -1094,115 +1137,115 @@ msgid "Edit URLs (internet addresses)"
 msgstr "Redigera webbadresser"
 
 #: look_edit_tabcontact.cc:32
-msgid "Edit telephone numbers"
+msgid "Edit Telephone Numbers"
 msgstr "Redigera telefonnummer"
 
-#: look_edit_tabaddresses.cc:231
+#: look_edit_tabaddresses.cc:222
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?"
+"<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Visste du att du kan fördefiniera typer av adresser?<br>Se "
-"<b>Redigera->Konfigurera den här filen</b>.</qt>"
+"<qt>Visste du att du kan fördefiniera typer av adresser?"
+"<br>Se <b>Redigera->Anpassa den här filen</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:233
-msgid "A note"
+#: look_edit_tabaddresses.cc:224
+msgid "A Note"
 msgstr "En anteckning"
 
-#: look_edit_tabaddresses.cc:255
+#: look_edit_tabaddresses.cc:246
 msgid "Really delete this address?"
 msgstr "Vill du verkligen ta bort den här adressen?"
 
-#: look_edit_tabaddresses.cc:317
+#: look_edit_tabaddresses.cc:308
 msgid "Organization"
 msgstr "Organisation"
 
-#: look_edit_tabtelephone.cc:46
+#: look_edit_tabtelephone.cc:44
 msgid "Fixed:"
 msgstr "Fast:"
 
-#: look_edit_tabtelephone.cc:47
+#: look_edit_tabtelephone.cc:45
 msgid "Mobile:"
 msgstr "Mobil:"
 
-#: look_edit_tabtelephone.cc:48
+#: look_edit_tabtelephone.cc:46
 msgid "Fax:"
 msgstr "Fax:"
 
-#: look_edit_tabtelephone.cc:49
+#: look_edit_tabtelephone.cc:47
 msgid "Modem:"
 msgstr "Modem:"
 
-#: look_edit_tabtelephone.cc:50
+#: look_edit_tabtelephone.cc:48
 msgid "User defined 1:"
 msgstr "Användardefinierad 1:"
 
-#: look_edit_tabtelephone.cc:51
+#: look_edit_tabtelephone.cc:49
 msgid "User defined 2:"
 msgstr "Användardefinierad 2:"
 
-#: look_edit_tabtelephone.cc:52
+#: look_edit_tabtelephone.cc:50
 msgid "User defined 3:"
 msgstr "Användardefinierad 3:"
 
-#: look_edit_tabtelephone.cc:64
+#: look_edit_tabtelephone.cc:62
 msgid "Type"
 msgstr "Typ"
 
-#: look_edit_tabtelephone.cc:66
+#: look_edit_tabtelephone.cc:64
 msgid "Number"
 msgstr "Nummer"
 
-#: widget_editstringlist.cc:41
+#: widget_editstringlist.cc:39
 msgid "Add a new string"
 msgstr "Lägg till en ny sträng"
 
-#: widget_editstringlist.cc:42
+#: widget_editstringlist.cc:40
 msgid "Move this string up"
 msgstr "Flytta upp den här strängen"
 
-#: widget_editstringlist.cc:43
+#: widget_editstringlist.cc:41
 msgid "Move this string down"
 msgstr "Flytta ner den här strängen"
 
-#: widget_editstringlist.cc:44
+#: widget_editstringlist.cc:42
 msgid "Delete this string"
 msgstr "Ta bort den här strängen"
 
-#: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
 msgstr "Accepterad."
 
 #: dialog_editentry.cc:68
-msgid "Edit entry"
+msgid "Edit Entry"
 msgstr "Redigera post"
 
-#: dialog_configurefile.cc:51
+#: dialog_configurefile.cc:47
 msgid "Cannot query configuration data."
-msgstr "Kan inte förfråga konfigurationsdata."
+msgstr "Kan inte förfråga inställningsdata."
 
-#: dialog_configurefile.cc:52
+#: dialog_configurefile.cc:48
 msgid "Internal failure"
 msgstr "Internt fel"
 
-#: dialog_configurefile.cc:68
+#: dialog_configurefile.cc:64
 msgid "Settings applied."
 msgstr "Inställningar verkställda."
 
-#: dialog_configurefile.cc:95
+#: dialog_configurefile.cc:91
 msgid "Tab name"
 msgstr "Fliknamn"
 
-#: dialog_configurefile.cc:154
-msgid "User fields"
+#: dialog_configurefile.cc:150
+msgid "User Fields"
 msgstr "Användarfält"
 
-#: dialog_configurefile.cc:166
+#: dialog_configurefile.cc:162
 msgid "Address types"
 msgstr "Adresstyper"
 
-#: dialog_configurefile.cc:190
+#: dialog_configurefile.cc:186
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -1210,23 +1253,23 @@ msgstr ""
 "Kan inte spara dina inställningar.\n"
 "Du har antagligen inte behörighet att skriva till den här filen."
 
-#: dialog_configurekab.cc:37
+#: dialog_configurekab.cc:35
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
 msgstr ""
-"Din konfigureringsfil är trasig.\n"
-"KAB kan inte konfigureras."
+"Din inställningsfil är trasig.\n"
+"Kab kan inte ställas in."
 
-#: dialog_configurekab.cc:39
+#: dialog_configurekab.cc:37
 msgid "Fatal error"
 msgstr "Allvarligt fel"
 
-#: dialog_configurekab.cc:40
+#: dialog_configurekab.cc:38
 msgid "Configuration file corrupt."
-msgstr "Konfigureringsfil trasig."
+msgstr "Inställningsfil trasig."
 
-#: dialog_configurekab.cc:58
+#: dialog_configurekab.cc:56
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
@@ -1234,19 +1277,19 @@ msgstr ""
 "Det uppstod ett fel när dina inställningar skulle sparas.\n"
 "Några av dem kanske gick förlorade."
 
-#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
 msgid "Error saving preferences."
 msgstr "Fel när inställningarna skulle sparas."
 
-#: dialog_configurekab.cc:63
+#: dialog_configurekab.cc:61
 msgid "KDE address book preferences."
 msgstr "Inställningar för KDE:s adressbok."
 
-#: dialog_configurekab.cc:65
+#: dialog_configurekab.cc:63
 msgid "Preferences saved."
 msgstr "Inställningar sparade."
 
-#: dialog_configurekab.cc:69
+#: dialog_configurekab.cc:67
 msgid ""
 "Cannot save your preferences.\n"
 "You may not have permission to write the file."
@@ -1254,24 +1297,24 @@ msgstr ""
 "Kan inte spara dina inställningar.\n"
 "Du har antagligen inte behörighet att skriva till den här filen."
 
-#: dialog_configurekab.cc:88
+#: dialog_configurekab.cc:86
 msgid "Remember last selected view"
 msgstr "Kom ihåg den senaste valda vyn"
 
-#: dialog_configurekab.cc:90
+#: dialog_configurekab.cc:88
 msgid "Remember last selected entry"
 msgstr "Kom ihåg den senaste valda posten"
 
-#: dialog_configurekab.cc:92
+#: dialog_configurekab.cc:90
 msgid "Show assembled name in window title"
 msgstr "Visa ihopsatt namn i fönstertitel"
 
-#: dialog_configurekab.cc:94
+#: dialog_configurekab.cc:92
 msgid "Create backup file on startup"
 msgstr "Skapa säkerhetskopia vid uppstart"
 
-#: dialog_configurekab.cc:95
-msgid "General settings"
+#: dialog_configurekab.cc:93
+msgid "General Settings"
 msgstr "Allmänna inställningar"
 
 #: dialog_insinuation.cc:29
@@ -1286,30 +1329,31 @@ msgstr "Avdelning:"
 msgid "Sub-Department:"
 msgstr "Underavdelning:"
 
-#: kab_entrylist.cc:55
+#: kab_entrylist.cc:49
 msgid "..."
 msgstr "..."
 
-#: kab_entrylist.cc:81
+#: kab_entrylist.cc:75
 msgid "No match."
 msgstr "Ingen träff."
 
-#: kab_entrylist.cc:94
+#: kab_entrylist.cc:88
 msgid "Calculating..."
 msgstr "Beräknar..."
 
-#: kab_entrylist.cc:110
+#: kab_entrylist.cc:104
 msgid "(Disabled)"
-msgstr "(Avstängd)"
+msgstr "(Inaktiverad)"
 
-#: kab_entrylist.cc:113
+#: kab_entrylist.cc:107
 msgid "Error creating index for incremental search."
 msgstr "Fel vid skapandet av index för inkrementell sökning."
 
-#: kab_entrylist.cc:114
+#: kab_entrylist.cc:108
 msgid "Incremental search disabled."
-msgstr "Inkrementell sökning avstängd."
+msgstr "Inkrementell sökning inaktiverad."
 
-#: kab_entrylist.cc:163
+#: kab_entrylist.cc:157
 msgid "(No items to search)"
 msgstr "(Inga poster att söka efter)"
+
