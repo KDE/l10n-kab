@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kab\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
+"PO-Revision-Date: 1999-11-11 05:04+0800\n"
+"Last-Translator: Dillion Chen <dillon.chen@turbolinux.com.cn>\n"
+"Language-Team: TLDN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=gb2312\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AddressBookAbout.cpp:25
+msgid "About addressbook"
+msgstr "关于地址簿"
+
+#: AddressBookAbout.cpp:35
+msgid "Image load failure"
+msgstr "图像加载失败"
+
+#: AddressBookAbout.cpp:36
+msgid "Could not load addressbook logo image!"
+msgstr "加载地址簿程序的图标失败!"
+
+#: AddressBookAbout.cpp:37
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"这里你将看到地址簿\n"
+"的图标."
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "作者和维护者:"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 1.0, May 1999"
+msgstr "kab 1.0, 1999年五月"
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "初始化失败"
+
+#: toplevelwidget.cc:37
+msgid "The program's menubar could not be constructed."
+msgstr "程序的菜单创建失败"
+
+#: toplevelwidget.cc:45
+msgid "The program's statusbar could not be constructed."
+msgstr "程序的状态条创建失败"
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE 地址簿"
+
+#: toplevelwidget.cc:73
+msgid "HTML table"
+msgstr "HTML 表格"
+
+#: toplevelwidget.cc:82
+msgid "Export"
+msgstr "导出"
+
+#: toplevelwidget.cc:84
+msgid "Search &entries"
+msgstr "[&E]搜索项目"
+
+#: toplevelwidget.cc:86
+msgid "&Print"
+msgstr "[&P]打印"
+
+#: toplevelwidget.cc:98
+msgid "&Add entry"
+msgstr "[&A]加入项目"
+
+#: toplevelwidget.cc:100
+msgid "&Edit entry"
+msgstr "[&E]编辑项目"
+
+#: toplevelwidget.cc:102
+msgid "&Remove entry"
+msgstr "[&R]删除项目"
+
+#: toplevelwidget.cc:114
+msgid "&Mail"
+msgstr "[&M]邮件"
+
+#: toplevelwidget.cc:116
+msgid "&Talk"
+msgstr "[&T]交谈"
+
+#: toplevelwidget.cc:118
+msgid "&Browse"
+msgstr "[&B]浏览"
+
+#: toplevelwidget.cc:123
+msgid "Help on Addressbook"
+msgstr "地址簿程序的帮助"
+
+#: toplevelwidget.cc:128
+msgid "About Addressbook"
+msgstr "关于地址簿程序"
+
+#: toplevelwidget.cc:130
+msgid "About &Qt"
+msgstr "[&Q]关于Qt"
+
+#: toplevelwidget.cc:131
+msgid "About &KDE"
+msgstr "[&K]关于KDE"
+
+#: toplevelwidget.cc:138
+msgid "&About"
+msgstr "[&A]关于"
+
+#: toplevelwidget.cc:190
+msgid "About Qt"
+msgstr "关于Qt"
