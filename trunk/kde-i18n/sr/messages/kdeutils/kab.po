@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"POT-Creation-Date: 2001-09-14 03:05+0200\n"
 "PO-Revision-Date: 2001-06-21 22:56 CEST\n"
 "Last-Translator: Slobodan Marković <twiddle@eunet.yu>\n"
 "Language-Team: Serbian <kde-yu@kde.org.yu>\n"
@@ -242,7 +242,7 @@ msgstr ""
 msgid "new format"
 msgstr "novi format"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:47 kab_mainwidget.cc:57
 #: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
@@ -250,7 +250,7 @@ msgstr "novi format"
 msgid "Out of memory."
 msgstr "Nema više memorije."
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:48 kab_mainwidget.cc:58 kab_topwidget.cc:81
 msgid "General failure"
 msgstr ""
 
@@ -264,139 +264,143 @@ msgstr ""
 "KDE adresar ne može biti pokrenut bez nje.\n"
 "Ova aplikacija će se zatvoriti."
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:96 kab_topwidget.cc:552
 msgid "Database error"
 msgstr "Greška u bazi"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:208
 msgid "Welcome to kab 2.1"
 msgstr "Dobrodošli u kab 2.1"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:209
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE adresar 2.1"
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:210
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Napisao Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:211
 msgid "Visit www.kde.org for the latest news."
 msgstr "Posetite www.kde.org za najnovije vesti."
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:282
 msgid "&Export to HTML..."
 msgstr "&Izvezi u HTML..."
 
-#: kab_topwidget.cc:282
+#: kab_topwidget.cc:286
 msgid "&First entry"
 msgstr "&Prva stavka"
 
-#: kab_topwidget.cc:286
+#: kab_topwidget.cc:290
 msgid "&Previous entry"
 msgstr "P&rethodna stavka"
 
-#: kab_topwidget.cc:290
+#: kab_topwidget.cc:294
 msgid "&Next entry"
 msgstr "&Sledeća stavka"
 
-#: kab_topwidget.cc:294
+#: kab_topwidget.cc:298
 msgid "&Last entry"
 msgstr "P&oslednja stavka"
 
-#: kab_topwidget.cc:298
+#: kab_topwidget.cc:302
 msgid "&Add entry..."
 msgstr ""
 
-#: kab_topwidget.cc:302
+#: kab_topwidget.cc:306
 msgid "&Edit entry..."
 msgstr ""
 
-#: kab_topwidget.cc:306
+#: kab_topwidget.cc:310
 msgid "&Remove entry"
 msgstr "I&zbaci"
 
-#: kab_topwidget.cc:310
+#: kab_topwidget.cc:314
 msgid "Send an e&mail"
 msgstr "Pošalji e-&mail"
 
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:318
 msgid "&Browse"
 msgstr "Pre&gledaj"
 
-#: kab_topwidget.cc:318
+#: kab_topwidget.cc:322
 msgid "&Search entries..."
 msgstr ""
 
-#: kab_topwidget.cc:322
+#: kab_topwidget.cc:326
 msgid "Show search results"
 msgstr "Prikaži rezultate pretrage"
 
-#: kab_topwidget.cc:327
+#: kab_topwidget.cc:331
 msgid "Show main toolbar"
 msgstr "Prikaži glavne alatke"
 
-#: kab_topwidget.cc:332
+#: kab_topwidget.cc:336
 msgid "Show entry navigation toolbar"
 msgstr "Prikaži navigacione alatke za stavke"
 
-#: kab_topwidget.cc:337
+#: kab_topwidget.cc:341
 msgid "Show entry navigation list"
 msgstr ""
 
-#: kab_topwidget.cc:342
+#: kab_topwidget.cc:346
 msgid "Print entry..."
 msgstr ""
 
-#: kab_topwidget.cc:346
+#: kab_topwidget.cc:350
 msgid "Print entries..."
 msgstr ""
 
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:354
 msgid "&Editing"
 msgstr "&Edituj"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:358
 msgid "&Business Card"
 msgstr "&Biznis karta"
 
-#: kab_topwidget.cc:377
+#: kab_topwidget.cc:362
+msgid "Detailled View"
+msgstr ""
+
+#: kab_topwidget.cc:388
 msgid "&KDE 1 address book"
 msgstr "&KDE 1 adresar"
 
-#: kab_topwidget.cc:379
+#: kab_topwidget.cc:390
 msgid "&Netscape address book"
 msgstr ""
 
-#: kab_topwidget.cc:386
+#: kab_topwidget.cc:397
 msgid "&Create new database..."
 msgstr "&Keiraj novu bazu..."
 
-#: kab_topwidget.cc:390
+#: kab_topwidget.cc:401
 msgid "Open default &database"
 msgstr "Otvori po&drazumevanu bazu"
 
-#: kab_topwidget.cc:394
+#: kab_topwidget.cc:405
 msgid "&Import"
 msgstr "&Uvoz"
 
-#: kab_topwidget.cc:395
+#: kab_topwidget.cc:406
 msgid "&Print"
 msgstr "Štam&paj"
 
-#: kab_topwidget.cc:410
+#: kab_topwidget.cc:421
 msgid "Enable all &messages"
 msgstr "Aktiviraj sve &poruke"
 
-#: kab_topwidget.cc:412
+#: kab_topwidget.cc:423
 msgid "&Configure this file..."
 msgstr "&Podesi ovaj fajl..."
 
-#: kab_topwidget.cc:415
+#: kab_topwidget.cc:426
 msgid "&Preferences for the KDE address book..."
 msgstr "&Prilagođavanja za KDE adresar..."
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:549
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
@@ -406,7 +410,7 @@ msgstr ""
 "KDE adresar ne može biti pokrenut bez nje.\n"
 "Ova aplikacija će se zatvoriti."
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:581
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -416,44 +420,48 @@ msgstr ""
 "Da li želite da sačuvate promene?\n"
 "(Nesačuvane promene će biti izgubljene.)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:583
 msgid "Save changes?"
 msgstr "Da li želite da sačuvate promene?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:591
 msgid "Error changing the entry."
 msgstr "Greška u menjanju stavke."
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:620
 msgid "No entries."
 msgstr "Nema stavki"
 
-#: kab_topwidget.cc:726
+#: kab_topwidget.cc:738
 msgid "Cannot locate default database."
 msgstr "Ne mogu da lociram podrazumevanu bazu."
 
-#: kab_topwidget.cc:727
+#: kab_topwidget.cc:739
 msgid "Critical failure"
 msgstr "Kritični neuspeh"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:744
 msgid "The standard file could not be loaded."
 msgstr "Standardni fajl ne može biti učitan."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:745
 msgid "File error"
 msgstr "Greška u fajlu"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:761
 msgid "Business card view."
 msgstr "Prikaz biznis karte"
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:773
 msgid "Editing view."
 msgstr "Edituj prikaz."
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:785
+msgid "Detailled view."
+msgstr ""
+
+#: kab_topwidget.cc:793
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
@@ -461,30 +469,30 @@ msgstr ""
 "Ovo će re-aktivirati sve poruke koje ste ranije deaktivirali.\n"
 "Da li da nastavim?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:795
 msgid "Enable messages?"
 msgstr "Aktiviraj poruke?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:814
 msgid "New entry added."
 msgstr "Nova stavka dodata."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:815
 msgid "Saving new entry."
 msgstr "Snimam novu stavku."
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:817
 msgid "Done."
 msgstr "Završeno."
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:838
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
 "You may not have write permission for this file."
 msgstr ""
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:846
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -492,27 +500,27 @@ msgstr ""
 "Ne mogu da dodam novu stavku.\n"
 "Nepoznat razlog."
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:852
 msgid "No entry added."
 msgstr "Nema dodatih stavki."
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:870
 msgid "Really remove this entry?"
 msgstr "Da li stvarno želite da uklonite ovu stavku?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:871 look_edit_tabaddresses.cc:256
 msgid "Question"
 msgstr "Pitanje"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:877
 msgid "Entry deleted."
 msgstr "Stavka obrisana."
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:879
 msgid "Database saved."
 msgstr "Baza sačuvana."
 
-#: kab_topwidget.cc:860
+#: kab_topwidget.cc:886
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
@@ -520,94 +528,94 @@ msgstr ""
 "Ne mogu da obrišem stavku\n"
 "(verovatno vam je pristup zabranjen)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:889
 msgid "Permission denied."
 msgstr "Zabranjen pristup."
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:951
 msgid "Send an email"
 msgstr "Pošaljite email"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:960
 msgid "No email addresses."
 msgstr "Nema email adresa."
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
 #: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: kab_printmethods.cc:81 kab_printmethods.cc:182 kab_topwidget.cc:976
+#: kab_topwidget.cc:1030 kab_topwidget.cc:1437
 msgid "Rejected."
 msgstr "Odbijeno."
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:1005
 msgid "Browse to ..."
 msgstr "Pregledaj do ..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1014
 msgid "No URLs."
 msgstr "Nema URL-ova."
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1081
 msgid "Restoring last view."
 msgstr "Obnavljam zadnji prikaz."
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1083
 msgid "Not restoring last view."
 msgstr "Ne obnavljam zadnji prikaz."
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1094
 msgid "Remembering last entry."
 msgstr "Pamtim zadnju stavku."
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1096
 msgid "Not remembering last entry."
 msgstr "Ne pamtim zadnju stavku."
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1107
 msgid "Displaying assembled name in window title."
 msgstr "Prikazujem zajedničko ime u naslovu prozora."
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1109
 msgid "Not displaying assembled name in window title."
 msgstr "Ne prikazujem zajedničko ime u naslovu prozora."
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1120
 msgid "Creating backup file on startup."
 msgstr "Kreiram backup fajl na pokretanju aplikacije."
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1122
 msgid "Not creating a backup file on startup."
 msgstr "Ne kreiram backup fajl na pokretanju aplikacije."
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1269
 msgid "Search entries"
 msgstr "Pretraži stavke"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1282 kab_topwidget.cc:1292
 msgid "(ERROR)"
 msgstr "(GREŠKA)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1331
 msgid "Could not get an overview over the existing entries."
 msgstr "Ne mogu da dobijem prikaz postojećih stavki."
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1332 kab_topwidget.cc:1349 kab_topwidget.cc:1360
 msgid "Internal Error"
 msgstr "Interna greška"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1348 kab_topwidget.cc:1359
 msgid "Could not query an existing entry."
 msgstr "Ne mogu da napravim upit na postojećoj stavki."
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1427
 msgid "Search results ("
 msgstr "Rezultati pretrage ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1427
 msgid " hits):"
 msgstr " pogodaka):"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1432
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
@@ -615,7 +623,7 @@ msgstr ""
 "Žao mi je!\n"
 "Nema stavki koje se podudaraju sa vašim kriterijumom."
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1433
 msgid "No hits"
 msgstr "Nema pogodaka"
 
@@ -719,59 +727,59 @@ msgstr ""
 msgid "No addresses imported."
 msgstr ""
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:215
 msgid "Printing finished."
 msgstr "Štampanje završeno."
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:217
 msgid "Printing failed."
 msgstr "Štampanje neuspelo."
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:333
 msgid "Email address:"
 msgstr "Email adresa:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:334
 msgid "Email addresses:"
 msgstr "Email adrese:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:346
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:347
 msgid "Telephones:"
 msgstr "Telefoni:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:368
 msgid "Web Page:"
 msgstr "Web strana:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:369
 msgid "Web Pages:"
 msgstr "Web strane:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:380
 msgid "Talk Address:"
 msgstr "Trenutna adresa:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:381
 msgid "Talk Addresses:"
 msgstr "Trenutne adrese:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:461 kab_printmethods.cc:466
 msgid "Address:"
 msgstr "Adresa:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:461 kab_printmethods.cc:466
 msgid "Addresses:"
 msgstr "Adrese:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:529
 msgid "Unnamed address:"
 msgstr "Nepoznata adresa:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:591 kab_printmethods.cc:595
 msgid "(Deliver to:)"
 msgstr "(Dopremi do:)"
 
@@ -942,13 +950,44 @@ msgstr "Fajl ne može biti sačuvan (zabranjen pristup)."
 msgid "File saved."
 msgstr "Fajl je sačuvan."
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:175
 msgid "email: "
 msgstr "email:"
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:192
 msgid "tel: "
 msgstr "tel:"
+
+#: look_details.cc:42
+#, fuzzy
+msgid "Show postal addresses"
+msgstr "Nema email adresa."
+
+#: look_details.cc:43
+#, fuzzy
+msgid "Show email addresses"
+msgstr "Nema email adresa."
+
+#: look_details.cc:44
+#, fuzzy
+msgid "Show telephone numbers"
+msgstr "Izmenite brojeve telefona"
+
+#: look_details.cc:45
+msgid "Show web pages (URLs)"
+msgstr ""
+
+#: look_details.cc:189
+msgid "Select background"
+msgstr ""
+
+#: look_details.cc:190
+msgid "Bordered backgrounds"
+msgstr ""
+
+#: look_details.cc:191
+msgid "Tiled backgrounds"
+msgstr ""
 
 #: look_edit.cc:36
 msgid "User Fields"
