@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KAB\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
 "PO-Revision-Date: 2001-07-25 00:30GMT+0200\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -67,18 +67,21 @@ msgid "Entry List"
 msgstr "Tietuelista"
 
 #: rc.cpp:15
+#, fuzzy
 msgid ""
-"<qt>Search entries by entering<br> - one of their <b>e-mail "
-"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+"<qt>Search entries by entering"
+"<br> - one of their <b>email addresses</b>"
+"<br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
-"<qt>Etsi tietueita antamalla<br> - yksi näistä <b>sähköpostiosoite "
-"</b><br> - <b>etunimi</b> tai<br> - <b>sukunimi</b></qt>"
+"<qt>Etsi tietueita antamalla"
+"<br> - yksi näistä <b>sähköpostiosoite </b>"
+"<br> - <b>etunimi</b> tai<br> - <b>sukunimi</b></qt>"
 
 #: rc.cpp:17
 msgid "<qt>Select an entry to display it.</qt>"
 msgstr "<qt>Valitse tietue näyttääksesi sen.</qt>"
 
-#: kab_htmlexport.cc:380 rc.cpp:18
+#: kab_htmlexport.cc:377 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Aseta HTML vientiä"
 
@@ -217,19 +220,21 @@ msgstr "Katuosoite:"
 msgid "Job title:"
 msgstr "Työn titteli:"
 
-#: look_edit_tabaddresses.cc:337 rc.cpp:56
-msgid "Delivery label"
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+#, fuzzy
+msgid "Delivery Label"
 msgstr "Jakeluosoite"
 
-#: kab_main.cc:31 kab_main.cc:38
+#: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
 msgstr "KDE osoitekirja"
 
-#: kab_main.cc:51
+#: kab_main.cc:49
+#, fuzzy
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b>"
+"<b>File->Import->KDE 1 Addressbook</b>"
 " to use your old database with the new version.</qt>"
 msgstr ""
 "<qt>Versio 2 KDE:n osoitekirjasta ei ole yhteensopiva edellisen kanssa. "
@@ -237,23 +242,24 @@ msgstr ""
 "<b>Tiedosto->Tuo->KDE 1 osoitekirja</b> käyttääksesi vanhaa tietokantaa "
 "uudella versiolla.</qt>"
 
-#: kab_main.cc:56
-msgid "new format"
+#: kab_main.cc:54
+#, fuzzy
+msgid "New Format"
 msgstr "uusi muoto"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
-#: look_edit_tabuser.cc:49
+#: look_edit_tabuser.cc:47
 msgid "Out of memory."
 msgstr "Muisti loppui"
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
 msgid "General failure"
 msgstr "Yleinen virhe"
 
-#: kab_topwidget.cc:93
+#: kab_topwidget.cc:82
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
@@ -263,116 +269,139 @@ msgstr ""
 "KDE osoitekirja ei toimi ilman sitä.\n"
 "Sovellus suljetaan."
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
 msgid "Database error"
 msgstr "Tietokantavirhe"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:197
 msgid "Welcome to kab 2.1"
 msgstr "Tervetuloa kab 2.1:n"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:198
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE osoitekirja 2.1."
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:199
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Kirjoittanut Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:200
 msgid "Visit www.kde.org for the latest news."
 msgstr "Vieraile osoitteessa www.kde.org saadaksesi viimeisimmät uutiset."
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:271
 msgid "&Export to HTML..."
 msgstr "&Vie HTML muodossa..."
 
-#: kab_topwidget.cc:282
-msgid "&First entry"
+#: kab_topwidget.cc:275
+#, fuzzy
+msgid "&First Entry"
 msgstr "&Ensimmäinen tietue"
 
-#: kab_topwidget.cc:286
-msgid "&Previous entry"
+#: kab_topwidget.cc:279
+#, fuzzy
+msgid "&Previous Entry"
 msgstr "E&dellinen tietue"
 
-#: kab_topwidget.cc:290
-msgid "&Next entry"
+#: kab_topwidget.cc:283
+#, fuzzy
+msgid "&Next Entry"
 msgstr "&Seuraava tietue"
 
-#: kab_topwidget.cc:294
-msgid "&Last entry"
+#: kab_topwidget.cc:287
+#, fuzzy
+msgid "&Last Entry"
 msgstr "&Viimeinen tietue"
 
-#: kab_topwidget.cc:298
-msgid "&Add entry..."
+#: kab_topwidget.cc:291
+#, fuzzy
+msgid "&Add Entry..."
 msgstr "&Lisää tietue..."
 
-#: kab_topwidget.cc:302
-msgid "&Edit entry..."
+#: kab_topwidget.cc:295
+#, fuzzy
+msgid "&Edit Entry..."
 msgstr "&Muokkaa tietuetta..."
 
-#: kab_topwidget.cc:306
-msgid "&Remove entry"
+#: kab_topwidget.cc:299
+#, fuzzy
+msgid "&Remove Entry"
 msgstr "&Poista tietue"
 
-#: kab_topwidget.cc:310
-msgid "Send an e&mail"
+#: kab_topwidget.cc:303
+#, fuzzy
+msgid "Send an E&mail"
 msgstr "Lähestä &sähköposti"
 
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:307
 msgid "&Browse"
 msgstr "&Selaa"
 
-#: kab_topwidget.cc:318
-msgid "&Search entries..."
+#: kab_topwidget.cc:311
+#, fuzzy
+msgid "&Search Entries..."
 msgstr "&Etsi tietueita..."
 
-#: kab_topwidget.cc:322
-msgid "Show search results"
+#: kab_topwidget.cc:315
+#, fuzzy
+msgid "Show Search Results"
 msgstr "Näytä hakutulokset"
 
-#: kab_topwidget.cc:327
-msgid "Show main toolbar"
+#: kab_topwidget.cc:320
+#, fuzzy
+msgid "Show Main Toolbar"
 msgstr "Näytä päätyökalurivi"
 
-#: kab_topwidget.cc:332
-msgid "Show entry navigation toolbar"
+#: kab_topwidget.cc:325
+#, fuzzy
+msgid "Show Entry Navigation Toolbar"
 msgstr "Näytä navigointityökalurivi"
 
-#: kab_topwidget.cc:337
-msgid "Show entry navigation list"
+#: kab_topwidget.cc:330
+#, fuzzy
+msgid "Show Entry Navigation List"
 msgstr "Näytä navigointilista"
 
-#: kab_topwidget.cc:342
-msgid "Print entry..."
+#: kab_topwidget.cc:335
+#, fuzzy
+msgid "Print Entry..."
 msgstr "Tulosta tietue..."
 
-#: kab_topwidget.cc:346
-msgid "Print entries..."
+#: kab_topwidget.cc:339
+#, fuzzy
+msgid "Print Entries..."
 msgstr "Tulosta tietueita..."
 
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:343
 msgid "&Editing"
 msgstr "&Muokkaus"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:347
 msgid "&Business Card"
 msgstr "&Käyntikortti"
 
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr ""
+
 #: kab_topwidget.cc:377
-msgid "&KDE 1 address book"
+#, fuzzy
+msgid "&KDE 1 Address Book"
 msgstr "&KDE 1 osoitekirja"
 
 #: kab_topwidget.cc:379
-msgid "&Netscape address book"
+#, fuzzy
+msgid "&Netscape Address Book"
 msgstr "&Netscapen osoitekirja"
 
 #: kab_topwidget.cc:386
-msgid "&Create new database..."
+#, fuzzy
+msgid "&Create New Database..."
 msgstr "&Luo uusi tietokanta..."
 
 #: kab_topwidget.cc:390
-msgid "Open default &database"
+#, fuzzy
+msgid "Open Default &Database"
 msgstr "Avaa oletus&tietokanta"
 
 #: kab_topwidget.cc:394
@@ -384,18 +413,21 @@ msgid "&Print"
 msgstr "&Tulosta"
 
 #: kab_topwidget.cc:410
-msgid "Enable all &messages"
+#, fuzzy
+msgid "Enable all &Messages"
 msgstr "Kaikki &viestit"
 
 #: kab_topwidget.cc:412
-msgid "&Configure this file..."
+#, fuzzy
+msgid "&Configure this File..."
 msgstr "&Aseta tiedostoa..."
 
 #: kab_topwidget.cc:415
-msgid "&Preferences for the KDE address book..."
+#, fuzzy
+msgid "&Preferences for KDE Address Book..."
 msgstr "&Asetukset KDE osoitekirjalle..."
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:538
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
@@ -405,7 +437,7 @@ msgstr ""
 "KDE osoitekirja ei toimi ilman sitä.\n"
 "Sovellus suljetaan."
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:570
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -415,44 +447,48 @@ msgstr ""
 "Tallenna muutokset?\n"
 "(tallentamattomat muutokset häviävät.)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:572
 msgid "Save changes?"
 msgstr "Tallenna muutokset?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
 msgid "Error changing the entry."
 msgstr "Virhe tietuetta muutettaessa."
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:609
 msgid "No entries."
 msgstr "Ei tietueita."
 
-#: kab_topwidget.cc:726
+#: kab_topwidget.cc:727
 msgid "Cannot locate default database."
 msgstr "Ei löydetty oletustietokantaa."
 
-#: kab_topwidget.cc:727
+#: kab_topwidget.cc:728
 msgid "Critical failure"
 msgstr "Kriittinen virhe"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:733
 msgid "The standard file could not be loaded."
 msgstr "Oletustiedostoa ei saatu ladattua."
 
-#: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
 msgid "File error"
 msgstr "Tiedostovirhe"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:750
 msgid "Business card view."
 msgstr "Käyntikorttinäkymä"
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:762
 msgid "Editing view."
 msgstr "Muokkausnäkymä"
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr ""
+
+#: kab_topwidget.cc:782
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
@@ -460,23 +496,23 @@ msgstr ""
 "Tämä ottaa käyttöön viestit jotka poistit aikaisemmin.\n"
 "Jatka?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:784
 msgid "Enable messages?"
 msgstr "Käytä viestejä?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:803
 msgid "New entry added."
 msgstr "Uusi tietue lisätty."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:804
 msgid "Saving new entry."
 msgstr "Tallennan uutta tietuetta."
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:806
 msgid "Done."
 msgstr "Valmis."
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:827
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
@@ -486,7 +522,7 @@ msgstr ""
 "Käyttö estetty.\n"
 "Sinulla ei ole kirjoitusoikeuksia tiedostoon."
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:835
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -494,140 +530,139 @@ msgstr ""
 "Uutta tietuetta ei voida lisätä.\n"
 "Tuntematon syy."
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:841
 msgid "No entry added."
 msgstr "Tietuetta ei lisätty."
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:859
 msgid "Really remove this entry?"
 msgstr "Oletko varma että haluat poistaa tietueen?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
 msgid "Question"
 msgstr "Kysymys"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:866
 msgid "Entry deleted."
 msgstr "Tietue tuhottu."
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:868
 msgid "Database saved."
 msgstr "Tietokanta tallennettu."
 
-#: kab_topwidget.cc:860
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
+#: kab_topwidget.cc:875
+#, fuzzy
+msgid "Could not delete the entry (probably permission denied)."
 msgstr ""
 "Tietuetta ei voitu tuhota\n"
 "(todennäköisesti käyttö estetty)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
 msgid "Permission denied."
 msgstr "Käyttä estetty."
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:940
 msgid "Send an email"
 msgstr "Lähetä sähköpostia"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:949
 msgid "No email addresses."
 msgstr "Ei sähköpostiosotteita."
 
-#: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
 msgid "Rejected."
 msgstr "Hylätty."
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:994
 msgid "Browse to ..."
 msgstr "Selaa kohteeseen ..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1003
 msgid "No URLs."
 msgstr "Ei URL:a"
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1070
 msgid "Restoring last view."
 msgstr "Palautan edellisen näkymän."
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1072
 msgid "Not restoring last view."
 msgstr "Ei palauteta edellistä näkymää."
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1083
 msgid "Remembering last entry."
 msgstr "Muistelen viimeisen tietueen."
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1085
 msgid "Not remembering last entry."
 msgstr "Ei muisteta edellistä tietuetta."
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1096
 msgid "Displaying assembled name in window title."
 msgstr "Näytä koottu nimi ikkunan otsikossa"
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1098
 msgid "Not displaying assembled name in window title."
 msgstr "Ei näytetä koottua nimeä ikkunan otsikossa."
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1109
 msgid "Creating backup file on startup."
 msgstr "Luon varmuuskopion käynnistyksessä."
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1111
 msgid "Not creating a backup file on startup."
 msgstr "Ei luoda varmuuskopiota käynnistyksessä."
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1258
 msgid "Search entries"
 msgstr "Hae tietueita"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
 msgid "(ERROR)"
 msgstr "(VIRHE)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1320
 msgid "Could not get an overview over the existing entries."
 msgstr "Ei voitu hakea yleiskuvaa olemassaolevista tietueista."
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
 msgid "Internal Error"
 msgstr "Sisäinen virhe"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
 msgid "Could not query an existing entry."
 msgstr "Ei voitu hakea olemassaolevaa tietuetta."
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid "Search results ("
 msgstr "Hakutulokset ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid " hits):"
 msgstr " osumaa):"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1421
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
 msgstr "Mikään tietue ei osunut hakuehtoihisi."
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1422
 msgid "No hits"
 msgstr "Ei osumia"
 
-#: kab_kab1importer.cc:197
+#: kab_kab1importer.cc:196
 msgid "Home"
 msgstr "Koti"
 
-#: kab_kab1importer.cc:239
+#: kab_kab1importer.cc:238
 msgid "Imported kab 1 addressbook."
 msgstr "Tuotiin kab 1 osoitekirja."
 
-#: kab_kab1importer.cc:278
+#: kab_kab1importer.cc:277
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
@@ -635,7 +670,7 @@ msgstr ""
 "kab 1 tietokantaa ei voitu lukea.\n"
 "Et todennäköisesti ole käyttänyt kab 1:tä."
 
-#: kab_kab1importer.cc:292
+#: kab_kab1importer.cc:291
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
@@ -643,7 +678,7 @@ msgstr ""
 "kab 1 tietokantaa ei voitu lukea.\n"
 "Olet todennäköisesti muokannut tiedostoa käsin."
 
-#: kab_kab1importer.cc:307
+#: kab_kab1importer.cc:306
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
@@ -651,230 +686,245 @@ msgstr ""
 "Tietokannasta ei löytynyt entries osuutta.\n"
 "Olet todennäköisesti muokannut tiedostoa käsin."
 
-#: kab_kab1importer.cc:335
+#: kab_kab1importer.cc:334
+#, fuzzy
 msgid ""
-"Warning: There were errors importing the KDE 1\n"
-"address database.\n"
-"\n"
+"Warning: There were errors importing the KDE 1 address database.\n"
 msgstr ""
 "Varoitus: Tapahtui virheitä tuotaessa KDE 1\n"
 "osoitekirjaa.n\n"
 
-#: kab_kab1importer.cc:340
+#: kab_kab1importer.cc:339
+#, fuzzy
 msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
 msgstr ""
 "Haluatko todella lisätä tietueet KDE 1 osoite-\n"
 "kirjastasi tähän tiedostoon?\n"
 "Muutoksia ei voida peruuttaa."
 
-#: kab_netscape_io.cc:104
+#: kab_netscape_io.cc:101
 msgid "Netscape Messenger addressbook export files (*.ldif)"
 msgstr "Netscape Messanger osoitekirjan tuontitiedostot (*.ldif)"
 
-#: kab_netscape_io.cc:105
+#: kab_netscape_io.cc:102
 msgid "All files"
 msgstr "Kaikki tiedostot"
 
-#: kab_netscape_io.cc:107
+#: kab_netscape_io.cc:104
 msgid "Import Netscape Messanger addressbook export files..."
 msgstr "Tuo Netscape Messangerin osoitekirjan vientitiedostot..."
 
-#: kab_netscape_io.cc:115
+#: kab_netscape_io.cc:112
 #, c-format
 msgid "Unable to read the file %1."
 msgstr "Ei voitu lukea tiedostoa %1."
 
-#: kab_netscape_io.cc:129
+#: kab_netscape_io.cc:126
 msgid "Entry imported on %1 from '%2'"
 msgstr "Tietue tuotu %1 kohteesta '%2'"
 
-#: kab_netscape_io.cc:144
+#: kab_netscape_io.cc:141
 msgid "Main contact information"
 msgstr "Pääyhteystiedot"
 
-#: kab_netscape_io.cc:182
+#: kab_netscape_io.cc:179
 #, c-format
 msgid "Nickname: %1"
 msgstr "Lempinimi: %1"
 
-#: kab_netscape_io.cc:188
+#: kab_netscape_io.cc:185
 msgid "Mailformat: Text"
 msgstr "Sähköpostimuoto: Teksti"
 
-#: kab_netscape_io.cc:189
+#: kab_netscape_io.cc:186
 msgid "Mailformat: HTML"
 msgstr "Sähköpostimuoto: HTML"
 
-#: kab_netscape_io.cc:196
+#: kab_netscape_io.cc:193
 #, c-format
 msgid "Last modified: %1"
 msgstr "Viimeksi muokattu: %1"
 
-#: kab_netscape_io.cc:295
+#: kab_netscape_io.cc:292
 msgid "%1 addresses imported."
 msgstr "%1 osoitetta tuotu."
 
-#: kab_netscape_io.cc:297
+#: kab_netscape_io.cc:294
 msgid "No addresses imported."
 msgstr "Ei tuotu osoitteita."
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:213
 msgid "Printing finished."
 msgstr "Tulostus valmis."
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:215
 msgid "Printing failed."
 msgstr "Tulostus epäonnistui."
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:331
 msgid "Email address:"
 msgstr "Sähköpostiosoite:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:332
 msgid "Email addresses:"
 msgstr "Sähköpostiosoitteet:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:344
 msgid "Telephone:"
 msgstr "Puhelinnumero:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:345
 msgid "Telephones:"
 msgstr "Puhelinnumerot:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:366
 msgid "Web Page:"
 msgstr "www-sivu:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:367
 msgid "Web Pages:"
 msgstr "www-sivut:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:378
 msgid "Talk Address:"
 msgstr "Talk osoite:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:379
 msgid "Talk Addresses:"
 msgstr "Talk osoitteet:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Address:"
 msgstr "Osoite:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Addresses:"
 msgstr "Osoitteet:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:527
 msgid "Unnamed address:"
 msgstr "Nimeämätön osoite:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
 msgid "(Deliver to:)"
 msgstr "(Jakeluosoite:)"
 
-#: kab_htmlexport.cc:318
+#: kab_htmlexport.cc:315
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+"<qt><b>Warning!</b>"
+"<br>Do not change this setting unless you installed a customized version of "
+"the template files delivered with your kab installation at another "
+"point.</qt>"
 msgstr ""
-"<qt><b>Varoitus!</b><br>Älä muuta asetuksia ellet ole asentanut omaa "
-"paranneltua versiota pohjista kab:n omien pohjatiedostojen tilalle. Jonnekin "
-"toiseen paikkaan.</qt>"
+"<qt><b>Varoitus!</b>"
+"<br>Älä muuta asetuksia ellet ole asentanut omaa paranneltua versiota "
+"pohjista kab:n omien pohjatiedostojen tilalle. Jonnekin toiseen "
+"paikkaan.</qt>"
 
-#: kab_htmlexport.cc:323
+#: kab_htmlexport.cc:320
 msgid "HTML Export Templates"
 msgstr "HTML vientipohjat"
 
-#: kab_htmlexport.cc:329
+#: kab_htmlexport.cc:326
 msgid "Select Template Folder"
 msgstr "Valitse pohjakansio"
 
-#: kab_htmlexport.cc:343
+#: kab_htmlexport.cc:340
 msgid "Select Target Folder"
 msgstr "Valitse kohdekansio"
 
-#: kab_htmlexport.cc:392
+#: kab_htmlexport.cc:389
 msgid "You have to specify both a template and a target folder!"
 msgstr "Sinun tulee määritellä sekä pohja että kohdekansio!"
 
-#: kab_htmlexport.cc:393
+#: kab_htmlexport.cc:390
 msgid "Corrections needed"
 msgstr "Korjauksia tarvitaan"
 
-#: kab_htmlexport.cc:447
+#: kab_htmlexport.cc:444
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Resources are used as support files like backgrounds or bullets in "
+"the resulting HTML files.)</i></qt>"
 msgstr ""
 "<qt>Ainakin yksi <b>resurssitiedosto</b> jota käytetään osoitekirjasi "
 "vientiin HTML muotoon puuttuu. Jatka tästä "
-"huolimatta?<br><br><i>"
-"(Resursseja käytetään tukitiedostoina taustoille ja listoille tuloksena "
-"olevassa HTML tiedostossa.)</i></qt>"
+"huolimatta?"
+"<br>"
+"<br><i>(Resursseja käytetään tukitiedostoina taustoille ja listoille "
+"tuloksena olevassa HTML tiedostossa.)</i></qt>"
 
-#: kab_htmlexport.cc:452
+#: kab_htmlexport.cc:449
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Templates are used as a basis to create the HTML files themselves. "
+"The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
 "<qt>Ainakin yksi <b>pohjatiedosto</b> jota käytetään osoitekirjasi "
-"vientiin HTML muotoon puuttuu. Jatka tästä huolimatta?<br><br><i>(Pohjia "
-"käytetään HTML tiedostojen luontiin. HTML vienti ei toimi "
+"vientiin HTML muotoon puuttuu. Jatka tästä huolimatta?"
+"<br>"
+"<br><i>(Pohjia käytetään HTML tiedostojen luontiin. HTML vienti ei toimi "
 "todennäköisesti ilman niitä.)</i></qt>"
 
-#: kab_htmlexport.cc:492
+#: kab_htmlexport.cc:489
 msgid "Missing Resource"
 msgstr "Puuttuva resurssi"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
-#: kab_openfile.cc:53
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
 msgid "Cancelled."
 msgstr "Peruutettu."
 
-#: kab_htmlexport.cc:504
+#: kab_htmlexport.cc:501
 msgid "Missing Template"
 msgstr "Puuttuva pohja"
 
-#: kab_htmlexport.cc:543
+#: kab_htmlexport.cc:540
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b>"
+"<br>"
+"<br>Exporting to HTML failed. Problems might be caused by insufficient "
+"permissions in the target directory or failures in the setup of your KDE 2 "
+"installation."
+"<br>"
+"<br>If you created your own template folder, mistakes in there may also "
+"cause errors. As a last possibility, the KDE address book may be buggy, too "
+":-(.</qt>"
 msgstr ""
-"<qt><b>Anteeksi!</b><br><br>HTML tiedostoon vienti epäonnistui. Ongelmat "
-"aiheutti mahdollisesti puuttuvat käyttöoikeudet kohdehakemistoon tai "
-"virheet KDE 2 asennuksessasi.<br><br>Jos loit oman pohjakansion virheet "
-"siellä voivat aiheuttaa myös virheitä. Viimeisenä vaihtoehtona myös KDE "
-"osoitekirja voi olla virheellinen :-(.</qt>"
+"<qt><b>Anteeksi!</b>"
+"<br>"
+"<br>HTML tiedostoon vienti epäonnistui. Ongelmat aiheutti mahdollisesti "
+"puuttuvat käyttöoikeudet kohdehakemistoon tai virheet KDE 2 "
+"asennuksessasi."
+"<br>"
+"<br>Jos loit oman pohjakansion virheet siellä voivat aiheuttaa myös "
+"virheitä. Viimeisenä vaihtoehtona myös KDE osoitekirja voi olla "
+"virheellinen :-(.</qt>"
 
-#: kab_htmlexport.cc:551
+#: kab_htmlexport.cc:548
 msgid "Error exporting to HTML"
 msgstr "Virhe vietäessä HTML muotoon"
 
-#: kab_createnew.cc:43 kab_openfile.cc:43
+#: kab_createnew.cc:37 kab_openfile.cc:37
 msgid "Could not find the users home directory."
 msgstr "Käyttäjän kotihakemistoa ei löytynyt."
 
-#: kab_createnew.cc:44 kab_openfile.cc:44
+#: kab_createnew.cc:38 kab_openfile.cc:38
 msgid "Intern error!"
 msgstr "Sisäinen virhe!"
 
-#: kab_createnew.cc:62 kab_openfile.cc:60
+#: kab_createnew.cc:56 kab_openfile.cc:54
 msgid "Only local files supported yet."
 msgstr "Vain paikallisia tiedostoja tuetaan."
 
-#: kab_createnew.cc:75
+#: kab_createnew.cc:69
 msgid ""
 "This file is a directory, or it already exists.\n"
 "Please select another filename.\n"
@@ -884,7 +934,7 @@ msgstr ""
 "Valitse toinen tiedostonimi.\n"
 "Sinulla tulee olla kirjoitusoikeudet luodaksesi uuden tiedoston."
 
-#: kab_createnew.cc:91
+#: kab_createnew.cc:85
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
@@ -892,27 +942,27 @@ msgstr ""
 "Tiedostonimi ei loppunut \".kab\".\n"
 "Se on nyt muutettu nimelle %1\n"
 
-#: kab_createnew.cc:93
+#: kab_createnew.cc:87
 msgid "Note"
 msgstr "Huomaa"
 
-#: kab_createnew.cc:100
+#: kab_createnew.cc:94
 msgid "The file could not be created, possibly permission denied."
 msgstr "Tiedostoa ei voitu luoda, todennäköisesti käyttö estetty."
 
-#: kab_createnew.cc:101 kab_save.cc:58
+#: kab_createnew.cc:95 kab_save.cc:56
 msgid "kab: File error"
 msgstr "kab: tiedostovirhe"
 
-#: kab_createnew.cc:109
+#: kab_createnew.cc:103
 msgid "The file has been created, but could not be loaded."
 msgstr "Tiedosto on luotu, mutta sitä ei saatu ladattua."
 
-#: kab_openfile.cc:45
+#: kab_openfile.cc:39
 msgid "Could not find the users home directory"
 msgstr "Käyttäjän kotihakemistoa ei löytynyt"
 
-#: kab_openfile.cc:72
+#: kab_openfile.cc:66
 msgid ""
 "The file does not exist or is a directory.\n"
 "Use \"Create new database...\" to create a new one.\n"
@@ -922,75 +972,110 @@ msgstr ""
 "Valitse \"Luo uusi tietokanta...\" luodaksesi uuden.\n"
 "Valitse olemassaoleva tiedosto ladataksesi sen."
 
-#: kab_openfile.cc:86
+#: kab_openfile.cc:80
 msgid "The file could not be loaded."
 msgstr "Tiedostoa ei saatu ladattua."
 
-#: kab_save.cc:36 kab_save.cc:50
+#: kab_save.cc:34 kab_save.cc:48
 msgid "Internal error."
 msgstr "Sisäinen virhe."
 
-#: kab_save.cc:44
+#: kab_save.cc:42
 msgid "Entry stored."
 msgstr "Tietue tallennettu."
 
-#: kab_save.cc:57
+#: kab_save.cc:55
 msgid "The file could not be saved (permission denied)."
 msgstr "Tiedostoa ei saatu talletettua (käyttö estetty)"
 
-#: kab_save.cc:61
+#: kab_save.cc:59
 msgid "File saved."
 msgstr "Tiedosto tallennettu."
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:173
 msgid "email: "
 msgstr "sähköposti: "
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:190
 msgid "tel: "
 msgstr "puh: "
 
-#: look_edit.cc:36
-msgid "User Fields"
+#: look_details.cc:43
+#, fuzzy
+msgid "Show postal addresses"
+msgstr "Muokkaa talk-osoitetta"
+
+#: look_details.cc:44
+#, fuzzy
+msgid "Show email addresses"
+msgstr "Ei sähköpostiosotteita."
+
+#: look_details.cc:45
+#, fuzzy
+msgid "Show telephone numbers"
+msgstr "Muokkaa puhelinnumeroita"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr ""
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr ""
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr ""
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr ""
+
+#: look_edit.cc:33
+msgid "User fields"
 msgstr "Käyttäjän kentät"
 
-#: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
-#: look_edit_tabuser.cc:50
+#: look_edit_tabuser.cc:48
 msgid "General failure."
 msgstr "Yleinen virhe"
 
-#: dialog_configurefile.cc:130 look_edit.cc:70
-msgid "(User fields)"
+#: dialog_configurefile.cc:126 look_edit.cc:67
+#, fuzzy
+msgid "(User Fields)"
 msgstr "(Käyttäjän kentät)"
 
-#: look_edit.cc:74
+#: look_edit.cc:71
 msgid "&Person"
 msgstr "&Henkilö"
 
-#: look_edit.cc:75
+#: look_edit.cc:72
 msgid "&Telephone"
 msgstr "&Puhelinnumero"
 
-#: look_edit.cc:76
+#: look_edit.cc:73
 msgid "&Addresses"
 msgstr "&Osoiteet"
 
-#: look_edit.cc:77
+#: look_edit.cc:74
 msgid "&Birthday"
 msgstr "&Syntymäpäivä"
 
-#: look_edit.cc:78
-msgid "Comment"
+#: look_edit.cc:75
+#, fuzzy
+msgid "Co&mment"
 msgstr "Kommentti"
 
 #: look_edit_tabperson.cc:40
-msgid "Email addresses..."
+#, fuzzy
+msgid "Email Addresses..."
 msgstr "Sähköpostiosoitteet..."
 
 #: look_edit_tabperson.cc:41
-msgid "Talk addresses..."
+#, fuzzy
+msgid "Talk Addresses..."
 msgstr "Talk osoitteet..."
 
 #: look_edit_tabperson.cc:42
@@ -1034,11 +1119,13 @@ msgid "Rank:"
 msgstr "Järjestys:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
-msgid "Edit email addresses"
+#, fuzzy
+msgid "Edit Email Addresses"
 msgstr "Muokkaa sähköpostiosoitetta"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
-msgid "Edit talk addresses"
+#, fuzzy
+msgid "Edit Talk Addresses"
 msgstr "Muokkaa talk-osoitetta"
 
 #: look_edit_tabperson.cc:228
@@ -1049,35 +1136,35 @@ msgstr "Muokkaa URL:a"
 msgid "I know this person's birthday:"
 msgstr "Tiedän tämän henkilön syntymäpäivän:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
 msgid "User field 1:"
 msgstr "Käyttäjän kenttä 1:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
 msgid "User field 2:"
 msgstr "Käyttäjän kenttä 2:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
 msgid "User field 3:"
 msgstr "Käyttäjän kenttä 3:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
 msgid "User field 4:"
 msgstr "Käyttäjän kenttä 4:"
 
-#: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
 msgid "(User field 1)"
 msgstr "(Käyttäjän kenttä 1)"
 
-#: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
 msgid "(User field 2)"
 msgstr "(Käyttäjän kenttä 2)"
 
-#: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
 msgid "(User field 3)"
 msgstr "(Käyttäjän kenttä 3)"
 
-#: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
 msgid "(User field 4)"
 msgstr "(Käyttäjän kenttä 4)"
 
@@ -1086,115 +1173,118 @@ msgid "Edit URLs (internet addresses)"
 msgstr "Muokkaa URL:a (internet osoitteita)"
 
 #: look_edit_tabcontact.cc:32
-msgid "Edit telephone numbers"
+#, fuzzy
+msgid "Edit Telephone Numbers"
 msgstr "Muokkaa puhelinnumeroita"
 
-#: look_edit_tabaddresses.cc:231
+#: look_edit_tabaddresses.cc:222
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?"
+"<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Tiesitkö että voit määritellä osotteiden tyypin?<br>Katso "
-"<b>Muokkaa->Aseta tätä tiedostoa</b>.</qt>"
+"<qt>Tiesitkö että voit määritellä osotteiden tyypin?"
+"<br>Katso <b>Muokkaa->Aseta tätä tiedostoa</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:233
-msgid "A note"
+#: look_edit_tabaddresses.cc:224
+#, fuzzy
+msgid "A Note"
 msgstr "Huomautus"
 
-#: look_edit_tabaddresses.cc:255
+#: look_edit_tabaddresses.cc:246
 msgid "Really delete this address?"
 msgstr "Oletko varma että haluat poistaa osoitteen?"
 
-#: look_edit_tabaddresses.cc:317
+#: look_edit_tabaddresses.cc:308
 msgid "Organization"
 msgstr "Organisaatio"
 
-#: look_edit_tabtelephone.cc:46
+#: look_edit_tabtelephone.cc:44
 msgid "Fixed:"
 msgstr "Kiinteä:"
 
-#: look_edit_tabtelephone.cc:47
+#: look_edit_tabtelephone.cc:45
 msgid "Mobile:"
 msgstr "Mobiili:"
 
-#: look_edit_tabtelephone.cc:48
+#: look_edit_tabtelephone.cc:46
 msgid "Fax:"
 msgstr "Faksi:"
 
-#: look_edit_tabtelephone.cc:49
+#: look_edit_tabtelephone.cc:47
 msgid "Modem:"
 msgstr "Modeemi:"
 
-#: look_edit_tabtelephone.cc:50
+#: look_edit_tabtelephone.cc:48
 msgid "User defined 1:"
 msgstr "Käyttäjän kenttä 1:"
 
-#: look_edit_tabtelephone.cc:51
+#: look_edit_tabtelephone.cc:49
 msgid "User defined 2:"
 msgstr "Käyttäjän kenttä 2:"
 
-#: look_edit_tabtelephone.cc:52
+#: look_edit_tabtelephone.cc:50
 msgid "User defined 3:"
 msgstr "Käyttäjän kenttä 3:"
 
-#: look_edit_tabtelephone.cc:64
+#: look_edit_tabtelephone.cc:62
 msgid "Type"
 msgstr "Tyyppi"
 
-#: look_edit_tabtelephone.cc:66
+#: look_edit_tabtelephone.cc:64
 msgid "Number"
 msgstr "Numero"
 
-#: widget_editstringlist.cc:41
+#: widget_editstringlist.cc:39
 msgid "Add a new string"
 msgstr "Lisää uusi merkkijono"
 
-#: widget_editstringlist.cc:42
+#: widget_editstringlist.cc:40
 msgid "Move this string up"
 msgstr "Siirrä merkkijonoa ylös"
 
-#: widget_editstringlist.cc:43
+#: widget_editstringlist.cc:41
 msgid "Move this string down"
 msgstr "Siirrä merkkijonoa alas"
 
-#: widget_editstringlist.cc:44
+#: widget_editstringlist.cc:42
 msgid "Delete this string"
 msgstr "Tuhoa tämä merkkijono"
 
-#: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
 msgstr "Hyväksytty."
 
 #: dialog_editentry.cc:68
-msgid "Edit entry"
+#, fuzzy
+msgid "Edit Entry"
 msgstr "Muokkaa tietuetta"
 
-#: dialog_configurefile.cc:51
+#: dialog_configurefile.cc:47
 msgid "Cannot query configuration data."
 msgstr "Ei voitu hakea asetustietoja."
 
-#: dialog_configurefile.cc:52
+#: dialog_configurefile.cc:48
 msgid "Internal failure"
 msgstr "Sisäinen virhe"
 
-#: dialog_configurefile.cc:68
+#: dialog_configurefile.cc:64
 msgid "Settings applied."
 msgstr "Asetukset hyväksytty."
 
-#: dialog_configurefile.cc:95
+#: dialog_configurefile.cc:91
 msgid "Tab name"
 msgstr "Sivun nimi"
 
-#: dialog_configurefile.cc:154
-msgid "User fields"
+#: dialog_configurefile.cc:150
+msgid "User Fields"
 msgstr "Käyttäjän kentät"
 
-#: dialog_configurefile.cc:166
+#: dialog_configurefile.cc:162
 msgid "Address types"
 msgstr "Osoitetyypit"
 
-#: dialog_configurefile.cc:190
+#: dialog_configurefile.cc:186
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -1202,7 +1292,7 @@ msgstr ""
 "Asetuksia ei saatu tallennettua.\n"
 "Sinulla ei ole oikeuksia kirjoittaa tähän tiedostoon."
 
-#: dialog_configurekab.cc:37
+#: dialog_configurekab.cc:35
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
@@ -1210,15 +1300,15 @@ msgstr ""
 "Asetustiedostosi on viallinen.\n"
 "KAB:ta ei voida asettaa."
 
-#: dialog_configurekab.cc:39
+#: dialog_configurekab.cc:37
 msgid "Fatal error"
 msgstr "Peruuttamaton virhe"
 
-#: dialog_configurekab.cc:40
+#: dialog_configurekab.cc:38
 msgid "Configuration file corrupt."
 msgstr "Asetustiedosto on viallinen."
 
-#: dialog_configurekab.cc:58
+#: dialog_configurekab.cc:56
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
@@ -1226,19 +1316,19 @@ msgstr ""
 "Tapahtui virhe tallennettaessa asetuksia.\n"
 "Jotkut niistä ovat voineet tuhoutua."
 
-#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
 msgid "Error saving preferences."
 msgstr "Virhe tallennettaessa asetuksia."
 
-#: dialog_configurekab.cc:63
+#: dialog_configurekab.cc:61
 msgid "KDE address book preferences."
 msgstr "KDE osoitekirjan asetukse."
 
-#: dialog_configurekab.cc:65
+#: dialog_configurekab.cc:63
 msgid "Preferences saved."
 msgstr "Asetukset tallennettu."
 
-#: dialog_configurekab.cc:69
+#: dialog_configurekab.cc:67
 msgid ""
 "Cannot save your preferences.\n"
 "You may not have permission to write the file."
@@ -1246,24 +1336,25 @@ msgstr ""
 "Asetuksia ei saatu tallennettua.\n"
 "Sinulla ei ole oikeuksia kirjoittaa tähän tiedostoon."
 
-#: dialog_configurekab.cc:88
+#: dialog_configurekab.cc:86
 msgid "Remember last selected view"
 msgstr "Muista edellinen valittu näkymä"
 
-#: dialog_configurekab.cc:90
+#: dialog_configurekab.cc:88
 msgid "Remember last selected entry"
 msgstr "Muista edellinen valittu tietue"
 
-#: dialog_configurekab.cc:92
+#: dialog_configurekab.cc:90
 msgid "Show assembled name in window title"
 msgstr "Näytä koottu nimi ikkunan otsikossa"
 
-#: dialog_configurekab.cc:94
+#: dialog_configurekab.cc:92
 msgid "Create backup file on startup"
 msgstr "Luo vamuuskopio käynnistettäessä"
 
-#: dialog_configurekab.cc:95
-msgid "General settings"
+#: dialog_configurekab.cc:93
+#, fuzzy
+msgid "General Settings"
 msgstr "Yleiset asetukset"
 
 #: dialog_insinuation.cc:29
@@ -1278,30 +1369,30 @@ msgstr "Osasto:"
 msgid "Sub-Department:"
 msgstr "Aliosasto:"
 
-#: kab_entrylist.cc:55
+#: kab_entrylist.cc:49
 msgid "..."
 msgstr "..."
 
-#: kab_entrylist.cc:81
+#: kab_entrylist.cc:75
 msgid "No match."
 msgstr "Ei osumaa."
 
-#: kab_entrylist.cc:94
+#: kab_entrylist.cc:88
 msgid "Calculating..."
 msgstr "Lasken..."
 
-#: kab_entrylist.cc:110
+#: kab_entrylist.cc:104
 msgid "(Disabled)"
 msgstr "(Poissa käytöstä)"
 
-#: kab_entrylist.cc:113
+#: kab_entrylist.cc:107
 msgid "Error creating index for incremental search."
 msgstr "Virhe luotaessa indeksiä inkrementaalihaulle"
 
-#: kab_entrylist.cc:114
+#: kab_entrylist.cc:108
 msgid "Incremental search disabled."
 msgstr "Inkrementaalihaku ei käytössä."
 
-#: kab_entrylist.cc:163
+#: kab_entrylist.cc:157
 msgid "(No items to search)"
 msgstr "(Ei haettavia tietueita)"
