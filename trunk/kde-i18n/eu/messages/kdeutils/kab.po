@@ -1,0 +1,130 @@
+# KTranslator Generated File
+
+# KDE: EUSKARA TRANSLATION
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Marcos Goienetxe <marcosgoi@jazzfree.com>, 2000.
+#
+
+
+msgid ""
+msgstr ""
+
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 1998-11-28 01:10+0100\n"
+"PO-Revision-Date: Mon Dec 20 1999 03:58:23+0200\n" 
+"Last-Translator: Andoni Sáenz de Santamaría Zabala <andonisz@jazzfree.com>\n"
+"Language-Team: EUSKARA <linux-eu@chanae.alphanet.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+"X-Generator: KTranslator v 0.5.0"
+
+#: AddressBookAbout.cpp:25
+msgid "About addressbook"
+msgstr "About addressbook"
+
+#: AddressBookAbout.cpp:35
+msgid "Image load failure"
+msgstr "Irudia kargatzeratzakoan errorea"
+
+#: AddressBookAbout.cpp:36
+msgid "Could not load addressbook logo image!"
+msgstr "Ezin izan dut helbide liburuaren logotipo irudia kargatu"
+
+#: AddressBookAbout.cpp:37
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"Hemen zuk helbide liburuaren\n"
+"logotipoa ikusi beharko zenuke."
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "written and maintained by"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 1.0, May 1999"
+msgstr "kab 1.0, May 1999"
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "Hasieraketa errorea"
+
+#: toplevelwidget.cc:37
+msgid "The program's menubar could not be constructed."
+msgstr "Programaren menubar-a ezin izan da eraiki."
+
+#: toplevelwidget.cc:45
+msgid "The program's statusbar could not be constructed."
+msgstr "Programaren statusbarra- ezin izan da eraiki."
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE addressbook."
+
+#: toplevelwidget.cc:73
+msgid "HTML table"
+msgstr "HTML taula"
+
+#: toplevelwidget.cc:82
+msgid "Export"
+msgstr "Exportatu"
+
+#: toplevelwidget.cc:84
+msgid "Search &entries"
+msgstr "Sarrerak &bilatu"
+
+#: toplevelwidget.cc:86
+msgid "&Print"
+msgstr "&Inprimatu"
+
+#: toplevelwidget.cc:98
+msgid "&Add entry"
+msgstr "Sarrera &Gehitu"
+
+#: toplevelwidget.cc:100
+msgid "&Edit entry"
+msgstr "Sarrera &Editatu"
+
+#: toplevelwidget.cc:102
+msgid "&Remove entry"
+msgstr "Sarrera &Ezabatu"
+
+#: toplevelwidget.cc:114
+msgid "&Mail"
+msgstr "&Posta Elektronikoa"
+
+#: toplevelwidget.cc:116
+msgid "&Talk"
+msgstr "&Hitz egin"
+
+#: toplevelwidget.cc:118
+msgid "&Browse"
+msgstr "&Browse"
+
+#: toplevelwidget.cc:123
+msgid "Help on Addressbook"
+msgstr "Liburu helbidearen laguntza"
+
+#: toplevelwidget.cc:128
+msgid "About Addressbook"
+msgstr "Liburu helbideari Buruz"
+
+#: toplevelwidget.cc:130
+msgid "About &Qt"
+msgstr "&Qt-ri Buruz"
+
+#: toplevelwidget.cc:131
+msgid "About &KDE"
+msgstr "&KDE-ri Buruz"
+
+#: toplevelwidget.cc:138
+msgid "&About"
+msgstr "&Zerari Buruz"
+
+#: toplevelwidget.cc:190
+msgid "About Qt"
+msgstr "&Qt-ri Buruz"
