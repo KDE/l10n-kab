@@ -1,0 +1,793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Allen Huang <lancelot@pchome.com.tw>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.62\n"
+"POT-Creation-Date: 2000-05-31 01:07+0200\n"
+"PO-Revision-Date: 2000-06-05 :+0800\n"
+"Last-Translator: Allen Huang <lancelot@pchome.com.tw>\n"
+"Language-Team: Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=Big5\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# kab_main.cc:38
+#: kab_main.cc:38
+msgid "KDE Addressbook"
+msgstr "KDE 通訊錄"
+
+# kab_main.cc:44
+#: kab_main.cc:44
+msgid "KAB"
+msgstr "KAB"
+
+# kab_main.cc:54
+#: kab_main.cc:54
+msgid ""
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
+msgstr ""
+"<qt>第2版的 KDE "
+"通訊錄並不相容於前一版本。為了保護你的地址資料庫，將會使用新的檔案。執行<b>檔"
+"案->匯入->KDE 1 通訊錄<b>在新版本使用你舊有的資料庫。</qt>"
+
+# kab_main.cc:59
+#: kab_main.cc:59
+msgid "new format"
+msgstr "新格式"
+
+# dialog_configurefile.cc:135 kab_topwidget.cc:67 look_edit.cc:51
+# look_edit.cc:65 look_edit_tabaddresses.cc:55 look_edit_tabcontact.cc:51
+# look_edit_tabperson.cc:64 look_edit_tabperson.cc:245
+# look_edit_tabperson.cc:283 look_edit_tabuser.cc:57
+#: dialog_configurefile.cc:137 kab_topwidget.cc:67 look_edit.cc:51
+#: look_edit.cc:65 look_edit_tabaddresses.cc:198 look_edit_tabcontact.cc:51
+#: look_edit_tabperson.cc:66 look_edit_tabperson.cc:249
+#: look_edit_tabperson.cc:288 look_edit_tabuser.cc:58
+msgid "Out of memory."
+msgstr "記憶體不足。"
+
+# kab_topwidget.cc:68
+#: kab_topwidget.cc:68
+msgid "General failure"
+msgstr "一般錯誤"
+
+# kab_topwidget.cc:84
+#: kab_topwidget.cc:84
+msgid "Could not connect to the address database."
+msgstr "無法連接到地址資料庫"
+
+# kab_topwidget.cc:85 kab_topwidget.cc:232
+#: kab_topwidget.cc:85 kab_topwidget.cc:233
+msgid "Database error"
+msgstr "資料庫錯誤"
+
+# kab_topwidget.cc:93
+#: kab_topwidget.cc:93
+msgid "Welcome to kab 2.0"
+msgstr "歡迎來到 kab 2.0"
+
+# kab_topwidget.cc:105
+#: kab_topwidget.cc:105
+msgid "&KDE 1 address book"
+msgstr "KDE 1 通訊錄&K"
+
+# kab_topwidget.cc:107
+#: kab_topwidget.cc:107
+msgid "&Create new database"
+msgstr "建立新資料庫&C"
+
+# kab_topwidget.cc:109
+#: kab_topwidget.cc:109
+msgid "&Open"
+msgstr "開啟&O"
+
+# kab_topwidget.cc:111
+#: kab_topwidget.cc:111
+msgid "Open default &database"
+msgstr "開啟預設的資料庫&d"
+
+# kab_topwidget.cc:116
+#: kab_topwidget.cc:116
+msgid "&Import..."
+msgstr "匯入&I..."
+
+# kab_topwidget.cc:121
+#: kab_topwidget.cc:122
+msgid "&Add entry"
+msgstr "新增資料&A"
+
+# kab_topwidget.cc:122
+#: kab_topwidget.cc:123
+msgid "&Edit entry"
+msgstr "編輯資料&E"
+
+# kab_topwidget.cc:123
+#: kab_topwidget.cc:124
+msgid "&Remove entry"
+msgstr "移除資料&R"
+
+# kab_topwidget.cc:125
+#: kab_topwidget.cc:126
+msgid "Send an e&mail"
+msgstr "寄送郵件$m"
+
+# kab_topwidget.cc:126
+#: kab_topwidget.cc:127
+msgid "&Browse"
+msgstr "瀏覽&B"
+
+# kab_topwidget.cc:128
+#: kab_topwidget.cc:129
+msgid "Enable all &messages"
+msgstr "顯示所有訊息&m"
+
+# kab_topwidget.cc:130
+#: kab_topwidget.cc:131
+msgid "&Configure this file"
+msgstr "設定這個檔案&C"
+
+# kab_topwidget.cc:134
+#: kab_topwidget.cc:135
+msgid "&Business card"
+msgstr "商務名片&B"
+
+# kab_topwidget.cc:136
+#: kab_topwidget.cc:137
+msgid "&Editing"
+msgstr "編輯中&E"
+
+# kab_topwidget.cc:153
+#: kab_topwidget.cc:154
+msgid "New entry"
+msgstr "新資料"
+
+# kab_topwidget.cc:155
+#: kab_topwidget.cc:156
+msgid "Edit entry"
+msgstr "編輯資料"
+
+# kab_topwidget.cc:157
+#: kab_topwidget.cc:158
+msgid "Delete entry"
+msgstr "移除資料"
+
+# kab_topwidget.cc:160
+#: kab_topwidget.cc:161
+msgid "First entry"
+msgstr "第一筆資料"
+
+# kab_topwidget.cc:162
+#: kab_topwidget.cc:163
+msgid "Previous entry"
+msgstr "前一筆資料"
+
+# kab_topwidget.cc:168
+#: kab_topwidget.cc:169
+msgid "Next entry"
+msgstr "下一筆資料"
+
+# kab_topwidget.cc:171
+#: kab_topwidget.cc:172
+msgid "Last entry"
+msgstr "最後一筆資料"
+
+# kab_topwidget.cc:231
+#: kab_topwidget.cc:232
+msgid "The database interface could not be created."
+msgstr "資料庫介面無法建立。"
+
+# kab_topwidget.cc:258
+#: kab_topwidget.cc:259
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"你已經更改此筆資料。\n"
+"是否儲存更改的資料？\n"
+"(若不儲存，更改的資料將會不見。)"
+
+# kab_topwidget.cc:260
+#: kab_topwidget.cc:261
+msgid "Save changes?"
+msgstr "是否儲存更改的資料?"
+
+# kab_topwidget.cc:288
+#: kab_topwidget.cc:289
+msgid "No entries."
+msgstr "沒有資料。"
+
+# kab_topwidget.cc:436
+#: kab_topwidget.cc:437
+msgid "The standard file could not be loaded."
+msgstr "無法載入標準檔案。"
+
+# dialog_configurefile.cc:183 kab_createnew.cc:88 kab_createnew.cc:119
+# kab_openfile.cc:83 kab_openfile.cc:95 kab_topwidget.cc:437
+#: dialog_configurefile.cc:188 kab_createnew.cc:88 kab_createnew.cc:119
+#: kab_openfile.cc:83 kab_openfile.cc:95 kab_topwidget.cc:438
+msgid "File error"
+msgstr "檔案錯誤"
+
+# kab_topwidget.cc:449
+#: kab_topwidget.cc:450
+msgid "Business card view."
+msgstr "商務名片畫面。"
+
+# kab_topwidget.cc:457
+#: kab_topwidget.cc:458
+msgid "Editing view."
+msgstr "編輯中畫面，"
+
+# kab_topwidget.cc:464
+#: kab_topwidget.cc:465
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"將會重新顯示你之前隱藏的所有訊息。\n"
+"是否繼續？"
+
+# kab_topwidget.cc:466
+#: kab_topwidget.cc:467
+msgid "Enable messages?"
+msgstr "顯示訊息?"
+
+# kab_topwidget.cc:482
+#: kab_topwidget.cc:483
+msgid "New entry added."
+msgstr "資料已新增。"
+
+# kab_topwidget.cc:498
+#: kab_topwidget.cc:499
+msgid "Saving new entry."
+msgstr "儲存新資料中。"
+
+# kab_topwidget.cc:500
+#: kab_topwidget.cc:501
+msgid "Done."
+msgstr "完成。"
+
+# dialog_configurefile.cc:76 dialog_editentry.cc:68 kab_kab1importer.cc:244
+# kab_topwidget.cc:502
+#: dialog_configurefile.cc:78 dialog_editentry.cc:68 kab_kab1importer.cc:244
+#: kab_topwidget.cc:503
+msgid "Rejected."
+msgstr "已拒絕。"
+
+# kab_topwidget.cc:508
+#: kab_topwidget.cc:509
+msgid ""
+"Cannot display the new entry.\n"
+"Unknown cause."
+msgstr ""
+"無法顯示新資料。\n"
+"未知原因。"
+
+# kab_topwidget.cc:518
+#: kab_topwidget.cc:519
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+"無法新增資料。\n"
+"權限不足。\n"
+"你沒有權限寫入這個檔案。"
+
+# kab_topwidget.cc:526
+#: kab_topwidget.cc:527
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"無法新增資料。\n"
+"未知原因。"
+
+# kab_topwidget.cc:554
+#: kab_topwidget.cc:555
+msgid "Really remove this entry?"
+msgstr "確定要移除此筆資料嗎?"
+
+# kab_topwidget.cc:555 look_edit_tabaddresses.cc:264
+#: kab_topwidget.cc:556 look_edit_tabaddresses.cc:439
+msgid "Question"
+msgstr "問題"
+
+# kab_topwidget.cc:561
+#: kab_topwidget.cc:562
+msgid "Entry deleted."
+msgstr "資料已刪除。"
+
+# kab_topwidget.cc:569
+#: kab_topwidget.cc:570
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"無法刪除資料\n"
+"(可能權限不足)。"
+
+# dialog_configurefile.cc:69 kab_save.cc:57 kab_topwidget.cc:572
+#: dialog_configurefile.cc:71 kab_save.cc:57 kab_topwidget.cc:573
+msgid "Permission denied."
+msgstr "權限不足。"
+
+# kab_kab1importer.cc:199
+#: kab_kab1importer.cc:199
+msgid "Home"
+msgstr "家"
+
+# kab_kab1importer.cc:241
+#: kab_kab1importer.cc:241
+msgid "Imported kab 1 addressbook."
+msgstr "已匯入的 kab 1 通訊錄。"
+
+# kab_kab1importer.cc:280
+#: kab_kab1importer.cc:280
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"無法存取 kab 1 資料庫檔案。\n"
+"你極可能從沒使用過 kab 1。"
+
+# kab_kab1importer.cc:294
+#: kab_kab1importer.cc:294
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"無法讀取 kab 1 資料庫檔案。\n"
+"你可能須手動修改你的資料庫。"
+
+# kab_kab1importer.cc:309
+#: kab_kab1importer.cc:309
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"無法在你的資料庫找到資料庫。\n"
+"你可能須手動修改你的資料庫。"
+
+# kab_kab1importer.cc:337
+#: kab_kab1importer.cc:337
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"警告：匯入 KDE 1 地址資料庫時發生錯誤。\n"
+"\n"
+
+# kab_kab1importer.cc:342
+#: kab_kab1importer.cc:342
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"你確定要將你的 KDE 1 地址資料庫的資料新增到這個檔案嗎?\n"
+"你將無法復原這個步驟。"
+
+# kab_createnew.cc:52 kab_openfile.cc:51
+#: kab_createnew.cc:52 kab_openfile.cc:51
+msgid "Could not find the users home directory."
+msgstr "找不到使用者的家目錄"
+
+# kab_createnew.cc:53 kab_openfile.cc:52
+#: kab_createnew.cc:53 kab_openfile.cc:52
+msgid "Intern error!"
+msgstr "內部錯誤!"
+
+# kab_createnew.cc:64 kab_openfile.cc:61
+#: kab_createnew.cc:64 kab_openfile.cc:61
+msgid "Cancelled."
+msgstr "已取消。"
+
+# kab_createnew.cc:71 kab_openfile.cc:68
+#: kab_createnew.cc:71 kab_openfile.cc:68
+msgid "Only local files supported yet."
+msgstr "目前只支援本地端檔案。"
+
+# kab_createnew.cc:84
+#: kab_createnew.cc:84
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"這個檔案是一個目錄，或是已經存在。\n"
+"請選擇其它檔名。\n"
+"你必須要有權限建立新檔案。"
+
+# kab_createnew.cc:100
+#: kab_createnew.cc:100
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to\n"
+msgstr ""
+"這個檔名不是以\".kab\"副檔名結尾。\n"
+"它已經被更改為\n"
+
+# kab_createnew.cc:102
+#: kab_createnew.cc:102
+msgid "Note"
+msgstr "註解"
+
+# kab_createnew.cc:109
+#: kab_createnew.cc:109
+msgid "The file could not be created, possibly permission denied."
+msgstr "無法建立這個檔案，可能是權限不足。"
+
+# kab_createnew.cc:110 kab_save.cc:68
+#: kab_createnew.cc:110 kab_save.cc:68
+msgid "kab: File error"
+msgstr "kab: 檔案錯誤"
+
+# kab_createnew.cc:118
+#: kab_createnew.cc:118
+msgid "The file has been created, but could not be loaded."
+msgstr "這個檔案已建立，但無法載入。"
+
+# kab_openfile.cc:80
+#: kab_openfile.cc:80
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"New File\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"這個檔案不存在或是一個目錄。\n"
+"使用\"新檔案\"以建立新檔案。\n"
+"選擇一個已存在的檔案載入。"
+
+# kab_openfile.cc:94
+#: kab_openfile.cc:94
+msgid "The file could not be loaded."
+msgstr "無法載入這個檔案。"
+
+# kab_save.cc:46 kab_save.cc:60
+#: kab_save.cc:46 kab_save.cc:60
+msgid "Internal error."
+msgstr "內部錯誤。"
+
+# kab_save.cc:54
+#: kab_save.cc:54
+msgid "Entry stored."
+msgstr "資料已儲存。"
+
+# kab_save.cc:67
+#: kab_save.cc:67
+msgid "The file could not be saved (permission denied)."
+msgstr "無法儲存檔案(權限不足)。"
+
+# kab_save.cc:71
+#: kab_save.cc:71
+msgid "File saved."
+msgstr "檔案已儲存。"
+
+# look_businesscard.cc:176
+#: look_businesscard.cc:176
+msgid "email: "
+msgstr "電子郵件信箱: "
+
+# look_businesscard.cc:193
+#: look_businesscard.cc:193
+msgid "tel: "
+msgstr "電話: "
+
+# look_edit.cc:45
+#: look_edit.cc:45
+msgid "User Fields"
+msgstr "使用者欄位"
+
+# dialog_configurefile.cc:136 look_edit.cc:52 look_edit.cc:66
+# look_edit_tabaddresses.cc:56 look_edit_tabcontact.cc:52
+# look_edit_tabperson.cc:65 look_edit_tabperson.cc:246
+# look_edit_tabperson.cc:284 look_edit_tabuser.cc:58
+#: dialog_configurefile.cc:138 look_edit.cc:52 look_edit.cc:66
+#: look_edit_tabaddresses.cc:199 look_edit_tabcontact.cc:52
+#: look_edit_tabperson.cc:67 look_edit_tabperson.cc:250
+#: look_edit_tabperson.cc:289 look_edit_tabuser.cc:59
+msgid "General failure."
+msgstr "一般錯誤。"
+
+# look_edit.cc:80
+#: look_edit.cc:80
+msgid "&Person"
+msgstr "個人&P"
+
+# look_edit.cc:81
+#: look_edit.cc:81
+msgid "&Telephone"
+msgstr "電話&T"
+
+# look_edit.cc:82
+#: look_edit.cc:82
+msgid "&Addresses"
+msgstr "地址&A"
+
+# look_edit.cc:83
+#: look_edit.cc:83
+msgid "&Birthday"
+msgstr "生日&B"
+
+# look_edit.cc:84
+#: look_edit.cc:84
+msgid "Comment"
+msgstr "備註"
+
+# look_edit_tabperson.cc:46
+#: look_edit_tabperson.cc:48
+msgid "Email addresses..."
+msgstr "電子郵件位址..."
+
+# look_edit_tabperson.cc:47
+#: look_edit_tabperson.cc:49
+msgid "Talk addresses..."
+msgstr "交談位址..."
+
+# look_edit_tabperson.cc:48
+#: look_edit_tabperson.cc:50
+msgid "URLs..."
+msgstr "URLs..."
+
+# look_edit_tabperson.cc:74
+#: look_edit_tabperson.cc:73
+msgid "Formatted name:"
+msgstr "已格式姓名:"
+
+# look_edit_tabperson.cc:82
+#: look_edit_tabperson.cc:84
+msgid "First name:"
+msgstr "名字:"
+
+# look_edit_tabperson.cc:84
+#: look_edit_tabperson.cc:86
+msgid "Middle name:"
+msgstr "中名:"
+
+# look_edit_tabperson.cc:86
+#: look_edit_tabperson.cc:88
+msgid "Last name:"
+msgstr "姓氏:"
+
+# look_edit_tabperson.cc:103
+#: look_edit_tabperson.cc:105
+msgid "Name prefix:"
+msgstr "姓名開頭:"
+
+# look_edit_tabperson.cc:105
+#: look_edit_tabperson.cc:107
+msgid "Title:"
+msgstr "頭銜:"
+
+# look_edit_tabperson.cc:107
+#: look_edit_tabperson.cc:109
+msgid "Rank:"
+msgstr "身份:"
+
+# look_edit_tabcontact.cc:36 look_edit_tabperson.cc:198
+#: look_edit_tabcontact.cc:36 look_edit_tabperson.cc:202
+msgid "Edit email addresses"
+msgstr "編輯電子郵件位址"
+
+# look_edit_tabcontact.cc:37 look_edit_tabperson.cc:212
+#: look_edit_tabcontact.cc:37 look_edit_tabperson.cc:216
+msgid "Edit talk addresses"
+msgstr "編輯交談位址"
+
+# look_edit_tabperson.cc:226
+#: look_edit_tabperson.cc:230
+msgid "Edit URLs"
+msgstr "編輯 URLs"
+
+# dialog_configurefile.cc:99 look_edit_tabuser.cc:42
+#: dialog_configurefile.cc:101 look_edit_tabuser.cc:43
+msgid "User field 1:"
+msgstr "使用者欄位 1:"
+
+# dialog_configurefile.cc:99 look_edit_tabuser.cc:43
+#: dialog_configurefile.cc:101 look_edit_tabuser.cc:44
+msgid "User field 2:"
+msgstr "使用者欄位 2:"
+
+# dialog_configurefile.cc:100 look_edit_tabuser.cc:44
+#: dialog_configurefile.cc:102 look_edit_tabuser.cc:45
+msgid "User field 3:"
+msgstr "使用者欄位 3:"
+
+# dialog_configurefile.cc:100 look_edit_tabuser.cc:45
+#: dialog_configurefile.cc:102 look_edit_tabuser.cc:46
+msgid "User field 4:"
+msgstr "使用者欄位 4:"
+
+# look_edit_tabcontact.cc:38
+#: look_edit_tabcontact.cc:38
+msgid "Edit URLs (internet addresses)"
+msgstr "編輯 URLs (網際網路位址)"
+
+# look_edit_tabcontact.cc:39
+#: look_edit_tabcontact.cc:39
+msgid "Edit telephone numbers"
+msgstr "編輯電話號碼"
+
+# look_edit_tabaddresses.cc:68
+#: look_edit_tabaddresses.cc:69 look_edit_tabaddresses.cc:211
+msgid "Add another address"
+msgstr "新增另一地址"
+
+# look_edit_tabaddresses.cc:72
+#: look_edit_tabaddresses.cc:72 look_edit_tabaddresses.cc:215
+msgid "Delete this address"
+msgstr "刪除這個地址"
+
+#: look_edit_tabaddresses.cc:85
+msgid "Headline:"
+msgstr "標題:"
+
+# look_edit_tabaddresses.cc:85
+#: look_edit_tabaddresses.cc:100 look_edit_tabaddresses.cc:228
+msgid "Assignment:"
+msgstr "工作:"
+
+# look_edit_tabaddresses.cc:94
+#: look_edit_tabaddresses.cc:108 look_edit_tabaddresses.cc:237
+msgid "Edit organisational attributes"
+msgstr "編輯公司組織屬性"
+
+# look_edit_tabaddresses.cc:106
+#: look_edit_tabaddresses.cc:115 look_edit_tabaddresses.cc:249
+msgid "Street:"
+msgstr "街道:"
+
+# look_edit_tabaddresses.cc:113
+#: look_edit_tabaddresses.cc:124 look_edit_tabaddresses.cc:256
+msgid "City"
+msgstr "城市"
+
+# look_edit_tabaddresses.cc:115
+#: look_edit_tabaddresses.cc:125 look_edit_tabaddresses.cc:258
+msgid "State"
+msgstr "州"
+
+# look_edit_tabaddresses.cc:117
+#: look_edit_tabaddresses.cc:126 look_edit_tabaddresses.cc:260
+msgid "Zipcode"
+msgstr "郵遞區號"
+
+# look_edit_tabaddresses.cc:133
+#: look_edit_tabaddresses.cc:146 look_edit_tabaddresses.cc:276
+msgid "Country:"
+msgstr "國家:"
+
+#: look_edit_tabaddresses.cc:414
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt>你知道應事先定義地址的類型嗎？<br>參照"
+"<b>編輯->設定這個檔案</b>.</qt>"
+
+# kab_createnew.cc:102
+#: look_edit_tabaddresses.cc:416
+msgid "A note"
+msgstr "註解"
+
+# look_edit_tabaddresses.cc:263
+#: look_edit_tabaddresses.cc:438
+msgid "Really delete this address?"
+msgstr "確定刪除這個地址?"
+
+# look_edit_tabtelephone.cc:20
+#: look_edit_tabtelephone.cc:26
+msgid "Fixed:"
+msgstr "永久電話:"
+
+# look_edit_tabtelephone.cc:21
+#: look_edit_tabtelephone.cc:27
+msgid "Mobile:"
+msgstr "行動電話:"
+
+# look_edit_tabtelephone.cc:22
+#: look_edit_tabtelephone.cc:28
+msgid "Fax:"
+msgstr "傳真:"
+
+# look_edit_tabtelephone.cc:23
+#: look_edit_tabtelephone.cc:29
+msgid "Modem:"
+msgstr "數據機:"
+
+# look_edit_tabtelephone.cc:24
+#: look_edit_tabtelephone.cc:30
+msgid "User defined 1:"
+msgstr "使用者自訂 1:"
+
+# look_edit_tabtelephone.cc:25
+#: look_edit_tabtelephone.cc:31
+msgid "User defined 2:"
+msgstr "使用者自訂 2:"
+
+# look_edit_tabtelephone.cc:26
+#: look_edit_tabtelephone.cc:32
+msgid "User defined 3:"
+msgstr "使用者自訂 3:"
+
+# look_edit_tabtelephone.cc:37
+#: look_edit_tabtelephone.cc:44
+msgid "Type"
+msgstr "類型"
+
+# look_edit_tabtelephone.cc:39
+#: look_edit_tabtelephone.cc:46
+msgid "Number"
+msgstr "號碼"
+
+# widget_editstringlist.cc:51
+#: widget_editstringlist.cc:51
+msgid "Add a new string"
+msgstr "新增一個字串"
+
+# widget_editstringlist.cc:52
+#: widget_editstringlist.cc:52
+msgid "Move this string up"
+msgstr "上移這個字串"
+
+# widget_editstringlist.cc:53
+#: widget_editstringlist.cc:53
+msgid "Move this string down"
+msgstr "下移這個字串"
+
+# widget_editstringlist.cc:54
+#: widget_editstringlist.cc:54
+msgid "Delete this string"
+msgstr "刪除這個字串"
+
+# dialog_configurefile.cc:66 dialog_editentry.cc:65
+#: dialog_configurefile.cc:68 dialog_editentry.cc:65
+msgid "Accepted."
+msgstr "已接受。"
+
+# dialog_configurefile.cc:71
+#: dialog_configurefile.cc:73
+msgid "Settings applied."
+msgstr "設定已套用。"
+
+# dialog_configurefile.cc:98
+#: dialog_configurefile.cc:100
+msgid "Tab name"
+msgstr "標號名稱"
+
+# dialog_configurefile.cc:141
+#: dialog_configurefile.cc:143
+msgid "User fields"
+msgstr "使用者欄位"
+
+# dialog_configurefile.cc:150
+#: dialog_configurefile.cc:155
+msgid "Address types"
+msgstr "地址類型"
+
+# dialog_configurefile.cc:181
+#: dialog_configurefile.cc:186
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"無法儲存你的設定。\n"
+"可能是你沒有權限寫入這個檔案。"
+
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgid "Talk"
+#~ msgstr "交談"
+
+#~ msgid "Telephone numbers"
+#~ msgstr "電話"
