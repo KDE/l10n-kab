@@ -32,12 +32,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
-"<address><email>pam.roberts@btinternet.com</email></address> </"
-"affiliation>"
+"<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 msgstr ""
 "<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
-"<address><email>pam.roberts@btinternet.com</email></address> </"
-"affiliation>"
+"<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 
 #: index.docbook:32
 #, no-c-format
@@ -86,14 +84,14 @@ msgstr "Indledning"
 #: index.docbook:60
 #, no-c-format
 msgid ""
-"&kab; is an address book for use with &kde; that lets you save "
-"names, postal, email, talk and <acronym>WWW</acronym> addresses, "
-"telephone numbers, important dates and other information in a card "
-"index form."
+"&kab; is an address book for use with &kde; that lets you save names, "
+"postal, email, talk and <acronym>WWW</acronym>"
+" addresses, telephone numbers, important dates and other information in a "
+"card index form."
 msgstr ""
-"&kab; er en adressebog til brug med &kde; der lader dig gemme "
-"navne-, post-, e-mail-, talk- og <acronym>WWW</acronym> adresser, "
-"telefonnumre, vigtige datoer og anden information i en kortindekde-form."
+"&kab; er en adressebog til brug med &kde; der lader dig gemme navne-, post-, "
+"e-mail-, talk- og <acronym>WWW</acronym> adresser, telefonnumre, vigtige "
+"datoer og anden information i en kortindekde-form."
 
 #: index.docbook:68
 #, no-c-format
@@ -108,25 +106,27 @@ msgstr "Indtastning af data"
 #: index.docbook:73
 #, no-c-format
 msgid ""
-"You can import address book data from the &kde; 1 version of &kab; "
-"or from &Netscape; by using the <menuchoice><guimenu>File</"
-"guimenu><guisubmenu>Import</guisubmenu></menuchoice> menu option."
+"You can import address book data from the &kde; 1 version of &kab; or from "
+"&Netscape; by using the "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Import</guisubmenu>"
+"</menuchoice> menu option."
 msgstr ""
-"Du kan importeret adressebogsdata fra &kde; 1 udgaven af &kab; "
-"eller fra &Netscape; ved brug af <menuchoice><guimenu>Fil</"
-"guimenu><guisubmenu>Importér</guisubmenu></menuchoice>-menuvalget."
+"Du kan importeret adressebogsdata fra &kde; 1 udgaven af &kab; eller fra "
+"&Netscape; ved brug af "
+"<menuchoice><guimenu>Fil</guimenu><guisubmenu>Importér</guisubmenu>"
+"</menuchoice>-menuvalget."
 
 #: index.docbook:78
 #, no-c-format
 msgid ""
 "You can also add individual entries by choosing the "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Add Entry...</"
-"guimenuitem></menuchoice> option, which brings up the following "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Add "
+"Entry...</guimenuitem></menuchoice> option, which brings up the following "
 "dialog box:"
 msgstr ""
 "Du kan også tilføje individuelle indgange ved at gøre "
-"<menuchoice><guimenu>Redigér</guimenu><guimenuitem>Tilføj indgang...</"
-"guimenuitem></menuchoice>-valget, hvilket får følgende "
+"<menuchoice><guimenu>Redigér</guimenu><guimenuitem>Tilføj "
+"indgang...</guimenuitem></menuchoice>-valget, hvilket får følgende "
 "dialogboks frem:"
 
 #: index.docbook:83
@@ -142,42 +142,40 @@ msgstr "&kab; i redigeringsvisning-tilstand"
 #: index.docbook:95
 #, no-c-format
 msgid ""
-"This view is used to add or change the details for a card. It has "
-"four main tab pages; <guilabel>Person</guilabel>, "
-"<guilabel>Telephone</guilabel>, <guilabel>Address</guilabel> and "
-"<guilabel>Birthday</guilabel>."
+"This view is used to add or change the details for a card. It has four main "
+"tab pages; <guilabel>Person</guilabel>, <guilabel>Telephone</guilabel>, "
+"<guilabel>Address</guilabel> and <guilabel>Birthday</guilabel>."
 msgstr ""
-"Denne visning bruges til at tilføje eller ændre detaljerne i et kort. Den har "
-"fire hoved-fanebladssider; <guilabel>Person</guilabel>, "
+"Denne visning bruges til at tilføje eller ændre detaljerne i et kort. Den "
+"har fire hoved-fanebladssider; <guilabel>Person</guilabel>, "
 "<guilabel>Telefon</guilabel>, <guilabel>Adresse</guilabel> og "
 "<guilabel>Fødselsdag</guilabel>."
 
 #: index.docbook:100
 #, no-c-format
 msgid ""
-"The <guilabel>Person</guilabel> tab page is where you enter the "
-"person's name and email and Talk addresses and any associated &URL;"
-"s. Whatever you enter in the <guilabel>Formatted name:</guilabel> "
-"text box will appear as the entry's name in the entry navigation "
-"list, the Toolbar Drop Down list and at the top left of the card. If "
-"you do not enter anything in the <guilabel>Formatted name:</"
-"guilabel> text box then &kab; will automatically generate a "
-"formatted name such as <quote>Holmes, Sherlock</quote>."
+"The <guilabel>Person</guilabel> tab page is where you enter the person's "
+"name and email and Talk addresses and any associated &URL;s. Whatever you "
+"enter in the <guilabel>Formatted name:</guilabel> text box will appear as "
+"the entry's name in the entry navigation list, the Toolbar Drop Down list "
+"and at the top left of the card. If you do not enter anything in the "
+"<guilabel>Formatted name:</guilabel> text box then &kab; will automatically "
+"generate a formatted name such as <quote>Holmes, Sherlock</quote>."
 msgstr ""
-"<guilabel>Person</guilabel>-fanbladssiden er hvor du indtaster "
-"personens navn og e-mail- og Talk-adresser og tilknyttede &URL;'er. "
-"Det du indtaster i <guilabel>Formateret navn:</guilabel> "
-"tekstboksen vil vise sig som indgangens navn i indgangsnavigerings-"
-"listen, værktøjslinjens drop-ned-liste og for oven til venstre på kortet. Hvis "
-"du ikke indtaster noget i <guilabel>Formateret navn:</"
-"guilabel>-tekstbokse, så vil &kab; automatisk generere et "
-"formateret navn såsom <quote>Holmes, Sherlock</quote>."
+"<guilabel>Person</guilabel>-fanbladssiden er hvor du indtaster personens "
+"navn og e-mail- og Talk-adresser og tilknyttede &URL;'er. Det du indtaster i "
+"<guilabel>Formateret navn:</guilabel> tekstboksen vil vise sig som "
+"indgangens navn i indgangsnavigerings-listen, værktøjslinjens "
+"drop-ned-liste og for oven til venstre på kortet. Hvis du ikke indtaster "
+"noget i <guilabel>Formateret navn:</guilabel>-tekstbokse, så vil &kab; "
+"automatisk generere et formateret navn såsom <quote>Holmes, "
+"Sherlock</quote>."
 
 #: index.docbook:109
 #, no-c-format
 msgid ""
-"The <guilabel>Telephone</guilabel> tab page is, obviously, where you "
-"enter the telephone number(s)."
+"The <guilabel>Telephone</guilabel> tab page is, obviously, where you enter "
+"the telephone number(s)."
 msgstr ""
 "<guilabel>Telefon</guilabel>-fanebladssidener, naturligvis stedet hvor du "
 "indtaster telefonnumrene."
@@ -185,8 +183,8 @@ msgstr ""
 #: index.docbook:112
 #, no-c-format
 msgid ""
-"The <guilabel>Addresses</guilabel> tab page lets you enter one or "
-"more addresses for this entry."
+"The <guilabel>Addresses</guilabel> tab page lets you enter one or more "
+"addresses for this entry."
 msgstr ""
 "<guilabel>Adresser</guilabel>-fanebladssiden lader dig indtaste én eller "
 "adresser for denne indgang."
@@ -194,21 +192,21 @@ msgstr ""
 #: index.docbook:115
 #, no-c-format
 msgid ""
-"For each address you want to enter, click on the <guibutton>Add</"
-"guibutton> button. It will display a drop down list containing the "
-"address types you have set up with the <menuchoice><guimenu>Edit</"
-"guimenu><guimenuitem>Configure this file...</guimenuitem></"
-"menuchoice> option. Choose one and it will appear in the "
-"<guilabel>Address types</guilabel> text box where you can edit it if "
+"For each address you want to enter, click on the <guibutton>Add</guibutton> "
+"button. It will display a drop down list containing the address types you "
+"have set up with the "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Configure this "
+"file...</guimenuitem></menuchoice> option. Choose one and it will appear in "
+"the <guilabel>Address types</guilabel> text box where you can edit it if "
 "required."
 msgstr ""
-"For hver adresse du ønsker at indtaste, klik på <guibutton>Tilføj</"
-"guibutton>-knappen. Den vil vise en drop-ned-liste der indeholder de "
-"adressetyper du har sat op med <menuchoice><guimenu>Redigér</"
-"guimenu><guimenuitem>Indstil denne fil...</guimenuitem></"
-"menuchoice>-valget. Vælg én og den vil vise sig i "
-"<guilabel>Adressetyper</guilabel>-tekstboksen hvor du kan redigere den hvis det "
-"kræves."
+"For hver adresse du ønsker at indtaste, klik på "
+"<guibutton>Tilføj</guibutton>-knappen. Den vil vise en drop-ned-liste der "
+"indeholder de adressetyper du har sat op med "
+"<menuchoice><guimenu>Redigér</guimenu><guimenuitem>Indstil denne "
+"fil...</guimenuitem></menuchoice>-valget. Vælg én og den vil vise sig i "
+"<guilabel>Adressetyper</guilabel>-tekstboksen hvor du kan redigere den hvis "
+"det kræves."
 
 #: index.docbook:115
 #, no-c-format
@@ -218,14 +216,14 @@ msgstr "Udfyld så adressens detaljer."
 #: index.docbook:115
 #, no-c-format
 msgid ""
-"Pressing the <guibutton>Organization...</guibutton> button brings up "
-"another dialog box where you can enter details of any organization "
-"that the person works for and his position within it. However, the "
-"current version of &kab; does not display this information in the "
+"Pressing the <guibutton>Organization...</guibutton>"
+" button brings up another dialog box where you can enter details of any "
+"organization that the person works for and his position within it. However, "
+"the current version of &kab; does not display this information in the "
 "<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"Ved at trykke på <guibutton>Organisation...</guibutton>-knappen får du "
-"en anden dialogboks frem hvor du kan indtaste detaljer om den organisation "
+"Ved at trykke på <guibutton>Organisation...</guibutton>-knappen får du en "
+"anden dialogboks frem hvor du kan indtaste detaljer om den organisation "
 "personen arbejder for og hans position indenfor den. I den nuværende udgave "
 "af &kab; vises denne information imidlertid ikke i "
 "<guimenuitem>Forretningskort</guimenuitem>-visningen."
@@ -233,32 +231,33 @@ msgstr ""
 #: index.docbook:137
 #, no-c-format
 msgid ""
-"The <guilabel>Birthday</guilabel> tab page is where you select a "
-"significant date to appear at the top right of the card view. It "
-"will only appear if you have checked the <guilabel>I know this "
-"person's birthday:</guilabel> box."
+"The <guilabel>Birthday</guilabel>"
+" tab page is where you select a significant date to appear at the top right "
+"of the card view. It will only appear if you have checked the <guilabel>I "
+"know this person's birthday:</guilabel> box."
 msgstr ""
-"<guilabel>Fødselsdag</guilabel>-fanebladssiden er stedet hvor du vælger en "
-"vigtig dato der skal vises foroven til højre i kortet. Det "
-"vil kun være der hvis du har afkrydset <guilabel>Jeg kender denne "
-"persons fødsesdag:</guilabel>-boksen."
+"<guilabel>Fødselsdag</guilabel>"
+"-fanebladssiden er stedet hvor du vælger en vigtig dato der skal vises "
+"foroven til højre i kortet. Det vil kun være der hvis du har afkrydset "
+"<guilabel>Jeg kender denne persons fødsesdag:</guilabel>-boksen."
 
 #: index.docbook:142
 #, no-c-format
 msgid ""
 "You will probably need to experiment with your entries in the "
-"<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab "
-"pages to get the kind of result you want in the Card view."
+"<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab pages to "
+"get the kind of result you want in the Card view."
 msgstr ""
 "Du vil formodentlig skulle eksperimentere med dine indgange i "
-"<guilabel>Person</guilabel>- og <guilabel>Addresser</guilabel>-faneblads"
-"siderne for at få det resultat du ønsker i kortvisningen."
+"<guilabel>Person</guilabel>- og "
+"<guilabel>Addresser</guilabel>-fanebladssiderne for at få det resultat du "
+"ønsker i kortvisningen."
 
 #: index.docbook:148
 #, no-c-format
 msgid ""
-"There are two other tab pages in this dialog box which may be useful "
-"in some circumstances:"
+"There are two other tab pages in this dialog box which may be useful in some "
+"circumstances:"
 msgstr ""
 "Der er to andre fanebladssider i denne dialogboks som kan være nyttige "
 "under visse omstændigheder:"
@@ -266,28 +265,27 @@ msgstr ""
 #: index.docbook:151
 #, no-c-format
 msgid ""
-"The <guilabel>Comment</guilabel> page. Any text you enter here will "
-"not appear in the <guimenuitem>Business Card</guimenuitem> view but "
-"will be included when you print out the card details."
+"The <guilabel>Comment</guilabel> page. Any text you enter here will not "
+"appear in the <guimenuitem>Business Card</guimenuitem> view but will be "
+"included when you print out the card details."
 msgstr ""
-"<guilabel>Kommentar</guilabel>-siden. Den tekst du indtaster her vil "
-"ikke ses i <guimenuitem>Forretningskort</guimenuitem>-visningen men "
-"vil være inkluderet når du udskriver kortets detaljer."
+"<guilabel>Kommentar</guilabel>-siden. Den tekst du indtaster her vil ikke "
+"ses i <guimenuitem>Forretningskort</guimenuitem>-visningen men vil være "
+"inkluderet når du udskriver kortets detaljer."
 
 #: index.docbook:155
 #, no-c-format
 msgid ""
-"The <guilabel>User fields</guilabel> page. This lets you add "
-"information to the database file with user defined fields and data. "
-"This data is not shown in the <guimenuitem>Business Card</"
-"guimenuitem> view, nor is it printed out, but could be read by "
-"another program."
+"The <guilabel>User fields</guilabel> page. This lets you add information to "
+"the database file with user defined fields and data. This data is not shown "
+"in the <guimenuitem>Business Card</guimenuitem>"
+" view, nor is it printed out, but could be read by another program."
 msgstr ""
-"<guilabel>Brugerfelter</guilabel>-siden. Den lader dig tilføje "
-"information til databasefilen med brugerdefinerede felter og data. "
-"Disse data vises ikke i <guimenuitem>Forretningskort</"
-"guimenuitem>visningen, og bliver heller ikke udskrevet, men kan nemt læses af "
-"et andet program."
+"<guilabel>Brugerfelter</guilabel>-siden. Den lader dig tilføje information "
+"til databasefilen med brugerdefinerede felter og data. Disse data vises ikke "
+"i <guimenuitem>Forretningskort</guimenuitem>"
+"visningen, og bliver heller ikke udskrevet, men kan nemt læses af et andet "
+"program."
 
 #: index.docbook:163
 #, no-c-format
@@ -297,14 +295,14 @@ msgstr "Vise data"
 #: index.docbook:165
 #, no-c-format
 msgid ""
-"&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> "
-"and <guimenuitem>Editing</guimenuitem>. You can switch between them "
-"with the <guimenu>View</guimenu> menu. The screen-shot below shows "
-"the <guimenuitem>Business Card</guimenuitem> view."
+"&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> and "
+"<guimenuitem>Editing</guimenuitem>. You can switch between them with the "
+"<guimenu>View</guimenu> menu. The screen-shot below shows the "
+"<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"&kab; har to basale visninger, <guimenuitem>Forretningskort</guimenuitem> "
-"og <guimenuitem>Redigering</guimenuitem>. Du kan skifte mellem dem "
-"med <guimenu>Vis</guimenu>-menuen. Skærmaftrykket nedenfor viser "
+"&kab; har to basale visninger, <guimenuitem>Forretningskort</guimenuitem>"
+" og <guimenuitem>Redigering</guimenuitem>. Du kan skifte mellem dem med "
+"<guimenu>Vis</guimenu>-menuen. Skærmaftrykket nedenfor viser "
 "<guimenuitem>Forretningskort</guimenuitem>visningen."
 
 #: index.docbook:172
@@ -320,93 +318,91 @@ msgstr "&kab; i kortvisningstilstand"
 #: index.docbook:184
 #, no-c-format
 msgid ""
-"This view lets you search for an entry in &kab;'s database and see "
-"the information held for that entry."
+"This view lets you search for an entry in &kab;'s database and see the "
+"information held for that entry."
 msgstr ""
-"Denne visning lader dig søge efter en indgang i &kab;'s database og se "
-"den information der holdes for den indgang."
+"Denne visning lader dig søge efter en indgang i &kab;'s database og se den "
+"information der holdes for den indgang."
 
 #: index.docbook:187
 #, no-c-format
 msgid ""
-"To select a particular entry you can pick it from the Drop Down box "
-"in the Toolbar or the entry navigation list, or you can step through "
-"the entries using the <guiicon>large Toolbar arrows</guiicon> or "
-"with your keyboard arrow keys."
+"To select a particular entry you can pick it from the Drop Down box in the "
+"Toolbar or the entry navigation list, or you can step through the entries "
+"using the <guiicon>large Toolbar arrows</guiicon> or with your keyboard "
+"arrow keys."
 msgstr ""
-"For at vælge en bestemt indgang kan du tage den fra drop-ned-boksen "
-"i værktøjslinjen eller indgangs-navigeringslisten, eller du kan gå gennem "
-"indgangene ved hjælp af de <guiicon>store værktøjslinjepile</guiicon> eller "
-"med dit tastaturs piletaster."
+"For at vælge en bestemt indgang kan du tage den fra drop-ned-boksen i "
+"værktøjslinjen eller indgangs-navigeringslisten, eller du kan gå gennem "
+"indgangene ved hjælp af de <guiicon>store værktøjslinjepile</guiicon> "
+"eller med dit tastaturs piletaster."
 
 #: index.docbook:192
 #, no-c-format
 msgid ""
-"You can also search the database for a particular entry by using the "
-"<link linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</"
-"guimenu><guimenuitem>Search entries...</guimenuitem></menuchoice></"
-"link> option or by entering an email address, first name or last "
-"name into the text box at the top of the entry navigation list."
+"You can also search the database for a particular entry by using the <link "
+"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</guimenu><guimenuitem>"
+"Search entries...</guimenuitem></menuchoice></link>"
+" option or by entering an email address, first name or last name into the "
+"text box at the top of the entry navigation list."
 msgstr ""
-"Du kan også gennemsøge database for en bestemt indgang ved at bruge "
-"<link linkend=\"kab-edit-menu\"><menuchoice><guimenu>Redigér</"
-"guimenu><guimenuitem>Søg indgange...</guimenuitem></menuchoice></"
-"link>-tilvalget eller ved at indtaste en e-mail-adresse, fornavnet eller efter"
-"navnet i tekstboksen for oveni indgangs-navigeringslisten."
+"Du kan også gennemsøge database for en bestemt indgang ved at bruge <link "
+"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Redigér</guimenu>"
+"<guimenuitem>Søg indgange...</guimenuitem></menuchoice></link>-tilvalget "
+"eller ved at indtaste en e-mail-adresse, fornavnet eller efternavnet i "
+"tekstboksen for oveni indgangs-navigeringslisten."
 
 #: index.docbook:199
 #, no-c-format
 msgid ""
-"At the top of the main card area you can see the name as it appears "
-"in the Toolbar Drop Down box list, and possibly an important date "
-"such as the person's Birthday."
+"At the top of the main card area you can see the name as it appears in the "
+"Toolbar Drop Down box list, and possibly an important date such as the "
+"person's Birthday."
 msgstr ""
 "For oven af hovedkort-området kan du se navnet som det ser ud i "
-"værktøjlinjens drop-ned-liste, og muligvis en vigtig dato "
-"såsom personens fødselsdag."
+"værktøjlinjens drop-ned-liste, og muligvis en vigtig dato såsom personens "
+"fødselsdag."
 
 #: index.docbook:203
 #, no-c-format
 msgid ""
-"An address will be shown in the middle of the card. &kab; lets you "
-"enter more than one address, for - say - Home, Work and Holiday "
-"Dacha. The Drop Down box above the address then lets you select "
-"which of these is displayed."
+"An address will be shown in the middle of the card. &kab; lets you enter "
+"more than one address, for - say - Home, Work and Holiday Dacha. The Drop "
+"Down box above the address then lets you select which of these is displayed."
 msgstr ""
-"En adresse vil blive vist i midten af kortet. &kab; lader dig "
-"indtaste mere end én adresse, for - for eksempel - hjem, arbejde og feriebolig. "
-"Drop-ned-boksen ovenfor adressen lader dig så vælge "
-"hvilken af disse der vises."
+"En adresse vil blive vist i midten af kortet. &kab; lader dig indtaste mere "
+"end én adresse, for - for eksempel - hjem, arbejde og feriebolig. "
+"Drop-ned-boksen ovenfor adressen lader dig så vælge hvilken af disse der "
+"vises."
 
 #: index.docbook:208
 #, no-c-format
 msgid ""
-"The bottom of the card shows email addresses, &URL;s and telephone "
-"numbers. Left click on the email address to send an email, on the "
-"&URL; to open a browser window. If you have entered more than one "
-"email address or &URL;, then only one will be displayed on the card "
-"followed by [..] and when you click on it a little dialog box will "
-"appear so that you can choose the address you want."
+"The bottom of the card shows email addresses, &URL;s and telephone numbers. "
+"Left click on the email address to send an email, on the &URL; to open a "
+"browser window. If you have entered more than one email address or &URL;, "
+"then only one will be displayed on the card followed by [..] and when you "
+"click on it a little dialog box will appear so that you can choose the "
+"address you want."
 msgstr ""
-"Bunden af kortet viser e-mail-adresser, &URL;er og telefon"
-"numre. Venstreklik på e-mail-adressen for at send en email, på "
-"&URL;'en for at åbne et netsøgervindue. Hvis du har indtastet mere end én "
-"e-mail-adresse eller &URL;, så er det  kun én der vil blive vist på kortet "
-"fulgt af [..] og når du klikker på den vil en lille dialogboks "
-"komme frem så du kan vælge den adresse du ønsker."
+"Bunden af kortet viser e-mail-adresser, &URL;er og telefonnumre. Venstreklik "
+"på e-mail-adressen for at send en email, på &URL;'en for at åbne et "
+"netsøgervindue. Hvis du har indtastet mere end én e-mail-adresse eller "
+"&URL;, så er det  kun én der vil blive vist på kortet fulgt af [..] og "
+"når du klikker på den vil en lille dialogboks komme frem så du kan vælge "
+"den adresse du ønsker."
 
 #: index.docbook:215
 #, no-c-format
 msgid ""
-"The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu></link> "
-"menu has options allowing you to create and use more than one "
-"database, import your old &kde; 1 or &Netscape; address book, or "
-"print one or all entries."
+"The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu></link> menu has "
+"options allowing you to create and use more than one database, import your "
+"old &kde; 1 or &Netscape; address book, or print one or all entries."
 msgstr ""
-"<link linkend=\"kab-file-menu\"><guimenu>Fil</guimenu></link>-"
-"menuen har tilvalg der tillader dig at lave og bruge mere end én "
-"database, importere dine gamle &kde; 1 eller &Netscape; adressebøger eller "
-"udskrive en eller alle indgange."
+"<link linkend=\"kab-file-menu\"><guimenu>Fil</guimenu></link>-menuen har "
+"tilvalg der tillader dig at lave og bruge mere end én database, importere "
+"dine gamle &kde; 1 eller &Netscape; adressebøger eller udskrive en eller "
+"alle indgange."
 
 #: index.docbook:224
 #, no-c-format
@@ -426,53 +422,47 @@ msgstr "<guimenu>Fil</guimenu>menuen"
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Create "
-"New Database...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Create New "
+"Database...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guimenuitem>Opret "
-"ny database...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guimenuitem>Opret ny "
+"database...</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"Use this if you want to create another &kab; address book database "
-"so that you can keep separate address books for, say, business and "
-"personal contacts."
+"Use this if you want to create another &kab; address book database so that "
+"you can keep separate address books for, say, business and personal contacts."
 msgstr ""
-"Brug dette hvis du ønsker at lave en anden &kab;-adressebogsdatabase "
-"så du kan have separate adressebøger for, for eksempel, forretnings- og "
+"Brug dette hvis du ønsker at lave en anden &kab;-adressebogsdatabase så du "
+"kan have separate adressebøger for, for eksempel, forretnings- og "
 "personlige kontakter."
 
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Open...</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Open...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guimenuitem>Åbn...</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guimenuitem>Åbn...</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<action>Open</action> a &kab; database. This menu choice is used to "
-"open a new address book that you have created."
+"<action>Open</action> a &kab; database. This menu choice is used to open a "
+"new address book that you have created."
 msgstr ""
-"<action>Åbn</action> en &kab;-database. Dette menu-valg bruges til "
-"at åbne en ny adressebog som du har lavet."
+"<action>Åbn</action>"
+" en &kab;-database. Dette menu-valg bruges til at åbne en ny adressebog som "
+"du har lavet."
 
 #: index.docbook:232
 #, no-c-format
-msgid ""
-"<guimenu>File</guimenu> <guimenuitem>Open Default Database</"
-"guimenuitem>"
-msgstr ""
-"<guimenu>Fil</guimenu> <guimenuitem>Åbn standarddatabase</"
-"guimenuitem>"
+msgid "<guimenu>File</guimenu> <guimenuitem>Open Default Database</guimenuitem>"
+msgstr "<guimenu>Fil</guimenu> <guimenuitem>Åbn standarddatabase</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
@@ -482,13 +472,11 @@ msgstr "<action>Åbner standard</action>-&kab;-databasen."
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Save</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Save</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guimenuitem>Gem</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guimenuitem>Gem</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
@@ -498,24 +486,23 @@ msgstr "<action>Gem</action> til den aktuelle &kab;-database."
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> "
-"<guimenuitem>KDE 1 Address Book</guimenuitem>"
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> <guimenuitem>KDE 1 "
+"Address Book</guimenuitem>"
 msgstr ""
-"<guimenu>Fil</guimenu> <guisubmenu>Importér</guisubmenu> "
-"<guimenuitem>KDE 1 adressebog</guimenuitem>"
+"<guimenu>Fil</guimenu> <guisubmenu>Importér</guisubmenu> <guimenuitem>"
+"KDE 1 adressebog</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"Lets you <action>import an address book</action> generated by "
-"version 1 of &kab;, changing its format to that used by version 2, "
-"and saving it with a different name. Doing this does not destroy the "
-"original address book."
+"Lets you <action>import an address book</action> generated by version 1 of "
+"&kab;, changing its format to that used by version 2, and saving it with a "
+"different name. Doing this does not destroy the original address book."
 msgstr ""
-"Lader dig <action>importere en adressebog</action> genereret af "
-"version 1 af &kab;, idet formatet ændres til det der bruges af 2, "
-"og gemme den med et andet navn. På denne måde ødelægges den oprindelige "
-"adressebog ikke."
+"Lader dig <action>importere en adressebog</action>"
+" genereret af version 1 af &kab;, idet formatet ændres til det der bruges "
+"af 2, og gemme den med et andet navn. På denne måde ødelægges den "
+"oprindelige adressebog ikke."
 
 #: index.docbook:232
 #, no-c-format
@@ -528,23 +515,19 @@ msgstr ""
 
 #: index.docbook:232
 #, no-c-format
-msgid ""
-"Lets you <action>import an address book</action> generated by "
-"&Netscape;."
-msgstr ""
-"Lader dig <action>importere en adressebog</action> genereret af "
-"&Netscape;."
+msgid "Lets you <action>import an address book</action> generated by &Netscape;."
+msgstr "Lader dig <action>importere en adressebog</action> genereret af &Netscape;."
 
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guisubmenu>Print</"
-"guisubmenu> <guimenuitem>Print Entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entry...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guisubmenu>Udskriv</"
-"guisubmenu> <guimenuitem>Udskriv indgang...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guisubmenu>Udskriv</guisubmenu> "
+"<guimenuitem>Udskriv indgang...</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
@@ -554,13 +537,13 @@ msgstr "For at udskrive alle detaljer i den aktuelle indgang."
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guisubmenu>Print</"
-"guisubmenu> <guimenuitem>Print Entries...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entries...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guisubmenu>Udskriv</"
-"guisubmenu> <guimenuitem>Udskriv indgange...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guisubmenu>Udskriv</guisubmenu> "
+"<guimenuitem>Udskriv indgange...</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
@@ -570,13 +553,11 @@ msgstr "For at udskrive alle detaljer i databasen."
 #: index.docbook:232
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></"
-"keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></"
-"keycombo> </shortcut> <guimenu>Fil</guimenu> <guimenuitem>Afslut</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>Fil</guimenu> <guimenuitem>Afslut</guimenuitem>"
 
 #: index.docbook:232
 #, no-c-format
@@ -591,19 +572,18 @@ msgstr "<guimenu>Redigerings</guimenu>menuen"
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Add "
-"Entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Add Entry...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Tilføj "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Tilføj "
 "indgang...</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<action>Add a new entry to the address book</action>. This does the "
-"same as using the Toolbar <guiicon>New entry</guiicon> icon."
+"<action>Add a new entry to the address book</action>. This does the same as "
+"using the Toolbar <guiicon>New entry</guiicon> icon."
 msgstr ""
 "<action>Tilføj en ny indgang til adressebogen</action>. Dette gør det "
 "samme som at bruge værktøjslinjens <guiicon>Nu indgang</guiicon>-ikon."
@@ -611,40 +591,38 @@ msgstr ""
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Edit "
-"entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Edit entry...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Redigér "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Redigér "
 "indgang...</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"If you are in Business card view you can use this menu item (or the "
-"Toolbar <guiicon>Edit Entry...</guiicon> icon) when you want to "
-"<action>edit the current entry</action>, rather than changing to "
+"If you are in Business card view you can use this menu item (or the Toolbar "
+"<guiicon>Edit Entry...</guiicon> icon) when you want to <action>edit the "
+"current entry</action>, rather than changing to "
 "<guimenuitem>Editing</guimenuitem> view with the "
-"<menuchoice><guimenu>View</guimenu><guimenuitem>Editing</"
-"guimenuitem></menuchoice> menu choice."
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Editing</guimenuitem>"
+"</menuchoice> menu choice."
 msgstr ""
 "Hvis du er i forretningskort-visningen, kan du bruge dette menu-punkt (eller "
-"værktøjslinjens <guiicon>Redigér indgang...</guiicon>-ikon) når du ønsker at "
-"<action>redigere den aktuelle indgang</action>, snarere end at skifte til "
-"<guimenuitem>Redigerings</guimenuitem>visningen med "
-"<menuchoice><guimenu>Vis</guimenu><guimenuitem>Redigering</"
-"guimenuitem></menuchoice>-menuvalget."
+"værktøjslinjens <guiicon>Redigér indgang...</guiicon>-ikon) når du "
+"ønsker at <action>redigere den aktuelle indgang</action>, snarere end at "
+"skifte til <guimenuitem>Redigerings</guimenuitem>visningen med "
+"<menuchoice><guimenu>Vis</guimenu><guimenuitem>Redigering</guimenuitem>"
+"</menuchoice>-menuvalget."
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Remove "
-"Entry</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Remove Entry</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Fjern "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Fjern "
 "indgang</guimenuitem>"
 
 #: index.docbook:360
@@ -655,12 +633,11 @@ msgstr "Fjern den aktuelle indgang fra databasen."
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Send an "
-"Email</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Send an Email</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Send en "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Send en "
 "e-mail</guimenuitem>"
 
 #: index.docbook:360
@@ -675,32 +652,30 @@ msgstr ""
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Browse</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Browse</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Netsøger</"
-"guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Netsøger</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<action>Open a browser</action> with the &URL; stored for the "
-"current &kab; entry."
+"<action>Open a browser</action> with the &URL; stored for the current &kab; "
+"entry."
 msgstr ""
-"<action>Åbner en netsøger</action> med &URL;'en der er gemt "
-"for den aktuelle &kab;-indgang."
+"<action>Åbner en netsøger</action> med &URL;'en der er gemt for den "
+"aktuelle &kab;-indgang."
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></"
-"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Search "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Search "
 "Entries...</guimenuitem>"
 msgstr ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></"
-"keycombo> </shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Søg i "
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> "
+"</shortcut> <guimenu>Redigér</guimenu> <guimenuitem>Søg i "
 "indgange...</guimenuitem>"
 
 #: index.docbook:360
@@ -710,49 +685,42 @@ msgstr "<action>Gennemsøg databasen</action> for en bestemt indgang."
 
 #: index.docbook:360
 #, no-c-format
-msgid ""
-"<guimenu>Edit</guimenu> <guimenuitem>Enable all Messages</"
-"guimenuitem>"
-msgstr ""
-"<guimenu>Redigér</guimenu> <guimenuitem>Aktivér alle beskeder</"
-"guimenuitem>"
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Enable all Messages</guimenuitem>"
+msgstr "<guimenu>Redigér</guimenu> <guimenuitem>Aktivér alle beskeder</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
-"There are some messages that might be accidentally disabled by the "
-"user, such as one at start up informing him how to import his old "
-"&kde; 1 addressbook. <action>Selecting this menu item makes all such "
-"messages reappear. </action>"
+"There are some messages that might be accidentally disabled by the user, "
+"such as one at start up informing him how to import his old &kde; 1 "
+"addressbook. <action>Selecting this menu item makes all such messages "
+"reappear. </action>"
 msgstr ""
-"Der er nogle beskeder der ved et tilfælde kan blive deaktiveret af brugeren, "
-"såsom den ved opstart der informerer om hvordan man importerer sin gamle "
-"&kde; 1 adressebog. <action>Valg af dette menupunkt får alle sådanne "
-"beskeder frem igen. </action>"
+"Der er nogle beskeder der ved et tilfælde kan blive deaktiveret af "
+"brugeren, såsom den ved opstart der informerer om hvordan man importerer "
+"sin gamle &kde; 1 adressebog. <action>Valg af dette menupunkt får alle "
+"sådanne beskeder frem igen. </action>"
 
 #: index.docbook:360
 #, no-c-format
-msgid ""
-"<guimenu>Edit</guimenu> <guimenuitem>Configure this File...</"
-"guimenuitem>"
-msgstr ""
-"<guimenu>Redigér</guimenu> <guimenuitem>Indstil denne fil...</"
-"guimenuitem>"
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Configure this File...</guimenuitem>"
+msgstr "<guimenu>Redigér</guimenu> <guimenuitem>Indstil denne fil...</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
 msgid ""
 "<action>Lets you configure some parameters of the current address "
-"book</action>. At present the <guilabel>User fields</guilabel> tab "
-"page does not function, but the <guilabel>Address types</guilabel> "
-"tab page can be used to set up default address <guilabel>Address "
+"book</action>. At present the <guilabel>User fields</guilabel>"
+" tab page does not function, but the <guilabel>Address types</guilabel> tab "
+"page can be used to set up default address <guilabel>Address "
 "types</guilabel> values."
 msgstr ""
 "<action>Lader dig indstille nogle parametre for den aktuelle "
-"adressebog</action>. For øjeblikket virker <guilabel>Brugerfelter</guilabel>"
-"-fanebladssiden ikke, men <guilabel>Adressetyper</guilabel>-"
-"fanebladssiden kan bruges til at indstille standardadresse <guilabel>Adresse"
-"typer</guilabel>-værdier."
+"adressebog</action>. For øjeblikket virker "
+"<guilabel>Brugerfelter</guilabel>-fanebladssiden ikke, men "
+"<guilabel>Adressetyper</guilabel>"
+"-fanebladssiden kan bruges til at indstille standardadresse "
+"<guilabel>Adressetyper</guilabel>-værdier."
 
 #: index.docbook:360
 #, no-c-format
@@ -760,8 +728,8 @@ msgid ""
 "<guimenu>Edit</guimenu> <guimenuitem>Preferences for KDE Address "
 "Book...</guimenuitem>"
 msgstr ""
-"<guimenu>Redigér</guimenu> <guimenuitem>Indstillinger for KDE's adresse"
-"bog...</guimenuitem>"
+"<guimenu>Redigér</guimenu> <guimenuitem>Indstillinger for KDE's "
+"adressebog...</guimenuitem>"
 
 #: index.docbook:360
 #, no-c-format
@@ -791,11 +759,9 @@ msgstr "<guimenu>Vis</guimenu> <guimenuitem>Redigering</guimenuitem>"
 #: index.docbook:494
 #, no-c-format
 msgid ""
-"<action>Change</action> the main &kab; window to allow the entry to "
-"be edited."
-msgstr ""
-"<action>Ændr</action> hoved-&kab;-vinduet så indgangen kan blive "
-"redigeret."
+"<action>Change</action> the main &kab; window to allow the entry to be "
+"edited."
+msgstr "<action>Ændr</action> hoved-&kab;-vinduet så indgangen kan blive redigeret."
 
 #: index.docbook:494
 #, no-c-format
@@ -810,11 +776,11 @@ msgstr "<action>Vis eller skjul hoved-værktøjslinjen</action>."
 #: index.docbook:494
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation Toolbar</"
-"guimenuitem>"
+"<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation "
+"Toolbar</guimenuitem>"
 msgstr ""
-"<guimenu>Vis</guimenu> <guimenuitem>Vis indgangsnavigerings-værktøjslinjen</"
-"guimenuitem>"
+"<guimenu>Vis</guimenu> <guimenuitem>Vis "
+"indgangsnavigerings-værktøjslinjen</guimenuitem>"
 
 #: index.docbook:494
 #, no-c-format
@@ -822,17 +788,15 @@ msgid ""
 "<action>Show or hide the toolbar used to navigate through your "
 "database</action>."
 msgstr ""
-"<action>Vis eller skjul værktøjslinjen der bruges til at navigere gennem din "
-"database</action>."
+"<action>Vis eller skjul værktøjslinjen der bruges til at navigere gennem "
+"din database</action>."
 
 #: index.docbook:494
 #, no-c-format
-msgid ""
-"<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation List</"
-"guimenuitem>"
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation List</guimenuitem>"
 msgstr ""
-"<guimenu>Vis</guimenu> <guimenuitem>Vis indgangs-navigeringsliste</"
-"guimenuitem>"
+"<guimenu>Vis</guimenu> <guimenuitem>Vis "
+"indgangs-navigeringsliste</guimenuitem>"
 
 #: index.docbook:494
 #, no-c-format
@@ -861,13 +825,13 @@ msgstr "Hvor gemmer &kab; adressebogen?"
 #: index.docbook:571
 #, no-c-format
 msgid ""
-"The default address book database is stored at <filename>~/.kde/"
-"share/apps/kab/addressbook.kab</filename>, any new databases that "
-"you have created will be stored wherever you put them."
+"The default address book database is stored at "
+"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, any new "
+"databases that you have created will be stored wherever you put them."
 msgstr ""
-"Standardadressebogs-databasen gemmes i <filename>~/.kde/"
-"share/apps/kab/addressbook.kab</filename>, og alle nye databaser som du "
-"opretter gemmes der hvor du gemmer dem."
+"Standardadressebogs-databasen gemmes i "
+"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, og alle nye "
+"databaser som du opretter gemmes der hvor du gemmer dem."
 
 #: index.docbook:580
 #, no-c-format
@@ -877,34 +841,30 @@ msgstr "Hvilke indstillingsfiler bruger &kab;?"
 #: index.docbook:583
 #, no-c-format
 msgid ""
-"The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds "
-"your &kab; <quote>preferences</quote> and the command strings for "
-"mail and talk."
+"The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds your "
+"&kab; <quote>preferences</quote> and the command strings for mail and talk."
 msgstr ""
-"Filen <filename>~/.kde/share/apps/kab/kab.config</filename> holder "
-"dine &kab; <quote>indstillinger</quote> og kommandostrengene for "
-"e-mail og talk."
+"Filen <filename>~/.kde/share/apps/kab/kab.config</filename> holder dine "
+"&kab; <quote>indstillinger</quote> og kommandostrengene for e-mail og talk."
 
 #: index.docbook:587
 #, no-c-format
 msgid ""
 "<filename>~/.kde/share/config/kabrc</filename> holds general &kab; "
-"appearance parameters and a list of the most recently visited "
-"address books."
+"appearance parameters and a list of the most recently visited address books."
 msgstr ""
-"<filename>~/.kde/share/config/kabrc</filename> holder generelle &kab;-"
-"udseende parametre og en liste af de nyligst besøgte "
-"adressebøger."
+"<filename>~/.kde/share/config/kabrc</filename> holder generelle "
+"&kab;-udseende parametre og en liste af de nyligst besøgte adressebøger."
 
 #: index.docbook:591
 #, no-c-format
 msgid ""
-"Don't modify these files unless you really know what you are doing "
-"(and have made a back up)."
+"Don't modify these files unless you really know what you are doing (and have "
+"made a back up)."
 msgstr ""
-"Ændr ikke disse filer med mindre du virkelig ved hvad du foretager dig "
-"(og har lavet en sikkerhedskopi. Rigtige mænd laver ikke sikkerhedskopier, "
-"men de græder meget)."
+"Ændr ikke disse filer med mindre du virkelig ved hvad du foretager dig (og "
+"har lavet en sikkerhedskopi. Rigtige mænd laver ikke sikkerhedskopier, men "
+"de græder meget)."
 
 #: index.docbook:602
 #, no-c-format
@@ -940,4 +900,3 @@ msgstr "Pam Roberts <email>pam.roberts@btinternet.com</email>"
 #, no-c-format
 msgid "Installation"
 msgstr "Installation"
-
