@@ -4,15 +4,15 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2001-01-20 01:26+0100\n"
-"PO-Revision-Date: 2001-01-25 16:05CET\n"
+"Project-Id-Version: kab for KDE 2.2\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-07-24 13:04CET\n"
 "Last-Translator: Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>\n"
-"Language-Team: Slovak <sk-i18n@rak.isternet.sk>\n"
+"Language-Team: Slovak <sk-i18n@linux.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.8pre\n"
+"X-Generator: KBabel 0.9.3\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -58,7 +58,7 @@ msgstr "Jednoduché HTML bez tabuliek alebo čiar"
 msgid "Expect more here..."
 msgstr "Očakávajte ďalšie..."
 
-#: rc.cpp:12 rc.cpp:19 rc.cpp:28 rc.cpp:43
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
 msgstr "Form1"
 
@@ -66,143 +66,159 @@ msgstr "Form1"
 msgid "Enter the delivery label for this address here:"
 msgstr "Zadajte označenie pre dodaciu adresu:"
 
-#: kab_htmlexport.cc:395 rc.cpp:14
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "Položka zoznamu"
+
+#: rc.cpp:15
+msgid ""
+"<qt>Search entries by entering<br> - one of their <b>e-mail "
+"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+msgstr ""
+"<qt>Hľadať položky zadaním<br> - jednej z ich <b>e-mailových "
+"adries</b><br> - <b>krstné meno</b> alebo <br> - <b>priezvisko</b></qt>"
+
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>Vyberte položku pre zobrazenie.</qt>"
+
+#: kab_htmlexport.cc:380 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Nastaviť export do HTML"
 
-#: rc.cpp:15
+#: rc.cpp:19
 msgid "Template folder:"
 msgstr "Priečinok so šablónami:"
 
-#: rc.cpp:16
+#: rc.cpp:20
 msgid "Target folder:"
 msgstr "Cieľový priečinok:"
 
-#: rc.cpp:17 rc.cpp:18
+#: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
 msgstr "Vybrať ..."
 
-#: rc.cpp:22
+#: rc.cpp:26
 msgid "Hide the search results window. This will not clear your search results."
 msgstr "Skryť okno s výsledkami hľadania. Nezmaže výsledky."
 
-#: rc.cpp:23
+#: rc.cpp:27
 msgid ""
-"Hide the search results window. This will close the search results window and"
-" clear all results of previous searches."
+"Hide the search results window. This will close the search results window "
+"and clear all results of previous searches."
 msgstr ""
-"Skryť okno s výsledkami hľadania. Toto zatvorí okno s výsledkami a vyma"
-"že všetky výsledky predchádzajúcich hľadaní."
+"Skryť okno s výsledkami hľadania. Toto zatvorí okno s výsledkami a "
+"vymaže všetky výsledky predchádzajúcich hľadaní."
 
-#: rc.cpp:25
+#: rc.cpp:29
 msgid "Clear the search results and hide this window."
 msgstr "Vymazať výsledky a skryť toto okno."
 
-#: rc.cpp:27
+#: rc.cpp:31
 msgid "Print your search results."
 msgstr "Vytlačiť výsledky hľadania."
 
-#: rc.cpp:29
+#: rc.cpp:33
 msgid "Search for people in your addressbook:"
 msgstr "Nájsť ľudí v adresári:"
 
-#: rc.cpp:30
+#: rc.cpp:34
 msgid "Select fields to search here."
 msgstr "Vyberte polia, v ktorých sa má hľadať."
 
-#: rc.cpp:31
+#: rc.cpp:35
 msgid ""
 "Select fields to search here. \n"
 "All entries where this field matches the pattern (consisting of wildcards or "
-"regular expressions) given below will be displayed in the Search Results Wind"
-"ow."
+"regular expressions) given below will be displayed in the Search Results "
+"Window."
 msgstr ""
 "Vyberte polia, v ktorých sa má hľadať. \n"
-"Všetky položky, v ktorých budú tieto polia odpovedať vzorke (ktorá obsa"
-"huje buď žolíky alebo regulárny výraz), budú zobrazené v okne Výsledk"
-"y hľadania."
+"Všetky položky, v ktorých budú tieto polia odpovedať vzorke (ktorá "
+"obsahuje buď žolíky alebo regulárny výraz), budú zobrazené v okne "
+"Výsledky hľadania."
 
-#: rc.cpp:32
+#: rc.cpp:36
 msgid "... matches ..."
 msgstr "... odpovedá ..."
 
-#: rc.cpp:33
+#: rc.cpp:37
 msgid "*"
 msgstr "*"
 
-#: rc.cpp:34
+#: rc.cpp:38
 msgid "Enter your expression here."
 msgstr "Tu zadajte výraz."
 
-#: rc.cpp:35
+#: rc.cpp:39
 msgid "Options:"
 msgstr "Možnosti:"
 
-#: rc.cpp:36
+#: rc.cpp:40
 msgid "Case sensitive search"
 msgstr "Rozlišovať veľkosť písmen"
 
-#: rc.cpp:37
+#: rc.cpp:41
 msgid "Check this box if you want to do a case-sensitive search."
 msgstr "Použite túto možnosť, ak chcete rozlišovať veľké a malé písmená."
 
-#: rc.cpp:38
+#: rc.cpp:42
 msgid "Expressions"
 msgstr "Výrazy"
 
-#: rc.cpp:39
+#: rc.cpp:43
 msgid "Wildcards"
 msgstr "Žolíky"
 
-#: rc.cpp:40
+#: rc.cpp:44
 msgid ""
-"Check this button if you use widlcards in your expression (as in shell comman"
-"ds)."
+"Check this button if you use widlcards in your expression (as in shell "
+"commands)."
 msgstr ""
-"Použite túto možnosť, ak chcete používať žolíky vo výraze (ako v sh"
-"elle)."
+"Použite túto možnosť, ak chcete používať žolíky vo výraze (ako v "
+"shelle)."
 
-#: rc.cpp:41
+#: rc.cpp:45
 msgid "Regular expressions"
 msgstr "Regulárne výrazy"
 
-#: rc.cpp:42
+#: rc.cpp:46
 msgid "Check this box if you use classical regular expressions in your pattern."
 msgstr "Použite túto možnosť, ak chcete používať klasické regulárne výrazy."
 
-#: rc.cpp:44
-msgid "Headline:"
-msgstr "Hlavička:"
+#: rc.cpp:48
+msgid "Address type (e.g. Home):"
+msgstr "Druhy adries (napr. Domov):"
 
-#: rc.cpp:45
-msgid "Insinuation..."
-msgstr "Naznačenie..."
+#: rc.cpp:49
+msgid "Organization..."
+msgstr "Organizácia..."
 
-#: rc.cpp:46
+#: rc.cpp:50
 msgid "Country:"
 msgstr "Krajina:"
 
-#: rc.cpp:47
+#: rc.cpp:51
 msgid "Zip code"
 msgstr "PSČ"
 
-#: rc.cpp:48
+#: rc.cpp:52
 msgid "State"
 msgstr "Štát"
 
-#: rc.cpp:49
+#: rc.cpp:53
 msgid "City"
 msgstr "Mesto"
 
-#: rc.cpp:50
+#: rc.cpp:54
 msgid "Street address:"
 msgstr "Ulica:"
 
-#: rc.cpp:51
-msgid "Assignment:"
-msgstr "Poverenie:"
+#: rc.cpp:55
+msgid "Job title:"
+msgstr "Pozícia:"
 
-#: look_edit_tabaddresses.cc:333 rc.cpp:52
+#: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
 msgstr "Označenie dodania"
 
@@ -212,14 +228,14 @@ msgstr "KDE kniha adries"
 
 #: kab_main.cc:51
 msgid ""
-"<qt>Version 2 of the KDE address book is not compatible with the previous one"
-". To protect your address database, a new file will be used. Run <b>File->Imp"
-"ort->KDE 1 addressbook</b> to use your old database with the new version.</qt"
-">"
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
 "Verzia 2 KDE knihy adries nie je kompatibilná s predchádzajúcou.\n"
-"Na ochranu vašej starej databáze pred poškodením bude použitý iný súb"
-"or.\n"
+"Na ochranu vašej starej databáze pred poškodením bude použitý iný "
+"súbor.\n"
 "Ak chcete použiť vašu starú databázu v novej verzii KDE knihy adries,\n"
 "spustte \"Súbor->Import->KDE 1 kniha adries\"."
 
@@ -227,19 +243,19 @@ msgstr ""
 msgid "new format"
 msgstr "nový formát"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:54 kab_mainwidget.cc:64
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
-#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:57
-#: look_edit_tabperson.cc:249 look_edit_tabperson.cc:294
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
 msgstr "Nedostatok pamäti."
 
-#: kab_mainwidget.cc:55 kab_mainwidget.cc:65 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
 msgstr "Všeobecná chyba"
 
-#: kab_topwidget.cc:92
+#: kab_topwidget.cc:93
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
@@ -249,131 +265,139 @@ msgstr ""
 "Kniha adries KDE bez nej nefunguje.\n"
 "Aplikácia bude ukončená."
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:509
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
 msgstr "Chyba databáze"
 
-#: kab_topwidget.cc:190
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
 msgstr "Vitajte v kab 2.1"
 
-#: kab_topwidget.cc:191
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE kniha adries 2.1."
 
-#: kab_topwidget.cc:192
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Naprogramoval Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:193
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
 msgstr "Pre novinky navštívte www.kde.org."
 
-#: kab_topwidget.cc:256
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
 msgstr "&Export do HTML..."
 
-#: kab_topwidget.cc:260
+#: kab_topwidget.cc:282
 msgid "&First entry"
 msgstr "P&rvá položka"
 
-#: kab_topwidget.cc:264
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
 msgstr "&Predchádzajúca položka"
 
-#: kab_topwidget.cc:268
+#: kab_topwidget.cc:290
 msgid "&Next entry"
 msgstr "&Nasledujúca položka"
 
-#: kab_topwidget.cc:272
+#: kab_topwidget.cc:294
 msgid "&Last entry"
 msgstr "P&osledná položka"
 
-#: kab_topwidget.cc:276
-msgid "&Add entry"
-msgstr "&Pridať položku"
+#: kab_topwidget.cc:298
+msgid "&Add entry..."
+msgstr "&Pridať položku..."
 
-#: kab_topwidget.cc:280
-msgid "&Edit entry"
-msgstr "&Upraviť položku"
+#: kab_topwidget.cc:302
+msgid "&Edit entry..."
+msgstr "&Upraviť položku..."
 
-#: kab_topwidget.cc:284
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
 msgstr "&Odstrániť položku"
 
-#: kab_topwidget.cc:288
+#: kab_topwidget.cc:310
 msgid "Send an e&mail"
 msgstr "Poslať e&mail"
 
-#: kab_topwidget.cc:292
+#: kab_topwidget.cc:314
 msgid "&Browse"
 msgstr "&Prehliadať"
 
-#: kab_topwidget.cc:296
-msgid "&Search entries"
-msgstr "&Hľadať položky"
+#: kab_topwidget.cc:318
+msgid "&Search entries..."
+msgstr "&Hľadať položky..."
 
-#: kab_topwidget.cc:300
+#: kab_topwidget.cc:322
 msgid "Show search results"
 msgstr "Zobraziť výsledky hľadania"
 
-#: kab_topwidget.cc:305
+#: kab_topwidget.cc:327
 msgid "Show main toolbar"
 msgstr "Zobraziť hlavný panel nástrojov"
 
-#: kab_topwidget.cc:310
+#: kab_topwidget.cc:332
 msgid "Show entry navigation toolbar"
 msgstr "Zobraziť panel nástrojov pre prechod medzi položkami"
 
-#: kab_topwidget.cc:315
-msgid "Print entry"
-msgstr "Tlačiť položku"
+#: kab_topwidget.cc:337
+msgid "Show entry navigation list"
+msgstr "Zobraziť navigačný zoznam položiek"
 
-#: kab_topwidget.cc:319
-msgid "Print entries"
-msgstr "Vytlačiť položky"
+#: kab_topwidget.cc:342
+msgid "Print entry..."
+msgstr "Tlačiť položku..."
 
-#: kab_topwidget.cc:323
+#: kab_topwidget.cc:346
+msgid "Print entries..."
+msgstr "Tlačiť položky..."
+
+#: kab_topwidget.cc:350
 msgid "&Editing"
 msgstr "&Upraviť"
 
-#: kab_topwidget.cc:327
+#: kab_topwidget.cc:354
 msgid "&Business Card"
 msgstr "&Vizitka"
 
-#: kab_topwidget.cc:352
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
 msgstr "&KDE 1 kniha adries"
 
-#: kab_topwidget.cc:359
+#: kab_topwidget.cc:379
+msgid "&Netscape address book"
+msgstr "Adresár &Netscape"
+
+#: kab_topwidget.cc:386
 msgid "&Create new database..."
 msgstr "&Vytvoriť novú databázu..."
 
-#: kab_topwidget.cc:363
+#: kab_topwidget.cc:390
 msgid "Open default &database"
 msgstr "Otvoriť implicitnú &databázu"
 
-#: kab_topwidget.cc:367
+#: kab_topwidget.cc:394
 msgid "&Import"
 msgstr "&Importovať"
 
-#: kab_topwidget.cc:368
+#: kab_topwidget.cc:395
 msgid "&Print"
 msgstr "&Tlač"
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
 msgstr "Povoliť všetky &správy"
 
-#: kab_topwidget.cc:385
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
 msgstr "&Konfigurovať tento súbor..."
 
-#: kab_topwidget.cc:388
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
 msgstr "&Nastavenie pre KDE knihu adries..."
 
-#: kab_topwidget.cc:506
+#: kab_topwidget.cc:537
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
@@ -383,7 +407,7 @@ msgstr ""
 "Kniha adries KDE bez neho nefunguje.\n"
 "Aplikácia bude ukončená."
 
-#: kab_topwidget.cc:538
+#: kab_topwidget.cc:569
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -393,44 +417,44 @@ msgstr ""
 "Chcete uložiť zmeny?\n"
 "(Neuložené zmeny budú stratené.)"
 
-#: kab_topwidget.cc:540
+#: kab_topwidget.cc:571
 msgid "Save changes?"
 msgstr "Uložiť zmeny?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:548
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
 msgstr "Chyba pri zmene položky."
 
-#: kab_topwidget.cc:577
+#: kab_topwidget.cc:608
 msgid "No entries."
 msgstr "Žiadne položky."
 
-#: kab_topwidget.cc:677
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
 msgstr "Nie je možné nájsť štandardnú databázu."
 
-#: kab_topwidget.cc:678
+#: kab_topwidget.cc:727
 msgid "Critical failure"
 msgstr "Kritická chyba"
 
-#: kab_topwidget.cc:683
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
 msgstr "Štandardný súbor sa nedá načítať."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:684
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
 msgstr "Súborová chyba"
 
-#: kab_topwidget.cc:699
+#: kab_topwidget.cc:748
 msgid "Business card view."
 msgstr "Prezrieť vizitku."
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:759
 msgid "Editing view."
-msgstr "Prezeranie s editáciou."
+msgstr "Prezeranie s úpravou."
 
-#: kab_topwidget.cc:718
+#: kab_topwidget.cc:767
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
@@ -438,33 +462,33 @@ msgstr ""
 "Toto povolí všetky správy, ktoré ste predtým zakázali.\n"
 "Chcete pokračovať?"
 
-#: kab_topwidget.cc:720
+#: kab_topwidget.cc:769
 msgid "Enable messages?"
 msgstr "Povoliť správy?"
 
-#: kab_topwidget.cc:739
+#: kab_topwidget.cc:788
 msgid "New entry added."
 msgstr "Nová položka bola pridaná."
 
-#: kab_topwidget.cc:740
+#: kab_topwidget.cc:789
 msgid "Saving new entry."
 msgstr "Ukladám novú položku."
 
-#: kab_topwidget.cc:742
+#: kab_topwidget.cc:791
 msgid "Done."
 msgstr "Hotovo."
 
-#: kab_topwidget.cc:761
+#: kab_topwidget.cc:812
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
-"You may not have writing permissions for this file."
+"You may not have write permission for this file."
 msgstr ""
 "Nemôžem pridať novú položku.\n"
 "Nedostatočné práva.\n"
 "Možno nemáte právo zapisovať do tohto súboru."
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:820
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -472,27 +496,27 @@ msgstr ""
 "Nemôžem pridať novú položku.\n"
 "Dôvod neznámy."
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:826
 msgid "No entry added."
 msgstr "Žiadna položka nebola pridaná."
 
-#: kab_topwidget.cc:793
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
 msgstr "Skutočne zmazať túto položku?"
 
-#: kab_topwidget.cc:794 look_edit_tabaddresses.cc:252
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
 msgstr "Otázka"
 
-#: kab_topwidget.cc:800
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
 msgstr "Položka bola zmazaná."
 
-#: kab_topwidget.cc:802
+#: kab_topwidget.cc:853
 msgid "Database saved."
 msgstr "Databáza uložená."
 
-#: kab_topwidget.cc:809
+#: kab_topwidget.cc:860
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
@@ -500,94 +524,94 @@ msgstr ""
 "Nemôžem zmazať položku\n"
 "(pravdepodobne zamietnuté povolenie)"
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:812
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
-msgstr "Odopretie povolenia."
+msgstr "Odmietnutie povolenia."
 
-#: kab_topwidget.cc:874
+#: kab_topwidget.cc:925
 msgid "Send an email"
 msgstr "Poslať email"
 
-#: kab_topwidget.cc:883
+#: kab_topwidget.cc:934
 msgid "No email addresses."
 msgstr "Žiadna emailová adresa"
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:413 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:897
-#: kab_topwidget.cc:945 kab_topwidget.cc:1340
+#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
 msgstr "Odmietnuté."
 
-#: kab_topwidget.cc:923
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
 msgstr "Prezerať na ..."
 
-#: kab_topwidget.cc:931
+#: kab_topwidget.cc:982
 msgid "No URLs."
 msgstr "Žiadne URL"
 
-#: kab_topwidget.cc:991
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
 msgstr "Obnovenie posledného pohľadu."
 
-#: kab_topwidget.cc:993
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
 msgstr "Neobnovenie posledného pohľadu."
 
-#: kab_topwidget.cc:1004
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
 msgstr "Zapamätanie posledného vstupu."
 
-#: kab_topwidget.cc:1006
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
 msgstr "Nezapamätanie posledného vstupu."
 
-#: kab_topwidget.cc:1017
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
 msgstr "Zobrazenie zostaveného mena v titulku okna."
 
-#: kab_topwidget.cc:1019
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
 msgstr "Nezobrazenie zostaveného mena v titulku okna."
 
-#: kab_topwidget.cc:1030
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
 msgstr "Vytvorenie záložného súboru pri spustení."
 
-#: kab_topwidget.cc:1032
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
 msgstr "Nevytváranie záložného súboru pre spustení."
 
-#: kab_topwidget.cc:1175
+#: kab_topwidget.cc:1231
 msgid "Search entries"
 msgstr "Hľadať položky"
 
-#: kab_topwidget.cc:1187 kab_topwidget.cc:1197
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
 msgstr "(CHYBA)"
 
-#: kab_topwidget.cc:1234
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
 msgstr "Nie je možné získať prehľad existujúcich položiek."
 
-#: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
 msgstr "Vnútorná chyba"
 
-#: kab_topwidget.cc:1251 kab_topwidget.cc:1262
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
 msgstr "Nie je možné získať informácie o existujúcej položke."
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid "Search results ("
 msgstr "Výsledky hľadania ("
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid " hits):"
 msgstr " nájdených):"
 
-#: kab_topwidget.cc:1335
+#: kab_topwidget.cc:1394
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
@@ -595,7 +619,7 @@ msgstr ""
 "Ľutujem!\n"
 "Žiadna položka neodpovedala vašim požiadavkám."
 
-#: kab_topwidget.cc:1336
+#: kab_topwidget.cc:1395
 msgid "No hits"
 msgstr "Nič nenájdené"
 
@@ -633,12 +657,13 @@ msgstr ""
 
 #: kab_kab1importer.cc:335
 msgid ""
-"Warning: There where errors importing the KDE 1\n"
+"Warning: There were errors importing the KDE 1\n"
 "address database.\n"
 "\n"
 msgstr ""
 "Upozornenie: Počas importu databáze adries z KDE 1\n"
 "došlo k chybám.\n"
+"\n"
 
 #: kab_kab1importer.cc:340
 msgid ""
@@ -648,6 +673,57 @@ msgid ""
 msgstr ""
 "Skutočne chcete pridať položky z vašej KDE 1 databáze adries\n"
 "do tohto súboru?"
+
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr "Exportné súbory Netscape Messengera (*.ldif)"
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr "Všetky súbory"
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr "Importovať exportné súbory Netscape Messenger..."
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr "Nepodarilo sa prečítať súbor %1."
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr "Položka importovaná na %1 z '%2'."
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr "Hlavná kontaktná informácia"
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr "Prezývka: %1"
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr "Formát pošty: Text"
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr "Formát pošty: HTML"
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr "Posledná zmena: %1"
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr "importovaných %1 adries."
+
+#: kab_netscape_io.cc:297
+msgid "No addresses imported."
+msgstr "Žiadne adresy importované."
 
 #: kab_printmethods.cc:94
 msgid "Printing finished."
@@ -705,86 +781,88 @@ msgstr "Nepomenovaná adresa:"
 msgid "(Deliver to:)"
 msgstr "(Dodať na:)"
 
-#: kab_htmlexport.cc:333
+#: kab_htmlexport.cc:318
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a cust"
-"omized version of the template files delivered with your kab installation at "
-"another point.</qt>"
+"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
+"customized version of the template files delivered with your kab "
+"installation at another point.</qt>"
 msgstr ""
-"<qt><b>Varovanie!</b><br>Ak nemáte nainštalovanú vlastnú verziu šablón "
-"z iného kab, nemente toto nastavenie.</qt>"
+"<qt><b>Varovanie!</b><br>"
+"Ak nemáte nainštalovanú vlastnú verziu šablón z iného kab, nemente "
+"toto nastavenie.</qt>"
 
-#: kab_htmlexport.cc:338
+#: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
 msgstr "Šablóny pre export do HTML"
 
-#: kab_htmlexport.cc:344
+#: kab_htmlexport.cc:329
 msgid "Select Template Folder"
 msgstr "Vyberte priečinok pre šablóny"
 
-#: kab_htmlexport.cc:358
+#: kab_htmlexport.cc:343
 msgid "Select Target Folder"
 msgstr "Vyberte cieľový priečinok"
 
-#: kab_htmlexport.cc:407
+#: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
 msgstr "Musíte zadať aj priečinok pre šablóny, aj cieľový priečinok!"
 
-#: kab_htmlexport.cc:408
+#: kab_htmlexport.cc:393
 msgid "Corrections needed"
 msgstr "Treba úpravy"
 
-#: kab_htmlexport.cc:462
+#: kab_htmlexport.cc:447
 msgid ""
-"<qt>At least one <b>resource file</b> used to export your address book to HTM"
-"L is missing. Continue anyway?<br><br><i>(Resources are used as support files"
-" like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"<qt>At least one <b>resource file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
+"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
-"<qt>Minimálne jeden <b>zdrojový súbor</b> používaný pre export vášho "
-"adresára do HTML chýba. Chcete pokračovať?<br><br><i>(Zdroje sa používa"
-"jú ako podporné súbory, napr. pozadia alebo odrážky vo výslednom súbor"
-"e HTML.)</i></qt>"
+"<qt>Minimálne jeden <b>zdrojový súbor</b>"
+" používaný pre export vášho adresára do HTML chýba. Chcete "
+"pokračovať?<br><br><i>"
+"(Zdroje sa používajú ako podporné súbory, napr. pozadia alebo odrážky "
+"vo výslednom súbore HTML.)</i></qt>"
 
-#: kab_htmlexport.cc:467
+#: kab_htmlexport.cc:452
 msgid ""
-"<qt>At least one <b>template file</b> used to export your address book to HTM"
-"L is missing. Continue anyway?<br><br><i>(Templates are used as a basis to cr"
-"eate the HTML files themselves. The HTML export will most probably not work w"
-"ithout it.)</i></qt>"
+"<qt>At least one <b>template file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
+"to create the HTML files themselves. The HTML export will most probably not "
+"work without it.)</i></qt>"
 msgstr ""
-"<qt>Minimálne jedna <b>šablóna</b> používaná pre export vášho adresá"
-"ra do HTML chýba. Chcete pokračovať?<br><br><i>(Šablóny sa používajú "
-"ako základ pre vytvorenie HTML súborov. Export asi bez nich nebude fungova"
-"ť.)</i></qt>"
+"<qt>Minimálne jedna <b>šablóna</b> používaná pre export vášho "
+"adresára do HTML chýba. Chcete pokračovať?<br><br><i>(Šablóny sa "
+"používajú ako základ pre vytvorenie HTML súborov. Export asi bez nich "
+"nebude fungovať.)</i></qt>"
 
-#: kab_htmlexport.cc:507
+#: kab_htmlexport.cc:492
 msgid "Missing Resource"
 msgstr "Chýbajúci zdroj"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:510 kab_htmlexport.cc:522
+#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
 msgstr "Zrušené."
 
-#: kab_htmlexport.cc:519
+#: kab_htmlexport.cc:504
 msgid "Missing Template"
 msgstr "Chýbajúca šablóna"
 
-#: kab_htmlexport.cc:558
+#: kab_htmlexport.cc:543
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused b"
-"y insufficient permissions in the target directory or failures in the setup o"
-"f your KDE 2 installation.<br><br>If you created your own template folder, mi"
-"stakes in there may also cause errors. As a last possibility, the KDE address"
-" book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
+"by insufficient permissions in the target directory or failures in the setup "
+"of your KDE 2 installation.<br><br>If you created your own template folder, "
+"mistakes in there may also cause errors. As a last possibility, the KDE "
+"address book may be buggy, too :-(.</qt>"
 msgstr ""
-"<qt><b>Ľutujem!</b><br><br>Export do HTML sa nepodaril. Problémy sú možno"
-" spôsobené nedostatočnými právami v cieľovom priečinku, alebo chybnou "
-"inštaláciu KDE 2.<br><br>Ak ste si vytvorili vlastný priečinok so šabló"
-"nami, mohli ste urobiť nejaké chyby. No a posledná možnosť je, že adres"
-"ár KDE obsahuje chyby :-(.</qt>"
+"<qt><b>Ľutujem!</b><br><br>Export do HTML sa nepodaril. Problémy sú "
+"možno spôsobené nedostatočnými právami v cieľovom priečinku, alebo "
+"chybnou inštaláciu KDE 2.<br><br>Ak ste si vytvorili vlastný priečinok "
+"so šablónami, mohli ste urobiť nejaké chyby. No a posledná možnosť "
+"je, že adresár KDE obsahuje chyby :-(.</qt>"
 
-#: kab_htmlexport.cc:566
+#: kab_htmlexport.cc:551
 msgid "Error exporting to HTML"
 msgstr "Chyba exportu do HTML"
 
@@ -881,8 +959,8 @@ msgid "User Fields"
 msgstr "Užívateľské polia"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
-#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:58
-#: look_edit_tabperson.cc:250 look_edit_tabperson.cc:295
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
 msgstr "Všeobecná chyba."
@@ -911,60 +989,68 @@ msgstr "&Deň narodenia"
 msgid "Comment"
 msgstr "Komentár"
 
-#: look_edit_tabperson.cc:39
+#: look_edit_tabperson.cc:40
 msgid "Email addresses..."
 msgstr "Emailová adresa..."
 
-#: look_edit_tabperson.cc:40
+#: look_edit_tabperson.cc:41
 msgid "Talk addresses..."
 msgstr "Talkovacia adresu..."
 
-#: look_edit_tabperson.cc:41
+#: look_edit_tabperson.cc:42
 msgid "URLs..."
 msgstr "URL..."
 
-#: look_edit_tabperson.cc:64
+#: look_edit_tabperson.cc:65
 msgid "Formatted name:"
 msgstr "Formátované meno:"
 
-#: look_edit_tabperson.cc:75
+#: look_edit_tabperson.cc:68
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if "
+"<b>kab</b> assembles it in the wrong way.</qt>"
+msgstr ""
+"<qt>Zadajte <i>celé meno</i> osoby alebo organizácie, ak ho <b>kniha "
+"adries</b> nechápe správne.</qt>"
+
+#: look_edit_tabperson.cc:78
 msgid "First name:"
 msgstr "Prvé meno:"
 
-#: look_edit_tabperson.cc:77
+#: look_edit_tabperson.cc:80
 msgid "Middle name:"
 msgstr "Prostredné meno"
 
-#: look_edit_tabperson.cc:79
+#: look_edit_tabperson.cc:82
 msgid "Last name:"
 msgstr "Priezvisko"
 
-#: look_edit_tabperson.cc:96
+#: look_edit_tabperson.cc:99
 msgid "Name prefix:"
 msgstr "Prefix mena:"
 
-#: look_edit_tabperson.cc:98
+#: look_edit_tabperson.cc:101
 msgid "Title:"
 msgstr "Titul:"
 
-#: look_edit_tabperson.cc:100
+#: look_edit_tabperson.cc:103
 msgid "Rank:"
 msgstr "Hodnosť:"
 
-#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:193
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
 msgid "Edit email addresses"
 msgstr "Upraviť emailovú adresu"
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:209
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
 msgid "Edit talk addresses"
 msgstr "Upraviť talkovaciu adresu"
 
-#: look_edit_tabperson.cc:225
+#: look_edit_tabperson.cc:228
 msgid "Edit URLs"
 msgstr "Upraviť URL"
 
-#: look_edit_tabperson.cc:243
-msgid "I know this persons birthday:"
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
 msgstr "Poznám dátum narodenia tejto osoby:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
@@ -1007,25 +1093,25 @@ msgstr "Upraviť URL (internetové adresy)"
 msgid "Edit telephone numbers"
 msgstr "Upraviť telefónne čísla"
 
-#: look_edit_tabaddresses.cc:227
+#: look_edit_tabaddresses.cc:231
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See <b>Edit->C"
-"onfigure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Viete, že môžete predefinovať typy adries?<br>Pozri <b>Upraviť->Nast"
-"aviť tento súbor</b>.</qt>"
+"<qt>Viete, že môžete predefinovať typy adries?<br>Pozri "
+"<b>Upraviť->Nastaviť tento súbor</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:229
+#: look_edit_tabaddresses.cc:233
 msgid "A note"
 msgstr "Poznámka"
 
-#: look_edit_tabaddresses.cc:251
+#: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
 msgstr "Skutočne vymazať túto adresu?"
 
-#: look_edit_tabaddresses.cc:313
-msgid "Insinuation"
-msgstr "Naznačenie"
+#: look_edit_tabaddresses.cc:317
+msgid "Organization"
+msgstr "Organizácia"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
@@ -1045,15 +1131,15 @@ msgstr "Modem:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr "Užívateľsky definované 1:"
+msgstr "Používateľom definované 1:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr "Užívateľsky definované 2:"
+msgstr "Používateľom definované 2:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr "Užívateľsky definované 3:"
+msgstr "Používateľom definované 3:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
@@ -1141,28 +1227,28 @@ msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
-"Nastali chyby pri ukladaní vašich preferencií.\n"
+"Nastali chyby pri ukladaní vašich nastavení.\n"
 "Niektoré z nich môžu byť stratené."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
-msgstr "Chybné uloženie preferencií."
+msgstr "Chybné uloženie nastavenia."
 
 #: dialog_configurekab.cc:63
 msgid "KDE address book preferences."
-msgstr "Preferencie KDE knihy adries."
+msgstr "Nastavenie KDE knihy adries."
 
 #: dialog_configurekab.cc:65
 msgid "Preferences saved."
-msgstr "Preferencie uložené."
+msgstr "Nastavenie uložené."
 
 #: dialog_configurekab.cc:69
 msgid ""
 "Cannot save your preferences.\n"
-"May be permission denied."
+"You may not have permission to write the file."
 msgstr ""
-"Nemožno uložiť vaše preferencie.\n"
-"Možno odopretý prístup."
+"Nemôžem uložiť vaše nastavenia.\n"
+"Pravdepodobne nemáte prístupové práva na zápis do tohto súboru."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
@@ -1170,11 +1256,11 @@ msgstr "Zapamätať posledné vyznačený pohľad"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr "Zapamätať posledne vyznačenú položku"
+msgstr "Zapamätať poslednú vyznačenú položku"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr "Ukázať zostavené meno v titulku okna"
+msgstr "Ukázať zastavené meno v titulku okna"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
@@ -1185,7 +1271,7 @@ msgid "General settings"
 msgstr "Všeobecné nastavenia"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
+msgid "Organization:"
 msgstr "Organizácia:"
 
 #: dialog_insinuation.cc:30
@@ -1195,3 +1281,31 @@ msgstr "Oddelenie:"
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
 msgstr "Pod-oddelenie:"
+
+#: kab_entrylist.cc:55
+msgid "..."
+msgstr "..."
+
+#: kab_entrylist.cc:81
+msgid "No match."
+msgstr "Nič neodpovedá."
+
+#: kab_entrylist.cc:94
+msgid "Calculating..."
+msgstr "Počítam..."
+
+#: kab_entrylist.cc:110
+msgid "(Disabled)"
+msgstr "(Zakázané)"
+
+#: kab_entrylist.cc:113
+msgid "Error creating index for incremental search."
+msgstr "Chyba pri vytváraní indexu pre inkrementálne hľadanie."
+
+#: kab_entrylist.cc:114
+msgid "Incremental search disabled."
+msgstr "Inkrementálne hľadanie zakázané."
+
+#: kab_entrylist.cc:163
+msgid "(No items to search)"
+msgstr "(Nie sú položky pre hľadanie)"

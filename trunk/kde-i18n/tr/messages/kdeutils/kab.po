@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# Mustafa Akgün <mustafa@gelecek.com.tr>, 2000.
-#
+# Mustafa AkgÃ¼n <mustafa@gelecek.com.tr>, 2000.
+# <<<<<<< kab.po
 msgid ""
 msgstr ""
 "Project-Id-Version: Kab 2.0\n"
-"POT-Creation-Date: 2001-01-20 01:26+0100\n"
-"PO-Revision-Date: 2000-11-25 21:48GMT+2\n"
-"Last-Translator: Murat Gezer <murat.gezer@superposta.com>\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-05-08 13:01+0200\n"
+"Last-Translator: Muhsin YeÅŸilyÄ±lmaz <muhsinyy@isnet.net.tr>\n"
 "Language-Team: Turkish <kde-i18n-tr@kde.org>\n"
 "MIME-Version: 1.1\n"
-"Content-Type: text/plain; charset=ISO8859-9\n"
+"Content-Type: text/plain; charset=iso-8859-9\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "X-Generator: KBabel 0.6\n"
 
@@ -20,7 +20,7 @@ msgstr "HTML kaydet"
 
 #: rc.cpp:2
 msgid "Exporting of addresses"
-msgstr "Adreslerin aktarımı"
+msgstr "Adreslerin aktarÄ±mÄ±"
 
 #: rc.cpp:3
 msgid "Export addresses along with entries"
@@ -28,15 +28,15 @@ msgstr "Adresleri girdilerle birlikte kaydet"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
-msgstr "Adreslerinizi nasıl kaydedeyim?"
+msgstr "Adreslerinizi nasÄ±l kaydedeyim?"
 
 #: rc.cpp:5
 msgid "Address and person in one line"
-msgstr "Adres ve kişi bir satırda"
+msgstr "Adres ve kiÅŸi bir satÄ±rda"
 
 #: rc.cpp:6
 msgid "All addresses"
-msgstr "Tüm adres&ler"
+msgstr "TÃ¼m adresler"
 
 #: rc.cpp:7
 msgid "Up to ... addresses"
@@ -48,613 +48,645 @@ msgstr "HTML stilini belirleyin "
 
 #: rc.cpp:9
 msgid "Style of the resulting file"
-msgstr "Sonuç dosyası stilinde"
+msgstr "SonuÃ§ dosyasÄ± stilinde"
 
 #: rc.cpp:10
 msgid "Plain HTML text without tables or lines"
-msgstr "Tablo ve çizgi içermeyen düz HTML"
+msgstr "Tablo ve Ã§izgi iÃ§ermeyen dÃ¼z HTML"
 
 #: rc.cpp:11
 msgid "Expect more here..."
 msgstr "Daha fazla..."
 
-#: rc.cpp:12 rc.cpp:19 rc.cpp:28 rc.cpp:43
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
 msgstr "Form1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
-msgstr "Bu adres için alım etiketini girin:"
+msgstr "Bu adres iÃ§in daÄŸÄ±tÄ±m etiketini girin:"
 
-#: kab_htmlexport.cc:395 rc.cpp:14
-msgid "Setup HTML export"
-msgstr "HTML kaydını yapılandır"
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "KayÄ±t Listesi"
 
 #: rc.cpp:15
-msgid "Template folder:"
-msgstr "Şablon dizini:"
+msgid "<qt>Search entries by entering<br> - one of their <b>e-mail addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+msgstr ""
+"<qt>KayÄ±tlarÄ± aÅŸaÄŸÄ±daki Ã¶lÃ§Ã¼tlere gÃ¶re arayabilirsiniz<br> - "
+"<b>e-posta adresleri</b>ne gÃ¶re<br> - <b>Ada</b> gÃ¶re<br> - "
+"<b>soyadÄ±na</b> gÃ¶re</qt>"
 
-#: rc.cpp:16
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>GÃ¶sterilecek kaydÄ± seÃ§in.</qt>"
+
+#: kab_htmlexport.cc:380 rc.cpp:18
+msgid "Setup HTML export"
+msgstr "HTML kaydÄ±nÄ± yapÄ±landÄ±r"
+
+#: rc.cpp:19
+msgid "Template folder:"
+msgstr "Åablon dizini:"
+
+#: rc.cpp:20
 msgid "Target folder:"
 msgstr "Hedef dizin:"
 
-#: rc.cpp:17 rc.cpp:18
+#: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
-msgstr "Seç..."
+msgstr "SeÃ§..."
 
-#: rc.cpp:22
-msgid ""
-"Hide the search results window. This will not clear your search results."
+#: rc.cpp:26
+msgid "Hide the search results window. This will not clear your search results."
 msgstr ""
-"Arama sonuçları penceresini gizle. Bu işlem arama sonuçlarını silmeyecektir."
-
-#: rc.cpp:23
-msgid ""
-"Hide the search results window. This will close the search results window "
-"and clear all results of previous searches."
-msgstr ""
-"Arama sonuçlarını gizle. Bu işlem arama sonucu penceresini kapatacak ve "
-"önceki tüm arama sonuçlarını temizleyecektir."
-
-#: rc.cpp:25
-msgid "Clear the search results and hide this window."
-msgstr "Arama sonuçlarını temizle ve bu pencereyi gizle."
+"Arama sonuÃ§larÄ± penceresini gizle. Bu iÅŸlem arama sonuÃ§larÄ±nÄ± "
+"silmeyecektir."
 
 #: rc.cpp:27
-msgid "Print your search results."
-msgstr "Arama sonuçlarını yazdır."
+msgid "Hide the search results window. This will close the search results window and clear all results of previous searches."
+msgstr ""
+"Arama sonuÃ§larÄ±nÄ± gizle. Bu iÅŸlem arama sonucu penceresini kapatacak ve "
+"Ã¶nceki tÃ¼m arama sonuÃ§larÄ±nÄ± temizleyecektir."
 
 #: rc.cpp:29
-msgid "Search for people in your addressbook:"
-msgstr "Adres defterinde kişileri ara"
-
-#: rc.cpp:30
-msgid "Select fields to search here."
-msgstr "Aranacak bölümleri buradan seçin."
+msgid "Clear the search results and hide this window."
+msgstr "Arama sonuÃ§larÄ±nÄ± temizle ve bu pencereyi gizle."
 
 #: rc.cpp:31
-msgid ""
-"Select fields to search here. \n"
-"All entries where this field matches the pattern (consisting of wildcards or "
-"regular expressions) given below will be displayed in the Search Results "
-"Window."
-msgstr "Aranacak bölümleri buradan seçin."
-
-#: rc.cpp:32
-msgid "... matches ..."
-msgstr "... eşleme ..."
+msgid "Print your search results."
+msgstr "Arama sonuÃ§larÄ±nÄ± yazdÄ±r."
 
 #: rc.cpp:33
+msgid "Search for people in your addressbook:"
+msgstr "Adres defterinde kiÅŸileri ara"
+
+#: rc.cpp:34
+msgid "Select fields to search here."
+msgstr "Aranacak bÃ¶lÃ¼mleri buradan seÃ§in."
+
+#: rc.cpp:35
+msgid "Select fields to search here. \nAll entries where this field matches the pattern (consisting of wildcards or regular expressions) given below will be displayed in the Search Results Window."
+msgstr "Aranacak bÃ¶lÃ¼mleri buradan seÃ§in."
+
+#: rc.cpp:36
+msgid "... matches ..."
+msgstr "... eÅŸleme ..."
+
+#: rc.cpp:37
 msgid "*"
 msgstr "*"
 
-#: rc.cpp:34
-msgid "Enter your expression here."
-msgstr "Tanımı girin."
-
-#: rc.cpp:35
-msgid "Options:"
-msgstr "Seçenekler:"
-
-#: rc.cpp:36
-msgid "Case sensitive search"
-msgstr "Küçük/büyük harfe duyarlı arama"
-
-#: rc.cpp:37
-msgid "Check this box if you want to do a case-sensitive search."
-msgstr "Büyük/küçük harf uyumlu arama yapmak için bu kutucuğa tıklayın."
-
 #: rc.cpp:38
-msgid "Expressions"
-msgstr "Tanımlar"
+msgid "Enter your expression here."
+msgstr "TanÄ±mÄ± girin."
 
 #: rc.cpp:39
-msgid "Wildcards"
-msgstr "Joker karakterleri"
+msgid "Options:"
+msgstr "SeÃ§enekler:"
 
 #: rc.cpp:40
-msgid ""
-"Check this button if you use widlcards in your expression (as in shell "
-"commands)."
-msgstr "Tanımlar içinde joker karakteri kullanacaksanız bu düğmeye tıklayın"
+msgid "Case sensitive search"
+msgstr "KÃ¼Ã§Ã¼k/bÃ¼yÃ¼k harfe duyarlÄ± arama"
 
 #: rc.cpp:41
-msgid "Regular expressions"
-msgstr "Düzgün deyimler"
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr ""
+"BÃ¼yÃ¼k/kÃ¼Ã§Ã¼k harf uyumlu arama yapmak iÃ§in bu kutucuÄŸa tÄ±klayÄ±n."
 
 #: rc.cpp:42
-msgid ""
-"Check this box if you use classical regular expressions in your pattern."
-msgstr ""
-"Tanımlar içinde klasik düzgün deyimler kullanacaksanız bu düğmeye tıklayın."
+msgid "Expressions"
+msgstr "TanÄ±mlar"
+
+#: rc.cpp:43
+msgid "Wildcards"
+msgstr "Joker karakterler"
 
 #: rc.cpp:44
-msgid "Headline:"
-msgstr "Başçizgi:"
+msgid "Check this button if you use widlcards in your expression (as in shell commands)."
+msgstr ""
+"TanÄ±mlar iÃ§inde joker karakteri kullanacaksanÄ±z bu dÃ¼ÄŸmeye tÄ±klayÄ±n"
 
 #: rc.cpp:45
-msgid "Insinuation..."
-msgstr "İma..."
+msgid "Regular expressions"
+msgstr "DÃ¼zgÃ¼n deyimler"
 
 #: rc.cpp:46
-msgid "Country:"
-msgstr "Ülke:"
+msgid "Check this box if you use classical regular expressions in your pattern."
+msgstr ""
+"TanÄ±mlar iÃ§inde klasik dÃ¼zgÃ¼n deyimler kullanacaksanÄ±z bu dÃ¼ÄŸmeye "
+"tÄ±klayÄ±n."
 
-#: rc.cpp:47
+#: rc.cpp:48
+msgid "Address type (e.g. Home):"
+msgstr "Adres tÃ¼rÃ¼ (Ã¶rnek: Ev):"
+
+#: rc.cpp:49
+msgid "Organization..."
+msgstr "Kurum..."
+
+#: rc.cpp:50
+msgid "Country:"
+msgstr "Ãœlke:"
+
+#: rc.cpp:51
 msgid "Zip code"
 msgstr "Postakodu"
 
-#: rc.cpp:48
+#: rc.cpp:52
 msgid "State"
 msgstr "Eyalet"
 
-#: rc.cpp:49
+#: rc.cpp:53
 msgid "City"
-msgstr "Şehir"
+msgstr "Åehir"
 
-#: rc.cpp:50
+#: rc.cpp:54
 msgid "Street address:"
 msgstr "Adres:"
 
-#: rc.cpp:51
-msgid "Assignment:"
-msgstr "Görev:"
+#: rc.cpp:55
+msgid "Job title:"
+msgstr "GÃ¶rev adÄ±:"
 
-#: look_edit_tabaddresses.cc:333 rc.cpp:52
+#: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
-msgstr "Alım etiketi"
+msgstr "DaÄŸÄ±tÄ±m etiketi"
 
 #: kab_main.cc:31 kab_main.cc:38
 msgid "KDE Addressbook"
 msgstr "KDE Adres defteri"
 
 #: kab_main.cc:51
-msgid ""
-"<qt>Version 2 of the KDE address book is not compatible with the previous "
-"one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+msgid "<qt>Version 2 of the KDE address book is not compatible with the previous one. To protect your address database, a new file will be used. Run <b>File->Import->KDE 1 addressbook</b> to use your old database with the new version.</qt>"
 msgstr ""
-"KDE adres defterinin ikinci sürümü öncekilerle uyumlu değildir.\n"
-"Adres veritabanınızı korumak için, ayrı bir dosya kullanılcaktır.\n"
-"Yeni sürümle eski veritanınızı kullanmak için\n"
-"\"Dosya->Aktar->KDE 1 adres defteri\" menüsüne gidin."
+"KDE adres defterinin ikinci sÃ¼rÃ¼mÃ¼ Ã¶ncekilerle uyumlu deÄŸildir.\n"
+"Adres veritabanÄ±nÄ±zÄ± korumak iÃ§in, ayrÄ± bir dosya kullanÄ±lacaktÄ±r.\n"
+"Yeni sÃ¼rÃ¼mle eski veritanÄ±nÄ±zÄ± kullanmak iÃ§in\n"
+"\"Dosya->Aktar->KDE 1 adres defteri\" menÃ¼sÃ¼ne gidin."
 
 #: kab_main.cc:56
 msgid "new format"
-msgstr "yeni biçim"
+msgstr "yeni biÃ§im"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:54 kab_mainwidget.cc:64
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
-#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:57
-#: look_edit_tabperson.cc:249 look_edit_tabperson.cc:294
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
-msgstr "Yetersiz bellek"
+msgstr "Yetersiz bellek."
 
-#: kab_mainwidget.cc:55 kab_mainwidget.cc:65 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
 msgstr "Genel hata"
 
-#: kab_topwidget.cc:92
-msgid ""
-"Could not connect to the address database.\n"
-"The KDE addressbook will not run without it.\n"
-"The application will be closed."
+#: kab_topwidget.cc:93
+msgid "Could not connect to the address database.\nThe KDE addressbook will not run without it.\nThe application will be closed."
 msgstr ""
-"Adres veritabanına bağlanamıyorum.\n"
-"KDE Adres defteri veritabanına bağlanamadan\n"
-"calışamaz progrmaı kapatıyorum."
+"Adres defteri veritabanÄ±na baÄŸlanÄ±lamadÄ±.\n"
+" VeritabanÄ± olmadan program Ã§alÄ±ÅŸamaz.\n"
+" Program kapatÄ±lacak."
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:509
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
-msgstr "Veritabanı hatası"
+msgstr "VeritabanÄ± hatasÄ±"
 
-#: kab_topwidget.cc:190
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
-msgstr "Kab 2.1'e hoşgeldiniz"
+msgstr "Kab 2.1'e hoÅŸgeldiniz"
 
-#: kab_topwidget.cc:191
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE Adres defteri 2.1"
 
-#: kab_topwidget.cc:192
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
-msgstr "Mirko Boehm tarafından yazıldı (mirko@kde.org)."
+msgstr "Mirko Boehm (mirko@kde.org) tarafÄ±ndan yazÄ±ldÄ±."
 
-#: kab_topwidget.cc:193
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
-msgstr "Son Yenilikler için www.kde.org adresini ziyaret ediniz."
+msgstr "Son yenilikler iÃ§in www.kde.org adresini ziyaret edin."
 
-#: kab_topwidget.cc:256
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
 msgstr "&HTML kaydet..."
 
-#: kab_topwidget.cc:260
+#: kab_topwidget.cc:282
 msgid "&First entry"
-msgstr "İ&lk kayıt"
+msgstr "Ä°&lk kayÄ±t"
 
-#: kab_topwidget.cc:264
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
-msgstr "Ö&nceki kayıt"
+msgstr "Ã–&nceki kayÄ±t"
 
-#: kab_topwidget.cc:268
+#: kab_topwidget.cc:290
 msgid "&Next entry"
-msgstr "S&onraki kayıt"
+msgstr "S&onraki kayÄ±t"
 
-#: kab_topwidget.cc:272
+#: kab_topwidget.cc:294
 msgid "&Last entry"
-msgstr "&Son kayıt"
+msgstr "&Son kayÄ±t"
 
-#: kab_topwidget.cc:276
-msgid "&Add entry"
-msgstr "&Kayıt ekle"
+#: kab_topwidget.cc:298
+msgid "&Add entry..."
+msgstr "&KayÄ±t ekle..."
 
-#: kab_topwidget.cc:280
-msgid "&Edit entry"
-msgstr "Kayıt &düzenle"
+#: kab_topwidget.cc:302
+msgid "&Edit entry..."
+msgstr "KayÄ±t &dÃ¼zenle..."
 
-#: kab_topwidget.cc:284
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
-msgstr "Kayıt &sil"
-
-#: kab_topwidget.cc:288
-msgid "Send an e&mail"
-msgstr "E&posta gönder"
-
-#: kab_topwidget.cc:292
-msgid "&Browse"
-msgstr "&Gözat"
-
-#: kab_topwidget.cc:296
-msgid "&Search entries"
-msgstr "Kayıtlarda arama &yap."
-
-#: kab_topwidget.cc:300
-msgid "Show search results"
-msgstr "Arama sonuçlarını göster"
-
-#: kab_topwidget.cc:305
-msgid "Show main toolbar"
-msgstr "Ana araç çubuğunu göster"
+msgstr "KayÄ±t &sil"
 
 #: kab_topwidget.cc:310
-msgid "Show entry navigation toolbar"
-msgstr "Kayıt araç çubuğunu göster"
+msgid "Send an e&mail"
+msgstr "E-&posta gÃ¶nder"
 
-#: kab_topwidget.cc:315
-msgid "Print entry"
-msgstr "Girdileri yazdır"
+#: kab_topwidget.cc:314
+msgid "&Browse"
+msgstr "&GÃ¶zat"
 
-#: kab_topwidget.cc:319
-msgid "Print entries"
-msgstr "Girdileri yazdır"
+#: kab_topwidget.cc:318
+msgid "&Search entries..."
+msgstr "KayÄ±tlarda arama &yap..."
 
-#: kab_topwidget.cc:323
-msgid "&Editing"
-msgstr "Dü&zenleme"
+#: kab_topwidget.cc:322
+msgid "Show search results"
+msgstr "Arama sonuÃ§larÄ±nÄ± gÃ¶ster"
 
 #: kab_topwidget.cc:327
+msgid "Show main toolbar"
+msgstr "Ana araÃ§ Ã§ubuÄŸunu gÃ¶ster"
+
+#: kab_topwidget.cc:332
+msgid "Show entry navigation toolbar"
+msgstr "KayÄ±t gezinti Ã§ubuÄŸunu gÃ¶ster"
+
+#: kab_topwidget.cc:337
+msgid "Show entry navigation list"
+msgstr "KayÄ±t gezinti listesini gÃ¶ster"
+
+#: kab_topwidget.cc:342
+msgid "Print entry..."
+msgstr "KaydÄ± yazdÄ±r..."
+
+#: kab_topwidget.cc:346
+msgid "Print entries..."
+msgstr "KayÄ±tlarÄ± yazdÄ±r..."
+
+#: kab_topwidget.cc:350
+msgid "&Editing"
+msgstr "DÃ¼&zenleme"
+
+#: kab_topwidget.cc:354
 msgid "&Business Card"
 msgstr "Ka&rtvizit"
 
-#: kab_topwidget.cc:352
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
 msgstr "KDE 1 adres de&fteri "
 
-#: kab_topwidget.cc:359
+#: kab_topwidget.cc:379
+msgid "&Netscape address book"
+msgstr "&Netscape adres defteri"
+
+#: kab_topwidget.cc:386
 msgid "&Create new database..."
-msgstr "&Yeni veritabanı oluştur"
+msgstr "&Yeni veritabanÄ± oluÅŸtur..."
 
-#: kab_topwidget.cc:363
+#: kab_topwidget.cc:390
 msgid "Open default &database"
-msgstr "&Tanımlı veritabanını aç"
+msgstr "Ã–n&tanÄ±mlÄ± veritabanÄ±nÄ± aÃ§"
 
-#: kab_topwidget.cc:367
+#: kab_topwidget.cc:394
 msgid "&Import"
-msgstr "A&ktar..."
+msgstr "A&ktar"
 
-#: kab_topwidget.cc:368
+#: kab_topwidget.cc:395
 msgid "&Print"
-msgstr "Y&zdır"
+msgstr "Y&zdÄ±r"
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
-msgstr "&Bütün iletiler etkin"
+msgstr "&BÃ¼tÃ¼n iletiler etkin"
 
-#: kab_topwidget.cc:385
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
-msgstr "B&u dosyayı düzenle"
+msgstr "B&u dosyayÄ± dÃ¼zenle..."
 
-#: kab_topwidget.cc:388
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
-msgstr "&KDE adres defteri için tercihler..."
+msgstr "&KDE adres defteri iÃ§in tercihler..."
 
-#: kab_topwidget.cc:506
-msgid ""
-"The database interface could not be created.\n"
-"The KDE addressbook will not run without it.\n"
-"The application will be closed."
+#: kab_topwidget.cc:537
+msgid "The database interface could not be created.\nThe KDE addressbook will not run without it.\nThe application will be closed."
 msgstr ""
-"Veritabanı arayüzü kurulamadı.\n"
-"KDE adres defteri arayüzsüz calışamaz.\n"
-"Programı kapatıyorum."
+"VeritabanÄ± arayÃ¼zÃ¼ kurulamadÄ±.\n"
+"KDE adres defteri arayÃ¼z olmadan calÄ±ÅŸamaz.\n"
+" Program kapatÄ±lacak."
 
-#: kab_topwidget.cc:538
-msgid ""
-"You changed this entry.\n"
-"Save changes?\n"
-"(Unsaved changes will be lost.)"
+#: kab_topwidget.cc:569
+msgid "You changed this entry.\nSave changes?\n(Unsaved changes will be lost.)"
 msgstr ""
-"Bu kayıt değiştirildi.\n"
-"Değişiklikler kayıt edilecekmi?\n"
-"(Kaydedilmeyen değişiklikler kaybedilecek.)"
+"Bu kayÄ±t deÄŸiÅŸtirildi.\n"
+"DeÄŸiÅŸiklikler kaydedilsin mi?\n"
+"(Kaydedilmeyen deÄŸiÅŸiklikler kaybedilecek.)"
 
-#: kab_topwidget.cc:540
+#: kab_topwidget.cc:571
 msgid "Save changes?"
-msgstr "Değişiklikler kaydedilsin mi?"
+msgstr "DeÄŸiÅŸiklikler kaydedilsin mi?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:548
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
-msgstr "Hata. Girişi değiştiriyorum."
+msgstr "KayÄ±t deÄŸiÅŸtirmede hata."
 
-#: kab_topwidget.cc:577
+#: kab_topwidget.cc:608
 msgid "No entries."
-msgstr "Kayıt yok."
+msgstr "KayÄ±t yok."
 
-#: kab_topwidget.cc:677
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
-msgstr "Ön tanımlı veritabanını bulamıyorum."
+msgstr "Ã–ntanÄ±mlÄ± veritabanÄ±nÄ± bulamÄ±yorum."
 
-#: kab_topwidget.cc:678
+#: kab_topwidget.cc:727
 msgid "Critical failure"
-msgstr "Genel hata "
+msgstr "Kritik hata"
 
-#: kab_topwidget.cc:683
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
-msgstr "Standart dosya yüklenemedi."
+msgstr "Standart dosya yÃ¼klenemedi."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:684
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
-msgstr "Dosya hatası"
+msgstr "Dosya hatasÄ±"
 
-#: kab_topwidget.cc:699
+#: kab_topwidget.cc:748
 msgid "Business card view."
-msgstr "Kartvizit görüntüsü."
+msgstr "Kartvizit gÃ¶rÃ¼ntÃ¼sÃ¼."
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:759
 msgid "Editing view."
-msgstr "Düzenleme görüntüsü."
+msgstr "DÃ¼zenleme gÃ¶rÃ¼ntÃ¼sÃ¼."
 
-#: kab_topwidget.cc:718
-msgid ""
-"This will re-enable all messages you disabled before.\n"
-"Continue?"
+#: kab_topwidget.cc:767
+msgid "This will re-enable all messages you disabled before.\nContinue?"
 msgstr ""
-"Bu daha önce etkinsizleştirdiğiniz bütün iletileri etkin kılacak.\n"
+"Daha Ã¶nce etkinleÅŸtirmediÄŸiniz tÃ¼m iletileri etkin kÄ±lÄ±nacak.\n"
 "Devam edilsin mi?"
 
-#: kab_topwidget.cc:720
-msgid "Enable messages?"
-msgstr "İletileri etkinleştir?"
-
-#: kab_topwidget.cc:739
-msgid "New entry added."
-msgstr "Yeni giriş eklendi."
-
-#: kab_topwidget.cc:740
-msgid "Saving new entry."
-msgstr "Yeni giriş saklandı."
-
-#: kab_topwidget.cc:742
-msgid "Done."
-msgstr "Yapıldı."
-
-#: kab_topwidget.cc:761
-msgid ""
-"Cannot add the new entry.\n"
-"Permission denied.\n"
-"You may not have writing permissions for this file."
-msgstr ""
-"Yeni kayıt eklenemedi.\n"
-"İzin reddedildi.\n"
-"Bu dosyaya yazma izniniz yoktur. "
-
 #: kab_topwidget.cc:769
-msgid ""
-"Cannot add the new entry.\n"
-"Unknown cause."
+msgid "Enable messages?"
+msgstr "Ä°letileri etkinleÅŸtir?"
+
+#: kab_topwidget.cc:788
+msgid "New entry added."
+msgstr "Yeni kayÄ±t eklendi."
+
+#: kab_topwidget.cc:789
+msgid "Saving new entry."
+msgstr "Yeni kayÄ±t saklandÄ±."
+
+#: kab_topwidget.cc:791
+msgid "Done."
+msgstr "Tamam."
+
+#: kab_topwidget.cc:812
+msgid "Cannot add the new entry.\nPermission denied.\nYou may not have write permission for this file."
 msgstr ""
-"Yeni kayıt eklenemedi.\n"
+"Yeni kayÄ±t eklenemedi.\n"
+"Ä°zin reddedildi.\n"
+"Bu dosyaya yazma izniniz olmayabilir."
+
+#: kab_topwidget.cc:820
+msgid "Cannot add the new entry.\nUnknown cause."
+msgstr ""
+"Yeni kayÄ±t eklenemedi.\n"
 "Bilinmeyen neden."
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:826
 msgid "No entry added."
-msgstr "Giriş eklenmedi."
+msgstr "GiriÅŸ eklenmedi."
 
-#: kab_topwidget.cc:793
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
-msgstr "Bu kaydı silmek istediğinize emin misiniz?"
+msgstr "Bu kaydÄ± silmek istediÄŸinizden emin misiniz?"
 
-#: kab_topwidget.cc:794 look_edit_tabaddresses.cc:252
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
 msgstr "Soru"
 
-#: kab_topwidget.cc:800
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
-msgstr "Kayıt silindi."
+msgstr "KayÄ±t silindi."
 
-#: kab_topwidget.cc:802
+#: kab_topwidget.cc:853
 msgid "Database saved."
-msgstr "Veritabanı kayıt oldu."
+msgstr "VeritabanÄ± kaydedildi."
 
-#: kab_topwidget.cc:809
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
+#: kab_topwidget.cc:860
+msgid "Could not delete the entry\n(probably permission denied)."
 msgstr ""
-"Kayıt silinemedi\n"
-"(izin reddedilmiş olabilir)."
+"KayÄ±t silinemedi\n"
+"(izin reddedilmiÅŸ olabilir)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:812
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
-msgstr "İzin reddedildi."
+msgstr "Ä°zin reddedildi."
 
-#: kab_topwidget.cc:874
+#: kab_topwidget.cc:925
 msgid "Send an email"
-msgstr "E-posta gönder"
+msgstr "E-posta gÃ¶nder"
 
-#: kab_topwidget.cc:883
+#: kab_topwidget.cc:934
 msgid "No email addresses."
-msgstr "E-posta adresleri yok"
+msgstr "E-posta adresi yok"
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:413 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:897
-#: kab_topwidget.cc:945 kab_topwidget.cc:1340
+#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
 msgstr "Kabul edilmedi."
 
-#: kab_topwidget.cc:923
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
-msgstr "Gözat..."
+msgstr "GÃ¶zat..."
 
-#: kab_topwidget.cc:931
+#: kab_topwidget.cc:982
 msgid "No URLs."
-msgstr "URL yok"
+msgstr "URL yok."
 
-#: kab_topwidget.cc:991
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
-msgstr "Düzenleme görüntüsü."
+msgstr "Son gÃ¶rÃ¼nÃ¼m yÃ¼kleniyor."
 
-#: kab_topwidget.cc:993
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
-msgstr "Son görüş yüklenmiyor."
+msgstr "Son gÃ¶rÃ¼nÃ¼m yÃ¼klenmiyor."
 
-#: kab_topwidget.cc:1004
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
-msgstr "Son giriş hatırlanıyor."
+msgstr "Son kayÄ±t hatÄ±rlanÄ±yor."
 
-#: kab_topwidget.cc:1006
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
-msgstr "Son giriş hatırlanmıyor"
+msgstr "Son kayÄ±t hatÄ±rlanmÄ±yor"
 
-#: kab_topwidget.cc:1017
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
-msgstr "Pencere başlığında yeralan isim görüntüleniyor."
+msgstr "Pencere baÅŸlÄ±ÄŸÄ±nda yeralan isim gÃ¶rÃ¼ntÃ¼leniyor."
 
-#: kab_topwidget.cc:1019
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
-msgstr "Pencere başlığında yeralan isim görüntülenmiyor."
+msgstr "Pencere baÅŸlÄ±ÄŸÄ±nda yeralan isim gÃ¶rÃ¼ntÃ¼lenmiyor."
 
-#: kab_topwidget.cc:1030
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
-msgstr "Başlangıça yedek dosyası yaratılıyor."
+msgstr "BaÅŸlangÄ±Ã§a yedek dosyasÄ± yaratÄ±lÄ±yor."
 
-#: kab_topwidget.cc:1032
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
-msgstr "Başlangıçta yedek dosyası yaratılmıyor."
+msgstr "BaÅŸlangÄ±Ã§ta yedek dosyasÄ± yaratÄ±lmÄ±yor."
 
-#: kab_topwidget.cc:1175
+#: kab_topwidget.cc:1231
 msgid "Search entries"
-msgstr "Arama girdileri"
+msgstr "Arama kayÄ±tlarÄ±"
 
-#: kab_topwidget.cc:1187 kab_topwidget.cc:1197
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
 msgstr "(HATA)"
 
-#: kab_topwidget.cc:1234
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
-msgstr "Mevcut girdiler için izleme yapılamadı."
+msgstr "Mevcut kayÄ±tlar iÃ§in izleme yapÄ±lamadÄ±."
 
-#: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
-msgstr "İç Hata"
+msgstr "Ä°Ã§ Hata"
 
-#: kab_topwidget.cc:1251 kab_topwidget.cc:1262
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
-msgstr "Mevcut bir girdi için arama yapılamadı."
+msgstr "Mevcut bir kayÄ±t iÃ§in arama yapÄ±lamadÄ±."
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid "Search results ("
-msgstr "Arama sonuçları ("
+msgstr "Arama sonuÃ§larÄ± ("
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid " hits):"
 msgstr " bulundu):"
 
-#: kab_topwidget.cc:1335
-msgid ""
-"Sorry!\n"
-"No entry matched your criterion."
+#: kab_topwidget.cc:1394
+msgid "Sorry!\nNo entry matched your criterion."
 msgstr ""
-"Üzgünüm!\n"
-"Hiç arama sonucu bulunamadı."
+"ÃœzgÃ¼nÃ¼m!\n"
+"AradÄ±ÄŸÄ±nÄ±z kritere uyan sonuÃ§ bulunamadÄ±."
 
-#: kab_topwidget.cc:1336
+#: kab_topwidget.cc:1395
 msgid "No hits"
-msgstr "Eşleme yok"
+msgstr "EÅŸleme yok"
 
 #: kab_kab1importer.cc:197
 msgid "Home"
-msgstr "Ev"
+msgstr "KÃ¶kdizin"
 
 #: kab_kab1importer.cc:239
 msgid "Imported kab 1 addressbook."
-msgstr "kab 1 adres defteri aktarıldı."
+msgstr "kab 1 adres defteri aktarÄ±ldÄ±."
 
 #: kab_kab1importer.cc:278
-msgid ""
-"Could not access the kab 1 database file.\n"
-"You most probably never used kab 1."
+msgid "Could not access the kab 1 database file.\nYou most probably never used kab 1."
 msgstr ""
-"kab 1 veritabanı dosyasına  erişilemedi.\n"
-"Hiç kab 1 kullanılmamış olabilir."
+"kab 1 veritabanÄ± dosyasÄ±na eriÅŸilemedi.\n"
+"HiÃ§ kab 1 kullanmamÄ±ÅŸ olabilirsiniz."
 
 #: kab_kab1importer.cc:292
-msgid ""
-"Could not read the kab 1 database file.\n"
-"You probably modified your database file manually."
+msgid "Could not read the kab 1 database file.\nYou probably modified your database file manually."
 msgstr ""
-"kab 1 veritabanı dosyası okunamadı.\n"
-"Veritabanı el ile düzenlenmiş olabilir."
+"kab 1 veritabanÄ± dosyasÄ± okunamadÄ±.\n"
+"VeritabanÄ± dosyasÄ±nÄ± el ile dÃ¼zenlenmiÅŸ olabilirsiniz."
 
 #: kab_kab1importer.cc:307
-msgid ""
-"Could not find the entries section in your database.\n"
-"You probably modified your database file manually."
+msgid "Could not find the entries section in your database.\nYou probably modified your database file manually."
 msgstr ""
-"Veritabanı kayıtlar bölümünde bulunamadı.\n"
-"Veritabanı el ile düzenlenmiş olabilir."
+"VeritabanÄ±nda kayÄ±tlar bÃ¶lÃ¼mÃ¼ bulunamadÄ±.\n"
+"VeritabanÄ±nÄ± el ile dÃ¼zenlenmiÅŸ olabilirsiniz."
 
 #: kab_kab1importer.cc:335
-msgid ""
-"Warning: There where errors importing the KDE 1\n"
-"address database.\n"
-"\n"
+msgid "Warning: There were errors importing the KDE 1\naddress database.\n\n"
 msgstr ""
-"Uyarı: KDE 1 adres defteri aktarımında\n"
+"UyarÄ±: KDE 1 adres veritabanÄ± aktarÄ±mÄ±nda\n"
 "hatalar var.\n"
 "\n"
 
 #: kab_kab1importer.cc:340
-msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+msgid "Do you really want to add the entries of your KDE 1\naddress book to this file?\nYou will not be able to revert this changes."
 msgstr ""
-"Gerçekten KDE 1 adres defteri kayıtlarınızı\n"
-"bu dosyaya eklemek istiyormusunuz?\n"
-"Bu değişikleri geri döndüremezsiniz."
+"KDE 1 adres defteri kayÄ±tlarÄ±nÄ±zÄ±\n"
+"bu dosyaya eklemek istiyor musunuz?\n"
+"Bu deÄŸiÅŸiklikleri geri dÃ¶ndÃ¼remezsiniz."
+
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr "Netscape Messenger adres defteri aktarma dosyalarÄ± (*.ldif)"
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr "TÃ¼m dosyalar"
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr "Netscape Messenger adres defteri aktarma dosyalarÄ±..."
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr "%1 dosyasÄ± okunamadÄ±."
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr "'%2' 'deki kayÄ±t %1 'e aktarÄ±ldÄ± "
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr "Ana iletiÅŸim bilgisi"
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr "Takma ad: %1"
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr "Posta biÃ§imi: Metin"
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr "Posta biÃ§imi: HTML"
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr "Son dÃ¼zenlenme: %1"
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr "%1 adres aktarÄ±ldÄ±."
+
+#: kab_netscape_io.cc:297
+msgid "No addresses imported."
+msgstr "HiÃ§ adres aktarÄ±lmadÄ±."
 
 #: kab_printmethods.cc:94
 msgid "Printing finished."
-msgstr "Yazdırma tamamlandı."
+msgstr "YazdÄ±rma tamamlandÄ±."
 
 #: kab_printmethods.cc:96
 msgid "Printing failed."
-msgstr "Yazdırma işleminde hata."
+msgstr "YazdÄ±rma iÅŸleminde hata."
 
 #: kab_printmethods.cc:212
 msgid "Email address:"
@@ -666,19 +698,19 @@ msgstr "E-posta adresleri:"
 
 #: kab_printmethods.cc:224
 msgid "Telephone:"
-msgstr "Telefon numarası:"
+msgstr "Telefon numarasÄ±:"
 
 #: kab_printmethods.cc:225
 msgid "Telephones:"
-msgstr "Telefon numaraları:"
+msgstr "Telefon numaralarÄ±:"
 
 #: kab_printmethods.cc:245
 msgid "Web Page:"
-msgstr "Web Sayfası:"
+msgstr "Web SayfasÄ±:"
 
 #: kab_printmethods.cc:246
 msgid "Web Pages:"
-msgstr "Web Sayfaları:"
+msgstr "Web SayfalarÄ±:"
 
 #: kab_printmethods.cc:256
 msgid "Talk Address:"
@@ -698,109 +730,103 @@ msgstr "Adresler:"
 
 #: kab_printmethods.cc:402
 msgid "Unnamed address:"
-msgstr "İsimsiz adres:"
+msgstr "Ä°simsiz adres:"
 
 #: kab_printmethods.cc:464 kab_printmethods.cc:468
 msgid "(Deliver to:)"
-msgstr "(Alım adresi:)"
+msgstr "(AlÄ±m adresi:)"
 
-#: kab_htmlexport.cc:333
-msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+#: kab_htmlexport.cc:318
+msgid "<qt><b>Warning!</b><br>Do not change this setting unless you installed a customized version of the template files delivered with your kab installation at another point.</qt>"
 msgstr ""
+"<qt><b>UyarÄ±!</b><br>Bu ayarlarÄ± kab ÅŸablon dosyalarÄ±nÄ± baÅŸka bir "
+"yerden kopyalamadÄ±ysanÄ±z deÄŸiÅŸtirmeyin.</qt>"
 
-#: kab_htmlexport.cc:338
+#: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
-msgstr "HTML Kayıt Şablonları"
+msgstr "HTML KayÄ±t ÅablonlarÄ±"
 
-#: kab_htmlexport.cc:344
+#: kab_htmlexport.cc:329
 msgid "Select Template Folder"
-msgstr "Şablon Dizinini Seçiniz"
+msgstr "Åablon Dizinini SeÃ§iniz"
 
-#: kab_htmlexport.cc:358
+#: kab_htmlexport.cc:343
 msgid "Select Target Folder"
-msgstr "Hedef Dizini Seçiniz"
+msgstr "Hedef Dizini SeÃ§iniz"
 
-#: kab_htmlexport.cc:407
+#: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
-msgstr "Hem şablon, hem de hedef dizini seçmek zorundasınız!"
+msgstr "Hem ÅŸablon, hem de hedef dizini seÃ§mek zorundasÄ±nÄ±z!"
 
-#: kab_htmlexport.cc:408
+#: kab_htmlexport.cc:393
 msgid "Corrections needed"
-msgstr "Düzeltmeler gerekiyor"
+msgstr "DÃ¼zeltmeler gerekiyor"
 
-#: kab_htmlexport.cc:462
-msgid ""
-"<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+#: kab_htmlexport.cc:447
+msgid "<qt>At least one <b>resource file</b> used to export your address book to HTML is missing. Continue anyway?<br><br><i>(Resources are used as support files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
+"<qt>Adres defterini HTML olarak kaydetmek iÃ§in kullanÄ±lmasÄ± gereken en az "
+"bir <b>kaynak dosyasÄ±</b> bulunamadÄ±. Devam edilsin mi?<br><br><i>(Kaynak "
+"dosyalarÄ±, oluÅŸturulacak HTML sayfalarÄ±nda kullanÄ±labilecek arkaplan "
+"resimlerini ya da dÃ¼ÄŸmeleri iÃ§erir.</i></qt>"
 
-#: kab_htmlexport.cc:467
-msgid ""
-"<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+#: kab_htmlexport.cc:452
+msgid "<qt>At least one <b>template file</b> used to export your address book to HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis to create the HTML files themselves. The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
+"<qt>Adres defterini HTML olarak kaydetmek iÃ§in kullanÄ±lmasÄ± gereken en az "
+"bir <b>ÅŸablon dosyasÄ±</b> bulunamadÄ±. Devam edilsin "
+"mi?<br><br><i>(Åablonlar temel HTML dosyalarÄ±nÄ± oluÅŸturmak Ã¼zere "
+"kullanÄ±lÄ±r. Bunlar olmadan HTML kaydÄ± bÃ¼yÃ¼k ihtimalle "
+"yapÄ±lamayacaktÄ±r.</i></qt>"
 
-#: kab_htmlexport.cc:507
+#: kab_htmlexport.cc:492
 msgid "Missing Resource"
 msgstr "Eksik Kaynak"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:510 kab_htmlexport.cc:522
+#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
-msgstr "İptal edildi."
+msgstr "Ä°ptal edildi."
 
-#: kab_htmlexport.cc:519
+#: kab_htmlexport.cc:504
 msgid "Missing Template"
-msgstr "Eksik Şablon"
+msgstr "Eksik Åablon"
 
-#: kab_htmlexport.cc:558
-msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+#: kab_htmlexport.cc:543
+msgid "<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused by insufficient permissions in the target directory or failures in the setup of your KDE 2 installation.<br><br>If you created your own template folder, mistakes in there may also cause errors. As a last possibility, the KDE address book may be buggy, too :-(.</qt>"
 msgstr ""
+"<qt><b>ÃœzgÃ¼nÃ¼m!</b><br><br>HTML kayÄ±t iÅŸlemi baÅŸarÄ±sÄ±z oldu. "
+"Problemin sebebi, hedef dizindeki fazla yetkiler vye KDE 2 kurulumumdan "
+"kaynaklanÄ±yor olabilir.</qt>"
 
-#: kab_htmlexport.cc:566
+#: kab_htmlexport.cc:551
 msgid "Error exporting to HTML"
-msgstr "HTML'e aktarırken hata"
+msgstr "HTML'ye aktarÄ±rken hata"
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Could not find the users home directory."
-msgstr "Kullanıcı ev dizini bulunamadı."
+msgstr "KullanÄ±cÄ± kÃ¶k dizini bulunamadÄ±."
 
 #: kab_createnew.cc:44 kab_openfile.cc:44
 msgid "Intern error!"
-msgstr "İç hata!"
+msgstr "Ä°Ã§ hata!"
 
 #: kab_createnew.cc:62 kab_openfile.cc:60
 msgid "Only local files supported yet."
-msgstr "Henüz sadece yerel dosyalar desteklenir."
+msgstr "Åimdilik sadece yerel dosyalar desteklenir."
 
 #: kab_createnew.cc:75
-msgid ""
-"This file is a directory, or it already exists.\n"
-"Please select another filename.\n"
-"You must have permission to write to create the new file."
+msgid "This file is a directory, or it already exists.\nPlease select another filename.\nYou must have permission to write to create the new file."
 msgstr ""
-"Bu dosya bir dizindir, veya zaten vardır.\n"
-"Lütfen başka bir dosya adı seçin.\n"
-"Yeni dosya oluşturma izniniz olmalıdır."
+"Bu dosya bir dizindir, veya zaten vardÄ±r.\n"
+"LÃ¼tfen baÅŸka bir dosya adÄ± seÃ§in.\n"
+"Yeni dosya oluÅŸturma izniniz olmalÄ±dÄ±r."
 
 #: kab_createnew.cc:91
-msgid ""
-"The filename did not end with \".kab\".\n"
-"It has been changed to %1\n"
+msgid "The filename did not end with \".kab\".\nIt has been changed to %1\n"
 msgstr ""
-"Bu dosya adı \".kab\" bitmedi.\n"
-"%1 'e değiştirildi\n"
+"Dosya adÄ± \".kab\" uzantÄ±lÄ± deÄŸil.\n"
+"UzantÄ± %1 olarak deÄŸiÅŸtirildi\n"
 
 #: kab_createnew.cc:93
 msgid "Note"
@@ -808,49 +834,47 @@ msgstr "Not"
 
 #: kab_createnew.cc:100
 msgid "The file could not be created, possibly permission denied."
-msgstr "Bu dosya oluşturulamadı, izin reddedildi."
+msgstr "Bu dosya oluÅŸturulamadÄ±, izin reddedilmiÅŸ olabilir."
 
 #: kab_createnew.cc:101 kab_save.cc:58
 msgid "kab: File error"
-msgstr "kab: Dosya hatası"
+msgstr "kab: Dosya hatasÄ±"
 
 #: kab_createnew.cc:109
 msgid "The file has been created, but could not be loaded."
-msgstr "Bu dosya oluşturuldu, fakat yüklenemedi."
+msgstr "Bu dosya oluÅŸturuldu, fakat yÃ¼klenemedi."
 
 #: kab_openfile.cc:45
 msgid "Could not find the users home directory"
-msgstr "Kullanıcının ev dizini bulunamadı."
+msgstr "KullanÄ±cÄ±nÄ±n kÃ¶k dizini bulunamadÄ±."
 
 #: kab_openfile.cc:72
-msgid ""
-"The file does not exist or is a directory.\n"
-"Use \"Create new database...\" to create a new one.\n"
-"Select an existing file to load it."
+msgid "The file does not exist or is a directory.\nUse \"Create new database...\" to create a new one.\nSelect an existing file to load it."
 msgstr ""
 "Bu dosya yok veya bir dizin.\n"
-"Yenisini oluşturmak için \"Yeni veritabanı oluştur\" seçeneğini kullanın.\n"
-"Yüklemek için varolan bir dosya seçebilirsiniz."
+"Yenisini oluÅŸturmak iÃ§in \"Yeni veritabanÄ± oluÅŸtur\" seÃ§eneÄŸini "
+"kullanÄ±n.\n"
+"YÃ¼klemek iÃ§in varolan bir dosya seÃ§ebilirsiniz."
 
 #: kab_openfile.cc:86
 msgid "The file could not be loaded."
-msgstr "Dosya yüklenemedi."
+msgstr "Dosya yÃ¼klenemedi."
 
 #: kab_save.cc:36 kab_save.cc:50
 msgid "Internal error."
-msgstr "İç hata"
+msgstr "Ä°Ã§ hata"
 
 #: kab_save.cc:44
 msgid "Entry stored."
-msgstr "Kayıt depolandı."
+msgstr "KayÄ±t depolandÄ±."
 
 #: kab_save.cc:57
 msgid "The file could not be saved (permission denied)."
-msgstr "Dosya kayıt edilemedi (izin reddedildi)."
+msgstr "Dosya kaydedilemedi (izin reddedildi)."
 
 #: kab_save.cc:61
 msgid "File saved."
-msgstr "Dosya saklandı."
+msgstr "Dosya kaydedildi."
 
 #: look_businesscard.cc:176
 msgid "email: "
@@ -862,26 +886,26 @@ msgstr "tel: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr "Kullanıcı Alanları"
+msgstr "KullanÄ±cÄ± AlanlarÄ±"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
-#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:58
-#: look_edit_tabperson.cc:250 look_edit_tabperson.cc:295
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
 msgstr "Genel hata."
 
 #: dialog_configurefile.cc:130 look_edit.cc:70
 msgid "(User fields)"
-msgstr "(Kullanıcı alanları)"
+msgstr "(KullanÄ±cÄ± alanlarÄ±)"
 
 #: look_edit.cc:74
 msgid "&Person"
-msgstr "K&işi"
+msgstr "K&iÅŸi"
 
 #: look_edit.cc:75
 msgid "&Telephone"
-msgstr "&Telefon numaraları"
+msgstr "&Telefon numaralarÄ±"
 
 #: look_edit.cc:76
 msgid "&Addresses"
@@ -889,135 +913,139 @@ msgstr "Adres&ler"
 
 #: look_edit.cc:77
 msgid "&Birthday"
-msgstr "Doğu&mgünü"
+msgstr "DoÄŸu&mgÃ¼nÃ¼"
 
 #: look_edit.cc:78
 msgid "Comment"
 msgstr "Yorum"
 
-#: look_edit_tabperson.cc:39
-msgid "Email addresses..."
-msgstr "E-posta adreslerini düzenle"
-
 #: look_edit_tabperson.cc:40
-msgid "Talk addresses..."
-msgstr "Konuşma adreslerini düzenle"
+msgid "Email addresses..."
+msgstr "E-posta adresleri..."
 
 #: look_edit_tabperson.cc:41
+msgid "Talk addresses..."
+msgstr "Talk adresleri..."
+
+#: look_edit_tabperson.cc:42
 msgid "URLs..."
-msgstr "URL'lar..."
+msgstr "URL'ler..."
 
-#: look_edit_tabperson.cc:64
+#: look_edit_tabperson.cc:65
 msgid "Formatted name:"
-msgstr "Biçimlendirilmiş isim"
+msgstr "BiÃ§imlendirilmiÅŸ isim:"
 
-#: look_edit_tabperson.cc:75
+#: look_edit_tabperson.cc:68
+msgid "<qt>Enter the <i>full name</i> of the person or organization here if <b>kab</b> assembles it in the wrong way.</qt>"
+msgstr ""
+"<qt>EÄŸer <b>kab</b> bir kiÅŸinin veya kurumun <i>tam adÄ±</i>nÄ± yanlÄ±ÅŸ "
+"algÄ±larsa buradan dÃ¼zeletebilirsiniz.</qt> "
+
+#: look_edit_tabperson.cc:78
 msgid "First name:"
-msgstr "Adı:"
+msgstr "Ä°lk adÄ±:"
 
-#: look_edit_tabperson.cc:77
+#: look_edit_tabperson.cc:80
 msgid "Middle name:"
-msgstr "Göbek adı:"
+msgstr "GÃ¶bek adÄ±:"
 
-#: look_edit_tabperson.cc:79
+#: look_edit_tabperson.cc:82
 msgid "Last name:"
-msgstr "Soyadı:"
+msgstr "SoyadÄ±:"
 
-#: look_edit_tabperson.cc:96
+#: look_edit_tabperson.cc:99
 msgid "Name prefix:"
-msgstr "Adından önceki takı:"
+msgstr "AdÄ±ndan Ã¶nceki takÄ±:"
 
-#: look_edit_tabperson.cc:98
+#: look_edit_tabperson.cc:101
 msgid "Title:"
-msgstr "Ünvan:"
+msgstr "ÃœnvanÄ±:"
 
-#: look_edit_tabperson.cc:100
+#: look_edit_tabperson.cc:103
 msgid "Rank:"
-msgstr "Sıra:"
+msgstr "SÄ±ra:"
 
-#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:193
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
 msgid "Edit email addresses"
-msgstr "E-posta adreslerini düzenle"
+msgstr "E-posta adreslerini dÃ¼zenle"
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:209
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
 msgid "Edit talk addresses"
-msgstr "Konuşma adreslerini düzenle"
+msgstr "Talk adreslerini dÃ¼zenle"
 
-#: look_edit_tabperson.cc:225
+#: look_edit_tabperson.cc:228
 msgid "Edit URLs"
-msgstr "URL'ları düzenle"
+msgstr "URL'lerÄ± dÃ¼zenle"
 
-#: look_edit_tabperson.cc:243
-msgid "I know this persons birthday:"
-msgstr "Bu kişinin doğum gününü biliyorum:"
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
+msgstr "Bu kiÅŸinin doÄŸum gÃ¼nÃ¼nÃ¼ biliyorum:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr "Kullanıcı alanı 1:"
+msgstr "KullanÄ±cÄ± alanÄ± 1:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
 msgid "User field 2:"
-msgstr "Kullanıcı alanı 2:"
+msgstr "KullanÄ±cÄ± alanÄ± 2:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
 msgid "User field 3:"
-msgstr "Kullanıcı alanı 3:"
+msgstr "KullanÄ±cÄ± alanÄ± 3:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
 msgid "User field 4:"
-msgstr "Kullanıcı alanı 4:"
+msgstr "KullanÄ±cÄ± alanÄ± 4:"
 
 #: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
 msgid "(User field 1)"
-msgstr "(Kullanıcı alanı 1)"
+msgstr "(KullanÄ±cÄ± alanÄ± 1)"
 
 #: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
 msgid "(User field 2)"
-msgstr "(Kullanıcı alanı 2)"
+msgstr "(KullanÄ±cÄ± alanÄ± 2)"
 
 #: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
 msgid "(User field 3)"
-msgstr "(Kullanıcı alanı 3)"
+msgstr "(KullanÄ±cÄ± alanÄ± 3)"
 
 #: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
 msgid "(User field 4)"
-msgstr "(Kullanıcı alanı 4)"
+msgstr "(KullanÄ±cÄ± alanÄ± 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
-msgstr "URL'leri (internet adreslerini) düzenle"
+msgstr "URL'leri (internet adreslerini) dÃ¼zenle"
 
 #: look_edit_tabcontact.cc:32
 msgid "Edit telephone numbers"
-msgstr "Telefon numaralarını düzenle"
+msgstr "Telefon numaralarÄ±nÄ± dÃ¼zenle"
 
-#: look_edit_tabaddresses.cc:227
-msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+#: look_edit_tabaddresses.cc:231
+msgid "<qt>Did you know that you may predefine types of addresses?<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Adres türlerini önceden tanımlayabileceğini biliyor muydunuzi?<br>Bkz. "
-"<b>Düzenle -> Yapılandır</b>.</qt>"
+"<qt>Adres tÃ¼rlerini Ã¶nceden tanÄ±mlayabileceÄŸini biliyor "
+"muydunuz?<br>Bkz. <b>DÃ¼zenle -> Bu dosyayÄ± yapÄ±landÄ±r</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:229
+#: look_edit_tabaddresses.cc:233
 msgid "A note"
-msgstr "A notu"
+msgstr "Bir not"
 
-#: look_edit_tabaddresses.cc:251
+#: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
-msgstr "Gerçekten kayıt silmek istiyormusunuz?"
+msgstr "Bu adresi silmek istiyor musunuz?"
 
-#: look_edit_tabaddresses.cc:313
-msgid "Insinuation"
-msgstr "İma..."
+#: look_edit_tabaddresses.cc:317
+msgid "Organization"
+msgstr "Kurum"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
-msgstr "Onarıldı:"
+msgstr "OnarÄ±ldÄ±:"
 
 #: look_edit_tabtelephone.cc:47
 msgid "Mobile:"
-msgstr "Ünvan:"
+msgstr "Mobil:"
 
 #: look_edit_tabtelephone.cc:48
 msgid "Fax:"
@@ -1029,19 +1057,19 @@ msgstr "Modem:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr "Kullanıcı alanı 1:"
+msgstr "KullanÄ±cÄ± alanÄ± 1:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr "Kullanıcı alanı 2:"
+msgstr "KullanÄ±cÄ± alanÄ± 2:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr "Kullanıcı alanı 3:"
+msgstr "KullanÄ±cÄ± alanÄ± 3:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
-msgstr "Tip"
+msgstr "TÃ¼r"
 
 #: look_edit_tabtelephone.cc:66
 msgid "Number"
@@ -1049,19 +1077,19 @@ msgstr "Numara"
 
 #: widget_editstringlist.cc:41
 msgid "Add a new string"
-msgstr "Yeni işaret ekle"
+msgstr "Yeni iÅŸaret ekle"
 
 #: widget_editstringlist.cc:42
 msgid "Move this string up"
-msgstr "Bu işareti yukarı taşı"
+msgstr "Bu iÅŸareti yukarÄ± taÅŸÄ±"
 
 #: widget_editstringlist.cc:43
 msgid "Move this string down"
-msgstr "Bu işareti aşağı taşı"
+msgstr "Bu iÅŸareti aÅŸaÄŸÄ± taÅŸÄ±"
 
 #: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr "Bu işareti sil"
+msgstr "Bu iÅŸareti sil"
 
 #: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
@@ -1070,63 +1098,57 @@ msgstr "Kabul edildi."
 
 #: dialog_editentry.cc:68
 msgid "Edit entry"
-msgstr "Kayıt düzenle"
+msgstr "KayÄ±t dÃ¼zenle"
 
 #: dialog_configurefile.cc:51
 msgid "Cannot query configuration data."
-msgstr "Konfigrasyon verisini bulamıyorum."
+msgstr "YapÄ±landÄ±rma verisi bulunamÄ±yor."
 
 #: dialog_configurefile.cc:52
 msgid "Internal failure"
-msgstr "Genel hata "
+msgstr "Genel hata"
 
 #: dialog_configurefile.cc:68
 msgid "Settings applied."
-msgstr "Düzenlemeler kabul edildi."
+msgstr "DÃ¼zenlemeler uygulandÄ±."
 
 #: dialog_configurefile.cc:95
 msgid "Tab name"
-msgstr "Etiket adı"
+msgstr "Etiket adÄ±"
 
 #: dialog_configurefile.cc:154
 msgid "User fields"
-msgstr "Kullanıcı alanları"
+msgstr "KullanÄ±cÄ± alanlarÄ±"
 
 #: dialog_configurefile.cc:166
 msgid "Address types"
-msgstr "Adres türleri"
+msgstr "Adres tÃ¼rleri"
 
 #: dialog_configurefile.cc:190
-msgid ""
-"Cannot save your settings.\n"
-"Possibly you do not have permissions to write to this file."
+msgid "Cannot save your settings.\nPossibly you do not have permissions to write to this file."
 msgstr ""
-"Ayarlarınız kaydedilemiyor.\n"
+"AyarlarÄ±nÄ±z kaydedilemiyor.\n"
 "Bu dosyaya yazma izniniz olmayabilir."
 
 #: dialog_configurekab.cc:37
-msgid ""
-"Your configuration file is corrupt.\n"
-"KAB cannot be configured."
+msgid "Your configuration file is corrupt.\nKAB cannot be configured."
 msgstr ""
-"Ayar dosyanız bozuk ya da zarar görmüş.\n"
-"KAB ayarlanmaya devam edemiyor."
+"Ayar dosyanÄ±z bozuk ya da zarar gÃ¶rmÃ¼ÅŸ.\n"
+"KAB yapÄ±landÄ±rÄ±lamÄ±yor."
 
 #: dialog_configurekab.cc:39
 msgid "Fatal error"
-msgstr "Dosya hatası"
+msgstr "Kritik hata"
 
 #: dialog_configurekab.cc:40
 msgid "Configuration file corrupt."
-msgstr "Bu dosyayı düzenle"
+msgstr "Konfigrasyon dosyasÄ± hasar gÃ¶rmÃ¼ÅŸ."
 
 #: dialog_configurekab.cc:58
-msgid ""
-"There was an error saving your preferences.\n"
-"Some of them may be lost."
+msgid "There was an error saving your preferences.\nSome of them may be lost."
 msgstr ""
-"Tercihler kaydederken bir hata oluştu.\n"
-"Ayarlardan bazıları kaybedilebilir."
+"Tercihler kaydederken bir hata oluÅŸtu.\n"
+"Ayarlardan bazÄ±larÄ± kaybedilebilir."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
@@ -1141,41 +1163,86 @@ msgid "Preferences saved."
 msgstr "Tercihler kaydedildi."
 
 #: dialog_configurekab.cc:69
-msgid ""
-"Cannot save your preferences.\n"
-"May be permission denied."
+msgid "Cannot save your preferences.\nYou may not have permission to write the file."
 msgstr ""
-"Tercihler kaydedilemiyor.\n"
-"İzin verilmemiş olabilir."
+"AyarlarÄ±nÄ±z kaydedilemiyor.\n"
+"Bu dosyaya yazma izniniz olmayabilir."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
-msgstr "Son seçilen görüşü hatırla"
+msgstr "Son seÃ§ilen gÃ¶rÃ¼nÃ¼mÃ¼ hatÄ±rla"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr "Son seçilen girişi hatırla"
+msgstr "Son seÃ§ilen kaydÄ± hatÄ±rla"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr "Pencere başlığında yeralan ismi göster"
+msgstr "Pencere baÅŸlÄ±ÄŸÄ±nda yeralan ismi gÃ¶ster"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr "Başlangıçta yedek dosyası yarat"
+msgstr "BaÅŸlangÄ±Ã§ta yedek dosyasÄ± yarat"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
 msgstr "Genel ayarlar"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
-msgstr "Organizasyon:"
+msgid "Organization:"
+msgstr "Kurum:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr "Bölüm:"
+msgstr "BÃ¶lÃ¼m:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
-msgstr "Alt-Bölüm:"
+msgstr "Alt-BÃ¶lÃ¼m:"
+
+#: kab_entrylist.cc:55
+msgid "..."
+msgstr "..."
+
+#: kab_entrylist.cc:81
+msgid "No match."
+msgstr "EÅŸleÅŸme yok."
+
+#: kab_entrylist.cc:94
+msgid "Calculating..."
+msgstr "HesaplanÄ±yor..."
+
+#: kab_entrylist.cc:110
+msgid "(Disabled)"
+msgstr "(EtkinleÅŸtirilmedi)"
+
+#: kab_entrylist.cc:113
+msgid "Error creating index for incremental search."
+msgstr "ArtÄ±msal arama iÃ§in indeks oluÅŸturmada hata."
+
+#: kab_entrylist.cc:114
+msgid "Incremental search disabled."
+msgstr "ArtÄ±msal arama iptal edildi."
+
+#: kab_entrylist.cc:163
+msgid "(No items to search)"
+msgstr "(Aranacak bir ÅŸey yok)"
+
+#~ msgid "Headline:"
+#~ msgstr "BaÅŸÃ§izgi:"
+
+#~ msgid "Insinuation..."
+#~ msgstr "Ä°ma..."
+
+#~ msgid "Assignment:"
+#~ msgstr "GÃ¶rev:"
+
+#~ msgid "Insinuation"
+#~ msgstr "Ä°ma"
+
+#~ msgid ""
+#~ "Cannot save your preferences.\n"
+#~ "May be permission denied."
+#~ msgstr ""
+#~ "Tercihler kaydedilemiyor.\n"
+#~ "Ä°zin verilmemiÅŸ olabilir."
