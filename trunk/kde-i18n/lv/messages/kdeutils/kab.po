@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
-"PO-Revision-Date: 2001-07-17 12:22EST\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
+"PO-Revision-Date: 2002-02-15 01:10EEST\n"
 "Last-Translator: Andris Maziks <andzha@latnet.lv>\n"
 "Language-Team: Latvian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.1\n"
+"X-Generator: KBabel 0.9.5\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -40,7 +40,7 @@ msgstr "Visas adreses"
 
 #: rc.cpp:7
 msgid "Up to ... addresses"
-msgstr ""
+msgstr "Līdz ... adresēm"
 
 #: rc.cpp:8
 msgid "Select style of HTML "
@@ -48,15 +48,15 @@ msgstr "Izvēlieties HTML stilu "
 
 #: rc.cpp:9
 msgid "Style of the resulting file"
-msgstr ""
+msgstr "Izejošā faila stils"
 
 #: rc.cpp:10
 msgid "Plain HTML text without tables or lines"
-msgstr ""
+msgstr "HTML teksts bez tabulām vai rindām"
 
 #: rc.cpp:11
 msgid "Expect more here..."
-msgstr ""
+msgstr "Vairāk šeit ..."
 
 #: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
@@ -64,7 +64,7 @@ msgstr "Forma1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
-msgstr ""
+msgstr "Ievadiet saņemšanas nosaukumu šai adresei:"
 
 #: rc.cpp:14
 msgid "Entry List"
@@ -72,15 +72,16 @@ msgstr "Ierakstu Saraksts"
 
 #: rc.cpp:15
 msgid ""
-"<qt>Search entries by entering<br> - one of their <b>e-mail "
-"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+"<qt>Search entries by entering"
+"<br> - one of their <b>email addresses</b>"
+"<br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
 
 #: rc.cpp:17
 msgid "<qt>Select an entry to display it.</qt>"
-msgstr ""
+msgstr "<qt>Izvēlieties attēlojamo ierakstu.</qt>"
 
-#: kab_htmlexport.cc:380 rc.cpp:18
+#: kab_htmlexport.cc:377 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Uzstādīt HTML eksportu"
 
@@ -94,21 +95,25 @@ msgstr "Mērķa mape:"
 
 #: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
-msgstr ""
+msgstr "Izvēlieties ..."
 
 #: rc.cpp:26
 msgid "Hide the search results window. This will not clear your search results."
 msgstr ""
+"Noslēpt meklēšanas rezultātu logu. Tas neattīrīs jūsu meklēšanas "
+"rezultātus."
 
 #: rc.cpp:27
 msgid ""
 "Hide the search results window. This will close the search results window "
 "and clear all results of previous searches."
 msgstr ""
+"Noslēpt meklēšanas rezultātu logu. Tas aizvērs meklēšanas rezultātu "
+"logu un nodzēsīs visus iepriekšējo meklēšanu rezultātus."
 
 #: rc.cpp:29
 msgid "Clear the search results and hide this window."
-msgstr ""
+msgstr "Nodzēst meklēšanas rezultātus un noslēpt šo logu."
 
 #: rc.cpp:31
 msgid "Print your search results."
@@ -116,11 +121,11 @@ msgstr "Drukāt jūsu meklēšanas rezultātus."
 
 #: rc.cpp:33
 msgid "Search for people in your addressbook:"
-msgstr ""
+msgstr "Meklēt cilvēku jūsu adresu grāmatā:"
 
 #: rc.cpp:34
 msgid "Select fields to search here."
-msgstr ""
+msgstr "Izvēlieties meklējamos laukus šeit."
 
 #: rc.cpp:35
 msgid ""
@@ -129,10 +134,14 @@ msgid ""
 "regular expressions) given below will be displayed in the Search Results "
 "Window."
 msgstr ""
+"Izvēlieties meklējamos laukus šeit. \n"
+"Visi ieraksti, kur šis lauks atbilst ievadītajam šablonam (sastāv no "
+"maskas vai regulāras izteiksmes), tiks attēloti Meklēšanas Rezultātu "
+"Logā."
 
 #: rc.cpp:36
 msgid "... matches ..."
-msgstr ""
+msgstr "... sakritības ..."
 
 #: rc.cpp:37
 msgid "*"
@@ -140,49 +149,53 @@ msgstr "*"
 
 #: rc.cpp:38
 msgid "Enter your expression here."
-msgstr ""
+msgstr "Ievadiet jūsu izteiksmi šeit."
 
 #: rc.cpp:39
 msgid "Options:"
-msgstr ""
+msgstr "Opcijas:"
 
 #: rc.cpp:40
 msgid "Case sensitive search"
-msgstr ""
+msgstr "Reģistrjūtīga meklēšana"
 
 #: rc.cpp:41
 msgid "Check this box if you want to do a case-sensitive search."
 msgstr ""
+"Izvēlieties šo pogu, ja vēlaties reģistrjūtīgu meklēšanu (lielie, "
+"mazie burti)."
 
 #: rc.cpp:42
 msgid "Expressions"
-msgstr ""
+msgstr "Izteiksmes"
 
 #: rc.cpp:43
 msgid "Wildcards"
-msgstr ""
+msgstr "Maskas"
 
 #: rc.cpp:44
 msgid ""
 "Check this button if you use widlcards in your expression (as in shell "
 "commands)."
 msgstr ""
+"Izvēlieties šo pogu, ja izmantojiet maskas savās izteiksmēs (tā pat kā "
+"čaulas komandās)."
 
 #: rc.cpp:45
 msgid "Regular expressions"
-msgstr ""
+msgstr "Regulāras izteiksmes"
 
 #: rc.cpp:46
 msgid "Check this box if you use classical regular expressions in your pattern."
-msgstr ""
+msgstr "Izvēlieties šo pogu, ja izmantojiet regulāras izteiksmes savos šablonos."
 
 #: rc.cpp:48
 msgid "Address type (e.g. Home):"
-msgstr ""
+msgstr "Adreses tips (piem. Mājas):"
 
 #: rc.cpp:49
 msgid "Organization..."
-msgstr ""
+msgstr "Organizācija..."
 
 #: rc.cpp:50
 msgid "Country:"
@@ -190,7 +203,7 @@ msgstr "Valsts:"
 
 #: rc.cpp:51
 msgid "Zip code"
-msgstr ""
+msgstr "Indekss"
 
 #: rc.cpp:52
 msgid "State"
@@ -202,161 +215,168 @@ msgstr "Pilsēta"
 
 #: rc.cpp:54
 msgid "Street address:"
-msgstr ""
+msgstr "Iela:"
 
 #: rc.cpp:55
 msgid "Job title:"
 msgstr "Ieņemamais amats:"
 
-#: look_edit_tabaddresses.cc:337 rc.cpp:56
-msgid "Delivery label"
-msgstr ""
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+msgid "Delivery Label"
+msgstr "Piegādes Uzlīme"
 
-#: kab_main.cc:31 kab_main.cc:38
+#: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
-msgstr ""
+msgstr "KDE Adresu grāmata"
 
-#: kab_main.cc:51
+#: kab_main.cc:49
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b>"
+"<b>File->Import->KDE 1 Addressbook</b>"
 " to use your old database with the new version.</qt>"
 msgstr ""
 
-#: kab_main.cc:56
-msgid "new format"
+#: kab_main.cc:54
+msgid "New Format"
 msgstr ""
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
-#: look_edit_tabuser.cc:49
+#: look_edit_tabuser.cc:47
 msgid "Out of memory."
-msgstr ""
+msgstr "Nav atmiņas."
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
 msgid "General failure"
-msgstr ""
+msgstr "Vispārēja kļūda"
 
-#: kab_topwidget.cc:93
+#: kab_topwidget.cc:82
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Nevaru pievienoties adresu datu bāzei.\n"
+"KDE adresu grāmata nestrādās bez tās.\n"
+"Aplikācija tiks aizvērta."
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
 msgid "Database error"
-msgstr ""
+msgstr "Datu bāzes kļūda"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:197
 msgid "Welcome to kab 2.1"
-msgstr ""
+msgstr "Laipni lūgti kab 2.1"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:198
 msgid "The KDE Addressbook 2.1."
-msgstr ""
+msgstr "KDE Adresu grāmata 2.1."
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:199
 msgid "Written by Mirko Boehm (mirko@kde.org)."
-msgstr ""
+msgstr "Uzrakstījis Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:200
 msgid "Visit www.kde.org for the latest news."
-msgstr ""
+msgstr "www.kde.org - jaunākās ziņas."
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:271
 msgid "&Export to HTML..."
+msgstr "&Eksportēt kā HTML..."
+
+#: kab_topwidget.cc:275
+msgid "&First Entry"
+msgstr "&Pirmais Ieraksts"
+
+#: kab_topwidget.cc:279
+msgid "&Previous Entry"
 msgstr ""
 
-#: kab_topwidget.cc:282
-msgid "&First entry"
+#: kab_topwidget.cc:283
+msgid "&Next Entry"
 msgstr ""
 
-#: kab_topwidget.cc:286
-msgid "&Previous entry"
+#: kab_topwidget.cc:287
+msgid "&Last Entry"
+msgstr "Pē&dējais Ieraksts"
+
+#: kab_topwidget.cc:291
+msgid "&Add Entry..."
+msgstr "Pievienot Ier&akstu..."
+
+#: kab_topwidget.cc:295
+msgid "&Edit Entry..."
+msgstr "R&ediģēt Ierakstu..."
+
+#: kab_topwidget.cc:299
+msgid "&Remove Entry"
+msgstr "&Aizvākt Ierakstu"
+
+#: kab_topwidget.cc:303
+msgid "Send an E&mail"
 msgstr ""
 
-#: kab_topwidget.cc:290
-msgid "&Next entry"
-msgstr ""
-
-#: kab_topwidget.cc:294
-msgid "&Last entry"
-msgstr ""
-
-#: kab_topwidget.cc:298
-msgid "&Add entry..."
-msgstr ""
-
-#: kab_topwidget.cc:302
-msgid "&Edit entry..."
-msgstr ""
-
-#: kab_topwidget.cc:306
-msgid "&Remove entry"
-msgstr "&Aizvākt ierakstu"
-
-#: kab_topwidget.cc:310
-msgid "Send an e&mail"
-msgstr ""
-
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:307
 msgid "&Browse"
 msgstr "&Pārlūkot"
 
-#: kab_topwidget.cc:318
-msgid "&Search entries..."
+#: kab_topwidget.cc:311
+msgid "&Search Entries..."
 msgstr ""
 
-#: kab_topwidget.cc:322
-msgid "Show search results"
+#: kab_topwidget.cc:315
+msgid "Show Search Results"
+msgstr "Rādīt Meklēšanas Rezultātus"
+
+#: kab_topwidget.cc:320
+msgid "Show Main Toolbar"
 msgstr ""
 
-#: kab_topwidget.cc:327
-msgid "Show main toolbar"
+#: kab_topwidget.cc:325
+msgid "Show Entry Navigation Toolbar"
 msgstr ""
 
-#: kab_topwidget.cc:332
-msgid "Show entry navigation toolbar"
+#: kab_topwidget.cc:330
+msgid "Show Entry Navigation List"
 msgstr ""
 
-#: kab_topwidget.cc:337
-msgid "Show entry navigation list"
-msgstr ""
+#: kab_topwidget.cc:335
+msgid "Print Entry..."
+msgstr "Drukāt Ierakstu..."
 
-#: kab_topwidget.cc:342
-msgid "Print entry..."
-msgstr ""
+#: kab_topwidget.cc:339
+msgid "Print Entries..."
+msgstr "Drukāt Ierakstus..."
 
-#: kab_topwidget.cc:346
-msgid "Print entries..."
-msgstr ""
-
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:343
 msgid "&Editing"
-msgstr ""
+msgstr "&Labošana"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:347
 msgid "&Business Card"
-msgstr ""
+msgstr "&Biznesa Kartiņa"
+
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr "Detalizēts Pārskats"
 
 #: kab_topwidget.cc:377
-msgid "&KDE 1 address book"
+msgid "&KDE 1 Address Book"
 msgstr ""
 
 #: kab_topwidget.cc:379
-msgid "&Netscape address book"
+msgid "&Netscape Address Book"
 msgstr ""
 
 #: kab_topwidget.cc:386
-msgid "&Create new database..."
+msgid "&Create New Database..."
 msgstr ""
 
 #: kab_topwidget.cc:390
-msgid "Open default &database"
+msgid "Open Default &Database"
 msgstr ""
 
 #: kab_topwidget.cc:394
@@ -368,577 +388,644 @@ msgid "&Print"
 msgstr "&Drukāt"
 
 #: kab_topwidget.cc:410
-msgid "Enable all &messages"
+msgid "Enable all &Messages"
 msgstr ""
 
 #: kab_topwidget.cc:412
-msgid "&Configure this file..."
+msgid "&Configure this File..."
 msgstr ""
 
 #: kab_topwidget.cc:415
-msgid "&Preferences for the KDE address book..."
+msgid "&Preferences for KDE Address Book..."
 msgstr ""
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:538
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Datu bāzes interfeisu nevar izveidot.\n"
+"KDE adresu grāmata nestrādās bez tās.\n"
+"Aplikācija tiks aizvērta."
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:570
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
 "(Unsaved changes will be lost.)"
 msgstr ""
+"Jūs izmainījāt šo ierakstu.\n"
+"Saglabāt izmaiņas?\n"
+"(Nesaglabātas izmaiņas tiks pazaudētas.)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:572
 msgid "Save changes?"
-msgstr ""
+msgstr "Saglabāt izmaiņas?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
 msgid "Error changing the entry."
-msgstr ""
+msgstr "Kļūda mainot ierakstu."
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:609
 msgid "No entries."
-msgstr ""
-
-#: kab_topwidget.cc:726
-msgid "Cannot locate default database."
-msgstr ""
+msgstr "Nav ierakstu."
 
 #: kab_topwidget.cc:727
+msgid "Cannot locate default database."
+msgstr "Nevaru atrast noklusēto datu bāzi."
+
+#: kab_topwidget.cc:728
 msgid "Critical failure"
-msgstr ""
+msgstr "Kritiska kļūda"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:733
 msgid "The standard file could not be loaded."
-msgstr ""
+msgstr "Standart failu nevar ielādēt."
 
-#: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
 msgid "File error"
 msgstr "Faila kļūda"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:750
 msgid "Business card view."
-msgstr ""
+msgstr "Biznesa kartītes pārskats."
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:762
 msgid "Editing view."
-msgstr ""
+msgstr "Labošanas pārskats."
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr "Detalizēts pārskats."
+
+#: kab_topwidget.cc:782
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
+"Šis atļaus visus ziņojumus, kuri līdz šim bija aizliegti.\n"
+"Turpināt?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:784
 msgid "Enable messages?"
-msgstr ""
+msgstr "Atļaut ziņojumus?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:803
 msgid "New entry added."
-msgstr ""
+msgstr "Jauns ieraksts pievienots."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:804
 msgid "Saving new entry."
-msgstr ""
+msgstr "Saglabāju jauno ierakstu."
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:806
 msgid "Done."
 msgstr "Pabeigts."
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:827
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
 "You may not have write permission for this file."
 msgstr ""
+"Nevaru pievienot jaunu ierakstu.\n"
+"Piekļuve aizliegta.\n"
+"Jums nav rakstīšanas tiesību šajā failā."
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:835
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
 msgstr ""
+"Nevaru pievienot jaunu ierakstu.\n"
+"Nezināms iemesls."
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:841
 msgid "No entry added."
-msgstr ""
+msgstr "Ieraksts nav pievienots."
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:859
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Tik tiešām aizvākt šo ierakstu?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
 msgid "Question"
 msgstr "Jautājums"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:866
 msgid "Entry deleted."
-msgstr ""
+msgstr "Ieraksts nodzēsts."
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:868
 msgid "Database saved."
+msgstr "Datu bāze saglabāta."
+
+#: kab_topwidget.cc:875
+msgid "Could not delete the entry (probably permission denied)."
 msgstr ""
 
-#: kab_topwidget.cc:860
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
-msgstr ""
-
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
 msgid "Permission denied."
 msgstr "Trūkst tiesību."
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:940
 msgid "Send an email"
-msgstr ""
+msgstr "Sūtīt epastu"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:949
 msgid "No email addresses."
-msgstr ""
+msgstr "Nav epasta adreses."
 
-#: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
 msgid "Rejected."
-msgstr ""
+msgstr "Noraidīts."
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:994
 msgid "Browse to ..."
-msgstr ""
+msgstr "Pārlūkot uz ..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1003
 msgid "No URLs."
-msgstr ""
+msgstr "Nav URLu."
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1070
 msgid "Restoring last view."
-msgstr ""
+msgstr "Atjaunoju pēdējo skatu."
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1072
 msgid "Not restoring last view."
-msgstr ""
+msgstr "Neatjaunoju pēdējo skatu."
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1083
 msgid "Remembering last entry."
-msgstr ""
+msgstr "Atceros pēdējo ierakstu."
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1085
 msgid "Not remembering last entry."
-msgstr ""
+msgstr "Neatceros pēdējo ierakstu."
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1096
 msgid "Displaying assembled name in window title."
-msgstr ""
+msgstr "Rādīt pilnu vārdu loga nosaukuma joslā."
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1098
 msgid "Not displaying assembled name in window title."
-msgstr ""
+msgstr "Nerādīt pilnu vārdu loga nosaukuma joslā."
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1109
 msgid "Creating backup file on startup."
-msgstr ""
+msgstr "Veidot rezerves kopiju starta laikā."
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1111
 msgid "Not creating a backup file on startup."
-msgstr ""
+msgstr "Neveidot rezerves kopiju starta laikā."
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1258
 msgid "Search entries"
-msgstr ""
+msgstr "Meklēt ierakstus"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
 msgid "(ERROR)"
-msgstr ""
+msgstr "(KĻŪDA)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1320
 msgid "Could not get an overview over the existing entries."
-msgstr ""
+msgstr "Nevaru pārskatīt adreses."
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
 msgid "Internal Error"
-msgstr ""
+msgstr "Iekšēja Kļūda"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
 msgid "Could not query an existing entry."
-msgstr ""
+msgstr "Nevaru atrast esošu ierakstu."
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid "Search results ("
-msgstr ""
+msgstr "Meklēšanas rezultāti ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid " hits):"
-msgstr ""
+msgstr " sakritību):"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1421
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
 msgstr ""
+"Atvainojiet!\n"
+"Nav ierakstu, atbilstošu jūsu kritērijam."
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1422
 msgid "No hits"
-msgstr ""
+msgstr "Nav sakritību"
 
-#: kab_kab1importer.cc:197
+#: kab_kab1importer.cc:196
 msgid "Home"
 msgstr "Mājas"
 
-#: kab_kab1importer.cc:239
+#: kab_kab1importer.cc:238
 msgid "Imported kab 1 addressbook."
-msgstr ""
+msgstr "Importēta kab 1 adresu grāmata."
 
-#: kab_kab1importer.cc:278
+#: kab_kab1importer.cc:277
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
 msgstr ""
+"Nevaru piekļūt kab 1 datu bāzes failam.\n"
+"Ļoti iespējams, ka jūs nekad neesat lietojis kab 1."
 
-#: kab_kab1importer.cc:292
+#: kab_kab1importer.cc:291
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
 msgstr ""
+"Nevaru nolasīt kab 1 datu bāzes failu.\n"
+"Iespējams, ka jūs modificējāt datu bāzes failu manuāli."
 
-#: kab_kab1importer.cc:307
+#: kab_kab1importer.cc:306
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
 msgstr ""
+"Nevaru atrast ierakstus jūsu datu bāzē.\n"
+"Iespējams, ka jūs modificējāt datu bāzes failu manuāli."
 
-#: kab_kab1importer.cc:335
+#: kab_kab1importer.cc:334
 msgid ""
-"Warning: There were errors importing the KDE 1\n"
-"address database.\n"
-"\n"
+"Warning: There were errors importing the KDE 1 address database.\n"
 msgstr ""
 
-#: kab_kab1importer.cc:340
+#: kab_kab1importer.cc:339
 msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
 msgstr ""
 
-#: kab_netscape_io.cc:104
+#: kab_netscape_io.cc:101
 msgid "Netscape Messenger addressbook export files (*.ldif)"
-msgstr ""
+msgstr "Netscape Messenger adresu grāmatas eksporta faili (*.ldif)"
 
-#: kab_netscape_io.cc:105
+#: kab_netscape_io.cc:102
 msgid "All files"
 msgstr "Visi faili"
 
-#: kab_netscape_io.cc:107
+#: kab_netscape_io.cc:104
 msgid "Import Netscape Messanger addressbook export files..."
-msgstr ""
+msgstr "Importēt Netscape Messanger adresu grāmatas eksporta failus..."
 
-#: kab_netscape_io.cc:115
+#: kab_netscape_io.cc:112
 #, c-format
 msgid "Unable to read the file %1."
-msgstr ""
+msgstr "Nevaru nolasīt failu %1."
 
-#: kab_netscape_io.cc:129
+#: kab_netscape_io.cc:126
 msgid "Entry imported on %1 from '%2'"
-msgstr ""
+msgstr "Ieraksts importēts no %2 uz %1'"
 
-#: kab_netscape_io.cc:144
+#: kab_netscape_io.cc:141
 msgid "Main contact information"
-msgstr ""
+msgstr "Galvenā kontakt informācija"
 
-#: kab_netscape_io.cc:182
+#: kab_netscape_io.cc:179
 #, c-format
 msgid "Nickname: %1"
-msgstr ""
+msgstr "Iesauka: %1"
 
-#: kab_netscape_io.cc:188
+#: kab_netscape_io.cc:185
 msgid "Mailformat: Text"
-msgstr ""
+msgstr "Pasta formāts: Teksts"
 
-#: kab_netscape_io.cc:189
+#: kab_netscape_io.cc:186
 msgid "Mailformat: HTML"
-msgstr ""
+msgstr "Pasta formāts: HTML"
 
-#: kab_netscape_io.cc:196
+#: kab_netscape_io.cc:193
 #, c-format
 msgid "Last modified: %1"
-msgstr ""
+msgstr "Pēdējo reizi modificēts: %1"
 
-#: kab_netscape_io.cc:295
+#: kab_netscape_io.cc:292
 msgid "%1 addresses imported."
-msgstr ""
+msgstr "%1 adreses importētas."
 
-#: kab_netscape_io.cc:297
+#: kab_netscape_io.cc:294
 msgid "No addresses imported."
-msgstr ""
+msgstr "Nav importētu adresu."
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:213
 msgid "Printing finished."
-msgstr ""
+msgstr "Drukāšana pabeigta."
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:215
 msgid "Printing failed."
-msgstr ""
+msgstr "Drukāšana neizdevās."
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:331
 msgid "Email address:"
 msgstr "Epasta adrese:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:332
 msgid "Email addresses:"
-msgstr ""
+msgstr "Epasta adreses:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:344
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefons:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:345
 msgid "Telephones:"
-msgstr ""
+msgstr "Telefoni:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:366
 msgid "Web Page:"
-msgstr ""
+msgstr "Web Lapa:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:367
 msgid "Web Pages:"
-msgstr ""
+msgstr "Web Lapas:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:378
 msgid "Talk Address:"
-msgstr ""
+msgstr "Talk Adrese:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:379
 msgid "Talk Addresses:"
-msgstr ""
+msgstr "Talk Adreses:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Address:"
 msgstr "Adrese:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Addresses:"
-msgstr ""
+msgstr "Adreses:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:527
 msgid "Unnamed address:"
-msgstr ""
+msgstr "Tukša adrese:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
 msgid "(Deliver to:)"
-msgstr ""
+msgstr "(Nosūtīt uz:)"
 
-#: kab_htmlexport.cc:318
+#: kab_htmlexport.cc:315
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+"<qt><b>Warning!</b>"
+"<br>Do not change this setting unless you installed a customized version of "
+"the template files delivered with your kab installation at another "
+"point.</qt>"
 msgstr ""
 
-#: kab_htmlexport.cc:323
+#: kab_htmlexport.cc:320
 msgid "HTML Export Templates"
-msgstr ""
+msgstr "HTML Eksporta Šabloni"
 
-#: kab_htmlexport.cc:329
+#: kab_htmlexport.cc:326
 msgid "Select Template Folder"
-msgstr ""
+msgstr "Izvēlēties Šablonu Mapi"
 
-#: kab_htmlexport.cc:343
+#: kab_htmlexport.cc:340
 msgid "Select Target Folder"
-msgstr ""
+msgstr "Izvēlēties Mērķa Mapi"
 
-#: kab_htmlexport.cc:392
+#: kab_htmlexport.cc:389
 msgid "You have to specify both a template and a target folder!"
-msgstr ""
+msgstr "Jums jānorāda abi, gan šablonu gan mērķa mape!"
 
-#: kab_htmlexport.cc:393
+#: kab_htmlexport.cc:390
 msgid "Corrections needed"
-msgstr ""
+msgstr "Vajadzīgas korekcijas"
 
-#: kab_htmlexport.cc:447
+#: kab_htmlexport.cc:444
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Resources are used as support files like backgrounds or bullets in "
+"the resulting HTML files.)</i></qt>"
 msgstr ""
 
-#: kab_htmlexport.cc:452
+#: kab_htmlexport.cc:449
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Templates are used as a basis to create the HTML files themselves. "
+"The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
 
-#: kab_htmlexport.cc:492
+#: kab_htmlexport.cc:489
 msgid "Missing Resource"
-msgstr ""
+msgstr "Iztrūkstošais Resurss"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
-#: kab_openfile.cc:53
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
 msgid "Cancelled."
 msgstr "Atcelts."
 
-#: kab_htmlexport.cc:504
+#: kab_htmlexport.cc:501
 msgid "Missing Template"
-msgstr ""
+msgstr "Iztrūkstošais Šablons"
 
-#: kab_htmlexport.cc:543
+#: kab_htmlexport.cc:540
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b>"
+"<br>"
+"<br>Exporting to HTML failed. Problems might be caused by insufficient "
+"permissions in the target directory or failures in the setup of your KDE 2 "
+"installation."
+"<br>"
+"<br>If you created your own template folder, mistakes in there may also "
+"cause errors. As a last possibility, the KDE address book may be buggy, too "
+":-(.</qt>"
 msgstr ""
 
-#: kab_htmlexport.cc:551
+#: kab_htmlexport.cc:548
 msgid "Error exporting to HTML"
-msgstr ""
+msgstr "Kļūda eksportējot uz HTML"
 
-#: kab_createnew.cc:43 kab_openfile.cc:43
+#: kab_createnew.cc:37 kab_openfile.cc:37
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Nevaru atrast lietotāja mājas katalogu."
 
-#: kab_createnew.cc:44 kab_openfile.cc:44
+#: kab_createnew.cc:38 kab_openfile.cc:38
 msgid "Intern error!"
-msgstr ""
+msgstr "Iekšēja kļūda!"
 
-#: kab_createnew.cc:62 kab_openfile.cc:60
+#: kab_createnew.cc:56 kab_openfile.cc:54
 msgid "Only local files supported yet."
 msgstr "Tikai lokāli faili pašlaik ir atbalstīti."
 
-#: kab_createnew.cc:75
+#: kab_createnew.cc:69
 msgid ""
 "This file is a directory, or it already exists.\n"
 "Please select another filename.\n"
 "You must have permission to write to create the new file."
 msgstr ""
+"Šis fails ir katalogs, vai arī tas jau eksistē.\n"
+"Lūdzu, izvēlieties citu faila vārdu.\n"
+"Jums jābūt rakstīšanas tiesībām, lai izveidotu jaunu failu."
 
-#: kab_createnew.cc:91
+#: kab_createnew.cc:85
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
 msgstr ""
+"Faila vārds nebeidzas ar \".kab\".\n"
+"Tas tika nomainīts uz %1\n"
 
-#: kab_createnew.cc:93
+#: kab_createnew.cc:87
 msgid "Note"
 msgstr "Piezīme"
 
-#: kab_createnew.cc:100
+#: kab_createnew.cc:94
 msgid "The file could not be created, possibly permission denied."
-msgstr ""
+msgstr "Nevaru izveidot failu, iespējams, aizliegta piekļuve."
 
-#: kab_createnew.cc:101 kab_save.cc:58
+#: kab_createnew.cc:95 kab_save.cc:56
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Faila kļūda"
 
-#: kab_createnew.cc:109
+#: kab_createnew.cc:103
 msgid "The file has been created, but could not be loaded."
-msgstr ""
+msgstr "Fails tika izveidots, bet to nav iespējams ielādēt."
 
-#: kab_openfile.cc:45
+#: kab_openfile.cc:39
 msgid "Could not find the users home directory"
-msgstr ""
+msgstr "Nevaru atrast lietotāja mājas katalogu"
 
-#: kab_openfile.cc:72
+#: kab_openfile.cc:66
 msgid ""
 "The file does not exist or is a directory.\n"
 "Use \"Create new database...\" to create a new one.\n"
 "Select an existing file to load it."
 msgstr ""
+"Fails neeksistē vai ir katalogs.\n"
+"Lietojiet \"Izveidot jaunu datu bāzi...\", lai izveidotu jaunu.\n"
+"Izvēlieties eksistējošu failu, lai to ielādētu."
 
-#: kab_openfile.cc:86
+#: kab_openfile.cc:80
 msgid "The file could not be loaded."
-msgstr ""
+msgstr "Nevaru ielādēt failu."
 
-#: kab_save.cc:36 kab_save.cc:50
+#: kab_save.cc:34 kab_save.cc:48
 msgid "Internal error."
-msgstr ""
+msgstr "Iekšēja kļūda."
 
-#: kab_save.cc:44
+#: kab_save.cc:42
 msgid "Entry stored."
-msgstr ""
+msgstr "Ieraksts saglabāts."
 
-#: kab_save.cc:57
+#: kab_save.cc:55
 msgid "The file could not be saved (permission denied)."
-msgstr ""
+msgstr "Nevaru saglabāt failu (piekļuve aizliegta)."
 
-#: kab_save.cc:61
+#: kab_save.cc:59
 msgid "File saved."
 msgstr "Fails saglabāts"
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:173
 msgid "email: "
-msgstr ""
+msgstr "epasts: "
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:190
 msgid "tel: "
-msgstr ""
+msgstr "tel: "
 
-#: look_edit.cc:36
-msgid "User Fields"
-msgstr ""
+#: look_details.cc:43
+msgid "Show postal addresses"
+msgstr "Rādīŧ pasta adreses"
 
-#: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
+#: look_details.cc:44
+msgid "Show email addresses"
+msgstr "Rādīt Epasta adreses"
+
+#: look_details.cc:45
+msgid "Show telephone numbers"
+msgstr "Rādīt telefona numurus"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr "Rādīt web lapas (URLus)"
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr "Izvēlēties fonu"
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr "Ierāmēti foni"
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr "Noklāti foni"
+
+#: look_edit.cc:33
+msgid "User fields"
+msgstr "Lietotāja lauki"
+
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
-#: look_edit_tabuser.cc:50
+#: look_edit_tabuser.cc:48
 msgid "General failure."
+msgstr "Vispārēja kļūda."
+
+#: dialog_configurefile.cc:126 look_edit.cc:67
+msgid "(User Fields)"
 msgstr ""
 
-#: dialog_configurefile.cc:130 look_edit.cc:70
-msgid "(User fields)"
-msgstr ""
+#: look_edit.cc:71
+msgid "&Person"
+msgstr "&Persona"
+
+#: look_edit.cc:72
+msgid "&Telephone"
+msgstr "&Telefons"
+
+#: look_edit.cc:73
+msgid "&Addresses"
+msgstr "&Adreses"
 
 #: look_edit.cc:74
-msgid "&Person"
-msgstr ""
+msgid "&Birthday"
+msgstr "&Dzimšanas diena"
 
 #: look_edit.cc:75
-msgid "&Telephone"
-msgstr ""
-
-#: look_edit.cc:76
-msgid "&Addresses"
-msgstr ""
-
-#: look_edit.cc:77
-msgid "&Birthday"
-msgstr ""
-
-#: look_edit.cc:78
-msgid "Comment"
-msgstr "Komentārs"
+msgid "Co&mment"
+msgstr "Ko&mentārs"
 
 #: look_edit_tabperson.cc:40
-msgid "Email addresses..."
-msgstr ""
+msgid "Email Addresses..."
+msgstr "Epasta Adreses..."
 
 #: look_edit_tabperson.cc:41
-msgid "Talk addresses..."
-msgstr ""
+msgid "Talk Addresses..."
+msgstr "Kontaktadreses..."
 
 #: look_edit_tabperson.cc:42
 msgid "URLs..."
-msgstr ""
+msgstr "URLi..."
 
 #: look_edit_tabperson.cc:65
 msgid "Formatted name:"
-msgstr ""
+msgstr "Pilns vārds:"
 
 #: look_edit_tabperson.cc:68
 msgid ""
 "<qt>Enter the <i>full name</i> of the person or organization here if "
 "<b>kab</b> assembles it in the wrong way.</qt>"
 msgstr ""
+"<qt>Ievadiet šeit personas vai organizācijas <i>pilnu vārdu</i>, "
+"<b>kab</b> parāda to nepareizā veidā.</qt>"
 
 #: look_edit_tabperson.cc:78
 msgid "First name:"
@@ -946,7 +1033,7 @@ msgstr "Vārds:"
 
 #: look_edit_tabperson.cc:80
 msgid "Middle name:"
-msgstr ""
+msgstr "Tēva vārds:"
 
 #: look_edit_tabperson.cc:82
 msgid "Last name:"
@@ -954,7 +1041,7 @@ msgstr "Uzvārds:"
 
 #: look_edit_tabperson.cc:99
 msgid "Name prefix:"
-msgstr ""
+msgstr "Tituls:"
 
 #: look_edit_tabperson.cc:101
 msgid "Title:"
@@ -962,230 +1049,238 @@ msgstr "Titli:"
 
 #: look_edit_tabperson.cc:103
 msgid "Rank:"
-msgstr ""
+msgstr "Amats:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
-msgid "Edit email addresses"
-msgstr ""
+msgid "Edit Email Addresses"
+msgstr "Labot Epasta Adreses"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
-msgid "Edit talk addresses"
-msgstr ""
+msgid "Edit Talk Addresses"
+msgstr "Labot Kontaktadreses"
 
 #: look_edit_tabperson.cc:228
 msgid "Edit URLs"
-msgstr ""
+msgstr "Labot URLus"
 
 #: look_edit_tabperson.cc:246
 msgid "I know this person's birthday:"
-msgstr ""
+msgstr "Es zinu šīs personas dzimšanas dienu:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
 msgid "User field 1:"
-msgstr ""
+msgstr "Lietotāja lauks 1:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
 msgid "User field 2:"
-msgstr ""
+msgstr "Lietotāja lauks 2:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
 msgid "User field 3:"
-msgstr ""
+msgstr "Lietotāja lauks 3:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
 msgid "User field 4:"
-msgstr ""
+msgstr "Lietotāja lauks 4:"
 
-#: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
 msgid "(User field 1)"
-msgstr ""
+msgstr "(Lietotāja lauks 1)"
 
-#: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
 msgid "(User field 2)"
-msgstr ""
+msgstr "(Lietotāja lauks 2)"
 
-#: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
 msgid "(User field 3)"
-msgstr ""
+msgstr "(Lietotāja lauks 3)"
 
-#: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
 msgid "(User field 4)"
-msgstr ""
+msgstr "(Lietotāja lauks 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
-msgstr ""
+msgstr "Labot URLus (interneta adreses)"
 
 #: look_edit_tabcontact.cc:32
-msgid "Edit telephone numbers"
+msgid "Edit Telephone Numbers"
 msgstr ""
 
-#: look_edit_tabaddresses.cc:231
+#: look_edit_tabaddresses.cc:222
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?"
+"<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
 
-#: look_edit_tabaddresses.cc:233
-msgid "A note"
-msgstr ""
+#: look_edit_tabaddresses.cc:224
+msgid "A Note"
+msgstr "A Piezīme"
 
-#: look_edit_tabaddresses.cc:255
+#: look_edit_tabaddresses.cc:246
 msgid "Really delete this address?"
-msgstr ""
+msgstr "Tik tiešām nodzēst šo adresi?"
 
-#: look_edit_tabaddresses.cc:317
+#: look_edit_tabaddresses.cc:308
 msgid "Organization"
 msgstr "Organizācija"
 
-#: look_edit_tabtelephone.cc:46
+#: look_edit_tabtelephone.cc:44
 msgid "Fixed:"
-msgstr ""
+msgstr "Fiksētais:"
+
+#: look_edit_tabtelephone.cc:45
+msgid "Mobile:"
+msgstr "Mobīlais:"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fax:"
+msgstr "Fakss:"
 
 #: look_edit_tabtelephone.cc:47
-msgid "Mobile:"
-msgstr ""
+msgid "Modem:"
+msgstr "Modēms:"
 
 #: look_edit_tabtelephone.cc:48
-msgid "Fax:"
-msgstr ""
+msgid "User defined 1:"
+msgstr "Lietotāja definēts 1:"
 
 #: look_edit_tabtelephone.cc:49
-msgid "Modem:"
-msgstr ""
+msgid "User defined 2:"
+msgstr "Lietotāja definēts 2:"
 
 #: look_edit_tabtelephone.cc:50
-msgid "User defined 1:"
-msgstr ""
-
-#: look_edit_tabtelephone.cc:51
-msgid "User defined 2:"
-msgstr ""
-
-#: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr ""
+msgstr "Lietotāja definēts 3:"
 
-#: look_edit_tabtelephone.cc:64
+#: look_edit_tabtelephone.cc:62
 msgid "Type"
 msgstr "Tips"
 
-#: look_edit_tabtelephone.cc:66
+#: look_edit_tabtelephone.cc:64
 msgid "Number"
 msgstr "Numurs"
 
-#: widget_editstringlist.cc:41
+#: widget_editstringlist.cc:39
 msgid "Add a new string"
-msgstr ""
+msgstr "Pievienot jaunu rindu"
+
+#: widget_editstringlist.cc:40
+msgid "Move this string up"
+msgstr "Pārvietot šo rindu uz augšu"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string down"
+msgstr "Pārvietot šo rindu uz leju"
 
 #: widget_editstringlist.cc:42
-msgid "Move this string up"
-msgstr ""
-
-#: widget_editstringlist.cc:43
-msgid "Move this string down"
-msgstr ""
-
-#: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr ""
+msgstr "Nodzēst šo rindu"
 
-#: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
-msgstr ""
+msgstr "Apstiprināts."
 
 #: dialog_editentry.cc:68
-msgid "Edit entry"
-msgstr ""
+msgid "Edit Entry"
+msgstr "Rediģēt Ierakstu"
 
-#: dialog_configurefile.cc:51
+#: dialog_configurefile.cc:47
 msgid "Cannot query configuration data."
-msgstr ""
+msgstr "Nevaru nolasīt konfigurācijas datus."
 
-#: dialog_configurefile.cc:52
+#: dialog_configurefile.cc:48
 msgid "Internal failure"
-msgstr ""
+msgstr "Iekšēja kļūda"
 
-#: dialog_configurefile.cc:68
+#: dialog_configurefile.cc:64
 msgid "Settings applied."
-msgstr ""
+msgstr "Uzstādījumi pielietoti."
 
-#: dialog_configurefile.cc:95
+#: dialog_configurefile.cc:91
 msgid "Tab name"
-msgstr ""
+msgstr "Nosaukums"
 
-#: dialog_configurefile.cc:154
-msgid "User fields"
-msgstr ""
+#: dialog_configurefile.cc:150
+msgid "User Fields"
+msgstr "Lietotāja Lauki"
 
-#: dialog_configurefile.cc:166
+#: dialog_configurefile.cc:162
 msgid "Address types"
-msgstr ""
+msgstr "Adrešu tipi"
 
-#: dialog_configurefile.cc:190
+#: dialog_configurefile.cc:186
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
 msgstr ""
+"Navaru saglabāt jūsu uzstādījumus.\n"
+"Iespējams jums nav rakstīšanas tiesību šajā failā."
 
-#: dialog_configurekab.cc:37
+#: dialog_configurekab.cc:35
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
 msgstr ""
+"Jūsu konfigurācijas fails ir bojāts.\n"
+"KAB nevar nokonfigurēt."
 
-#: dialog_configurekab.cc:39
+#: dialog_configurekab.cc:37
 msgid "Fatal error"
 msgstr "Fatāla kļūda"
 
-#: dialog_configurekab.cc:40
+#: dialog_configurekab.cc:38
 msgid "Configuration file corrupt."
-msgstr ""
+msgstr "Konfigurācijas fails bojāts."
 
-#: dialog_configurekab.cc:58
+#: dialog_configurekab.cc:56
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
+"Atgadījās kļūdas saglabājot jūsu uzstādījumus.\n"
+"Daži no tiem var būt pazuduši."
 
-#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
 msgid "Error saving preferences."
-msgstr ""
+msgstr "Kļūda saglabājot uzstādījumus."
+
+#: dialog_configurekab.cc:61
+msgid "KDE address book preferences."
+msgstr "KDE adresu grāmatas uzstādījumi."
 
 #: dialog_configurekab.cc:63
-msgid "KDE address book preferences."
-msgstr ""
-
-#: dialog_configurekab.cc:65
 msgid "Preferences saved."
-msgstr ""
+msgstr "Uzstādījumi saglabāti."
 
-#: dialog_configurekab.cc:69
+#: dialog_configurekab.cc:67
 msgid ""
 "Cannot save your preferences.\n"
 "You may not have permission to write the file."
 msgstr ""
+"Nevaru saglabāt jūsu uzstādījumus.\n"
+"Iespējams, jums nav rakstīšanas tiesību failā."
+
+#: dialog_configurekab.cc:86
+msgid "Remember last selected view"
+msgstr "Atcerēties pēdējo uzstādīto skatu"
 
 #: dialog_configurekab.cc:88
-msgid "Remember last selected view"
-msgstr ""
+msgid "Remember last selected entry"
+msgstr "Atcerēties pēdējo uzstādīto ierakstu"
 
 #: dialog_configurekab.cc:90
-msgid "Remember last selected entry"
-msgstr ""
+msgid "Show assembled name in window title"
+msgstr "Parādīt pilnu vārdu loga nosaukuma joslā"
 
 #: dialog_configurekab.cc:92
-msgid "Show assembled name in window title"
-msgstr ""
-
-#: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr ""
+msgstr "Izveidot rezerves kopiju starta laikā"
 
-#: dialog_configurekab.cc:95
-msgid "General settings"
-msgstr "Vispārējie uzstādījumi"
+#: dialog_configurekab.cc:93
+msgid "General Settings"
+msgstr "Vispārējie Uzstādījumi"
 
 #: dialog_insinuation.cc:29
 msgid "Organization:"
@@ -1199,30 +1294,30 @@ msgstr "Nodaļa:"
 msgid "Sub-Department:"
 msgstr "Apakš-Nodaļa:"
 
-#: kab_entrylist.cc:55
+#: kab_entrylist.cc:49
 msgid "..."
 msgstr "..."
 
-#: kab_entrylist.cc:81
+#: kab_entrylist.cc:75
 msgid "No match."
-msgstr ""
+msgstr "Nav sakritību."
 
-#: kab_entrylist.cc:94
+#: kab_entrylist.cc:88
 msgid "Calculating..."
 msgstr "Aprēķinu..."
 
-#: kab_entrylist.cc:110
+#: kab_entrylist.cc:104
 msgid "(Disabled)"
 msgstr "(Aizliegts)"
 
-#: kab_entrylist.cc:113
+#: kab_entrylist.cc:107
 msgid "Error creating index for incremental search."
-msgstr ""
+msgstr "Kļūda veidojot indeksu augošai meklēšanai."
 
-#: kab_entrylist.cc:114
+#: kab_entrylist.cc:108
 msgid "Incremental search disabled."
-msgstr ""
+msgstr "Augošā meklēšana aizliegta."
 
-#: kab_entrylist.cc:163
+#: kab_entrylist.cc:157
 msgid "(No items to search)"
-msgstr ""
+msgstr "(Nav elementu ko meklēt)"
