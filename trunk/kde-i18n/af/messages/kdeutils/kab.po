@@ -1,22 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# WEB-Translator generated file. UTF-8 test:äëïöü
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Frikkie Thirion <frix@engineer.com>, 2001.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2001-05-18 01:58+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2001-07-27 10:55+0200\n"
+"Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
+"Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
-msgstr ""
+msgstr "VOER UIT AAN HTML"
 
 #: rc.cpp:2
 msgid "Exporting of addresses"
@@ -24,7 +23,7 @@ msgstr ""
 
 #: rc.cpp:3
 msgid "Export addresses along with entries"
-msgstr ""
+msgstr "VOER UIT ADRESSE EN MET INSKRYWINGS"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
@@ -32,11 +31,11 @@ msgstr ""
 
 #: rc.cpp:5
 msgid "Address and person in one line"
-msgstr ""
+msgstr "ADRES EN PERSOON IN EEN lINe"
 
 #: rc.cpp:6
 msgid "All addresses"
-msgstr ""
+msgstr "ALLE ADRESSE"
 
 #: rc.cpp:7
 msgid "Up to ... addresses"
@@ -44,7 +43,7 @@ msgstr ""
 
 #: rc.cpp:8
 msgid "Select style of HTML "
-msgstr ""
+msgstr "KIES STYL VAN HTML "
 
 #: rc.cpp:9
 msgid "Style of the resulting file"
@@ -56,11 +55,11 @@ msgstr ""
 
 #: rc.cpp:11
 msgid "Expect more here..."
-msgstr ""
+msgstr "VERWAG MEER HIER..."
 
 #: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
-msgstr ""
+msgstr "VORM1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
@@ -68,7 +67,7 @@ msgstr ""
 
 #: rc.cpp:14
 msgid "Entry List"
-msgstr ""
+msgstr "INSKRYWING LYS"
 
 #: rc.cpp:15
 msgid ""
@@ -82,23 +81,22 @@ msgstr ""
 
 #: kab_htmlexport.cc:380 rc.cpp:18
 msgid "Setup HTML export"
-msgstr ""
+msgstr "OPSTELLING HTML VOER UIT"
 
 #: rc.cpp:19
 msgid "Template folder:"
-msgstr ""
+msgstr "WERKVOORBEELD KABINET:"
 
 #: rc.cpp:20
 msgid "Target folder:"
-msgstr ""
+msgstr "TEIKEN KABINET:"
 
 #: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
-msgstr ""
+msgstr "KIES ..."
 
 #: rc.cpp:26
-msgid ""
-"Hide the search results window. This will not clear your search results."
+msgid "Hide the search results window. This will not clear your search results."
 msgstr ""
 
 #: rc.cpp:27
@@ -109,19 +107,19 @@ msgstr ""
 
 #: rc.cpp:29
 msgid "Clear the search results and hide this window."
-msgstr ""
+msgstr "MAAK SKOON DIE SOEKTOG RESULTATE EN STEEK WEG HIERDIE VENSTER."
 
 #: rc.cpp:31
 msgid "Print your search results."
-msgstr ""
+msgstr "DRUK JOU SOEKTOG RESULTATE."
 
 #: rc.cpp:33
 msgid "Search for people in your addressbook:"
-msgstr ""
+msgstr "SOEKTOG VIR MENSE IN JOU ADRESBOEK:"
 
 #: rc.cpp:34
 msgid "Select fields to search here."
-msgstr ""
+msgstr "KIES VELDE AAN SOEKTOG HIER."
 
 #: rc.cpp:35
 msgid ""
@@ -137,19 +135,19 @@ msgstr ""
 
 #: rc.cpp:37
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #: rc.cpp:38
 msgid "Enter your expression here."
-msgstr ""
+msgstr "INVOER JOU UITDRUKKING HIER."
 
 #: rc.cpp:39
 msgid "Options:"
-msgstr ""
+msgstr "OPSIES:"
 
 #: rc.cpp:40
 msgid "Case sensitive search"
-msgstr ""
+msgstr "KAS SENSITIEF SOEKTOG"
 
 #: rc.cpp:41
 msgid "Check this box if you want to do a case-sensitive search."
@@ -157,7 +155,7 @@ msgstr ""
 
 #: rc.cpp:42
 msgid "Expressions"
-msgstr ""
+msgstr "UITDRUKKINGS"
 
 #: rc.cpp:43
 msgid "Wildcards"
@@ -171,11 +169,10 @@ msgstr ""
 
 #: rc.cpp:45
 msgid "Regular expressions"
-msgstr ""
+msgstr "GEWONE UITDRUKKINGS"
 
 #: rc.cpp:46
-msgid ""
-"Check this box if you use classical regular expressions in your pattern."
+msgid "Check this box if you use classical regular expressions in your pattern."
 msgstr ""
 
 #: rc.cpp:48
@@ -184,31 +181,31 @@ msgstr ""
 
 #: rc.cpp:49
 msgid "Organization..."
-msgstr ""
+msgstr "ORGANISASIE..."
 
 #: rc.cpp:50
 msgid "Country:"
-msgstr ""
+msgstr "LAND:"
 
 #: rc.cpp:51
 msgid "Zip code"
-msgstr ""
+msgstr "ZIP KODE"
 
 #: rc.cpp:52
 msgid "State"
-msgstr ""
+msgstr "STAAT"
 
 #: rc.cpp:53
 msgid "City"
-msgstr ""
+msgstr "STAD"
 
 #: rc.cpp:54
 msgid "Street address:"
-msgstr ""
+msgstr "STRAAT ADRES:"
 
 #: rc.cpp:55
 msgid "Job title:"
-msgstr ""
+msgstr "WERK TITEL:"
 
 #: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
@@ -216,19 +213,19 @@ msgstr ""
 
 #: kab_main.cc:31 kab_main.cc:38
 msgid "KDE Addressbook"
-msgstr ""
+msgstr "KDE ADRESBOEK"
 
 #: kab_main.cc:51
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
 
 #: kab_main.cc:56
 msgid "new format"
-msgstr ""
+msgstr "NUWE FORMAAT"
 
 #: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
 #: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
@@ -236,11 +233,11 @@ msgstr ""
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
-msgstr ""
+msgstr "UIT VAN GEHEUE."
 
 #: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
-msgstr ""
+msgstr "ALGEMEEN VAALING"
 
 #: kab_topwidget.cc:93
 msgid ""
@@ -251,15 +248,15 @@ msgstr ""
 
 #: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
-msgstr ""
+msgstr "DATABASIS FOUT"
 
 #: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
-msgstr ""
+msgstr "WELKOM AAN KAB 2.1"
 
 #: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
-msgstr ""
+msgstr "DIE KDE ADRESBOEK 2.1."
 
 #: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
@@ -267,119 +264,119 @@ msgstr ""
 
 #: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
-msgstr ""
+msgstr "BESOEK WWW.KDE.ORG VIR DIE NUUTSTE NUUS."
 
 #: kab_topwidget.cc:278
 msgid "&Export to HTML..."
-msgstr ""
+msgstr "&VOER UIT AAN HTML..."
 
 #: kab_topwidget.cc:282
 msgid "&First entry"
-msgstr ""
+msgstr "&EERSTE INSKRYWING"
 
 #: kab_topwidget.cc:286
 msgid "&Previous entry"
-msgstr ""
+msgstr "&VORIGE INSKRYWING"
 
 #: kab_topwidget.cc:290
 msgid "&Next entry"
-msgstr ""
+msgstr "&VOLGENDE INSKRYWING"
 
 #: kab_topwidget.cc:294
 msgid "&Last entry"
-msgstr ""
+msgstr "&LAASTE INSKRYWING"
 
 #: kab_topwidget.cc:298
 msgid "&Add entry..."
-msgstr ""
+msgstr "&VOEG BY INSKRYWING..."
 
 #: kab_topwidget.cc:302
 msgid "&Edit entry..."
-msgstr ""
+msgstr "&REDIGEER INSKRYWING..."
 
 #: kab_topwidget.cc:306
 msgid "&Remove entry"
-msgstr ""
+msgstr "&VERWYDER INSKRYWING"
 
 #: kab_topwidget.cc:310
 msgid "Send an e&mail"
-msgstr ""
+msgstr "STUUR 'N e&mail"
 
 #: kab_topwidget.cc:314
 msgid "&Browse"
-msgstr ""
+msgstr "&BLAAI"
 
 #: kab_topwidget.cc:318
 msgid "&Search entries..."
-msgstr ""
+msgstr "&SOEKTOG INSKRYWINGS..."
 
 #: kab_topwidget.cc:322
 msgid "Show search results"
-msgstr ""
+msgstr "VERTOON SOEKTOG RESULTATE"
 
 #: kab_topwidget.cc:327
 msgid "Show main toolbar"
-msgstr ""
+msgstr "VERTOON HOOF NUTSBALK"
 
 #: kab_topwidget.cc:332
 msgid "Show entry navigation toolbar"
-msgstr ""
+msgstr "VERTOON INSKRYWING NAVIGERING NUTSBALK"
 
 #: kab_topwidget.cc:337
 msgid "Show entry navigation list"
-msgstr ""
+msgstr "VERTOON INSKRYWING NAVIGERING LYS"
 
 #: kab_topwidget.cc:342
 msgid "Print entry..."
-msgstr ""
+msgstr "DRUK INSKRYWING..."
 
 #: kab_topwidget.cc:346
 msgid "Print entries..."
-msgstr ""
+msgstr "DRUK INSKRYWINGS..."
 
 #: kab_topwidget.cc:350
 msgid "&Editing"
-msgstr ""
+msgstr "&REDIGERING"
 
 #: kab_topwidget.cc:354
 msgid "&Business Card"
-msgstr ""
+msgstr "&BESIGHEID KAART"
 
 #: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
-msgstr ""
+msgstr "&KDE 1 ADRES BOEK"
 
 #: kab_topwidget.cc:379
 msgid "&Netscape address book"
-msgstr ""
+msgstr "&NETSCAPE ADRES BOEK"
 
 #: kab_topwidget.cc:386
 msgid "&Create new database..."
-msgstr ""
+msgstr "&SKEP NUWE DATABASIS..."
 
 #: kab_topwidget.cc:390
 msgid "Open default &database"
-msgstr ""
+msgstr "OPEN VERSTEK &DATABASIS"
 
 #: kab_topwidget.cc:394
 msgid "&Import"
-msgstr ""
+msgstr "&IN VOER"
 
 #: kab_topwidget.cc:395
 msgid "&Print"
-msgstr ""
+msgstr "&DRUK"
 
 #: kab_topwidget.cc:410
 msgid "Enable all &messages"
-msgstr ""
+msgstr "AKTIVEER ALLE &BOODSKAPPE"
 
 #: kab_topwidget.cc:412
 msgid "&Configure this file..."
-msgstr ""
+msgstr "&KONFIGUREER HIERDIE LêER..."
 
 #: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
-msgstr ""
+msgstr "&VOORKEURE VIR DIE KDE ADRES BOEK..."
 
 #: kab_topwidget.cc:537
 msgid ""
@@ -401,11 +398,11 @@ msgstr ""
 
 #: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
-msgstr ""
+msgstr "FOUT VERANDERING DIE INSKRYWING."
 
 #: kab_topwidget.cc:608
 msgid "No entries."
-msgstr ""
+msgstr "GEEN INSKRYWINGS."
 
 #: kab_topwidget.cc:726
 msgid "Cannot locate default database."
@@ -413,24 +410,24 @@ msgstr ""
 
 #: kab_topwidget.cc:727
 msgid "Critical failure"
-msgstr ""
+msgstr "KRITIES VAALING"
 
 #: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
-msgstr ""
+msgstr "DIE STANDAARD LêER KON NIE WEES GELAAI."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
 #: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
-msgstr ""
+msgstr "LêER FOUT"
 
 #: kab_topwidget.cc:748
 msgid "Business card view."
-msgstr ""
+msgstr "BESIGHEID KAART BESIGTIG."
 
 #: kab_topwidget.cc:759
 msgid "Editing view."
-msgstr ""
+msgstr "REDIGERING BESIGTIG."
 
 #: kab_topwidget.cc:767
 msgid ""
@@ -444,15 +441,15 @@ msgstr ""
 
 #: kab_topwidget.cc:788
 msgid "New entry added."
-msgstr ""
+msgstr "NUWE INSKRYWING BYGEVOEG."
 
 #: kab_topwidget.cc:789
 msgid "Saving new entry."
-msgstr ""
+msgstr "STOORING NUWE INSKRYWING."
 
 #: kab_topwidget.cc:791
 msgid "Done."
-msgstr ""
+msgstr "KLAAR."
 
 #: kab_topwidget.cc:812
 msgid ""
@@ -469,7 +466,7 @@ msgstr ""
 
 #: kab_topwidget.cc:826
 msgid "No entry added."
-msgstr ""
+msgstr "GEEN INSKRYWING BYGEVOEG."
 
 #: kab_topwidget.cc:844
 msgid "Really remove this entry?"
@@ -477,15 +474,15 @@ msgstr ""
 
 #: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
-msgstr ""
+msgstr "VRAAG"
 
 #: kab_topwidget.cc:851
 msgid "Entry deleted."
-msgstr ""
+msgstr "INSKRYWING UITGEVEE."
 
 #: kab_topwidget.cc:853
 msgid "Database saved."
-msgstr ""
+msgstr "DATABASIS GESTOOR."
 
 #: kab_topwidget.cc:860
 msgid ""
@@ -495,66 +492,66 @@ msgstr ""
 
 #: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
-msgstr ""
+msgstr "REG VERBIED."
 
 #: kab_topwidget.cc:925
 msgid "Send an email"
-msgstr ""
+msgstr "STUUR 'N E-POS"
 
 #: kab_topwidget.cc:934
 msgid "No email addresses."
-msgstr ""
+msgstr "GEEN E-POS ADRESSE."
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
 #: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
 #: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
 #: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
-msgstr ""
+msgstr "VERWERP."
 
 #: kab_topwidget.cc:974
 msgid "Browse to ..."
-msgstr ""
+msgstr "BLAAI AAN ..."
 
 #: kab_topwidget.cc:982
 msgid "No URLs."
-msgstr ""
+msgstr "GEEN URLS."
 
 #: kab_topwidget.cc:1043
 msgid "Restoring last view."
-msgstr ""
+msgstr "HERSTEL LAASTE BESIGTIG."
 
 #: kab_topwidget.cc:1045
 msgid "Not restoring last view."
-msgstr ""
+msgstr "NIE HERSTEL LAASTE BESIGTIG."
 
 #: kab_topwidget.cc:1056
 msgid "Remembering last entry."
-msgstr ""
+msgstr "SAL ONTHOU LAASTE INSKRYWING."
 
 #: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
-msgstr ""
+msgstr "NIE SAL ONTHOU LAASTE INSKRYWING."
 
 #: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
-msgstr ""
+msgstr "VERTOONING SAAMGESTELDE NAAM IN wINdow TITEL."
 
 #: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
-msgstr ""
+msgstr "NIE VERTOONING SAAMGESTELDE NAAM IN wINdow TITEL."
 
 #: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
-msgstr ""
+msgstr "TE SKEP RUGSTEUN LêER OP OPSTART."
 
 #: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
-msgstr ""
+msgstr "NIE TE SKEP 'N RUGSTEUN LêER OP OPSTART."
 
 #: kab_topwidget.cc:1231
 msgid "Search entries"
-msgstr ""
+msgstr "SOEKTOG INSKRYWINGS"
 
 #: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
@@ -566,15 +563,15 @@ msgstr ""
 
 #: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
-msgstr ""
+msgstr "INTERN FOUT"
 
 #: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
-msgstr ""
+msgstr "KON NIE NAVRAAG 'N BESTAANDE INSKRYWING."
 
 #: kab_topwidget.cc:1389
 msgid "Search results ("
-msgstr ""
+msgstr "SOEKTOG RESULTATE ("
 
 #: kab_topwidget.cc:1389
 msgid " hits):"
@@ -588,15 +585,15 @@ msgstr ""
 
 #: kab_topwidget.cc:1395
 msgid "No hits"
-msgstr ""
+msgstr "GEEN TREFSLAE"
 
 #: kab_kab1importer.cc:197
 msgid "Home"
-msgstr ""
+msgstr "HUIS"
 
 #: kab_kab1importer.cc:239
 msgid "Imported kab 1 addressbook."
-msgstr ""
+msgstr "INGEVOER KAB 1 ADRESBOEK."
 
 #: kab_kab1importer.cc:278
 msgid ""
@@ -636,7 +633,7 @@ msgstr ""
 
 #: kab_netscape_io.cc:105
 msgid "All files"
-msgstr ""
+msgstr "ALLE LêERS"
 
 #: kab_netscape_io.cc:107
 msgid "Import Netscape Messanger addressbook export files..."
@@ -645,7 +642,7 @@ msgstr ""
 #: kab_netscape_io.cc:115
 #, c-format
 msgid "Unable to read the file %1."
-msgstr ""
+msgstr "NIE MOONTLIK AAN LEES DIE LêER %1."
 
 #: kab_netscape_io.cc:129
 msgid "Entry imported on %1 from '%2'"
@@ -653,7 +650,7 @@ msgstr ""
 
 #: kab_netscape_io.cc:144
 msgid "Main contact information"
-msgstr ""
+msgstr "HOOF KONTAK INFORMASIE"
 
 #: kab_netscape_io.cc:182
 #, c-format
@@ -675,31 +672,31 @@ msgstr ""
 
 #: kab_netscape_io.cc:295
 msgid "%1 addresses imported."
-msgstr ""
+msgstr "%1 ADRESSE INGEVOER."
 
 #: kab_netscape_io.cc:297
 msgid "No addresses imported."
-msgstr ""
+msgstr "GEEN ADRESSE INGEVOER."
 
 #: kab_printmethods.cc:94
 msgid "Printing finished."
-msgstr ""
+msgstr "BESIG OM TE DRUK KLAAR GEMAAK."
 
 #: kab_printmethods.cc:96
 msgid "Printing failed."
-msgstr ""
+msgstr "BESIG OM TE DRUK GEVAAL."
 
 #: kab_printmethods.cc:212
 msgid "Email address:"
-msgstr ""
+msgstr "E-POS ADRES:"
 
 #: kab_printmethods.cc:213
 msgid "Email addresses:"
-msgstr ""
+msgstr "E-POS ADRESSE:"
 
 #: kab_printmethods.cc:224
 msgid "Telephone:"
-msgstr ""
+msgstr "TELEFOON:"
 
 #: kab_printmethods.cc:225
 msgid "Telephones:"
@@ -707,31 +704,31 @@ msgstr ""
 
 #: kab_printmethods.cc:245
 msgid "Web Page:"
-msgstr ""
+msgstr "WEB BLADSY:"
 
 #: kab_printmethods.cc:246
 msgid "Web Pages:"
-msgstr ""
+msgstr "WEB BLADSYE:"
 
 #: kab_printmethods.cc:256
 msgid "Talk Address:"
-msgstr ""
+msgstr "PRAAT ADRES:"
 
 #: kab_printmethods.cc:257
 msgid "Talk Addresses:"
-msgstr ""
+msgstr "PRAAT ADRESSE:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
 msgid "Address:"
-msgstr ""
+msgstr "ADRES:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
 msgid "Addresses:"
-msgstr ""
+msgstr "ADRESSE:"
 
 #: kab_printmethods.cc:402
 msgid "Unnamed address:"
-msgstr ""
+msgstr "NIE-GENAAMD ADRES:"
 
 #: kab_printmethods.cc:464 kab_printmethods.cc:468
 msgid "(Deliver to:)"
@@ -746,19 +743,19 @@ msgstr ""
 
 #: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
-msgstr ""
+msgstr "HTML VOER UIT VOORBEELDE"
 
 #: kab_htmlexport.cc:329
 msgid "Select Template Folder"
-msgstr ""
+msgstr "KIES WERKVOORBEELD KABINET"
 
 #: kab_htmlexport.cc:343
 msgid "Select Target Folder"
-msgstr ""
+msgstr "KIES TEIKEN KABINET"
 
 #: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
-msgstr ""
+msgstr "JY HE AAN SPESIFISEER BEIDE 'N WERKVOORBEELD EN 'N TEIKEN KABINET!"
 
 #: kab_htmlexport.cc:393
 msgid "Corrections needed"
@@ -781,16 +778,16 @@ msgstr ""
 
 #: kab_htmlexport.cc:492
 msgid "Missing Resource"
-msgstr ""
+msgstr "KORT HULPBRON"
 
 #: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
-msgstr ""
+msgstr "GEKANSELEER."
 
 #: kab_htmlexport.cc:504
 msgid "Missing Template"
-msgstr ""
+msgstr "KORT WERKVOORBEELD"
 
 #: kab_htmlexport.cc:543
 msgid ""
@@ -807,15 +804,15 @@ msgstr ""
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "KON NIE VIND DIE GEBRUIKERS HUIS GIDS."
 
 #: kab_createnew.cc:44 kab_openfile.cc:44
 msgid "Intern error!"
-msgstr ""
+msgstr "INTERNE FOUT!"
 
 #: kab_createnew.cc:62 kab_openfile.cc:60
 msgid "Only local files supported yet."
-msgstr ""
+msgstr "SLEGS PLAASLIKE LêERS ONDERSTEUNDE NOG."
 
 #: kab_createnew.cc:75
 msgid ""
@@ -832,7 +829,7 @@ msgstr ""
 
 #: kab_createnew.cc:93
 msgid "Note"
-msgstr ""
+msgstr "NOTA"
 
 #: kab_createnew.cc:100
 msgid "The file could not be created, possibly permission denied."
@@ -848,7 +845,7 @@ msgstr ""
 
 #: kab_openfile.cc:45
 msgid "Could not find the users home directory"
-msgstr ""
+msgstr "KON NIE VIND DIE GEBRUIKERS HUIS GIDS"
 
 #: kab_openfile.cc:72
 msgid ""
@@ -859,15 +856,15 @@ msgstr ""
 
 #: kab_openfile.cc:86
 msgid "The file could not be loaded."
-msgstr ""
+msgstr "DIE LêER KON NIE WEES GELAAI."
 
 #: kab_save.cc:36 kab_save.cc:50
 msgid "Internal error."
-msgstr ""
+msgstr "INTERN FOUT."
 
 #: kab_save.cc:44
 msgid "Entry stored."
-msgstr ""
+msgstr "INSKRYWING GESTOOR."
 
 #: kab_save.cc:57
 msgid "The file could not be saved (permission denied)."
@@ -875,26 +872,26 @@ msgstr ""
 
 #: kab_save.cc:61
 msgid "File saved."
-msgstr ""
+msgstr "LêER GESTOOR."
 
 #: look_businesscard.cc:176
 msgid "email: "
-msgstr ""
+msgstr "E-POS: "
 
 #: look_businesscard.cc:193
 msgid "tel: "
-msgstr ""
+msgstr "TEL: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr ""
+msgstr "GEBRUIKER VELDE"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
-msgstr ""
+msgstr "ALGEMEEN VAALING."
 
 #: dialog_configurefile.cc:130 look_edit.cc:70
 msgid "(User fields)"
@@ -902,39 +899,39 @@ msgstr ""
 
 #: look_edit.cc:74
 msgid "&Person"
-msgstr ""
+msgstr "&PERSOON"
 
 #: look_edit.cc:75
 msgid "&Telephone"
-msgstr ""
+msgstr "&TELEFOON"
 
 #: look_edit.cc:76
 msgid "&Addresses"
-msgstr ""
+msgstr "&ADRESSE"
 
 #: look_edit.cc:77
 msgid "&Birthday"
-msgstr ""
+msgstr "&VERJAARDAG"
 
 #: look_edit.cc:78
 msgid "Comment"
-msgstr ""
+msgstr "KOMMENTAAR"
 
 #: look_edit_tabperson.cc:40
 msgid "Email addresses..."
-msgstr ""
+msgstr "E-POS ADRESSE..."
 
 #: look_edit_tabperson.cc:41
 msgid "Talk addresses..."
-msgstr ""
+msgstr "PRAAT ADRESSE..."
 
 #: look_edit_tabperson.cc:42
 msgid "URLs..."
-msgstr ""
+msgstr "URLS..."
 
 #: look_edit_tabperson.cc:65
 msgid "Formatted name:"
-msgstr ""
+msgstr "GEFORMATEERDE NAAM:"
 
 #: look_edit_tabperson.cc:68
 msgid ""
@@ -944,59 +941,59 @@ msgstr ""
 
 #: look_edit_tabperson.cc:78
 msgid "First name:"
-msgstr ""
+msgstr "EERSTE NAAM:"
 
 #: look_edit_tabperson.cc:80
 msgid "Middle name:"
-msgstr ""
+msgstr "MIDDELSTE NAAM:"
 
 #: look_edit_tabperson.cc:82
 msgid "Last name:"
-msgstr ""
+msgstr "LAASTE NAAM:"
 
 #: look_edit_tabperson.cc:99
 msgid "Name prefix:"
-msgstr ""
+msgstr "NAAM VOORVOEGSEL:"
 
 #: look_edit_tabperson.cc:101
 msgid "Title:"
-msgstr ""
+msgstr "TITEL:"
 
 #: look_edit_tabperson.cc:103
 msgid "Rank:"
-msgstr ""
+msgstr "RANG:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
 msgid "Edit email addresses"
-msgstr ""
+msgstr "REDIGEER E-POS ADRESSE"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "REDIGEER PRAAT ADRESSE"
 
 #: look_edit_tabperson.cc:228
 msgid "Edit URLs"
-msgstr ""
+msgstr "REDIGEER URLS"
 
 #: look_edit_tabperson.cc:246
 msgid "I know this person's birthday:"
-msgstr ""
+msgstr "I KEN HIERDIE person's VERJAARDAG:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr ""
+msgstr "GEBRUIKER VELD 1:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
 msgid "User field 2:"
-msgstr ""
+msgstr "GEBRUIKER VELD 2:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
 msgid "User field 3:"
-msgstr ""
+msgstr "GEBRUIKER VELD 3:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
 msgid "User field 4:"
-msgstr ""
+msgstr "GEBRUIKER VELD 4:"
 
 #: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
 msgid "(User field 1)"
@@ -1020,7 +1017,7 @@ msgstr ""
 
 #: look_edit_tabcontact.cc:32
 msgid "Edit telephone numbers"
-msgstr ""
+msgstr "REDIGEER TELEFOON NOMMERS"
 
 #: look_edit_tabaddresses.cc:231
 msgid ""
@@ -1030,7 +1027,7 @@ msgstr ""
 
 #: look_edit_tabaddresses.cc:233
 msgid "A note"
-msgstr ""
+msgstr "A NOTA"
 
 #: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
@@ -1038,92 +1035,92 @@ msgstr ""
 
 #: look_edit_tabaddresses.cc:317
 msgid "Organization"
-msgstr ""
+msgstr "ORGANISASIE"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
-msgstr ""
+msgstr "VASGEMAAKTE:"
 
 #: look_edit_tabtelephone.cc:47
 msgid "Mobile:"
-msgstr ""
+msgstr "MOBIELE:"
 
 #: look_edit_tabtelephone.cc:48
 msgid "Fax:"
-msgstr ""
+msgstr "FAKS:"
 
 #: look_edit_tabtelephone.cc:49
 msgid "Modem:"
-msgstr ""
+msgstr "MODEM:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr ""
+msgstr "GEBRUIKER GEDEFINIEëR 1:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr ""
+msgstr "GEBRUIKER GEDEFINIEëR 2:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr ""
+msgstr "GEBRUIKER GEDEFINIEëR 3:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
-msgstr ""
+msgstr "TIPE"
 
 #: look_edit_tabtelephone.cc:66
 msgid "Number"
-msgstr ""
+msgstr "NOMMER"
 
 #: widget_editstringlist.cc:41
 msgid "Add a new string"
-msgstr ""
+msgstr "VOEG BY 'N NUWE STRING"
 
 #: widget_editstringlist.cc:42
 msgid "Move this string up"
-msgstr ""
+msgstr "BEWEEG HIERDIE STRING BEGIN"
 
 #: widget_editstringlist.cc:43
 msgid "Move this string down"
-msgstr ""
+msgstr "BEWEEG HIERDIE STRING ONDERTOE"
 
 #: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr ""
+msgstr "UITVEE HIERDIE STRING"
 
 #: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
-msgstr ""
+msgstr "AANVAAR."
 
 #: dialog_editentry.cc:68
 msgid "Edit entry"
-msgstr ""
+msgstr "REDIGEER INSKRYWING"
 
 #: dialog_configurefile.cc:51
 msgid "Cannot query configuration data."
-msgstr ""
+msgstr "KAN NIE NAVRAAG OPSTELLING DATA."
 
 #: dialog_configurefile.cc:52
 msgid "Internal failure"
-msgstr ""
+msgstr "INTERN VAALING"
 
 #: dialog_configurefile.cc:68
 msgid "Settings applied."
-msgstr ""
+msgstr "INSTELLINGS AANGEWEND."
 
 #: dialog_configurefile.cc:95
 msgid "Tab name"
-msgstr ""
+msgstr "OORTJIE NAAM"
 
 #: dialog_configurefile.cc:154
 msgid "User fields"
-msgstr ""
+msgstr "GEBRUIKER VELDE"
 
 #: dialog_configurefile.cc:166
 msgid "Address types"
-msgstr ""
+msgstr "ADRES TIPES"
 
 #: dialog_configurefile.cc:190
 msgid ""
@@ -1139,11 +1136,11 @@ msgstr ""
 
 #: dialog_configurekab.cc:39
 msgid "Fatal error"
-msgstr ""
+msgstr "FATALE FOUT"
 
 #: dialog_configurekab.cc:40
 msgid "Configuration file corrupt."
-msgstr ""
+msgstr "OPSTELLING LêER KORRUP."
 
 #: dialog_configurekab.cc:58
 msgid ""
@@ -1153,15 +1150,15 @@ msgstr ""
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
-msgstr ""
+msgstr "FOUT STOORING VOORKEURE."
 
 #: dialog_configurekab.cc:63
 msgid "KDE address book preferences."
-msgstr ""
+msgstr "KDE ADRES BOEK VOORKEURE."
 
 #: dialog_configurekab.cc:65
 msgid "Preferences saved."
-msgstr ""
+msgstr "VOORKEURE GESTOOR."
 
 #: dialog_configurekab.cc:69
 msgid ""
@@ -1171,31 +1168,31 @@ msgstr ""
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
-msgstr ""
+msgstr "ONTHOU LAASTE GEKOSE BESIGTIG"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr ""
+msgstr "ONTHOU LAASTE GEKOSE INSKRYWING"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr ""
+msgstr "VERTOON SAAMGESTELDE NAAM IN wINdow TITEL"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr ""
+msgstr "SKEP RUGSTEUN LêER OP OPSTART"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
-msgstr ""
+msgstr "ALGEMEEN INSTELLINGS"
 
 #: dialog_insinuation.cc:29
 msgid "Organization:"
-msgstr ""
+msgstr "ORGANISASIE:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr ""
+msgstr "DEPARTEMENT:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
@@ -1203,11 +1200,11 @@ msgstr ""
 
 #: kab_entrylist.cc:55
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: kab_entrylist.cc:81
 msgid "No match."
-msgstr ""
+msgstr "GEEN OOREENSTEM."
 
 #: kab_entrylist.cc:94
 msgid "Calculating..."
@@ -1219,11 +1216,11 @@ msgstr ""
 
 #: kab_entrylist.cc:113
 msgid "Error creating index for incremental search."
-msgstr ""
+msgstr "FOUT TE SKEP INDEKS VIR INKREMENTELE SOEKTOG."
 
 #: kab_entrylist.cc:114
 msgid "Incremental search disabled."
-msgstr ""
+msgstr "INKREMENTELE SOEKTOG GESTREMDE."
 
 #: kab_entrylist.cc:163
 msgid "(No items to search)"
