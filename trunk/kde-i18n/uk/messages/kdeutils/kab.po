@@ -5,604 +5,695 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab.po  VERSION\n"
-"POT-Creation-Date: 2001-01-20 01:26+0100\n"
-"PO-Revision-Date: 2001-02-04 16:55-0800\n"
-"Last-Translator: Andy Rysin <arysin@yahoo.com>\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-07-13 12:10PDT\n"
+"Last-Translator: Andriy Rysin <arysin@yahoo.com>\n"
 "Language-Team: Ukrainian <linux@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=KOI8-U\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.8\n"
+"X-Generator: KBabel 0.9.1\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
-msgstr "������� � HTML"
+msgstr "Експорт в HTML"
 
 #: rc.cpp:2
 msgid "Exporting of addresses"
-msgstr "��������� ������"
+msgstr "Експортую адреси"
 
 #: rc.cpp:3
 msgid "Export addresses along with entries"
-msgstr "������������ ������ ����� � ��������"
+msgstr "Експортувати адреси разом з записами"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
-msgstr "�� ��Φ ������������ ������?"
+msgstr "Як мені експортувати адреси?"
 
 #: rc.cpp:5
 msgid "Address and person in one line"
-msgstr "������ �� ����� � ������ �����"
+msgstr "Адреси та особи у одному рядку"
 
 #: rc.cpp:6
 msgid "All addresses"
-msgstr "�Ӧ ������"
+msgstr "Всі адреси"
 
 #: rc.cpp:7
 msgid "Up to ... addresses"
-msgstr "�������� ... ��������"
+msgstr "Обмежено ... адресами"
 
 #: rc.cpp:8
 msgid "Select style of HTML "
-msgstr "����Ҧ�� ����� HTML "
+msgstr "Виберіть стиль HTML "
 
 #: rc.cpp:9
 msgid "Style of the resulting file"
-msgstr "����� ��������� �����"
+msgstr "Стиль вихідного файлу"
 
 #: rc.cpp:10
 msgid "Plain HTML text without tables or lines"
-msgstr "������ ����� HTML ��� ������� ��� ̦Φ�"
+msgstr "Прости текст HTML без таблиць або ліній"
 
 #: rc.cpp:11
 msgid "Expect more here..."
-msgstr ""
+msgstr "Очікується ще щось..."
 
-#: rc.cpp:12 rc.cpp:19 rc.cpp:28 rc.cpp:43
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
-msgstr "�����1"
+msgstr "Бланк1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
-msgstr "���Ħ�� �������� �������� ��� æ�� ������:"
+msgstr ""
+"Введіть позначку доставки для цієї "
+"адреси:"
 
-#: kab_htmlexport.cc:395 rc.cpp:14
-msgid "Setup HTML export"
-msgstr "��������� �������� HTML"
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "Список записів"
 
 #: rc.cpp:15
-msgid "Template folder:"
-msgstr "���� �����Φ�:"
-
-#: rc.cpp:16
-msgid "Target folder:"
-msgstr "���� �����������:"
-
-#: rc.cpp:17 rc.cpp:18
-msgid "Choose ..."
-msgstr "������� ..."
-
-#: rc.cpp:22
 msgid ""
-"Hide the search results window. This will not clear your search results."
+"<qt>Search entries by entering<br> - one of their <b>e-mail "
+"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
-"������� צ��� ��������Ԧ� ������. �� �� ������� ��ۦ ���������� ������."
+"<qt>Ви можете робити пошук по<br> - одному з "
+"наступних: <b>адреса ел. пошти</b><br> - "
+"<b>ім'я</b> або<br> - <b>прізвище</b></qt>"
 
-#: rc.cpp:23
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>Виберіть запис для відображення.</qt>"
+
+#: kab_htmlexport.cc:380 rc.cpp:18
+msgid "Setup HTML export"
+msgstr "Установка експорту HTML"
+
+#: rc.cpp:19
+msgid "Template folder:"
+msgstr "Тека шаблонів:"
+
+#: rc.cpp:20
+msgid "Target folder:"
+msgstr "Тека призначення:"
+
+#: rc.cpp:21 rc.cpp:22
+msgid "Choose ..."
+msgstr "Вибрати ..."
+
+#: rc.cpp:26
+msgid "Hide the search results window. This will not clear your search results."
+msgstr ""
+"Сховати вікно результатів пошуку. Це не "
+"знищить Ваші результати пошуку."
+
+#: rc.cpp:27
 msgid ""
 "Hide the search results window. This will close the search results window "
 "and clear all results of previous searches."
 msgstr ""
-
-#: rc.cpp:25
-msgid "Clear the search results and hide this window."
-msgstr ""
-
-#: rc.cpp:27
-msgid "Print your search results."
-msgstr "������������ ���������� ������."
+"Сховати вікно результатів пошуку. Це "
+"закриє вікно з результатами пошуку та "
+"очистить всі результати попередніх "
+"пошуків."
 
 #: rc.cpp:29
-msgid "Search for people in your addressbook:"
-msgstr "����� ������ � �����Φ� ���ڦ:"
-
-#: rc.cpp:30
-msgid "Select fields to search here."
-msgstr "����Ҧ�� ���� ��� ������."
+msgid "Clear the search results and hide this window."
+msgstr ""
+"Очистити результати пошуку та сховати це "
+"вікно."
 
 #: rc.cpp:31
+msgid "Print your search results."
+msgstr "Роздрукувати результати пошуку."
+
+#: rc.cpp:33
+msgid "Search for people in your addressbook:"
+msgstr "Пошук людини в адресній книзі:"
+
+#: rc.cpp:34
+msgid "Select fields to search here."
+msgstr "Виберіть поля для пошуку."
+
+#: rc.cpp:35
 msgid ""
 "Select fields to search here. \n"
 "All entries where this field matches the pattern (consisting of wildcards or "
 "regular expressions) given below will be displayed in the Search Results "
 "Window."
 msgstr ""
+"Виберіть поля для пошуку. \n"
+"Всі записи, які задовольняють наданому "
+"взірцю (що укладений з джокерів або "
+"регулярних виразів) будуть відображені у "
+"Вікні результатів пошуку."
 
-#: rc.cpp:32
+#: rc.cpp:36
 msgid "... matches ..."
-msgstr "... צ���צ���� ..."
+msgstr "... відповідних ..."
 
-#: rc.cpp:33
+#: rc.cpp:37
 msgid "*"
 msgstr "*"
 
-#: rc.cpp:34
-msgid "Enter your expression here."
-msgstr "���Ħ�� �����."
-
-#: rc.cpp:35
-msgid "Options:"
-msgstr "���������:"
-
-#: rc.cpp:36
-msgid "Case sensitive search"
-msgstr "� ����������� ��Ǧ����"
-
-#: rc.cpp:37
-msgid "Check this box if you want to do a case-sensitive search."
-msgstr "����Ҧ��, ���� ������ ������� ����� � ����������� ��Ǧ����."
-
 #: rc.cpp:38
-msgid "Expressions"
-msgstr "������"
+msgid "Enter your expression here."
+msgstr "Введіть вираз."
 
 #: rc.cpp:39
-msgid "Wildcards"
-msgstr "�������"
+msgid "Options:"
+msgstr "Параметри:"
 
 #: rc.cpp:40
+msgid "Case sensitive search"
+msgstr "З урахуванням регістру"
+
+#: rc.cpp:41
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr ""
+"Виберіть, якщо хочете зробити пошук з "
+"урахуванням регістру."
+
+#: rc.cpp:42
+msgid "Expressions"
+msgstr "Вирази"
+
+#: rc.cpp:43
+msgid "Wildcards"
+msgstr "Джокери"
+
+#: rc.cpp:44
 msgid ""
 "Check this button if you use widlcards in your expression (as in shell "
 "commands)."
 msgstr ""
-
-#: rc.cpp:41
-msgid "Regular expressions"
-msgstr "�������Φ ������"
-
-#: rc.cpp:42
-msgid ""
-"Check this box if you use classical regular expressions in your pattern."
-msgstr ""
-
-#: rc.cpp:44
-msgid "Headline:"
-msgstr "�������:"
+"Ввімкніть цей вибір, якщо Ви хочете "
+"використовувати джокери у Ваших виразах "
+"(як у командах оболонки)."
 
 #: rc.cpp:45
-msgid "Insinuation..."
-msgstr ""
+msgid "Regular expressions"
+msgstr "Регулярні вирази"
 
 #: rc.cpp:46
-msgid "Country:"
-msgstr "������:"
-
-#: rc.cpp:47
-msgid "Zip code"
-msgstr "�������� ������"
+msgid "Check this box if you use classical regular expressions in your pattern."
+msgstr ""
+"Відмітьте цю опцію, якщо Ви хочете "
+"використовувати класичні регулярні "
+"вирази у Ваших взірцях."
 
 #: rc.cpp:48
-msgid "State"
-msgstr "����"
+msgid "Address type (e.g. Home):"
+msgstr "Тип адреси (напр., Домівка):"
 
 #: rc.cpp:49
-msgid "City"
-msgstr "�����"
+msgid "Organization..."
+msgstr "Організація..."
 
 #: rc.cpp:50
-msgid "Street address:"
-msgstr "������/Ħ�/��.:"
+msgid "Country:"
+msgstr "Країна:"
 
 #: rc.cpp:51
-msgid "Assignment:"
-msgstr ""
+msgid "Zip code"
+msgstr "Поштовий індекс"
 
-#: look_edit_tabaddresses.cc:333 rc.cpp:52
+#: rc.cpp:52
+msgid "State"
+msgstr "Стан"
+
+#: rc.cpp:53
+msgid "City"
+msgstr "Місто"
+
+#: rc.cpp:54
+msgid "Street address:"
+msgstr "Вулиця/дім/кв.:"
+
+#: rc.cpp:55
+msgid "Job title:"
+msgstr "Посада:"
+
+#: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
-msgstr "�������� ��������"
+msgstr "Позначка доставки"
 
 #: kab_main.cc:31 kab_main.cc:38
 msgid "KDE Addressbook"
-msgstr "������� ����� KDE"
+msgstr "Адресна книга KDE"
 
 #: kab_main.cc:51
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
+"<qt>Версія 2 Адресної книги KDE несумісна з "
+"попередньою. Щоб захистити Ваші дані, "
+"буде використано новий файл. Запустіть "
+"<b>Файл->Імпортувати->Адресна книга KDE 1</b>,  "
+"щоб використовувати існуючі адреси у "
+"новій версії.</qt>"
 
 #: kab_main.cc:56
 msgid "new format"
-msgstr "����� ������"
+msgstr "новий формат"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:54 kab_mainwidget.cc:64
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
-#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:57
-#: look_edit_tabperson.cc:249 look_edit_tabperson.cc:294
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
-msgstr "����������� ���������ϧ ���'�Ԧ."
+msgstr "Недостатньо оперативної пам'яті."
 
-#: kab_mainwidget.cc:55 kab_mainwidget.cc:65 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
-msgstr "�������� �������."
+msgstr "Загальна помилка."
 
-#: kab_topwidget.cc:92
+#: kab_topwidget.cc:93
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Неможливо зв'язатися з БД адрес.\n"
+"Без цього Адресна книга KDE не буде "
+"працювати.\n"
+"Програму буде закрито."
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:509
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
-msgstr "������� ���� �����"
+msgstr "Помилка бази даних"
 
-#: kab_topwidget.cc:190
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
-msgstr "������� ������� �� kab 2.1"
+msgstr "Ласкаво просимо до kab 2.1"
 
-#: kab_topwidget.cc:191
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
-msgstr "������� ����� KDE 2.1."
+msgstr "Адресна книга KDE 2.1."
 
-#: kab_topwidget.cc:192
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
-msgstr "�����: Mirko Boehm (mirko@kde.org)."
+msgstr "Автор: Mirko Boehm (mirko@kde.org)."
 
-#: kab_topwidget.cc:193
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
-msgstr "�����Φ ������ �� www.kde.org"
+msgstr "Останні новини на www.kde.org"
 
-#: kab_topwidget.cc:256
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
-msgstr "&������� � HTML..."
+msgstr "&Експорт в HTML..."
 
-#: kab_topwidget.cc:260
+#: kab_topwidget.cc:282
 msgid "&First entry"
-msgstr "&������ �����"
+msgstr "&Перший запис"
 
-#: kab_topwidget.cc:264
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
-msgstr "&�������Φ� �����"
+msgstr "&Попередній запис"
 
-#: kab_topwidget.cc:268
+#: kab_topwidget.cc:290
 msgid "&Next entry"
-msgstr "&��������� �����"
+msgstr "&Наступний запис"
 
-#: kab_topwidget.cc:272
+#: kab_topwidget.cc:294
 msgid "&Last entry"
-msgstr "&�����Φ� �����"
+msgstr "&Останній запис"
 
-#: kab_topwidget.cc:276
-msgid "&Add entry"
-msgstr "&������ �����"
+#: kab_topwidget.cc:298
+msgid "&Add entry..."
+msgstr "&Додати запис..."
 
-#: kab_topwidget.cc:280
-msgid "&Edit entry"
-msgstr "&���������� �����"
+#: kab_topwidget.cc:302
+msgid "&Edit entry..."
+msgstr "&Редагувати запис..."
 
-#: kab_topwidget.cc:284
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
-msgstr "&������ �����"
-
-#: kab_topwidget.cc:288
-msgid "Send an e&mail"
-msgstr "��Ħ����� ��. �&����"
-
-#: kab_topwidget.cc:292
-msgid "&Browse"
-msgstr "&�����������"
-
-#: kab_topwidget.cc:296
-msgid "&Search entries"
-msgstr "����� ����Ӧ�"
-
-#: kab_topwidget.cc:300
-msgid "Show search results"
-msgstr "�������� ���������� ������"
-
-#: kab_topwidget.cc:305
-msgid "Show main toolbar"
-msgstr "���������� ������� ������ ���������Ԧ�"
+msgstr "&Стерти пункт"
 
 #: kab_topwidget.cc:310
-msgid "Show entry navigation toolbar"
-msgstr ""
+msgid "Send an e&mail"
+msgstr "Відіслати ел. л&иста"
 
-#: kab_topwidget.cc:315
-msgid "Print entry"
-msgstr "��������� �����"
+#: kab_topwidget.cc:314
+msgid "&Browse"
+msgstr "&Переглянути"
 
-#: kab_topwidget.cc:319
-msgid "Print entries"
-msgstr "��������� ������"
+#: kab_topwidget.cc:318
+msgid "&Search entries..."
+msgstr "&Пошук записів..."
 
-#: kab_topwidget.cc:323
-msgid "&Editing"
-msgstr "&�����������"
+#: kab_topwidget.cc:322
+msgid "Show search results"
+msgstr "Показати результати пошуку"
 
 #: kab_topwidget.cc:327
+msgid "Show main toolbar"
+msgstr "Показувати головну панель інструментів"
+
+#: kab_topwidget.cc:332
+msgid "Show entry navigation toolbar"
+msgstr "Показувати панель навігації записів"
+
+#: kab_topwidget.cc:337
+msgid "Show entry navigation list"
+msgstr "Показувати список навігації записів"
+
+#: kab_topwidget.cc:342
+msgid "Print entry..."
+msgstr "Друкувати запис..."
+
+#: kab_topwidget.cc:346
+msgid "Print entries..."
+msgstr "Друкувати записи..."
+
+#: kab_topwidget.cc:350
+msgid "&Editing"
+msgstr "&Редагування"
+
+#: kab_topwidget.cc:354
 msgid "&Business Card"
-msgstr "&������� ������"
+msgstr "&Візитна картка"
 
-#: kab_topwidget.cc:352
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
-msgstr "������� ����� &KDE 1 address book"
+msgstr "Адресна книга &KDE 1 address book"
 
-#: kab_topwidget.cc:359
+#: kab_topwidget.cc:379
+msgid "&Netscape address book"
+msgstr "Адресна книга &Netscape"
+
+#: kab_topwidget.cc:386
 msgid "&Create new database..."
-msgstr "&�������� ���� ���� �����..."
+msgstr "&Створити нову базу даних..."
 
-#: kab_topwidget.cc:363
+#: kab_topwidget.cc:390
 msgid "Open default &database"
-msgstr "�������� ������ &���� �����"
+msgstr "Відкрити типову &базу даних"
 
-#: kab_topwidget.cc:367
+#: kab_topwidget.cc:394
 msgid "&Import"
-msgstr "&������"
+msgstr "&Імпорт"
 
-#: kab_topwidget.cc:368
+#: kab_topwidget.cc:395
 msgid "&Print"
-msgstr "&����"
+msgstr "&Друк"
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
-msgstr "�צ������ �Ӧ &��צ��������"
+msgstr "Ввімкнути всі &повідомлення"
 
-#: kab_topwidget.cc:385
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
-msgstr "&�����ϧ�� ��� ����..."
+msgstr "&Налаштувати цей файл..."
 
-#: kab_topwidget.cc:388
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
-msgstr ""
+msgstr "&Установки для адресної книги KDE..."
 
-#: kab_topwidget.cc:506
+#: kab_topwidget.cc:537
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Неможливо створити інтерфейс адресної "
+"книги.\n"
+"Без цього адресна книга KDE працювати не "
+"буде.\n"
+"Програму буде закрито."
 
-#: kab_topwidget.cc:538
+#: kab_topwidget.cc:569
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
 "(Unsaved changes will be lost.)"
 msgstr ""
+"Ви змінили цей запис.\n"
+"Зберегти зміни?\n"
+"(Незбережені зміни буде втрачено.)"
 
-#: kab_topwidget.cc:540
+#: kab_topwidget.cc:571
 msgid "Save changes?"
-msgstr "�������� �ͦ��?"
+msgstr "Зберегти зміни?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:548
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
-msgstr "������� �ͦ�� ������."
+msgstr "Помилка зміни запису."
 
-#: kab_topwidget.cc:577
+#: kab_topwidget.cc:608
 msgid "No entries."
-msgstr "������ צ����Φ."
+msgstr "Записи відсутні."
 
-#: kab_topwidget.cc:677
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
-msgstr "��������� ������ ������ ���� �����."
+msgstr "Неможливо знайти типову базу даних."
 
-#: kab_topwidget.cc:678
+#: kab_topwidget.cc:727
 msgid "Critical failure"
-msgstr "�������� �������"
+msgstr "Критична помилка"
 
-#: kab_topwidget.cc:683
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
-msgstr "��������� ����������� ������� ����."
+msgstr "Неможливо завантажити типовий файл."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:684
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
-msgstr "������� �������"
+msgstr "Файлова помилка"
 
-#: kab_topwidget.cc:699
+#: kab_topwidget.cc:748
 msgid "Business card view."
-msgstr "������ צ����ϧ ������."
+msgstr "Вигляд візитної картки."
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:759
 msgid "Editing view."
-msgstr "������ �����������."
+msgstr "Вигляд редагування."
 
-#: kab_topwidget.cc:718
+#: kab_topwidget.cc:767
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
+"Це знову ввімкне всі повідомлення, які Ви "
+"раніше вимкнули.\n"
+"Продовжити?"
 
-#: kab_topwidget.cc:720
+#: kab_topwidget.cc:769
 msgid "Enable messages?"
-msgstr "��������� ��צ��������?"
+msgstr "Дозволити повідомлення?"
 
-#: kab_topwidget.cc:739
+#: kab_topwidget.cc:788
 msgid "New entry added."
-msgstr "������� �� ������."
+msgstr "Елемент не додано."
 
-#: kab_topwidget.cc:740
+#: kab_topwidget.cc:789
 msgid "Saving new entry."
-msgstr "���Ҧ��� ����� �������."
+msgstr "Зберігаю новий елемент."
 
-#: kab_topwidget.cc:742
+#: kab_topwidget.cc:791
 msgid "Done."
-msgstr "��������."
+msgstr "Зроблено."
 
-#: kab_topwidget.cc:761
+#: kab_topwidget.cc:812
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
-"You may not have writing permissions for this file."
+"You may not have write permission for this file."
 msgstr ""
+"Неможливо додати новий запис.\n"
+"Відмовлено в доступі.\n"
+"Можливо, у Вас не вистачає прав доступу до "
+"цього файлу."
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:820
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
 msgstr ""
+"Неможливо додати новий запис.\n"
+"Причина невідома."
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:826
 msgid "No entry added."
-msgstr "����� �� ������."
+msgstr "Запис не додано."
 
-#: kab_topwidget.cc:793
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
-msgstr "����� ������ �����?"
+msgstr "Дійсно стерти запис?"
 
-#: kab_topwidget.cc:794 look_edit_tabaddresses.cc:252
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
-msgstr "���������"
+msgstr "Запитання"
 
-#: kab_topwidget.cc:800
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
-msgstr "����� �������."
+msgstr "Запис витерто."
 
-#: kab_topwidget.cc:802
+#: kab_topwidget.cc:853
 msgid "Database saved."
-msgstr "���� ����� ���������."
+msgstr "Базу даних збережено."
 
-#: kab_topwidget.cc:809
+#: kab_topwidget.cc:860
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
 msgstr ""
-"��������� �������� �����\n"
-"(�������, ������ ����������)."
+"Неможливо вилучити запис\n"
+"(можливо, доступ заборонено)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:812
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
-msgstr "������ ����������."
+msgstr "Доступ заборонено."
 
-#: kab_topwidget.cc:874
+#: kab_topwidget.cc:925
 msgid "Send an email"
-msgstr "��Ħ����� ������������ �����"
+msgstr "Відіслати електронного листа"
 
-#: kab_topwidget.cc:883
+#: kab_topwidget.cc:934
 msgid "No email addresses."
-msgstr "������ ��. ����� צ����Φ."
+msgstr "Адреси ел. пошти відсутні."
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:413 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:897
-#: kab_topwidget.cc:945 kab_topwidget.cc:1340
+#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
-msgstr "����������."
+msgstr "Відмовлено."
 
-#: kab_topwidget.cc:923
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
-msgstr "����������� � ..."
+msgstr "Переглянути у ..."
 
-#: kab_topwidget.cc:931
+#: kab_topwidget.cc:982
 msgid "No URLs."
-msgstr "URL צ����Φ."
+msgstr "URL відсутні."
 
-#: kab_topwidget.cc:991
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
-msgstr "��������� �����Φ� ������."
+msgstr "Відновлюю останній вигляд."
 
-#: kab_topwidget.cc:993
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
-msgstr "�� צ������� �����Φ� ��������."
+msgstr "Не відновлюю останній перегляд."
 
-#: kab_topwidget.cc:1004
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
-msgstr "�����'������ �����Φ� �����."
+msgstr "Запам'ятовую останній запис."
 
-#: kab_topwidget.cc:1006
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
-msgstr "�� �����'������ �����Φ� �����."
+msgstr "Не запам'ятовую останній запис."
 
-#: kab_topwidget.cc:1017
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
-msgstr ""
+msgstr "Відображаю зібране ім'я у заголовку вікна."
 
-#: kab_topwidget.cc:1019
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
 msgstr ""
+"Не відображаю зібране ім'я у заголовку "
+"вікна."
 
-#: kab_topwidget.cc:1030
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
-msgstr ""
+msgstr "Створюю резервну копію при запуску."
 
-#: kab_topwidget.cc:1032
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
-msgstr ""
+msgstr "Не створюю резервну копію при запуску."
 
-#: kab_topwidget.cc:1175
+#: kab_topwidget.cc:1231
 msgid "Search entries"
-msgstr "����� ����Ӧ�"
+msgstr "Пошук записів"
 
-#: kab_topwidget.cc:1187 kab_topwidget.cc:1197
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
-msgstr "(�������)"
+msgstr "(ПОМИЛКА)"
 
-#: kab_topwidget.cc:1234
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
 msgstr ""
+"Неможливо переглянути за існуючими "
+"записами."
 
-#: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
-msgstr "����Ҧ��� �������"
+msgstr "Внутрішня помилка"
 
-#: kab_topwidget.cc:1251 kab_topwidget.cc:1262
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
-msgstr ""
+msgstr "Неможливо опитати існуючий запис."
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid "Search results ("
-msgstr "��������� ������ ("
+msgstr "Результат пошуку ("
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid " hits):"
-msgstr " �Ц�������):"
+msgstr " співпадань):"
 
-#: kab_topwidget.cc:1335
+#: kab_topwidget.cc:1394
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
 msgstr ""
+"Вибачте!\n"
+"Запис за таким критерієм не знайдено."
 
-#: kab_topwidget.cc:1336
+#: kab_topwidget.cc:1395
 msgid "No hits"
-msgstr "�Ц�������� צ����Φ"
+msgstr "Співпадання відсутні"
 
 #: kab_kab1importer.cc:197
 msgid "Home"
-msgstr "��"
+msgstr "Дім"
 
 #: kab_kab1importer.cc:239
 msgid "Imported kab 1 addressbook."
-msgstr "������� ����� kab 1 �����������."
+msgstr "Адресну книгу kab 1 імпортовано."
 
 #: kab_kab1importer.cc:278
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
 msgstr ""
+"Неможливо доступитися до файлу бази "
+"даних kab 1.\n"
+"Ви, напевне, ніколи не використовували kab 1."
 
 #: kab_kab1importer.cc:292
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
 msgstr ""
+"Неможливо прочитати файл бази даних kab 1.\n"
+"Ви, напевне, змінили файл бази даних "
+"вручну."
 
 #: kab_kab1importer.cc:307
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
 msgstr ""
+"Неможливо знайти секцію записів у Вашій "
+"базі даних.\n"
+"Можливо, Ви змінювали файли БД вручну."
 
 #: kab_kab1importer.cc:335
 msgid ""
-"Warning: There where errors importing the KDE 1\n"
+"Warning: There were errors importing the KDE 1\n"
 "address database.\n"
 "\n"
 msgstr ""
+"Попередження: при імпортування адресної "
+"книги KDE 1\n"
+"виникли помилки.\n"
+"\n"
 
 #: kab_kab1importer.cc:340
 msgid ""
@@ -610,120 +701,199 @@ msgid ""
 "address book to this file?\n"
 "You will not be able to revert this changes."
 msgstr ""
+"Ви дійсно хочете додати записи адресної "
+"книги KDE 1\n"
+"до цього файлу?\n"
+"Ви не зможете скасувати цю дію."
+
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr ""
+"Файли експорту адресної книги Netscape Messanger "
+"(*.ldif)"
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr "Всі файли"
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr ""
+"Імпортувати файли експорту адресної "
+"книги Netscape Messanger..."
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr "Неможливо прочитати файл %1."
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr "Запис імпортовано на %1 з '%2'"
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr "Основна контактна інформація"
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr "Прізвисько: %1"
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr "Формат пошти: текст"
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr "Формат пошти: HTML"
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr "Останні зміни: %1"
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr "%1 адрес імпортовано."
+
+#: kab_netscape_io.cc:297
+msgid "No addresses imported."
+msgstr "Жодної адреси не імпортовано."
 
 #: kab_printmethods.cc:94
-#, fuzzy
 msgid "Printing finished."
-msgstr "������ ����������."
+msgstr "Друк завершено."
 
 #: kab_printmethods.cc:96
 msgid "Printing failed."
-msgstr "������� �����."
+msgstr "Помилка друку."
 
 #: kab_printmethods.cc:212
 msgid "Email address:"
-msgstr "������ ��. �����:"
+msgstr "Адреса ел. пошти:"
 
 #: kab_printmethods.cc:213
 msgid "Email addresses:"
-msgstr "������ ��. �����:"
+msgstr "Адреси ел. пошти:"
 
 #: kab_printmethods.cc:224
 msgid "Telephone:"
-msgstr "�������:"
+msgstr "Телефон:"
 
 #: kab_printmethods.cc:225
 msgid "Telephones:"
-msgstr "��������:"
+msgstr "Телефони:"
 
 #: kab_printmethods.cc:245
 msgid "Web Page:"
-msgstr "���Ҧ��� �����:"
+msgstr "Сторінка Тенет:"
 
 #: kab_printmethods.cc:246
 msgid "Web Pages:"
-msgstr "���Ҧ��� �����:"
+msgstr "Сторінки Тенет:"
 
 #: kab_printmethods.cc:256
 msgid "Talk Address:"
-msgstr "������ �������:"
+msgstr "Адреса розмови:"
 
 #: kab_printmethods.cc:257
 msgid "Talk Addresses:"
-msgstr "������ �������:"
+msgstr "Адреси розмови:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
 msgid "Address:"
-msgstr "������:"
+msgstr "Адреса:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
 msgid "Addresses:"
-msgstr "������:"
+msgstr "Адреси:"
 
 #: kab_printmethods.cc:402
 msgid "Unnamed address:"
-msgstr "������ ��� ���Φ:"
+msgstr "Адреса без імені:"
 
 #: kab_printmethods.cc:464 kab_printmethods.cc:468
 msgid "(Deliver to:)"
-msgstr "(���������� �� �������:)"
+msgstr "(Доставляти за адресою:)"
 
-#: kab_htmlexport.cc:333
+#: kab_htmlexport.cc:318
 msgid ""
 "<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
 "customized version of the template files delivered with your kab "
 "installation at another point.</qt>"
 msgstr ""
+"<qt><b>Попередження!</b><br>Не змінюйте цю "
+"установку, якщо Ви не встановили "
+"спеціальну версію файлів шаблонів які "
+"йшли разом з Вашою інсталяцією kab "
+"пізніше.</qt>"
 
-#: kab_htmlexport.cc:338
+#: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
-msgstr ""
+msgstr "Шаблони експорту HTML"
 
-#: kab_htmlexport.cc:344
+#: kab_htmlexport.cc:329
 msgid "Select Template Folder"
-msgstr ""
+msgstr "Виберіть теку шаблонів"
 
-#: kab_htmlexport.cc:358
+#: kab_htmlexport.cc:343
 msgid "Select Target Folder"
-msgstr ""
+msgstr "Виберіть теку призначення"
 
-#: kab_htmlexport.cc:407
+#: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
 msgstr ""
+"Ви повинні вказати теку шаблонів та теку "
+"призначення!"
 
-#: kab_htmlexport.cc:408
+#: kab_htmlexport.cc:393
 msgid "Corrections needed"
-msgstr ""
+msgstr "Потрібні виправлення"
 
-#: kab_htmlexport.cc:462
+#: kab_htmlexport.cc:447
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
 "files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
+"<qt>Відсутній щонайменше один з <b>файлів "
+"ресурсів</b>, які використовуються для "
+"експорту адресної книги в HTML. "
+"Продовжувати попри все?<br><br><i>(Ресурси "
+"використовуються як файли підтримки, як "
+"наприклад,тло або нумерація списків в "
+"вихідних файлах HTML.).</i></qt>"
 
-#: kab_htmlexport.cc:467
+#: kab_htmlexport.cc:452
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
 "to create the HTML files themselves. The HTML export will most probably not "
 "work without it.)</i></qt>"
 msgstr ""
+"<qt>Відсутній щонайменше один з <b>файлів "
+"шаблонів</b>, які використовуються для "
+"експорту адресної книги в HTML. "
+"Продовжувати попри все?<br><br><i>(Шаблони "
+"використовуються як основа для створення "
+"файлів HTML. Експорт HTML, скоріше за все, без "
+"цього працювати не буде).</i></qt>"
 
-#: kab_htmlexport.cc:507
+#: kab_htmlexport.cc:492
 msgid "Missing Resource"
-msgstr ""
+msgstr "Ресурс відсутній"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:510 kab_htmlexport.cc:522
+#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
-msgstr "���������."
+msgstr "Скасовано."
 
-#: kab_htmlexport.cc:519
+#: kab_htmlexport.cc:504
 msgid "Missing Template"
-msgstr ""
+msgstr "Шаблон відсутній"
 
-#: kab_htmlexport.cc:558
+#: kab_htmlexport.cc:543
 msgid ""
 "<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
 "by insufficient permissions in the target directory or failures in the setup "
@@ -731,22 +901,31 @@ msgid ""
 "mistakes in there may also cause errors. As a last possibility, the KDE "
 "address book may be buggy, too :-(.</qt>"
 msgstr ""
+"<qt><b>Вибачте!</b><br><br>Помилка експорту в HTML. "
+"Можливо, причина проблем - недостатні "
+"права в каталозі призначення або помилки "
+"в установці KDE 2.<br><br>Якщо Ви створили Вашу "
+"власну теку шаблонів, там також можуть "
+"бути помилки. Остання можливість, адресна "
+"книга KDE може містити помилки :-(.</qt>"
 
-#: kab_htmlexport.cc:566
+#: kab_htmlexport.cc:551
 msgid "Error exporting to HTML"
-msgstr "������� �������� � HTML"
+msgstr "Помилка експорту в HTML"
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Could not find the users home directory."
-msgstr "��������� ������ �����Φ� ������� ���������ަ�."
+msgstr ""
+"Неможливо знайти домашній каталог "
+"користувачів."
 
 #: kab_createnew.cc:44 kab_openfile.cc:44
 msgid "Intern error!"
-msgstr "����Ҧ��� �������!"
+msgstr "Внутрішня помилка!"
 
 #: kab_createnew.cc:62 kab_openfile.cc:60
 msgid "Only local files supported yet."
-msgstr "������������ Ԧ���� ������Φ �����."
+msgstr "Підтримуються тільки локальні файли."
 
 #: kab_createnew.cc:75
 msgid ""
@@ -754,32 +933,44 @@ msgid ""
 "Please select another filename.\n"
 "You must have permission to write to create the new file."
 msgstr ""
+"Цей файл є каталогом, або він вже існує.\n"
+"Будь ласка, виберіть інше ім'я.\n"
+"У Вас повинні бути достатні права для "
+"запису, щоб створити новий файл."
 
 #: kab_createnew.cc:91
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
 msgstr ""
+"Ім'я файлу не закінчувалося на \".kab\".\n"
+"Його було замінено на %1\n"
 
 #: kab_createnew.cc:93
 msgid "Note"
-msgstr "���ͦ���"
+msgstr "Примітка"
 
 #: kab_createnew.cc:100
 msgid "The file could not be created, possibly permission denied."
-msgstr "��������� �������� ����, �������, ������ ����������."
+msgstr ""
+"Неможливо створити файл, можливо, доступ "
+"заборонено."
 
 #: kab_createnew.cc:101 kab_save.cc:58
 msgid "kab: File error"
-msgstr "kab: ������� �����"
+msgstr "kab: помилка файлу"
 
 #: kab_createnew.cc:109
 msgid "The file has been created, but could not be loaded."
-msgstr "���� ���� ��������, ��� ���� ��������� �����������."
+msgstr ""
+"Файл було створено, але його неможливо "
+"завантажити."
 
 #: kab_openfile.cc:45
 msgid "Could not find the users home directory"
-msgstr "��������� ������ �����Φ� ������� ���������ަ�"
+msgstr ""
+"Неможливо знайти домашній каталог "
+"користувачів"
 
 #: kab_openfile.cc:72
 msgid ""
@@ -787,342 +978,402 @@ msgid ""
 "Use \"Create new database...\" to create a new one.\n"
 "Select an existing file to load it."
 msgstr ""
+"Цей файл є каталогом, або він вже існує.\n"
+"Використовуйте \"Створити нову базу "
+"даних...\", щоб створити новий.\n"
+"В іншому випадку, виберіть існуючій для "
+"завантаження."
 
 #: kab_openfile.cc:86
 msgid "The file could not be loaded."
-msgstr "���� ��������� �����������."
+msgstr "Файл неможливо завантажити."
 
 #: kab_save.cc:36 kab_save.cc:50
 msgid "Internal error."
-msgstr "����Ҧ��� �������."
+msgstr "Внутрішня помилка."
 
 #: kab_save.cc:44
 msgid "Entry stored."
-msgstr "����� ���������."
+msgstr "Запис збережено."
 
 #: kab_save.cc:57
 msgid "The file could not be saved (permission denied)."
-msgstr "��������� �������� ���� (������ ����������)."
+msgstr ""
+"Неможливо зберегти файл (доступ "
+"заборонено)."
 
 #: kab_save.cc:61
 msgid "File saved."
-msgstr "���� ���������."
+msgstr "Файл збережено."
 
 #: look_businesscard.cc:176
 msgid "email: "
-msgstr "��. �����: "
+msgstr "ел. пошта: "
 
 #: look_businesscard.cc:193
 msgid "tel: "
-msgstr "���: "
+msgstr "тел: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr "���� �����������"
+msgstr "Поля користувача"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
-#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:58
-#: look_edit_tabperson.cc:250 look_edit_tabperson.cc:295
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
-msgstr "�������� �������."
+msgstr "Загальна помилка."
 
 #: dialog_configurefile.cc:130 look_edit.cc:70
 msgid "(User fields)"
-msgstr "(���� �����������)"
+msgstr "(Поля користувача)"
 
 #: look_edit.cc:74
 msgid "&Person"
-msgstr "&�����"
+msgstr "&Особа"
 
 #: look_edit.cc:75
 msgid "&Telephone"
-msgstr "&�������"
+msgstr "&Телефон"
 
 #: look_edit.cc:76
 msgid "&Addresses"
-msgstr "&������"
+msgstr "&Адреси"
 
 #: look_edit.cc:77
 msgid "&Birthday"
-msgstr "&���� ����������"
+msgstr "&День народження"
 
 #: look_edit.cc:78
 msgid "Comment"
-msgstr "��������"
-
-#: look_edit_tabperson.cc:39
-msgid "Email addresses..."
-msgstr "������ ��. �����..."
+msgstr "Коментар"
 
 #: look_edit_tabperson.cc:40
-msgid "Talk addresses..."
-msgstr "������ �������..."
+msgid "Email addresses..."
+msgstr "Адреси ел. пошти..."
 
 #: look_edit_tabperson.cc:41
+msgid "Talk addresses..."
+msgstr "Адреси розмови..."
+
+#: look_edit_tabperson.cc:42
 msgid "URLs..."
 msgstr "URL..."
 
-#: look_edit_tabperson.cc:64
+#: look_edit_tabperson.cc:65
 msgid "Formatted name:"
-msgstr "����������� ��'�:"
+msgstr "Форматоване ім'я:"
 
-#: look_edit_tabperson.cc:75
+#: look_edit_tabperson.cc:68
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if "
+"<b>kab</b> assembles it in the wrong way.</qt>"
+msgstr ""
+"<qt>Введіть <i>повне ім'я</i> людини або "
+"організації, якщо<b>kab</b> збирає його "
+"невірно.</qt>"
+
+#: look_edit_tabperson.cc:78
 msgid "First name:"
-msgstr "��'�:"
+msgstr "Ім'я:"
 
-#: look_edit_tabperson.cc:77
+#: look_edit_tabperson.cc:80
 msgid "Middle name:"
-msgstr "��-������צ:"
+msgstr "По-батькові:"
 
-#: look_edit_tabperson.cc:79
+#: look_edit_tabperson.cc:82
 msgid "Last name:"
-msgstr "�Ҧ�����:"
+msgstr "Прізвище:"
 
-#: look_edit_tabperson.cc:96
+#: look_edit_tabperson.cc:99
 msgid "Name prefix:"
-msgstr "���������:"
+msgstr "Звертання:"
 
-#: look_edit_tabperson.cc:98
+#: look_edit_tabperson.cc:101
 msgid "Title:"
-msgstr "���������:"
+msgstr "Заголовок:"
 
-#: look_edit_tabperson.cc:100
+#: look_edit_tabperson.cc:103
 msgid "Rank:"
-msgstr "������:"
+msgstr "Розряд:"
 
-#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:193
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
 msgid "Edit email addresses"
-msgstr "���������� ������ ��. �����"
+msgstr "Редагувати адреси ел. пошти"
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:209
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
 msgid "Edit talk addresses"
-msgstr "���������� ������ �������"
+msgstr "Редагувати адреси розмови"
 
-#: look_edit_tabperson.cc:225
+#: look_edit_tabperson.cc:228
 msgid "Edit URLs"
-msgstr "���������� URL"
+msgstr "Редагувати URL"
 
-#: look_edit_tabperson.cc:243
-msgid "I know this persons birthday:"
-msgstr "� ���� ���� ���������� æ�� �����:"
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
+msgstr "Я знаю День народження цієї особи:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr "���� ����������� 1:"
+msgstr "Поле користувача 1:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
 msgid "User field 2:"
-msgstr "���� ����������� 2:"
+msgstr "Поле користувача 2:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
 msgid "User field 3:"
-msgstr "���� ����������� 3:"
+msgstr "Поле користувача 3:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
 msgid "User field 4:"
-msgstr "���� ����������� 4:"
+msgstr "Поле користувача 4:"
 
 #: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
 msgid "(User field 1)"
-msgstr "(���� ����������� 1)"
+msgstr "(Поле користувача 1)"
 
 #: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
 msgid "(User field 2)"
-msgstr "(���� ����������� 2)"
+msgstr "(Поле користувача 2)"
 
 #: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
 msgid "(User field 3)"
-msgstr "(���� ����������� 3)"
+msgstr "(Поле користувача 3)"
 
 #: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
 msgid "(User field 4)"
-msgstr "(���� ����������� 4)"
+msgstr "(Поле користувача 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
-msgstr ""
+msgstr "Редагувати URL (адреси Інтернет)"
 
 #: look_edit_tabcontact.cc:32
 msgid "Edit telephone numbers"
-msgstr ""
+msgstr "Редагувати номери телефонів"
 
-#: look_edit_tabaddresses.cc:227
+#: look_edit_tabaddresses.cc:231
 msgid ""
 "<qt>Did you know that you may predefine types of addresses?<br>See "
 "<b>Edit->Configure this file</b>.</qt>"
 msgstr ""
+"<qt>Чи знаєте Ви, що можна визначати власні "
+"типи адрес?<br>Див. "
+"<b>Редагування->Налаштувати цей файл</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:229
-#, fuzzy
+#: look_edit_tabaddresses.cc:233
 msgid "A note"
-msgstr "�������"
+msgstr "Примітка"
 
-#: look_edit_tabaddresses.cc:251
+#: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
-msgstr ""
+msgstr "Дійсно вилучити цю адресу?"
 
-#: look_edit_tabaddresses.cc:313
-msgid "Insinuation"
-msgstr ""
+#: look_edit_tabaddresses.cc:317
+msgid "Organization"
+msgstr "Організація"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
-msgstr "���æ�������:"
+msgstr "Стаціонарний:"
 
 #: look_edit_tabtelephone.cc:47
 msgid "Mobile:"
-msgstr "��¦�����:"
+msgstr "Мобільний:"
 
 #: look_edit_tabtelephone.cc:48
 msgid "Fax:"
-msgstr "����"
+msgstr "Факс"
 
 #: look_edit_tabtelephone.cc:49
 msgid "Modem:"
-msgstr "�����:"
+msgstr "Модем:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr "���� ����������� 1:"
+msgstr "Поле користувача 1:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr "���� ����������� 2:"
+msgstr "Поле користувача 2:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr "���� ����������� 3:"
+msgstr "Поле користувача 3:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
-msgstr "���"
+msgstr "Тип"
 
 #: look_edit_tabtelephone.cc:66
 msgid "Number"
-msgstr "�����"
+msgstr "Число"
 
 #: widget_editstringlist.cc:41
 msgid "Add a new string"
-msgstr "������ ����� �����"
+msgstr "Додати новий рядок"
 
 #: widget_editstringlist.cc:42
 msgid "Move this string up"
-msgstr ""
+msgstr "Пересунути рядок вгору"
 
 #: widget_editstringlist.cc:43
 msgid "Move this string down"
-msgstr ""
+msgstr "Пересунути рядок вниз"
 
 #: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr "������� ��� �����"
+msgstr "Витерти цей рядок"
 
 #: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
-msgstr "��������."
+msgstr "Прийнято."
 
 #: dialog_editentry.cc:68
 msgid "Edit entry"
-msgstr "���������� �����"
+msgstr "Редагувати запис"
 
 #: dialog_configurefile.cc:51
 msgid "Cannot query configuration data."
-msgstr ""
+msgstr "Неможливо опитати дані конфігурації."
 
 #: dialog_configurefile.cc:52
 msgid "Internal failure"
-msgstr "����Ҧ��� �������"
+msgstr "Внутрішня помилка"
 
 #: dialog_configurefile.cc:68
 msgid "Settings applied."
-msgstr "��������� ���������Φ."
+msgstr "Параметри застосовані."
 
 #: dialog_configurefile.cc:95
 msgid "Tab name"
-msgstr ""
+msgstr "Назва закладки"
 
 #: dialog_configurefile.cc:154
 msgid "User fields"
-msgstr "���� �����������"
+msgstr "Поля користувача"
 
 #: dialog_configurefile.cc:166
 msgid "Address types"
-msgstr "���� �����"
+msgstr "Типи адрес"
 
 #: dialog_configurefile.cc:190
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
 msgstr ""
+"Неможливо записати Ваші параметри.\n"
+"Можливо, Ви не маєте дозволу для запису у "
+"цей файл."
 
 #: dialog_configurekab.cc:37
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
 msgstr ""
+"Ваш файл конфігурації пошкоджено.\n"
+"Неможливо налаштувати KAB."
 
 #: dialog_configurekab.cc:39
 msgid "Fatal error"
-msgstr "�������� �������"
+msgstr "Фатальна помилка"
 
 #: dialog_configurekab.cc:40
 msgid "Configuration file corrupt."
-msgstr "���� ���Ʀ����æ� �����������."
+msgstr "Файл конфігурації пошкоджений."
 
 #: dialog_configurekab.cc:58
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
+"Помилка збереження Ваших установок.\n"
+"Деякі з них можливо втрачені."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
-msgstr "������� ���������� �������Ҧ�."
+msgstr "Помилка збереження параметрів."
 
 #: dialog_configurekab.cc:63
 msgid "KDE address book preferences."
-msgstr "��������� ������ϧ ����� KDE"
+msgstr "Параметри адресної книги KDE"
 
 #: dialog_configurekab.cc:65
 msgid "Preferences saved."
-msgstr "��������� ���������."
+msgstr "Параметри збережено."
 
 #: dialog_configurekab.cc:69
 msgid ""
 "Cannot save your preferences.\n"
-"May be permission denied."
+"You may not have permission to write the file."
 msgstr ""
+"Неможливо записати Ваші установки.\n"
+"Можливо, Ви не маєте дозволу для запису у "
+"цей файл."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
 msgstr ""
+"Запам'ятовувати останній вибраний "
+"перегляд"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr ""
+msgstr "Запам'ятовувати останній вибраний запис"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr ""
+msgstr "Показувати зібране ім'я у заголовку вікна"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr ""
+msgstr "Створити резервну копію файла при запуску"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
-msgstr "������Φ ���������"
+msgstr "Загальні установки"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
-msgstr "��������:"
+msgid "Organization:"
+msgstr "Організація:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr "���Ħ�:"
+msgstr "Відділ:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
-msgstr "�����Ħ�:"
+msgstr "Підрозділ:"
+
+#: kab_entrylist.cc:55
+msgid "..."
+msgstr "..."
+
+#: kab_entrylist.cc:81
+msgid "No match."
+msgstr "Не знайдено."
+
+#: kab_entrylist.cc:94
+msgid "Calculating..."
+msgstr "Рахую..."
+
+#: kab_entrylist.cc:110
+msgid "(Disabled)"
+msgstr "(Вимкнено)"
+
+#: kab_entrylist.cc:113
+msgid "Error creating index for incremental search."
+msgstr ""
+"Помилка створення індексу для покроковий "
+"пошуку."
+
+#: kab_entrylist.cc:114
+msgid "Incremental search disabled."
+msgstr "Покроковий пошук вимкнено."
+
+#: kab_entrylist.cc:163
+msgid "(No items to search)"
+msgstr "(Немає записів для пошуку)"
