@@ -7,7 +7,8 @@ msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
 "POT-Creation-Date: 2001-01-20 01:26+0100\n"
 "PO-Revision-Date: 2001-02-15 17:10GMT\n"
-"Last-Translator: Christian A Strømmen [Number1/NumeroUno] <number1@realityx.net>\n"
+"Last-Translator: Christian A Strømmen [Number1/NumeroUno] <number1@realityx."
+"net>\n"
 "Language-Team: Norwegian Bokmål <number1@realityx.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +80,6 @@ msgid "Target folder:"
 msgstr "Målmappe:"
 
 #: rc.cpp:17 rc.cpp:18
-
 msgid "Choose ..."
 msgstr "Bla gjennom..."
 
@@ -92,8 +92,8 @@ msgid ""
 "Hide the search results window. This will close the search results window and"
 " clear all results of previous searches."
 msgstr ""
-"Gjem vinduet for søkeresultatet.  Dette vil lukke søkeresultatvinduet og fjerne alle "
-"resultat fra tidligere søk."
+"Gjem vinduet for søkeresultatet.  Dette vil lukke søkeresultatvinduet og fj"
+"erne alle resultat fra tidligere søk."
 
 #: rc.cpp:25
 msgid "Clear the search results and hide this window."
@@ -119,8 +119,8 @@ msgid ""
 "ow."
 msgstr ""
 "Velg felt som skal søkes her.\n"
-"Alle oppføringene der dette feltet passer mønsteret under blir vist i søkeresultat"
-"vinduet. Mønsteret er bygd opp av jokertegn eller regulære uttrykk."
+"Alle oppføringene der dette feltet passer mønsteret under blir vist i søke"
+"resultatvinduet. Mønsteret er bygd opp av jokertegn eller regulære uttrykk."
 
 #: rc.cpp:32
 msgid "... matches ..."
@@ -181,7 +181,6 @@ msgid "Country:"
 msgstr "Land:"
 
 #: rc.cpp:47
-
 msgid "Zip code"
 msgstr "Postnummer"
 
@@ -252,7 +251,6 @@ msgid "Database error"
 msgstr "Databasefeil"
 
 #: kab_topwidget.cc:190
-
 msgid "Welcome to kab 2.1"
 msgstr "Velkommen til kab 2.0"
 
@@ -571,7 +569,6 @@ msgid "Could not get an overview over the existing entries."
 msgstr "Kunne ikke få et overblikk over de eksisterende oppføringene."
 
 #: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
-
 msgid "Internal Error"
 msgstr "Intern feil."
 
@@ -713,9 +710,9 @@ msgid ""
 "omized version of the template files delivered with your kab installation at "
 "another point.</qt>"
 msgstr ""
-"<qt><b>Advarsel!</b><br>Du bør ikke endre denne innstillingen hvis du ikke "
-"ved et annet tidspunkt har installert en tilpasset versjon av malfilene til kab."
-"</qt>"
+"<qt><b>Advarsel!</b><br>Du bør ikke endre denne innstillingen hvis du ikke v"
+"ed et annet tidspunkt har installert en tilpasset versjon av malfilene til ka"
+"b.</qt>"
 
 #: kab_htmlexport.cc:338
 msgid "HTML Export Templates"
@@ -744,8 +741,8 @@ msgid ""
 " like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
 "<qt>Mangler minst en <b>ressursfil</b> for eksport av adresseboken til HTML. "
-"Fortsett likevel? <br><br><i>(Ressurser blir brukt til støttefiler som bakgrunner og "
-"annen grafikk i HTML-filene.)</i></qt>"
+"Fortsett likevel? <br><br><i>(Ressurser blir brukt til støttefiler som bakgr"
+"unner og annen grafikk i HTML-filene.)</i></qt>"
 
 #: kab_htmlexport.cc:467
 msgid ""
@@ -754,9 +751,9 @@ msgid ""
 "eate the HTML files themselves. The HTML export will most probably not work w"
 "ithout it.)</i></qt>"
 msgstr ""
-"<qt>Mangler minst en <b>malfil</b> for eksport av adresseboken til HTML. "
-"Fortsett likevel? <br><br><i>(Malene blir brukt som grunnlag for å lage selve "
-"HTML-filene. HTML-eksporteringen vil sannsynligvis ikke virke uten.)</i></qt>"
+"<qt>Mangler minst en <b>malfil</b> for eksport av adresseboken til HTML. Fort"
+"sett likevel? <br><br><i>(Malene blir brukt som grunnlag for å lage selve HT"
+"ML-filene. HTML-eksporteringen vil sannsynligvis ikke virke uten.)</i></qt>"
 
 #: kab_htmlexport.cc:507
 msgid "Missing Resource"
@@ -779,10 +776,10 @@ msgid ""
 "stakes in there may also cause errors. As a last possibility, the KDE address"
 " book may be buggy, too :-(.</qt>"
 msgstr ""
-"<qt><b>Beklager!</b><br><br>HTML-eksporteringen feilet. Problemet kan komme av "
-"utilstrekkelig tilgang til målkatalogen eller feil ved KDE-oppsettet.<br><br>"
-"Dersom du har laget din egen malmappe kan feil der føre til feil her. Som en siste "
-"mulighet så kan KDE-adresseboken ha feil også :-(</qt>"
+"<qt><b>Beklager!</b><br><br>HTML-eksporteringen feilet. Problemet kan komme a"
+"v utilstrekkelig tilgang til målkatalogen eller feil ved KDE-oppsettet.<br><"
+"br>Dersom du har laget din egen malmappe kan feil der føre til feil her. Som"
+" en siste mulighet så kan KDE-adresseboken ha feil også :-(</qt>"
 
 #: kab_htmlexport.cc:566
 msgid "Error exporting to HTML"
@@ -835,7 +832,6 @@ msgid "The file has been created, but could not be loaded."
 msgstr "Vilen har blitt opprettet, men kunne ikke lastes."
 
 #: kab_openfile.cc:45
-
 msgid "Could not find the users home directory"
 msgstr "Kunne ikke finne brukernes hjemmeområde."
 
@@ -1196,4 +1192,3 @@ msgstr "Avdeling:"
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
 msgstr "Underavdeling:"
-
