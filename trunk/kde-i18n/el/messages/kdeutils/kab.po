@@ -1,7 +1,4 @@
 # KTranslator Generated File
-
-# KTranslator Generated File
-
 # KDE address book - messages translated in greek.
 # Copyright (C) 2000 Free Software Foundation, Inc.
 # Dimitris Kamenopoulos <el97146@mail.ntua.gr>, 2000.
@@ -10,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2000-08-15 01:26+0200\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
 "PO-Revision-Date: 2000-10-08 00:01+0200\n"
 "Last-Translator: Dimitris Kamenopoulos <el97146@mail.ntua.gr>\n"
 "Language-Team: Greek <LL@li.org>\n"
@@ -29,19 +26,23 @@ msgid ""
 "<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
 "version.</qt>"
 msgstr ""
-"<qt>Η έκδοση 2 του βιβλίου διευθύνσεων του KDE δεν είναι συμβατή με την προηγούμενη."
-" Για να προστατευτούν οι διευθύνσεις σας, θα χρησιμοποιηθεί ένα νέο αρχείο για τη βάση δεδομένων. Εκτελέστε "
-"<b>Αρχείο->Εισαγωγή->Βιβλίο Διευθύνσεων KDE 1</b> "
-"για να χρησιμοποιήσετε την παλιά ΒΔ με τη νέα έκδοση του προγράμματος.</qt>"
+"<qt>Η έκδοση 2 του βιβλίου διευθύνσεων του "
+"KDE δεν είναι συμβατή με την προηγούμενη. "
+"Για να προστατευτούν οι διευθύνσεις σας, "
+"θα χρησιμοποιηθεί ένα νέο αρχείο για τη "
+"βάση δεδομένων. Εκτελέστε "
+"<b>Αρχείο->Εισαγωγή->Βιβλίο Διευθύνσεων KDE "
+"1</b> για να χρησιμοποιήσετε την παλιά ΒΔ με "
+"τη νέα έκδοση του προγράμματος.</qt>"
 
 #: kab_main.cc:52
 msgid "new format"
 msgstr "νέα μορφή"
 
-#: dialog_configurefile.cc:127 kab_topwidget.cc:63 look_edit.cc:42
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
 #: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
-#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:242
-#: look_edit_tabperson.cc:281 look_edit_tabuser.cc:49
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
 msgid "Out of memory."
 msgstr "Τελείωσε η μνήμη."
 
@@ -51,7 +52,9 @@ msgstr "Γενική αποτυχία."
 
 #: kab_topwidget.cc:75
 msgid "Could not connect to the address database."
-msgstr "Δε μπόρεσα να συνδεθώ με τη βάση δεδομένων διευθύνσεων."
+msgstr ""
+"Δε μπόρεσα να συνδεθώ με τη βάση "
+"δεδομένων διευθύνσεων."
 
 #: kab_topwidget.cc:76 kab_topwidget.cc:353
 msgid "Database error"
@@ -71,7 +74,8 @@ msgstr "Δημιουργία νέας βάσης δεδομένων..."
 
 #: kab_topwidget.cc:224
 msgid "Open default &database"
-msgstr "Άνοιγμα προκαθορισμένης βάσης δεδομένων"
+msgstr ""
+"Άνοιγμα προκαθορισμένης βάσης δεδομένων"
 
 #: kab_topwidget.cc:229
 msgid "&Import"
@@ -107,7 +111,8 @@ msgstr "Ρύθμιση αυτού του αρχείου..."
 
 #: kab_topwidget.cc:250
 msgid "&Preferences for the KDE address book..."
-msgstr "Προτιμήσεις για το βιβλίο διεθύνσεων KDE..."
+msgstr ""
+"Προτιμήσεις για το βιβλίο διεθύνσεων KDE..."
 
 #: kab_topwidget.cc:254
 msgid "&Business card"
@@ -147,7 +152,9 @@ msgstr "Τελευταία καταχώρηση"
 
 #: kab_topwidget.cc:352
 msgid "The database interface could not be created."
-msgstr "Η διαμεσολάβηση (interface) της βάσης δεδομένων δε μπόρεσε να δημιουργηθεί."
+msgstr ""
+"Η διαμεσολάβηση (interface) της βάσης "
+"δεδομένων δε μπόρεσε να δημιουργηθεί."
 
 #: kab_topwidget.cc:380
 msgid ""
@@ -157,7 +164,8 @@ msgid ""
 msgstr ""
 "Αλλάξατε αυτήν την καταχώρηση.\n"
 "Να αποθηκευτούν οι αλλαγές;\n"
-"(Οι αλλαγές που δεν αποθηκεύονται, χάνονται.)"
+"(Οι αλλαγές που δεν αποθηκεύονται, "
+"χάνονται.)"
 
 #: kab_topwidget.cc:382
 msgid "Save changes?"
@@ -169,9 +177,11 @@ msgstr "Καμία καταχώρηση"
 
 #: kab_topwidget.cc:549
 msgid "The standard file could not be loaded."
-msgstr "Δε μπόρεσα να φορτώσω το τυποποιημένο αρχείο."
+msgstr ""
+"Δε μπόρεσα να φορτώσω το τυποποιημένο "
+"αρχείο."
 
-#: dialog_configurefile.cc:178 kab_createnew.cc:78 kab_createnew.cc:109
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
 #: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
 msgid "File error"
 msgstr "Σφάλμα αρχείου"
@@ -189,7 +199,8 @@ msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
-"Αυτό θα ξαναενεργοποιήσει όλα τα μηνύματα που απενεργοποιήσατε πριν.\n"
+"Αυτό θα ξαναενεργοποιήσει όλα τα "
+"μηνύματα που απενεργοποιήσατε πριν.\n"
 "Να συνεχίσω;"
 
 #: kab_topwidget.cc:580
@@ -213,9 +224,11 @@ msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
 "You do not have writing permissions for this file."
-msgstr "Δε μπορώ να προσθέσω τη νέα καταχώρηση.\n"
+msgstr ""
+"Δε μπορώ να προσθέσω τη νέα καταχώρηση.\n"
 "Μου αρνήθηκε η πρόσβαση.\n"
-"Δεν έχετε άδειες εγγραφής για αυτό το αρχείο."
+"Δεν έχετε άδειες εγγραφής για αυτό το "
+"αρχείο."
 
 #: kab_topwidget.cc:621
 msgid ""
@@ -231,7 +244,9 @@ msgstr "Δεν προστέθηκε καμίά καταχώρηση."
 
 #: kab_topwidget.cc:645
 msgid "Really remove this entry?"
-msgstr "Στ' αλήθεια να διαγράψω αυτήν την καταχώρηση;"
+msgstr ""
+"Στ' αλήθεια να διαγράψω αυτήν την "
+"καταχώρηση;"
 
 #: kab_topwidget.cc:646 look_edit_tabaddresses.cc:433
 msgid "Question"
@@ -253,59 +268,67 @@ msgstr ""
 msgid "Permission denied."
 msgstr "Δε δόθηκε άδεια."
 
-#: kab_topwidget.cc:778
+#: kab_topwidget.cc:785
 msgid "Send an email"
 msgstr "Αποστολή ενός email"
 
-#: kab_topwidget.cc:787
+#: kab_topwidget.cc:794
 msgid "No email addresses."
 msgstr "Καμία διεύθυνση email."
 
 #: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:801
-#: kab_topwidget.cc:844
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
 msgid "Rejected."
 msgstr "Απορίφθηκε."
 
-#: kab_topwidget.cc:823
+#: kab_topwidget.cc:830
 msgid "Browse to ..."
 msgstr "Αναζήτηση σε ..."
 
-#: kab_topwidget.cc:832
+#: kab_topwidget.cc:839
 msgid "No URLs."
 msgstr "Κανένα URL."
 
-#: kab_topwidget.cc:927
+#: kab_topwidget.cc:934
 msgid "Restoring last view."
 msgstr "Επαναφέρω την τελευταία προβολή."
 
-#: kab_topwidget.cc:929
+#: kab_topwidget.cc:936
 msgid "Not restoring last view."
 msgstr "Δεν επαναφέρω την τελευταία προβολή."
 
-#: kab_topwidget.cc:940
+#: kab_topwidget.cc:947
 msgid "Remembering last entry."
 msgstr "Θυμάμαι την τελευταία καταχώρηση."
 
-#: kab_topwidget.cc:942
+#: kab_topwidget.cc:949
 msgid "Not remembering last entry."
 msgstr "Δε θυμάμαι την τελευταία καταχώρηση."
 
-#: kab_topwidget.cc:953
+#: kab_topwidget.cc:960
 msgid "Displaying assembled name in window title."
-msgstr "Εμφάνιση του πλήρους ονόματος στον τίτλος του παραθύρου."
+msgstr ""
+"Εμφάνιση του πλήρους ονόματος στον "
+"τίτλος του παραθύρου."
 
-#: kab_topwidget.cc:955
+#: kab_topwidget.cc:962
 msgid "Not displaying assembled name in window title."
-msgstr "Δε δείχνω το πλήρες όνομα στον τίτλο του παραθύρου."
+msgstr ""
+"Δε δείχνω το πλήρες όνομα στον τίτλο του "
+"παραθύρου."
 
-#: kab_topwidget.cc:966
+#: kab_topwidget.cc:973
 msgid "Creating backup file on startup."
-msgstr "Δημιουργώ το αντίγραφο ασφαλείας κατά την έναρξη."
+msgstr ""
+"Δημιουργώ το αντίγραφο ασφαλείας κατά "
+"την έναρξη."
 
-#: kab_topwidget.cc:968
+#: kab_topwidget.cc:975
 msgid "Not creating a backup file on startup."
-msgstr "Δε δημιουργώ αντίγραφο ασφαλείας κατά την έναρξη."
+msgstr ""
+"Δε δημιουργώ αντίγραφο ασφαλείας κατά "
+"την έναρξη."
 
 #: kab_kab1importer.cc:197
 msgid "Home"
@@ -320,7 +343,8 @@ msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
 msgstr ""
-"Αδύνατη η πρόσβαση στο αρχείο βάσης δεδομένων του kab 1.\n"
+"Αδύνατη η πρόσβαση στο αρχείο βάσης "
+"δεδομένων του kab 1.\n"
 "Μάλλον δε χρησιμοποιήσατε ποτέ το kab 1."
 
 #: kab_kab1importer.cc:292
@@ -328,8 +352,10 @@ msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
 msgstr ""
-"Δε μπόρεσα να διαβάσω το αρχείο της βάσης δεδομένων του kab 1.\n"
-"Μάλλον τροποποιήσατε τη βάση δεδομένων με το χέρι."
+"Δε μπόρεσα να διαβάσω το αρχείο της βάσης "
+"δεδομένων του kab 1.\n"
+"Μάλλον τροποποιήσατε τη βάση δεδομένων "
+"με το χέρι."
 
 #: kab_kab1importer.cc:307
 msgid ""
@@ -350,9 +376,12 @@ msgid ""
 "address book to this file?\n"
 "You will not be able to revert this changes."
 msgstr ""
-"Θέλετε πράγματι να προσθέσετε τις καταχωρήσεις από το \n"
-"βιβλίο διευθύνσεων σας του KDE 1 σε αυτό το αρχείο;\n"
-"Δε θα μπορέσετε να αντιστρέψετε αυτή την ενέργεια."
+"Θέλετε πράγματι να προσθέσετε τις "
+"καταχωρήσεις από το \n"
+"βιβλίο διευθύνσεων σας του KDE 1 σε αυτό το "
+"αρχείο;\n"
+"Δε θα μπορέσετε να αντιστρέψετε αυτή την "
+"ενέργεια."
 
 #: kab_createnew.cc:42 kab_openfile.cc:42
 msgid "Could not find the users home directory."
@@ -368,7 +397,9 @@ msgstr "Ακυρώθηκε."
 
 #: kab_createnew.cc:61 kab_openfile.cc:59
 msgid "Only local files supported yet."
-msgstr "Αυτή τη στιγμή υποστηρίζονται μόνο τοπικά αρχεία."
+msgstr ""
+"Αυτή τη στιγμή υποστηρίζονται μόνο "
+"τοπικά αρχεία."
 
 #: kab_createnew.cc:74
 msgid ""
@@ -391,15 +422,19 @@ msgstr "Σημείωση"
 
 #: kab_createnew.cc:99
 msgid "The file could not be created, possibly permission denied."
-msgstr "Δε μπόρεσα να δημιουργήσω το αρχείο, μάλλον δε δόθηκε άδεια."
+msgstr ""
+"Δε μπόρεσα να δημιουργήσω το αρχείο, "
+"μάλλον δε δόθηκε άδεια."
 
-#: kab_createnew.cc:100 kab_save.cc:59
+#: kab_createnew.cc:100 kab_save.cc:61
 msgid "kab: File error"
 msgstr "kab: Σφάλμα αρχείου"
 
 #: kab_createnew.cc:108
 msgid "The file has been created, but could not be loaded."
-msgstr "Το αρχείο δημιουργήθηκε, αλλά δε μπόρεσα να το φορτώσω."
+msgstr ""
+"Το αρχείο δημιουργήθηκε, αλλά δε μπόρεσα "
+"να το φορτώσω."
 
 #: kab_openfile.cc:71
 msgid ""
@@ -420,19 +455,21 @@ msgstr "Εσωτερικό σφάλμα."
 msgid "Entry stored."
 msgstr "Η καταχώρηση φυλάχθηκε."
 
-#: kab_save.cc:58
+#: kab_save.cc:60
 msgid "The file could not be saved (permission denied)."
-msgstr "Δε μπόρεσα να αποθηκεύσω το αρχείο (δε δόθηκε άδεια)."
+msgstr ""
+"Δε μπόρεσα να αποθηκεύσω το αρχείο (δε "
+"δόθηκε άδεια)."
 
-#: kab_save.cc:62
+#: kab_save.cc:64
 msgid "File saved."
 msgstr "Το αρχείο αποθηκεύθηκε."
 
-#: look_businesscard.cc:174
+#: look_businesscard.cc:175
 msgid "email: "
 msgstr "διεύθ. ηλ. ταχυδρ.:"
 
-#: look_businesscard.cc:191
+#: look_businesscard.cc:192
 msgid "tel: "
 msgstr "τηλ.:"
 
@@ -440,30 +477,34 @@ msgstr "τηλ.:"
 msgid "User Fields"
 msgstr "Πεδία Χρήστη"
 
-#: dialog_configurefile.cc:128 look_edit.cc:43 look_edit.cc:57
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
 #: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
-#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:243
-#: look_edit_tabperson.cc:282 look_edit_tabuser.cc:50
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
 msgid "General failure."
 msgstr "Γενική Αποτυχία."
 
-#: look_edit.cc:71
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(Πεδία χρήστη)"
+
+#: look_edit.cc:74
 msgid "&Person"
 msgstr "Πρόσωπο"
 
-#: look_edit.cc:72
+#: look_edit.cc:75
 msgid "&Telephone"
 msgstr "Τηλέφωνο"
 
-#: look_edit.cc:73
+#: look_edit.cc:76
 msgid "&Addresses"
 msgstr "Διευθύνσεις"
 
-#: look_edit.cc:74
+#: look_edit.cc:77
 msgid "&Birthday"
 msgstr "Γενέθλια"
 
-#: look_edit.cc:75
+#: look_edit.cc:78
 msgid "Comment"
 msgstr "Σχόλιο"
 
@@ -511,11 +552,11 @@ msgstr "Βαθμός:"
 msgid "Edit email addresses"
 msgstr "Διόρθωση διευθύνσεων email"
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:207
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
 msgid "Edit talk addresses"
 msgstr "Διόρθωση διευθύνσεων talk"
 
-#: look_edit_tabperson.cc:222
+#: look_edit_tabperson.cc:224
 msgid "Edit URLs"
 msgstr "Διόρθωση URL"
 
@@ -534,6 +575,22 @@ msgstr "Πεδίο χρήστη 3:"
 #: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
 msgid "User field 4:"
 msgstr "Πεδίο χρήστη 4:"
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr "(Πεδίο χρήστη 1)"
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr "(Πεδίο χρήστη 2)"
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr "(Πεδίο χρήστη 3)"
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
+msgstr "(Πεδίο χρήστη 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
@@ -561,7 +618,7 @@ msgstr "Ανάθεση:"
 
 #: look_edit_tabaddresses.cc:101
 msgid "Insinuation..."
-msgstr ""
+msgstr "Υπαινιγμός..."
 
 #: look_edit_tabaddresses.cc:103 look_edit_tabaddresses.cc:234
 msgid "Edit organisational attributes"
@@ -599,11 +656,13 @@ msgstr "Μία σημείωση"
 
 #: look_edit_tabaddresses.cc:432
 msgid "Really delete this address?"
-msgstr "Στ' αλήθεια να διαγράψω αυτήν την διεθυνση;"
+msgstr ""
+"Στ' αλήθεια να διαγράψω αυτήν την "
+"διεθυνση;"
 
 #: look_edit_tabaddresses.cc:494
 msgid "Insinuation"
-msgstr ""
+msgstr "Υπαινιγμός"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
@@ -647,11 +706,15 @@ msgstr "Προσθήκη μιας νεάς συμβολοσειράς"
 
 #: widget_editstringlist.cc:41
 msgid "Move this string up"
-msgstr "Μετακίνηση προς τα πάνω αυτής της συμβολοσειράς"
+msgstr ""
+"Μετακίνηση προς τα πάνω αυτής της "
+"συμβολοσειράς"
 
 #: widget_editstringlist.cc:42
 msgid "Move this string down"
-msgstr "Μετακίνηση προς τα κάτω αυτής της συμβολοσειράς"
+msgstr ""
+"Μετακίνηση προς τα κάτω αυτής της "
+"συμβολοσειράς"
 
 #: widget_editstringlist.cc:43
 msgid "Delete this string"
@@ -670,15 +733,15 @@ msgstr "Οι ρυθμίσεις εφαρμόστηκαν."
 msgid "Tab name"
 msgstr "Όνομα καρτέλας"
 
-#: dialog_configurefile.cc:133
+#: dialog_configurefile.cc:149
 msgid "User fields"
 msgstr "Πεδία χρήστη"
 
-#: dialog_configurefile.cc:145
+#: dialog_configurefile.cc:161
 msgid "Address types"
 msgstr "Τύποι διευθύνσεων"
 
-#: dialog_configurefile.cc:176
+#: dialog_configurefile.cc:192
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -698,19 +761,23 @@ msgstr "Θανάσιμο σφάλμα"
 
 #: dialog_configurekab.cc:40
 msgid "Configuration file corrupt."
-msgstr "Το αρχείο ρύθμισης είναι κατεστραμμενο."
+msgstr ""
+"Το αρχείο ρύθμισης είναι κατεστραμμενο."
 
 #: dialog_configurekab.cc:58
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
-"Υπήρξε σφάλμα κατά την αποθήκευση των προτιμήσεών σας.\n"
+"Υπήρξε σφάλμα κατά την αποθήκευση των "
+"προτιμήσεών σας.\n"
 "Μερικές από αυτές ίσως να χαθούν."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
-msgstr "Σφάλμα κατά την αποθήκευση των προτιμήσεων."
+msgstr ""
+"Σφάλμα κατά την αποθήκευση των "
+"προτιμήσεων."
 
 #: dialog_configurekab.cc:63
 msgid "KDE address book preferences."
@@ -725,24 +792,33 @@ msgid ""
 "Cannot save your preferences.\n"
 "May be permission denied."
 msgstr ""
-"Δε μπορώ να αποθηκεύσω τις προτιμήσεις σας.\n"
+"Δε μπορώ να αποθηκεύσω τις προτιμήσεις "
+"σας.\n"
 "Πιθανόν δε μου δόθηκε άδεια."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
-msgstr "Να θυμάμαι την τελευταία προβολή που επιλέξατε"
+msgstr ""
+"Να θυμάμαι την τελευταία προβολή που "
+"επιλέξατε"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr "Να θυμάμαι την τελευταία καταχώρηση που επιλέξατε"
+msgstr ""
+"Να θυμάμαι την τελευταία καταχώρηση που "
+"επιλέξατε"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
 msgstr ""
+"Προβολή πλήρους ονόματος στον τίτλο του "
+"παραθύρου"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr "Δημιουργία αντιγράφου ασφαλείας κατά την έναρξη"
+msgstr ""
+"Δημιουργία αντιγράφου ασφαλείας κατά την "
+"έναρξη"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
