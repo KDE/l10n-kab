@@ -1,122 +1,793 @@
 # Danish translations for KDE Utils, kab
-# Copyright (C) 1998 Free Software Foundation, Inc.
-# Erik Kj�r Pedersen <erik@binghamton.edu>, 1998.
+# Copyright (C) 1998.
+# Erik Kjær Pedersen <erik@binghamton.edu>, 1998.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1999-01-26 14:42+0100\n"
-"Last-Translator: Erik Kj�r Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
+"PO-Revision-Date: 2000-10-03 21:24GMT+1.00\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.5(devel)\n"
 
-#: AddressBookAbout.cpp:25
-msgid "About addressbook"
-msgstr "Om adressebog"
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr "KDE adressebog."
 
-#: AddressBookAbout.cpp:35
-msgid "Image load failure"
-msgstr "Billedindl�sningsfejl"
-
-#: AddressBookAbout.cpp:36
-msgid "Could not load addressbook logo image!"
-msgstr "Kunne ikke indl�se adressebogslogo!"
-
-#: AddressBookAbout.cpp:37
+#: kab_main.cc:47
 msgid ""
-"Here you would see\n"
-"the addressbook logo."
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
 msgstr ""
-"Her vil du se\n"
-"adressebogslogoet."
+"<qt>Version 2 af kde's adressebog er ikke kompatibel med den tidligere "
+"udgave.For at beskytte din database med adresse, vil en anden fil blive "
+"brugt. Kør <b>Fil->Importér->KDE 1 adressebog</b> for at bruge din gamle "
+"database med en nye version."
 
-#: AddressBookAbout.cpp:44
-msgid "written and maintained by"
-msgstr "skrevet og vedligeholdt af"
+#: kab_main.cc:52
+msgid "new format"
+msgstr "nyt format"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, December 1998"
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
+#: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
+msgid "Out of memory."
+msgstr "Ude af hukommelse"
 
-#: toplevelwidget.cc:35 toplevelwidget.cc:43
-msgid "Initialization failure"
-msgstr "Initialisering mislykkedes"
+#: kab_topwidget.cc:64
+msgid "General failure"
+msgstr "Generel fejl"
 
-#: toplevelwidget.cc:37
-msgid "The program's menubar could not be constructed."
-msgstr "Programmets menulinie kunne ikke konstrueres."
+#: kab_topwidget.cc:75
+msgid "Could not connect to the address database."
+msgstr "Kunne ikke forbinde til adresse databasen."
 
-#: toplevelwidget.cc:45
-msgid "The program's statusbar could not be constructed."
-msgstr "Programmets statuslinie kunne ikke konstrueres."
+#: kab_topwidget.cc:76 kab_topwidget.cc:353
+msgid "Database error"
+msgstr "Database fejl"
 
-#: toplevelwidget.cc:58
-msgid "KDE addressbook."
-msgstr "KDE Adressebog."
+#: kab_topwidget.cc:158
+msgid "Welcome to kab 2.0"
+msgstr "Velkommen til kab 2.0"
 
-#: toplevelwidget.cc:73
-msgid "HTML table"
-msgstr "HTML-tabel"
+#: kab_topwidget.cc:218
+msgid "&KDE 1 address book"
+msgstr "&KDE 1 adressebog."
 
-#: toplevelwidget.cc:82
-msgid "Export"
-msgstr "Eksport"
+#: kab_topwidget.cc:220
+msgid "&Create new database..."
+msgstr "&Opret ny database..."
 
-#: toplevelwidget.cc:84
-msgid "Search &entries"
-msgstr "S�g &indgange"
+#: kab_topwidget.cc:224
+msgid "Open default &database"
+msgstr "Åbn standard &database"
 
-#: toplevelwidget.cc:86
-msgid "&Print"
-msgstr "Ud&skriv"
+#: kab_topwidget.cc:229
+msgid "&Import"
+msgstr "&Importér..."
 
-#: toplevelwidget.cc:98
-msgid "&Add entry"
-msgstr "&Tilf�j indgang"
+#: kab_topwidget.cc:234
+msgid "&Add entry..."
+msgstr "&Tilføj indgang..."
 
-#: toplevelwidget.cc:100
-msgid "&Edit entry"
-msgstr "&Rediger indgang"
+#: kab_topwidget.cc:236
+msgid "&Edit entry..."
+msgstr "&Redigér indgang..."
 
-#: toplevelwidget.cc:102
+#: kab_topwidget.cc:238
 msgid "&Remove entry"
 msgstr "&Fjern indgang"
 
-#: toplevelwidget.cc:114
-msgid "&Mail"
-msgstr "&Post"
+#: kab_topwidget.cc:241
+msgid "Send an e&mail"
+msgstr "Send en &epost"
 
-#: toplevelwidget.cc:116
-msgid "&Talk"
-msgstr "&Snak"
-
-#: toplevelwidget.cc:118
+#: kab_topwidget.cc:243
 msgid "&Browse"
-msgstr "&Blad igennem"
+msgstr "&Gennemse"
 
-#: toplevelwidget.cc:123
-msgid "Help on Addressbook"
-msgstr "Hj�lp til Adressebogen"
+#: kab_topwidget.cc:245
+msgid "Enable all &messages"
+msgstr "Slå alle &beskeder til"
 
-#: toplevelwidget.cc:128
-msgid "About Addressbook"
-msgstr "Om Adressebog"
+#: kab_topwidget.cc:247
+msgid "&Configure this file..."
+msgstr "&Indstil denne fil..."
 
-#: toplevelwidget.cc:130
-msgid "About &Qt"
-msgstr "Om &Qt"
+#: kab_topwidget.cc:250
+msgid "&Preferences for the KDE address book..."
+msgstr "&Indstillinger for KDE adressebog..."
 
-#: toplevelwidget.cc:131
-msgid "About &KDE"
-msgstr "Om &KDE"
+#: kab_topwidget.cc:254
+msgid "&Business card"
+msgstr "&Forretningskort"
 
-#: toplevelwidget.cc:138
-msgid "&About"
-msgstr "&Om"
+#: kab_topwidget.cc:256
+msgid "&Editing"
+msgstr "&Redigering"
 
-#: toplevelwidget.cc:190
-msgid "About Qt"
-msgstr "Om Qt"
+#: kab_topwidget.cc:273
+msgid "New entry"
+msgstr "Ny indgang"
+
+#: dialog_editentry.cc:69 kab_topwidget.cc:275
+msgid "Edit entry"
+msgstr "Redigér indgang"
+
+#: kab_topwidget.cc:277
+msgid "Delete entry"
+msgstr "Slet indgang"
+
+#: kab_topwidget.cc:280
+msgid "First entry"
+msgstr "Første indgang"
+
+#: kab_topwidget.cc:282
+msgid "Previous entry"
+msgstr "Forrige indgang"
+
+#: kab_topwidget.cc:288
+msgid "Next entry"
+msgstr "Næste indgang"
+
+#: kab_topwidget.cc:291
+msgid "Last entry"
+msgstr "Sidste indgang"
+
+#: kab_topwidget.cc:352
+msgid "The database interface could not be created."
+msgstr "Databasens brugerflade kunne ikke oprettes."
+
+#: kab_topwidget.cc:380
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"Du ændrede denne indgang.\n"
+"Gem ændringer?\n"
+"(Ugemte ændringer vil gå tabt.)"
+
+#: kab_topwidget.cc:382
+msgid "Save changes?"
+msgstr "Gem ændringer?"
+
+#: kab_topwidget.cc:410
+msgid "No entries."
+msgstr "Ingen indgange"
+
+#: kab_topwidget.cc:549
+msgid "The standard file could not be loaded."
+msgstr "Standard filen kunne ikke indlæses."
+
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
+#: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
+msgid "File error"
+msgstr "Filfejl"
+
+#: kab_topwidget.cc:563
+msgid "Business card view."
+msgstr "Forretningskort visning"
+
+#: kab_topwidget.cc:571
+msgid "Editing view."
+msgstr "Redigerings visning."
+
+#: kab_topwidget.cc:578
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"Dette vil slå alle beskeder til du slog fra før.\n"
+"Fortsæt?"
+
+#: kab_topwidget.cc:580
+msgid "Enable messages?"
+msgstr "Slå beskeder til?"
+
+#: kab_topwidget.cc:598
+msgid "New entry added."
+msgstr "Ny indgang tilføjet"
+
+#: kab_topwidget.cc:599
+msgid "Saving new entry."
+msgstr "Gemmer ny indgang."
+
+#: kab_topwidget.cc:601
+msgid "Done."
+msgstr "Færdig."
+
+#: kab_topwidget.cc:613
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+"Kan ikke tilføje ny indgang.\n"
+"Tilladelse nægtet\n"
+"Du har ikke skriveret til denne fil."
+
+#: kab_topwidget.cc:621
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Kan ikke tilføje ny indgang.\n"
+"Ukendt grund"
+
+#: kab_topwidget.cc:627
+msgid "No entry added."
+msgstr "Ingen indgang tilføjet"
+
+#: kab_topwidget.cc:645
+msgid "Really remove this entry?"
+msgstr "Vil du virkelig fjerne denne indgang"
+
+#: kab_topwidget.cc:646 look_edit_tabaddresses.cc:433
+msgid "Question"
+msgstr "Spørgsmål"
+
+#: kab_topwidget.cc:652
+msgid "Entry deleted."
+msgstr "Indgang slettet"
+
+#: kab_topwidget.cc:660
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"Kunne ikke slette indgangen\n"
+"(formodentlig blev tilladelse nægtet)."
+
+#: dialog_configurefile.cc:61 kab_save.cc:48 kab_topwidget.cc:663
+msgid "Permission denied."
+msgstr "Tilladelse nægtet."
+
+#: kab_topwidget.cc:785
+msgid "Send an email"
+msgstr "Send en epost"
+
+#: kab_topwidget.cc:794
+msgid "No email addresses."
+msgstr "Ingen epost adresser."
+
+#: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
+msgid "Rejected."
+msgstr "Afvist."
+
+#: kab_topwidget.cc:830
+msgid "Browse to ..."
+msgstr "Gennemsøg til ..."
+
+#: kab_topwidget.cc:839
+msgid "No URLs."
+msgstr "Ingen Url'er."
+
+#: kab_topwidget.cc:934
+msgid "Restoring last view."
+msgstr "Genopretter sidste visning."
+
+#: kab_topwidget.cc:936
+msgid "Not restoring last view."
+msgstr "Genopretter ikke sidste visning."
+
+#: kab_topwidget.cc:947
+msgid "Remembering last entry."
+msgstr "Husker sidste indgang."
+
+#: kab_topwidget.cc:949
+msgid "Not remembering last entry."
+msgstr "Husker ikke sidste indgang."
+
+#: kab_topwidget.cc:960
+msgid "Displaying assembled name in window title."
+msgstr "Viser det samlede navn i vinduestitlen."
+
+#: kab_topwidget.cc:962
+msgid "Not displaying assembled name in window title."
+msgstr "Viser ikke det samlede navni vinduestitlen."
+
+#: kab_topwidget.cc:973
+msgid "Creating backup file on startup."
+msgstr "Opretter sikkerhedskopi ved opstart."
+
+#: kab_topwidget.cc:975
+msgid "Not creating a backup file on startup."
+msgstr "Opretter ikke sikkerhedskopi ved opstart."
+
+#: kab_kab1importer.cc:197
+msgid "Home"
+msgstr "Hjem"
+
+#: kab_kab1importer.cc:239
+msgid "Imported kab 1 addressbook."
+msgstr "Importeret kab 1 adressebog."
+
+#: kab_kab1importer.cc:278
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"Kunne ikke få adgang til kab 1 databasefil.\n"
+"Formodentlig har du aldrig brugt kab 1."
+
+#: kab_kab1importer.cc:292
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kunne ikke læse kab 1 databasefil.\n"
+"Formodentlig har du ændret din databasefil manuelt."
+
+#: kab_kab1importer.cc:307
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kunne ikke finde indgangssektionen i din database.\n"
+"Formodentlig har du ændret din databasefil manuelt."
+
+#: kab_kab1importer.cc:335
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"Advarsel: Der skete fejl ved importen af KDE 1\n"
+"adressedatabasen.\n"
+
+#: kab_kab1importer.cc:340
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"Vil du virkelig tilføje indgangene i din KDE 1\n"
+"adressebogsfil til denne fil?\n"
+"Du vil ikke være i stand til at omgøre disse\n"
+"ændringer."
+
+#: kab_createnew.cc:42 kab_openfile.cc:42
+msgid "Could not find the users home directory."
+msgstr "Kunne ikke finde brugernes hjemmemappe"
+
+#: kab_createnew.cc:43 kab_openfile.cc:43
+msgid "Intern error!"
+msgstr "Programfejl!"
+
+#: kab_createnew.cc:54 kab_openfile.cc:52
+msgid "Cancelled."
+msgstr "Annulleret."
+
+#: kab_createnew.cc:61 kab_openfile.cc:59
+msgid "Only local files supported yet."
+msgstr "Kun lokale filer er understøttede indtil videre."
+
+#: kab_createnew.cc:74
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"Denne fil er en mappe, eller den eksisterer allerede.\n"
+"Vælg hellere et andet filnavn.\n"
+"Du skal have tilladelse til at skrive eller oprette den nye fil."
+
+#: kab_createnew.cc:90
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+"Filnavnet endte ikke med \"kab\".\n"
+"Det er blevet ændret til %1\n"
+
+#: kab_createnew.cc:92
+msgid "Note"
+msgstr "Bemærk"
+
+#: kab_createnew.cc:99
+msgid "The file could not be created, possibly permission denied."
+msgstr "Denne fil kunne ikke oprettes, muligvis er tilladelse nægtet."
+
+#: kab_createnew.cc:100 kab_save.cc:61
+msgid "kab: File error"
+msgstr "kab: Filfejl"
+
+#: kab_createnew.cc:108
+msgid "The file has been created, but could not be loaded."
+msgstr "Filen blev oprettet men ikke indlæst."
+
+#: kab_openfile.cc:71
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"Enten eksisterer filen ikke eller også er det en mappe.\n"
+"Brug \"Opret nu database\" for at oprette en ny.\n"
+"Vælg en eksisterende fil for at indlæse den."
+
+#: kab_openfile.cc:85
+msgid "The file could not be loaded."
+msgstr "Filen kunne ikke indlæses.."
+
+#: kab_save.cc:37 kab_save.cc:51
+msgid "Internal error."
+msgstr "Indre fejl."
+
+#: kab_save.cc:45
+msgid "Entry stored."
+msgstr "Indgang gemt"
+
+#: kab_save.cc:60
+msgid "The file could not be saved (permission denied)."
+msgstr "Filen kunne ikke gemmes (tilladelse nægtet)"
+
+#: kab_save.cc:64
+msgid "File saved."
+msgstr "Fil gemt."
+
+#: look_businesscard.cc:175
+msgid "email: "
+msgstr "epost: "
+
+#: look_businesscard.cc:192
+msgid "tel: "
+msgstr "tel: "
+
+#: look_edit.cc:36
+msgid "User Fields"
+msgstr "Brugerfelter"
+
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
+#: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
+msgid "General failure."
+msgstr "Generel fejl"
+
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(Bruger felter)"
+
+#: look_edit.cc:74
+msgid "&Person"
+msgstr "&Person"
+
+#: look_edit.cc:75
+msgid "&Telephone"
+msgstr "&Telefon"
+
+#: look_edit.cc:76
+msgid "&Addresses"
+msgstr "&Adresser"
+
+#: look_edit.cc:77
+msgid "&Birthday"
+msgstr "&Fødselsdag"
+
+#: look_edit.cc:78
+msgid "Comment"
+msgstr "Bemærkning"
+
+#: look_edit_tabperson.cc:38
+msgid "Email addresses..."
+msgstr "Epost adresser..."
+
+#: look_edit_tabperson.cc:39
+msgid "Talk addresses..."
+msgstr "Talk-adresser..."
+
+#: look_edit_tabperson.cc:40
+msgid "URLs..."
+msgstr "Url'er"
+
+#: look_edit_tabperson.cc:63
+msgid "Formatted name:"
+msgstr "Formateret navn:"
+
+#: look_edit_tabperson.cc:74
+msgid "First name:"
+msgstr "Fornavn:"
+
+#: look_edit_tabperson.cc:76
+msgid "Middle name:"
+msgstr "Mellemnavn:"
+
+#: look_edit_tabperson.cc:78
+msgid "Last name:"
+msgstr "Efternavn:"
+
+#: look_edit_tabperson.cc:95
+msgid "Name prefix:"
+msgstr "Start på navn:"
+
+#: look_edit_tabperson.cc:97
+msgid "Title:"
+msgstr "Titel:"
+
+#: look_edit_tabperson.cc:99
+msgid "Rank:"
+msgstr "Rangering:"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:192
+msgid "Edit email addresses"
+msgstr "Redigér epost adresser"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
+msgid "Edit talk addresses"
+msgstr "Redigér talk-adresser"
+
+#: look_edit_tabperson.cc:224
+msgid "Edit URLs"
+msgstr "Redigér Url'er"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:34
+msgid "User field 1:"
+msgstr "Bruger felt 1:"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:35
+msgid "User field 2:"
+msgstr "Bruger felt 2:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:36
+msgid "User field 3:"
+msgstr "Bruger felt 3:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
+msgid "User field 4:"
+msgstr "Bruger felt 4:"
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr "(Bruger felt 1)"
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr "(Bruger felt 2)"
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr "(Bruger felt 3)"
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
+msgstr "(Bruger felt 4)"
+
+#: look_edit_tabcontact.cc:31
+msgid "Edit URLs (internet addresses)"
+msgstr "Redigér Url'er (internet adresser)"
+
+#: look_edit_tabcontact.cc:32
+msgid "Edit telephone numbers"
+msgstr "Redigér telefonnumre"
+
+#: look_edit_tabaddresses.cc:63 look_edit_tabaddresses.cc:208
+msgid "Add another address"
+msgstr "Tilføj én til adresse"
+
+#: look_edit_tabaddresses.cc:66 look_edit_tabaddresses.cc:212
+msgid "Delete this address"
+msgstr "Slet denne adresse"
+
+#: look_edit_tabaddresses.cc:79
+msgid "Headline:"
+msgstr "Overskrift:"
+
+#: look_edit_tabaddresses.cc:94 look_edit_tabaddresses.cc:225
+msgid "Assignment:"
+msgstr "Opgave:"
+
+#: look_edit_tabaddresses.cc:101
+msgid "Insinuation..."
+msgstr "Insinuation..."
+
+#: look_edit_tabaddresses.cc:103 look_edit_tabaddresses.cc:234
+msgid "Edit organisational attributes"
+msgstr "Redigér organisatoriske egenskaber"
+
+#: look_edit_tabaddresses.cc:111 look_edit_tabaddresses.cc:246
+msgid "Street:"
+msgstr "Gade:"
+
+#: look_edit_tabaddresses.cc:120 look_edit_tabaddresses.cc:253
+msgid "City"
+msgstr "By"
+
+#: look_edit_tabaddresses.cc:121 look_edit_tabaddresses.cc:255
+msgid "State"
+msgstr "Tilstand"
+
+#: look_edit_tabaddresses.cc:122 look_edit_tabaddresses.cc:257
+msgid "Zipcode"
+msgstr "Postnummer"
+
+#: look_edit_tabaddresses.cc:142 look_edit_tabaddresses.cc:273
+msgid "Country:"
+msgstr "Land"
+
+#: look_edit_tabaddresses.cc:408
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt>Vidste du at man kan prædefinere typer af adresser?<br> "
+"Se<b>Redigér->Indstil denne fil</b></qt>"
+
+#: look_edit_tabaddresses.cc:410
+msgid "A note"
+msgstr "En note"
+
+#: look_edit_tabaddresses.cc:432
+msgid "Really delete this address?"
+msgstr "Vil du virkelig fjerne denne adresse?"
+
+#: look_edit_tabaddresses.cc:494
+msgid "Insinuation"
+msgstr "Insinuation"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fixed:"
+msgstr "Ordnet:"
+
+#: look_edit_tabtelephone.cc:47
+msgid "Mobile:"
+msgstr "Mobil:"
+
+#: look_edit_tabtelephone.cc:48
+msgid "Fax:"
+msgstr "Fax:"
+
+#: look_edit_tabtelephone.cc:49
+msgid "Modem:"
+msgstr "Modem:"
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 1:"
+msgstr "Bruger defineret felt 1:"
+
+#: look_edit_tabtelephone.cc:51
+msgid "User defined 2:"
+msgstr "Bruger defineret felt 2:"
+
+#: look_edit_tabtelephone.cc:52
+msgid "User defined 3:"
+msgstr "Bruger defineret felt 3:"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Type"
+msgstr "Type"
+
+#: look_edit_tabtelephone.cc:66
+msgid "Number"
+msgstr "Nummer"
+
+#: widget_editstringlist.cc:40
+msgid "Add a new string"
+msgstr "Tilføj ny streng"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string up"
+msgstr "Flyt denne streng op"
+
+#: widget_editstringlist.cc:42
+msgid "Move this string down"
+msgstr "Flyt denne streng ned"
+
+#: widget_editstringlist.cc:43
+msgid "Delete this string"
+msgstr "Slet denne streng"
+
+#: dialog_configurefile.cc:58 dialog_configurekab.cc:53 dialog_editentry.cc:51
+#: dialog_editentry.cc:74
+msgid "Accepted."
+msgstr "Accepteret"
+
+#: dialog_configurefile.cc:63
+msgid "Settings applied."
+msgstr "Opsætning anvendt."
+
+#: dialog_configurefile.cc:90
+msgid "Tab name"
+msgstr "Tab navn"
+
+#: dialog_configurefile.cc:149
+msgid "User fields"
+msgstr "Bruger felter"
+
+#: dialog_configurefile.cc:161
+msgid "Address types"
+msgstr "Adressetyper"
+
+#: dialog_configurefile.cc:192
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"Kan ikke gemme din opsætning.\n"
+"Du har muligvis ikke tilladelse til at skrive til denne fil."
+
+#: dialog_configurekab.cc:37
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+"Din indstillingsfil er korrumperet.\n"
+"kab kan ikke indstilles."
+
+#: dialog_configurekab.cc:39
+msgid "Fatal error"
+msgstr "Fatal fejl"
+
+#: dialog_configurekab.cc:40
+msgid "Configuration file corrupt."
+msgstr "Indstillingsfil korrumperet."
+
+#: dialog_configurekab.cc:58
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+"Der skete en fejl ved gemning af dine indstillinger.\n"
+"Nogle af dem er måske gået tabt."
+
+#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+msgid "Error saving preferences."
+msgstr "Fejl ved gemning af indstillinger."
+
+#: dialog_configurekab.cc:63
+msgid "KDE address book preferences."
+msgstr "KDE adressebog indstillinger."
+
+#: dialog_configurekab.cc:65
+msgid "Preferences saved."
+msgstr "Indstillinger gemt."
+
+#: dialog_configurekab.cc:69
+msgid ""
+"Cannot save your preferences.\n"
+"May be permission denied."
+msgstr ""
+"Kan ikke gemme dine indstillinger.\n"
+"Måske er tilladelse nægtet."
+
+#: dialog_configurekab.cc:88
+msgid "Remember last selected view"
+msgstr "Husk sidst valgte visning"
+
+#: dialog_configurekab.cc:90
+msgid "Remember last selected entry"
+msgstr "Husk sidst valgte indgang"
+
+#: dialog_configurekab.cc:92
+msgid "Show assembled name in window title"
+msgstr "Vis sammensat navn i vinduestitlen"
+
+#: dialog_configurekab.cc:94
+msgid "Create backup file on startup"
+msgstr "Opret sikkerhedskopi ved opstart"
+
+#: dialog_configurekab.cc:95
+msgid "General settings"
+msgstr "Almindelig opsætning"
+
+#: dialog_insinuation.cc:29
+msgid "Organisation:"
+msgstr "Organisation:"
+
+#: dialog_insinuation.cc:30
+msgid "Department:"
+msgstr "Afdeling:"
+
+#: dialog_insinuation.cc:31
+msgid "Sub-Department:"
+msgstr "Underafdeling:"
