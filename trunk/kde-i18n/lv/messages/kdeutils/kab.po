@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-04-24 01:47+0200\n"
-"PO-Revision-Date: 2001-04-29 09:19EET\n"
-"Last-Translator: Andris Maziks <andris.m@delfi.lv>\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-07-17 12:22EST\n"
+"Last-Translator: Andris Maziks <andzha@latnet.lv>\n"
 "Language-Team: Latvian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.8\n"
+"X-Generator: KBabel 0.9.1\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: rc.cpp:14
 msgid "Entry List"
-msgstr ""
+msgstr "Ierakstu Saraksts"
 
 #: rc.cpp:15
 msgid ""
@@ -82,15 +82,15 @@ msgstr ""
 
 #: kab_htmlexport.cc:380 rc.cpp:18
 msgid "Setup HTML export"
-msgstr ""
+msgstr "Uzstādīt HTML eksportu"
 
 #: rc.cpp:19
 msgid "Template folder:"
-msgstr ""
+msgstr "Šablonu mape:"
 
 #: rc.cpp:20
 msgid "Target folder:"
-msgstr ""
+msgstr "Mērķa mape:"
 
 #: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
@@ -112,7 +112,7 @@ msgstr ""
 
 #: rc.cpp:31
 msgid "Print your search results."
-msgstr ""
+msgstr "Drukāt jūsu meklēšanas rezultātus."
 
 #: rc.cpp:33
 msgid "Search for people in your addressbook:"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: rc.cpp:37
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #: rc.cpp:38
 msgid "Enter your expression here."
@@ -177,11 +177,11 @@ msgid "Check this box if you use classical regular expressions in your pattern."
 msgstr ""
 
 #: rc.cpp:48
-msgid "Headline:"
+msgid "Address type (e.g. Home):"
 msgstr ""
 
 #: rc.cpp:49
-msgid "Insinuation..."
+msgid "Organization..."
 msgstr ""
 
 #: rc.cpp:50
@@ -205,8 +205,8 @@ msgid "Street address:"
 msgstr ""
 
 #: rc.cpp:55
-msgid "Assignment:"
-msgstr ""
+msgid "Job title:"
+msgstr "Ieņemamais amats:"
 
 #: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
@@ -220,8 +220,8 @@ msgstr ""
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
 
 #: kab_main.cc:56
@@ -229,358 +229,362 @@ msgid "new format"
 msgstr ""
 
 #: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
 msgstr ""
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
 msgstr ""
 
-#: kab_topwidget.cc:92
+#: kab_topwidget.cc:93
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:537
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
 msgstr ""
 
-#: kab_topwidget.cc:203
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
 msgstr ""
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
 msgstr ""
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr ""
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
 msgstr ""
 
-#: kab_topwidget.cc:277
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
 msgstr ""
 
-#: kab_topwidget.cc:281
+#: kab_topwidget.cc:282
 msgid "&First entry"
 msgstr ""
 
-#: kab_topwidget.cc:285
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
 msgstr ""
 
-#: kab_topwidget.cc:289
+#: kab_topwidget.cc:290
 msgid "&Next entry"
 msgstr ""
 
-#: kab_topwidget.cc:293
+#: kab_topwidget.cc:294
 msgid "&Last entry"
 msgstr ""
 
-#: kab_topwidget.cc:297
+#: kab_topwidget.cc:298
 msgid "&Add entry..."
 msgstr ""
 
-#: kab_topwidget.cc:301
+#: kab_topwidget.cc:302
 msgid "&Edit entry..."
 msgstr ""
 
-#: kab_topwidget.cc:305
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
 msgstr "&Aizvākt ierakstu"
 
-#: kab_topwidget.cc:309
+#: kab_topwidget.cc:310
 msgid "Send an e&mail"
 msgstr ""
 
-#: kab_topwidget.cc:313
+#: kab_topwidget.cc:314
 msgid "&Browse"
 msgstr "&Pārlūkot"
 
-#: kab_topwidget.cc:317
+#: kab_topwidget.cc:318
 msgid "&Search entries..."
 msgstr ""
 
-#: kab_topwidget.cc:321
+#: kab_topwidget.cc:322
 msgid "Show search results"
 msgstr ""
 
-#: kab_topwidget.cc:326
+#: kab_topwidget.cc:327
 msgid "Show main toolbar"
 msgstr ""
 
-#: kab_topwidget.cc:331
+#: kab_topwidget.cc:332
 msgid "Show entry navigation toolbar"
 msgstr ""
 
-#: kab_topwidget.cc:336
+#: kab_topwidget.cc:337
 msgid "Show entry navigation list"
 msgstr ""
 
-#: kab_topwidget.cc:341
+#: kab_topwidget.cc:342
 msgid "Print entry..."
 msgstr ""
 
-#: kab_topwidget.cc:345
+#: kab_topwidget.cc:346
 msgid "Print entries..."
 msgstr ""
 
-#: kab_topwidget.cc:349
+#: kab_topwidget.cc:350
 msgid "&Editing"
 msgstr ""
 
-#: kab_topwidget.cc:353
+#: kab_topwidget.cc:354
 msgid "&Business Card"
 msgstr ""
 
-#: kab_topwidget.cc:376
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
 msgstr ""
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:379
+msgid "&Netscape address book"
+msgstr ""
+
+#: kab_topwidget.cc:386
 msgid "&Create new database..."
 msgstr ""
 
-#: kab_topwidget.cc:387
+#: kab_topwidget.cc:390
 msgid "Open default &database"
 msgstr ""
 
-#: kab_topwidget.cc:391
+#: kab_topwidget.cc:394
 msgid "&Import"
 msgstr "&Importēt"
 
-#: kab_topwidget.cc:392
+#: kab_topwidget.cc:395
 msgid "&Print"
 msgstr "&Drukāt"
 
-#: kab_topwidget.cc:407
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
 msgstr ""
 
-#: kab_topwidget.cc:409
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
 msgstr ""
 
-#: kab_topwidget.cc:412
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
 msgstr ""
 
-#: kab_topwidget.cc:534
+#: kab_topwidget.cc:537
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
 
-#: kab_topwidget.cc:566
+#: kab_topwidget.cc:569
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
 "(Unsaved changes will be lost.)"
 msgstr ""
 
-#: kab_topwidget.cc:568
+#: kab_topwidget.cc:571
 msgid "Save changes?"
 msgstr ""
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:576
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
 msgstr ""
 
-#: kab_topwidget.cc:605
+#: kab_topwidget.cc:608
 msgid "No entries."
 msgstr ""
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
 msgstr ""
 
-#: kab_topwidget.cc:711
+#: kab_topwidget.cc:727
 msgid "Critical failure"
 msgstr ""
 
-#: kab_topwidget.cc:716
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
 msgstr ""
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:717
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
 msgstr "Faila kļūda"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:748
 msgid "Business card view."
 msgstr ""
 
-#: kab_topwidget.cc:743
+#: kab_topwidget.cc:759
 msgid "Editing view."
 msgstr ""
 
-#: kab_topwidget.cc:751
+#: kab_topwidget.cc:767
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
 
-#: kab_topwidget.cc:753
+#: kab_topwidget.cc:769
 msgid "Enable messages?"
 msgstr ""
 
-#: kab_topwidget.cc:772
+#: kab_topwidget.cc:788
 msgid "New entry added."
 msgstr ""
 
-#: kab_topwidget.cc:773
+#: kab_topwidget.cc:789
 msgid "Saving new entry."
 msgstr ""
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:791
 msgid "Done."
 msgstr "Pabeigts."
 
-#: kab_topwidget.cc:796
+#: kab_topwidget.cc:812
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
-"You may not have writing permissions for this file."
+"You may not have write permission for this file."
 msgstr ""
 
-#: kab_topwidget.cc:804
+#: kab_topwidget.cc:820
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
 msgstr ""
 
-#: kab_topwidget.cc:810
+#: kab_topwidget.cc:826
 msgid "No entry added."
 msgstr ""
 
-#: kab_topwidget.cc:828
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
 msgstr ""
 
-#: kab_topwidget.cc:829 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
 msgstr "Jautājums"
 
-#: kab_topwidget.cc:835
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
 msgstr ""
 
-#: kab_topwidget.cc:837
+#: kab_topwidget.cc:853
 msgid "Database saved."
 msgstr ""
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:860
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
 msgstr ""
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:847
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
 msgstr "Trūkst tiesību."
 
-#: kab_topwidget.cc:909
+#: kab_topwidget.cc:925
 msgid "Send an email"
 msgstr ""
 
-#: kab_topwidget.cc:918
+#: kab_topwidget.cc:934
 msgid "No email addresses."
 msgstr ""
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
 #: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:932
-#: kab_topwidget.cc:980 kab_topwidget.cc:1383
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
 msgstr ""
 
-#: kab_topwidget.cc:958
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
 msgstr ""
 
-#: kab_topwidget.cc:966
+#: kab_topwidget.cc:982
 msgid "No URLs."
 msgstr ""
 
-#: kab_topwidget.cc:1027
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
 msgstr ""
 
-#: kab_topwidget.cc:1029
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
 msgstr ""
 
-#: kab_topwidget.cc:1040
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
 msgstr ""
 
-#: kab_topwidget.cc:1042
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
 msgstr ""
 
-#: kab_topwidget.cc:1053
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
 msgstr ""
 
-#: kab_topwidget.cc:1055
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
 msgstr ""
 
-#: kab_topwidget.cc:1066
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
 msgstr ""
 
-#: kab_topwidget.cc:1068
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
 msgstr ""
 
-#: kab_topwidget.cc:1215
+#: kab_topwidget.cc:1231
 msgid "Search entries"
 msgstr ""
 
-#: kab_topwidget.cc:1228 kab_topwidget.cc:1238
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
 msgstr ""
 
-#: kab_topwidget.cc:1277
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
 msgstr ""
 
-#: kab_topwidget.cc:1278 kab_topwidget.cc:1295 kab_topwidget.cc:1306
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
 msgstr ""
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1305
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
 msgstr ""
 
-#: kab_topwidget.cc:1373
+#: kab_topwidget.cc:1389
 msgid "Search results ("
 msgstr ""
 
-#: kab_topwidget.cc:1373
+#: kab_topwidget.cc:1389
 msgid " hits):"
 msgstr ""
 
-#: kab_topwidget.cc:1378
+#: kab_topwidget.cc:1394
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
 msgstr ""
 
-#: kab_topwidget.cc:1379
+#: kab_topwidget.cc:1395
 msgid "No hits"
 msgstr ""
 
@@ -612,7 +616,7 @@ msgstr ""
 
 #: kab_kab1importer.cc:335
 msgid ""
-"Warning: There where errors importing the KDE 1\n"
+"Warning: There were errors importing the KDE 1\n"
 "address database.\n"
 "\n"
 msgstr ""
@@ -622,6 +626,57 @@ msgid ""
 "Do you really want to add the entries of your KDE 1\n"
 "address book to this file?\n"
 "You will not be able to revert this changes."
+msgstr ""
+
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr ""
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr "Visi faili"
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr ""
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr ""
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr ""
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr ""
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr ""
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr ""
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr ""
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr ""
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr ""
+
+#: kab_netscape_io.cc:297
+msgid "No addresses imported."
 msgstr ""
 
 #: kab_printmethods.cc:94
@@ -922,7 +977,7 @@ msgid "Edit URLs"
 msgstr ""
 
 #: look_edit_tabperson.cc:246
-msgid "I know this persons birthday:"
+msgid "I know this person's birthday:"
 msgstr ""
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
@@ -980,8 +1035,8 @@ msgid "Really delete this address?"
 msgstr ""
 
 #: look_edit_tabaddresses.cc:317
-msgid "Insinuation"
-msgstr ""
+msgid "Organization"
+msgstr "Organizācija"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
@@ -1109,7 +1164,7 @@ msgstr ""
 #: dialog_configurekab.cc:69
 msgid ""
 "Cannot save your preferences.\n"
-"May be permission denied."
+"You may not have permission to write the file."
 msgstr ""
 
 #: dialog_configurekab.cc:88
@@ -1133,16 +1188,16 @@ msgid "General settings"
 msgstr "Vispārējie uzstādījumi"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
-msgstr ""
+msgid "Organization:"
+msgstr "Organizācija:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr ""
+msgstr "Nodaļa:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Apakš-Nodaļa:"
 
 #: kab_entrylist.cc:55
 msgid "..."
@@ -1158,7 +1213,7 @@ msgstr "Aprēķinu..."
 
 #: kab_entrylist.cc:110
 msgid "(Disabled)"
-msgstr ""
+msgstr "(Aizliegts)"
 
 #: kab_entrylist.cc:113
 msgid "Error creating index for incremental search."
@@ -1171,4 +1226,3 @@ msgstr ""
 #: kab_entrylist.cc:163
 msgid "(No items to search)"
 msgstr ""
-
