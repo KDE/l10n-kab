@@ -1,122 +1,793 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# Hasso C. Tepper <heathcliff@iname.com>, 1999.
+# Hasso Tepper <hasso@linux.ee>, 1999.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1999-01-14 HO:MI+ZONE\n"
-"Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2000-10-02 01:31+0200\n"
+"PO-Revision-Date: 2000-10-02 17:00+0200\n"
+"Last-Translator: Hasso Tepper <hasso@estpak.ee>\n"
+"Language-Team: Estonian <hasso@estpak.ee>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.5.5\n"
 
-#: AddressBookAbout.cpp:25
-msgid "About addressbook"
-msgstr "Aadressiraamatu info"
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr "KDE aadressiraamat"
 
-#: AddressBookAbout.cpp:35
-msgid "Image load failure"
-msgstr "Pildi laadimine eba�nnestus"
-
-#: AddressBookAbout.cpp:36
-msgid "Could not load addressbook logo image!"
-msgstr "Aadressiraamatu logo pole v�imalik laadida!"
-
-#: AddressBookAbout.cpp:37
+#: kab_main.cc:47
 msgid ""
-"Here you would see\n"
-"the addressbook logo."
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
 msgstr ""
-"Siin peaks sa n�gema\n"
-"aadressiraamatu logo."
+"<qt>KDE aadressiraamatu versioon 2 pole varasemaga kompatiibel. Et kaitsta "
+"sinu aadressite andmebaasi, kasutatakse uut faili. Kui soovid kasutada vana "
+"andmebaasi uue versiooniga käivita <b>Fail->Impordi->KDE1 "
+"aadressiraamat.</b></qt>"
 
-#: AddressBookAbout.cpp:44
-msgid "written and maintained by"
-msgstr "kirjutanud ja hooldanud"
+#: kab_main.cc:52
+msgid "new format"
+msgstr "uus vorming"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, Detsember 1998"
+#: dialog_configurefile.cc:143 kab_topwidget.cc:63 look_edit.cc:42
+#: look_edit.cc:56 look_edit_tabaddresses.cc:195 look_edit_tabcontact.cc:44
+#: look_edit_tabperson.cc:56 look_edit_tabperson.cc:244
+#: look_edit_tabperson.cc:283 look_edit_tabuser.cc:49
+msgid "Out of memory."
+msgstr "Mälu on otsas"
 
-#: toplevelwidget.cc:35 toplevelwidget.cc:43
-msgid "Initialization failure"
-msgstr "Viga initsialiseerimisel"
+#: kab_topwidget.cc:64
+msgid "General failure"
+msgstr "Üldine viga"
 
-#: toplevelwidget.cc:37
-msgid "The program's menubar could not be constructed."
-msgstr "Programmi men��riba pole v�imalik luua."
+#: kab_topwidget.cc:75
+msgid "Could not connect to the address database."
+msgstr "Aadressite andmebaasi pole võimalik ühendust luua."
 
-#: toplevelwidget.cc:45
-msgid "The program's statusbar could not be constructed."
-msgstr "Programmi olekuriba pole v�imalik luua."
+#: kab_topwidget.cc:76 kab_topwidget.cc:353
+msgid "Database error"
+msgstr "Andmebaasi viga"
 
-#: toplevelwidget.cc:58
-msgid "KDE addressbook."
-msgstr "KDE aadressiraamat."
+#: kab_topwidget.cc:158
+msgid "Welcome to kab 2.0"
+msgstr "Teretulemast KDE aadressiraamatusse 2.0"
 
-#: toplevelwidget.cc:73
-msgid "HTML table"
-msgstr "HTML tabel"
+#: kab_topwidget.cc:218
+msgid "&KDE 1 address book"
+msgstr "&KDE 1 aadressiraamat."
 
-#: toplevelwidget.cc:82
-msgid "Export"
-msgstr "Eksport"
+#: kab_topwidget.cc:220
+msgid "&Create new database..."
+msgstr "&Loo uus andmebaas..."
 
-#: toplevelwidget.cc:84
-msgid "Search &entries"
-msgstr "Otsi &kirjeid"
+#: kab_topwidget.cc:224
+msgid "Open default &database"
+msgstr "Ava &vaikeandmebaas"
 
-#: toplevelwidget.cc:86
-msgid "&Print"
-msgstr "&Tr�ki"
+#: kab_topwidget.cc:229
+msgid "&Import"
+msgstr "&Import"
 
-#: toplevelwidget.cc:98
-msgid "&Add entry"
-msgstr "L&isa kirje"
+#: kab_topwidget.cc:234
+msgid "&Add entry..."
+msgstr "L&isa kirje..."
 
-#: toplevelwidget.cc:100
-msgid "&Edit entry"
-msgstr "&Redigeeri kirjet"
+#: kab_topwidget.cc:236
+msgid "&Edit entry..."
+msgstr "&Redigeeri kirjet..."
 
-#: toplevelwidget.cc:102
+#: kab_topwidget.cc:238
 msgid "&Remove entry"
 msgstr "&Eemalda kirje"
 
-#: toplevelwidget.cc:114
-msgid "&Mail"
-msgstr "&Meili"
+#: kab_topwidget.cc:241
+msgid "Send an e&mail"
+msgstr "&Saada meil"
 
-#: toplevelwidget.cc:116
-msgid "&Talk"
-msgstr "&K�nele"
-
-#: toplevelwidget.cc:118
+#: kab_topwidget.cc:243
 msgid "&Browse"
 msgstr "&Lehitse"
 
-#: toplevelwidget.cc:123
-msgid "Help on Addressbook"
-msgstr "Aadressiraamatu abi"
+#: kab_topwidget.cc:245
+msgid "Enable all &messages"
+msgstr "Luba kõik &teated"
 
-#: toplevelwidget.cc:128
-msgid "About Addressbook"
-msgstr "&Aadressiraamatu info"
+#: kab_topwidget.cc:247
+msgid "&Configure this file..."
+msgstr "&Konigureeri seda faili..."
 
-#: toplevelwidget.cc:130
-msgid "About &Qt"
-msgstr "&Qt info"
+#: kab_topwidget.cc:250
+msgid "&Preferences for the KDE address book..."
+msgstr "KDE aadressiraamatu &eelistused..."
 
-#: toplevelwidget.cc:131
-msgid "About &KDE"
-msgstr "&KDE info"
+#: kab_topwidget.cc:254
+msgid "&Business card"
+msgstr "&Visiitkaart"
 
-#: toplevelwidget.cc:138
-msgid "&About"
-msgstr "&Info"
+#: kab_topwidget.cc:256
+msgid "&Editing"
+msgstr "&Redigeerimine"
 
-#: toplevelwidget.cc:190
-msgid "About Qt"
-msgstr "Qt info"
+#: kab_topwidget.cc:273
+msgid "New entry"
+msgstr "Uus kirje"
+
+#: dialog_editentry.cc:69 kab_topwidget.cc:275
+msgid "Edit entry"
+msgstr "Redigeeri kirjet"
+
+#: kab_topwidget.cc:277
+msgid "Delete entry"
+msgstr "Eemalda kirje"
+
+#: kab_topwidget.cc:280
+msgid "First entry"
+msgstr "Esimene kirje"
+
+#: kab_topwidget.cc:282
+msgid "Previous entry"
+msgstr "Eelmine kirje"
+
+#: kab_topwidget.cc:288
+msgid "Next entry"
+msgstr "Järgmine kirje"
+
+#: kab_topwidget.cc:291
+msgid "Last entry"
+msgstr "Viimane kirje"
+
+#: kab_topwidget.cc:352
+msgid "The database interface could not be created."
+msgstr "Andmebaasi liidest pole võimalik luua."
+
+#: kab_topwidget.cc:380
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"Sa muutsid seda kirjet.\n"
+"Kas salvestada muudatused?\n"
+"(Salvestamata muudatused lähevad kaduma.)"
+
+#: kab_topwidget.cc:382
+msgid "Save changes?"
+msgstr "Kas salvestada muudatused?"
+
+#: kab_topwidget.cc:410
+msgid "No entries."
+msgstr "Kirjed puuduvad."
+
+#: kab_topwidget.cc:549
+msgid "The standard file could not be loaded."
+msgstr "Standardfaili pole võimalik laadida."
+
+#: dialog_configurefile.cc:194 kab_createnew.cc:78 kab_createnew.cc:109
+#: kab_openfile.cc:74 kab_openfile.cc:86 kab_topwidget.cc:550
+msgid "File error"
+msgstr "Faili viga"
+
+#: kab_topwidget.cc:563
+msgid "Business card view."
+msgstr "Visiitkaarti vaade."
+
+#: kab_topwidget.cc:571
+msgid "Editing view."
+msgstr "Redigeerimise vaade."
+
+#: kab_topwidget.cc:578
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"See lubab uuesti kõik teated, mis sa enne ära keelasid.\n"
+"Kas jätkata?"
+
+#: kab_topwidget.cc:580
+msgid "Enable messages?"
+msgstr "Lubada teated?"
+
+#: kab_topwidget.cc:598
+msgid "New entry added."
+msgstr "Uus kirje lisatud."
+
+#: kab_topwidget.cc:599
+msgid "Saving new entry."
+msgstr "Uue kirje salvestamine."
+
+#: kab_topwidget.cc:601
+msgid "Done."
+msgstr "Tehtud."
+
+#: kab_topwidget.cc:613
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+"Uut kirjet pole võimalik lisada.\n"
+"Juurdepääs on keelatud.\n"
+"Sul pole õigusi sellesse faili kirjutamiseks."
+
+#: kab_topwidget.cc:621
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Uut kirjet pole võimalik lisada.\n"
+"Põhjus on selgusetu."
+
+#: kab_topwidget.cc:627
+msgid "No entry added."
+msgstr "Kirjet ei lisatud."
+
+#: kab_topwidget.cc:645
+msgid "Really remove this entry?"
+msgstr "Kas tõesti eemaldada see kirje?"
+
+#: kab_topwidget.cc:646 look_edit_tabaddresses.cc:433
+msgid "Question"
+msgstr "Küsimus"
+
+#: kab_topwidget.cc:652
+msgid "Entry deleted."
+msgstr "Kirje kustutatud."
+
+#: kab_topwidget.cc:660
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"Kirjet pole võimalik kustutada\n"
+"(ilmselt on juurdepääs keelatud)."
+
+#: dialog_configurefile.cc:61 kab_save.cc:48 kab_topwidget.cc:663
+msgid "Permission denied."
+msgstr "Juurdepääs keelatud."
+
+#: kab_topwidget.cc:785
+msgid "Send an email"
+msgstr "Saada meil"
+
+#: kab_topwidget.cc:794
+msgid "No email addresses."
+msgstr "Meiliaadressid puuduvad."
+
+#: dialog_configurefile.cc:68 dialog_configurekab.cc:76 dialog_editentry.cc:54
+#: dialog_editentry.cc:78 kab_kab1importer.cc:242 kab_topwidget.cc:808
+#: kab_topwidget.cc:851
+msgid "Rejected."
+msgstr "Tagasi lükatud."
+
+#: kab_topwidget.cc:830
+msgid "Browse to ..."
+msgstr "Lehitse..."
+
+#: kab_topwidget.cc:839
+msgid "No URLs."
+msgstr "URL'id puuduvad."
+
+#: kab_topwidget.cc:934
+msgid "Restoring last view."
+msgstr "Viimase vaate taastamine."
+
+#: kab_topwidget.cc:936
+msgid "Not restoring last view."
+msgstr "Viimast vaadet ei taastata."
+
+#: kab_topwidget.cc:947
+msgid "Remembering last entry."
+msgstr "Viimase kirje meelde jätmine."
+
+#: kab_topwidget.cc:949
+msgid "Not remembering last entry."
+msgstr "Viimast kirjet ei jäeta meelde."
+
+#: kab_topwidget.cc:960
+msgid "Displaying assembled name in window title."
+msgstr "Kokkuseatud nime näidatakse akna tiitliribal."
+
+#: kab_topwidget.cc:962
+msgid "Not displaying assembled name in window title."
+msgstr "Kokkuseatud nime ei näidata akna tiitliribal."
+
+#: kab_topwidget.cc:973
+msgid "Creating backup file on startup."
+msgstr "Varukoopia luuakse käivitamisel."
+
+#: kab_topwidget.cc:975
+msgid "Not creating a backup file on startup."
+msgstr "Varukoopiat käivitamisel ei looda."
+
+#: kab_kab1importer.cc:197
+msgid "Home"
+msgstr "Kodu"
+
+#: kab_kab1importer.cc:239
+msgid "Imported kab 1 addressbook."
+msgstr "Kab 1 aadressiraamat on imporditud."
+
+#: kab_kab1importer.cc:278
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"Kab 1 andmebaasi failile pole võimalik juurde pääseda.\n"
+"Ilmselt pole sa kunagi seda kasutanudki."
+
+#: kab_kab1importer.cc:292
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kab 1 andmebaasi faili pole võimalik lugeda.\n"
+"Ilmselt oled sa oma andmebaasi käsitsi muutnud."
+
+#: kab_kab1importer.cc:307
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kirjete sektsiooni pole võimalik andmebaasist leida.\n"
+"Ilmselt oled sa oma andmebaasi käsitsi muutnud."
+
+#: kab_kab1importer.cc:335
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"Hoiatus: KDE 1 aadressite andmebaasi importimisel\n"
+"oli vigu.\n"
+"\n"
+
+#: kab_kab1importer.cc:340
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"Soovid sa tõesti lisada KDE 1 aadressiraamatu kirjed\n"
+"sellesse faili?\n"
+"Neid muudatusi ei ole võimalik enam tühistada."
+
+#: kab_createnew.cc:42 kab_openfile.cc:42
+msgid "Could not find the users home directory."
+msgstr "Kasutaja kodukataloogi pole võimalik leida."
+
+#: kab_createnew.cc:43 kab_openfile.cc:43
+msgid "Intern error!"
+msgstr "Sisemine viga!"
+
+#: kab_createnew.cc:54 kab_openfile.cc:52
+msgid "Cancelled."
+msgstr "Tühistatud."
+
+#: kab_createnew.cc:61 kab_openfile.cc:59
+msgid "Only local files supported yet."
+msgstr "Toetatud on ainult kohalikud failid."
+
+#: kab_createnew.cc:74
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"See fail on kas kataloog või eksisteerib ta juba.\n"
+"Palun vali muu failinimi.\n"
+"Sul peavad olema ka õigused faili loomiseks ja kirjutamiseks."
+
+#: kab_createnew.cc:90
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+"Faili nimi ei ole laiendiga \".kab\".\n"
+"See muudetakse %1-ks\n"
+
+#: kab_createnew.cc:92
+msgid "Note"
+msgstr "Märkus"
+
+#: kab_createnew.cc:99
+msgid "The file could not be created, possibly permission denied."
+msgstr "Faili pole võimalik luua. Ilmselt on juurdepääs keelatud."
+
+#: kab_createnew.cc:100 kab_save.cc:61
+msgid "kab: File error"
+msgstr "kab: Faili viga"
+
+#: kab_createnew.cc:108
+msgid "The file has been created, but could not be loaded."
+msgstr "Fail on loodud, kuid seda pole võimalik sisse laadida."
+
+#: kab_openfile.cc:71
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"Faili ei eksisteeri või on ta kataloog.\n"
+"Uue loomiseks kasuta käsku \"Loo uus andmebaas...\".\n"
+"Olemasoleva faili laadimiseks vali see fail."
+
+#: kab_openfile.cc:85
+msgid "The file could not be loaded."
+msgstr "Faili pole võimalik laadida."
+
+#: kab_save.cc:37 kab_save.cc:51
+msgid "Internal error."
+msgstr "Sisemine viga."
+
+#: kab_save.cc:45
+msgid "Entry stored."
+msgstr "Kirje salvestatud."
+
+#: kab_save.cc:60
+msgid "The file could not be saved (permission denied)."
+msgstr "Faili polnud võimalik salvestada (juurdepääs keelatud)."
+
+#: kab_save.cc:64
+msgid "File saved."
+msgstr "Fail salvestatud."
+
+#: look_businesscard.cc:175
+msgid "email: "
+msgstr "meil: "
+
+#: look_businesscard.cc:192
+msgid "tel: "
+msgstr "tel: "
+
+#: look_edit.cc:36
+msgid "User Fields"
+msgstr "Kasutaja väljad"
+
+#: dialog_configurefile.cc:144 look_edit.cc:43 look_edit.cc:57
+#: look_edit_tabaddresses.cc:196 look_edit_tabcontact.cc:45
+#: look_edit_tabperson.cc:57 look_edit_tabperson.cc:245
+#: look_edit_tabperson.cc:284 look_edit_tabuser.cc:50
+msgid "General failure."
+msgstr "Üldine viga."
+
+#: dialog_configurefile.cc:125 look_edit.cc:70
+msgid "(User fields)"
+msgstr "(Kasutaja väljad)"
+
+#: look_edit.cc:74
+msgid "&Person"
+msgstr "&Isik"
+
+#: look_edit.cc:75
+msgid "&Telephone"
+msgstr "&Telefon"
+
+#: look_edit.cc:76
+msgid "&Addresses"
+msgstr "&Aadressid"
+
+#: look_edit.cc:77
+msgid "&Birthday"
+msgstr "&Sünnipäev"
+
+#: look_edit.cc:78
+msgid "Comment"
+msgstr "Kommentaar"
+
+#: look_edit_tabperson.cc:38
+msgid "Email addresses..."
+msgstr "Meiliaadressid..."
+
+#: look_edit_tabperson.cc:39
+msgid "Talk addresses..."
+msgstr "Talk aadressid..."
+
+#: look_edit_tabperson.cc:40
+msgid "URLs..."
+msgstr "URLid..."
+
+#: look_edit_tabperson.cc:63
+msgid "Formatted name:"
+msgstr "Täielik nimi:"
+
+#: look_edit_tabperson.cc:74
+msgid "First name:"
+msgstr "Eesnimi:"
+
+#: look_edit_tabperson.cc:76
+msgid "Middle name:"
+msgstr "Teine eesnimi:"
+
+#: look_edit_tabperson.cc:78
+msgid "Last name:"
+msgstr "Perekonnanimi:"
+
+#: look_edit_tabperson.cc:95
+msgid "Name prefix:"
+msgstr "Nime eesliide:"
+
+#: look_edit_tabperson.cc:97
+msgid "Title:"
+msgstr "Tiitel:"
+
+#: look_edit_tabperson.cc:99
+msgid "Rank:"
+msgstr "Järk:"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:192
+msgid "Edit email addresses"
+msgstr "Redigeeri meiliaadresse"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:208
+msgid "Edit talk addresses"
+msgstr "Redigeeri talk aadresse"
+
+#: look_edit_tabperson.cc:224
+msgid "Edit URLs"
+msgstr "Redigeeri URLe"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:34
+msgid "User field 1:"
+msgstr "Kasutaja väli 1:"
+
+#: dialog_configurefile.cc:91 look_edit_tabuser.cc:35
+msgid "User field 2:"
+msgstr "Kasutaja väli 2:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:36
+msgid "User field 3:"
+msgstr "Kasutaja väli 3:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:37
+msgid "User field 4:"
+msgstr "Kasutaja väli 4:"
+
+#: dialog_configurefile.cc:128 look_edit_tabuser.cc:137
+msgid "(User field 1)"
+msgstr "(Kasutaja väli 1)"
+
+#: dialog_configurefile.cc:131 look_edit_tabuser.cc:140
+msgid "(User field 2)"
+msgstr "(Kasutaja väli 2)"
+
+#: dialog_configurefile.cc:134 look_edit_tabuser.cc:143
+msgid "(User field 3)"
+msgstr "(Kasutaja väli 3)"
+
+#: dialog_configurefile.cc:137 look_edit_tabuser.cc:146
+msgid "(User field 4)"
+msgstr "(Kasutaja väli 4)"
+
+#: look_edit_tabcontact.cc:31
+msgid "Edit URLs (internet addresses)"
+msgstr "Redigeeri URLe (interneti aadresse)"
+
+#: look_edit_tabcontact.cc:32
+msgid "Edit telephone numbers"
+msgstr "Redigeeri telefoni numbreid"
+
+#: look_edit_tabaddresses.cc:63 look_edit_tabaddresses.cc:208
+msgid "Add another address"
+msgstr "Lisa teine aadress"
+
+#: look_edit_tabaddresses.cc:66 look_edit_tabaddresses.cc:212
+msgid "Delete this address"
+msgstr "Kustuta see aadress"
+
+#: look_edit_tabaddresses.cc:79
+msgid "Headline:"
+msgstr "Pealkiri:"
+
+#: look_edit_tabaddresses.cc:94 look_edit_tabaddresses.cc:225
+msgid "Assignment:"
+msgstr "Määrang:"
+
+#: look_edit_tabaddresses.cc:101
+msgid "Insinuation..."
+msgstr "Vihje..."
+
+#: look_edit_tabaddresses.cc:103 look_edit_tabaddresses.cc:234
+msgid "Edit organisational attributes"
+msgstr "Redigeeri organisatoorseid atribuute"
+
+#: look_edit_tabaddresses.cc:111 look_edit_tabaddresses.cc:246
+msgid "Street:"
+msgstr "Tänav:"
+
+#: look_edit_tabaddresses.cc:120 look_edit_tabaddresses.cc:253
+msgid "City"
+msgstr "Linn"
+
+#: look_edit_tabaddresses.cc:121 look_edit_tabaddresses.cc:255
+msgid "State"
+msgstr "Osariik"
+
+#: look_edit_tabaddresses.cc:122 look_edit_tabaddresses.cc:257
+msgid "Zipcode"
+msgstr "Postikood"
+
+#: look_edit_tabaddresses.cc:142 look_edit_tabaddresses.cc:273
+msgid "Country:"
+msgstr "Maa:"
+
+#: look_edit_tabaddresses.cc:408
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt>Kas sa teadsid, et sa võid addressite tüüpe eeldefineerida?<br>vaata "
+"<b>Redigeerimine->Konfigureeri seda faili</b>.</qt>"
+
+#: look_edit_tabaddresses.cc:410
+msgid "A note"
+msgstr "Märkus"
+
+#: look_edit_tabaddresses.cc:432
+msgid "Really delete this address?"
+msgstr "Kas tõesti kustutada see aadress?"
+
+#: look_edit_tabaddresses.cc:494
+msgid "Insinuation"
+msgstr "Vihje"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fixed:"
+msgstr "Lauatelefon:"
+
+#: look_edit_tabtelephone.cc:47
+msgid "Mobile:"
+msgstr "Mobiil:"
+
+#: look_edit_tabtelephone.cc:48
+msgid "Fax:"
+msgstr "Fax:"
+
+#: look_edit_tabtelephone.cc:49
+msgid "Modem:"
+msgstr "Modem:"
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 1:"
+msgstr "Kasutaja defineeritud 1:"
+
+#: look_edit_tabtelephone.cc:51
+msgid "User defined 2:"
+msgstr "Kasutaja defineeritud 2:"
+
+#: look_edit_tabtelephone.cc:52
+msgid "User defined 3:"
+msgstr "Kasutaja defineeritud 3:"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Type"
+msgstr "Tüüp"
+
+#: look_edit_tabtelephone.cc:66
+msgid "Number"
+msgstr "Number"
+
+#: widget_editstringlist.cc:40
+msgid "Add a new string"
+msgstr "Lisa uus string"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string up"
+msgstr "Liiguta see string üles"
+
+#: widget_editstringlist.cc:42
+msgid "Move this string down"
+msgstr "Liiguta see string alla"
+
+#: widget_editstringlist.cc:43
+msgid "Delete this string"
+msgstr "Kustuta see string"
+
+#: dialog_configurefile.cc:58 dialog_configurekab.cc:53 dialog_editentry.cc:51
+#: dialog_editentry.cc:74
+msgid "Accepted."
+msgstr "Aktsepteeritud."
+
+#: dialog_configurefile.cc:63
+msgid "Settings applied."
+msgstr "Seadistused rakendatud."
+
+#: dialog_configurefile.cc:90
+msgid "Tab name"
+msgstr "Kaarti nimi"
+
+#: dialog_configurefile.cc:149
+msgid "User fields"
+msgstr "Kasutaja väljad"
+
+#: dialog_configurefile.cc:161
+msgid "Address types"
+msgstr "Aadressite tüübid"
+
+#: dialog_configurefile.cc:192
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"Seadistuste salvestamine pole võimalik.\n"
+"Tõenäoliselt pole sul õigust kirjutada sellesse faili."
+
+#: dialog_configurekab.cc:37
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+"Konfiguratsioonifail on kahjustatud.\n"
+"Aadressiraamatut pole võimalik konfigureerida."
+
+#: dialog_configurekab.cc:39
+msgid "Fatal error"
+msgstr "Fataalne viga"
+
+#: dialog_configurekab.cc:40
+msgid "Configuration file corrupt."
+msgstr "Konfiguratsioonifail on kahjustatud."
+
+#: dialog_configurekab.cc:58
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+"Viga sinu eelistuste salvestamisel.\n"
+"Mõned eelistused võivad kaduma minna."
+
+#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+msgid "Error saving preferences."
+msgstr "Viga eelistuste salvestamisel."
+
+#: dialog_configurekab.cc:63
+msgid "KDE address book preferences."
+msgstr "KDE aadressiraamatu eelistused."
+
+#: dialog_configurekab.cc:65
+msgid "Preferences saved."
+msgstr "Eelistused salvestatud."
+
+#: dialog_configurekab.cc:69
+msgid ""
+"Cannot save your preferences.\n"
+"May be permission denied."
+msgstr ""
+"Eelistusi pole võimalik salvestada.\n"
+"Võibolla on juurdepääs keelatud."
+
+#: dialog_configurekab.cc:88
+msgid "Remember last selected view"
+msgstr "Viimane valitud vaade jäetakse meelde"
+
+#: dialog_configurekab.cc:90
+msgid "Remember last selected entry"
+msgstr "Viimane valitud kirje jäetakse meelde"
+
+#: dialog_configurekab.cc:92
+msgid "Show assembled name in window title"
+msgstr "Kokkuseatud nime näidatakse akna tiitliribal"
+
+#: dialog_configurekab.cc:94
+msgid "Create backup file on startup"
+msgstr "Käivitamisel luuakse tagavarakoopia"
+
+#: dialog_configurekab.cc:95
+msgid "General settings"
+msgstr "Üldised seadistused"
+
+#: dialog_insinuation.cc:29
+msgid "Organisation:"
+msgstr "Organisatsioon:"
+
+#: dialog_insinuation.cc:30
+msgid "Department:"
+msgstr "Üksus:"
+
+#: dialog_insinuation.cc:31
+msgid "Sub-Department:"
+msgstr "Alamüksus:"
