@@ -5,652 +5,682 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-01-20 01:26+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-08-02 20:27GMT\n"
+"Last-Translator: Thuraiappah Vaseeharan <tvasee@usa.net>\n"
+"Language-Team: Â¾ÃÂ¢Ãº <tamilinix@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.8\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
-msgstr ""
+msgstr "HTML Â­Ã¼ÃŒ Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶"
 
 #: rc.cpp:2
-#, fuzzy
 msgid "Exporting of addresses"
-msgstr "§ÀîÍ Ó¸ÅÃ¢¸¨Ç ¦¾¡Ìì¸×õ"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢Â¸Â¨Ã‡ Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶Â¾Ã¸"
 
 #: rc.cpp:3
 msgid "Export addresses along with entries"
-msgstr ""
+msgstr "Ã“Â¸Ã…ÃƒÂ¢Â¸Â¨Ã‡ Ã‘Â¨Ã†Ã—Â¸Ã™Â¼Ã½ Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
-msgstr ""
+msgstr "Â¯Ã­Â¸Ã» Ã“Â¸Ã…ÃƒÂ¢Â¸Â¨Ã‡ Â±Ã¹Ã…Â¡Ãš Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶Ã‚?"
 
 #: rc.cpp:5
 msgid "Address and person in one line"
-msgstr ""
+msgstr "Â´Ã• Ã…ÃƒÂ¢Ã‚Â¢Ã¸ ÃÃ‰Â¢Â¾Ã•Ãµ Ã“Â¸Ã…ÃƒÂ¢Ã”Ãµ"
 
 #: rc.cpp:6
-#, fuzzy
 msgid "All addresses"
-msgstr "Ó¸ÅÃ¢¸û"
+msgstr "Â±Ã¸Ã„Â¡ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã™Ãµ"
 
 #: rc.cpp:7
-#, fuzzy
 msgid "Up to ... addresses"
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û ±Ğİõ ­ø¨Ä."
+msgstr "Â­ÃÃ…Â¨Ãƒ. ... Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»"
 
 #: rc.cpp:8
 msgid "Select style of HTML "
-msgstr ""
+msgstr "HTML Â­Ã½ Ã€Â¡Ã³Â¾Ã²Â¨Â¾Ã² Â¦Â¾ÃƒÂ¢Ã—Â¦ÂºÃ¶"
 
 #: rc.cpp:9
 msgid "Style of the resulting file"
-msgstr ""
+msgstr "Ã…Â¢Â¨Ã‡Ã”Ãµ Â§Â¸Â¡Ã´Ã€Â¢Ã½ Ã€Â¡Ã³Â¾Ãµ"
 
 #: rc.cpp:10
 msgid "Plain HTML text without tables or lines"
-msgstr ""
+msgstr "Â§ÃÂ¨ÂºÂ¸Â§Ã‡Â¡ Â§Â¸Â¡ÃÂ¸Â§Ã‡Â¡Ã…Ã¼Ãˆ Â¦Ã…ÃšÃµ HTML Â§Â¸Â¡Ã´Ã’"
 
 #: rc.cpp:11
 msgid "Expect more here..."
-msgstr ""
+msgstr "Â­Ã­ÃŒ Â§ÃÃ–Ãµ Â±Â¾Â¢Ã·Ã€Â¡Ã·Ã¬Â¸Ã—Ãµ..."
 
-#: rc.cpp:12 rc.cpp:19 rc.cpp:28 rc.cpp:43
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
-msgstr ""
+msgstr "Ã€Â¡ÃƒÃµ1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
-msgstr ""
+msgstr "Â­ÃµÃ“Â¸Ã…ÃƒÂ¢Ã¬ÃŒÃƒÂ¢Ã‚ Â¦Ã€ÃšÃµ ÂºÂ£Ã°Â¨Â¼ Â­Ã­ÃŒ Â¾ÃƒÃ—Ãµ:"
 
-#: kab_htmlexport.cc:395 rc.cpp:14
-msgid "Setup HTML export"
-msgstr ""
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "Ã‘Â¨Ã†Ã—Ã´ Ã€Ã°ÃŠÃ‚Ã¸"
 
 #: rc.cpp:15
-msgid "Template folder:"
-msgstr ""
-
-#: rc.cpp:16
-msgid "Target folder:"
-msgstr ""
-
-#: rc.cpp:17 rc.cpp:18
-#, fuzzy
-msgid "Choose ..."
-msgstr "­¾üÌ §Á§Ä¡Î ..."
-
-#: rc.cpp:22
 msgid ""
-"Hide the search results window. This will not clear your search results."
+"<qt>Search entries by entering<br> - one of their <b>e-mail "
+"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
 
-#: rc.cpp:23
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>Â´Ã• Ã‘Â¨Ã†Â¨Ã…Ã¬ Â¸Â¡Ã°Â¼ Â«Â¾Â¨Ã‰Ã² Â¦Â¾ÃƒÂ¢Ã— Â¦ÂºÃ¶Ã‚Ã—Ãµ.</qt>"
+
+#: kab_htmlexport.cc:380 rc.cpp:18
+msgid "Setup HTML export"
+msgstr "HTML Â²Ã¼ÃšÃÂ¾Â¢Â¨Ã‚ Ã…ÃŠÃ…Â¨Ã"
+
+#: rc.cpp:19
+msgid "Template folder:"
+msgstr "ÃÂ¡Â¾Â¢ÃƒÂ¢ Â«Â¨Â¼Ã—:"
+
+#: rc.cpp:20
+msgid "Target folder:"
+msgstr "Â­Ã„Ã¬ÃŒ Â«Â¨Â¼Ã—:"
+
+#: rc.cpp:21 rc.cpp:22
+msgid "Choose ..."
+msgstr "Â¦Â¾ÃƒÂ¢Ã—Â¦ÂºÃ¶ ..."
+
+#: rc.cpp:26
+msgid "Hide the search results window. This will not clear your search results."
+msgstr ""
+"Â§Â¾Â¼Ã¸Ã“ÃŠÃ—Ã® ÂºÂ¡Ã‡ÃƒÃ²Â¨Â¾ Ã£Ã. Â­Ã Â¯Ã­Â¸Ã» Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Â¸Â¨Ã‡ "
+"Â«Â¸Ã¼ÃˆÂ¡Ã."
+
+#: rc.cpp:27
 msgid ""
 "Hide the search results window. This will close the search results window "
 "and clear all results of previous searches."
 msgstr ""
-
-#: rc.cpp:25
-msgid "Clear the search results and hide this window."
-msgstr ""
-
-#: rc.cpp:27
-#, fuzzy
-msgid "Print your search results."
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
+"Â§Â¾Â¼Ã¸Ã“ÃŠÃ—Ã® ÂºÂ¡Ã‡ÃƒÃ²Â¨Â¾ ÃÂ¨Ãˆ.Â­Ã Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Ã® ÂºÂ¡Ã‡ÃƒÃ²Â¨Â¾ "
+"Ã£ÃŠ, Â¯Ã­Â¸Ã» Ã“Ã³Â¨Â¾Ã‚ Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Â¸Ã» Ã‚Â¡Ã…Ã¼Â¨ÃˆÃ”Ãµ Â«Â¸Ã¼ÃšÃµ."
 
 #: rc.cpp:29
-msgid "Search for people in your addressbook:"
-msgstr ""
-
-#: rc.cpp:30
-msgid "Select fields to search here."
-msgstr ""
+msgid "Clear the search results and hide this window."
+msgstr "Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Â¸Ã» Ã‚Â¡Ã…Ã¼Â¨ÃˆÃ”Ãµ Â«Â¸Ã¼ÃˆÂ¢, Â­Ã® ÂºÂ¡Ã‡ÃƒÃ²Â¨Â¾ ÃÂ¨Ãˆ"
 
 #: rc.cpp:31
+msgid "Print your search results."
+msgstr "Â§Â¾Â¼Ã¸Ã“ÃŠÃ—Â¸Â¨Ã‡ Â«Ã®ÂºÂ¢Ã."
+
+#: rc.cpp:33
+msgid "Search for people in your addressbook:"
+msgstr "Â¯Ã­Â¸Ã» Ã“Â¸Ã…ÃƒÂ¢Ã´Ã’Ã²Â¾Â¸Ã²Â¾Â¢Ã¸ Ã€Â¢ÃˆÂ¨ÃƒÃ² Â§Â¾Â¼:"
+
+#: rc.cpp:34
+msgid "Select fields to search here."
+msgstr "Â§Â¾Â¼Â§Ã…Ã±ÃŠÃ‚ Â¸Ã°Â¼Ã­Â¸Â¨Ã‡ Â­Ã­ÃŒ Â¦Â¾ÃƒÂ¢Ã—Â¦ÂºÃ¶Ã‚Ã—Ãµ."
+
+#: rc.cpp:35
 msgid ""
 "Select fields to search here. \n"
 "All entries where this field matches the pattern (consisting of wildcards or "
 "regular expressions) given below will be displayed in the Search Results "
 "Window."
 msgstr ""
-
-#: rc.cpp:32
-msgid "... matches ..."
-msgstr ""
-
-#: rc.cpp:33
-msgid "*"
-msgstr ""
-
-#: rc.cpp:34
-msgid "Enter your expression here."
-msgstr ""
-
-#: rc.cpp:35
-msgid "Options:"
-msgstr ""
+"Select fields to search here. \n"
+"All entries where this field matches the pattern (consisting of wildcards or "
+"regular expressions) given below will be displayed in the Search Results "
+"Window."
 
 #: rc.cpp:36
-msgid "Case sensitive search"
-msgstr ""
+msgid "... matches ..."
+msgstr "... Â¦Ã€Â¡Ã•Ã³ÃÂ¸Â¢ÃˆÃ ..."
 
 #: rc.cpp:37
-msgid "Check this box if you want to do a case-sensitive search."
-msgstr ""
+msgid "*"
+msgstr "*"
 
 #: rc.cpp:38
-msgid "Expressions"
-msgstr ""
+msgid "Enter your expression here."
+msgstr "Â¯Ã­Â¸Ã» Â§Â¸Â¡Â¨Ã…Â¨Ã‚ Â­Ã­ÃŒ Â¾ÃƒÃ—Ãµ."
 
 #: rc.cpp:39
-msgid "Wildcards"
-msgstr ""
+msgid "Options:"
+msgstr "Ã…Â¢Ã•Ã´Ã€Ã­Â¸Ã»:"
 
 #: rc.cpp:40
+msgid "Case sensitive search"
+msgstr "Ã…Â¨Â¸Ã”Â½Ã·Ã—Â¨Â¼Ã‚ Â§Â¾Â¼Ã¸"
+
+#: rc.cpp:41
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr ""
+"Ã…Â¨Â¸Ã”Â½Ã·Ã—Â¨Â¼Ã‚ Â§Â¾Â¼Â¨Ã„ Â§ÃÃ¼Â¦Â¸Â¡Ã»Ã‡ Â­Ã´Â¦Ã€Ã°ÃŠÂ¨Ã‚Ã² "
+"Â¦Â¾ÃƒÂ¢Ã—Â¦ÂºÃ¶Ã‚Ã—Ãµ."
+
+#: rc.cpp:42
+msgid "Expressions"
+msgstr "Â§Â¸Â¡Â¨Ã…Â¸Ã»"
+
+#: rc.cpp:43
+msgid "Wildcards"
+msgstr "Wildcards"
+
+#: rc.cpp:44
 msgid ""
 "Check this button if you use widlcards in your expression (as in shell "
 "commands)."
 msgstr ""
-
-#: rc.cpp:41
-msgid "Regular expressions"
-msgstr ""
-
-#: rc.cpp:42
-msgid ""
-"Check this box if you use classical regular expressions in your pattern."
-msgstr ""
-
-#: rc.cpp:44
-msgid "Headline:"
-msgstr "¾¨ÄôÒÅÃ¢:"
+"Check this button if you use widlcards in your expression (as in shell "
+"commands)."
 
 #: rc.cpp:45
-msgid "Insinuation..."
-msgstr "º¡ğÎÜÚ¾ø..."
+msgid "Regular expressions"
+msgstr "ÂºÂ£ÃƒÂ¡Ã‰ Â§Â¸Â¡Â¨Ã…Â¸Ã»"
 
 #: rc.cpp:46
-msgid "Country:"
-msgstr "¿¡Î:"
-
-#: rc.cpp:47
-#, fuzzy
-msgid "Zip code"
-msgstr "¦¾¡Ì¾¢ÌÈ¢"
+msgid "Check this box if you use classical regular expressions in your pattern."
+msgstr "Check this box if you use classical regular expressions in your pattern."
 
 #: rc.cpp:48
-msgid "State"
-msgstr "Á¡¿¢Äõ"
+#, fuzzy
+msgid "Address type (e.g. Home):"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢ Ã…Â¨Â¸Â¸Ã»"
 
 #: rc.cpp:49
-msgid "City"
-msgstr "¿¸Ãõ"
+#, fuzzy
+msgid "Organization..."
+msgstr "Â¿Â¢ÃšÃ…Ã‰Ãµ:"
 
 #: rc.cpp:50
-#, fuzzy
-msgid "Street address:"
-msgstr "­ó¾ Ó¸ÅÃ¢¨Â ¿£ì¸×õ"
+msgid "Country:"
+msgstr "Â¿Â¡Ã:"
 
 #: rc.cpp:51
-msgid "Assignment:"
-msgstr "´ôÀ¨¼ôÒ:"
+msgid "Zip code"
+msgstr "Â¦Â¾Â¡ÃŒÂ¾Â¢Ã¬ÃŒÃˆÂ¢"
 
-#: look_edit_tabaddresses.cc:333 rc.cpp:52
+#: rc.cpp:52
+msgid "State"
+msgstr "ÃÂ¡Â¿Â¢Ã„Ãµ"
+
+#: rc.cpp:53
+msgid "City"
+msgstr "Â¿Â¸ÃƒÃµ"
+
+#: rc.cpp:54
+msgid "Street address:"
+msgstr "Â¦Â¾Ã• Ã“Â¸Ã…ÃƒÂ¢:"
+
+#: rc.cpp:55
+#, fuzzy
+msgid "Job title:"
+msgstr "Â¿Â¢Â¨Ã„Ã‚Ã¼Ãˆ:"
+
+#: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
-msgstr ""
+msgstr "Â¦Ã€ÃšÃµ ÂºÂ£Ã°Ã"
 
 #: kab_main.cc:31 kab_main.cc:38
 msgid "KDE Addressbook"
-msgstr "KDE Ó¸ÅÃ¢Òò¾¸õ"
+msgstr "KDE Ã“Â¸Ã…ÃƒÂ¢Ã’Ã²Â¾Â¸Ãµ"
 
 #: kab_main.cc:51
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
-"<qt>KDE Ó¸ÅÃ¢Òò¾¸ò¾¢ı À¾¢ôÒ 2 Óó¨¾Â À¾¢ôÒ¼ı §ºÃ¡Ğ. ¯í¸û Ó¸ÅÃ¢ ¾Ã×¾Çò¨¾ "
-"¸¡ôÀ¡üÈ, ´Õ Ò¾¢Â §¸¡ôÒ ÀÂıÀÎò¾ÀÎõ. ¯í¸û À¨ÆÂ ¾Ã×¾Çò¨¾ Ò¾¢Â À¾¢ôÀ¢ø ÀÂıÀÎò¾ "
-"<b>§¸¡ôÒ->­ÈìÌÁ¾¢->KDE 1 Ó¸ÅÃ¢Òò¾¸ò¨¾ </b>­Âì¸×õ.</qt>"
+"<qt>KDE Ã“Â¸Ã…ÃƒÂ¢Ã’Ã²Â¾Â¸Ã²Â¾Â¢Ã½ Ã€Â¾Â¢Ã´Ã’ 2 Ã“Ã³Â¨Â¾Ã‚ Ã€Â¾Â¢Ã´Ã’Â¼Ã½ "
+"Â§ÂºÃƒÂ¡Ã. Â¯Ã­Â¸Ã» Ã“Â¸Ã…ÃƒÂ¢ Â¾ÃƒÃ—Â¾Ã‡Ã²Â¨Â¾ Â¸Â¡Ã´Ã€Â¡Ã¼Ãˆ, Â´Ã• "
+"Ã’Â¾Â¢Ã‚ Â§Â¸Â¡Ã´Ã’ Ã€Ã‚Ã½Ã€ÃÃ²Â¾Ã€ÃÃµ. Â¯Ã­Â¸Ã» Ã€Â¨Ã†Ã‚ Â¾ÃƒÃ—Â¾Ã‡Ã²Â¨Â¾ "
+"Ã’Â¾Â¢Ã‚ Ã€Â¾Â¢Ã´Ã€Â¢Ã¸ Ã€Ã‚Ã½Ã€ÃÃ²Â¾ <b>Â§Â¸Â¡Ã´Ã’->Â­ÃˆÃ¬ÃŒÃÂ¾Â¢->KDE 1 "
+"Ã“Â¸Ã…ÃƒÂ¢Ã’Ã²Â¾Â¸Ã²Â¨Â¾ </b>Â­Ã‚Ã¬Â¸Ã—Ãµ.</qt>"
 
 #: kab_main.cc:56
 msgid "new format"
-msgstr "Ò¾¢Â ÅÊÅõ"
+msgstr "Ã’Â¾Â¢Ã‚ Ã…ÃŠÃ…Ãµ"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:54 kab_mainwidget.cc:64
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
-#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:57
-#: look_edit_tabperson.cc:249 look_edit_tabperson.cc:294
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
-msgstr "¿¢¨ÉÅ¸õ §À¡¾Å¢ø¨Ä."
+msgstr "Â¿Â¢Â¨Ã‰Ã…Â¸Ãµ Â§Ã€Â¡Â¾Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_mainwidget.cc:55 kab_mainwidget.cc:65 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
-msgstr "¦À¡ĞÅ¡É Ó¼ì¸õ"
+msgstr "Â¦Ã€Â¡ÃÃ…Â¡Ã‰ Ã“Â¼Ã¬Â¸Ãµ"
 
-#: kab_topwidget.cc:92
+#: kab_topwidget.cc:93
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Ã“Â¸Ã…ÃƒÂ¢Ã² Â¾ÃƒÃ—Ã² Â¾Ã‡Ã²ÃÂ¼Ã½ Â¦Â¾Â¡Â¼Ã·Ã’ Â¦Â¸Â¡Ã»Ã‡ "
+"Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"The KDE addressbook will not run without it.\n"
+"The application will be closed."
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:509
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
-msgstr "¾Ã×ò¾Çõ À¢¨Æ"
+msgstr "Â¾ÃƒÃ—Ã²Â¾Ã‡Ãµ Ã€Â¢Â¨Ã†"
 
-#: kab_topwidget.cc:190
-#, fuzzy
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
-msgstr "kab 2.0 ìÌ ¿øÅÕ¸"
+msgstr "kab 2.1 Ã¬ÃŒ Â¿Ã¸Ã…ÃƒÃ—"
 
-#: kab_topwidget.cc:191
-#, fuzzy
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
-msgstr "KDE Ó¸ÅÃ¢Òò¾¸õ"
+msgstr "KDE Ã“Â¸Ã…ÃƒÂ¢Ã´Ã’Ã²Â¾Â¸Ãµ 2.1"
 
-#: kab_topwidget.cc:192
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
-msgstr ""
+msgstr "Mirko Boehm Â­Ã‰Â¡Ã¸ Â±Ã˜Â¾Ã´Ã€Ã°Â¼Ã (mirko@kde.org). "
 
-#: kab_topwidget.cc:193
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
-msgstr ""
+msgstr "Â¿Â¼Ã´Ã’Ã® Â¦ÂºÃ¶Â¾Â¢Â¸Ã™Ã¬ÃŒ www.kde.org Â­Ã¼ÃŒ Ã…Ã•Â¨Â¸Â¾Ã•Â¸."
 
-#: kab_topwidget.cc:256
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
-msgstr ""
+msgstr "HTML Â­Ã¼ÃŒ Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶..."
 
-#: kab_topwidget.cc:260
-#, fuzzy
+#: kab_topwidget.cc:282
 msgid "&First entry"
-msgstr "Ó¾ø Ñ¨Æ×"
+msgstr "Ã“Â¾Ã¸ Ã‘Â¨Ã†Ã—"
 
-#: kab_topwidget.cc:264
-#, fuzzy
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
-msgstr "Óó¨¾Â Ñ¨Æ×"
+msgstr "Ã“Ã³Â¨Â¾Ã‚ Ã‘Â¨Ã†Ã—"
 
-#: kab_topwidget.cc:268
-#, fuzzy
+#: kab_topwidget.cc:290
 msgid "&Next entry"
-msgstr "«Îò¾ Ñ¨Æ×"
+msgstr "Â«ÃÃ²Â¾ Ã‘Â¨Ã†Ã—"
 
-#: kab_topwidget.cc:272
-#, fuzzy
+#: kab_topwidget.cc:294
 msgid "&Last entry"
-msgstr "­Ú¾¢Â¡É Ñ¨Æ×"
+msgstr "Â­ÃšÂ¾Â¢ Ã‘Â¨Ã†Ã—"
 
-#: kab_topwidget.cc:276
-#, fuzzy
-msgid "&Add entry"
-msgstr "Ñ¨Æ× §º÷..."
+#: kab_topwidget.cc:298
+msgid "&Add entry..."
+msgstr "Ã‘Â¨Ã†Ã…Â¢Â¨Ã‰Ã® Â§ÂºÃ·..."
 
-#: kab_topwidget.cc:280
-#, fuzzy
-msgid "&Edit entry"
-msgstr "Ñ¨Æ¨Å ¦¾¡Ì"
+#: kab_topwidget.cc:302
+msgid "&Edit entry..."
+msgstr "Ã‘Â¨Ã†Â¨Ã…Ã² Â¦Â¾Â¡ÃŒ..."
 
-#: kab_topwidget.cc:284
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
-msgstr "Ñ¨Æ× ¿£ìÌ"
-
-#: kab_topwidget.cc:288
-msgid "Send an e&mail"
-msgstr "Á¢ı«ïºø «ÛôÀ×õ"
-
-#: kab_topwidget.cc:292
-msgid "&Browse"
-msgstr "§Á§Ö¡Î"
-
-#: kab_topwidget.cc:296
-#, fuzzy
-msgid "&Search entries"
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
-
-#: kab_topwidget.cc:300
-#, fuzzy
-msgid "Show search results"
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
-
-#: kab_topwidget.cc:305
-msgid "Show main toolbar"
-msgstr ""
+msgstr "Ã‘Â¨Ã†Ã— Â¿Â£Ã¬ÃŒ"
 
 #: kab_topwidget.cc:310
-msgid "Show entry navigation toolbar"
-msgstr ""
+msgid "Send an e&mail"
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Â«Ã›Ã´Ã€Ã—Ãµ"
 
-#: kab_topwidget.cc:315
-#, fuzzy
-msgid "Print entry"
-msgstr "Ñ¨Æ¨Å ¦¾¡Ì"
+#: kab_topwidget.cc:314
+msgid "&Browse"
+msgstr "Â§ÃÂ§Ã–Â¡Ã"
 
-#: kab_topwidget.cc:319
-#, fuzzy
-msgid "Print entries"
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
+#: kab_topwidget.cc:318
+msgid "&Search entries..."
+msgstr "Ã‘Â¨Ã†Ã—Â¸Â¨Ã‡Ã² Â§Â¾Ã..."
 
-#: kab_topwidget.cc:323
-msgid "&Editing"
-msgstr "¦¾¡Ìò¾ø"
+#: kab_topwidget.cc:322
+msgid "Show search results"
+msgstr "Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Â¸Â¨Ã‡Ã¬ Â¸Â¡Ã°Ã"
 
 #: kab_topwidget.cc:327
-#, fuzzy
+msgid "Show main toolbar"
+msgstr "Ã“Â¾Ã½Â¨ÃÃ¬ Â¸Ã•Ã…Â¢Ã´Ã€Ã°Â¨Â¼Â¨Ã‚Ã¬ Â¸Â¡Ã°Ã"
+
+#: kab_topwidget.cc:332
+msgid "Show entry navigation toolbar"
+msgstr "Ã‘Â¨Ã†Ã— Ã…Ã†Â¢Â¸Â¡Ã°ÃŠÃ¬ Â¸Ã•Ã…Â¢Ã´Ã€Ã°Â¨Â¼Â¨Ã‚Ã¬ Â¸Â¡Ã°Ã"
+
+#: kab_topwidget.cc:337
+msgid "Show entry navigation list"
+msgstr "Ã‘Â¨Ã†Ã— Ã…Ã†Â¢Â¸Â¡Ã°ÃŠÃ´ Ã€Ã°ÃŠÃ‚Â¨Ã„Ã¬ Â¸Â¡Ã°Ã"
+
+#: kab_topwidget.cc:342
+msgid "Print entry..."
+msgstr "Ã‘Â¨Ã†Â¨Ã… Â«Ã®ÂºÂ¢Ã..."
+
+#: kab_topwidget.cc:346
+msgid "Print entries..."
+msgstr "Ã‘Â¨Ã†Ã—Â¸Â¨Ã‡ Â«Ã®ÂºÂ¢Ã..."
+
+#: kab_topwidget.cc:350
+msgid "&Editing"
+msgstr "Â¦Â¾Â¡ÃŒÃ²Â¾Ã¸"
+
+#: kab_topwidget.cc:354
 msgid "&Business Card"
-msgstr "«ÖÅÄ¸ «ğ¨¼"
+msgstr "Â«Ã–Ã…Ã„Â¸ Â«Ã°Â¨Â¼"
 
-#: kab_topwidget.cc:352
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
-msgstr "KDE 1 Ó¸ÅÃ¢ Òò¾¸õ"
+msgstr "KDE 1 Ã“Â¸Ã…ÃƒÂ¢ Ã’Ã²Â¾Â¸Ãµ"
 
-#: kab_topwidget.cc:359
-msgid "&Create new database..."
-msgstr "Ò¾¢Â ¾Ã×ò¾Çò¨¾ À¨¼ì¸×õ..."
-
-#: kab_topwidget.cc:363
-msgid "Open default &database"
-msgstr "¦¸¡¼¡¿¢¨Ä ¾Ã×ò¾Çò¨¾ ¾¢Èì¸×õ"
-
-#: kab_topwidget.cc:367
-msgid "&Import"
-msgstr "­ÈìÌÁ¾¢"
-
-#: kab_topwidget.cc:368
+#: kab_topwidget.cc:379
 #, fuzzy
+msgid "&Netscape address book"
+msgstr "KDE 1 Ã“Â¸Ã…ÃƒÂ¢ Ã’Ã²Â¾Â¸Ãµ"
+
+#: kab_topwidget.cc:386
+msgid "&Create new database..."
+msgstr "Ã’Â¾Â¢Ã‚ Â¾ÃƒÃ—Ã²Â¾Ã‡Ã²Â¨Â¾ Ã€Â¨Â¼Ã¬Â¸Ã—Ãµ..."
+
+#: kab_topwidget.cc:390
+msgid "Open default &database"
+msgstr "Â¦Â¸Â¡Â¼Â¡Â¿Â¢Â¨Ã„ Â¾ÃƒÃ—Ã²Â¾Ã‡Ã²Â¨Â¾ Â¾Â¢ÃˆÃ¬Â¸Ã—Ãµ"
+
+#: kab_topwidget.cc:394
+msgid "&Import"
+msgstr "Â­ÃˆÃ¬ÃŒÃÂ¾Â¢"
+
+#: kab_topwidget.cc:395
 msgid "&Print"
-msgstr "ÁÉ¢¾÷"
+msgstr "Â«Ã®ÂºÂ¢Ã"
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
-msgstr "«¨ÉòĞ ¾¸Åø¸¨ÇÔõ ­ÂÖ¨ÁÀÎòĞ"
+msgstr "Â«Â¨Ã‰Ã²Ã Â¾Â¸Ã…Ã¸Â¸Â¨Ã‡Ã”Ãµ Â­Ã‚Ã–Â¨ÃÃ€ÃÃ²Ã"
 
-#: kab_topwidget.cc:385
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
-msgstr "­ó¾ §¸¡ô¨À ÅÊÅ¨Á..."
+msgstr "Â­Ã³Â¾ Â§Â¸Â¡Ã´Â¨Ã€ Ã…ÃŠÃ…Â¨Ã..."
 
-#: kab_topwidget.cc:388
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
-msgstr "KDE Ó¸ÅÃ¢Òò¾¸ò¾¢ı Å¢ÕôÀí¸û..."
+msgstr "KDE Ã“Â¸Ã…ÃƒÂ¢Ã’Ã²Â¾Â¸Ã²Â¾Â¢Ã½ Ã…Â¢Ã•Ã´Ã€Ã­Â¸Ã»..."
 
-#: kab_topwidget.cc:506
+#: kab_topwidget.cc:537
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
+"Â¾ÃƒÃ—Ã²Â¾Ã‡ Â­Â¨Â¼Ã“Â¸Ã²Â¨Â¾ Â¯Ã•Ã…Â¡Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"KDE Ã“Â¸Ã…ÃƒÂ¢Ã´Ã’Ã²Â¾Â¸Ãµ Â­ÃÃ…Ã½ÃˆÂ¢ Â­Ã‚Ã­Â¸Â¡Ã.\n"
+"Â­Ã´Ã€Ã‚Ã½Ã€Â¡Ã Ã£Â¼Ã´Ã€ÃÃµ."
 
-#: kab_topwidget.cc:538
+#: kab_topwidget.cc:569
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
 "(Unsaved changes will be lost.)"
 msgstr ""
-"¿£í¸û ­ó¾ Ñ¨Æ¨Å Á¡üÈ¢ÔûÇ£÷¸û.\n"
-"Á¡üÈí¸¨Ç §ºÁ¢ì¸ §ÅñÎÁ¡?\n"
-"(§ºÁ¢ì¸À¼¡¾ Á¡üÈí¸û ¦¾¡¨ÄóĞ Å¢Îõ.)"
+"Â¿Â£Ã­Â¸Ã» Â­Ã³Â¾ Ã‘Â¨Ã†Â¨Ã… ÃÂ¡Ã¼ÃˆÂ¢Ã”Ã»Ã‡Â£Ã·Â¸Ã».\n"
+"ÃÂ¡Ã¼ÃˆÃ­Â¸Â¨Ã‡ Â§ÂºÃÂ¢Ã¬Â¸ Â§Ã…Ã±ÃÃÂ¡?\n"
+"(Â§ÂºÃÂ¢Ã¬Â¸Ã€Â¼Â¡Â¾ ÃÂ¡Ã¼ÃˆÃ­Â¸Ã» Â¦Â¾Â¡Â¨Ã„Ã³Ã Ã…Â¢ÃÃµ.)"
 
-#: kab_topwidget.cc:540
+#: kab_topwidget.cc:571
 msgid "Save changes?"
-msgstr "Á¡üÈí¸¨Ç §ºÁ¢ì¸ §ÅñÎÁ¡?"
+msgstr "ÃÂ¡Ã¼ÃˆÃ­Â¸Â¨Ã‡ Â§ÂºÃÂ¢Ã¬Â¸ Â§Ã…Ã±ÃÃÂ¡?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:548
-#, fuzzy
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
-msgstr "Ò¾¢Â Ñ¨Æ× §ºÁ¢ì¸ÀÎ¸¢ÈĞ."
+msgstr "Ã‘Â¨Ã†Â¨Ã…Ã² Â¦Â¾Â¡ÃŒÃ´Ã€Â¾Â¢Ã¼ Â¾Ã…Ãš."
 
-#: kab_topwidget.cc:577
+#: kab_topwidget.cc:608
 msgid "No entries."
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
+msgstr "Ã‘Â¨Ã†Ã—Â¸Ã» Â­Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:677
-#, fuzzy
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
-msgstr "¦¸¡¼¡¿¢¨Ä ¾Ã×ò¾Çò¨¾ ¾¢Èì¸×õ"
+msgstr ""
+"Â¦Â¸Â¡Â¼Â¡Â¿Â¢Â¨Ã„ Â¯Ã»Ã‡Â¨Ã Â¾ÃƒÃ—Ã²Â¾Ã‡Ã²Â¨Â¾ Â¸Ã±ÃÃ€Â¢ÃŠÂˆÃ¬Â¸ "
+"Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:678
-#, fuzzy
+#: kab_topwidget.cc:727
 msgid "Critical failure"
-msgstr "¦À¡ĞÅ¡É Ó¼ì¸õ"
+msgstr "Ã“Ã¬Â¸Â¢Ã‚ Â¾Ã…Ãš"
 
-#: kab_topwidget.cc:683
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
-msgstr "¦ºó¾Ã §¸¡ôÒ ²üÈ ÓÊÂÅ¢ø¨Ä."
+msgstr "Â¦ÂºÃ³Â¾Ãƒ Â§Â¸Â¡Ã´Ã’ Â²Ã¼Ãˆ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:684
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
-msgstr "§¸¡ôÒ À¢¨Æ"
+msgstr "Â§Â¸Â¡Ã´Ã’ Ã€Â¢Â¨Ã†"
 
-#: kab_topwidget.cc:699
+#: kab_topwidget.cc:748
 msgid "Business card view."
-msgstr "«ÖÅÄ¸ «ğ¨¼ ¸¡ğº¢."
+msgstr "Â«Ã–Ã…Ã„Â¸ Â«Ã°Â¨Â¼ Â¸Â¡Ã°ÂºÂ¢."
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:759
 msgid "Editing view."
-msgstr "¸¡ğº¢ ¦¾¡Ìì¸¢ÈĞ."
+msgstr "Â¸Â¡Ã°ÂºÂ¢ Â¦Â¾Â¡ÃŒÃ¬Â¸Â¢ÃˆÃ."
 
-#: kab_topwidget.cc:718
+#: kab_topwidget.cc:767
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
-"¿£í¸û ²È¸É§Å Ó¼ì¸¢Â «¨ÉòĞ ¾¸Åø¸¨ÇÔõ ­Ğ ÁÚÈÊÔõ ­ÂÖ¨ÁôÀÎòĞõ.\n"
-"¦¾¡¼Ã§ÅñÎÁ¡?"
+"Â¿Â£Ã­Â¸Ã» Â²ÃˆÂ¸Ã‰Â§Ã… Ã“Â¼Ã¬Â¸Â¢Ã‚ Â«Â¨Ã‰Ã²Ã Â¾Â¸Ã…Ã¸Â¸Â¨Ã‡Ã”Ãµ Â­Ã "
+"ÃÃšÃˆÃŠÃ”Ãµ Â­Ã‚Ã–Â¨ÃÃ´Ã€ÃÃ²ÃÃµ.\n"
+"Â¦Â¾Â¡Â¼ÃƒÂ§Ã…Ã±ÃÃÂ¡?"
 
-#: kab_topwidget.cc:720
+#: kab_topwidget.cc:769
 msgid "Enable messages?"
-msgstr "¾¸Åø¸¨Ç ­ÂÖ¨ÁÀÊò¾ §Å½ÎÁ¡?"
+msgstr "Â¾Â¸Ã…Ã¸Â¸Â¨Ã‡ Â­Ã‚Ã–Â¨ÃÃ€ÃŠÃ²Â¾ Â§Ã…Â½ÃÃÂ¡?"
 
-#: kab_topwidget.cc:739
+#: kab_topwidget.cc:788
 msgid "New entry added."
-msgstr "Ò¾¢Â Ñ¨Æ× §º÷ì¸ÀğÎûÇĞ."
+msgstr "Ã’Â¾Â¢Ã‚ Ã‘Â¨Ã†Ã— Â§ÂºÃ·Ã¬Â¸Ã€Ã°ÃÃ»Ã‡Ã."
 
-#: kab_topwidget.cc:740
+#: kab_topwidget.cc:789
 msgid "Saving new entry."
-msgstr "Ò¾¢Â Ñ¨Æ× §ºÁ¢ì¸ÀÎ¸¢ÈĞ."
+msgstr "Ã’Â¾Â¢Ã‚ Ã‘Â¨Ã†Ã— Â§ÂºÃÂ¢Ã¬Â¸Ã€ÃÂ¸Â¢ÃˆÃ."
 
-#: kab_topwidget.cc:742
+#: kab_topwidget.cc:791
 msgid "Done."
-msgstr "ÓÊó¾Ğ."
+msgstr "Ã“ÃŠÃ³Â¾Ã."
 
-#: kab_topwidget.cc:761
+#: kab_topwidget.cc:812
 #, fuzzy
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
-"You may not have writing permissions for this file."
+"You may not have write permission for this file."
 msgstr ""
-"Ò¾¢Â Ñ¨Æ¨Å §º÷ì¸ ÓÊÂ¡Ğ.\n"
-"«ÛÁ¾¢ ÁÚì¸Àğ¼Ğ.\n"
-"¯í¸ÙìÌ ­ó¾ §¸¡ôÒ ±ØĞÅ¾üìÌ «ÛÁ¾¢ ­ø¨Ä."
+"Ã’Â¾Â¢Ã‚ Ã‘Â¨Ã†Â¨Ã… Â§ÂºÃ·Ã¬Â¸ Ã“ÃŠÃ‚Â¡Ã.\n"
+"Â«Ã›ÃÂ¾Â¢ ÃÃšÃ¬Â¸Ã€Ã°Â¼Ã.\n"
+"Â¯Ã­Â¸Ã™Ã¬ÃŒ Â­Ã³Â¾ Â§Â¸Â¡Ã´Ã€Â¢Â¨Ã‰ Â±Ã˜ÃÃµ Â«Ã›ÃÂ¾Â¢ Â­Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:820
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
 msgstr ""
-"Ò¾¢Â Ñ¨Æ¨Å §º÷ì¸ ÓÊÂ¡Ğ.\n"
-"¦¾Ã¢Â¡¾ ¸¡Ã½õ."
+"Ã’Â¾Â¢Ã‚ Ã‘Â¨Ã†Â¨Ã… Â§ÂºÃ·Ã¬Â¸ Ã“ÃŠÃ‚Â¡Ã.\n"
+"Â¦Â¾ÃƒÂ¢Ã‚Â¡Â¾ Â¸Â¡ÃƒÂ½Ãµ."
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:826
 msgid "No entry added."
-msgstr "±ó¾ Ñ¨Æ×õ §º÷ì¸Å¢ø¨Ä."
+msgstr "Â±Ã³Â¾ Ã‘Â¨Ã†Ã—Ãµ Â§ÂºÃ·Ã¬Â¸Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:793
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
-msgstr "¿¢ƒÁ¡¸§Å ­ó¾ Ñ¨Æ¨Å ¿£ì¸ §ÅñÎÁ¡?"
+msgstr "Â¿Â¢ÂƒÃÂ¡Â¸Â§Ã… Â­Ã³Â¾ Ã‘Â¨Ã†Â¨Ã… Â¿Â£Ã¬Â¸ Â§Ã…Ã±ÃÃÂ¡?"
 
-#: kab_topwidget.cc:794 look_edit_tabaddresses.cc:252
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
-msgstr "§¸ûÅ¢"
+msgstr "Â§Â¸Ã»Ã…Â¢"
 
-#: kab_topwidget.cc:800
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
-msgstr "Ñ¨Æ× ¿£ì¸Àğ¼Ğ."
+msgstr "Ã‘Â¨Ã†Ã— Â¿Â£Ã¬Â¸Ã€Ã°Â¼Ã."
 
-#: kab_topwidget.cc:802
-#, fuzzy
+#: kab_topwidget.cc:853
 msgid "Database saved."
-msgstr "¾Ã×ò¾Çõ À¢¨Æ"
+msgstr "Â¾ÃƒÃ—Ã²Â¾Ã‡Ãµ Â§ÂºÃÂ¢Ã¬Â¸Ã´Ã€Ã°Â¼Ã"
 
-#: kab_topwidget.cc:809
+#: kab_topwidget.cc:860
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
 msgstr ""
-"Ñ¨Æ¨Å ¿£ì¸ ÓÊÂÅ¢ø¨Ä\n"
-"(«ÛÁ¾¢ ÁÚì¸ÀğÊÕì¸ÜÎõ)."
+"Ã‘Â¨Ã†Â¨Ã… Â¿Â£Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„\n"
+"(Â«Ã›ÃÂ¾Â¢ ÃÃšÃ¬Â¸Ã€Ã°ÃŠÃ•Ã¬Â¸ÃœÃÃµ)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:812
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
-msgstr "«ÛÁ¾¢ ÁÚì¸Àğ¼Ğ."
+msgstr "Â«Ã›ÃÂ¾Â¢ ÃÃšÃ¬Â¸Ã€Ã°Â¼Ã."
 
-#: kab_topwidget.cc:874
+#: kab_topwidget.cc:925
 msgid "Send an email"
-msgstr "´Õ Á¢ı«ïºø «ÛôÀ×õ"
+msgstr "Â´Ã• ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Â«Ã›Ã´Ã€Ã—Ãµ"
 
-#: kab_topwidget.cc:883
+#: kab_topwidget.cc:934
 msgid "No email addresses."
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û ±Ğİõ ­ø¨Ä."
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã» Â±ÃÃÃµ Â­Ã¸Â¨Ã„."
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:413 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:897
-#: kab_topwidget.cc:945 kab_topwidget.cc:1340
+#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
-msgstr "ÁÚì¸Àğ¼Ğ."
+msgstr "ÃÃšÃ¬Â¸Ã€Ã°Â¼Ã."
 
-#: kab_topwidget.cc:923
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
-msgstr "­¾üÌ §Á§Ä¡Î ..."
+msgstr "Â­Â¾Ã¼ÃŒ Â§ÃÂ§Ã„Â¡Ã ..."
 
-#: kab_topwidget.cc:931
+#: kab_topwidget.cc:982
 msgid "No URLs."
-msgstr "URL¸û ­ø¨Ä."
+msgstr "URLÂ¸Ã» Â­Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:991
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
-msgstr "¸¨¼º¢ ¸¡ğº¢¨Â Á£ğÌõ."
+msgstr "Â¸Â¨Â¼ÂºÂ¢ Â¸Â¡Ã°ÂºÂ¢Â¨Ã‚ ÃÂ£Ã°ÃŒÃµ."
 
-#: kab_topwidget.cc:993
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
-msgstr "¸¨¼º¢ ¸¡ğº¢¨Â Á£ğ¸Å¢ø¨Ä."
+msgstr "Â¸Â¨Â¼ÂºÂ¢ Â¸Â¡Ã°ÂºÂ¢Â¨Ã‚ ÃÂ£Ã°Â¸Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:1004
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
-msgstr "¸¨¼º¢ Ñ¨Æ¨Å ¿¢¨çğÊ¦¸¡û¸¢ÈĞ."
+msgstr "Â¸Â¨Â¼ÂºÂ¢ Ã‘Â¨Ã†Â¨Ã… Â¿Â¢Â¨Ã§Ã°ÃŠÂ¦Â¸Â¡Ã»Â¸Â¢ÃˆÃ."
 
-#: kab_topwidget.cc:1006
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
-msgstr "¸¨¼º¢ Ñ¨Æ¨Å ¿¢¨çğÊ¦¸¡ûÇÅ¢ø¨Ä."
+msgstr "Â¸Â¨Â¼ÂºÂ¢ Ã‘Â¨Ã†Â¨Ã… Â¿Â¢Â¨Ã§Ã°ÃŠÂ¦Â¸Â¡Ã»Ã‡Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:1017
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
-msgstr "¦¾¡Ìì¸Àğ¼ ¦ÀÂ¨Ã º¡ÇÃ ¾¨ÄôÀ¢ø ¸¡ğÎ¸¢ÈĞ."
+msgstr "Â¦Â¾Â¡ÃŒÃ¬Â¸Ã€Ã°Â¼ Â¦Ã€Ã‚Â¨Ãƒ ÂºÂ¡Ã‡Ãƒ Â¾Â¨Ã„Ã´Ã€Â¢Ã¸ Â¸Â¡Ã°ÃÂ¸Â¢ÃˆÃ."
 
-#: kab_topwidget.cc:1019
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
-msgstr "¦¾¡Ìì¸Àğ¼ ¦ÀÂ¨Ã º¡ÇÃ ¾¨ÄôÀ¢ø ¸¡ğ¼Å¢ø¨Ä."
+msgstr "Â¦Â¾Â¡ÃŒÃ¬Â¸Ã€Ã°Â¼ Â¦Ã€Ã‚Â¨Ãƒ ÂºÂ¡Ã‡Ãƒ Â¾Â¨Ã„Ã´Ã€Â¢Ã¸ Â¸Â¡Ã°Â¼Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:1030
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
-msgstr "¦¾¡¼ì¸ò¾¢ü¸Ì ¸¡ôÒ §¸¡ô¨À À¨¼ì¸¢ÈĞ."
+msgstr "Â¦Â¾Â¡Â¼Ã¬Â¸Ã²Â¾Â¢Ã¼Â¸ÃŒ Â¸Â¡Ã´Ã’ Â§Â¸Â¡Ã´Â¨Ã€ Ã€Â¨Â¼Ã¬Â¸Â¢ÃˆÃ."
 
-#: kab_topwidget.cc:1032
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
-msgstr "¦¾¡¼ì¸ò¾¢ü¸Ì ¸¡ôÒ §¸¡ô¨À À¨¼ì¸Å¢ø¨Ä."
+msgstr "Â¦Â¾Â¡Â¼Ã¬Â¸Ã²Â¾Â¢Ã¼Â¸ÃŒ Â¸Â¡Ã´Ã’ Â§Â¸Â¡Ã´Â¨Ã€ Ã€Â¨Â¼Ã¬Â¸Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:1175
-#, fuzzy
+#: kab_topwidget.cc:1231
 msgid "Search entries"
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
+msgstr "Ã‘Â¨Ã†Ã—Â¸Â¨Ã‡Ã² Â§Â¾Ã"
 
-#: kab_topwidget.cc:1187 kab_topwidget.cc:1197
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
-msgstr ""
+msgstr "(Â¾Ã…Ãš)"
 
-#: kab_topwidget.cc:1234
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
 msgstr ""
+"Â¾Ã¼Â§Ã€Â¡ÃÃ»Ã‡ Ã‘Â¨Ã†Ã—Â¸Ã‡Â¢Ã½ Â§ÃÂ§Ã„Â¡Ã°Â¼Ã²Â¨Â¾Ã´ Â¦Ã€Ãˆ "
+"Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„"
 
-#: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
-#, fuzzy
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
-msgstr "¯ûÇ¨Á À¢¨Æ."
+msgstr "Â¯Ã»Ã‡Â¨ÃÃ³Â¾ Ã€Â¢Â¨Ã†"
 
-#: kab_topwidget.cc:1251 kab_topwidget.cc:1262
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
-msgstr ""
+msgstr "Â­Ã•Ã¬ÃŒÃµ Ã‘Â¨Ã†Â¦Ã…Â¡Ã½ÃšÃ€Ã¼ÃˆÂ¢ Ã…Â¢Ã‰Â¡Ã… Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„"
 
-#: kab_topwidget.cc:1330
-#, fuzzy
+#: kab_topwidget.cc:1389
 msgid "Search results ("
-msgstr "Ñ¨Æ×¸û ­ø¨Ä."
+msgstr "Â§Â¾Â¼Ã¸ Ã“ÃŠÃ—Â¸Ã» ("
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid " hits):"
-msgstr ""
+msgstr " ÂºÃƒÂ¢Ã‚Â¡Ã‰Â¨Ã…):"
 
-#: kab_topwidget.cc:1335
+#: kab_topwidget.cc:1394
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
 msgstr ""
+"ÃÃ½Ã‰Â¢Ã¬Â¸Ã—Ãµ!\n"
+"Â¯Ã­Â¸Ã» Â¿Â¢Ã€Ã³Â¾Â¨Ã‰Â¸Ã™Ã¬ÃŒ Â±Ã³Ã‘Â¨Ã†Ã—Ãµ Â¦Ã€Â¡Ã•Ã³Â¾Ã…Â¢Ã¸Â¨Ã„."
 
-#: kab_topwidget.cc:1336
+#: kab_topwidget.cc:1395
 msgid "No hits"
-msgstr ""
+msgstr "Â¦Ã€Â¡Ã•Ã³ÃÃ…Ã‰ Â²ÃÃÂ¢Ã¸Â¨Ã„"
 
 #: kab_kab1importer.cc:197
 msgid "Home"
-msgstr "¦¾¡¼ì¸õ"
+msgstr "Â¦Â¾Â¡Â¼Ã¬Â¸Ãµ"
 
 #: kab_kab1importer.cc:239
 msgid "Imported kab 1 addressbook."
-msgstr "­ÈìÌÁ¾¢¦ºöÂÀğ¼ kab 1 Ó¸ÅÃ¢Òò¾¸õ."
+msgstr "Â­ÃˆÃ¬ÃŒÃÂ¾Â¢Â¦ÂºÃ¶Ã‚Ã€Ã°Â¼ kab 1 Ã“Â¸Ã…ÃƒÂ¢Ã’Ã²Â¾Â¸Ãµ."
 
 #: kab_kab1importer.cc:278
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
 msgstr ""
-"kab 1 ¾Ã×¾Çõ §¸¡ô¨À «Ï¸ ÓÊÂÅ¢ø¨Ä.\n"
-"¿£í¸û kab 1 ÀÂıÀÎò¾Å¢ø¨Ä §À¡Öõ."
+"kab 1 Â¾ÃƒÃ—Â¾Ã‡Ãµ Â§Â¸Â¡Ã´Â¨Ã€ Â«ÃÂ¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â¿Â£Ã­Â¸Ã» kab 1 Ã€Ã‚Ã½Ã€ÃÃ²Â¾Ã…Â¢Ã¸Â¨Ã„ Â§Ã€Â¡Ã–Ãµ."
 
 #: kab_kab1importer.cc:292
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
 msgstr ""
-"kab 1 ¾Ã×¾Çõ §¸¡ô¨À Å¡º¢ì¸ ÓÊÂÅ¢ø¨Ä.\n"
-"¯í¸û ¾Ã×¾Çõ §¸¡ô¨À ¨¸Ó¨ÈÂ¡¸ ¿£í¸û Á¡üÈ¢Â¨Áò¾¢ÕôÀ£÷¸û."
+"kab 1 Â¾ÃƒÃ—Â¾Ã‡Ãµ Â§Â¸Â¡Ã´Â¨Ã€ Ã…Â¡ÂºÂ¢Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â¯Ã­Â¸Ã» Â¾ÃƒÃ—Â¾Ã‡Ãµ Â§Â¸Â¡Ã´Â¨Ã€ Â¨Â¸Ã“Â¨ÃˆÃ‚Â¡Â¸ Â¿Â£Ã­Â¸Ã» "
+"ÃÂ¡Ã¼ÃˆÂ¢Ã‚Â¨ÃÃ²Â¾Â¢Ã•Ã´Ã€Â£Ã·Â¸Ã»."
 
 #: kab_kab1importer.cc:307
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
 msgstr ""
-"¯í¸û ¾Ã×¾Çò¾¢ø Ñ¨Æ×¸û ÀÌ¾¢¨Â ¸ñÎÀ¢Êì¸ ÓÊÂÅ¢ø¨Ä.\n"
-"¯í¸û ¾Ã×¾Çõ §¸¡ô¨À ¨¸Ó¨ÈÂ¡¸ ¿£í¸û Á¡üÈ¢Â¨Áò¾¢ÕôÀ£÷¸û."
+"Â¯Ã­Â¸Ã» Â¾ÃƒÃ—Â¾Ã‡Ã²Â¾Â¢Ã¸ Ã‘Â¨Ã†Ã—Â¸Ã» Ã€ÃŒÂ¾Â¢Â¨Ã‚ Â¸Ã±ÃÃ€Â¢ÃŠÃ¬Â¸ "
+"Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â¯Ã­Â¸Ã» Â¾ÃƒÃ—Â¾Ã‡Ãµ Â§Â¸Â¡Ã´Â¨Ã€ Â¨Â¸Ã“Â¨ÃˆÃ‚Â¡Â¸ Â¿Â£Ã­Â¸Ã» "
+"ÃÂ¡Ã¼ÃˆÂ¢Ã‚Â¨ÃÃ²Â¾Â¢Ã•Ã´Ã€Â£Ã·Â¸Ã»."
 
 #: kab_kab1importer.cc:335
+#, fuzzy
 msgid ""
-"Warning: There where errors importing the KDE 1\n"
+"Warning: There were errors importing the KDE 1\n"
 "address database.\n"
 "\n"
 msgstr ""
-"±îºÃ¢ì¨¸: KDE 1 Ó¸ÅÃ¢ ¾Ã×¾Çõ ­ÈìÌÁ¾¢ ¦ºöÅ¾¢ø\n"
-"À¢¨Æ¸û ­Õó¾É.\n"
+"Â±Ã®ÂºÃƒÂ¢Ã¬Â¨Â¸: KDE 1 Ã“Â¸Ã…ÃƒÂ¢ Â¾ÃƒÃ—Â¾Ã‡Ãµ Â­ÃˆÃ¬ÃŒÃÂ¾Â¢ "
+"Â¦ÂºÃ¶Ã…Â¾Â¢Ã¸\n"
+"Ã€Â¢Â¨Ã†Â¸Ã» Â­Ã•Ã³Â¾Ã‰.\n"
 "\n"
 
 #: kab_kab1importer.cc:340
@@ -659,133 +689,187 @@ msgid ""
 "address book to this file?\n"
 "You will not be able to revert this changes."
 msgstr ""
-"¯í¸û KDE 1 Ó¸ÅÃ¢ Òò¾¸ò¾¢ı Ñ¨Æ×¸¨Ç ­ó¾ §¸¡ôÀ¢ø §º÷ì¸\n"
-"Å¢ÕõÒ¸¢È£÷¸Ç¡?\n"
-"­ó¾ Á¡üÈí¸¨Ç Á£ğ¸ ÓÊÂ¡Ğ."
+"Â¯Ã­Â¸Ã» KDE 1 Ã“Â¸Ã…ÃƒÂ¢ Ã’Ã²Â¾Â¸Ã²Â¾Â¢Ã½ Ã‘Â¨Ã†Ã—Â¸Â¨Ã‡ Â­Ã³Â¾ "
+"Â§Â¸Â¡Ã´Ã€Â¢Ã¸ Â§ÂºÃ·Ã¬Â¸\n"
+"Ã…Â¢Ã•ÃµÃ’Â¸Â¢ÃˆÂ£Ã·Â¸Ã‡Â¡?\n"
+"Â­Ã³Â¾ ÃÂ¡Ã¼ÃˆÃ­Â¸Â¨Ã‡ ÃÂ£Ã°Â¸ Ã“ÃŠÃ‚Â¡Ã."
+
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr ""
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr ""
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr ""
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr ""
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr ""
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr ""
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr ""
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr ""
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr ""
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr ""
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr ""
+
+#: kab_netscape_io.cc:297
+#, fuzzy
+msgid "No addresses imported."
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã» Â±ÃÃÃµ Â­Ã¸Â¨Ã„."
 
 #: kab_printmethods.cc:94
-#, fuzzy
 msgid "Printing finished."
-msgstr "«ÛÁ¾¢ ÁÚì¸Àğ¼Ğ."
+msgstr "Â«Ã®ÂºÂ¢Â¼Ã¸ Ã“ÃŠÃ³Â¾Ã."
 
 #: kab_printmethods.cc:96
-#, fuzzy
 msgid "Printing failed."
-msgstr "¦À¡ĞÅ¡É Ó¼ì¸õ"
+msgstr "Â«Ã®ÂºÂ¢Â¼Ã¸ Ã“ÃˆÂ¢Ã³Â¾Ã."
 
 #: kab_printmethods.cc:212
-#, fuzzy
 msgid "Email address:"
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û..."
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢:"
 
 #: kab_printmethods.cc:213
-#, fuzzy
 msgid "Email addresses:"
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û..."
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»:"
 
 #: kab_printmethods.cc:224
-#, fuzzy
 msgid "Telephone:"
-msgstr "¦¾¡¨Ä§Àº¢"
+msgstr "Â¦Â¾Â¡Â¨Ã„Â§Ã€ÂºÂ¢:"
 
 #: kab_printmethods.cc:225
-#, fuzzy
 msgid "Telephones:"
-msgstr "¦¾¡¨Ä§Àº¢"
+msgstr "Â¦Â¾Â¡Â¨Ã„Â§Ã€ÂºÂ¢Â¸Ã»:"
 
 #: kab_printmethods.cc:245
 msgid "Web Page:"
-msgstr ""
+msgstr "Â­Â¨Â½Ã‚Ã´Ã€Ã¬Â¸Ãµ:"
 
 #: kab_printmethods.cc:246
 msgid "Web Pages:"
-msgstr ""
+msgstr "Â­Â¨Â½Ã‚Ã´Ã€Ã¬Â¸Ã­Â¸Ã»:"
 
 #: kab_printmethods.cc:256
-#, fuzzy
 msgid "Talk Address:"
-msgstr "§ÀîÍ Ó¸ÅÃ¢¸û..."
+msgstr "Â§Ã€Ã®Ã Ã“Â¸Ã…ÃƒÂ¢:"
 
 #: kab_printmethods.cc:257
-#, fuzzy
 msgid "Talk Addresses:"
-msgstr "§ÀîÍ Ó¸ÅÃ¢¸û..."
+msgstr "Â§Ã€Ã®Ã Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
-#, fuzzy
 msgid "Address:"
-msgstr "Ó¸ÅÃ¢¸û"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢:"
 
 #: kab_printmethods.cc:334 kab_printmethods.cc:339
-#, fuzzy
 msgid "Addresses:"
-msgstr "Ó¸ÅÃ¢¸û"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»:"
 
 #: kab_printmethods.cc:402
-#, fuzzy
 msgid "Unnamed address:"
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û..."
+msgstr "Â¦Ã€Ã‚ÃƒÂ¢Â¼Ã´Ã€Â¼Â¡ Ã“Â¸Ã…ÃƒÂ¢:"
 
 #: kab_printmethods.cc:464 kab_printmethods.cc:468
 msgid "(Deliver to:)"
-msgstr ""
+msgstr "(Â­Ã…Ã•Ã¬ÃŒ Â«Ã›Ã´Ã’:)"
 
-#: kab_htmlexport.cc:333
+#: kab_htmlexport.cc:318
 msgid ""
 "<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
 "customized version of the template files delivered with your kab "
 "installation at another point.</qt>"
 msgstr ""
+"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
+"customized version of the template files delivered with your kab "
+"installation at another point.</qt>"
 
-#: kab_htmlexport.cc:338
+#: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
-msgstr ""
+msgstr "HTML Â²Ã¼ÃšÃÂ¾Â¢ ÃÂ¡Â¾Â¢ÃƒÂ¢Â¸Ã»"
 
-#: kab_htmlexport.cc:344
+#: kab_htmlexport.cc:329
 msgid "Select Template Folder"
-msgstr ""
+msgstr "ÃÂ¡Â¾Â¢ÃƒÂ¢ Â«Â¨Â¼Â¨Ã…Ã² Â¦Â¾ÃƒÂ¢Ã— Â¦ÂºÃ¶"
 
-#: kab_htmlexport.cc:358
+#: kab_htmlexport.cc:343
 msgid "Select Target Folder"
-msgstr ""
+msgstr "Â­Ã„Ã¬ÃŒ Â«Â¨Â¼Â¨Ã…Ã² Â¦Â¾ÃƒÂ¢Ã—Â¦ÂºÃ¶"
 
-#: kab_htmlexport.cc:407
+#: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
 msgstr ""
+"Â­Ã„Ã¬ÃŒ Â«Â¨Â¼Â¨Ã…Ã”Ãµ ÃÂ¡Â¾Â¢ÃƒÂ¢ Â«Â¨Â¼Â¨Ã…Ã”Ãµ Â¦Â¾ÃƒÂ¢Ã— Â¦ÂºÃ¶Ã‚ "
+"Â§Ã…Ã±ÃÃµ!"
 
-#: kab_htmlexport.cc:408
+#: kab_htmlexport.cc:393
 msgid "Corrections needed"
-msgstr ""
+msgstr "Â¾Â¢Ã•Ã²Â¾Ã­Â¸Ã» Â§Â¾Â¨Ã…Ã´Ã€ÃÂ¸Â¢Ã½ÃˆÃ‰"
 
-#: kab_htmlexport.cc:462
+#: kab_htmlexport.cc:447
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
 "files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
+"<qt>At least one <b>resource file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
+"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 
-#: kab_htmlexport.cc:467
+#: kab_htmlexport.cc:452
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
 "to create the HTML files themselves. The HTML export will most probably not "
 "work without it.)</i></qt>"
 msgstr ""
+"<qt>At least one <b>template file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
+"to create the HTML files themselves. The HTML export will most probably not "
+"work without it.)</i></qt>"
 
-#: kab_htmlexport.cc:507
+#: kab_htmlexport.cc:492
 msgid "Missing Resource"
-msgstr ""
+msgstr "Â¾Ã…ÃšÃµ Ã…Ã‡Ãµ"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:510 kab_htmlexport.cc:522
+#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
-msgstr "¿£ì¸Àğ¼Ğ."
+msgstr "Â¿Â£Ã¬Â¸Ã€Ã°Â¼Ã."
 
-#: kab_htmlexport.cc:519
+#: kab_htmlexport.cc:504
 msgid "Missing Template"
-msgstr ""
+msgstr "Â¾Ã…ÃˆÂ¢Ã‚ ÃÂ¡Â¾Â¢ÃƒÂ¢"
 
-#: kab_htmlexport.cc:558
+#: kab_htmlexport.cc:543
 msgid ""
 "<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
 "by insufficient permissions in the target directory or failures in the setup "
@@ -793,22 +877,27 @@ msgid ""
 "mistakes in there may also cause errors. As a last possibility, the KDE "
 "address book may be buggy, too :-(.</qt>"
 msgstr ""
+"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
+"by insufficient permissions in the target directory or failures in the setup "
+"of your KDE 2 installation.<br><br>If you created your own template folder, "
+"mistakes in there may also cause errors. As a last possibility, the KDE "
+"address book may be buggy, too :-(.</qt>"
 
-#: kab_htmlexport.cc:566
+#: kab_htmlexport.cc:551
 msgid "Error exporting to HTML"
-msgstr ""
+msgstr "HTML Â­Ã¼ÃŒ Â²Ã¼ÃšÃÂ¾Â¢ Â¦ÂºÃ¶Ã…Â¾Â¢Ã¼ Â¾Ã…Ãš Â§Â¿Ã·Ã³Â¾Ã"
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Could not find the users home directory."
-msgstr "ÀÂÉÃ¢ı ¦¾¡¼ì¸ «¨¼¨Å ¸ñÎÀ¢Êì¸ ÓÊÂÅ¢ø¨Ä."
+msgstr "Ã€Ã‚Ã‰ÃƒÂ¢Ã½ Â¦Â¾Â¡Â¼Ã¬Â¸ Â«Â¨Â¼Â¨Ã… Â¸Ã±ÃÃ€Â¢ÃŠÃ¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: kab_createnew.cc:44 kab_openfile.cc:44
 msgid "Intern error!"
-msgstr "¯ûÇ¨Á À¢¨Æ!"
+msgstr "Â¯Ã»Ã‡Â¨Ã Ã€Â¢Â¨Ã†!"
 
 #: kab_createnew.cc:62 kab_openfile.cc:60
 msgid "Only local files supported yet."
-msgstr "­ĞÅ¨Ã ¯ûÇ¨Á §¸¡ôÒ¸û ÁğÎõ ¾¡ı ¯¾ÅÀğ¼É."
+msgstr "Â­ÃÃ…Â¨Ãƒ Â¯Ã»Ã‡Â¨Ã Â§Â¸Â¡Ã´Ã’Â¸Ã» ÃÃ°ÃÃµ Â¾Â¡Ã½ Â¯Â¾Ã…Ã€Ã°Â¼Ã‰."
 
 #: kab_createnew.cc:75
 msgid ""
@@ -816,38 +905,39 @@ msgid ""
 "Please select another filename.\n"
 "You must have permission to write to create the new file."
 msgstr ""
-"­ó¾ §¸¡ôÒ ´Õ «¨¼Å¡¸ ­ÃìÌõ «øÄĞ ²ü¸§Å ­Õì¸¢ÈĞ.\n"
-"¾Â×¦ºöĞ §ÅÚ §¸¡ôÒ ¦ÀÂ¨Ã §¾÷ó¦¾Îì¸×õ.\n"
-"Ò¾¢Â §¸¡ô¨À À¨¼ì¸ ¯í¸ÙìÌ ±ØĞÅ¾ü¸¡É «ÛÁ¾¢ §ÅñÎõ."
+"Â­Ã³Â¾ Â§Â¸Â¡Ã´Ã’ Â´Ã• Â«Â¨Â¼Ã…Â¡Â¸ Â­ÃƒÃ¬ÃŒÃµ Â«Ã¸Ã„Ã Â²Ã¼Â¸Â§Ã… "
+"Â­Ã•Ã¬Â¸Â¢ÃˆÃ.\n"
+"Â¾Ã‚Ã—Â¦ÂºÃ¶Ã Â§Ã…Ãš Â§Â¸Â¡Ã´Ã’ Â¦Ã€Ã‚Â¨Ãƒ Â§Â¾Ã·Ã³Â¦Â¾ÃÃ¬Â¸Ã—Ãµ.\n"
+"Ã’Â¾Â¢Ã‚ Â§Â¸Â¡Ã´Â¨Ã€ Ã€Â¨Â¼Ã¬Â¸ Â¯Ã­Â¸Ã™Ã¬ÃŒ Â±Ã˜ÃÃ…Â¾Ã¼Â¸Â¡Ã‰ Â«Ã›ÃÂ¾Â¢ "
+"Â§Ã…Ã±ÃÃµ."
 
 #: kab_createnew.cc:91
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
 msgstr ""
-"§¸¡ôÒ¦ÀÂ÷ \".kab\" Â¢ø ÓÊÂÅ¢ø¨Ä.\n"
-"«Ğ %1 ¬¸ Á¡üÈ ÀğÊûÇĞ\n"
+"Â§Â¸Â¡Ã´Ã’Â¦Ã€Ã‚Ã· \".kab\" Ã‚Â¢Ã¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â«Ã %1 Â¬Â¸ ÃÂ¡Ã¼Ãˆ Ã€Ã°ÃŠÃ»Ã‡Ã\n"
 
 #: kab_createnew.cc:93
 msgid "Note"
-msgstr "ÌÈ¢ôÒ"
+msgstr "ÃŒÃˆÂ¢Ã´Ã’"
 
 #: kab_createnew.cc:100
 msgid "The file could not be created, possibly permission denied."
-msgstr "§¸¡ôÒ À¨¼ì¸ÓÊÂÅ¢ø¨Ä, «ÛÁ¾¢ ÁÚì¸ÀğÊÕìÌõ."
+msgstr "Â§Â¸Â¡Ã´Ã’ Ã€Â¨Â¼Ã¬Â¸Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„, Â«Ã›ÃÂ¾Â¢ ÃÃšÃ¬Â¸Ã€Ã°ÃŠÃ•Ã¬ÃŒÃµ."
 
 #: kab_createnew.cc:101 kab_save.cc:58
 msgid "kab: File error"
-msgstr "kab: §¸ôÒ À¢¨Æ"
+msgstr "kab: Â§Â¸Ã´Ã’ Ã€Â¢Â¨Ã†"
 
 #: kab_createnew.cc:109
 msgid "The file has been created, but could not be loaded."
-msgstr "§¸¡ôÒ À¨¼ì¸Àğ¼Ğ, ¬É¡ø ²üÈ ÓÊÂÅ¢ø¨Ä."
+msgstr "Â§Â¸Â¡Ã´Ã’ Ã€Â¨Â¼Ã¬Â¸Ã€Ã°Â¼Ã, Â¬Ã‰Â¡Ã¸ Â²Ã¼Ãˆ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: kab_openfile.cc:45
-#, fuzzy
 msgid "Could not find the users home directory"
-msgstr "ÀÂÉÃ¢ı ¦¾¡¼ì¸ «¨¼¨Å ¸ñÎÀ¢Êì¸ ÓÊÂÅ¢ø¨Ä."
+msgstr "Ã€Ã‚Ã‰ÃƒÂ¢Ã½ Â¦Â¾Â¡Â¼Ã¬Â¸ Â«Â¨Â¼Â¨Ã…Ã¬ Â¸Ã±ÃÃ€Â¢ÃŠÃ¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: kab_openfile.cc:72
 msgid ""
@@ -855,384 +945,405 @@ msgid ""
 "Use \"Create new database...\" to create a new one.\n"
 "Select an existing file to load it."
 msgstr ""
-"§¸¡ôÒ ­ø¨Ä «øÄĞ «Ğ ´Õ «¨¼Å¡¸ ­ÕìÌõ.\n"
-"Ò¾¢Â¾¡¸ ´ı¨È À¨¼ì¸ \"Ò¾¢Â ¾Ã×¾Çò¨¾ À¨¼ì¸×õ...\" ±ıÀ¨¾ ÀÂıÀÎò¾×õ.\n"
-"«¨¾ ²üÚÅ¾üÌ ²ü¸É§Å ­ÕìÌõ ´Õ §¸¡ô¨À §¾÷ó¦¾Îì¸×õ."
+"Â§Â¸Â¡Ã´Ã’ Â­Ã¸Â¨Ã„ Â«Ã¸Ã„Ã Â«Ã Â´Ã• Â«Â¨Â¼Ã…Â¡Â¸ Â­Ã•Ã¬ÃŒÃµ.\n"
+"Ã’Â¾Â¢Ã‚Â¾Â¡Â¸ Â´Ã½Â¨Ãˆ Ã€Â¨Â¼Ã¬Â¸ \"Ã’Â¾Â¢Ã‚ Â¾ÃƒÃ—Â¾Ã‡Ã²Â¨Â¾ "
+"Ã€Â¨Â¼Ã¬Â¸Ã—Ãµ...\" Â±Ã½Ã€Â¨Â¾ Ã€Ã‚Ã½Ã€ÃÃ²Â¾Ã—Ãµ.\n"
+"Â«Â¨Â¾ Â²Ã¼ÃšÃ…Â¾Ã¼ÃŒ Â²Ã¼Â¸Ã‰Â§Ã… Â­Ã•Ã¬ÃŒÃµ Â´Ã• Â§Â¸Â¡Ã´Â¨Ã€ "
+"Â§Â¾Ã·Ã³Â¦Â¾ÃÃ¬Â¸Ã—Ãµ."
 
 #: kab_openfile.cc:86
 msgid "The file could not be loaded."
-msgstr "§¸¡ôÒ ²üÈ ÓÊÂÅ¢ø¨Ä."
+msgstr "Â§Â¸Â¡Ã´Ã’ Â²Ã¼Ãˆ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: kab_save.cc:36 kab_save.cc:50
 msgid "Internal error."
-msgstr "¯ûÇ¨Á À¢¨Æ."
+msgstr "Â¯Ã»Ã‡Â¨Ã Ã€Â¢Â¨Ã†."
 
 #: kab_save.cc:44
 msgid "Entry stored."
-msgstr "Ñ¨Æ× §ºÁ¢ì¸Àğ¼Ğ."
+msgstr "Ã‘Â¨Ã†Ã— Â§ÂºÃÂ¢Ã¬Â¸Ã€Ã°Â¼Ã."
 
 #: kab_save.cc:57
 msgid "The file could not be saved (permission denied)."
-msgstr "§¸¡ôÒ §ºÁ¢ì¸ ÓÊÂÅ¢ø¨Ä («ÛÁ¾¢ ÁÚì¸Àğ¼Ğ)."
+msgstr "Â§Â¸Â¡Ã´Ã’ Â§ÂºÃÂ¢Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„ (Â«Ã›ÃÂ¾Â¢ ÃÃšÃ¬Â¸Ã€Ã°Â¼Ã)."
 
 #: kab_save.cc:61
 msgid "File saved."
-msgstr "§¸¡ôÒ §ºÁ¢ì¸Àğ¼Ğ."
+msgstr "Â§Â¸Â¡Ã´Ã’ Â§ÂºÃÂ¢Ã¬Â¸Ã€Ã°Â¼Ã."
 
 #: look_businesscard.cc:176
 msgid "email: "
-msgstr "Á¢ı«ïºø: "
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸: "
 
 #: look_businesscard.cc:193
 msgid "tel: "
-msgstr "¦¾¡¨Ä: "
+msgstr "Â¦Â¾Â¡Â¨Ã„: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr "ÀÂÉ÷ ¾Çí¸û"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ã­Â¸Ã»"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
-#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:58
-#: look_edit_tabperson.cc:250 look_edit_tabperson.cc:295
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
-msgstr "¦À¡ĞÅ¡É Ó¼ì¸õ."
+msgstr "Â¦Ã€Â¡ÃÃ…Â¡Ã‰ Ã“Â¼Ã¬Â¸Ãµ."
 
 #: dialog_configurefile.cc:130 look_edit.cc:70
-#, fuzzy
 msgid "(User fields)"
-msgstr "ÀÂÉ÷ ¾Çí¸û"
+msgstr "(Ã€Ã‚Ã‰Ã· Â¸Ã°Â¼Ã­Â¸Ã»)"
 
 #: look_edit.cc:74
 msgid "&Person"
-msgstr "ÁÉ¢¾÷"
+msgstr "ÃÃ‰Â¢Â¾Ã·"
 
 #: look_edit.cc:75
 msgid "&Telephone"
-msgstr "¦¾¡¨Ä§Àº¢"
+msgstr "Â¦Â¾Â¡Â¨Ã„Â§Ã€ÂºÂ¢"
 
 #: look_edit.cc:76
 msgid "&Addresses"
-msgstr "Ó¸ÅÃ¢¸û"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»"
 
 #: look_edit.cc:77
 msgid "&Birthday"
-msgstr "À¢Èó¾¿¡û"
+msgstr "Ã€Â¢ÃˆÃ³Â¾Â¿Â¡Ã»"
 
 #: look_edit.cc:78
 msgid "Comment"
-msgstr "ÌÈ¢ôÒ¨Ã"
-
-#: look_edit_tabperson.cc:39
-msgid "Email addresses..."
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸û..."
+msgstr "ÃŒÃˆÂ¢Ã´Ã’Â¨Ãƒ"
 
 #: look_edit_tabperson.cc:40
-msgid "Talk addresses..."
-msgstr "§ÀîÍ Ó¸ÅÃ¢¸û..."
+msgid "Email addresses..."
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»..."
 
 #: look_edit_tabperson.cc:41
+msgid "Talk addresses..."
+msgstr "Â§Ã€Ã®Ã Ã“Â¸Ã…ÃƒÂ¢Â¸Ã»..."
+
+#: look_edit_tabperson.cc:42
 msgid "URLs..."
-msgstr "URL¸û..."
+msgstr "URLÂ¸Ã»..."
 
-#: look_edit_tabperson.cc:64
+#: look_edit_tabperson.cc:65
 msgid "Formatted name:"
-msgstr "ÅÊÅ¨Áì¸Àğ¼ ¦ÀÂ÷:"
+msgstr "Ã…ÃŠÃ…Â¨ÃÃ¬Â¸Ã€Ã°Â¼ Â¦Ã€Ã‚Ã·:"
 
-#: look_edit_tabperson.cc:75
-msgid "First name:"
-msgstr "Ó¾ø ¦ÀÂ÷:"
-
-#: look_edit_tabperson.cc:77
-msgid "Middle name:"
-msgstr "¿Î ¦ÀÂ÷:"
-
-#: look_edit_tabperson.cc:79
-msgid "Last name:"
-msgstr "¸¨¼º¢ ¦ÀÂ÷:"
-
-#: look_edit_tabperson.cc:96
-msgid "Name prefix:"
-msgstr "¦ÀÂ÷ ÓıÉ£Î:"
-
-#: look_edit_tabperson.cc:98
-msgid "Title:"
-msgstr "¾¨ÄôÒ:"
-
-#: look_edit_tabperson.cc:100
-msgid "Rank:"
-msgstr "ÀÊ¿¢¨Ä:"
-
-#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:193
-msgid "Edit email addresses"
-msgstr "Á¢ı«ïºø Ó¸ÅÃ¢¸¨Ç ¦¾¡Ìì¸×õ"
-
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:209
-msgid "Edit talk addresses"
-msgstr "§ÀîÍ Ó¸ÅÃ¢¸¨Ç ¦¾¡Ìì¸×õ"
-
-#: look_edit_tabperson.cc:225
-msgid "Edit URLs"
-msgstr "URL¸¨Ç ¦¾¡Ìì¸×õ"
-
-#: look_edit_tabperson.cc:243
-msgid "I know this persons birthday:"
+#: look_edit_tabperson.cc:68
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if "
+"<b>kab</b> assembles it in the wrong way.</qt>"
 msgstr ""
+"<qt><b>kab</b>"
+" Â¾Ã…ÃˆÂ¡Â¸ Â«Â¨ÃÃ²Â¾Â¢Ã•Ã³Â¾Â¡Ã¸,Â«ÃµÃÃ‰Â¢Â¾ÃƒÂ¢Ã½ Â«Ã¸Ã„Ã "
+"Â¿Â¢ÃšÃ…Ã‰Ã²Â¾Â¢Ã½ <i>Ã“Ã˜Ã´Â¦Ã€Ã‚Â¨Ãƒ</i> Â­Ã­ÃŒ Ã‘Â¨Ã†Ã¬Â¸Ã—Ãµ.</qt>"
+
+#: look_edit_tabperson.cc:78
+msgid "First name:"
+msgstr "Ã“Â¾Ã¸ Â¦Ã€Ã‚Ã·:"
+
+#: look_edit_tabperson.cc:80
+msgid "Middle name:"
+msgstr "Â¿Ã Â¦Ã€Ã‚Ã·:"
+
+#: look_edit_tabperson.cc:82
+msgid "Last name:"
+msgstr "Â¸Â¨Â¼ÂºÂ¢ Â¦Ã€Ã‚Ã·:"
+
+#: look_edit_tabperson.cc:99
+msgid "Name prefix:"
+msgstr "Â¦Ã€Ã‚Ã· Ã“Ã½Ã‰Â£Ã:"
+
+#: look_edit_tabperson.cc:101
+msgid "Title:"
+msgstr "Â¾Â¨Ã„Ã´Ã’:"
+
+#: look_edit_tabperson.cc:103
+msgid "Rank:"
+msgstr "Ã€ÃŠÂ¿Â¢Â¨Ã„:"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
+msgid "Edit email addresses"
+msgstr "ÃÂ¢Ã½Â«Ã¯ÂºÃ¸ Ã“Â¸Ã…ÃƒÂ¢Â¸Â¨Ã‡ Â¦Â¾Â¡ÃŒÃ¬Â¸Ã—Ãµ"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
+msgid "Edit talk addresses"
+msgstr "Â§Ã€Ã®Ã Ã“Â¸Ã…ÃƒÂ¢Â¸Â¨Ã‡ Â¦Â¾Â¡ÃŒÃ¬Â¸Ã—Ãµ"
+
+#: look_edit_tabperson.cc:228
+msgid "Edit URLs"
+msgstr "URLÂ¸Â¨Ã‡ Â¦Â¾Â¡ÃŒÃ¬Â¸Ã—Ãµ"
+
+#: look_edit_tabperson.cc:246
+#, fuzzy
+msgid "I know this person's birthday:"
+msgstr "Â­Ã…ÃƒÂ¢Ã½ Ã€Â¢ÃˆÃ³Â¾ Â¾Â¢Â¸Â¾Â¢Â¨Ã‚ Â¿Â¡Ã½ Â«ÃˆÂ¢Â§Ã…Ã½:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr "ÀÂÉ÷ ¾Çõ 1:"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ãµ 1:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
 msgid "User field 2:"
-msgstr "ÀÂÉ÷ ¾Çõ 2:"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ãµ 2:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
 msgid "User field 3:"
-msgstr "ÀÂÉ÷ ¾Çõ 3:"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ãµ 3:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
 msgid "User field 4:"
-msgstr "ÀÂÉ÷ ¾Çõ 4:"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ãµ 4:"
 
 #: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
-#, fuzzy
 msgid "(User field 1)"
-msgstr "ÀÂÉ÷ ¾Çõ 1:"
+msgstr "(Ã€Ã‚Ã‰Ã· Â¸Ã°Â¼Ãµ 1)"
 
 #: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
-#, fuzzy
 msgid "(User field 2)"
-msgstr "ÀÂÉ÷ ¾Çõ 2:"
+msgstr "(Ã€Ã‚Ã‰Ã· Â¸Ã°Â¼Ãµ 2)"
 
 #: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
-#, fuzzy
 msgid "(User field 3)"
-msgstr "ÀÂÉ÷ ¾Çõ 3:"
+msgstr "(Ã€Ã‚Ã‰Ã· Â¸Ã°Â¼Ãµ 3)"
 
 #: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
-#, fuzzy
 msgid "(User field 4)"
-msgstr "ÀÂÉ÷ ¾Çõ 4:"
+msgstr "(Ã€Ã‚Ã‰Ã· Â¸Ã°Â¼Ãµ 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
-msgstr "URL¸û (­¨½Âõ Ó¸ÅÃ¢¸û) ¦¾¡Ìì¸×õ"
+msgstr "URLÂ¸Ã» (Â­Â¨Â½Ã‚Ãµ Ã“Â¸Ã…ÃƒÂ¢Â¸Ã») Â¦Â¾Â¡ÃŒÃ¬Â¸Ã—Ãµ"
 
 #: look_edit_tabcontact.cc:32
 msgid "Edit telephone numbers"
-msgstr "¦¾¡¨Ä§Àº¢ ±ñ¸¨Ç ¦¾¡Ìì¸×õ"
+msgstr "Â¦Â¾Â¡Â¨Ã„Â§Ã€ÂºÂ¢ Â±Ã±Â¸Â¨Ã‡ Â¦Â¾Â¡ÃŒÃ¬Â¸Ã—Ãµ"
 
-#: look_edit_tabaddresses.cc:227
+#: look_edit_tabaddresses.cc:231
 msgid ""
 "<qt>Did you know that you may predefine types of addresses?<br>See "
 "<b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>Ó¸ÅÃ¢¸Ç¢ı Å¨¸¨Â ÓıÅ¢ÅÃ¨É ¦ºöÂÄ¡õ ­ıÀĞ ¯í¸ÙìÌ ¦¾Ã¢ÔÁ¡?<br> <b>¦¾¡Ì->­ó¾ "
-"§¸¡ô¨À ÅÊÅ¨Áì¸Ä¡õ</b> ±ıÀ¨¾ À¡÷ì¸×õ.</qt>"
+"<qt>Ã“Â¸Ã…ÃƒÂ¢Â¸Ã‡Â¢Ã½ Ã…Â¨Â¸Â¨Ã‚ Ã“Ã½Ã…Â¢Ã…ÃƒÂ¨Ã‰ Â¦ÂºÃ¶Ã‚Ã„Â¡Ãµ Â­Ã½Ã€Ã "
+"Â¯Ã­Â¸Ã™Ã¬ÃŒ Â¦Â¾ÃƒÂ¢Ã”ÃÂ¡?<br> <b>Â¦Â¾Â¡ÃŒ->Â­Ã³Â¾ Â§Â¸Â¡Ã´Â¨Ã€ "
+"Ã…ÃŠÃ…Â¨ÃÃ¬Â¸Ã„Â¡Ãµ</b> Â±Ã½Ã€Â¨Â¾ Ã€Â¡Ã·Ã¬Â¸Ã—Ãµ.</qt>"
 
-#: look_edit_tabaddresses.cc:229
+#: look_edit_tabaddresses.cc:233
 msgid "A note"
-msgstr "´Õ ÌÈ¢ôÒ"
+msgstr "Â´Ã• ÃŒÃˆÂ¢Ã´Ã’"
 
-#: look_edit_tabaddresses.cc:251
+#: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
-msgstr "­ó¾ Ó¸ÅÃ¢¨Â ¿£ì¸ §ÅñÎÁ¡?"
+msgstr "Â­Ã³Â¾ Ã“Â¸Ã…ÃƒÂ¢Â¨Ã‚ Â¿Â£Ã¬Â¸ Â§Ã…Ã±ÃÃÂ¡?"
 
-#: look_edit_tabaddresses.cc:313
-msgid "Insinuation"
-msgstr "º¡ğÊìÜÚ¾ø"
+#: look_edit_tabaddresses.cc:317
+#, fuzzy
+msgid "Organization"
+msgstr "Â¿Â¢ÃšÃ…Ã‰Ãµ:"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
-msgstr "¿¢¨ÄÂ¡É:"
+msgstr "Â¿Â¢Â¨Ã„Ã‚Â¡Ã‰:"
 
 #: look_edit_tabtelephone.cc:47
 msgid "Mobile:"
-msgstr "¿¢¨ÄÂüÈ:"
+msgstr "Â¿Â¢Â¨Ã„Ã‚Ã¼Ãˆ:"
 
 #: look_edit_tabtelephone.cc:48
 msgid "Fax:"
-msgstr "¦¾¡¨Ä¿¸Ä¢:"
+msgstr "Â¦Â¾Â¡Â¨Ã„Â¿Â¸Ã„Â¢:"
 
 #: look_edit_tabtelephone.cc:49
 msgid "Modem:"
-msgstr "§Á¡¼õ:"
+msgstr "Â§ÃÂ¡Â¼Ãµ:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr "ÀÂÉ÷ ÌÈ¢ôÀ¢ğ¼ 1:"
+msgstr "Ã€Ã‚Ã‰Ã· ÃŒÃˆÂ¢Ã´Ã€Â¢Ã°Â¼ 1:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr "ÀÂÉ÷ ÌÈ¢ôÀ¢ğ¼ 2:"
+msgstr "Ã€Ã‚Ã‰Ã· ÃŒÃˆÂ¢Ã´Ã€Â¢Ã°Â¼ 2:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr "ÀÂÉ÷ ÌÈ¢ôÀ¢ğ¼ 3:"
+msgstr "Ã€Ã‚Ã‰Ã· ÃŒÃˆÂ¢Ã´Ã€Â¢Ã°Â¼ 3:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
-msgstr "Å¨¸"
+msgstr "Ã…Â¨Â¸"
 
 #: look_edit_tabtelephone.cc:66
 msgid "Number"
-msgstr "±ñ"
+msgstr "Â±Ã±"
 
 #: widget_editstringlist.cc:41
 msgid "Add a new string"
-msgstr "Ò¾¢Â º¡Ãò¨¾ §º÷ì¸×õ"
+msgstr "Ã’Â¾Â¢Ã‚ ÂºÂ¡ÃƒÃ²Â¨Â¾ Â§ÂºÃ·Ã¬Â¸Ã—Ãµ"
 
 #: widget_editstringlist.cc:42
 msgid "Move this string up"
-msgstr "­ó¾ º¡Ãò¨¾ §Á§Ä ¿¸÷ò¾×õ"
+msgstr "Â­Ã³Â¾ ÂºÂ¡ÃƒÃ²Â¨Â¾ Â§ÃÂ§Ã„ Â¿Â¸Ã·Ã²Â¾Ã—Ãµ"
 
 #: widget_editstringlist.cc:43
 msgid "Move this string down"
-msgstr "­ó¾ º¡Ãò¨¾ ¸£§Æ ¿¸÷ò¾×õ"
+msgstr "Â­Ã³Â¾ ÂºÂ¡ÃƒÃ²Â¨Â¾ Â¸Â£Â§Ã† Â¿Â¸Ã·Ã²Â¾Ã—Ãµ"
 
 #: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr "­ó¾ º¡Ãò¨¾ ¿£ì¸×õ"
+msgstr "Â­Ã³Â¾ ÂºÂ¡ÃƒÃ²Â¨Â¾ Â¿Â£Ã¬Â¸Ã—Ãµ"
 
 #: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
-msgstr "²ü¸Àğ¼Ğ."
+msgstr "Â²Ã¼Â¸Ã€Ã°Â¼Ã."
 
 #: dialog_editentry.cc:68
 msgid "Edit entry"
-msgstr "Ñ¨Æ¨Å ¦¾¡Ì"
+msgstr "Ã‘Â¨Ã†Â¨Ã… Â¦Â¾Â¡ÃŒ"
 
 #: dialog_configurefile.cc:51
 msgid "Cannot query configuration data."
-msgstr ""
+msgstr "Â«Â¨ÃÃ´Ã’Ã² Â¾ÃƒÃ—Â¸Â¨Ã‡ Ã…Â¢Ã‰Â¡Ã… Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„."
 
 #: dialog_configurefile.cc:52
-#, fuzzy
 msgid "Internal failure"
-msgstr "¦À¡ĞÅ¡É Ó¼ì¸õ"
+msgstr "Â¯Ã»Ã‡Â¨ÃÃ…Â¡Ã‰ Ã“Â¼Ã¬Â¸Ãµ"
 
 #: dialog_configurefile.cc:68
 msgid "Settings applied."
-msgstr "«¨ÁôÒ¸û ÀÂıÀÎò¾Àğ¼Ğ."
+msgstr "Â«Â¨ÃÃ´Ã’Â¸Ã» Ã€Ã‚Ã½Ã€ÃÃ²Â¾Ã€Ã°Â¼Ã."
 
 #: dialog_configurefile.cc:95
 msgid "Tab name"
-msgstr "¾ğ¼ø ¦ÀÂ÷"
+msgstr "Â¾Ã°Â¼Ã¸ Â¦Ã€Ã‚Ã·"
 
 #: dialog_configurefile.cc:154
 msgid "User fields"
-msgstr "ÀÂÉ÷ ¾Çí¸û"
+msgstr "Ã€Ã‚Ã‰Ã· Â¾Ã‡Ã­Â¸Ã»"
 
 #: dialog_configurefile.cc:166
 msgid "Address types"
-msgstr "Ó¸ÅÃ¢ Å¨¸¸û"
+msgstr "Ã“Â¸Ã…ÃƒÂ¢ Ã…Â¨Â¸Â¸Ã»"
 
 #: dialog_configurefile.cc:190
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
 msgstr ""
-"¯í¸û «¨ÁôÒ¸¨Ç §ºÁ¢ì¸ ÓÊÂÅ¢ø¨Ä.\n"
-"­ó¾ §¸¡ô¨À ±ØĞÅ¾üÌ ¯í¸ÙìÌ «ÛÁ¾¢ ­ø¨Ä §À¡Öõ."
+"Â¯Ã­Â¸Ã» Â«Â¨ÃÃ´Ã’Â¸Â¨Ã‡ Â§ÂºÃÂ¢Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â­Ã³Â¾ Â§Â¸Â¡Ã´Â¨Ã€ Â±Ã˜ÃÃ…Â¾Ã¼ÃŒ Â¯Ã­Â¸Ã™Ã¬ÃŒ Â«Ã›ÃÂ¾Â¢ Â­Ã¸Â¨Ã„ "
+"Â§Ã€Â¡Ã–Ãµ."
 
 #: dialog_configurekab.cc:37
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
 msgstr ""
-"¯í¸û ÅÊÅ¨ÁôÒ §¸¡ôÒ °ÆÄ¡¸ ¯ûÇĞ.\n"
-"KAB ³ ÅÊÅ¨Áì¸ ÓÊÂ¡Ğ."
+"Â¯Ã­Â¸Ã» Ã…ÃŠÃ…Â¨ÃÃ´Ã’ Â§Â¸Â¡Ã´Ã’ Â°Ã†Ã„Â¡Â¸ Â¯Ã»Ã‡Ã.\n"
+"KAB Â³ Ã…ÃŠÃ…Â¨ÃÃ¬Â¸ Ã“ÃŠÃ‚Â¡Ã."
 
 #: dialog_configurekab.cc:39
 msgid "Fatal error"
-msgstr "Óì¸¢ÂÁ¡É À¢¨Æ"
+msgstr "Ã“Ã¬Â¸Â¢Ã‚ÃÂ¡Ã‰ Ã€Â¢Â¨Ã†"
 
 #: dialog_configurekab.cc:40
 msgid "Configuration file corrupt."
-msgstr "ÅÊÅ¨ÁôÒ §¸¡ôÒ °ÆÄ¡¸ ¯ûÇĞ."
+msgstr "Ã…ÃŠÃ…Â¨ÃÃ´Ã’ Â§Â¸Â¡Ã´Ã’ Â°Ã†Ã„Â¡Â¸ Â¯Ã»Ã‡Ã."
 
 #: dialog_configurekab.cc:58
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
-"¯í¸û Å¢ÕôÀí¸¨Ç §ºÁ¢ôÀ¾¢ø À¢¨Æ ­Õó¾Ğ.\n"
-"º¢Ä ¦¾¡¨ÄóĞ §À¡Â¢ÕìÌõ."
+"Â¯Ã­Â¸Ã» Ã…Â¢Ã•Ã´Ã€Ã­Â¸Â¨Ã‡ Â§ÂºÃÂ¢Ã´Ã€Â¾Â¢Ã¸ Ã€Â¢Â¨Ã† Â­Ã•Ã³Â¾Ã.\n"
+"ÂºÂ¢Ã„ Â¦Â¾Â¡Â¨Ã„Ã³Ã Â§Ã€Â¡Ã‚Â¢Ã•Ã¬ÃŒÃµ."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
 msgid "Error saving preferences."
-msgstr "Å¢ÕôÀí¸û §ºÁ¢ôÀ¾¢ø À¢¨Æ."
+msgstr "Ã…Â¢Ã•Ã´Ã€Ã­Â¸Ã» Â§ÂºÃÂ¢Ã´Ã€Â¾Â¢Ã¸ Ã€Â¢Â¨Ã†."
 
 #: dialog_configurekab.cc:63
 msgid "KDE address book preferences."
-msgstr "KDE Ó¸ÅÃ¢ Òò¾¸õ Å¢ÕôÀí¸û."
+msgstr "KDE Ã“Â¸Ã…ÃƒÂ¢ Ã’Ã²Â¾Â¸Ãµ Ã…Â¢Ã•Ã´Ã€Ã­Â¸Ã»."
 
 #: dialog_configurekab.cc:65
 msgid "Preferences saved."
-msgstr "Å¢ÕôÀí¸û §ºÁ¢ì¸Àğ¼Ğ."
+msgstr "Ã…Â¢Ã•Ã´Ã€Ã­Â¸Ã» Â§ÂºÃÂ¢Ã¬Â¸Ã€Ã°Â¼Ã."
 
 #: dialog_configurekab.cc:69
+#, fuzzy
 msgid ""
 "Cannot save your preferences.\n"
-"May be permission denied."
+"You may not have permission to write the file."
 msgstr ""
-"¯í¸û Å¢ÕôÀí¸¨Ç §ºÁ¢ì¸ ÓÊÂ¡Ğ.\n"
-"«ÛÁ¾¢ ÁÚì¸ÀğÊÕì¸ÜÎõ."
+"Â¯Ã­Â¸Ã» Â«Â¨ÃÃ´Ã’Â¸Â¨Ã‡ Â§ÂºÃÂ¢Ã¬Â¸ Ã“ÃŠÃ‚Ã…Â¢Ã¸Â¨Ã„.\n"
+"Â­Ã³Â¾ Â§Â¸Â¡Ã´Â¨Ã€ Â±Ã˜ÃÃ…Â¾Ã¼ÃŒ Â¯Ã­Â¸Ã™Ã¬ÃŒ Â«Ã›ÃÂ¾Â¢ Â­Ã¸Â¨Ã„ "
+"Â§Ã€Â¡Ã–Ãµ."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
-msgstr "­Ú¾¢Â¡¸ §¾÷ó¦¾Îò¾ ¸¡ğº¢¨Â ¿¢¨ÉÅ¢ø ¨ÅòĞ¦¸¡ûÇ×õ"
+msgstr ""
+"Â­ÃšÂ¾Â¢Ã‚Â¡Â¸ Â§Â¾Ã·Ã³Â¦Â¾ÃÃ²Â¾ Â¸Â¡Ã°ÂºÂ¢Â¨Ã‚ Â¿Â¢Â¨Ã‰Ã…Â¢Ã¸ "
+"Â¨Ã…Ã²ÃÂ¦Â¸Â¡Ã»Ã‡Ã—Ãµ"
 
 #: dialog_configurekab.cc:90
 msgid "Remember last selected entry"
-msgstr "­Ú¾¢Â¡¸ §¾÷ó¦¾Îò¾ Ñ¨Æ¨Å ¿¢¨ÉÅ¢ø ¨ÅòĞ¦¸¡ûÇ×õ"
+msgstr ""
+"Â­ÃšÂ¾Â¢Ã‚Â¡Â¸ Â§Â¾Ã·Ã³Â¦Â¾ÃÃ²Â¾ Ã‘Â¨Ã†Â¨Ã… Â¿Â¢Â¨Ã‰Ã…Â¢Ã¸ "
+"Â¨Ã…Ã²ÃÂ¦Â¸Â¡Ã»Ã‡Ã—Ãµ"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr "¦¾¡Ìì¸Àğ¼ ¦ÀÂ¨Ã º¡ÇÃ ¾¨ÄôÀ¢ø ¸¡ğ¼×õ"
+msgstr "Â¦Â¾Â¡ÃŒÃ¬Â¸Ã€Ã°Â¼ Â¦Ã€Ã‚Â¨Ãƒ ÂºÂ¡Ã‡Ãƒ Â¾Â¨Ã„Ã´Ã€Â¢Ã¸ Â¸Â¡Ã°Â¼Ã—Ãµ"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
-msgstr "¦¾¡¼ì¸ò¾¢ø ¸¡ôÒ §¸¡ô¨À À¨¼ì¸×õ"
+msgstr "Â¦Â¾Â¡Â¼Ã¬Â¸Ã²Â¾Â¢Ã¸ Â¸Â¡Ã´Ã’ Â§Â¸Â¡Ã´Â¨Ã€ Ã€Â¨Â¼Ã¬Â¸Ã—Ãµ"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
-msgstr "¦À¡ĞÅ¡É «¨ÁôÒ¸û"
+msgstr "Â¦Ã€Â¡ÃÃ…Â¡Ã‰ Â«Â¨ÃÃ´Ã’Â¸Ã»"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
-msgstr "¿¢ÚÅÉõ:"
+#, fuzzy
+msgid "Organization:"
+msgstr "Â¿Â¢ÃšÃ…Ã‰Ãµ:"
 
 #: dialog_insinuation.cc:30
 msgid "Department:"
-msgstr "Ğ¨È:"
+msgstr "ÃÂ¨Ãˆ:"
 
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
-msgstr "Ğ¨½-Ğ¨È:"
+msgstr "ÃÂ¨Â½-ÃÂ¨Ãˆ:"
 
-#~ msgid "Add another address"
-#~ msgstr "Áü¦È¡Õ Ó¸ÅÃ¢¨Â §º÷ì¸×õ"
+#: kab_entrylist.cc:55
+#, fuzzy
+msgid "..."
+msgstr "URLÂ¸Ã»..."
 
-#~ msgid "Edit organisational attributes"
-#~ msgstr "¿¢ÚÅÉ ÀñÒ¸¨Ç ¦¾¡Ìì¸×õ"
+#: kab_entrylist.cc:81
+msgid "No match."
+msgstr ""
 
-#~ msgid "Street:"
-#~ msgstr "Å£¾¢:"
+#: kab_entrylist.cc:94
+msgid "Calculating..."
+msgstr "Â¸Â½Â¢Ã²Â¾Ã€ÃŠ..."
 
-#~ msgid "&Edit entry..."
-#~ msgstr "Ñ¨Æ× ¦¾¡Ì..."
+#: kab_entrylist.cc:110
+msgid "(Disabled)"
+msgstr ""
 
-#~ msgid "New entry"
-#~ msgstr "Ò¾¢Â Ñ¨Æ×"
+#: kab_entrylist.cc:113
+msgid "Error creating index for incremental search."
+msgstr ""
 
-#~ msgid "Delete entry"
-#~ msgstr "Ñ¨Æ× ¿£ìÌ"
+#: kab_entrylist.cc:114
+msgid "Incremental search disabled."
+msgstr ""
 
-#~ msgid "Could not connect to the address database."
-#~ msgstr "Ó¸ÅÃ¢ ¾Ã×ò¾Çò¾¢ø ­¨½ì¸ ÓÊÂÅ¢ø¨Ä."
-
-#~ msgid "The database interface could not be created."
-#~ msgstr "¾Ã×¾Çõ ­¨¼Ó¸õ À¨¼ì¸ ÓÊÂÅ¢ø¨Ä."
+#: kab_entrylist.cc:163
+msgid "(No items to search)"
+msgstr ""
