@@ -1,0 +1,1340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-02-02 03:03+0100\n"
+"PO-Revision-Date: 2002-02-04 00:04GMT\n"
+"Last-Translator: Eugenijus Paulauskas <eugenijus@agvila.lt>\n"
+"Language-Team: Lihuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: rc.cpp:1
+msgid "Export to HTML"
+msgstr "Eksportuoti į HTML"
+
+#: rc.cpp:2
+msgid "Exporting of addresses"
+msgstr "Eksportuojama iš adresų"
+
+#: rc.cpp:3
+msgid "Export addresses along with entries"
+msgstr "Eksportuoti adresus išilgai įrašų"
+
+#: rc.cpp:4
+msgid "How should I export your addresses?"
+msgstr "Kaip ašturėčiau eksportuoti jūsų adresus?"
+
+#: rc.cpp:5
+msgid "Address and person in one line"
+msgstr "Adresus ir asmenis vienoje eilutėje"
+
+#: rc.cpp:6
+msgid "All addresses"
+msgstr "Visus adresus"
+
+#: rc.cpp:7
+msgid "Up to ... addresses"
+msgstr "Aukštyn iki ... adresų"
+
+#: rc.cpp:8
+msgid "Select style of HTML "
+msgstr "Nurodyti HTML stilių"
+
+#: rc.cpp:9
+msgid "Style of the resulting file"
+msgstr "Rezultato bylos stilius"
+
+#: rc.cpp:10
+msgid "Plain HTML text without tables or lines"
+msgstr "Grynas HTML be lentelių ir linijų"
+
+#: rc.cpp:11
+msgid "Expect more here..."
+msgstr "Daugiau laukti čia..."
+
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
+msgid "Form1"
+msgstr "Forma1"
+
+#: rc.cpp:13
+msgid "Enter the delivery label for this address here:"
+msgstr "Čia įrašykite pristatymo etiketę šiam adresui:"
+
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "Įrašų sąrašas"
+
+#: rc.cpp:15
+msgid ""
+"<qt>Search entries by entering<br> - one of their <b>email addresses</b><br> "
+"- the <b>first name</b> or<br> - the <b>last name</b></qt>"
+msgstr ""
+"<qt>Ieškoti įrašų įvedant<br> - vieną iš <b>el. pašto adresų</b><br> "
+"- <b>vardą</b> arba<br> - <b>pavardę</b></qt>"
+
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>Pažymėkite rodomą įrašą.</qt>"
+
+#: kab_htmlexport.cc:377 rc.cpp:18
+msgid "Setup HTML export"
+msgstr "HTML eksportavimo sąranka"
+
+#: rc.cpp:19
+msgid "Template folder:"
+msgstr "Šablonų aplankas:"
+
+#: rc.cpp:20
+msgid "Target folder:"
+msgstr "Paskirties aplankas:"
+
+#: rc.cpp:21 rc.cpp:22
+msgid "Choose ..."
+msgstr "Pasirinkti..."
+
+#: rc.cpp:26
+msgid "Hide the search results window. This will not clear your search results."
+msgstr "Slėpti paieškos rezultatų langą. Tai nepašalins paieškos rezultatų."
+
+#: rc.cpp:27
+msgid ""
+"Hide the search results window. This will close the search results window "
+"and clear all results of previous searches."
+msgstr ""
+"Slėpti paieškos rezultatų langą. Tai paslėps paieškos rezultatų langą ir "
+"ištrins visus ankstesnės paieškos rezultatus."
+
+#: rc.cpp:29
+msgid "Clear the search results and hide this window."
+msgstr "Išvalyti paieškos rezultatus ir paslėpti šį langą."
+
+#: rc.cpp:31
+msgid "Print your search results."
+msgstr "Spausdinti paieškos rezultatus."
+
+#: rc.cpp:33
+msgid "Search for people in your addressbook:"
+msgstr "Ieškoti žmonių adresų knygoje:"
+
+#: rc.cpp:34
+msgid "Select fields to search here."
+msgstr "Čia pažymėkite laukus paieškai."
+
+#: rc.cpp:35
+msgid ""
+"Select fields to search here. \n"
+"All entries where this field matches the pattern (consisting of wildcards or "
+"regular expressions) given below will be displayed in the Search Results "
+"Window."
+msgstr ""
+"Čia pažymėkite laukus paieškai. \n"
+"Visi įrašai, kurie atitinka šabloną (susidedantį iš pakaitos simbolių arba "
+"įprastų išsireiškimų), pateiktą žemiau, bus parodyti paieškos rezultatų "
+"lange."
+
+#: rc.cpp:36
+msgid "... matches ..."
+msgstr "... sutampa ..."
+
+#: rc.cpp:37
+msgid "*"
+msgstr "*"
+
+#: rc.cpp:38
+msgid "Enter your expression here."
+msgstr "Čia įrašykite savo išsireiškimą."
+
+#: rc.cpp:39
+msgid "Options:"
+msgstr "Parinktys:"
+
+#: rc.cpp:40
+msgid "Case sensitive search"
+msgstr "Skirti didžiąsias - mažąsias raides"
+
+#: rc.cpp:41
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr ""
+"Pažymėkite šią parinktį, jeigu norite atlikti paiešką skiriant didžiąsias ir "
+"mažąsias raides."
+
+#: rc.cpp:42
+msgid "Expressions"
+msgstr "Išsireiškimai"
+
+#: rc.cpp:43
+msgid "Wildcards"
+msgstr "Pakaitos simboliai"
+
+#: rc.cpp:44
+msgid ""
+"Check this button if you use widlcards in your expression (as in shell "
+"commands)."
+msgstr ""
+"Paspauskite šitą mygtuką, jei savo išsireiškimuose norite naudoti pakaitos "
+"simbolius (kaip apvalkalo komandose)."
+
+#: rc.cpp:45
+msgid "Regular expressions"
+msgstr "Įprasti išsireiškimai"
+
+#: rc.cpp:46
+msgid "Check this box if you use classical regular expressions in your pattern."
+msgstr ""
+"Pažymėkite šitą langelį, jeigu savo šablone norite naudoti klasikinius "
+"įprastus išsireiškimus."
+
+#: rc.cpp:48
+msgid "Address type (e.g. Home):"
+msgstr "Adreso tipas (pvz., Namų):"
+
+#: rc.cpp:49
+msgid "Organization..."
+msgstr "Organizacija..."
+
+#: rc.cpp:50
+msgid "Country:"
+msgstr "Šalis:"
+
+#: rc.cpp:51
+msgid "Zip code"
+msgstr "Pašto indeksas"
+
+#: rc.cpp:52
+msgid "State"
+msgstr "Valstija"
+
+#: rc.cpp:53
+msgid "City"
+msgstr "Miestas"
+
+#: rc.cpp:54
+msgid "Street address:"
+msgstr "Gatvė:"
+
+#: rc.cpp:55
+msgid "Job title:"
+msgstr "Pareigos:"
+
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+msgid "Delivery Label"
+msgstr "Pristatymo etiketė"
+
+#: kab_main.cc:29 kab_main.cc:36
+msgid "KDE Addressbook"
+msgstr "KDE Adresų knyga"
+
+#: kab_main.cc:49
+msgid ""
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run <b>File-"
+">Import->KDE 1 Addressbook</b> to use your old database with the new version."
+"</qt>"
+msgstr ""
+"<qt>KDE Adresų knygos 2 versija nedera su ankstesnėmis. Apsaugoti jūsų "
+"adresų knygą, bus naudojamąsi nauja byla. Paleiskite <b>Byla->Importuoti -"
+">KDE 1 Adresų knygą</b>, pasinaudoti sena duomenų baze naujoje versijoje."
+"</qt>"
+
+#: kab_main.cc:54
+msgid "New Format"
+msgstr "Naujas formatas"
+
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
+#: look_edit_tabuser.cc:47
+msgid "Out of memory."
+msgstr "Trūksta atminties."
+
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
+msgid "General failure"
+msgstr "Bendro pobūdžio triktis"
+
+#: kab_topwidget.cc:82
+msgid ""
+"Could not connect to the address database.\n"
+"The KDE addressbook will not run without it.\n"
+"The application will be closed."
+msgstr ""
+"Negalima prisijungti prie adresų duomenų bazės.\n"
+"KDE adresų knyga be jos dirbti negali.\n"
+"Programa bus uždaryta."
+
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
+msgid "Database error"
+msgstr "Duomenų bazės klaida"
+
+#: kab_topwidget.cc:197
+msgid "Welcome to kab 2.1"
+msgstr "Jus sveikina kab 2.1"
+
+#: kab_topwidget.cc:198
+msgid "The KDE Addressbook 2.1."
+msgstr "KDE Adresų knyga 2.1."
+
+#: kab_topwidget.cc:199
+msgid "Written by Mirko Boehm (mirko@kde.org)."
+msgstr "Parašė Mirko Boehm (mirko@kde.org)."
+
+#: kab_topwidget.cc:200
+msgid "Visit www.kde.org for the latest news."
+msgstr "Paskutinių naujienų aplankykite www.kde.org."
+
+#: kab_topwidget.cc:271
+msgid "&Export to HTML..."
+msgstr "&Eksportuoti į HTML..."
+
+#: kab_topwidget.cc:275
+msgid "&First Entry"
+msgstr "&Pirmas įrašas"
+
+#: kab_topwidget.cc:279
+msgid "&Previous Entry"
+msgstr "&Ankstesnis įrašas"
+
+#: kab_topwidget.cc:283
+msgid "&Next Entry"
+msgstr "&Kitas įrašas"
+
+#: kab_topwidget.cc:287
+msgid "&Last Entry"
+msgstr "Pa&skutinis įrašas"
+
+#: kab_topwidget.cc:291
+msgid "&Add Entry..."
+msgstr "&Įdėti įrašą..."
+
+#: kab_topwidget.cc:295
+msgid "&Edit Entry..."
+msgstr "R&edaguoti įrašą..."
+
+#: kab_topwidget.cc:299
+msgid "&Remove Entry"
+msgstr "Pa&šalinti įrašą"
+
+#: kab_topwidget.cc:303
+msgid "Send an E&mail"
+msgstr "Sių&sti el. laišką"
+
+#: kab_topwidget.cc:307
+msgid "&Browse"
+msgstr "&Naršyti"
+
+#: kab_topwidget.cc:311
+msgid "&Search Entries..."
+msgstr "&Ieškoti įrašų..."
+
+#: kab_topwidget.cc:315
+msgid "Show Search Results"
+msgstr "Rodyti paieškos rezultatus"
+
+#: kab_topwidget.cc:320
+msgid "Show Main Toolbar"
+msgstr "Rodyti pagrindinę parankinę"
+
+#: kab_topwidget.cc:325
+msgid "Show Entry Navigation Toolbar"
+msgstr "Rodyti įrašų navigacijos parankinę"
+
+#: kab_topwidget.cc:330
+msgid "Show Entry Navigation List"
+msgstr "Rodyti įrašų navigacijos sąrašą"
+
+#: kab_topwidget.cc:335
+msgid "Print Entry..."
+msgstr "Spausdinti įrašą..."
+
+#: kab_topwidget.cc:339
+msgid "Print Entries..."
+msgstr "Spausdinti įrašus..."
+
+#: kab_topwidget.cc:343
+msgid "&Editing"
+msgstr "&Redagavimas"
+
+#: kab_topwidget.cc:347
+msgid "&Business Card"
+msgstr "&Vizitinė kortelė"
+
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr "Detalizuotas rodinys"
+
+#: kab_topwidget.cc:377
+msgid "&KDE 1 Address Book"
+msgstr "&KDE 1 Adresų knyga"
+
+#: kab_topwidget.cc:379
+msgid "&Netscape Address Book"
+msgstr "&Netscape Adresų knyga"
+
+#: kab_topwidget.cc:386
+msgid "&Create New Database..."
+msgstr "&Sudaryti naują duomenų bazę..."
+
+#: kab_topwidget.cc:390
+msgid "Open Default &Database"
+msgstr "Atidaryti pagrindinę &duomenų bazę"
+
+#: kab_topwidget.cc:394
+msgid "&Import"
+msgstr "&Importuoti"
+
+#: kab_topwidget.cc:395
+msgid "&Print"
+msgstr "S&pausdinti"
+
+#: kab_topwidget.cc:410
+msgid "Enable all &Messages"
+msgstr "Naudoti &visus pranešimus"
+
+#: kab_topwidget.cc:412
+msgid "&Configure this File..."
+msgstr "Suderinti šią &bylą..."
+
+#: kab_topwidget.cc:415
+msgid "&Preferences for KDE Address Book..."
+msgstr "KDE Adresų knygos &pasirinkimai..."
+
+#: kab_topwidget.cc:538
+msgid ""
+"The database interface could not be created.\n"
+"The KDE addressbook will not run without it.\n"
+"The application will be closed."
+msgstr ""
+"Negalima sukurti duomenų bazės sąsajos.\n"
+"KDE Adresų knyga be jos nedirba.\n"
+"Programa bus uždaryta."
+
+#: kab_topwidget.cc:570
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"Jūs pakeitėte šį įrašą.\n"
+"Ar išsaugoti pakeitimus?\n"
+"(Neišsaugoti pakeitimai prarandami.)"
+
+#: kab_topwidget.cc:572
+msgid "Save changes?"
+msgstr "Ar išsaugoti pakeitimus?"
+
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
+msgid "Error changing the entry."
+msgstr "Klaida keičiant įrašą."
+
+#: kab_topwidget.cc:609
+msgid "No entries."
+msgstr "Nėra įrašų."
+
+#: kab_topwidget.cc:727
+msgid "Cannot locate default database."
+msgstr "Negalima nustatyti pagrindinės duomenų bazės."
+
+#: kab_topwidget.cc:728
+msgid "Critical failure"
+msgstr "Kritinė triktis"
+
+#: kab_topwidget.cc:733
+msgid "The standard file could not be loaded."
+msgstr "Negalima įkelti standartinės bylos."
+
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
+msgid "File error"
+msgstr "Bylos klaida"
+
+#: kab_topwidget.cc:750
+msgid "Business card view."
+msgstr "Vizitinės kortelės rodinys."
+
+#: kab_topwidget.cc:762
+msgid "Editing view."
+msgstr "Redagavimo rodinys."
+
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr "Detalizuotas rodinys."
+
+#: kab_topwidget.cc:782
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"Tai vėl įjungs visus, jūsų anksčiau išjungtus, pranešimus.\n"
+"Ar tęsti?"
+
+#: kab_topwidget.cc:784
+msgid "Enable messages?"
+msgstr "Įjungti pranešimus?"
+
+#: kab_topwidget.cc:803
+msgid "New entry added."
+msgstr "Naujas įrašas įdėtas."
+
+#: kab_topwidget.cc:804
+msgid "Saving new entry."
+msgstr "Išsaugojamas naujas įrašas."
+
+#: kab_topwidget.cc:806
+msgid "Done."
+msgstr "Baigta."
+
+#: kab_topwidget.cc:827
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You may not have write permission for this file."
+msgstr ""
+"Negalima įdėti naujo įrašo.\n"
+"Prieiga neleidžiama.\n"
+"Jūs, tikriausiai, neturite teisės įrašyti į šią bylą."
+
+#: kab_topwidget.cc:835
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Negalima įdėti naujo įrašo.\n"
+"Priežastis nežinoma."
+
+#: kab_topwidget.cc:841
+msgid "No entry added."
+msgstr "Įrašų neįdėta."
+
+#: kab_topwidget.cc:859
+msgid "Really remove this entry?"
+msgstr "Ar tikrai ištrinti šį įrašą?"
+
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
+msgid "Question"
+msgstr "Klausimas"
+
+#: kab_topwidget.cc:866
+msgid "Entry deleted."
+msgstr "Įrašas ištrintas."
+
+#: kab_topwidget.cc:868
+msgid "Database saved."
+msgstr "Duomenų bazė išsaugota."
+
+#: kab_topwidget.cc:875
+msgid "Could not delete the entry (probably permission denied)."
+msgstr "Negalima pašalinti įrašo (pikriausiai prieiga neleidžiama)."
+
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
+msgid "Permission denied."
+msgstr "Priėjimo nėra."
+
+#: kab_topwidget.cc:940
+msgid "Send an email"
+msgstr "Siųsti el. paštą"
+
+#: kab_topwidget.cc:949
+msgid "No email addresses."
+msgstr "Nėra el. pašto adresų."
+
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
+msgid "Rejected."
+msgstr "Atmesta."
+
+#: kab_topwidget.cc:994
+msgid "Browse to ..."
+msgstr "Naršyti..."
+
+#: kab_topwidget.cc:1003
+msgid "No URLs."
+msgstr "Nėra URL'ų."
+
+#: kab_topwidget.cc:1070
+msgid "Restoring last view."
+msgstr "Atstatomas paskutinis rodinys."
+
+#: kab_topwidget.cc:1072
+msgid "Not restoring last view."
+msgstr "Neatstatomas paskutinis rodinys."
+
+#: kab_topwidget.cc:1083
+msgid "Remembering last entry."
+msgstr "Įsimenamas paskutinis įrašas."
+
+#: kab_topwidget.cc:1085
+msgid "Not remembering last entry."
+msgstr "Neįsimenamas paskutinis įrašas."
+
+#: kab_topwidget.cc:1096
+msgid "Displaying assembled name in window title."
+msgstr "Rodomas susietas vardas lango antraštėje."
+
+#: kab_topwidget.cc:1098
+msgid "Not displaying assembled name in window title."
+msgstr "Nerodomas susietas vardas lango antraštėje."
+
+#: kab_topwidget.cc:1109
+msgid "Creating backup file on startup."
+msgstr "Paleidžiant sukuriama atsarginė bylos kopija."
+
+#: kab_topwidget.cc:1111
+msgid "Not creating a backup file on startup."
+msgstr "Paleidžiant nesukuriama atsarginė bylos kopija."
+
+#: kab_topwidget.cc:1258
+msgid "Search entries"
+msgstr "Ieškoti įrašų"
+
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
+msgid "(ERROR)"
+msgstr "(KLAIDA)"
+
+#: kab_topwidget.cc:1320
+msgid "Could not get an overview over the existing entries."
+msgstr "Negaunama esančių įrašų apžvalga."
+
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
+msgid "Internal Error"
+msgstr "Vidaus klaida"
+
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
+msgid "Could not query an existing entry."
+msgstr "Negalima užklausti esančio įrašo."
+
+#: kab_topwidget.cc:1416
+msgid "Search results ("
+msgstr "Paieškos rezultatai ("
+
+#: kab_topwidget.cc:1416
+msgid " hits):"
+msgstr " sutap.):"
+
+#: kab_topwidget.cc:1421
+msgid ""
+"Sorry!\n"
+"No entry matched your criterion."
+msgstr ""
+"Apgailestauju!\n"
+"Nėra įrašų, atitinkančių jūsų kriterijus."
+
+#: kab_topwidget.cc:1422
+msgid "No hits"
+msgstr "Nėra"
+
+#: kab_kab1importer.cc:196
+msgid "Home"
+msgstr "Namų"
+
+#: kab_kab1importer.cc:238
+msgid "Imported kab 1 addressbook."
+msgstr "Importuota kab 1 adresų knyga."
+
+#: kab_kab1importer.cc:277
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"Negalima prieiti prie kab 1 adresų knygos.\n"
+"Tikriausiai jūs niekada nenaudojote kab 1."
+
+#: kab_kab1importer.cc:291
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Negalima perskaityti kab 1 duomenų bazės bylos.\n"
+"Tikriausiai jūs redagavote duomenų bazės bylą rankomis."
+
+#: kab_kab1importer.cc:306
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Negalima rasti įrašų sekcijos jūsų duomenų bazėje.\n"
+"Tikriausiai jūs redagavote duomenų bazės bylą rankomis."
+
+#: kab_kab1importer.cc:334
+msgid "Warning: There were errors importing the KDE 1 address database.\n"
+msgstr "Dėmesio: Įvyko klaidų importuojant KDE 1 adresų bazę.\n"
+
+#: kab_kab1importer.cc:339
+msgid ""
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
+msgstr ""
+"Ar tikrai norite įdėti savo KDE 1 adresų knygos įrašus į šitą "
+"bylą?\n"
+"Šito pakeitimo jūs negalėsite atšaukti."
+
+#: kab_netscape_io.cc:101
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr "Netscape Messenger adresų knygos eksporto bylos (*.ldif)"
+
+#: kab_netscape_io.cc:102
+msgid "All files"
+msgstr "Visos bylos"
+
+#: kab_netscape_io.cc:104
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr "Importuoti Netscape Messanger adresų knygos eksporto bylas..."
+
+#: kab_netscape_io.cc:112
+#, c-format
+msgid "Unable to read the file %1."
+msgstr "Negalima nuskaityti bylos %1."
+
+#: kab_netscape_io.cc:126
+msgid "Entry imported on %1 from '%2'"
+msgstr "Įrašas importuotas į %1 iš „%2“"
+
+#: kab_netscape_io.cc:141
+msgid "Main contact information"
+msgstr "Pagrindinė kontakto informacija"
+
+#: kab_netscape_io.cc:179
+#, c-format
+msgid "Nickname: %1"
+msgstr "Slapyvardis: %1"
+
+#: kab_netscape_io.cc:185
+msgid "Mailformat: Text"
+msgstr "Laiško formatas: Tekstinis"
+
+#: kab_netscape_io.cc:186
+msgid "Mailformat: HTML"
+msgstr "Laiško formatas: HTML"
+
+#: kab_netscape_io.cc:193
+#, c-format
+msgid "Last modified: %1"
+msgstr "Paskutinis pakeitimas: %1"
+
+#: kab_netscape_io.cc:292
+msgid "%1 addresses imported."
+msgstr "importuota adresų - %1"
+
+#: kab_netscape_io.cc:294
+msgid "No addresses imported."
+msgstr "Adresų neimportuota."
+
+#: kab_printmethods.cc:213
+msgid "Printing finished."
+msgstr "Spausdinimas baigtas."
+
+#: kab_printmethods.cc:215
+msgid "Printing failed."
+msgstr "Spausdinimas nesėkmingas."
+
+#: kab_printmethods.cc:331
+msgid "Email address:"
+msgstr "El. pašto adresas:"
+
+#: kab_printmethods.cc:332
+msgid "Email addresses:"
+msgstr "El. pašto adresai:"
+
+#: kab_printmethods.cc:344
+msgid "Telephone:"
+msgstr "Telefonas:"
+
+#: kab_printmethods.cc:345
+msgid "Telephones:"
+msgstr "Telefonai:"
+
+#: kab_printmethods.cc:366
+msgid "Web Page:"
+msgstr "Web svetainė:"
+
+#: kab_printmethods.cc:367
+msgid "Web Pages:"
+msgstr "Web svetainės:"
+
+#: kab_printmethods.cc:378
+msgid "Talk Address:"
+msgstr "Pokalbių adresas:"
+
+#: kab_printmethods.cc:379
+msgid "Talk Addresses:"
+msgstr "Pokalbių adresai:"
+
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
+msgid "Address:"
+msgstr "Adresas:"
+
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
+msgid "Addresses:"
+msgstr "Adresai:"
+
+#: kab_printmethods.cc:527
+msgid "Unnamed address:"
+msgstr "Neįvardintas adresas:"
+
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
+msgid "(Deliver to:)"
+msgstr "(Kam pristatyti:)"
+
+#: kab_htmlexport.cc:315
+msgid ""
+"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
+"customized version of the template files delivered with your kab "
+"installation at another point.</qt>"
+msgstr ""
+"<qt><b>Dėmesio!</b><br>Nelieskite šitų nuostatų, nebent jūs įdiegėte "
+"šablono bylų derintą versiją, pateiktą su jūsų kab instaliacija"
+"iš kitos vietos.</qt>"
+
+#: kab_htmlexport.cc:320
+msgid "HTML Export Templates"
+msgstr "HTML eksportavimo šablonai"
+
+#: kab_htmlexport.cc:326
+msgid "Select Template Folder"
+msgstr "Nurodyti šablonų aplanką"
+
+#: kab_htmlexport.cc:340
+msgid "Select Target Folder"
+msgstr "Nurodyti paskirties aplanką"
+
+#: kab_htmlexport.cc:389
+msgid "You have to specify both a template and a target folder!"
+msgstr "Turite nurodyti abu - šablonų ir paskirties aplankus!"
+
+#: kab_htmlexport.cc:390
+msgid "Corrections needed"
+msgstr "Reikia koregavimo"
+
+#: kab_htmlexport.cc:444
+msgid ""
+"<qt>At least one <b>resource file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
+"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+msgstr ""
+"<qt>Mažiausiai viena <b>resurso byla</b>, naudojama eksportuoti jūsų adresų knygą į "
+"HTML yra dingusi. Ar vistiek tęsti?<br><br><i>(Resursai yra naudojami palaikant "
+"bylas, kaip fonas, pastraipų žymekliai, galutinėms HTML byloms.)</i></qt>"
+
+#: kab_htmlexport.cc:449
+msgid ""
+"<qt>At least one <b>template file</b> used to export your address book to "
+"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
+"to create the HTML files themselves. The HTML export will most probably not "
+"work without it.)</i></qt>"
+msgstr ""
+"<qt>Mažiausiai viena <b>šablono byla</b>, naudojama eksportuoti jūsų adresų knygą į "
+"HTML yra dingusi. Ar vistiek tęsti?<br><br><i>(Šablonai yra naudojami kaip bazė, "
+"sukuriant HTML bylas. HTML eksportavimas tikriausiai bedirbs "
+"be jų.)</i></qt>"
+
+#: kab_htmlexport.cc:489
+msgid "Missing Resource"
+msgstr "Dingęs resursas"
+
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
+msgid "Cancelled."
+msgstr "Atšaukta."
+
+#: kab_htmlexport.cc:501
+msgid "Missing Template"
+msgstr "Dingęs šablonas"
+
+#: kab_htmlexport.cc:540
+msgid ""
+"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
+"by insufficient permissions in the target directory or failures in the setup "
+"of your KDE 2 installation.<br><br>If you created your own template folder, "
+"mistakes in there may also cause errors. As a last possibility, the KDE "
+"address book may be buggy, too :-(.</qt>"
+msgstr ""
+"<qt><b>Apgailestauju!</b><br><br>Eksportavimas į HTML nepavyko. Problemos galėjo "
+"iškilti dėl nepakankamų leidimų paskirties kataloge, arba dėl nesėkmingo "
+"jūsų KDE 2 įdiegimo.<br><br>Jeigu susikūrėte nuosavą šablonų aplanką, "
+"klaidos jame gali sukelti sutrikimus. Ir paskutinė galimybė, KDE "
+"adresų knyga irgi gali būti su riktais :-(.</qt>"
+
+#: kab_htmlexport.cc:548
+msgid "Error exporting to HTML"
+msgstr "Klaida eksportuojant į HTML"
+
+#: kab_createnew.cc:37 kab_openfile.cc:37
+msgid "Could not find the users home directory."
+msgstr "Negalima rasti vartotojų namų katalogo"
+
+#: kab_createnew.cc:38 kab_openfile.cc:38
+msgid "Intern error!"
+msgstr "Internavimo klaida!"
+
+#: kab_createnew.cc:56 kab_openfile.cc:54
+msgid "Only local files supported yet."
+msgstr "Palaikomos tik vietinės bylos."
+
+#: kab_createnew.cc:69
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"Ši byla yra katalogas, arba ji jau yra.\n"
+"Pasirinkite kitokį bylos vardą.\n"
+"Reikia turėti leidimą įrašymui, sukurti naujai bylai."
+
+#: kab_createnew.cc:85
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to %1\n"
+msgstr ""
+"Bylos vardas nesibaigia „.kab“.\n"
+"Jis bus pakeistas į %1\n"
+
+#: kab_createnew.cc:87
+msgid "Note"
+msgstr "Pastaba"
+
+#: kab_createnew.cc:94
+msgid "The file could not be created, possibly permission denied."
+msgstr "Byla nebus sukurta, tikriausiai nėra prieigos."
+
+#: kab_createnew.cc:95 kab_save.cc:56
+msgid "kab: File error"
+msgstr "kab: bylos klaida"
+
+#: kab_createnew.cc:103
+msgid "The file has been created, but could not be loaded."
+msgstr "Byla sukurta, bet jos negalima įkelti."
+
+#: kab_openfile.cc:39
+msgid "Could not find the users home directory"
+msgstr "Negalima rasti vartotojų namų katalogo"
+
+#: kab_openfile.cc:66
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"Create new database...\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"Bylos nėra, arba ji yra katalogas.\n"
+"Sukurti naujai, pasinaudokite „Sukurti naują duomenų bazę...“\n"
+"Pažymėkite bylą, jai įkelti."
+
+#: kab_openfile.cc:80
+msgid "The file could not be loaded."
+msgstr "Bylos negalima įkelti."
+
+#: kab_save.cc:34 kab_save.cc:48
+msgid "Internal error."
+msgstr "Vidaus klaida."
+
+#: kab_save.cc:42
+msgid "Entry stored."
+msgstr "Įrašas išsaugotas."
+
+#: kab_save.cc:55
+msgid "The file could not be saved (permission denied)."
+msgstr "Bylos negalima išsaugoti (prieigos nėra)."
+
+#: kab_save.cc:59
+msgid "File saved."
+msgstr "Byla išsaugota."
+
+#: look_businesscard.cc:173
+msgid "email: "
+msgstr "el. paštas: "
+
+#: look_businesscard.cc:190
+msgid "tel: "
+msgstr "tel: "
+
+#: look_details.cc:43
+msgid "Show postal addresses"
+msgstr "Rodyti pašto adresus"
+
+#: look_details.cc:44
+msgid "Show email addresses"
+msgstr "Rodyti el. pašto adresus"
+
+#: look_details.cc:45
+msgid "Show telephone numbers"
+msgstr "Rodyti telefonų numerius"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr "Rodyti web puslapius (URL)"
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr "Nurodyti foną"
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr "Įrėminti fonai"
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr "Fonai denginiais"
+
+#: look_edit.cc:33
+msgid "User fields"
+msgstr "Vartotojo laukai"
+
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
+#: look_edit_tabuser.cc:48
+msgid "General failure."
+msgstr "Bendro pobūdžio triktis."
+
+#: dialog_configurefile.cc:126 look_edit.cc:67
+msgid "(User Fields)"
+msgstr "(Vartotojo laukai)"
+
+#: look_edit.cc:71
+msgid "&Person"
+msgstr "As&muo"
+
+#: look_edit.cc:72
+msgid "&Telephone"
+msgstr "&Telefonas"
+
+#: look_edit.cc:73
+msgid "&Addresses"
+msgstr "&Adresas"
+
+#: look_edit.cc:74
+msgid "&Birthday"
+msgstr "&Gimtadienis"
+
+#: look_edit.cc:75
+msgid "Co&mment"
+msgstr "&Komentaras"
+
+#: look_edit_tabperson.cc:40
+msgid "Email Addresses..."
+msgstr "El. pašto adresai..."
+
+#: look_edit_tabperson.cc:41
+msgid "Talk Addresses..."
+msgstr "Pokalbių adresai..."
+
+#: look_edit_tabperson.cc:42
+msgid "URLs..."
+msgstr "URL'ai"
+
+#: look_edit_tabperson.cc:65
+msgid "Formatted name:"
+msgstr "Formatuotas vardas:"
+
+#: look_edit_tabperson.cc:68
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if <b>kab</"
+"b> assembles it in the wrong way.</qt>"
+msgstr ""
+"<qt>Čia įrašykite asmens arba organizacijos <i>pilną vardą</i>, jeigu <b>kab</"
+"b> susieja jį neteisingai.</qt>"
+
+#: look_edit_tabperson.cc:78
+msgid "First name:"
+msgstr "Vardas:"
+
+#: look_edit_tabperson.cc:80
+msgid "Middle name:"
+msgstr "Vidurinis vardas:"
+
+#: look_edit_tabperson.cc:82
+msgid "Last name:"
+msgstr "Pavardė:"
+
+#: look_edit_tabperson.cc:99
+msgid "Name prefix:"
+msgstr "Vardo priešdėlis:"
+
+#: look_edit_tabperson.cc:101
+msgid "Title:"
+msgstr "Antraštė:"
+
+#: look_edit_tabperson.cc:103
+msgid "Rank:"
+msgstr "Rangas:"
+
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
+msgid "Edit Email Addresses"
+msgstr "Redaguoti el. pašto adresus"
+
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
+msgid "Edit Talk Addresses"
+msgstr "Redaguoti pokalbių adresus"
+
+#: look_edit_tabperson.cc:228
+msgid "Edit URLs"
+msgstr "Redaguoti URL"
+
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
+msgstr "Aš žinau šių asmenų gimtadienius:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
+msgid "User field 1:"
+msgstr "Vartotojo laukas 1:"
+
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
+msgid "User field 2:"
+msgstr "Vartotojo laukas 2:"
+
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
+msgid "User field 3:"
+msgstr "Vartotojo laukas 3:"
+
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
+msgid "User field 4:"
+msgstr "Vartotojo laukas 4:"
+
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
+msgid "(User field 1)"
+msgstr "(Vartotojo laukas 1)"
+
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
+msgid "(User field 2)"
+msgstr "(Vartotojo laukas 2)"
+
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
+msgid "(User field 3)"
+msgstr "(Vartotojo laukas 3)"
+
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
+msgid "(User field 4)"
+msgstr "(Vartotojo laukas 4)"
+
+#: look_edit_tabcontact.cc:31
+msgid "Edit URLs (internet addresses)"
+msgstr "Redaguoti URL (interneto adresus)"
+
+#: look_edit_tabcontact.cc:32
+msgid "Edit Telephone Numbers"
+msgstr "Redaguoti telefonų numerius"
+
+#: look_edit_tabaddresses.cc:222
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See <b>Edit-"
+">Configure this file</b>.</qt>"
+msgstr ""
+"<qt>Ar jūs žinote, kad jūs galite iš anksto nurodyti adresų tipus?<br>Žiūrėkite <b>Redaguoti-"
+">Konfigūruoti šią bylą</b>.</qt>"
+
+#: look_edit_tabaddresses.cc:224
+msgid "A Note"
+msgstr "Pastaba"
+
+#: look_edit_tabaddresses.cc:246
+msgid "Really delete this address?"
+msgstr "Ar tikrai ištrinti šį adresą?"
+
+#: look_edit_tabaddresses.cc:308
+msgid "Organization"
+msgstr "Organizacija"
+
+#: look_edit_tabtelephone.cc:44
+msgid "Fixed:"
+msgstr "Įprastas:"
+
+#: look_edit_tabtelephone.cc:45
+msgid "Mobile:"
+msgstr "Mobilus:"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Fax:"
+msgstr "Faksas:"
+
+#: look_edit_tabtelephone.cc:47
+msgid "Modem:"
+msgstr "Modemas:"
+
+#: look_edit_tabtelephone.cc:48
+msgid "User defined 1:"
+msgstr "Vartotojo parinktas 1:"
+
+#: look_edit_tabtelephone.cc:49
+msgid "User defined 2:"
+msgstr "Vartotojo parinktas 2:"
+
+#: look_edit_tabtelephone.cc:50
+msgid "User defined 3:"
+msgstr "Vartotojo parinktas 3:"
+
+#: look_edit_tabtelephone.cc:62
+msgid "Type"
+msgstr "Tipas"
+
+#: look_edit_tabtelephone.cc:64
+msgid "Number"
+msgstr "Numeris"
+
+#: widget_editstringlist.cc:39
+msgid "Add a new string"
+msgstr "Įdėti naują eilutę"
+
+#: widget_editstringlist.cc:40
+msgid "Move this string up"
+msgstr "Perkelti šią eilutę aukštyn"
+
+#: widget_editstringlist.cc:41
+msgid "Move this string down"
+msgstr "Perkelti šią eilutę žemyn"
+
+#: widget_editstringlist.cc:42
+msgid "Delete this string"
+msgstr "Pašalinti šią eilutę"
+
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
+#: dialog_editentry.cc:73
+msgid "Accepted."
+msgstr "Priimta."
+
+#: dialog_editentry.cc:68
+msgid "Edit Entry"
+msgstr "Redaguoti įrašą"
+
+#: dialog_configurefile.cc:47
+msgid "Cannot query configuration data."
+msgstr "Negalima užklausti konfigūravimo datos."
+
+#: dialog_configurefile.cc:48
+msgid "Internal failure"
+msgstr "Vidinė triktis"
+
+#: dialog_configurefile.cc:64
+msgid "Settings applied."
+msgstr "Nuostatos pritaikytos."
+
+#: dialog_configurefile.cc:91
+msgid "Tab name"
+msgstr "Tab vardas"
+
+#: dialog_configurefile.cc:150
+msgid "User Fields"
+msgstr "Vartotojo laukai"
+
+#: dialog_configurefile.cc:162
+msgid "Address types"
+msgstr "Adresų tipai"
+
+#: dialog_configurefile.cc:186
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"Negalima išsaugoti jūsų nuostatų.\n"
+"Tikriausiai jūs neturite leidimo įrašyti į šią bylą."
+
+#: dialog_configurekab.cc:35
+msgid ""
+"Your configuration file is corrupt.\n"
+"KAB cannot be configured."
+msgstr ""
+"Jūsų konfigūracijos byla yra sugadinta.\n"
+"KAB negalima sukonfigūruoti."
+
+#: dialog_configurekab.cc:37
+msgid "Fatal error"
+msgstr "Lemtinga klaida"
+
+#: dialog_configurekab.cc:38
+msgid "Configuration file corrupt."
+msgstr "KOnfigūravimo byla sugadinta."
+
+#: dialog_configurekab.cc:56
+msgid ""
+"There was an error saving your preferences.\n"
+"Some of them may be lost."
+msgstr ""
+"Įvyko klaida išsaugant jūsų pasirinkimus.\n"
+"Kai kurie iš jų gali būti prarasti."
+
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
+msgid "Error saving preferences."
+msgstr "Klaida išsaugojant pasirinkimus."
+
+#: dialog_configurekab.cc:61
+msgid "KDE address book preferences."
+msgstr "KDE Adresų knygos pasirinkimai."
+
+#: dialog_configurekab.cc:63
+msgid "Preferences saved."
+msgstr "Pasirinkimai išsaugoti."
+
+#: dialog_configurekab.cc:67
+msgid ""
+"Cannot save your preferences.\n"
+"You may not have permission to write the file."
+msgstr ""
+"Negalima išsaugoti jūsų pasirinkimų.\n"
+"Tikriausiai jūs neturite leidimo įrašyti į bylą."
+
+#: dialog_configurekab.cc:86
+msgid "Remember last selected view"
+msgstr "Įsiminti paskutinį pasirinktą rodinį."
+
+#: dialog_configurekab.cc:88
+msgid "Remember last selected entry"
+msgstr "Įsiminti paskutinį pažymėtą įrašą"
+
+#: dialog_configurekab.cc:90
+msgid "Show assembled name in window title"
+msgstr "Lango antraštėje rodyti priskirtą vardą"
+
+#: dialog_configurekab.cc:92
+msgid "Create backup file on startup"
+msgstr "Paleidžiant sukurti bylos atsarginę kopiją"
+
+#: dialog_configurekab.cc:93
+msgid "General Settings"
+msgstr "Bendros nuostatos"
+
+#: dialog_insinuation.cc:29
+msgid "Organization:"
+msgstr "Organizacija:"
+
+#: dialog_insinuation.cc:30
+msgid "Department:"
+msgstr "Skyrius:"
+
+#: dialog_insinuation.cc:31
+msgid "Sub-Department:"
+msgstr "Poskyris:"
+
+#: kab_entrylist.cc:49
+msgid "..."
+msgstr "..."
+
+#: kab_entrylist.cc:75
+msgid "No match."
+msgstr "Atitikimų nėra."
+
+#: kab_entrylist.cc:88
+msgid "Calculating..."
+msgstr "Skaičiuojama..."
+
+#: kab_entrylist.cc:104
+msgid "(Disabled)"
+msgstr "(Išjungta)"
+
+#: kab_entrylist.cc:107
+msgid "Error creating index for incremental search."
+msgstr "Klaida sudarant nuoseklios paieškos rodyklę."
+
+#: kab_entrylist.cc:108
+msgid "Incremental search disabled."
+msgstr "Nuosekli paieška išjungta."
+
+#: kab_entrylist.cc:157
+msgid "(No items to search)"
+msgstr "(Paieškai nėra objektų)"
+
