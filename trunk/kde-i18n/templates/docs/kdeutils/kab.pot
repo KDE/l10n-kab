@@ -1,0 +1,561 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid	""
+msgstr	"Project-Id-Version: PACKAGE VERSION\n"
+	"POT-Creation-Date: 2001-02-09 01:25+0100\n"
+	"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+	"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+	"Language-Team: LANGUAGE <LL@li.org>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=CHARSET\n"
+	"Content-Transfer-Encoding: ENCODING\n"
+
+#: index.docbook:12
+msgid	"The &kab; Handbook"
+msgstr	""
+
+#: index.docbook:15
+msgid	"<firstname>Mirko</firstname> <surname>Boehm</surname> <affiliation> "
+	"<address><email>mirko@kde.org</email></address> </affiliation>"
+msgstr	""
+
+#: index.docbook:23
+msgid	"<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
+	"<address><email>pam.roberts@btinternet.com</email></address> "
+	"</affiliation>"
+msgstr	""
+
+#: index.docbook:35
+msgid	"Mirko Boehm, Pam Roberts"
+msgstr	""
+
+#: index.docbook:43
+msgid	"&kab; is a simple address book for &kde;."
+msgstr	""
+
+#: index.docbook:47
+msgid	"<keyword>KDE</keyword>"
+msgstr	""
+
+#: index.docbook:48
+msgid	"<keyword>Kab</keyword>"
+msgstr	""
+
+#: index.docbook:49
+msgid	"kdeutils"
+msgstr	""
+
+#: index.docbook:50
+msgid	"address book"
+msgstr	""
+
+#: index.docbook:56
+msgid	"Introduction"
+msgstr	""
+
+#: index.docbook:58
+msgid	"&kab; is an address book for use with &kde; that lets you save "
+	"names, postal, email, talk and <acronym>www</acronym> addresses, "
+	"telaphone numbers, important dates and other information in a card "
+	"index form."
+msgstr	""
+
+#: index.docbook:62
+msgid	"&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> "
+	"and <guimenuitem>Editing</guimenuitem>. You can switch between them "
+	"with the <guimenu>View</guimenu> menu."
+msgstr	""
+
+#: index.docbook:67
+msgid	"<guimenuitem>Business Card</guimenuitem> View"
+msgstr	""
+
+#: index.docbook:69
+msgid	"Here's a screenshot of &kab;"
+msgstr	""
+
+#: index.docbook:69
+msgid	"&kab; in card view mode"
+msgstr	""
+
+#: index.docbook:81
+msgid	"This view lets you see what information has been stored for each "
+	"entry in &kab;'s database"
+msgstr	""
+
+#: index.docbook:84
+msgid	"To select a particular entry you can pick it from the Drop Down box "
+	"in the Toolbar, or you can step through the entries using the "
+	"<guiicon>large Toolbar arrows</guiicon> or with your keyboard arrow "
+	"keys."
+msgstr	""
+
+#: index.docbook:88
+msgid	"You can also search the database for a particular entry by using the "
+	"<link "
+	"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</guimenu><guimenu"
+	"item>Search entries</guimenuitem></menuchoice></link> option."
+msgstr	""
+
+#: index.docbook:93
+msgid	"At the top of the main card area you can see the name as it appears "
+	"in the Toolbar Drop Down box list, and possibly an important date "
+	"such as the person's Birthday."
+msgstr	""
+
+#: index.docbook:97
+msgid	"An address will be shown in the middle of the card. &kab; lets you "
+	"enter more than one address, for - say - Home, Work and Holiday "
+	"Dacha. The Drop Down box above the address then lets you select "
+	"which of these is displayed."
+msgstr	""
+
+#: index.docbook:101
+msgid	"The bottom of the card shows email addresses, "
+	"<acronym>URL</acronym>s and telephone numbers. Left click on the "
+	"email address to send an email, on the <acronym>URL</acronym> to "
+	"open a browser window. If you have entered more than one email "
+	"address or <acronym>URL</acronym>, then only one will be displayed "
+	"on the card followed by [..] and when you click on it a little "
+	"dialog box will appear so that you can choose the address you want."
+msgstr	""
+
+#: index.docbook:108
+msgid	"The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu> "
+	"menu</link> has options allowing you to create and use more than one "
+	"database, import your old KDE 1 address book, print one or all "
+	"entries, and export the database in <acronym>HTML</acronym> format."
+msgstr	""
+
+#: index.docbook:114
+msgid	"<guimenuitem>Editing</guimenuitem> View"
+msgstr	""
+
+#: index.docbook:116
+msgid	"Here's another screenshot of &kab;"
+msgstr	""
+
+#: index.docbook:116
+msgid	"&kab; in edit view mode"
+msgstr	""
+
+#: index.docbook:128
+msgid	"This view is used to add or change the details for a card. It has "
+	"four tab pages; <guilabel>Person</guilabel>, "
+	"<guilabel>Telephone</guilabel>, <guilabel>Address</guilabel> and "
+	"<guilabel>Birthday</guilabel>."
+msgstr	""
+
+#: index.docbook:132
+msgid	"The <guilabel>Person</guilabel> tab page is where you enter the "
+	"person's name and Email and Talk addresses and any associated "
+	"<acronym>URL</acronym>s. Whatever you enter in the "
+	"<guilabel>Formatted name:</guilabel> text box will appear as the "
+	"entry's name in the Toolbar Drop Down list and at the top left of "
+	"the card. If you do not enter anything in the <guilabel>Formatted "
+	"name:</guilabel> text tox then &kab; will automatically generate a "
+	"formatted name such as <quote>Holmes, Sherlock</quote>."
+msgstr	""
+
+#: index.docbook:140
+msgid	"The <guilabel>Telephone</guilabel> tab page is, obviously, where you "
+	"enter the telephone number(s)."
+msgstr	""
+
+#: index.docbook:143
+msgid	"The <guilabel>Addresses</guilabel> tab page lets you enter one or "
+	"more addresses for this entry."
+msgstr	""
+
+#: index.docbook:146
+msgid	"For each address you want to enter, click on the "
+	"<guibutton>Add</guibutton> button. It will display a drop down list "
+	"with one blank entry plus any address types you have set up with the "
+	"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Configure this "
+	"file...</guimenuitem></menuchoice> option. Choose one and it will "
+	"appear in the <guilabel>Headline:</guilabel> text box where you can "
+	"edit it if required."
+msgstr	""
+
+#: index.docbook:146
+msgid	"Then fill in the address details."
+msgstr	""
+
+#: index.docbook:146
+msgid	"Pressing the <guibutton>Insinuation...</guibutton> button brings up "
+	"another dialog box where you can enter details of any organisation "
+	"that the person works for and his position within it. However, the "
+	"current version of &kab; does not display this information in the "
+	"<guimenuitem>Business Card</guimenuitem> view."
+msgstr	""
+
+#: index.docbook:162
+msgid	"The <guilabel>Birthday</guilabel> tab page is where you select a "
+	"significant date to appear at the top right of the card view. It "
+	"will only appear if you have checked the <guilabel>I know this "
+	"persons birthday:</guilabel> box."
+msgstr	""
+
+#: index.docbook:167
+msgid	"You will probably need to experiment with your entries in the "
+	"<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab "
+	"pages to get the kind of result you want in the Card view."
+msgstr	""
+
+#: index.docbook:176
+msgid	"Command Reference"
+msgstr	""
+
+#: index.docbook:179
+msgid	"The Menubar"
+msgstr	""
+
+#: index.docbook:182
+msgid	"The <guimenu>File</guimenu> Menu"
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>C</accel>reate new database</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"Use this if you want to create another &kab; address book database "
+	"so that you can keep separate address books for, say, business and "
+	"personal contacts."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>O</accel>pen...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"<action>Open</action> a &kab; database. This menu choice is used to "
+	"open a new address book that you have created."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<guimenu><accel>F</accel>ile</guimenu> <guimenuitem>Open default "
+	"<accel>d</accel>atabase</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"<action>Opens the default</action> &kab; database."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>S</accel>ave</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"<action>Save</action> the current &kab; database."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>I</accel>mport</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"Lets you <action>import an address book</action> generated by "
+	"version 1 of &kab;, changing its format to that used by version 2, "
+	"and saving it with a different name. Doing this does not destroy the "
+	"original version 1 address book."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
+	"entry</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"To print out all details of the current entry."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
+	"entries</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"To print out all details of all entries in the database."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>E</accel>xport to HTML...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"Export the database in an html form."
+msgstr	""
+
+#: index.docbook:184
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
+	"<guimenuitem><accel>Q</accel>uit</guimenuitem>"
+msgstr	""
+
+#: index.docbook:184
+msgid	"<action>Quits</action> &kab;."
+msgstr	""
+
+#: index.docbook:289
+msgid	"The <guimenu>Edit</guimenu> Menu"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>A</accel>dd entry...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<action>Add a new entry to the address book</action>. This does the "
+	"same as using the Toolbar <guiicon>New entry</guiicon> icon."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>E</accel>dit entry...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"If you are in Business card view you can use this menu item (or the "
+	"Toolbar <guiicon>Edit entry</guiicon> icon) when you want to "
+	"<action>edit the current entry</action>, rather than changing to "
+	"<guimenuitem>Editing</guimenuitem> view with the "
+	"<menuchoice><guimenu>View</guimenu><guimenuitem>Editing</guimenuitem>"
+	"</menuchoice> menu choice."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>R</accel>emove entry</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"Remove the current entry from the database."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>M</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Send "
+	"an <accel>e</accel>mail.</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"Does the same as <mousebutton>left</mousebutton> clicking on the "
+	"<guilabel>email:</guilabel> line at the bottom of the Business card."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>B</accel>rowse</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<action>Open a browser</action> with the <acronym>URL</acronym> "
+	"stored for the current &kab; entry."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<shortcut> "
+	"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> "
+	"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>S</accel>earch entries</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<action>Search the database</action> for a particular entry."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Enable all "
+	"<accel>m</accel>essages</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"There are some messages that might be accidentally disabled by the "
+	"user, such as one at start up informing him how to import his old "
+	"KDE 1 addressbook. <action>Selecting this menu item makes all such "
+	"messages reappear. </action>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>C</accel>onfigure this file...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"<action>Lets you configure some parameters of the current address "
+	"book</action>. At present the <guilabel>User fields</guilabel> tab "
+	"page does not function, but the <guilabel>Address types</guilabel> "
+	"tab page can be used to set up default address "
+	"<guilabel>Headline:</guilabel> values."
+msgstr	""
+
+#: index.docbook:291
+msgid	"<guimenu><accel>E</accel>dit</guimenu> "
+	"<guimenuitem><accel>P</accel>references for the KDE address "
+	"book...</guimenuitem>"
+msgstr	""
+
+#: index.docbook:291
+msgid	"Allows you to set up some general &kab; settings."
+msgstr	""
+
+#: index.docbook:405
+msgid	"The <guimenu>View</guimenu> Menu"
+msgstr	""
+
+#: index.docbook:407
+msgid	"<guimenu><accel>V</accel>iew</guimenu> "
+	"<guimenuitem><accel>B</accel>usiness card</guimenuitem>"
+msgstr	""
+
+#: index.docbook:407
+msgid	"Show the normal card index view."
+msgstr	""
+
+#: index.docbook:407
+msgid	"<guimenu><accel>V</accel>iew</guimenu> "
+	"<guimenuitem><accel>E</accel>diting</guimenuitem>"
+msgstr	""
+
+#: index.docbook:407
+msgid	"<action>Change</action> the main &kab; window to allow the entry to "
+	"be edited."
+msgstr	""
+
+#: index.docbook:407
+msgid	"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show main "
+	"toolbar</guimenuitem>"
+msgstr	""
+
+#: index.docbook:407
+msgid	"<action>Show or hide the main toolbar</action>."
+msgstr	""
+
+#: index.docbook:407
+msgid	"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show entry "
+	"navigation toolbar</guimenuitem>"
+msgstr	""
+
+#: index.docbook:407
+msgid	"<action>Show or hide the toolbar used to navigate through your "
+	"database</action>."
+msgstr	""
+
+#: index.docbook:451
+msgid	"Questions and Answers"
+msgstr	""
+
+#: index.docbook:456
+msgid	"Where does &kab; store the address book?"
+msgstr	""
+
+#: index.docbook:457
+msgid	"The default address book database is stored at "
+	"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, any new "
+	"databases that you have created will be stored wherever you put them."
+msgstr	""
+
+#: index.docbook:463
+msgid	"What configuration files does &kab; use?"
+msgstr	""
+
+#: index.docbook:464
+msgid	"The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds "
+	"your &kab; <quote>preferences</quote> and the command strings for "
+	"mail and talk."
+msgstr	""
+
+#: index.docbook:467
+msgid	"<filename>~/.kde/share/config/kabrc</filename> holds general &kab; "
+	"appearance parameters and a list of the most recently visited "
+	"address books."
+msgstr	""
+
+#: index.docbook:469
+msgid	"Don't modify these files unless you really know what you are doing "
+	"(and have made a back up)."
+msgstr	""
+
+#: index.docbook:480
+msgid	"Credits and License"
+msgstr	""
+
+#: index.docbook:482
+msgid	"&kab;"
+msgstr	""
+
+#: index.docbook:483
+msgid	"Program copyright 1996-2001 Mirko Boehm <email>mirko@kde.org</email>"
+msgstr	""
+
+#: index.docbook:486
+msgid	"Documentation copyright 2001"
+msgstr	""
+
+#: index.docbook:488
+msgid	"Mirko Boehm <email>mirko@kde.org</email>"
+msgstr	""
+
+#: index.docbook:488
+msgid	"Pam Roberts <email>pam.roberts@btinternet.com</email>"
+msgstr	""
+
+#: index.docbook:500
+msgid	"Installation"
+msgstr	""
+
+#: index.docbook:502
+msgid	"&kab; is part of the kdeutils package which is an essential part of "
+	"the &kde; 2 project."
+msgstr	""
+
+#: index.docbook:505
+msgid	"For details of &kde; visit <ulink "
+	"url=\"http://www.kde.org\">http://www.kde.org</ulink>."
+msgstr	""
+
+#: index.docbook:508
+msgid	"Source code for &kab; can be found in the kdeutils package on <ulink "
+	"url=\"ftp://ftp.kde.org/pub/kde/\">ftp://ftp.kde.org/pub/kde/</ulink>"
+	", the main ftp site of the &kde; project."
+msgstr	""
+
+#: index.docbook:0
+msgid	"ROLES_OF_TRANSLATORS"
+msgstr	""
+
+#: index.docbook:1
+msgid	"CREDIT_FOR_TRANSLATORS"
+msgstr	""
