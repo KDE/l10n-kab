@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"PO-Revision-Date: 2000-01-01 01:00+0200\n"
+"Last-Translator: Aydýn Koçak <akocak@mu.edu.tr,vehbitunc@hotmail.com>\n"
+"Language-Team: Turkish <tr@Li.org>\n"
+"MIME-Version: 1.1\n"
+"Content-Type: text/plain; charset=ISO8859-9\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: AddressBookAbout.cpp:25
+msgid "About addressbook"
+msgstr "Adres defteri Hakkýnda"
+
+#: AddressBookAbout.cpp:35
+msgid "Image load failure"
+msgstr "Görüntü yükleme hatasý"
+
+#: AddressBookAbout.cpp:36
+msgid "Could not load addressbook logo image!"
+msgstr "Adres defterinin logosu yüklenemedi!"
+
+#: AddressBookAbout.cpp:37
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"Burada Adres defteri\n"
+"logosunu görüyorsunuz"
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "Yazan ve denetleyen"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.9.5, December 1998"
+msgstr "kab 0.9.5, Aralýk 1998"
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "Ýlklendirme baþarýsýzlýðý"
+
+#: toplevelwidget.cc:37
+msgid "The program's menubar could not be constructed."
+msgstr "Programýn menü çubuðu oluþturulamadý."
+
+#: toplevelwidget.cc:45
+msgid "The program's statusbar could not be constructed."
+msgstr "Programýn durum çubuðu oluþturulamadý"
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE adres defteri"
+
+#: toplevelwidget.cc:73
+msgid "HTML table"
+msgstr "HTML tablosu"
+
+#: toplevelwidget.cc:82
+msgid "Export"
+msgstr "Aktar"
+
+#: toplevelwidget.cc:84
+msgid "Search &entries"
+msgstr "&Kayýtlarý ara"
+
+#: toplevelwidget.cc:86
+msgid "&Print"
+msgstr "&Yazdýr"
+
+#: toplevelwidget.cc:98
+msgid "&Add entry"
+msgstr "Kayýt &ekle"
+
+#: toplevelwidget.cc:100
+msgid "&Edit entry"
+msgstr "Kayýt &düzenle"
+
+#: toplevelwidget.cc:102
+msgid "&Remove entry"
+msgstr "Kayýt &sil"
+
+#: toplevelwidget.cc:114
+msgid "&Mail"
+msgstr "&Posta"
+
+#: toplevelwidget.cc:116
+msgid "&Talk"
+msgstr "&Konuþ"
+
+#: toplevelwidget.cc:118
+msgid "&Browse"
+msgstr "&Gözat"
+
+#: toplevelwidget.cc:123
+msgid "Help on Addressbook"
+msgstr "Adres defteri yardým"
+
+#: toplevelwidget.cc:128
+msgid "About Addressbook"
+msgstr "Adres defteri hakkýnda"
+
+#: toplevelwidget.cc:130
+msgid "About &Qt"
+msgstr "&Qt hakkýnda"
+
+#: toplevelwidget.cc:131
+msgid "About &KDE"
+msgstr "KDE hakkýnda"
+
+#: toplevelwidget.cc:138
+msgid "&About"
+msgstr "&Hakkýnda"
+
+#: toplevelwidget.cc:190
+msgid "About Qt"
+msgstr "Qt hakkýnda"
