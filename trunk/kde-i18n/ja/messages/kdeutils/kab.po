@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab VERSION\n"
-"POT-Creation-Date: 2001-05-18 01:58+0200\n"
-"PO-Revision-Date: 2001-07-14 01:08GMT\n"
+"POT-Creation-Date: 2002-02-03 03:08+0100\n"
+"PO-Revision-Date: 2002-03-12 23:59+0900\n"
 "Last-Translator: Noboru Sinohara <shinobo@leo.bekkoame.ne.jp>\n"
-"Language-Team:  <ja@li.org>\n"
+"Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.2\n"
+"X-Generator: KBabel 0.9.6\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -72,18 +72,20 @@ msgstr "エントリリスト"
 
 #: rc.cpp:15
 msgid ""
-"<qt>Search entries by entering<br> - one of their <b>e-mail "
-"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+"<qt>Search entries by entering"
+"<br> - one of their <b>email addresses</b>"
+"<br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
 msgstr ""
-"<qt><b>Eメールアドレス</b><br> - <b>名前</b> または <br> - "
-"<b>名字</b></br> "
+"<qt><b>Eメールアドレス</b>"
+"<br> - <b>名前</b> または"
+"<br> - <b>名字</b></br> "
 "のいずれか１つを指定してエントリの検索をします</qt>"
 
 #: rc.cpp:17
 msgid "<qt>Select an entry to display it.</qt>"
 msgstr "<qt>表示するエントリを選択して下さい.</qt>"
 
-#: kab_htmlexport.cc:380 rc.cpp:18
+#: kab_htmlexport.cc:377 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "HTMLエクスポートの設定"
 
@@ -225,44 +227,44 @@ msgstr "ストリートアドレス:"
 msgid "Job title:"
 msgstr "肩書:"
 
-#: look_edit_tabaddresses.cc:337 rc.cpp:56
-msgid "Delivery label"
+#: look_edit_tabaddresses.cc:328 rc.cpp:56
+msgid "Delivery Label"
 msgstr "配布ラベル"
 
-#: kab_main.cc:31 kab_main.cc:38
+#: kab_main.cc:29 kab_main.cc:36
 msgid "KDE Addressbook"
 msgstr "KDE アドレス帳"
 
-#: kab_main.cc:51
+#: kab_main.cc:49
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b>"
+"<b>File->Import->KDE 1 Addressbook</b>"
 " to use your old database with the new version.</qt>"
 msgstr ""
 "<qt>KDE アドレス帳 バージョン 2 "
 "は以前のバージョンとは非互換です。あなたのアドレス"
 "データベースを保護する為に、新規ファイルが使用され"
 "ます。以前のデータベースを使うには<b>ファイル -> "
-"インポート -> KDE 1 アドレス帳</b>として下さい。"
+"インポート -> KDE 1 アドレス帳</b>として下さい。</qt>"
 
-#: kab_main.cc:56
-msgid "new format"
+#: kab_main.cc:54
+msgid "New Format"
 msgstr "新フォーマット"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
-#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: dialog_configurefile.cc:144 kab_mainwidget.cc:43 kab_mainwidget.cc:53
+#: kab_topwidget.cc:69 look_edit.cc:39 look_edit.cc:53
 #: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
 #: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
-#: look_edit_tabuser.cc:49
+#: look_edit_tabuser.cc:47
 msgid "Out of memory."
 msgstr "メモリ不足"
 
-#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
+#: kab_mainwidget.cc:44 kab_mainwidget.cc:54 kab_topwidget.cc:70
 msgid "General failure"
 msgstr "一般エラー"
 
-#: kab_topwidget.cc:93
+#: kab_topwidget.cc:82
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
@@ -272,116 +274,120 @@ msgstr ""
 "KDEアドレスブックはこれなしでは実行できません。\n"
 "アプリケーションを終了します。"
 
-#: kab_topwidget.cc:96 kab_topwidget.cc:540
+#: kab_topwidget.cc:85 kab_topwidget.cc:541
 msgid "Database error"
 msgstr "データベースエラー"
 
-#: kab_topwidget.cc:204
+#: kab_topwidget.cc:197
 msgid "Welcome to kab 2.1"
 msgstr "KAB 2.1 へようこそ"
 
-#: kab_topwidget.cc:205
+#: kab_topwidget.cc:198
 msgid "The KDE Addressbook 2.1."
 msgstr "KDE アドレス帳 2.1"
 
-#: kab_topwidget.cc:206
+#: kab_topwidget.cc:199
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Mirko Boehm (mirko@kde.org)によって書かれました。"
 
-#: kab_topwidget.cc:207
+#: kab_topwidget.cc:200
 msgid "Visit www.kde.org for the latest news."
 msgstr "最新情報はwww.kde.orgを御覧下さい。"
 
-#: kab_topwidget.cc:278
+#: kab_topwidget.cc:271
 msgid "&Export to HTML..."
 msgstr "HTMLにエクスポート(&E)..."
 
-#: kab_topwidget.cc:282
-msgid "&First entry"
+#: kab_topwidget.cc:275
+msgid "&First Entry"
 msgstr "最初のエントリ(&F)"
 
-#: kab_topwidget.cc:286
-msgid "&Previous entry"
+#: kab_topwidget.cc:279
+msgid "&Previous Entry"
 msgstr "前のエントリ(&P)"
 
-#: kab_topwidget.cc:290
-msgid "&Next entry"
+#: kab_topwidget.cc:283
+msgid "&Next Entry"
 msgstr "次のエントリ(&N)"
 
-#: kab_topwidget.cc:294
-msgid "&Last entry"
+#: kab_topwidget.cc:287
+msgid "&Last Entry"
 msgstr "最後のエントリ(&L)"
 
-#: kab_topwidget.cc:298
-msgid "&Add entry..."
+#: kab_topwidget.cc:291
+msgid "&Add Entry..."
 msgstr "エントリの追加(&A)..."
 
-#: kab_topwidget.cc:302
-msgid "&Edit entry..."
+#: kab_topwidget.cc:295
+msgid "&Edit Entry..."
 msgstr "エントリの編集(&E)..."
 
-#: kab_topwidget.cc:306
-msgid "&Remove entry"
+#: kab_topwidget.cc:299
+msgid "&Remove Entry"
 msgstr "エントリの削除(&R)"
 
-#: kab_topwidget.cc:310
-msgid "Send an e&mail"
+#: kab_topwidget.cc:303
+msgid "Send an E&mail"
 msgstr "Eメールを送信(&M)"
 
-#: kab_topwidget.cc:314
+#: kab_topwidget.cc:307
 msgid "&Browse"
 msgstr "ブラウズ(&B)"
 
-#: kab_topwidget.cc:318
-msgid "&Search entries..."
+#: kab_topwidget.cc:311
+msgid "&Search Entries..."
 msgstr "エントリの検索(&S)..."
 
-#: kab_topwidget.cc:322
-msgid "Show search results"
+#: kab_topwidget.cc:315
+msgid "Show Search Results"
 msgstr "検索結果を表示"
 
-#: kab_topwidget.cc:327
-msgid "Show main toolbar"
+#: kab_topwidget.cc:320
+msgid "Show Main Toolbar"
 msgstr "メインツールバーを表示"
 
-#: kab_topwidget.cc:332
-msgid "Show entry navigation toolbar"
+#: kab_topwidget.cc:325
+msgid "Show Entry Navigation Toolbar"
 msgstr "エントリナビゲーションツールバーを表示"
 
-#: kab_topwidget.cc:337
-msgid "Show entry navigation list"
+#: kab_topwidget.cc:330
+msgid "Show Entry Navigation List"
 msgstr "エントリナビゲーションリストを表示"
 
-#: kab_topwidget.cc:342
-msgid "Print entry..."
+#: kab_topwidget.cc:335
+msgid "Print Entry..."
 msgstr "エントリの印刷..."
 
-#: kab_topwidget.cc:346
-msgid "Print entries..."
+#: kab_topwidget.cc:339
+msgid "Print Entries..."
 msgstr "複数エントリの印刷..."
 
-#: kab_topwidget.cc:350
+#: kab_topwidget.cc:343
 msgid "&Editing"
 msgstr "編集(&E)"
 
-#: kab_topwidget.cc:354
+#: kab_topwidget.cc:347
 msgid "&Business Card"
 msgstr "ビジネスカード(&B)"
 
+#: kab_topwidget.cc:351
+msgid "Detailled View"
+msgstr "詳細ビュー"
+
 #: kab_topwidget.cc:377
-msgid "&KDE 1 address book"
+msgid "&KDE 1 Address Book"
 msgstr "&KDE 1 アドレス帳"
 
 #: kab_topwidget.cc:379
-msgid "&Netscape address book"
+msgid "&Netscape Address Book"
 msgstr "ネットスケープ アドレス帳(&N)"
 
 #: kab_topwidget.cc:386
-msgid "&Create new database..."
+msgid "&Create New Database..."
 msgstr "新規データベース作成(&C)..."
 
 #: kab_topwidget.cc:390
-msgid "Open default &database"
+msgid "Open Default &Database"
 msgstr "デフォルトのデータベースを開く(&d)"
 
 #: kab_topwidget.cc:394
@@ -393,28 +399,28 @@ msgid "&Print"
 msgstr "印刷(&P)"
 
 #: kab_topwidget.cc:410
-msgid "Enable all &messages"
-msgstr "全てのメッセージを有効に(&m)"
+msgid "Enable all &Messages"
+msgstr "全てのメッセージを有効に(&M)"
 
 #: kab_topwidget.cc:412
-msgid "&Configure this file..."
+msgid "&Configure this File..."
 msgstr "このファイルを設定(&C)..."
 
 #: kab_topwidget.cc:415
-msgid "&Preferences for the KDE address book..."
+msgid "&Preferences for KDE Address Book..."
 msgstr "KDE アドレス帳の設定(&P)..."
 
-#: kab_topwidget.cc:537
+#: kab_topwidget.cc:538
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
-"データベースインターフェースを生成出来ません。\n"
+"データベースインターフェースを生成できません。\n"
 "KDEアドレスブックはこれなしでは実行できません。\n"
 "アプリケーションを終了します。"
 
-#: kab_topwidget.cc:569
+#: kab_topwidget.cc:570
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
@@ -424,44 +430,48 @@ msgstr ""
 "変更を保存しますか?\n"
 "(保存されない変更は失われます)"
 
-#: kab_topwidget.cc:571
+#: kab_topwidget.cc:572
 msgid "Save changes?"
 msgstr "変更を保存しますか?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:579
+#: dialog_editentry.cc:47 kab_topwidget.cc:580
 msgid "Error changing the entry."
 msgstr "エントリ変更でエラー。"
 
-#: kab_topwidget.cc:608
+#: kab_topwidget.cc:609
 msgid "No entries."
 msgstr "エントリがありません。"
 
-#: kab_topwidget.cc:726
+#: kab_topwidget.cc:727
 msgid "Cannot locate default database."
 msgstr "デフォルトのデータベースが見つかりません。"
 
-#: kab_topwidget.cc:727
+#: kab_topwidget.cc:728
 msgid "Critical failure"
 msgstr "致命的エラー"
 
-#: kab_topwidget.cc:732
+#: kab_topwidget.cc:733
 msgid "The standard file could not be loaded."
 msgstr "標準ファイルはロードできませんでした。"
 
-#: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
+#: dialog_configurefile.cc:188 kab_createnew.cc:73 kab_createnew.cc:104
+#: kab_openfile.cc:69 kab_openfile.cc:81 kab_topwidget.cc:734
 msgid "File error"
 msgstr "ファイルエラー"
 
-#: kab_topwidget.cc:748
+#: kab_topwidget.cc:750
 msgid "Business card view."
 msgstr "ビジネスカードビュー."
 
-#: kab_topwidget.cc:759
+#: kab_topwidget.cc:762
 msgid "Editing view."
 msgstr "編集ビュー"
 
-#: kab_topwidget.cc:767
+#: kab_topwidget.cc:774
+msgid "Detailled view."
+msgstr "詳細ビュー"
+
+#: kab_topwidget.cc:782
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
@@ -469,23 +479,23 @@ msgstr ""
 "以前無効にした全てのメッセージを再び有効にします。\n"
 "継続しますか?"
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:784
 msgid "Enable messages?"
 msgstr "メッセージを有効にしますか?"
 
-#: kab_topwidget.cc:788
+#: kab_topwidget.cc:803
 msgid "New entry added."
 msgstr "新規エントリの追加."
 
-#: kab_topwidget.cc:789
+#: kab_topwidget.cc:804
 msgid "Saving new entry."
 msgstr "新規エントリを保存"
 
-#: kab_topwidget.cc:791
+#: kab_topwidget.cc:806
 msgid "Done."
 msgstr "終了。"
 
-#: kab_topwidget.cc:812
+#: kab_topwidget.cc:827
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
@@ -495,7 +505,7 @@ msgstr ""
 "パーミッションが拒否されました。\n"
 "このファイルの書き込みは許可されていないようです."
 
-#: kab_topwidget.cc:820
+#: kab_topwidget.cc:835
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
@@ -503,122 +513,120 @@ msgstr ""
 "新規エントリを追加できません。\n"
 "予期しないエラー。"
 
-#: kab_topwidget.cc:826
+#: kab_topwidget.cc:841
 msgid "No entry added."
 msgstr "追加されるエントリがありません。"
 
-#: kab_topwidget.cc:844
+#: kab_topwidget.cc:859
 msgid "Really remove this entry?"
 msgstr "本当にこのエントリを削除しますか?"
 
-#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
+#: kab_topwidget.cc:860 look_edit_tabaddresses.cc:247
 msgid "Question"
 msgstr "質問"
 
-#: kab_topwidget.cc:851
+#: kab_topwidget.cc:866
 msgid "Entry deleted."
 msgstr "エントリは削除されました。"
 
-#: kab_topwidget.cc:853
+#: kab_topwidget.cc:868
 msgid "Database saved."
 msgstr "データベースは保存されました。"
 
-#: kab_topwidget.cc:860
-msgid ""
-"Could not delete the entry\n"
-"(probably permission denied)."
+#: kab_topwidget.cc:875
+msgid "Could not delete the entry (probably permission denied)."
 msgstr ""
-"エントリを削除できません\n"
-"(パーミッションが拒否されたようです)。"
+"エントリを削除できません(パーミッションが拒否された"
+"ようです)。"
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
+#: dialog_configurefile.cc:62 kab_save.cc:45 kab_topwidget.cc:878
 msgid "Permission denied."
 msgstr "許可されていません。"
 
-#: kab_topwidget.cc:925
+#: kab_topwidget.cc:940
 msgid "Send an email"
 msgstr "Eメールを送る"
 
-#: kab_topwidget.cc:934
+#: kab_topwidget.cc:949
 msgid "No email addresses."
 msgstr "Eメールアドレスがありません。"
 
-#: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
-#: kab_topwidget.cc:996 kab_topwidget.cc:1399
+#: dialog_configurefile.cc:69 dialog_configurekab.cc:74 dialog_editentry.cc:54
+#: dialog_editentry.cc:77 kab_htmlexport.cc:395 kab_kab1importer.cc:241
+#: kab_printmethods.cc:79 kab_printmethods.cc:180 kab_topwidget.cc:965
+#: kab_topwidget.cc:1019 kab_topwidget.cc:1426
 msgid "Rejected."
 msgstr "キャンセルされました。"
 
-#: kab_topwidget.cc:974
+#: kab_topwidget.cc:994
 msgid "Browse to ..."
 msgstr "ブラウズ ..."
 
-#: kab_topwidget.cc:982
+#: kab_topwidget.cc:1003
 msgid "No URLs."
 msgstr "URLがありません。"
 
-#: kab_topwidget.cc:1043
+#: kab_topwidget.cc:1070
 msgid "Restoring last view."
 msgstr "最後のビューを復元。"
 
-#: kab_topwidget.cc:1045
+#: kab_topwidget.cc:1072
 msgid "Not restoring last view."
 msgstr "最後のビューを復元しない。"
 
-#: kab_topwidget.cc:1056
+#: kab_topwidget.cc:1083
 msgid "Remembering last entry."
 msgstr "最後のエントリを記憶。"
 
-#: kab_topwidget.cc:1058
+#: kab_topwidget.cc:1085
 msgid "Not remembering last entry."
 msgstr "最後のエントリを記憶しない。"
 
-#: kab_topwidget.cc:1069
+#: kab_topwidget.cc:1096
 msgid "Displaying assembled name in window title."
 msgstr "名前を組み合わせてウィンドウタイトルに表示。"
 
-#: kab_topwidget.cc:1071
+#: kab_topwidget.cc:1098
 msgid "Not displaying assembled name in window title."
 msgstr "名前を組み合わせてウィンドウタイトルに表示しない。"
 
-#: kab_topwidget.cc:1082
+#: kab_topwidget.cc:1109
 msgid "Creating backup file on startup."
 msgstr "起動時にバックアップファイルを作成。"
 
-#: kab_topwidget.cc:1084
+#: kab_topwidget.cc:1111
 msgid "Not creating a backup file on startup."
 msgstr "起動時にバックアップファイルを作成しない。"
 
-#: kab_topwidget.cc:1231
+#: kab_topwidget.cc:1258
 msgid "Search entries"
 msgstr "エントリの検索"
 
-#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
+#: kab_topwidget.cc:1271 kab_topwidget.cc:1281
 msgid "(ERROR)"
 msgstr "(エラー)"
 
-#: kab_topwidget.cc:1293
+#: kab_topwidget.cc:1320
 msgid "Could not get an overview over the existing entries."
 msgstr "存在しているエントリの要約が得られませんでした。"
 
-#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
+#: kab_topwidget.cc:1321 kab_topwidget.cc:1338 kab_topwidget.cc:1349
 msgid "Internal Error"
 msgstr "内部エラー"
 
-#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
+#: kab_topwidget.cc:1337 kab_topwidget.cc:1348
 msgid "Could not query an existing entry."
 msgstr "存在するエントリを問い合わせできませんでした。"
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid "Search results ("
 msgstr "検索結果 ("
 
-#: kab_topwidget.cc:1389
+#: kab_topwidget.cc:1416
 msgid " hits):"
 msgstr " ヒット):"
 
-#: kab_topwidget.cc:1394
+#: kab_topwidget.cc:1421
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
@@ -626,19 +634,19 @@ msgstr ""
 "すみません!\n"
 "検索条件にマッチするエントリはありません。"
 
-#: kab_topwidget.cc:1395
+#: kab_topwidget.cc:1422
 msgid "No hits"
 msgstr "ヒット無し"
 
-#: kab_kab1importer.cc:197
+#: kab_kab1importer.cc:196
 msgid "Home"
 msgstr "ホーム"
 
-#: kab_kab1importer.cc:239
+#: kab_kab1importer.cc:238
 msgid "Imported kab 1 addressbook."
 msgstr "インポートされた KAB 1 アドレス帳"
 
-#: kab_kab1importer.cc:278
+#: kab_kab1importer.cc:277
 msgid ""
 "Could not access the kab 1 database file.\n"
 "You most probably never used kab 1."
@@ -647,7 +655,7 @@ msgstr ""
 "データベースファイルにアクセスできませんでした。\n"
 "恐らくKAB 1 を使っていなかったのでしょう。"
 
-#: kab_kab1importer.cc:292
+#: kab_kab1importer.cc:291
 msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
@@ -656,7 +664,7 @@ msgstr ""
 "データベースファイルが手動で変更されているようです"
 "。"
 
-#: kab_kab1importer.cc:307
+#: kab_kab1importer.cc:306
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
@@ -666,245 +674,258 @@ msgstr ""
 "データベースファイルが手動で変更されているようです"
 "。"
 
-#: kab_kab1importer.cc:335
+#: kab_kab1importer.cc:334
 msgid ""
-"Warning: There were errors importing the KDE 1\n"
-"address database.\n"
-"\n"
+"Warning: There were errors importing the KDE 1 address database.\n"
 msgstr ""
-"警告: KDE 1 アドレスデータベースのインポートで\n"
-"エラーがありました。\n"
-"\n"
+"警告: KDE 1 "
+"アドレスデータベースのインポートでエラーがありまし"
+"た。\n"
 
-#: kab_kab1importer.cc:340
+#: kab_kab1importer.cc:339
 msgid ""
-"Do you really want to add the entries of your KDE 1\n"
-"address book to this file?\n"
-"You will not be able to revert this changes."
+"Do you really want to add the entries of your KDE 1 address book to this "
+"file?\n"
+"You will not be able to revert this change."
 msgstr ""
-"本当に、KDE 1 アドレス帳エントリをこのファイルに\n"
-"追加しますか?\n"
+"本当に、KDE 1 "
+"アドレス帳エントリをこのファイルに追加しますか?\n"
 "この変更は取り消せません。"
 
-#: kab_netscape_io.cc:104
+#: kab_netscape_io.cc:101
 msgid "Netscape Messenger addressbook export files (*.ldif)"
 msgstr ""
 "ネットスケープメッセンジャー "
 "アドレス帳エクスポートファイル(*.ldif)"
 
-#: kab_netscape_io.cc:105
+#: kab_netscape_io.cc:102
 msgid "All files"
 msgstr "全てのファイル"
 
-#: kab_netscape_io.cc:107
+#: kab_netscape_io.cc:104
 msgid "Import Netscape Messanger addressbook export files..."
 msgstr ""
 "ネットスケープメッセンジャー "
 "アドレス帳エクスポートファイルのインポート"
 
-#: kab_netscape_io.cc:115
+#: kab_netscape_io.cc:112
 #, c-format
 msgid "Unable to read the file %1."
 msgstr "ファイル %1 を読めません."
 
-#: kab_netscape_io.cc:129
+#: kab_netscape_io.cc:126
 msgid "Entry imported on %1 from '%2'"
 msgstr "'%2'から%1へエントリがインポートされました"
 
-#: kab_netscape_io.cc:144
+#: kab_netscape_io.cc:141
 msgid "Main contact information"
 msgstr "メインコンタクト情報"
 
-#: kab_netscape_io.cc:182
+#: kab_netscape_io.cc:179
 #, c-format
 msgid "Nickname: %1"
 msgstr "ニックネーム: %1"
 
-#: kab_netscape_io.cc:188
+#: kab_netscape_io.cc:185
 msgid "Mailformat: Text"
 msgstr "メールフォーマット: テキスト"
 
-#: kab_netscape_io.cc:189
+#: kab_netscape_io.cc:186
 msgid "Mailformat: HTML"
 msgstr "メールフォーマット: HTML"
 
-#: kab_netscape_io.cc:196
+#: kab_netscape_io.cc:193
 #, c-format
 msgid "Last modified: %1"
 msgstr "最終更新日時: %1"
 
-#: kab_netscape_io.cc:295
+#: kab_netscape_io.cc:292
 msgid "%1 addresses imported."
 msgstr "%1 個のアドレスがインポートされました."
 
-#: kab_netscape_io.cc:297
+#: kab_netscape_io.cc:294
 msgid "No addresses imported."
 msgstr "アドレスはインポートされませんでした."
 
-#: kab_printmethods.cc:94
+#: kab_printmethods.cc:213
 msgid "Printing finished."
 msgstr "印刷終了。"
 
-#: kab_printmethods.cc:96
+#: kab_printmethods.cc:215
 msgid "Printing failed."
 msgstr "印刷が失敗しました"
 
-#: kab_printmethods.cc:212
+#: kab_printmethods.cc:331
 msgid "Email address:"
 msgstr "Eメールアドレス:"
 
-#: kab_printmethods.cc:213
+#: kab_printmethods.cc:332
 msgid "Email addresses:"
 msgstr "Eメールアドレス:"
 
-#: kab_printmethods.cc:224
+#: kab_printmethods.cc:344
 msgid "Telephone:"
 msgstr "電話:"
 
-#: kab_printmethods.cc:225
+#: kab_printmethods.cc:345
 msgid "Telephones:"
 msgstr "電話:"
 
-#: kab_printmethods.cc:245
+#: kab_printmethods.cc:366
 msgid "Web Page:"
 msgstr "WEBページ:"
 
-#: kab_printmethods.cc:246
+#: kab_printmethods.cc:367
 msgid "Web Pages:"
 msgstr "WEBページ:"
 
-#: kab_printmethods.cc:256
+#: kab_printmethods.cc:378
 msgid "Talk Address:"
 msgstr "Talk アドレス:"
 
-#: kab_printmethods.cc:257
+#: kab_printmethods.cc:379
 msgid "Talk Addresses:"
 msgstr "Talk アドレス:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Address:"
 msgstr "アドレス:"
 
-#: kab_printmethods.cc:334 kab_printmethods.cc:339
+#: kab_printmethods.cc:459 kab_printmethods.cc:464
 msgid "Addresses:"
 msgstr "アドレス:"
 
-#: kab_printmethods.cc:402
+#: kab_printmethods.cc:527
 msgid "Unnamed address:"
 msgstr "名前無しのアドレス:"
 
-#: kab_printmethods.cc:464 kab_printmethods.cc:468
+#: kab_printmethods.cc:589 kab_printmethods.cc:593
 msgid "(Deliver to:)"
 msgstr "(次へ配布:)"
 
-#: kab_htmlexport.cc:318
+#: kab_htmlexport.cc:315
 msgid ""
-"<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
-"customized version of the template files delivered with your kab "
-"installation at another point.</qt>"
+"<qt><b>Warning!</b>"
+"<br>Do not change this setting unless you installed a customized version of "
+"the template files delivered with your kab installation at another "
+"point.</qt>"
 msgstr ""
-"<qt><b>警告!</b><br>他の場所からKabと共にカスタマイズされ"
-"たテンプレートファイルを入手してインストールしてい"
-"るので無ければ、この設定は変更しないようにして下さ"
-"い。</qt>"
+"<qt><b>警告!</b>"
+"<br>他の場所からKabと共にカスタマイズされたテンプレー"
+"トファイルを入手してインストールしているので無けれ"
+"ば、この設定は変更しないようにして下さい。</qt>"
 
-#: kab_htmlexport.cc:323
+#: kab_htmlexport.cc:320
 msgid "HTML Export Templates"
 msgstr "HTMLエクスポートのテンプレート"
 
-#: kab_htmlexport.cc:329
+#: kab_htmlexport.cc:326
 msgid "Select Template Folder"
 msgstr "テンプレートフォルダを選択"
 
-#: kab_htmlexport.cc:343
+#: kab_htmlexport.cc:340
 msgid "Select Target Folder"
 msgstr "ターゲットフォルダを選択"
 
-#: kab_htmlexport.cc:392
+#: kab_htmlexport.cc:389
 msgid "You have to specify both a template and a target folder!"
 msgstr ""
 "テンプレート、ターゲットの両方のフォルダを指定しな"
 "ければなりません!"
 
-#: kab_htmlexport.cc:393
+#: kab_htmlexport.cc:390
 msgid "Corrections needed"
 msgstr "修正が必要です"
 
-#: kab_htmlexport.cc:447
+#: kab_htmlexport.cc:444
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
-"files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Resources are used as support files like backgrounds or bullets in "
+"the resulting HTML files.)</i></qt>"
 msgstr ""
 "<qt>"
 "アドレス帳をHTMLにエクスポートする為に使われる、少く"
 "とも1つ以上の<b>リソースファイル</b>"
-"がありません。続行しますか?<br><br><i>(リソースは、背景"
-"や項目ビュレット等出力結果のHTMLに使用されるサポート"
-"ファイルです。)</i></qt>"
+"がありません。続行しますか?"
+"<br>"
+"<br><i>"
+"(リソースは、背景や項目ビュレット等出力結果のHTMLに使"
+"用されるサポートファイルです。)</i></qt>"
 
-#: kab_htmlexport.cc:452
+#: kab_htmlexport.cc:449
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
-"HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
-"to create the HTML files themselves. The HTML export will most probably not "
-"work without it.)</i></qt>"
+"HTML is missing. Continue anyway?"
+"<br>"
+"<br><i>(Templates are used as a basis to create the HTML files themselves. "
+"The HTML export will most probably not work without it.)</i></qt>"
 msgstr ""
 "<qt>"
 "アドレス帳をHTMLにエクスポートする為に使われる、少く"
 "とも1つ以上の<b>テンプレートファイル</b>"
-"がありません。続行しますか?<br><br><i>"
-"(テンプレートは、HTMLを生成する基礎として使われます。"
-"HTMLエクスポートはこれ無しには、まず機能しないでしょ"
-"う。)</i></qt>"
+"がありません。続行しますか?"
+"<br>"
+"<br><i>(テンプレートは、HTMLを生成する基礎として使われ"
+"ます。HTMLエクスポートはこれ無しには、まず機能しない"
+"でしょう。)</i></qt>"
 
-#: kab_htmlexport.cc:492
+#: kab_htmlexport.cc:489
 msgid "Missing Resource"
 msgstr "欠落しているリソース"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
-#: kab_openfile.cc:53
+#: kab_createnew.cc:49 kab_htmlexport.cc:492 kab_htmlexport.cc:504
+#: kab_openfile.cc:47
 msgid "Cancelled."
 msgstr "キャンセルされました"
 
-#: kab_htmlexport.cc:504
+#: kab_htmlexport.cc:501
 msgid "Missing Template"
 msgstr "欠落しているテンプレート"
 
-#: kab_htmlexport.cc:543
+#: kab_htmlexport.cc:540
 msgid ""
-"<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
-"by insufficient permissions in the target directory or failures in the setup "
-"of your KDE 2 installation.<br><br>If you created your own template folder, "
-"mistakes in there may also cause errors. As a last possibility, the KDE "
-"address book may be buggy, too :-(.</qt>"
+"<qt><b>Sorry!</b>"
+"<br>"
+"<br>Exporting to HTML failed. Problems might be caused by insufficient "
+"permissions in the target directory or failures in the setup of your KDE 2 "
+"installation."
+"<br>"
+"<br>If you created your own template folder, mistakes in there may also "
+"cause errors. As a last possibility, the KDE address book may be buggy, too "
+":-(.</qt>"
 msgstr ""
-"<qt><b>すみません!</b><br><br>HTMLへのエクスポートが失敗し"
-"ました。ターゲットフォルダへの権限が無いか、KDE "
-"2のインストールに失敗しているようです。<br><br>あるい"
-"は、あなた自身のテンプレートフォルダを用意している"
-"なら、その間違いもエラーの原因になります。最後の可"
-"能性としては "
+"<qt><b>すみません!</b>"
+"<br>"
+"<br>"
+"HTMLへのエクスポートが失敗しました。ターゲットフォル"
+"ダへの権限が無いか、KDE "
+"2のインストールに失敗しているようです。"
+"<br>"
+"<br>あるいは、あなた自身のテンプレートフォルダを用意"
+"しているなら、その間違いもエラーの原因になります。"
+"最後の可能性としては "
 "KDEアドレスブックにバグがあるのかもしれません。*_*;</qt"
 ">"
 
-#: kab_htmlexport.cc:551
+#: kab_htmlexport.cc:548
 msgid "Error exporting to HTML"
 msgstr "HTMLにエクスポート中にエラー発生"
 
-#: kab_createnew.cc:43 kab_openfile.cc:43
+#: kab_createnew.cc:37 kab_openfile.cc:37
 msgid "Could not find the users home directory."
 msgstr "ユーザのホームディレクトリが見付かりませんでした。"
 
-#: kab_createnew.cc:44 kab_openfile.cc:44
+#: kab_createnew.cc:38 kab_openfile.cc:38
 msgid "Intern error!"
 msgstr "内部エラー!"
 
-#: kab_createnew.cc:62 kab_openfile.cc:60
+#: kab_createnew.cc:56 kab_openfile.cc:54
 msgid "Only local files supported yet."
 msgstr "未だローカルファイルしかサポートされていません。"
 
-#: kab_createnew.cc:75
+#: kab_createnew.cc:69
 msgid ""
 "This file is a directory, or it already exists.\n"
 "Please select another filename.\n"
@@ -915,7 +936,7 @@ msgstr ""
 "他のファイル名を選択して下さい。\n"
 "新規ファイルを作成する権限も必要です。"
 
-#: kab_createnew.cc:91
+#: kab_createnew.cc:85
 msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
@@ -923,31 +944,31 @@ msgstr ""
 "ファイル名が\".kab\"で終っていません。\n"
 "%1 に変更されました。\n"
 
-#: kab_createnew.cc:93
+#: kab_createnew.cc:87
 msgid "Note"
 msgstr "注意"
 
-#: kab_createnew.cc:100
+#: kab_createnew.cc:94
 msgid "The file could not be created, possibly permission denied."
 msgstr ""
 "ファイルを作成できませんでした。多分パーミッション"
 "が拒否されています。"
 
-#: kab_createnew.cc:101 kab_save.cc:58
+#: kab_createnew.cc:95 kab_save.cc:56
 msgid "kab: File error"
 msgstr "kab: ファイルエラー"
 
-#: kab_createnew.cc:109
+#: kab_createnew.cc:103
 msgid "The file has been created, but could not be loaded."
 msgstr ""
 "ファイルが作成されました。しかしロードできませんで"
 "した。"
 
-#: kab_openfile.cc:45
+#: kab_openfile.cc:39
 msgid "Could not find the users home directory"
 msgstr "ユーザのホームディレクトリが見付かりませんでした。"
 
-#: kab_openfile.cc:72
+#: kab_openfile.cc:66
 msgid ""
 "The file does not exist or is a directory.\n"
 "Use \"Create new database...\" to create a new one.\n"
@@ -958,75 +979,103 @@ msgstr ""
 "さい。\n"
 "ロードするには、存在するファイルを選択して下さい。"
 
-#: kab_openfile.cc:86
+#: kab_openfile.cc:80
 msgid "The file could not be loaded."
 msgstr "ファイルはロードできませんでした。"
 
-#: kab_save.cc:36 kab_save.cc:50
+#: kab_save.cc:34 kab_save.cc:48
 msgid "Internal error."
 msgstr "内部エラー"
 
-#: kab_save.cc:44
+#: kab_save.cc:42
 msgid "Entry stored."
 msgstr "エントリが保存されました。"
 
-#: kab_save.cc:57
+#: kab_save.cc:55
 msgid "The file could not be saved (permission denied)."
 msgstr "ファイルは保存できませんでした(パーミッション拒否)。"
 
-#: kab_save.cc:61
+#: kab_save.cc:59
 msgid "File saved."
 msgstr "ファイルを保存しました。"
 
-#: look_businesscard.cc:176
+#: look_businesscard.cc:173
 msgid "email: "
 msgstr "Eメール: "
 
-#: look_businesscard.cc:193
+#: look_businesscard.cc:190
 msgid "tel: "
 msgstr "TEL: "
 
-#: look_edit.cc:36
-msgid "User Fields"
+#: look_details.cc:43
+msgid "Show postal addresses"
+msgstr "住所を表示"
+
+#: look_details.cc:44
+msgid "Show email addresses"
+msgstr "Eメールアドレスを表示"
+
+#: look_details.cc:45
+msgid "Show telephone numbers"
+msgstr "電話番号を表示"
+
+#: look_details.cc:46
+msgid "Show web pages (URLs)"
+msgstr "WEBページ(URL)を表示"
+
+#: look_details.cc:190
+msgid "Select background"
+msgstr "背景を選択"
+
+#: look_details.cc:191
+msgid "Bordered backgrounds"
+msgstr "枠付き背景"
+
+#: look_details.cc:192
+msgid "Tiled backgrounds"
+msgstr "タイル"
+
+#: look_edit.cc:33
+msgid "User fields"
 msgstr "ユーザフィールド"
 
-#: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
+#: dialog_configurefile.cc:145 look_edit.cc:40 look_edit.cc:54
 #: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
 #: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
-#: look_edit_tabuser.cc:50
+#: look_edit_tabuser.cc:48
 msgid "General failure."
 msgstr "一般エラー."
 
-#: dialog_configurefile.cc:130 look_edit.cc:70
-msgid "(User fields)"
+#: dialog_configurefile.cc:126 look_edit.cc:67
+msgid "(User Fields)"
 msgstr "(ユーザフィールド)"
 
-#: look_edit.cc:74
+#: look_edit.cc:71
 msgid "&Person"
 msgstr "人物(&P)"
 
-#: look_edit.cc:75
+#: look_edit.cc:72
 msgid "&Telephone"
 msgstr "電話(&T)"
 
-#: look_edit.cc:76
+#: look_edit.cc:73
 msgid "&Addresses"
 msgstr "アドレス(&A)"
 
-#: look_edit.cc:77
+#: look_edit.cc:74
 msgid "&Birthday"
 msgstr "誕生日(&B)"
 
-#: look_edit.cc:78
-msgid "Comment"
-msgstr "コメント"
+#: look_edit.cc:75
+msgid "Co&mment"
+msgstr "コメント(&m)"
 
 #: look_edit_tabperson.cc:40
-msgid "Email addresses..."
+msgid "Email Addresses..."
 msgstr "Eメールアドレス..."
 
 #: look_edit_tabperson.cc:41
-msgid "Talk addresses..."
+msgid "Talk Addresses..."
 msgstr "Talk アドレス..."
 
 #: look_edit_tabperson.cc:42
@@ -1071,11 +1120,11 @@ msgid "Rank:"
 msgstr "地位:"
 
 #: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
-msgid "Edit email addresses"
+msgid "Edit Email Addresses"
 msgstr "Eメールアドレスを編集"
 
 #: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
-msgid "Edit talk addresses"
+msgid "Edit Talk Addresses"
 msgstr "talk アドレスを編集"
 
 #: look_edit_tabperson.cc:228
@@ -1086,35 +1135,35 @@ msgstr "URLを編集"
 msgid "I know this person's birthday:"
 msgstr "この人物の誕生日を知っています:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:32
 msgid "User field 1:"
 msgstr "ユーザフィールド 1:"
 
-#: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
+#: dialog_configurefile.cc:92 look_edit_tabuser.cc:33
 msgid "User field 2:"
 msgstr "ユーザフィールド 2:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:34
 msgid "User field 3:"
 msgstr "ユーザフィールド 3:"
 
-#: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
+#: dialog_configurefile.cc:93 look_edit_tabuser.cc:35
 msgid "User field 4:"
 msgstr "ユーザフィールド 4:"
 
-#: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
+#: dialog_configurefile.cc:129 look_edit_tabuser.cc:135
 msgid "(User field 1)"
 msgstr "(ユーザフィールド 1)"
 
-#: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
+#: dialog_configurefile.cc:132 look_edit_tabuser.cc:138
 msgid "(User field 2)"
 msgstr "(ユーザフィールド 2)"
 
-#: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
+#: dialog_configurefile.cc:135 look_edit_tabuser.cc:141
 msgid "(User field 3)"
 msgstr "(ユーザフィールド 3)"
 
-#: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
+#: dialog_configurefile.cc:138 look_edit_tabuser.cc:144
 msgid "(User field 4)"
 msgstr "(ユーザフィールド 4)"
 
@@ -1123,116 +1172,117 @@ msgid "Edit URLs (internet addresses)"
 msgstr "URL(インターネットアドレス)を編集"
 
 #: look_edit_tabcontact.cc:32
-msgid "Edit telephone numbers"
+msgid "Edit Telephone Numbers"
 msgstr "電話番号を編集"
 
-#: look_edit_tabaddresses.cc:231
+#: look_edit_tabaddresses.cc:222
 msgid ""
-"<qt>Did you know that you may predefine types of addresses?<br>See "
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>Did you know that you may predefine types of addresses?"
+"<br>See <b>Edit->Configure this file</b>.</qt>"
 msgstr ""
 "<qt>"
-"アドレスのタイプを設定できることをご存知でしたか?<br>"
-"<b>編集->このファイルの設定</b>を参照して下さい。</qt>"
+"アドレスのタイプを設定できることをご存知でしたか?"
+"<br><b>編集->このファイルの設定</b>"
+"を参照して下さい。</qt>"
 
-#: look_edit_tabaddresses.cc:233
-msgid "A note"
+#: look_edit_tabaddresses.cc:224
+msgid "A Note"
 msgstr "ノート"
 
-#: look_edit_tabaddresses.cc:255
+#: look_edit_tabaddresses.cc:246
 msgid "Really delete this address?"
 msgstr "本当にこのアドレスを削除しますか?"
 
-#: look_edit_tabaddresses.cc:317
+#: look_edit_tabaddresses.cc:308
 msgid "Organization"
 msgstr "組織"
 
-#: look_edit_tabtelephone.cc:46
+#: look_edit_tabtelephone.cc:44
 msgid "Fixed:"
 msgstr "固定:"
 
-#: look_edit_tabtelephone.cc:47
+#: look_edit_tabtelephone.cc:45
 msgid "Mobile:"
 msgstr "モバイル:"
 
-#: look_edit_tabtelephone.cc:48
+#: look_edit_tabtelephone.cc:46
 msgid "Fax:"
 msgstr "FAX:"
 
-#: look_edit_tabtelephone.cc:49
+#: look_edit_tabtelephone.cc:47
 msgid "Modem:"
 msgstr "モデム:"
 
-#: look_edit_tabtelephone.cc:50
+#: look_edit_tabtelephone.cc:48
 msgid "User defined 1:"
 msgstr "ユーザ定義 1:"
 
-#: look_edit_tabtelephone.cc:51
+#: look_edit_tabtelephone.cc:49
 msgid "User defined 2:"
 msgstr "ユーザ定義 2:"
 
-#: look_edit_tabtelephone.cc:52
+#: look_edit_tabtelephone.cc:50
 msgid "User defined 3:"
 msgstr "ユーザ定義 3:"
 
-#: look_edit_tabtelephone.cc:64
+#: look_edit_tabtelephone.cc:62
 msgid "Type"
 msgstr "タイプ"
 
-#: look_edit_tabtelephone.cc:66
+#: look_edit_tabtelephone.cc:64
 msgid "Number"
 msgstr "番号"
 
-#: widget_editstringlist.cc:41
+#: widget_editstringlist.cc:39
 msgid "Add a new string"
 msgstr "新規文字列を追加"
 
-#: widget_editstringlist.cc:42
+#: widget_editstringlist.cc:40
 msgid "Move this string up"
 msgstr "この文字列を上に移動"
 
-#: widget_editstringlist.cc:43
+#: widget_editstringlist.cc:41
 msgid "Move this string down"
 msgstr "この文字列を下に移動"
 
-#: widget_editstringlist.cc:44
+#: widget_editstringlist.cc:42
 msgid "Delete this string"
 msgstr "この文字列を削除"
 
-#: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
+#: dialog_configurefile.cc:59 dialog_configurekab.cc:51 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
 msgid "Accepted."
 msgstr "受取りました。"
 
 #: dialog_editentry.cc:68
-msgid "Edit entry"
+msgid "Edit Entry"
 msgstr "エントリー編集"
 
-#: dialog_configurefile.cc:51
+#: dialog_configurefile.cc:47
 msgid "Cannot query configuration data."
-msgstr "設定データの問い合わせは出来ません"
+msgstr "設定データの問い合わせはできません"
 
-#: dialog_configurefile.cc:52
+#: dialog_configurefile.cc:48
 msgid "Internal failure"
 msgstr "内部エラー"
 
-#: dialog_configurefile.cc:68
+#: dialog_configurefile.cc:64
 msgid "Settings applied."
 msgstr "設定を適用しました。"
 
-#: dialog_configurefile.cc:95
+#: dialog_configurefile.cc:91
 msgid "Tab name"
 msgstr "タブ名"
 
-#: dialog_configurefile.cc:154
-msgid "User fields"
+#: dialog_configurefile.cc:150
+msgid "User Fields"
 msgstr "ユーザフィールド"
 
-#: dialog_configurefile.cc:166
+#: dialog_configurefile.cc:162
 msgid "Address types"
 msgstr "アドレスタイプ"
 
-#: dialog_configurefile.cc:190
+#: dialog_configurefile.cc:186
 msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
@@ -1240,7 +1290,7 @@ msgstr ""
 "設定を保存できません。\n"
 "恐らく、このファイルを書き込む権限がありません。"
 
-#: dialog_configurekab.cc:37
+#: dialog_configurekab.cc:35
 msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
@@ -1248,15 +1298,15 @@ msgstr ""
 "あなたの設定ファイルは壊れています。\n"
 "KABは設定できません。"
 
-#: dialog_configurekab.cc:39
+#: dialog_configurekab.cc:37
 msgid "Fatal error"
 msgstr "致命的エラー"
 
-#: dialog_configurekab.cc:40
+#: dialog_configurekab.cc:38
 msgid "Configuration file corrupt."
 msgstr "設定ファイルが壊れています。"
 
-#: dialog_configurekab.cc:58
+#: dialog_configurekab.cc:56
 msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
@@ -1264,19 +1314,19 @@ msgstr ""
 "設定を保存しようとしてエラーが発生しました。\n"
 "設定の一部は失われます。"
 
-#: dialog_configurekab.cc:61 dialog_configurekab.cc:72
+#: dialog_configurekab.cc:59 dialog_configurekab.cc:70
 msgid "Error saving preferences."
 msgstr "設定保存中にエラー。"
 
-#: dialog_configurekab.cc:63
+#: dialog_configurekab.cc:61
 msgid "KDE address book preferences."
 msgstr "KDE アドレス帳設定."
 
-#: dialog_configurekab.cc:65
+#: dialog_configurekab.cc:63
 msgid "Preferences saved."
 msgstr "設定は保存されました。"
 
-#: dialog_configurekab.cc:69
+#: dialog_configurekab.cc:67
 msgid ""
 "Cannot save your preferences.\n"
 "You may not have permission to write the file."
@@ -1284,24 +1334,24 @@ msgstr ""
 "設定を保存できません。\n"
 "恐らく、このファイルを書き込む権限がありません。"
 
-#: dialog_configurekab.cc:88
+#: dialog_configurekab.cc:86
 msgid "Remember last selected view"
 msgstr "最後の選択ビューを記憶"
 
-#: dialog_configurekab.cc:90
+#: dialog_configurekab.cc:88
 msgid "Remember last selected entry"
 msgstr "最後の選択されたエントリを記憶"
 
-#: dialog_configurekab.cc:92
+#: dialog_configurekab.cc:90
 msgid "Show assembled name in window title"
 msgstr "組み合わせた名前をウィンドウタイトルに表示"
 
-#: dialog_configurekab.cc:94
+#: dialog_configurekab.cc:92
 msgid "Create backup file on startup"
 msgstr "起動時にバックアップファイルを作成"
 
-#: dialog_configurekab.cc:95
-msgid "General settings"
+#: dialog_configurekab.cc:93
+msgid "General Settings"
 msgstr "一般設定"
 
 #: dialog_insinuation.cc:29
@@ -1316,30 +1366,30 @@ msgstr "部:"
 msgid "Sub-Department:"
 msgstr "課:"
 
-#: kab_entrylist.cc:55
+#: kab_entrylist.cc:49
 msgid "..."
 msgstr "..."
 
-#: kab_entrylist.cc:81
+#: kab_entrylist.cc:75
 msgid "No match."
 msgstr "該当なし."
 
-#: kab_entrylist.cc:94
+#: kab_entrylist.cc:88
 msgid "Calculating..."
 msgstr "計算中..."
 
-#: kab_entrylist.cc:110
+#: kab_entrylist.cc:104
 msgid "(Disabled)"
 msgstr "(無効)"
 
-#: kab_entrylist.cc:113
+#: kab_entrylist.cc:107
 msgid "Error creating index for incremental search."
 msgstr "インクリメンタルサーチ用インデクス生成でエラー."
 
-#: kab_entrylist.cc:114
+#: kab_entrylist.cc:108
 msgid "Incremental search disabled."
 msgstr "インクリメンタルサーチは無効です."
 
-#: kab_entrylist.cc:163
+#: kab_entrylist.cc:157
 msgid "(No items to search)"
 msgstr "(検索する項目無し)"
