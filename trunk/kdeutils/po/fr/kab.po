@@ -2,112 +2,123 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: montell laurent <montell@club-internet.fr>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: kab\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"PO-Revision-Date: 1998-12-08 18:30 CET\n"
+"Last-Translator: Francois-Xavier DURANCEAU "
+"<Francois-Xavier.Duranceau@loria.fr>\n"
+"Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Translator: montell laurent <montell@club-internet.fr>\n"
 
-#: AddressBookAbout.cpp:33
+#: AddressBookAbout.cpp:25
 msgid "About addressbook"
 msgstr "A propos d'Addressbook"
 
-#: AddressBookAbout.cpp:43
+#: AddressBookAbout.cpp:35
 msgid "Image load failure"
 msgstr "L'image n'a pu être chargée"
 
-#: AddressBookAbout.cpp:44
+#: AddressBookAbout.cpp:36
 msgid "Could not load addressbook logo image!"
-msgstr ""
+msgstr "Impossible de charger le logo du carnet d'adresses !"
 
-#: AddressBookAbout.cpp:46
+#: AddressBookAbout.cpp:37
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
 msgstr ""
+"Voici le logo\n"
+"du carnet d'adresses."
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "écrit et maintenu par"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.9.5, December 1998"
+msgstr "kab 0.9.5, Décembre 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "L'initialisation n'a pu être faite"
 
 #: toplevelwidget.cc:37
-msgid "The programs menubar could not be constructed."
-msgstr ""
+msgid "The program's menubar could not be constructed."
+msgstr "La barre de menu du programme ne peut pas être construite."
 
 #: toplevelwidget.cc:45
-msgid "The programs statusbar could not be constructed."
-msgstr ""
+msgid "The program's statusbar could not be constructed."
+msgstr "La barre d'état du programme ne peut pas être construite."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."
-msgstr ""
+msgstr "carnet d'adresses de KDE."
 
-#: toplevelwidget.cc:76
+#: toplevelwidget.cc:73
 msgid "HTML table"
-msgstr ""
+msgstr "Table HTML"
 
-#: toplevelwidget.cc:85
+#: toplevelwidget.cc:82
 msgid "Export"
-msgstr "Exporter"
+msgstr "E&xporter"
 
-#: toplevelwidget.cc:87
+#: toplevelwidget.cc:84
 msgid "Search &entries"
-msgstr ""
+msgstr "&Chercher des entrées"
 
-#: toplevelwidget.cc:89
+#: toplevelwidget.cc:86
 msgid "&Print"
 msgstr "&Imprimer"
 
-#: toplevelwidget.cc:101
+#: toplevelwidget.cc:98
 msgid "&Add entry"
 msgstr "&Ajouter une entrée"
 
-#: toplevelwidget.cc:103
+#: toplevelwidget.cc:100
 msgid "&Edit entry"
 msgstr "&Modifier une entrée"
 
-#: toplevelwidget.cc:105
+#: toplevelwidget.cc:102
 msgid "&Remove entry"
 msgstr "&Effacer une entrée"
 
-#: toplevelwidget.cc:117
+#: toplevelwidget.cc:114
 msgid "&Mail"
 msgstr "&Courrier"
 
-#: toplevelwidget.cc:119
+#: toplevelwidget.cc:116
 msgid "&Talk"
-msgstr ""
+msgstr "&Discussion"
 
-#: toplevelwidget.cc:121
+#: toplevelwidget.cc:118
 msgid "&Browse"
-msgstr ""
+msgstr "&Navigateur"
 
-#: toplevelwidget.cc:126
+#: toplevelwidget.cc:123
 msgid "Help on Addressbook"
-msgstr "Aide sur Addressbook"
+msgstr "Aide sur Address&book"
 
-#: toplevelwidget.cc:131
+#: toplevelwidget.cc:128
 msgid "About Addressbook"
-msgstr "A propos d'Addressbook"
+msgstr "A propos d'&Addressbook"
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:130
 msgid "About &Qt"
 msgstr "A propos de &Qt"
 
-#: toplevelwidget.cc:134
+#: toplevelwidget.cc:131
 msgid "About &KDE"
-msgstr "A propos de KDE"
+msgstr "A propos de &KDE"
 
-#: toplevelwidget.cc:141
+#: toplevelwidget.cc:138
 msgid "&About"
 msgstr "&A propos"
 
-#: toplevelwidget.cc:192
+#: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "A propos de Qt"
