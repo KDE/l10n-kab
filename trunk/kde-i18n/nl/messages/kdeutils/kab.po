@@ -1,0 +1,667 @@
+# Nederlandse vertaling van kab
+# Copyright (C) 2000 KDE-Nederlands team <i18n@kde.nl>.
+# Niels Reedijk <n.reedijk@planet.nl>, 2000.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2000-06-03 01:07+0200\n"
+"PO-Revision-Date: 2000-06-08 14:03+0100\n"
+"Last-Translator: Niels Reedijk <n.reedijk@planet.nl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kab_main.cc:38
+msgid "KDE Addressbook"
+msgstr "KDE Adressenboek"
+
+#: kab_main.cc:44
+msgid "KAB"
+msgstr "KAB"
+
+#: kab_main.cc:54
+msgid ""
+"<qt>Version 2 of the KDE address book is not compatible with the previous "
+"one. To protect your address database, a new file will be used. Run "
+"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
+"version.</qt>"
+msgstr ""
+"<qt>Versie 2 van het KDE-adressenboek is niet compatibel met de vorige "
+"versie. Om uw adressendatabase te beschermen zal een nieuw bestand worden "
+"gebruikt. Draai <b>Bestand->Importeren->KDE 1 adressenboek</b> om uw oude "
+"database met de nieuwe versie te gebruiken.</qt>"
+
+#: kab_main.cc:59
+msgid "new format"
+msgstr "nieuw formaat"
+
+#: dialog_configurefile.cc:137 kab_topwidget.cc:69 look_edit.cc:51
+#: look_edit.cc:65 look_edit_tabaddresses.cc:200 look_edit_tabcontact.cc:51
+#: look_edit_tabperson.cc:66 look_edit_tabperson.cc:252
+#: look_edit_tabperson.cc:291 look_edit_tabuser.cc:58
+msgid "Out of memory."
+msgstr "Te weinig geheugen."
+
+#: kab_topwidget.cc:70
+msgid "General failure"
+msgstr "Algemene fout"
+
+#: kab_topwidget.cc:86
+msgid "Could not connect to the address database."
+msgstr "Kon niet verbinden met de adressendatabase."
+
+#: kab_topwidget.cc:87 kab_topwidget.cc:239
+msgid "Database error"
+msgstr "Databasefout"
+
+#: kab_topwidget.cc:95
+msgid "Welcome to kab 2.0"
+msgstr "Welkom bij kab 2.0"
+
+#: kab_topwidget.cc:107
+msgid "&KDE 1 address book"
+msgstr "&KDE 1 adressenboek"
+
+#: kab_topwidget.cc:109
+msgid "&Create new database"
+msgstr "Nieuwe database &maken"
+
+#: kab_topwidget.cc:111
+msgid "&Open"
+msgstr "&Openen"
+
+#: kab_topwidget.cc:113
+msgid "Open default &database"
+msgstr "Standaard &database openen"
+
+#: kab_topwidget.cc:118
+msgid "&Import..."
+msgstr "&Importeren..."
+
+#: kab_topwidget.cc:124
+msgid "&Add entry"
+msgstr "Nieuwe ing&ang invoeren"
+
+#: kab_topwidget.cc:126
+msgid "&Edit entry"
+msgstr "Ingang b&ewerken"
+
+#: kab_topwidget.cc:128
+msgid "&Remove entry"
+msgstr "Ingang ve&rwijderen"
+
+#: kab_topwidget.cc:131
+msgid "Send an e&mail"
+msgstr "Een e-&mail versturen"
+
+#: kab_topwidget.cc:133
+msgid "&Browse"
+msgstr "&Verkennen"
+
+#: kab_topwidget.cc:135
+msgid "Enable all &messages"
+msgstr "Alle berichten i&nschakelen"
+
+#: kab_topwidget.cc:137
+msgid "&Configure this file"
+msgstr "Dit bestand &instellen"
+
+#: kab_topwidget.cc:141
+msgid "&Business card"
+msgstr "&Bedrijfskaartje"
+
+#: kab_topwidget.cc:143
+msgid "&Editing"
+msgstr "B&ewerken"
+
+#: kab_topwidget.cc:160
+msgid "New entry"
+msgstr "Nieuwe ingang"
+
+#: kab_topwidget.cc:162
+msgid "Edit entry"
+msgstr "Ingang bewerken"
+
+#: kab_topwidget.cc:164
+msgid "Delete entry"
+msgstr "Ingang verwijderen"
+
+#: kab_topwidget.cc:167
+msgid "First entry"
+msgstr "Eerste ingang"
+
+#: kab_topwidget.cc:169
+msgid "Previous entry"
+msgstr "Vorige ingang"
+
+#: kab_topwidget.cc:175
+msgid "Next entry"
+msgstr "Volgende ingang"
+
+#: kab_topwidget.cc:178
+msgid "Last entry"
+msgstr "Laatste ingang"
+
+#: kab_topwidget.cc:238
+msgid "The database interface could not be created."
+msgstr "De databaseinterface kon niet gemaakt worden."
+
+#: kab_topwidget.cc:265
+msgid ""
+"You changed this entry.\n"
+"Save changes?\n"
+"(Unsaved changes will be lost.)"
+msgstr ""
+"U heeft deze ingang gewijzigd.\n"
+"Wijzigingen opslaan?\n"
+"(Niet opgeslagen veranderingen bent u kwijt.)"
+
+#: kab_topwidget.cc:267
+msgid "Save changes?"
+msgstr "Wijzigingen opslaan?"
+
+#: kab_topwidget.cc:295
+msgid "No entries."
+msgstr "Geen ingangen."
+
+#: kab_topwidget.cc:423
+msgid "The standard file could not be loaded."
+msgstr "Het standaard bestand kon niet geladen worden."
+
+#: dialog_configurefile.cc:188 kab_createnew.cc:88 kab_createnew.cc:119
+#: kab_openfile.cc:83 kab_openfile.cc:95 kab_topwidget.cc:424
+msgid "File error"
+msgstr "Bestandsfout"
+
+#: kab_topwidget.cc:437
+msgid "Business card view."
+msgstr "Bedrijfskaartje beeld."
+
+#: kab_topwidget.cc:445
+msgid "Editing view."
+msgstr "Bewerk-beeld"
+
+#: kab_topwidget.cc:452
+msgid ""
+"This will re-enable all messages you disabled before.\n"
+"Continue?"
+msgstr ""
+"Dit zal alle berichten opnieuw inschakelen die u eerder uitgeschakeld heeft.\n"
+"Doorgaan?"
+
+#: kab_topwidget.cc:454
+msgid "Enable messages?"
+msgstr "Berichten inschakelen?"
+
+#: kab_topwidget.cc:470
+msgid "New entry added."
+msgstr "Nieuwe ingang toegevoegd"
+
+#: kab_topwidget.cc:486
+msgid "Saving new entry."
+msgstr "Bezig met opslaan van nieuwe ingang."
+
+#: kab_topwidget.cc:488
+msgid "Done."
+msgstr "Klaar."
+
+#: dialog_configurefile.cc:78 dialog_editentry.cc:73 kab_kab1importer.cc:244
+#: kab_topwidget.cc:490 kab_topwidget.cc:691 kab_topwidget.cc:731
+msgid "Rejected."
+msgstr "Mislukt."
+
+#: kab_topwidget.cc:496
+msgid ""
+"Cannot display the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Kan de nieuwe ingang niet weergeven.\n"
+"Onbekende oorzaak."
+
+#: kab_topwidget.cc:506
+msgid ""
+"Cannot add the new entry.\n"
+"Permission denied.\n"
+"You do not have writing permissions for this file."
+msgstr ""
+"Kan de nieuwe ingang niet toevoegen.\n"
+"Toestemming geweigerd.\n"
+"U heeft geen schrijftoestemming voor dit bestand."
+
+#: kab_topwidget.cc:514
+msgid ""
+"Cannot add the new entry.\n"
+"Unknown cause."
+msgstr ""
+"Kan de nieuwe ingang niet toevoegen.\n"
+"Onbekende oorzaak."
+
+#: kab_topwidget.cc:542
+msgid "Really remove this entry?"
+msgstr "Weet u zeker dat u deze ingang wil verwijderen?"
+
+#: kab_topwidget.cc:543 look_edit_tabaddresses.cc:441
+msgid "Question"
+msgstr "Vraag"
+
+#: kab_topwidget.cc:549
+msgid "Entry deleted."
+msgstr "Nieuwe ingang verwijderd."
+
+#: kab_topwidget.cc:557
+msgid ""
+"Could not delete the entry\n"
+"(probably permission denied)."
+msgstr ""
+"Kon de nieuwe ingang niet verwijderen\n"
+"(waarschijnlijk toegang geweigerd)."
+
+#: dialog_configurefile.cc:71 kab_save.cc:57 kab_topwidget.cc:560
+msgid "Permission denied."
+msgstr "Toegang geweigerd."
+
+#: kab_topwidget.cc:670
+msgid "Send an email"
+msgstr "Een e-mail verzenden"
+
+#: kab_topwidget.cc:679
+msgid "No email addresses."
+msgstr "Geen e-mailadressen."
+
+#: kab_topwidget.cc:710
+msgid "Browse to ..."
+msgstr "Blader naar ..."
+
+#: kab_topwidget.cc:719
+msgid "No URLs."
+msgstr "Geen URLs."
+
+#: kab_kab1importer.cc:199
+msgid "Home"
+msgstr "Thuis"
+
+#: kab_kab1importer.cc:241
+msgid "Imported kab 1 addressbook."
+msgstr "Kab 1 adressenboek geïmporteerd."
+
+#: kab_kab1importer.cc:280
+msgid ""
+"Could not access the kab 1 database file.\n"
+"You most probably never used kab 1."
+msgstr ""
+"Kon het kab 1 databasebestand niet importeren.\n"
+"U heeft waarschijnlijk kab 1 nooit gebruikt."
+
+#: kab_kab1importer.cc:294
+msgid ""
+"Could not read the kab 1 database file.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kon het kab 1 databasebestand niet lezen.\n"
+"U heeft waarschijnlijk handmatig uw databasebestand gewijzigd."
+
+#: kab_kab1importer.cc:309
+msgid ""
+"Could not find the entries section in your database.\n"
+"You probably modified your database file manually."
+msgstr ""
+"Kon de ingangen sectie in uw database niet vinden.\n"
+"Waarschijnlijk heeft u het databasebestand handmatig gewijzigd."
+
+#: kab_kab1importer.cc:337
+msgid ""
+"Warning: There where errors importing the KDE 1\n"
+"address database.\n"
+"\n"
+msgstr ""
+"Waarschuwing: Er waren fouten tijdens het importeren\n"
+"van de KDE 1 adressendatabase.\n"
+"\n"
+
+#: kab_kab1importer.cc:342
+msgid ""
+"Do you really want to add the entries of your KDE 1\n"
+"address book to this file?\n"
+"You will not be able to revert this changes."
+msgstr ""
+"Weet u zeker dat u de ingangen van uw KDE 1 adressen-\n"
+"boek in dit bestand wilt toevoegen?\n"
+"U kan deze wijziging niet ongedaan maken."
+
+#: kab_createnew.cc:52 kab_openfile.cc:51
+msgid "Could not find the users home directory."
+msgstr "Kon de thuismap van de gebruiker niet vinden."
+
+#: kab_createnew.cc:53 kab_openfile.cc:52
+msgid "Intern error!"
+msgstr "Interne fout!"
+
+#: kab_createnew.cc:64 kab_openfile.cc:61
+msgid "Cancelled."
+msgstr "Geannuleerd."
+
+#: kab_createnew.cc:71 kab_openfile.cc:68
+msgid "Only local files supported yet."
+msgstr "Alleen lokale bestanden worden ondersteund."
+
+#: kab_createnew.cc:84
+msgid ""
+"This file is a directory, or it already exists.\n"
+"Please select another filename.\n"
+"You must have permission to write to create the new file."
+msgstr ""
+"Dit bestand is een map, of hij bestaat al.\n"
+"Selecteer alstublieft een andere bestandsnaam.\n"
+"U moet schrijftoegang hebben om het nieuwe bestand te maken."
+
+#: kab_createnew.cc:100
+msgid ""
+"The filename did not end with \".kab\".\n"
+"It has been changed to\n"
+msgstr ""
+"De bestandsnaam eindigde niet met \".kab\".\n"
+"Het is gewijzigd naar\n"
+
+#: kab_createnew.cc:102
+msgid "Note"
+msgstr "Notitie"
+
+#: kab_createnew.cc:109
+msgid "The file could not be created, possibly permission denied."
+msgstr "Het bestand kon niet gemaakt worden, waarschijnlijk toegang geweigerd."
+
+#: kab_createnew.cc:110 kab_save.cc:68
+msgid "kab: File error"
+msgstr "kab: bestandsfout"
+
+#: kab_createnew.cc:118
+msgid "The file has been created, but could not be loaded."
+msgstr "Het bestand is gemaakt, maar kan niet geladen worden."
+
+#: kab_openfile.cc:80
+msgid ""
+"The file does not exist or is a directory.\n"
+"Use \"New File\" to create a new one.\n"
+"Select an existing file to load it."
+msgstr ""
+"Het bestand bestaat niet, of het is een map.\n"
+"Gebruik \"Nieuw bestand\" om een nieuwe te maken.\n"
+"Selecteer een bestaand bestand om deze te laden."
+
+#: kab_openfile.cc:94
+msgid "The file could not be loaded."
+msgstr "Het bestand kon niet geladen worden."
+
+#: kab_save.cc:46 kab_save.cc:60
+msgid "Internal error."
+msgstr "Interne fout."
+
+#: kab_save.cc:54
+msgid "Entry stored."
+msgstr "Ingang opgeslagen."
+
+#: kab_save.cc:67
+msgid "The file could not be saved (permission denied)."
+msgstr "Het bestand kon niet opgeslagen worden (geen toestemming)."
+
+#: kab_save.cc:71
+msgid "File saved."
+msgstr "Bestand opgeslagen."
+
+#: look_businesscard.cc:176
+msgid "email: "
+msgstr "e-mail:"
+
+#: look_businesscard.cc:193
+msgid "tel: "
+msgstr "tel:"
+
+#: look_edit.cc:45
+msgid "User Fields"
+msgstr "Gebruikersvelden"
+
+#: dialog_configurefile.cc:138 look_edit.cc:52 look_edit.cc:66
+#: look_edit_tabaddresses.cc:201 look_edit_tabcontact.cc:52
+#: look_edit_tabperson.cc:67 look_edit_tabperson.cc:253
+#: look_edit_tabperson.cc:292 look_edit_tabuser.cc:59
+msgid "General failure."
+msgstr "Algemene fout."
+
+#: look_edit.cc:80
+msgid "&Person"
+msgstr "&Persoon"
+
+#: look_edit.cc:81
+msgid "&Telephone"
+msgstr "&Telefoon"
+
+#: look_edit.cc:82
+msgid "&Addresses"
+msgstr "&Adressen"
+
+#: look_edit.cc:83
+msgid "&Birthday"
+msgstr "Verjaar&dag"
+
+#: look_edit.cc:84
+msgid "Comment"
+msgstr "Commentaar"
+
+#: look_edit_tabperson.cc:48
+msgid "Email addresses..."
+msgstr "E-mail adressen..."
+
+#: look_edit_tabperson.cc:49
+msgid "Talk addresses..."
+msgstr "Praat adressen..."
+
+#: look_edit_tabperson.cc:50
+msgid "URLs..."
+msgstr "URLs..."
+
+#: look_edit_tabperson.cc:73
+msgid "Formatted name:"
+msgstr "Geformatteerde naam:"
+
+#: look_edit_tabperson.cc:84
+msgid "First name:"
+msgstr "Voornaam:"
+
+#: look_edit_tabperson.cc:86
+msgid "Middle name:"
+msgstr "Middelnaam:"
+
+#: look_edit_tabperson.cc:88
+msgid "Last name:"
+msgstr "Achternaam:"
+
+#: look_edit_tabperson.cc:105
+msgid "Name prefix:"
+msgstr "Voorvoegsel:"
+
+#: look_edit_tabperson.cc:107
+msgid "Title:"
+msgstr "Titel:"
+
+#: look_edit_tabperson.cc:109
+msgid "Rank:"
+msgstr "Rank:"
+
+#: look_edit_tabcontact.cc:36 look_edit_tabperson.cc:202
+msgid "Edit email addresses"
+msgstr "E-mail adressen wijzigen"
+
+#: look_edit_tabcontact.cc:37 look_edit_tabperson.cc:217
+msgid "Edit talk addresses"
+msgstr "Praat adressen wijzigen"
+
+#: look_edit_tabperson.cc:232
+msgid "Edit URLs"
+msgstr "URLs wijzigen"
+
+#: dialog_configurefile.cc:101 look_edit_tabuser.cc:43
+msgid "User field 1:"
+msgstr "Gebruikersveld 1:"
+
+#: dialog_configurefile.cc:101 look_edit_tabuser.cc:44
+msgid "User field 2:"
+msgstr "Gebruikersveld 2:"
+
+#: dialog_configurefile.cc:102 look_edit_tabuser.cc:45
+msgid "User field 3:"
+msgstr "Gebruikersveld 3:"
+
+#: dialog_configurefile.cc:102 look_edit_tabuser.cc:46
+msgid "User field 4:"
+msgstr "Gebruikersveld 4:"
+
+#: look_edit_tabcontact.cc:38
+msgid "Edit URLs (internet addresses)"
+msgstr "URLs bewerken (internetadressen)"
+
+#: look_edit_tabcontact.cc:39
+msgid "Edit telephone numbers"
+msgstr "Telefoonnummers wijzigen"
+
+#: look_edit_tabaddresses.cc:69 look_edit_tabaddresses.cc:213
+msgid "Add another address"
+msgstr "Een ander adres toevoegen"
+
+#: look_edit_tabaddresses.cc:72 look_edit_tabaddresses.cc:217
+msgid "Delete this address"
+msgstr "Dit adres verwijderen"
+
+#: look_edit_tabaddresses.cc:85
+msgid "Headline:"
+msgstr "Koptekst:"
+
+#: look_edit_tabaddresses.cc:100 look_edit_tabaddresses.cc:230
+msgid "Assignment:"
+msgstr "Opdracht:"
+
+#: look_edit_tabaddresses.cc:107
+msgid "Insinuation..."
+msgstr "Insinuatie..."
+
+#: look_edit_tabaddresses.cc:109 look_edit_tabaddresses.cc:239
+msgid "Edit organisational attributes"
+msgstr "Organisatorische attributen wijzigen"
+
+#: look_edit_tabaddresses.cc:117 look_edit_tabaddresses.cc:251
+msgid "Street:"
+msgstr "Straat:"
+
+#: look_edit_tabaddresses.cc:126 look_edit_tabaddresses.cc:258
+msgid "City"
+msgstr "Stad"
+
+#: look_edit_tabaddresses.cc:127 look_edit_tabaddresses.cc:260
+msgid "State"
+msgstr "Staat"
+
+#: look_edit_tabaddresses.cc:128 look_edit_tabaddresses.cc:262
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: look_edit_tabaddresses.cc:148 look_edit_tabaddresses.cc:278
+msgid "Country:"
+msgstr "Land:"
+
+#: look_edit_tabaddresses.cc:416
+msgid ""
+"<qt>Did you know that you may predefine types of addresses?<br>See "
+"<b>Edit->Configure this file</b>.</qt>"
+msgstr ""
+"<qt>Wist u dat u typen van adressen kon definiëren?<br>Zie <b>Bewerken->"
+"Configureren voor dit bestand</b>.</qt>"
+
+#: look_edit_tabaddresses.cc:418
+msgid "A note"
+msgstr "Een notitie"
+
+#: look_edit_tabaddresses.cc:440
+msgid "Really delete this address?"
+msgstr "Weet u zeker dat u dit adres wilt verwijderen?"
+
+#: look_edit_tabtelephone.cc:26
+msgid "Fixed:"
+msgstr "Vast:"
+
+#: look_edit_tabtelephone.cc:27
+msgid "Mobile:"
+msgstr "Mobiel:"
+
+#: look_edit_tabtelephone.cc:28
+msgid "Fax:"
+msgstr "Fax:"
+
+#: look_edit_tabtelephone.cc:29
+msgid "Modem:"
+msgstr "Modem:"
+
+#: look_edit_tabtelephone.cc:30
+msgid "User defined 1:"
+msgstr "Door gebruiker gedefiniëerd 1:"
+
+#: look_edit_tabtelephone.cc:31
+msgid "User defined 2:"
+msgstr "Door gebruiker gedefiniëerd 2:"
+
+#: look_edit_tabtelephone.cc:32
+msgid "User defined 3:"
+msgstr "Door gebruiker gedefiniëerd 3:"
+
+#: look_edit_tabtelephone.cc:44
+msgid "Type"
+msgstr "Type"
+
+#: look_edit_tabtelephone.cc:46
+msgid "Number"
+msgstr "Nummer"
+
+#: widget_editstringlist.cc:51
+msgid "Add a new string"
+msgstr "Een nieuw string toevoegen"
+
+#: widget_editstringlist.cc:52
+msgid "Move this string up"
+msgstr "Deze string naar boven verplaatsen"
+
+#: widget_editstringlist.cc:53
+msgid "Move this string down"
+msgstr "Deze string naar beneden verplaatsen"
+
+#: widget_editstringlist.cc:54
+msgid "Delete this string"
+msgstr "Deze string verwijderen"
+
+#: dialog_configurefile.cc:68 dialog_editentry.cc:70
+msgid "Accepted."
+msgstr "Geaccepteerd."
+
+#: dialog_configurefile.cc:73
+msgid "Settings applied."
+msgstr "Instellingen toegepast."
+
+#: dialog_configurefile.cc:100
+msgid "Tab name"
+msgstr "Tabnaam"
+
+#: dialog_configurefile.cc:143
+msgid "User fields"
+msgstr "Gebruikersvelden"
+
+#: dialog_configurefile.cc:155
+msgid "Address types"
+msgstr "Adrestypes"
+
+#: dialog_configurefile.cc:186
+msgid ""
+"Cannot save your settings.\n"
+"Possibly you do not have permissions to write to this file."
+msgstr ""
+"Kan uw instellingen niet opslaan.\n"
+"Misschien heeft u geen toestemming om naar dit bestand te schrijven."
