@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab 2.1\n"
-"POT-Creation-Date: 2001-01-20 01:26+0100\n"
-"PO-Revision-Date: 2001-02-01 18:27+02:00\n"
-"Last-Translator: Gregor Rakar <gregor.rakar@kiss.uni-lj.si>\n"
+"POT-Creation-Date: 2001-05-18 01:58+0200\n"
+"PO-Revision-Date: 2001-07-29 22:41+0200\n"
+"Last-Translator: Roman Maurer <roman.maurer@amis.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.8\n"
 
 #: rc.cpp:1
 msgid "Export to HTML"
@@ -29,7 +30,7 @@ msgstr "Izvoz naslovov skupaj z vnosi"
 
 #: rc.cpp:4
 msgid "How should I export your addresses?"
-msgstr "Kako naj izvozim vaπe naslove?"
+msgstr "Kako naj izvozim va≈°e naslove?"
 
 #: rc.cpp:5
 msgid "Address and person in one line"
@@ -53,67 +54,81 @@ msgstr "Slog nastale datoteke"
 
 #: rc.cpp:10
 msgid "Plain HTML text without tables or lines"
-msgstr "Samo HTML besedilo brez tabel ali Ërt"
+msgstr "Samo HTML besedilo brez tabel ali ƒçrt"
 
 #: rc.cpp:11
 msgid "Expect more here..."
-msgstr "Tu priËakujte veË..."
+msgstr "Tu priƒçakujte veƒç..."
 
-#: rc.cpp:12 rc.cpp:19 rc.cpp:28 rc.cpp:43
+#: rc.cpp:12 rc.cpp:23 rc.cpp:32 rc.cpp:47
 msgid "Form1"
 msgstr "Oblika1"
 
 #: rc.cpp:13
 msgid "Enter the delivery label for this address here:"
-msgstr "Tu vnesite dostavno oznaËbo za ta naslov:"
+msgstr "Tu vnesite dostavno oznaƒçbo za ta naslov:"
 
-#: kab_htmlexport.cc:395 rc.cpp:14
+#: rc.cpp:14
+msgid "Entry List"
+msgstr "Seznam vnosov"
+
+#: rc.cpp:15
+msgid ""
+"<qt>Search entries by entering<br> - one of their <b>e-mail "
+"addresses</b><br> - the <b>first name</b> or<br> - the <b>last name</b></qt>"
+msgstr ""
+"<qt>I≈°ƒçe po vnosih, ƒçe podate<br> - enega od njihovih <b>e-po≈°tnih "
+"naslovov</b><br> - <b>ime</b> or<br> - <b>priimek</b></qt>"
+
+#: rc.cpp:17
+msgid "<qt>Select an entry to display it.</qt>"
+msgstr "<qt>Izberite vnos, ki naj se prika≈æe.</qt>"
+
+#: kab_htmlexport.cc:380 rc.cpp:18
 msgid "Setup HTML export"
 msgstr "Nastavi HTML izvoz"
 
-#: rc.cpp:15
+#: rc.cpp:19
 msgid "Template folder:"
 msgstr "Imenik s predlogami:"
 
-#: rc.cpp:16
+#: rc.cpp:20
 msgid "Target folder:"
 msgstr "Ciljni imenik:"
 
-#: rc.cpp:17 rc.cpp:18
+#: rc.cpp:21 rc.cpp:22
 msgid "Choose ..."
 msgstr "Izberi ..."
 
-#: rc.cpp:22
-msgid ""
-"Hide the search results window. This will not clear your search results."
-msgstr ""
-"Skrij okno z rezultati iskanja. To ne bo zbrisalo vaπih rezultate iskanja."
+#: rc.cpp:26
+msgid "Hide the search results window. This will not clear your search results."
+msgstr "Skrij okno z rezultati iskanja. To ne bo zbrisalo va≈°ih rezultate iskanja."
 
-#: rc.cpp:23
+#: rc.cpp:27
 msgid ""
 "Hide the search results window. This will close the search results window "
 "and clear all results of previous searches."
 msgstr ""
 "Skrij okno z rezultati iskanja. To bo zaprlo okno z rezultati iskanja in "
-"zbrisalo vse rezultate prejπnih iskanj."
-
-#: rc.cpp:25
-msgid "Clear the search results and hide this window."
-msgstr "Izbriπi rezultate iskanja in skrij to okno."
-
-#: rc.cpp:27
-msgid "Print your search results."
-msgstr "Tiskanje vaπih rezultatov iskanja."
+"zbrisalo vse rezultate prej≈°nih iskanj."
 
 #: rc.cpp:29
-msgid "Search for people in your addressbook:"
-msgstr "Iskanje ljudi v vaπem adresarju:"
+msgid "Clear the search results and hide this window."
+msgstr "Izbri≈°i rezultate iskanja in skrij to okno."
 
-#: rc.cpp:30
+#: rc.cpp:31
+msgid "Print your search results."
+msgstr "Tiskanje va≈°ih rezultatov iskanja."
+
+#: rc.cpp:33
+msgid "Search for people in your addressbook:"
+msgstr "Iskanje ljudi v va≈°em adresarju:"
+
+#: rc.cpp:34
 msgid "Select fields to search here."
 msgstr "Izberite polja za iskanje."
 
-#: rc.cpp:31
+#: rc.cpp:35
 msgid ""
 "Select fields to search here. \n"
 "All entries where this field matches the pattern (consisting of wildcards or "
@@ -122,94 +137,91 @@ msgid ""
 msgstr ""
 "Izberite polja za iskanje. \n"
 "Vsi vnosi, kjer se to polje ujema s spodaj podanim vzorcem (ki vsebuje "
-"dæokerje ali navadne izraze), bodo prikazani v oknu Rezultati iskanja."
+"d≈æokerje ali navadne izraze), bodo prikazani v oknu Rezultati iskanja."
 
-#: rc.cpp:32
+#: rc.cpp:36
 msgid "... matches ..."
 msgstr "... se ujema ..."
 
-#: rc.cpp:33
+#: rc.cpp:37
 msgid "*"
 msgstr "*"
 
-#: rc.cpp:34
-msgid "Enter your expression here."
-msgstr "Vnesite vaπ izraz."
-
-#: rc.cpp:35
-msgid "Options:"
-msgstr "Moænosti:"
-
-#: rc.cpp:36
-msgid "Case sensitive search"
-msgstr "LoËi velike in male Ërke"
-
-#: rc.cpp:37
-msgid "Check this box if you want to do a case-sensitive search."
-msgstr ""
-"OznaËite to polje, Ëe æelite razlikovati med malimi in velikimi Ërkami."
-
 #: rc.cpp:38
+msgid "Enter your expression here."
+msgstr "Vnesite va≈° izraz."
+
+#: rc.cpp:39
+msgid "Options:"
+msgstr "Mo≈ænosti:"
+
+#: rc.cpp:40
+msgid "Case sensitive search"
+msgstr "Loƒçi velike in male ƒçrke"
+
+#: rc.cpp:41
+msgid "Check this box if you want to do a case-sensitive search."
+msgstr "Oznaƒçite to polje, ƒçe ≈æelite razlikovati med malimi in velikimi ƒçrkami."
+
+#: rc.cpp:42
 msgid "Expressions"
 msgstr "Izrazi"
 
-#: rc.cpp:39
+#: rc.cpp:43
 msgid "Wildcards"
-msgstr "Dæokerji"
+msgstr "D≈æokerji"
 
-#: rc.cpp:40
+#: rc.cpp:44
 msgid ""
 "Check this button if you use widlcards in your expression (as in shell "
 "commands)."
 msgstr ""
-"OznaËite ta gumb, Ëe æelite uporabiti dæokerje v vaπem izrazu. (kot v "
+"Oznaƒçite ta gumb, ƒçe ≈æelite uporabiti d≈æokerje v va≈°em izrazu. (kot v "
 "lupinskih ukazih)."
 
-#: rc.cpp:41
-msgid "Regular expressions"
-msgstr "ObiËajni izrazi"
-
-#: rc.cpp:42
-msgid ""
-"Check this box if you use classical regular expressions in your pattern."
-msgstr ""
-"OznaËite to polje, Ëe uporabljate klasiËne navadne izraze v vaπem vzorcu."
-
-#: rc.cpp:44
-msgid "Headline:"
-msgstr "Naslov:"
-
 #: rc.cpp:45
-msgid "Insinuation..."
-msgstr "Namig..."
+msgid "Regular expressions"
+msgstr "Obiƒçajni izrazi"
 
 #: rc.cpp:46
-msgid "Country:"
-msgstr "Dræava:"
-
-#: rc.cpp:47
-msgid "Zip code"
-msgstr "Poπtna πtevilka"
+msgid "Check this box if you use classical regular expressions in your pattern."
+msgstr "Oznaƒçite to polje, ƒçe uporabljate klasiƒçne navadne izraze v va≈°em vzorcu."
 
 #: rc.cpp:48
-msgid "State"
-msgstr "Deæela"
+msgid "Address type (e.g. Home):"
+msgstr "Vrsta naslova (npr. domaƒçi):"
 
 #: rc.cpp:49
+msgid "Organization..."
+msgstr "Organizacija..."
+
+#: rc.cpp:50
+msgid "Country:"
+msgstr "Dr≈æava:"
+
+#: rc.cpp:51
+msgid "Zip code"
+msgstr "Po≈°tna ≈°tevilka"
+
+#: rc.cpp:52
+msgid "State"
+msgstr "De≈æela"
+
+#: rc.cpp:53
 msgid "City"
 msgstr "Kraj"
 
-#: rc.cpp:50
+#: rc.cpp:54
 msgid "Street address:"
 msgstr "Ulica:"
 
-#: rc.cpp:51
-msgid "Assignment:"
-msgstr "Naloga:"
+#: rc.cpp:55
+msgid "Job title:"
+msgstr "Slu≈æbeni naziv:"
 
-#: look_edit_tabaddresses.cc:333 rc.cpp:52
+#: look_edit_tabaddresses.cc:337 rc.cpp:56
 msgid "Delivery label"
-msgstr "Dostavna oznaËba"
+msgstr "Dostavna oznaƒçba"
 
 #: kab_main.cc:31 kab_main.cc:38
 msgid "KDE Addressbook"
@@ -219,385 +231,393 @@ msgstr "Adresar KDE"
 msgid ""
 "<qt>Version 2 of the KDE address book is not compatible with the previous "
 "one. To protect your address database, a new file will be used. Run "
-"<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
-"version.</qt>"
+"<b>File->Import->KDE 1 addressbook</b>"
+" to use your old database with the new version.</qt>"
 msgstr ""
-"<qt>Druga izdaja adresarja KDE ni zdruæljiva s prejπnjo.\n"
-"Da bi zavaroval vaπo zbirko naslovov, uporablja Kab drugo datoteko.\n"
-"V novo datoteko lahko uvozite staro, tako da poæenete\n"
+"<qt>Druga izdaja adresarja KDE ni zdru≈æljiva s prej≈°njo.\n"
+"Da bi zavaroval va≈°o zbirko naslovov, uporablja Kab drugo datoteko.\n"
+"V novo datoteko lahko uvozite staro, tako da po≈æenete\n"
 "<b>Datoteka->Uvozi->KDE 1 adresar.</b></qt>"
 
 #: kab_main.cc:56
 msgid "new format"
 msgstr "nova oblika"
 
-#: dialog_configurefile.cc:148 kab_mainwidget.cc:54 kab_mainwidget.cc:64
-#: kab_topwidget.cc:79 look_edit.cc:42 look_edit.cc:56
-#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:57
-#: look_edit_tabperson.cc:249 look_edit_tabperson.cc:294
+#: dialog_configurefile.cc:148 kab_mainwidget.cc:46 kab_mainwidget.cc:56
+#: kab_topwidget.cc:80 look_edit.cc:42 look_edit.cc:56
+#: look_edit_tabcontact.cc:44 look_edit_tabperson.cc:58
+#: look_edit_tabperson.cc:254 look_edit_tabperson.cc:304
 #: look_edit_tabuser.cc:49
 msgid "Out of memory."
 msgstr "Zmanjkalo pomnilnika."
 
-#: kab_mainwidget.cc:55 kab_mainwidget.cc:65 kab_topwidget.cc:80
+#: kab_mainwidget.cc:47 kab_mainwidget.cc:57 kab_topwidget.cc:81
 msgid "General failure"
-msgstr "Sploπna napaka"
+msgstr "Splo≈°na napaka"
 
-#: kab_topwidget.cc:92
+#: kab_topwidget.cc:93
 msgid ""
 "Could not connect to the address database.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
-"Ni se moË povezati z zbirko naslovov.\n"
+"Ni se moƒç povezati z zbirko naslovov.\n"
 "KDE adresar ne bo tekel brez nje.\n"
 "Program se bo zaprl."
 
-#: kab_topwidget.cc:95 kab_topwidget.cc:509
+#: kab_topwidget.cc:96 kab_topwidget.cc:540
 msgid "Database error"
-msgstr "Poπkodovana zbirka"
+msgstr "Po≈°kodovana zbirka"
 
-#: kab_topwidget.cc:190
+#: kab_topwidget.cc:204
 msgid "Welcome to kab 2.1"
-msgstr "Dobrodoπli v kab 2.1"
+msgstr "Dobrodo≈°li v kab 2.1"
 
-#: kab_topwidget.cc:191
+#: kab_topwidget.cc:205
 msgid "The KDE Addressbook 2.1."
 msgstr "Adresar KDE 2.1"
 
-#: kab_topwidget.cc:192
+#: kab_topwidget.cc:206
 msgid "Written by Mirko Boehm (mirko@kde.org)."
 msgstr "Napisal Mirko Boehm (mirko@kde.org)"
 
-#: kab_topwidget.cc:193
+#: kab_topwidget.cc:207
 msgid "Visit www.kde.org for the latest news."
-msgstr "ObiπËite www.kde.org za najnovejπe novice."
+msgstr "Obi≈°ƒçite www.kde.org za najnovej≈°e novice."
 
-#: kab_topwidget.cc:256
+#: kab_topwidget.cc:278
 msgid "&Export to HTML..."
 msgstr "&Izvozi v HTML..."
 
-#: kab_topwidget.cc:260
+#: kab_topwidget.cc:282
 msgid "&First entry"
 msgstr "Prvi &vnos"
 
-#: kab_topwidget.cc:264
+#: kab_topwidget.cc:286
 msgid "&Previous entry"
-msgstr "&Prejπnji vnos"
+msgstr "&Prej≈°nji vnos"
 
-#: kab_topwidget.cc:268
+#: kab_topwidget.cc:290
 msgid "&Next entry"
 msgstr "&Naslednji vnos"
 
-#: kab_topwidget.cc:272
+#: kab_topwidget.cc:294
 msgid "&Last entry"
 msgstr "&Zadnji vnos"
 
-#: kab_topwidget.cc:276
-msgid "&Add entry"
-msgstr "Dod&aj vnos"
+#: kab_topwidget.cc:298
+msgid "&Add entry..."
+msgstr "Dod&aj vnos..."
 
-#: kab_topwidget.cc:280
-msgid "&Edit entry"
-msgstr "&Uredi vnos"
+#: kab_topwidget.cc:302
+msgid "&Edit entry..."
+msgstr "&Uredi vnos..."
 
-#: kab_topwidget.cc:284
+#: kab_topwidget.cc:306
 msgid "&Remove entry"
 msgstr "&Odstrani vnos"
 
-#: kab_topwidget.cc:288
+#: kab_topwidget.cc:310
 msgid "Send an e&mail"
-msgstr "Poπlji &e-poπto"
+msgstr "Po≈°lji &e-po≈°to"
 
-#: kab_topwidget.cc:292
+#: kab_topwidget.cc:314
 msgid "&Browse"
 msgstr "Pre&brskaj"
 
-#: kab_topwidget.cc:296
-msgid "&Search entries"
-msgstr "PoiπËi vno&se"
+#: kab_topwidget.cc:318
+msgid "&Search entries..."
+msgstr "Poi≈°ƒçi vno&se..."
 
-#: kab_topwidget.cc:300
+#: kab_topwidget.cc:322
 msgid "Show search results"
-msgstr "Pokaæi rezultate iskanja"
+msgstr "Poka≈æi rezultate iskanja"
 
-#: kab_topwidget.cc:305
+#: kab_topwidget.cc:327
 msgid "Show main toolbar"
-msgstr "Pokaæi glavno orodjarno"
+msgstr "Poka≈æi glavno orodjarno"
 
-#: kab_topwidget.cc:310
+#: kab_topwidget.cc:332
 msgid "Show entry navigation toolbar"
-msgstr "Pokaæi orodjarno"
+msgstr "Poka≈æi orodjarno"
 
-#: kab_topwidget.cc:315
-msgid "Print entry"
-msgstr "Natisni vnos"
+#: kab_topwidget.cc:337
+msgid "Show entry navigation list"
+msgstr "Poka≈æi navigacijski seznam za vnose"
 
-#: kab_topwidget.cc:319
-msgid "Print entries"
-msgstr "Natisni vnose"
+#: kab_topwidget.cc:342
+msgid "Print entry..."
+msgstr "Natisni vnos..."
 
-#: kab_topwidget.cc:323
+#: kab_topwidget.cc:346
+msgid "Print entries..."
+msgstr "Natisni vnose..."
+
+#: kab_topwidget.cc:350
 msgid "&Editing"
 msgstr "Ur&ejanje"
 
-#: kab_topwidget.cc:327
+#: kab_topwidget.cc:354
 msgid "&Business Card"
 msgstr "&Posetnica"
 
-#: kab_topwidget.cc:352
+#: kab_topwidget.cc:377
 msgid "&KDE 1 address book"
 msgstr "&KDE 1 adresar"
 
-#: kab_topwidget.cc:359
+#: kab_topwidget.cc:379
+msgid "&Netscape address book"
+msgstr "Adresar &Netscape"
+
+#: kab_topwidget.cc:386
 msgid "&Create new database..."
 msgstr "Ustvari &novo zbirko..."
 
-#: kab_topwidget.cc:363
+#: kab_topwidget.cc:390
 msgid "Open default &database"
 msgstr "Odpri privzeto &zbirko"
 
-#: kab_topwidget.cc:367
+#: kab_topwidget.cc:394
 msgid "&Import"
 msgstr "&Uvozi"
 
-#: kab_topwidget.cc:368
+#: kab_topwidget.cc:395
 msgid "&Print"
 msgstr "&Tiskaj"
 
-#: kab_topwidget.cc:383
+#: kab_topwidget.cc:410
 msgid "Enable all &messages"
-msgstr "OmogoËi vsa &sporoËila"
+msgstr "Omogoƒçi vsa &sporoƒçila"
 
-#: kab_topwidget.cc:385
+#: kab_topwidget.cc:412
 msgid "&Configure this file..."
 msgstr "&Nastavi to datoteko..."
 
-#: kab_topwidget.cc:388
+#: kab_topwidget.cc:415
 msgid "&Preferences for the KDE address book..."
 msgstr "Na&stavitve adresarja KDE..."
 
-#: kab_topwidget.cc:506
+#: kab_topwidget.cc:537
 msgid ""
 "The database interface could not be created.\n"
 "The KDE addressbook will not run without it.\n"
 "The application will be closed."
 msgstr ""
-"Ni moË ustvariti vmesnika za zbirko.\n"
+"Ni moƒç ustvariti vmesnika za zbirko.\n"
 "KDE adresar ne bo tekel brez nje.\n"
 "Program se bo zaprl."
 
-#: kab_topwidget.cc:538
+#: kab_topwidget.cc:569
 msgid ""
 "You changed this entry.\n"
 "Save changes?\n"
 "(Unsaved changes will be lost.)"
 msgstr ""
 "Vnos ste spremenili.\n"
-"Æelite shraniti spremembe?\n"
+"≈Ωelite shraniti spremembe?\n"
 "(Neshranjene spremembe bodo izgubljene.)"
 
-#: kab_topwidget.cc:540
+#: kab_topwidget.cc:571
 msgid "Save changes?"
-msgstr "Æelite shraniti spremembe?"
+msgstr "≈Ωelite shraniti spremembe?"
 
-#: dialog_editentry.cc:47 kab_topwidget.cc:548
+#: dialog_editentry.cc:47 kab_topwidget.cc:579
 msgid "Error changing the entry."
 msgstr "Napaka pri spreminjanju vnosa."
 
-#: kab_topwidget.cc:577
+#: kab_topwidget.cc:608
 msgid "No entries."
 msgstr "Ni vnosov."
 
-#: kab_topwidget.cc:677
+#: kab_topwidget.cc:726
 msgid "Cannot locate default database."
 msgstr "Ne morem najti privzete zbirke."
 
-#: kab_topwidget.cc:678
+#: kab_topwidget.cc:727
 msgid "Critical failure"
-msgstr "KritiËna napaka"
+msgstr "Kritiƒçna napaka"
 
-#: kab_topwidget.cc:683
+#: kab_topwidget.cc:732
 msgid "The standard file could not be loaded."
-msgstr "Standardne datoteke ni moæno prebrati."
+msgstr "Standardne datoteke ni mo≈æno prebrati."
 
 #: dialog_configurefile.cc:192 kab_createnew.cc:79 kab_createnew.cc:110
-#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:684
+#: kab_openfile.cc:75 kab_openfile.cc:87 kab_topwidget.cc:733
 msgid "File error"
 msgstr "Napaka v datoteki."
 
-#: kab_topwidget.cc:699
+#: kab_topwidget.cc:748
 msgid "Business card view."
 msgstr "Ogled posetnice."
 
-#: kab_topwidget.cc:710
+#: kab_topwidget.cc:759
 msgid "Editing view."
 msgstr "Urejevalni pogled."
 
-#: kab_topwidget.cc:718
+#: kab_topwidget.cc:767
 msgid ""
 "This will re-enable all messages you disabled before.\n"
 "Continue?"
 msgstr ""
-"Vklopljena bodo vsa sporoËila, ki ste jih izklopili.\n"
+"Vklopljena bodo vsa sporoƒçila, ki ste jih izklopili.\n"
 "Nadaljujem?"
 
-#: kab_topwidget.cc:720
+#: kab_topwidget.cc:769
 msgid "Enable messages?"
-msgstr "Vklopim sporoËila?"
+msgstr "Vklopim sporoƒçila?"
 
-#: kab_topwidget.cc:739
+#: kab_topwidget.cc:788
 msgid "New entry added."
 msgstr "Dodan nov vnos."
 
-#: kab_topwidget.cc:740
+#: kab_topwidget.cc:789
 msgid "Saving new entry."
 msgstr "Novi vnos se shranjuje."
 
-#: kab_topwidget.cc:742
+#: kab_topwidget.cc:791
 msgid "Done."
 msgstr "Opravljeno."
 
-#: kab_topwidget.cc:761
+#: kab_topwidget.cc:812
 msgid ""
 "Cannot add the new entry.\n"
 "Permission denied.\n"
-"You may not have writing permissions for this file."
+"You may not have write permission for this file."
 msgstr ""
-"Vnosa ni moË dodati.\n"
-"Dostop ni dovoljen.\n"
+"Vnosa ni moƒç dodati.\n"
+"Dostop zavrnjen.\n"
 "Nimate dovoljenja za pisanje v to datoteko."
 
-#: kab_topwidget.cc:769
+#: kab_topwidget.cc:820
 msgid ""
 "Cannot add the new entry.\n"
 "Unknown cause."
 msgstr ""
-"Novega vnosa ni moË dodati.\n"
+"Novega vnosa ni moƒç dodati.\n"
 "Razlog ni znan."
 
-#: kab_topwidget.cc:775
+#: kab_topwidget.cc:826
 msgid "No entry added."
 msgstr "Noben vnos ni bil dodan."
 
-#: kab_topwidget.cc:793
+#: kab_topwidget.cc:844
 msgid "Really remove this entry?"
-msgstr "Res æelite odstraniti vnos?"
+msgstr "Res ≈æelite odstraniti vnos?"
 
-#: kab_topwidget.cc:794 look_edit_tabaddresses.cc:252
+#: kab_topwidget.cc:845 look_edit_tabaddresses.cc:256
 msgid "Question"
-msgstr "Vpraπanje"
+msgstr "Vpra≈°anje"
 
-#: kab_topwidget.cc:800
+#: kab_topwidget.cc:851
 msgid "Entry deleted."
 msgstr "Vnos izbrisan."
 
-#: kab_topwidget.cc:802
+#: kab_topwidget.cc:853
 msgid "Database saved."
 msgstr "Zbirka shranjena."
 
-#: kab_topwidget.cc:809
+#: kab_topwidget.cc:860
 msgid ""
 "Could not delete the entry\n"
 "(probably permission denied)."
 msgstr ""
-"Vnosa ni moË izbrisati\n"
+"Vnosa ni moƒç izbrisati\n"
 "(verjetno dostop ni dovoljen)."
 
-#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:812
+#: dialog_configurefile.cc:66 kab_save.cc:47 kab_topwidget.cc:863
 msgid "Permission denied."
 msgstr "Dostop zavrnjen."
 
-#: kab_topwidget.cc:874
+#: kab_topwidget.cc:925
 msgid "Send an email"
-msgstr "Poπlji &epoπto"
+msgstr "Po≈°lji &epo≈°to"
 
-#: kab_topwidget.cc:883
+#: kab_topwidget.cc:934
 msgid "No email addresses."
-msgstr "Brez e-poπtnih naslovov"
+msgstr "Brez e-po≈°tnih naslovov"
 
 #: dialog_configurefile.cc:73 dialog_configurekab.cc:76 dialog_editentry.cc:54
-#: dialog_editentry.cc:77 kab_htmlexport.cc:413 kab_kab1importer.cc:242
-#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:897
-#: kab_topwidget.cc:945 kab_topwidget.cc:1340
+#: dialog_editentry.cc:77 kab_htmlexport.cc:398 kab_kab1importer.cc:242
+#: kab_printmethods.cc:61 kab_printmethods.cc:530 kab_topwidget.cc:948
+#: kab_topwidget.cc:996 kab_topwidget.cc:1399
 msgid "Rejected."
 msgstr "Zavrnjeno."
 
-#: kab_topwidget.cc:923
+#: kab_topwidget.cc:974
 msgid "Browse to ..."
 msgstr "Brskaj do ..."
 
-#: kab_topwidget.cc:931
+#: kab_topwidget.cc:982
 msgid "No URLs."
 msgstr "Brez spletnih naslovov."
 
-#: kab_topwidget.cc:991
+#: kab_topwidget.cc:1043
 msgid "Restoring last view."
 msgstr "Obnavljam zadnji pogled."
 
-#: kab_topwidget.cc:993
+#: kab_topwidget.cc:1045
 msgid "Not restoring last view."
 msgstr "Ne obnavljam zadnjega pogleda."
 
-#: kab_topwidget.cc:1004
+#: kab_topwidget.cc:1056
 msgid "Remembering last entry."
 msgstr "Zapomni si zadnji vnos."
 
-#: kab_topwidget.cc:1006
+#: kab_topwidget.cc:1058
 msgid "Not remembering last entry."
 msgstr "Pozabi zadnji vnos."
 
-#: kab_topwidget.cc:1017
+#: kab_topwidget.cc:1069
 msgid "Displaying assembled name in window title."
-msgstr "Prikaæi zbrana imena v naslovu okna."
+msgstr "Prika≈æi zbrana imena v naslovu okna."
 
-#: kab_topwidget.cc:1019
+#: kab_topwidget.cc:1071
 msgid "Not displaying assembled name in window title."
-msgstr "Ne prikaæi zbranih imen v naslovu okna."
+msgstr "Ne prika≈æi zbranih imen v naslovu okna."
 
-#: kab_topwidget.cc:1030
+#: kab_topwidget.cc:1082
 msgid "Creating backup file on startup."
 msgstr "Ustvari varnostno datoteko ob zagonu."
 
-#: kab_topwidget.cc:1032
+#: kab_topwidget.cc:1084
 msgid "Not creating a backup file on startup."
 msgstr "Ne ustvari varnostne datoteke ob zagonu."
 
-#: kab_topwidget.cc:1175
+#: kab_topwidget.cc:1231
 msgid "Search entries"
 msgstr "Iskalni vnosi"
 
-#: kab_topwidget.cc:1187 kab_topwidget.cc:1197
+#: kab_topwidget.cc:1244 kab_topwidget.cc:1254
 msgid "(ERROR)"
 msgstr "(NAPAKA)"
 
-#: kab_topwidget.cc:1234
+#: kab_topwidget.cc:1293
 msgid "Could not get an overview over the existing entries."
-msgstr "Nisem dobil pregleda nad obstojeËimi vnosi."
+msgstr "Nisem dobil pregleda nad obstojeƒçimi vnosi."
 
-#: kab_topwidget.cc:1235 kab_topwidget.cc:1252 kab_topwidget.cc:1263
+#: kab_topwidget.cc:1294 kab_topwidget.cc:1311 kab_topwidget.cc:1322
 msgid "Internal Error"
 msgstr "Notranja napaka."
 
-#: kab_topwidget.cc:1251 kab_topwidget.cc:1262
+#: kab_topwidget.cc:1310 kab_topwidget.cc:1321
 msgid "Could not query an existing entry."
-msgstr "Ni moË poizvedovati obstojeËega vnosa."
+msgstr "Ni moƒç poizvedovati obstojeƒçega vnosa."
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid "Search results ("
 msgstr "Rezultati iskanja ("
 
-#: kab_topwidget.cc:1330
+#: kab_topwidget.cc:1389
 msgid " hits):"
 msgstr " zadetkov):"
 
-#: kab_topwidget.cc:1335
+#: kab_topwidget.cc:1394
 msgid ""
 "Sorry!\n"
 "No entry matched your criterion."
-msgstr "Noben vnos ne ustreza vaπim kriterijem."
+msgstr "Noben vnos ne ustreza va≈°im kriterijem."
 
-#: kab_topwidget.cc:1336
+#: kab_topwidget.cc:1395
 msgid "No hits"
 msgstr "Brez zadetkov"
 
@@ -607,7 +627,7 @@ msgstr "Domov"
 
 #: kab_kab1importer.cc:239
 msgid "Imported kab 1 addressbook."
-msgstr "Uvoæena prva izdaja adresarja."
+msgstr "Uvo≈æena prva izdaja adresarja."
 
 #: kab_kab1importer.cc:278
 msgid ""
@@ -622,25 +642,25 @@ msgid ""
 "Could not read the kab 1 database file.\n"
 "You probably modified your database file manually."
 msgstr ""
-"Stare oblike adresarja ni mogoËe prebrati.\n"
-"Verjetno ste datoteko roËno spreminjali."
+"Stare oblike adresarja ni mogoƒçe prebrati.\n"
+"Verjetno ste datoteko roƒçno spreminjali."
 
 #: kab_kab1importer.cc:307
 msgid ""
 "Could not find the entries section in your database.\n"
 "You probably modified your database file manually."
 msgstr ""
-"Razdelka z vnosi v adresarju ni mogoËe najti.\n"
-"Verjetno ste datoteko roËno spreminjali."
+"Razdelka z vnosi v adresarju ni mogoƒçe najti.\n"
+"Verjetno ste datoteko roƒçno spreminjali."
 
 #: kab_kab1importer.cc:335
 msgid ""
-"Warning: There where errors importing the KDE 1\n"
+"Warning: There were errors importing the KDE 1\n"
 "address database.\n"
 "\n"
 msgstr ""
-"Opozorilo: Ob uvozu stare oblike adresarja je\n"
-"priπlo do naslednjih napak:\n"
+"Opozorilo: Ob uvozu adresarja za KDE 1\n"
+"v zbirko je pri≈°lo do napak.\n"
 "\n"
 
 #: kab_kab1importer.cc:340
@@ -649,13 +669,64 @@ msgid ""
 "address book to this file?\n"
 "You will not be able to revert this changes."
 msgstr ""
-"Ali res æelite dodati vnose iz prve izdake adresarja\n"
+"Ali res ≈æelite dodati vnose iz prve izdake adresarja\n"
 "KDE k tej datoteki?\n"
 "Prvotnega stanja ne boste mogli povrniti."
 
+#: kab_netscape_io.cc:104
+msgid "Netscape Messenger addressbook export files (*.ldif)"
+msgstr "Izvozne datoteke z naslovi iz Netscape Messengerja (*.ldif)"
+
+#: kab_netscape_io.cc:105
+msgid "All files"
+msgstr "Vse datoteke"
+
+#: kab_netscape_io.cc:107
+msgid "Import Netscape Messanger addressbook export files..."
+msgstr "Uvozi izvozne datoteke z naslovi iz Netscape Messengerja..."
+
+#: kab_netscape_io.cc:115
+#, c-format
+msgid "Unable to read the file %1."
+msgstr "Datoteke %1 ni moƒç brati."
+
+#: kab_netscape_io.cc:129
+msgid "Entry imported on %1 from '%2'"
+msgstr "Uvo≈æen vnos v %1 iz ,%2`"
+
+#: kab_netscape_io.cc:144
+msgid "Main contact information"
+msgstr "Glavni podatki o stiku"
+
+#: kab_netscape_io.cc:182
+#, c-format
+msgid "Nickname: %1"
+msgstr "Vzdevek: %1"
+
+#: kab_netscape_io.cc:188
+msgid "Mailformat: Text"
+msgstr "Oblika po≈°te: besedilo"
+
+#: kab_netscape_io.cc:189
+msgid "Mailformat: HTML"
+msgstr "Oblika po≈°te: HTML"
+
+#: kab_netscape_io.cc:196
+#, c-format
+msgid "Last modified: %1"
+msgstr "Zadnja sprememba: %1"
+
+#: kab_netscape_io.cc:295
+msgid "%1 addresses imported."
+msgstr "%1 uvo≈æenih naslovov."
+
+#: kab_netscape_io.cc:297
+msgid "No addresses imported."
+msgstr "Brez uvo≈æenih naslovov."
+
 #: kab_printmethods.cc:94
 msgid "Printing finished."
-msgstr "Tiskanje konËano."
+msgstr "Tiskanje konƒçano."
 
 #: kab_printmethods.cc:96
 msgid "Printing failed."
@@ -663,11 +734,11 @@ msgstr "Tiskanje ni uspelo."
 
 #: kab_printmethods.cc:212
 msgid "Email address:"
-msgstr "E-poπtni naslov:"
+msgstr "E-po≈°tni naslov:"
 
 #: kab_printmethods.cc:213
 msgid "Email addresses:"
-msgstr "E-poπtni naslovi:"
+msgstr "E-po≈°tni naslovi:"
 
 #: kab_printmethods.cc:224
 msgid "Telephone:"
@@ -707,39 +778,39 @@ msgstr "Neimenovani naslovi:"
 
 #: kab_printmethods.cc:464 kab_printmethods.cc:468
 msgid "(Deliver to:)"
-msgstr "(Poπlji na:)"
+msgstr "(Po≈°lji na:)"
 
-#: kab_htmlexport.cc:333
+#: kab_htmlexport.cc:318
 msgid ""
 "<qt><b>Warning!</b><br>Do not change this setting unless you installed a "
 "customized version of the template files delivered with your kab "
 "installation at another point.</qt>"
 msgstr ""
-"<qt><b>Opozorilo!</b><br>Ne spreminjajte te nastavitve razen, Ëe ste "
-"namestili svoje razliËice datotek s predlogami skupaj z namestitvijo "
+"<qt><b>Opozorilo!</b><br>Ne spreminjajte te nastavitve razen, ƒçe ste "
+"namestili svoje razliƒçice datotek s predlogami skupaj z namestitvijo "
 "programa kab kje drugje.</qt>"
 
-#: kab_htmlexport.cc:338
+#: kab_htmlexport.cc:323
 msgid "HTML Export Templates"
 msgstr "Predloge za izvoz v HTML"
 
-#: kab_htmlexport.cc:344
+#: kab_htmlexport.cc:329
 msgid "Select Template Folder"
 msgstr "Izberite imenik s predlogami"
 
-#: kab_htmlexport.cc:358
+#: kab_htmlexport.cc:343
 msgid "Select Target Folder"
 msgstr "Izberite ciljni imenik"
 
-#: kab_htmlexport.cc:407
+#: kab_htmlexport.cc:392
 msgid "You have to specify both a template and a target folder!"
-msgstr "DoloËiti morate imenik s predlogami in ciljni imenik!"
+msgstr "Doloƒçiti morate imenik s predlogami in ciljni imenik!"
 
-#: kab_htmlexport.cc:408
+#: kab_htmlexport.cc:393
 msgid "Corrections needed"
 msgstr "Potrebni popravki"
 
-#: kab_htmlexport.cc:462
+#: kab_htmlexport.cc:447
 msgid ""
 "<qt>At least one <b>resource file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
@@ -747,10 +818,10 @@ msgid ""
 msgstr ""
 "<qt>Vsaj ena <b>datoteka z viri</b>, ki se uporablja pri izvozu adresarja v "
 "HTML, manjka. Vseeno nadaljujem? <br><br><i>(Viri se uporabljajo kot "
-"podporne datoteke, kot so ozadja ali oznaËbe v nastalih HTML "
+"podporne datoteke, kot so ozadja ali oznaƒçbe v nastalih HTML "
 "datotekah.)</i></qt>"
 
-#: kab_htmlexport.cc:467
+#: kab_htmlexport.cc:452
 msgid ""
 "<qt>At least one <b>template file</b> used to export your address book to "
 "HTML is missing. Continue anyway?<br><br><i>(Templates are used as a basis "
@@ -762,20 +833,20 @@ msgstr ""
 "uporabljajo kot osnova za nastanek datotek HTML. Izvoz v HTML bo verjetno "
 "deloval tudi brez njih.)</i></qt>"
 
-#: kab_htmlexport.cc:507
+#: kab_htmlexport.cc:492
 msgid "Missing Resource"
-msgstr "MankajoË vir"
+msgstr "Mankajoƒç vir"
 
-#: kab_createnew.cc:55 kab_htmlexport.cc:510 kab_htmlexport.cc:522
+#: kab_createnew.cc:55 kab_htmlexport.cc:495 kab_htmlexport.cc:507
 #: kab_openfile.cc:53
 msgid "Cancelled."
 msgstr "Preklicano."
 
-#: kab_htmlexport.cc:519
+#: kab_htmlexport.cc:504
 msgid "Missing Template"
-msgstr "MankajoËa predloga"
+msgstr "Mankajoƒça predloga"
 
-#: kab_htmlexport.cc:558
+#: kab_htmlexport.cc:543
 msgid ""
 "<qt><b>Sorry!</b><br><br>Exporting to HTML failed. Problems might be caused "
 "by insufficient permissions in the target directory or failures in the setup "
@@ -783,19 +854,19 @@ msgid ""
 "mistakes in there may also cause errors. As a last possibility, the KDE "
 "address book may be buggy, too :-(.</qt>"
 msgstr ""
-"<qt><b>Æal!</b><br><br>Izvoz v HTML ni uspel. Teæave so verjetno nastale "
-"zaradi nezadostnih dovoljenj v ciljnem imeniku ali napake v nastavitvah vaπe "
-"namestitve KDE 2.<br><br>»e ste ustvarili svoj imenik s predlogami, potem "
-"lahko tamkajπne nepravilnosti povzroËajo napake. Zadnja moænost je, da je "
-"adresar hroπËat :-(.</qt>"
+"<qt><b>≈Ωal!</b><br><br>Izvoz v HTML ni uspel. Te≈æave so verjetno nastale "
+"zaradi nezadostnih dovoljenj v ciljnem imeniku ali napake v nastavitvah "
+"va≈°e namestitve KDE 2.<br><br>ƒåe ste ustvarili svoj imenik s predlogami, "
+"potem lahko tamkaj≈°ne nepravilnosti povzroƒçajo napake. Zadnja mo≈ænost je, "
+"da je adresar hro≈°ƒçat :-(.</qt>"
 
-#: kab_htmlexport.cc:566
+#: kab_htmlexport.cc:551
 msgid "Error exporting to HTML"
 msgstr "Napaka v izvozu v HTML"
 
 #: kab_createnew.cc:43 kab_openfile.cc:43
 msgid "Could not find the users home directory."
-msgstr "Uporabnikovega domaËega imenika ni moæno najti."
+msgstr "Uporabnikovega domaƒçega imenika ni mo≈æno najti."
 
 #: kab_createnew.cc:44 kab_openfile.cc:44
 msgid "Intern error!"
@@ -811,7 +882,7 @@ msgid ""
 "Please select another filename.\n"
 "You must have permission to write to create the new file."
 msgstr ""
-"Izbrano ime je imenik ali æe obstojeËa datoteka.\n"
+"Izbrano ime je imenik ali ≈æe obstojeƒça datoteka.\n"
 "Izberite drugo ime datoteke.\n"
 "Da lahko ustvarite datoteko, morate imeti dovoljenje za pisanje."
 
@@ -820,7 +891,7 @@ msgid ""
 "The filename did not end with \".kab\".\n"
 "It has been changed to %1\n"
 msgstr ""
-"Navedeno ime datoteke se ne konËa s \".kab\".\n"
+"Navedeno ime datoteke se ne konƒça s \".kab\".\n"
 "Zato je spremenjeno v %1\n"
 
 #: kab_createnew.cc:93
@@ -829,7 +900,7 @@ msgstr "Opomba"
 
 #: kab_createnew.cc:100
 msgid "The file could not be created, possibly permission denied."
-msgstr "Datoteke ni moæno ustvariti, morda teæava z dovoljenjem za pisanje?"
+msgstr "Datoteke ni mo≈æno ustvariti, morda te≈æava z dovoljenjem za pisanje?"
 
 #: kab_createnew.cc:101 kab_save.cc:58
 msgid "kab: File error"
@@ -837,11 +908,11 @@ msgstr "kab: Napaka v datoteki"
 
 #: kab_createnew.cc:109
 msgid "The file has been created, but could not be loaded."
-msgstr "Datoteka uspeπno ustvarjena, vendar je ni moæno naloæiti."
+msgstr "Datoteka uspe≈°no ustvarjena, vendar je ni mo≈æno nalo≈æiti."
 
 #: kab_openfile.cc:45
 msgid "Could not find the users home directory"
-msgstr "Uporabnikovega domaËega imenika ni moË najti."
+msgstr "Uporabnikovega domaƒçega imenika ni moƒç najti."
 
 #: kab_openfile.cc:72
 msgid ""
@@ -850,12 +921,12 @@ msgid ""
 "Select an existing file to load it."
 msgstr ""
 "Datoteka s tem imenom ne obstaja ali pa je imenik.\n"
-"Uporabite \"Nova zbirka\", Ëe æelite ustvariti novo,\n"
-"ali pa izberite obstojeËo."
+"Uporabite \"Nova zbirka\", ƒçe ≈æelite ustvariti novo,\n"
+"ali pa izberite obstojeƒço."
 
 #: kab_openfile.cc:86
 msgid "The file could not be loaded."
-msgstr "Datoteke ni moæno prebrati."
+msgstr "Datoteke ni mo≈æno prebrati."
 
 #: kab_save.cc:36 kab_save.cc:50
 msgid "Internal error."
@@ -867,7 +938,7 @@ msgstr "Vnos shranjen."
 
 #: kab_save.cc:57
 msgid "The file could not be saved (permission denied)."
-msgstr "Datoteke ni bilo moæno shraniti (pisanje ni dovoljeno)."
+msgstr "Datoteke ni bilo mo≈æno shraniti (pisanje ni dovoljeno)."
 
 #: kab_save.cc:61
 msgid "File saved."
@@ -875,7 +946,7 @@ msgstr "Datoteka shranjena."
 
 #: look_businesscard.cc:176
 msgid "email: "
-msgstr "e-poπta: "
+msgstr "e-po≈°ta: "
 
 #: look_businesscard.cc:193
 msgid "tel: "
@@ -883,18 +954,18 @@ msgstr "tel.: "
 
 #: look_edit.cc:36
 msgid "User Fields"
-msgstr "Uporabniπka polja"
+msgstr "Uporabni≈°ka polja"
 
 #: dialog_configurefile.cc:149 look_edit.cc:43 look_edit.cc:57
-#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:58
-#: look_edit_tabperson.cc:250 look_edit_tabperson.cc:295
+#: look_edit_tabcontact.cc:45 look_edit_tabperson.cc:59
+#: look_edit_tabperson.cc:255 look_edit_tabperson.cc:305
 #: look_edit_tabuser.cc:50
 msgid "General failure."
-msgstr "Sploπna napaka."
+msgstr "Splo≈°na napaka."
 
 #: dialog_configurefile.cc:130 look_edit.cc:70
 msgid "(User fields)"
-msgstr "(Uporabniπka polja)"
+msgstr "(Uporabni≈°ka polja)"
 
 #: look_edit.cc:74
 msgid "&Person"
@@ -916,93 +987,101 @@ msgstr "&Rojstni dan"
 msgid "Comment"
 msgstr "Opombe"
 
-#: look_edit_tabperson.cc:39
-msgid "Email addresses..."
-msgstr "E-poπtni naslovi..."
-
 #: look_edit_tabperson.cc:40
+msgid "Email addresses..."
+msgstr "E-po≈°tni naslovi..."
+
+#: look_edit_tabperson.cc:41
 msgid "Talk addresses..."
 msgstr "E-pogovorni naslovi..."
 
-#: look_edit_tabperson.cc:41
+#: look_edit_tabperson.cc:42
 msgid "URLs..."
 msgstr "Spletni naslovi..."
 
-#: look_edit_tabperson.cc:64
+#: look_edit_tabperson.cc:65
 msgid "Formatted name:"
 msgstr "Oblikovano ime:"
 
-#: look_edit_tabperson.cc:75
+#: look_edit_tabperson.cc:68
+msgid ""
+"<qt>Enter the <i>full name</i> of the person or organization here if "
+"<b>kab</b> assembles it in the wrong way.</qt>"
+msgstr ""
+"<qt>Tu vnesite <i>polno ime</i> osebe ali organizacije, ƒçe ga <b>kab</b> "
+"sestavi napaƒçno.</qt>"
+
+#: look_edit_tabperson.cc:78
 msgid "First name:"
 msgstr "Prvo krstno ime:"
 
-#: look_edit_tabperson.cc:77
+#: look_edit_tabperson.cc:80
 msgid "Middle name:"
 msgstr "Drugo krstno ime:"
 
-#: look_edit_tabperson.cc:79
+#: look_edit_tabperson.cc:82
 msgid "Last name:"
 msgstr "Priimek:"
 
-#: look_edit_tabperson.cc:96
+#: look_edit_tabperson.cc:99
 msgid "Name prefix:"
 msgstr "Predpona pri imenu:"
 
-#: look_edit_tabperson.cc:98
+#: look_edit_tabperson.cc:101
 msgid "Title:"
 msgstr "Naziv:"
 
-#: look_edit_tabperson.cc:100
+#: look_edit_tabperson.cc:103
 msgid "Rank:"
-msgstr "»in:"
+msgstr "ƒåin:"
 
-#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:193
+#: look_edit_tabcontact.cc:29 look_edit_tabperson.cc:196
 msgid "Edit email addresses"
-msgstr "Uredi e-poπtne naslove"
+msgstr "Uredi e-po≈°tne naslove"
 
-#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:209
+#: look_edit_tabcontact.cc:30 look_edit_tabperson.cc:212
 msgid "Edit talk addresses"
 msgstr "Uredi e-pogovorne naslove"
 
-#: look_edit_tabperson.cc:225
+#: look_edit_tabperson.cc:228
 msgid "Edit URLs"
 msgstr "Uredi spletne naslove"
 
-#: look_edit_tabperson.cc:243
-msgid "I know this persons birthday:"
+#: look_edit_tabperson.cc:246
+msgid "I know this person's birthday:"
 msgstr "Poznam rojstni dan te osebe:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:34
 msgid "User field 1:"
-msgstr "1. uporabniπko polje:"
+msgstr "1. uporabni≈°ko polje:"
 
 #: dialog_configurefile.cc:96 look_edit_tabuser.cc:35
 msgid "User field 2:"
-msgstr "2. uporabniπko polje:"
+msgstr "2. uporabni≈°ko polje:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:36
 msgid "User field 3:"
-msgstr "3. uporabniπko polje:"
+msgstr "3. uporabni≈°ko polje:"
 
 #: dialog_configurefile.cc:97 look_edit_tabuser.cc:37
 msgid "User field 4:"
-msgstr "4. uporabniπko polje:"
+msgstr "4. uporabni≈°ko polje:"
 
 #: dialog_configurefile.cc:133 look_edit_tabuser.cc:137
 msgid "(User field 1)"
-msgstr "(uporabniπko polje 1)"
+msgstr "(uporabni≈°ko polje 1)"
 
 #: dialog_configurefile.cc:136 look_edit_tabuser.cc:140
 msgid "(User field 2)"
-msgstr "(uporabniπko polje 2)"
+msgstr "(uporabni≈°ko polje 2)"
 
 #: dialog_configurefile.cc:139 look_edit_tabuser.cc:143
 msgid "(User field 3)"
-msgstr "(uporabniπko polje 3)"
+msgstr "(uporabni≈°ko polje 3)"
 
 #: dialog_configurefile.cc:142 look_edit_tabuser.cc:146
 msgid "(User field 4)"
-msgstr "(uporabniπko polje 4)"
+msgstr "(uporabni≈°ko polje 4)"
 
 #: look_edit_tabcontact.cc:31
 msgid "Edit URLs (internet addresses)"
@@ -1010,9 +1089,9 @@ msgstr "Uredi URL (spletne naslove)"
 
 #: look_edit_tabcontact.cc:32
 msgid "Edit telephone numbers"
-msgstr "Uredi telefonske πtevilke"
+msgstr "Uredi telefonske ≈°tevilke"
 
-#: look_edit_tabaddresses.cc:227
+#: look_edit_tabaddresses.cc:231
 msgid ""
 "<qt>Did you know that you may predefine types of addresses?<br>See "
 "<b>Edit->Configure this file</b>.</qt>"
@@ -1020,17 +1099,17 @@ msgstr ""
 "<qt>Ste vedeli, da lahko vnaprej oblikujete tipe naslovov?<br> Oglejte si "
 "<b>Uredi->Nastavi to datoteko</b>.</qt>"
 
-#: look_edit_tabaddresses.cc:229
+#: look_edit_tabaddresses.cc:233
 msgid "A note"
 msgstr "Notica"
 
-#: look_edit_tabaddresses.cc:251
+#: look_edit_tabaddresses.cc:255
 msgid "Really delete this address?"
-msgstr "Æelite res odstraniti naslov?"
+msgstr "≈Ωelite res odstraniti naslov?"
 
-#: look_edit_tabaddresses.cc:313
-msgid "Insinuation"
-msgstr "Namig"
+#: look_edit_tabaddresses.cc:317
+msgid "Organization"
+msgstr "Organizacija"
 
 #: look_edit_tabtelephone.cc:46
 msgid "Fixed:"
@@ -1050,15 +1129,15 @@ msgstr "Modem:"
 
 #: look_edit_tabtelephone.cc:50
 msgid "User defined 1:"
-msgstr "1. uporabniπki:"
+msgstr "1. uporabni≈°ki:"
 
 #: look_edit_tabtelephone.cc:51
 msgid "User defined 2:"
-msgstr "2. uporabniπki:"
+msgstr "2. uporabni≈°ki:"
 
 #: look_edit_tabtelephone.cc:52
 msgid "User defined 3:"
-msgstr "3. uporabniπki:"
+msgstr "3. uporabni≈°ki:"
 
 #: look_edit_tabtelephone.cc:64
 msgid "Type"
@@ -1066,7 +1145,7 @@ msgstr "Tip"
 
 #: look_edit_tabtelephone.cc:66
 msgid "Number"
-msgstr "©tevilka"
+msgstr "≈†tevilka"
 
 #: widget_editstringlist.cc:41
 msgid "Add a new string"
@@ -1082,7 +1161,7 @@ msgstr "Premakni niz navzdol"
 
 #: widget_editstringlist.cc:44
 msgid "Delete this string"
-msgstr "Izbriπi niz"
+msgstr "Izbri≈°i niz"
 
 #: dialog_configurefile.cc:63 dialog_configurekab.cc:53 dialog_editentry.cc:43
 #: dialog_editentry.cc:73
@@ -1095,7 +1174,7 @@ msgstr "Uredi vnos"
 
 #: dialog_configurefile.cc:51
 msgid "Cannot query configuration data."
-msgstr "Ni moË poizvedovati po nastavitvah"
+msgstr "Ni moƒç poizvedovati po nastavitvah"
 
 #: dialog_configurefile.cc:52
 msgid "Internal failure"
@@ -1111,7 +1190,7 @@ msgstr "Ime zavihka"
 
 #: dialog_configurefile.cc:154
 msgid "User fields"
-msgstr "Uporabniπka polja"
+msgstr "Uporabni≈°ka polja"
 
 #: dialog_configurefile.cc:166
 msgid "Address types"
@@ -1122,7 +1201,7 @@ msgid ""
 "Cannot save your settings.\n"
 "Possibly you do not have permissions to write to this file."
 msgstr ""
-"Nastavitev ni moË shraniti.\n"
+"Nastavitev ni moƒç shraniti.\n"
 "Verjetno nimate dovoljenja za pisanje v datoteko."
 
 #: dialog_configurekab.cc:37
@@ -1130,8 +1209,8 @@ msgid ""
 "Your configuration file is corrupt.\n"
 "KAB cannot be configured."
 msgstr ""
-"Vaπa nastavitvena datoteka je okvarjena.\n"
-"KAB ni mogoËe nastaviti."
+"Va≈°a nastavitvena datoteka je okvarjena.\n"
+"KAB ni mogoƒçe nastaviti."
 
 #: dialog_configurekab.cc:39
 msgid "Fatal error"
@@ -1146,7 +1225,7 @@ msgid ""
 "There was an error saving your preferences.\n"
 "Some of them may be lost."
 msgstr ""
-"Pri shranjevanju nastavitev je priπlo do napake.\n"
+"Pri shranjevanju nastavitev je pri≈°lo do napake.\n"
 "Nekatere nastavitve so lahko izgubljene."
 
 #: dialog_configurekab.cc:61 dialog_configurekab.cc:72
@@ -1164,10 +1243,10 @@ msgstr "Nastavitve so shranjene."
 #: dialog_configurekab.cc:69
 msgid ""
 "Cannot save your preferences.\n"
-"May be permission denied."
+"You may not have permission to write the file."
 msgstr ""
-"Ne morem shraniti nastavitev.\n"
-"MogoËe ni ustreznih dovoljenj."
+"Nastavitev ni moƒç shraniti.\n"
+"Verjetno nimate dovoljenja za pisanje v datoteko."
 
 #: dialog_configurekab.cc:88
 msgid "Remember last selected view"
@@ -1179,7 +1258,7 @@ msgstr "Zapomni si zadnji izbrani vnos"
 
 #: dialog_configurekab.cc:92
 msgid "Show assembled name in window title"
-msgstr "Prikaæi zbrana imena v naslovu okna"
+msgstr "Prika≈æi zbrana imena v naslovu okna"
 
 #: dialog_configurekab.cc:94
 msgid "Create backup file on startup"
@@ -1187,10 +1266,10 @@ msgstr "Ustvari varnostno datoteko ob zagonu"
 
 #: dialog_configurekab.cc:95
 msgid "General settings"
-msgstr "Sploπne nastavitve"
+msgstr "Splo≈°ne nastavitve"
 
 #: dialog_insinuation.cc:29
-msgid "Organisation:"
+msgid "Organization:"
 msgstr "Organizacija:"
 
 #: dialog_insinuation.cc:30
@@ -1201,97 +1280,30 @@ msgstr "Oddelek:"
 msgid "Sub-Department:"
 msgstr "Pododdelek:"
 
-#~ msgid "Add another address"
-#~ msgstr "Dodaj nov naslov"
+#: kab_entrylist.cc:55
+msgid "..."
+msgstr "..."
 
-#~ msgid "Edit organisational attributes"
-#~ msgstr "Uredi organizacijske atribute"
+#: kab_entrylist.cc:81
+msgid "No match."
+msgstr "Ni ujemanja."
 
-#~ msgid "Street:"
-#~ msgstr "Ulica:"
+#: kab_entrylist.cc:94
+msgid "Calculating..."
+msgstr "Raƒçunam..."
 
-#~ msgid "&Edit entry..."
-#~ msgstr "Ur&edi vnos..."
+#: kab_entrylist.cc:110
+msgid "(Disabled)"
+msgstr "(Onemogoƒçeno)"
 
-#~ msgid "New entry"
-#~ msgstr "Nov vnos."
+#: kab_entrylist.cc:113
+msgid "Error creating index for incremental search."
+msgstr "Napaka pri ustvarjanju kazala za postopno iskanje."
 
-#~ msgid "Delete entry"
-#~ msgstr "Izbriπi vnos"
+#: kab_entrylist.cc:114
+msgid "Incremental search disabled."
+msgstr "Postopno iskanje onemogoƒçeno."
 
-#~ msgid "Could not connect to the address database."
-#~ msgstr "Dostop do zbirke naslovov ni mogoË."
-
-#~ msgid "The database interface could not be created."
-#~ msgstr "Vmesnika do zbirke ni moæno ustvariti."
-
-#~ msgid "&Open"
-#~ msgstr "&Odpri"
-
-#~ msgid "KAB"
-#~ msgstr "Kab"
-
-#~ msgid ""
-#~ "Cannot display the new entry.\n"
-#~ "Unknown cause."
-#~ msgstr ""
-#~ "Novega vnosa ni moË prikazati.\n"
-#~ "Razlog ni znan."
-
-#~ msgid "Email"
-#~ msgstr "E-poπta"
-
-#~ msgid "Talk"
-#~ msgstr "Pogovor"
-
-#~ msgid "Telephone numbers"
-#~ msgstr "Telefonske πtevilka"
-
-#~ msgid "written and maintained by"
-#~ msgstr "napisal in vzdræuje"
-
-#~ msgid "kab 1.0, May 1999"
-#~ msgstr "kab 1.0, May 1999"
-
-#~ msgid "Initialization failure"
-#~ msgstr "Inicializacijski napaka"
-
-#~ msgid "HTML table"
-#~ msgstr "Tabela HTML"
-
-#~ msgid "&Mail"
-#~ msgstr "Po&πta"
-
-#~ msgid "Help on Addressbook"
-#~ msgstr "PomoË o Imeniku"
-
-#~ msgid "About Addressbook"
-#~ msgstr "O Imeniku"
-
-#~ msgid "About &Qt"
-#~ msgstr "O &Qt"
-
-#~ msgid "About &KDE"
-#~ msgstr "O &KDE"
-
-#~ msgid "&About"
-#~ msgstr "&O"
-
-#~ msgid "About Qt"
-#~ msgstr "O Qt"
-
-#~ msgid "kab 0.9.5, December 1998"
-#~ msgstr "kab 0.9.5, december 1998"
-
-#~ msgid "Image load failure"
-#~ msgstr "Napaka pri nalaganju slike"
-
-#~ msgid "Could not load addressbook logo image!"
-#~ msgstr "Nisem mogel naloæiti imenikovega logotipa!"
-
-#~ msgid ""
-#~ "Here you would see\n"
-#~ "the addressbook logo."
-#~ msgstr ""
-#~ "Tule bi videli\n"
-#~ "imenikov logotip."
+#: kab_entrylist.cc:163
+msgid "(No items to search)"
+msgstr "(Ni postavk za iskanje)"
