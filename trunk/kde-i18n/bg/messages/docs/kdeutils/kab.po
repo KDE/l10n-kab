@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2001-02-09 01:25+0100\n"
-"PO-Revision-Date: 2001-09-16 22:55GMT\n"
+"PO-Revision-Date: 2002-03-08 01:00GMT\n"
 "Last-Translator: Vesselina Nikolova <vesselina@galgenberg.net>\n"
 "Language-Team: Bulgarian\n"
 "MIME-Version: 1.0\n"
@@ -14,11 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.5\n"
 
-#: index.docbook:14
+#: index.docbook:13
+#, no-c-format
 msgid "The &kab; Handbook"
 msgstr "Наръчник за &kab;"
 
-#: index.docbook:17
+#: index.docbook:16
+#, no-c-format
 msgid ""
 "<firstname>Mirko</firstname> <surname>Boehm</surname> <affiliation> "
 "<address><email>mirko@kde.org</email></address> </affiliation>"
@@ -26,946 +28,977 @@ msgstr ""
 "<firstname>Mirko</firstname> <surname>Boehm</surname> <affiliation> "
 "<address><email>mirko@kde.org</email></address> </affiliation>"
 
-#: index.docbook:25
+#: index.docbook:24
+#, no-c-format
 msgid ""
 "<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
-"<address><email>pam.roberts@btinternet.com</email></address> "
-"</affiliation>"
+"<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 msgstr ""
 "<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
-"<address><email>pam.roberts@btinternet.com</email></address> "
-"</affiliation>"
+"<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 
-#: index.docbook:33
+#: index.docbook:32
+#, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
 msgstr "Веселин Димитров <email>veso_vdd@yahoo.com</email>"
 
-#: index.docbook:38
+#: index.docbook:37
+#, no-c-format
 msgid "Mirko Boehm, Pam Roberts"
 msgstr "Mirko Boehm, Pam Roberts"
 
-#: index.docbook:46
-msgid ""
-"&kab; (KDE Addressbook) is a simple address book for &kde;. This "
-"document describes version 2.0."
-msgstr ""
-"&kab; (KDE Addressbook) е проста адресна книга &kde;. Този "
-"документ описва версия 2.0."
+#: index.docbook:45
+#, no-c-format
+msgid "&kab; (&kde; Address book) is a simple address book for &kde;."
+msgstr "&kab; (&kde; Addressbook) е проста адресна книга &kde;."
 
-#: index.docbook:50
+#: index.docbook:49
+#, no-c-format
 msgid "<keyword>KDE</keyword>"
 msgstr "<keyword>KDE</keyword>"
 
-#: index.docbook:51
+#: index.docbook:50
+#, no-c-format
 msgid "<keyword>Kab</keyword>"
 msgstr "<keyword>Kab</keyword>"
 
-#: index.docbook:52
+#: index.docbook:51
+#, no-c-format
 msgid "kdeutils"
 msgstr "kdeutils"
 
-#: index.docbook:53
+#: index.docbook:52
+#, no-c-format
 msgid "address book"
 msgstr "адресна книга"
 
-#: index.docbook:59
+#: index.docbook:58
+#, no-c-format
 msgid "Introduction"
 msgstr "Въведение"
 
-#: index.docbook:61
+#: index.docbook:60
+#, no-c-format
 msgid ""
-"&kab; is an address book for use with &kde;2 that lets you save "
-"names, postal, email, talk and <acronym>www</acronym> addresses, "
-"telephone numbers, important dates and other information in a card "
-"index form."
+"&kab; is an address book for use with &kde; that lets you save names, "
+"postal, email, talk and <acronym>WWW</acronym>"
+" addresses, telephone numbers, important dates and other information in a "
+"card index form."
 msgstr ""
-"&kab; е адресна книга и се използва с &kde;2. Можете да запазвате "
-"имена, поща, ел. поща, <acronym>www</acronym> адреси, "
-"телефонни номера, важни дати и друга информация във вид на картичка."
+"&kab; е адресна книга и се използва с &kde;. "
+"Можете да запазвате имена, поща, ел. поща, "
+"разговори и <acronym>WWW</acronym> адреси, "
+"телефонни номера, важни дати и друга "
+"информация във вид на картичка."
 
 #: index.docbook:68
+#, no-c-format
 msgid "Using &kab;"
 msgstr "Използване на &kab;"
 
 #: index.docbook:71
+#, no-c-format
 msgid "Entering Data"
 msgstr "Въвеждане на данни"
 
 #: index.docbook:73
+#, no-c-format
 msgid ""
-"You can import address book data from the KDE 1 version of &kab; or "
-"from &Netscape; by using the "
-"<menuchoice><guimenu>File</guimenu><guisubmenu>Import</guisubmenu></m"
-"enuchoice> menu option."
+"You can import address book data from the &kde; 1 version of &kab; or from "
+"&Netscape; by using the "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Import</guisubmenu>"
+"</menuchoice> menu option."
 msgstr ""
-"Можете да внесете данни от адресната книга на KDE 1 или от &Netscape;, "
-"като използвате командата <menuchoice><guimenu>Файл</guimenu> "
+"Можете да внесете данни от адресната "
+"книга на &kde; 1 версия на &kab; или от &Netscape;, "
+"като използвате командата "
+"<menuchoice><guimenu>Файл</guimenu> "
 "<guisubmenu>Импорт</guisubmenu></menuchoice>."
 
 #: index.docbook:78
+#, no-c-format
 msgid ""
 "You can also add individual entries by choosing the "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Add "
-"Entry...</guimenuitem></menuchoice> option, which brings up the "
-"following dialog box:"
+"Entry...</guimenuitem></menuchoice> option, which brings up the following "
+"dialog box:"
 msgstr ""
-"Можете също да добавяте записи, като изберете от менюто "
-"<menuchoice><guimenu>Редакция</guimenu> командата <guimenuitem>Add "
-"Entry...</guimenuitem></menuchoice>, чрез която се отваря следния диалог:"
+"Можете също да добавяте записи, като "
+"изберете от менюто "
+"<menuchoice><guimenu>Редакция</guimenu> командата "
+"<guimenuitem>Add Entry...</guimenuitem></menuchoice>, чрез която "
+"се отваря следния диалог:"
 
 #: index.docbook:83
-msgid "Here's another screenshot of &kab;"
+#, no-c-format
+msgid "Here's another screen-shot of &kab;"
 msgstr "Ето още един изглед от &kab;"
 
 #: index.docbook:83
+#, no-c-format
 msgid "&kab; in edit view mode"
 msgstr "&kab; в режим на редактиране"
 
 #: index.docbook:95
+#, no-c-format
 msgid ""
-"This view is used to add or change the details for a card. It has "
-"four main tab pages; <guilabel>Person</guilabel>, "
-"<guilabel>Telephone</guilabel>, <guilabel>Address</guilabel> and "
-"<guilabel>Birthday</guilabel>."
+"This view is used to add or change the details for a card. It has four main "
+"tab pages; <guilabel>Person</guilabel>, <guilabel>Telephone</guilabel>, "
+"<guilabel>Address</guilabel> and <guilabel>Birthday</guilabel>."
 msgstr ""
-"Този изглед се използва за да се прибавят или променят детаилите за записа. "
-"Той има четири главни страници <guilabel>Личност</guilabel>, "
-"<guilabel>Телефон</guilabel>, <guilabel>Адреси</guilabel> и "
-"<guilabel>Рожден ден</guilabel>."
+"Този изглед се използва за да се прибавят "
+"или променят детаилите за записа. Той има "
+"четири главни страници "
+"<guilabel>Личност</guilabel>, <guilabel>Телефон</guilabel>, "
+"<guilabel>Адреси</guilabel> и <guilabel>Рожден "
+"ден</guilabel>."
 
-#: index.docbook:99
+#: index.docbook:100
+#, no-c-format
 msgid ""
-"The <guilabel>Person</guilabel> tab page is where you enter the "
-"person's name and Email and Talk addresses and any associated "
-"<acronym>URL</acronym>s. Whatever you enter in the "
-"<guilabel>Formatted name:</guilabel> text box will appear as the "
-"entry's name in the entry navigation list, the Toolbar Drop Down "
-"list and at the top left of the card. If you do not enter anything "
-"in the <guilabel>Formatted name:</guilabel> text box then &kab; will "
-"automatically generate a formatted name such as <quote>Holmes, "
-"Sherlock</quote>."
+"The <guilabel>Person</guilabel> tab page is where you enter the person's "
+"name and email and Talk addresses and any associated &URL;s. Whatever you "
+"enter in the <guilabel>Formatted name:</guilabel> text box will appear as "
+"the entry's name in the entry navigation list, the Toolbar Drop Down list "
+"and at the top left of the card. If you do not enter anything in the "
+"<guilabel>Formatted name:</guilabel> text box then &kab; will automatically "
+"generate a formatted name such as <quote>Holmes, Sherlock</quote>."
 msgstr ""
-"В страницата <guilabel>Личност</guilabel> можете да въведете "
-"имената, адресите за ел. поща, разговор и <acronym>URL</acronym>. "
-"Каквото и да въведете в текстовата кутия "
-"<guilabel>Форматирано име:</guilabel>, то ще се появява като име "
-"на записа в списъка със записи, падащия списък на панела "
-"и горе вляво на картичката. Ако не въведете нищо в текстовата "
-"кутия <guilabel>Форматирано име:</guilabel>, тогава &kab; "
-"автоматично ще генерира форматирано име, като <quote>Шерлок "
-"Холмс</quote>."
+"В страницата <guilabel>Личност</guilabel> можете "
+"да въведете имената, адресите за ел. поща, "
+"разговор и някои &URL;s. Каквото и да "
+"въведете в текстовата кутия "
+"<guilabel>Форматирано име:</guilabel>, то ще се "
+"появява като име на записа в списъка със "
+"записи, падащия списък на панела и горе "
+"вляво на картичката. Ако не въведете нищо "
+"в текстовата кутия <guilabel>Форматирано "
+"име:</guilabel>, тогава &kab; автоматично ще "
+"генерира форматирано име, като <quote>Холмс, "
+"Шерлок</quote>."
 
-#: index.docbook:108
+#: index.docbook:109
+#, no-c-format
 msgid ""
-"The <guilabel>Telephone</guilabel> tab page is, obviously, where you "
-"enter the telephone number(s)."
+"The <guilabel>Telephone</guilabel> tab page is, obviously, where you enter "
+"the telephone number(s)."
 msgstr ""
-"В страницата <guilabel>Телефон</guilabel> можете да въвеждате "
-"телефонни номера."
+"В страницата <guilabel>Телефон</guilabel> можете "
+"да въвеждате телефонни номера."
 
-#: index.docbook:111
+#: index.docbook:112
+#, no-c-format
 msgid ""
-"The <guilabel>Addresses</guilabel> tab page lets you enter one or "
-"more addresses for this entry."
+"The <guilabel>Addresses</guilabel> tab page lets you enter one or more "
+"addresses for this entry."
 msgstr ""
-"В страницата <guilabel>Адреси</guilabel> можете да въведете един или "
-"повече адреси за този запис."
+"В страницата <guilabel>Адреси</guilabel> можете да "
+"въведете един или повече адреси за този "
+"запис."
 
-#: index.docbook:114
+#: index.docbook:115
+#, no-c-format
 msgid ""
-"For each address you want to enter, click on the "
-"<guibutton>Add</guibutton> button. It will display a drop down list "
-"containing the address types you have set up with the "
+"For each address you want to enter, click on the <guibutton>Add</guibutton> "
+"button. It will display a drop down list containing the address types you "
+"have set up with the "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Configure this "
-"file...</guimenuitem></menuchoice> option. Choose one and it will "
-"appear in the <guilabel>Address type</guilabel> text box where you "
-"can edit it if required."
+"file...</guimenuitem></menuchoice> option. Choose one and it will appear in "
+"the <guilabel>Address types</guilabel> text box where you can edit it if "
+"required."
 msgstr ""
-"За всеки адрес, който искате да въведете, натиснете бутона "
-"<guibutton>Добави</guibutton>. Ще се покаже падащ списък, с типовете "
-"адреси, които сте настроили от менюто <menuchoice><guimenu>Редакция</guimenu> "
-"<guimenuitem>Конфигуриране на този файл...</guimenuitem></menuchoice>. "
-"Изберете един и той ще се появи в текстовата кутия "
-"<guilabel>Address type</guilabel>, където може да бъде радактиран "
+"За всеки адрес, който искате да въведете, "
+"натиснете бутона <guibutton>Добави</guibutton>. Ще "
+"се покаже падащ списък, с типовете адреси, "
+"които сте настроили от менюто "
+"<menuchoice><guimenu>Редакция</guimenu> "
+"<guimenuitem>Конфигуриране на този "
+"файл...</guimenuitem></menuchoice>. Изберете един и той "
+"ще се появи в текстовата кутия <guilabel>Address "
+"type</guilabel>, където може да бъде радактиран "
 "ако трябва."
 
-#: index.docbook:114
+#: index.docbook:115
+#, no-c-format
 msgid "Then fill in the address details."
 msgstr "След това попълнете детайлите на адреса."
 
-#: index.docbook:114
+#: index.docbook:115
+#, no-c-format
 msgid ""
-"Pressing the <guibutton>Organisation...</guibutton> button brings up "
-"another dialog box where you can enter details of any organisation "
-"that the person works for and his position within it. However, the "
-"current version of &kab; does not display this information in the "
+"Pressing the <guibutton>Organization...</guibutton>"
+" button brings up another dialog box where you can enter details of any "
+"organization that the person works for and his position within it. However, "
+"the current version of &kab; does not display this information in the "
 "<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"При натискане на бутона <guibutton>Organisation...</guibutton> ще се "
-"появи диалог, където можете да въведете работното място на лицето и "
-"длъжността, която заема. Тази версия на &kab; не показва тази информация "
-"в изгледа <guimenuitem>Визитна картичка</guimenuitem>."
+"При натискане на бутона "
+"<guibutton>Organisation...</guibutton> ще се появи диалог, "
+"където можете да въведете работното "
+"място на лицето и длъжността, която заема. "
+"Тази версия на &kab; не показва тази "
+"информация в изгледа <guimenuitem>Визитна "
+"картичка</guimenuitem>."
 
-#: index.docbook:129
+#: index.docbook:137
+#, no-c-format
 msgid ""
-"The <guilabel>Birthday</guilabel> tab page is where you select a "
-"significant date to appear at the top right of the card view. It "
-"will only appear if you have checked the <guilabel>I know this "
-"person's birthday:</guilabel> box."
+"The <guilabel>Birthday</guilabel>"
+" tab page is where you select a significant date to appear at the top right "
+"of the card view. It will only appear if you have checked the <guilabel>I "
+"know this person's birthday:</guilabel> box."
 msgstr ""
-"В страницата <guilabel>Рожден ден</guilabel> можете да изберете значима "
-"дата, която ще се появи горе вдясно ня картичката. Ще се появи само ако сте "
-"избрали опцията <guilabel>I know this "
-"person's birthday:</guilabel>."
+"В страницата <guilabel>Рожден ден</guilabel> "
+"можете да изберете значима дата, която ще "
+"се появи горе вдясно ня картичката. Ще се "
+"появи само ако сте избрали опцията <guilabel>I "
+"know this person's birthday:</guilabel>."
 
-#: index.docbook:134
+#: index.docbook:142
+#, no-c-format
 msgid ""
 "You will probably need to experiment with your entries in the "
-"<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab "
-"pages to get the kind of result you want in the Card view."
+"<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab pages to "
+"get the kind of result you want in the Card view."
 msgstr ""
-"Може би трябва да експериментирате със записите в страниците "
-"<guilabel>Личност</guilabel> и <guilabel>Адреси</guilabel>, за да получите "
+"Може би трябва да експериментирате със "
+"записите в страниците <guilabel>Личност</guilabel>"
+" и <guilabel>Адреси</guilabel>, за да получите "
 "желания изглед на картичката."
 
-#: index.docbook:138
+#: index.docbook:148
+#, no-c-format
 msgid ""
-"There are two other tab pages in this dialog box which may be useful "
-"in some circumstances:"
+"There are two other tab pages in this dialog box which may be useful in some "
+"circumstances:"
 msgstr ""
-"Има още две страници в този диалог, които могат да бъдат полезни при "
-"някои обстоятелства:"
+"Има още две страници в този диалог, които "
+"могат да бъдат полезни при някои "
+"обстоятелства:"
 
-#: index.docbook:141
+#: index.docbook:151
+#, no-c-format
 msgid ""
-"The <guilabel>Comment</guilabel> page. Any text you enter here will "
-"not appear in the <guimenuitem>Business Card</guimenuitem> view but "
-"will be included when you print out the card details."
+"The <guilabel>Comment</guilabel> page. Any text you enter here will not "
+"appear in the <guimenuitem>Business Card</guimenuitem> view but will be "
+"included when you print out the card details."
 msgstr ""
-"Страницата <guilabel>Коментар</guilabel>. Текстът, който въведете тук, "
-"няма да бъде включен в изгледа на "
-"<guimenuitem>Визитна картичка</guimenuitem>, но ще бъде включен при "
+"Страницата <guilabel>Коментар</guilabel>. Текстът, "
+"който въведете тук, няма да бъде включен в "
+"изгледа на <guimenuitem>Визитна "
+"картичка</guimenuitem>, но ще бъде включен при "
 "отпечатването на детайлите на картичката."
 
-#: index.docbook:145
+#: index.docbook:155
+#, no-c-format
 msgid ""
-"The <guilabel>User fields</guilabel> page. This lets you add "
-"information to the database file with user defined fields and data. "
-"This data is not shown in the <guimenuitem>Business "
-"Card</guimenuitem> view, nor is it printed out, but could be read by "
-"another program."
+"The <guilabel>User fields</guilabel> page. This lets you add information to "
+"the database file with user defined fields and data. This data is not shown "
+"in the <guimenuitem>Business Card</guimenuitem>"
+" view, nor is it printed out, but could be read by another program."
 msgstr ""
-"Страницата <guilabel>Потребителски полета</guilabel>. Тук можете да "
-"добавите информация към файла на базата данни - полета, дефинирани от "
-"потребителя и данни. Тези данни не се показват в изгледа "
-"<guimenuitem>Визитна картичка</guimenuitem> и не се отпечатват, но могат "
-"да бъдат четени от други програми."
+"Страницата <guilabel>Потребителски "
+"полета</guilabel>. Тук можете да добавите "
+"информация към файла на базата данни - "
+"полета, дефинирани от потребителя и "
+"данни. Тези данни не се показват в изгледа "
+"<guimenuitem>Визитна картичка</guimenuitem> и не се "
+"отпечатват, но могат да бъдат четени от "
+"други програми."
 
-#: index.docbook:154
+#: index.docbook:163
+#, no-c-format
 msgid "Viewing Data"
 msgstr "Преглед на данни"
 
-#: index.docbook:156
+#: index.docbook:165
+#, no-c-format
 msgid ""
-"&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> "
-"and <guimenuitem>Editing</guimenuitem>. You can switch between them "
-"with the <guimenu>View</guimenu> menu. The screenshot below shows "
-"the <guimenuitem>Business Card</guimenuitem> view."
+"&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> and "
+"<guimenuitem>Editing</guimenuitem>. You can switch between them with the "
+"<guimenu>View</guimenu> menu. The screen-shot below shows the "
+"<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"&kab; поддържа два основни изгледа, <guimenuitem>Визитна "
-"картичка</guimenuitem> и <guimenuitem>Редактиране</guimenuitem>. "
-"Можете да превключвате между тях от менюто <guimenu>Изглед</guimenu>. "
-"Следващия изглед показва изгледа <guimenuitem>Визитна "
+"&kab; поддържа два основни изгледа, "
+"<guimenuitem>Визитна картичка</guimenuitem> и "
+"<guimenuitem>Редактиране</guimenuitem>. Можете да "
+"превключвате между тях от менюто "
+"<guimenu>Изглед</guimenu>. Следващия изглед "
+"показва изгледа <guimenuitem>Визитна "
 "картичка</guimenuitem>."
 
-#: index.docbook:162
-msgid "Here's a screenshot of &kab;"
-msgstr "Изглед от &kab;"
+#: index.docbook:172
+#, no-c-format
+msgid "Here's a screen-shot of &kab;"
+msgstr "Ето още един изглед от &kab;"
 
-#: index.docbook:162
+#: index.docbook:172
+#, no-c-format
 msgid "&kab; in card view mode"
 msgstr "&kab; в изглед като картичка"
 
-#: index.docbook:174
+#: index.docbook:184
+#, no-c-format
 msgid ""
-"This view lets you search for an entry in &kab;'s database and see "
-"the information held for that entry."
+"This view lets you search for an entry in &kab;'s database and see the "
+"information held for that entry."
 msgstr ""
-"При този изглед, можете да търсите запис в базата данни на &kab; и да "
-"видите информацията за този запис."
+"При този изглед, можете да търсите запис в "
+"базата данни на &kab; и да видите "
+"информацията за този запис."
 
-#: index.docbook:177
+#: index.docbook:187
+#, no-c-format
 msgid ""
-"To select a particular entry you can pick it from the Drop Down box "
-"in the Toolbar or the entry navigation list, or you can step through "
-"the entries using the <guiicon>large Toolbar arrows</guiicon> or "
-"with your keyboard arrow keys."
+"To select a particular entry you can pick it from the Drop Down box in the "
+"Toolbar or the entry navigation list, or you can step through the entries "
+"using the <guiicon>large Toolbar arrows</guiicon> or with your keyboard "
+"arrow keys."
 msgstr ""
-"За да изберете специфичен запис, можете да го намерите в падащия списък в "
-"панела, или в списъка за управление на записите, или можете да пристъпвате "
-"през записите чрез големите <guiicon>стрелки</guiicon> на панела, или чрез "
-"стрелките на клавиатурата."
+"За да изберете специфичен запис, можете "
+"да го намерите в падащия списък в панела, "
+"или в списъка за управление на записите, "
+"или можете да пристъпвате през записите "
+"чрез големите <guiicon>стрелки</guiicon> на "
+"панела, или чрез стрелките на "
+"клавиатурата."
 
-#: index.docbook:182
+#: index.docbook:192
+#, no-c-format
 msgid ""
-"You can also search the database for a particular entry by using the "
-"<link "
-"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</guimenu><guimenu"
-"item>Search entries...</guimenuitem></menuchoice></link> option or "
-"by entering an email adress, first name or last name into the text "
-"box at the top of the entry navigation list."
+"You can also search the database for a particular entry by using the <link "
+"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</guimenu><guimenuitem>"
+"Search entries...</guimenuitem></menuchoice></link>"
+" option or by entering an email address, first name or last name into the "
+"text box at the top of the entry navigation list."
 msgstr ""
-"Също можете да претърсвате базата данни за специфичен запис, чрез "
-"командата <link linkend=\"kab-edit-menu\"> "
-"<menuchoice><guimenu>Редакция</guimenu> "
+"Също можете да претърсвате базата данни "
+"за специфичен запис, чрез командата <link "
+"linkend=\"kab-edit-menu\"> <menuchoice><guimenu>Редакция</guimenu> "
 "<guimenuitem>Search entries...</guimenuitem></menuchoice></link> или "
-"чрез въвеждане на адрес за ел. поща, първото или последното име в "
-"текстовата кутия на върха на списъка за управление на записите."
+"чрез въвеждане на адрес за ел. поща, "
+"първото или последното име в текстовата "
+"кутия на върха на списъка за управление "
+"на записите."
 
-#: index.docbook:189
+#: index.docbook:199
+#, no-c-format
 msgid ""
-"At the top of the main card area you can see the name as it appears "
-"in the Toolbar Drop Down box list, and possibly an important date "
-"such as the person's Birthday."
+"At the top of the main card area you can see the name as it appears in the "
+"Toolbar Drop Down box list, and possibly an important date such as the "
+"person's Birthday."
 msgstr ""
-"На върха на картичката можете да видите името, което се появява в "
-"падащия списък на панела и ако е въведена, важна дата, като рождения ден "
-"на лицето."
+"На върха на картичката можете да видите "
+"името, което се появява в падащия списък "
+"на панела и ако е въведена, важна дата, "
+"като рождения ден на лицето."
 
-#: index.docbook:193
+#: index.docbook:203
+#, no-c-format
 msgid ""
-"An address will be shown in the middle of the card. &kab; lets you "
-"enter more than one address, for - say - Home, Work and Holiday "
-"Dacha. The Drop Down box above the address then lets you select "
-"which of these is displayed."
+"An address will be shown in the middle of the card. &kab; lets you enter "
+"more than one address, for - say - Home, Work and Holiday Dacha. The Drop "
+"Down box above the address then lets you select which of these is displayed."
 msgstr ""
-"Адресът ще бъде показан по средата на картичката. &kab; ви позволява "
-"да въведете повече от един адрес, да кажем - домашен, работен и на вилата. "
-"Падащият списък над адреса ви позволява да изберете кой от тези ще бъде "
-"показан."
+"Адресът ще бъде показан по средата на "
+"картичката. &kab; ви позволява да въведете "
+"повече от един адрес, да кажем - домашен, "
+"работен и на вилата. Падащият списък над "
+"адреса ви позволява да изберете кой от "
+"тези ще бъде показан."
 
-#: index.docbook:197
+#: index.docbook:208
+#, no-c-format
 msgid ""
-"The bottom of the card shows email addresses, "
-"<acronym>URL</acronym>s and telephone numbers. Left click on the "
-"email address to send an email, on the <acronym>URL</acronym> to "
-"open a browser window. If you have entered more than one email "
-"address or <acronym>URL</acronym>, then only one will be displayed "
-"on the card followed by [..] and when you click on it a little "
-"dialog box will appear so that you can choose the address you want."
+"The bottom of the card shows email addresses, &URL;s and telephone numbers. "
+"Left click on the email address to send an email, on the &URL; to open a "
+"browser window. If you have entered more than one email address or &URL;, "
+"then only one will be displayed on the card followed by [..] and when you "
+"click on it a little dialog box will appear so that you can choose the "
+"address you want."
 msgstr ""
-"На дъното на картичката се показват адреси за ел. поща, "
-"<acronym>URL</acronym> и телефонни номера. Щракнете на адреса за ел. "
-"поща за да изпратите съобщение, на <acronym>URL</acronym> за да отидете "
-"в него. Ако сте въвели повече от един адрес за ел. поща или "
-"<acronym>URL</acronym>, тогава върху картичката ще бъде показан само "
-"един, следван от [..] и когато щракнете върху него, ще се покаже малък "
-"диалогов прозорец, от който можете да изберете адреса, който искате."
+"На дъното на картичката се показват "
+"адреси за ел. поща, &URL;s и телефонни номера. "
+"Щракнете на адреса за ел. поща за да "
+"изпратите съобщение, на &URL за да отидете в "
+"него. Ако сте въвели повече от един адрес "
+"за ел. поща или &URL, тогава върху "
+"картичката ще бъде показан само един, "
+"следван от [..] и когато щракнете върху "
+"него, ще се покаже малък диалогов "
+"прозорец, от който можете да изберете "
+"адреса, който искате."
 
-#: index.docbook:204
+#: index.docbook:215
+#, no-c-format
 msgid ""
-"The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu></link> "
-"menu has options allowing you to create and use more than one "
-"database, import your old KDE 1 or &Netscape; address book, or print "
-"one or all entries."
+"The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu></link> menu has "
+"options allowing you to create and use more than one database, import your "
+"old &kde; 1 or &Netscape; address book, or print one or all entries."
 msgstr ""
-"Менюто <link linkend=\"kab-file-menu\"><guimenu>Файл</guimenu></link> "
-"съдържа команди, позволяващи да създадете и използвате повече от една "
-"база данни, внасяне на старите адресни книги от KDE 1 или &Netscape;, или"
-"отпечатване на един или всички записи."
+"Менюто <link "
+"linkend=\"kab-file-menu\"><guimenu>Файл</guimenu></link> съдържа "
+"команди, позволяващи да създадете и "
+"използвате повече от една база данни, "
+"внасяне на старите адресни книги от &kde; 1 "
+"или &Netscape;, или отпечатване на един или "
+"всички записи."
 
-#: index.docbook:213
+#: index.docbook:224
+#, no-c-format
 msgid "Command Reference"
 msgstr "Команди"
 
-#: index.docbook:216
-msgid "The Menubar"
+#: index.docbook:227
+#, no-c-format
+msgid "The Menu bar"
 msgstr "Меню"
 
-#: index.docbook:219
+#: index.docbook:230
+#, no-c-format
 msgid "The <guimenu>File</guimenu> Menu"
 msgstr "Менюто <guimenu>Файл</guimenu>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>C</accel>reate new database</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Create New "
+"Database...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guimenuitem>С<accel>ъ</accel>здаване на нова база данни...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>С</keycap></keycombo> "
+"</shortcut> <guimenu>Файл</guimenu> <guimenuitem>"
+"Създаване на нова База Данни...</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"Use this if you want to create another &kab; address book database "
-"so that you can keep separate address books for, say, business and "
-"personal contacts."
+"Use this if you want to create another &kab; address book database so that "
+"you can keep separate address books for, say, business and personal contacts."
 msgstr ""
-"Използвайте това, ако искате да създадете още една база данни за &kab;, "
-"така че да поддържате разделени, например, служебните и личните контакти."
+"Използвайте това, ако искате да създадете "
+"още една база данни за &kab;, така че да "
+"поддържате разделени, например, "
+"служебните и личните контакти."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>O</accel>pen...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Open...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guimenuitem><accel>О</accel>твори...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>О</keycap></keycombo> "
+"</shortcut> <guimenu>Файл</guimenu> "
+"<guimenuitem>Отвори...</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<action>Open</action> a &kab; database. This menu choice is used to "
-"open a new address book that you have created."
+"<action>Open</action> a &kab; database. This menu choice is used to open a "
+"new address book that you have created."
 msgstr ""
-"<action>Отваря</action> база данни на &kab;. С тази команда можете да "
-"отворите адресна книга, която преди това сте създали."
+"<action>Отваря</action> база данни на &kab;. С тази "
+"команда можете да отворите адресна книга, "
+"която преди това сте създали."
 
-#: index.docbook:221
-msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> <guimenuitem>Open default "
-"<accel>d</accel>atabase</guimenuitem>"
+#: index.docbook:232
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Open Default Database</guimenuitem>"
 msgstr ""
-"<guimenu><accel>Ф</accel>айл</guimenu> <guimenuitem>Отваря под"
-"<accel>р</accel>азбираща се база данни</guimenuitem>"
+"<guimenu>Файл</guimenu> <guimenuitem>Отваря "
+"подразбираща се База Данни</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Opens the default</action> &kab; database."
-msgstr "<action>Отваря базата данни по подразбиране</action> на &kab;."
-
-#: index.docbook:221
-msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>S</accel>ave</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guimenuitem><accel>З</accel>апиши</guimenuitem>"
+"<action>Отваря базата данни по "
+"подразбиране</action> на &kab;."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Save</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>З</keycap></keycombo> "
+"</shortcut> <guimenu>Файл</guimenu> "
+"<guimenuitem>Запиши</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Save</action> the current &kab; database."
-msgstr "<action>Запазва</action> текущата база данни на &kab;."
-
-#: index.docbook:221
-msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>I</accel>mport</guisubmenu> "
-"<guimenuitem><accel>K</accel>DE 1 address book</guimenuitem>"
 msgstr ""
-"<guimenu><accel>Ф</accel>айл</guimenu> "
-"<guisubmenu>И<accel>м</accel>порт</guisubmenu> "
-"<guimenuitem><accel>K</accel>DE 1 адресна книга</guimenuitem>"
+"<action>Запазва</action> текущата база данни на "
+"&kab;."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"Lets you <action>import an address book</action> generated by "
-"version 1 of &kab;, changing its format to that used by version 2, "
-"and saving it with a different name. Doing this does not destroy the "
-"original address book."
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> <guimenuitem>KDE 1 "
+"Address Book</guimenuitem>"
 msgstr ""
-"Дава възможност за <action>внасяне на адресна книга</action>, създадена "
-"от версия 1 на &kab;, промяна на формата и към този, използван във версия 2 "
-"и запазването и под различно име. По този начин не унищожавате "
-"оригиналната адресна книга версия 1."
+"<guimenu>Файл</guimenu> <guisubmenu>Импорт</guisubmenu> "
+"<guimenuitem>KDE 1 Адресна Книга</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>I</accel>mport</guisubmenu> "
-"<guimenuitem><accel>N</accel>etscape address book</guimenuitem>"
+"Lets you <action>import an address book</action> generated by version 1 of "
+"&kab;, changing its format to that used by version 2, and saving it with a "
+"different name. Doing this does not destroy the original address book."
 msgstr ""
-"<guimenu><accel>Ф</accel>айл</guimenu> "
-"<guisubmenu>И<accel>м</accel>порт</guisubmenu> "
-"<guimenuitem><accel>N</accel>etscape адресна книга</guimenuitem>"
+"Дава възможност за <action>внасяне на "
+"адресна книга</action>, създадена от версия 1 "
+"на &kab;, промяна на формата и към този, "
+"използван във версия 2 и запазването и под "
+"различно име. По този начин не "
+"унищожавате оригиналната адресна книга "
+"версия 1."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"Lets you <action>import an address book</action> generated by "
-"&Netscape;."
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> "
+"<guimenuitem>Netscape Address Book</guimenuitem>"
 msgstr ""
-"Дава възможност за <action>внасяне на адресна книга</action>, създадена "
-"от &Netscape;."
+"<guimenu>Файл</guimenu> <guisubmenu>Импорт</guisubmenu> "
+"<guimenuitem>Netscape Адресна Книга</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
+msgid "Lets you <action>import an address book</action> generated by &Netscape;."
+msgstr ""
+"Дава възможност за <action>внасяне на "
+"адресна книга</action>, създадена от &Netscape;."
+
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
-"entry</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entry...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guisubmenu>Пе<accel>ч</accel>ат</guisubmenu> <guimenuitem>Print "
-"entry</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>П</keycap></keycombo> "
+"</shortcut> <guimenu>Файл</guimenu> <guisubmenu>Печат</guisubmenu> "
+"<guimenuitem>Print entry...</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid "To print out all details of the current entry."
 msgstr "За печат на всички детайли на този запис."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
-"entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entries...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guisubmenu>Пе<accel>ч</accel>ат</guisubmenu> <guimenuitem>Print "
-"entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>П</keycap></keycombo> "
+"</shortcut> <guimenu>Файл</guimenu> <guisubmenu>Печат</guisubmenu> "
+"<guimenuitem>Print entries...</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid "To print out all details of all entries in the database."
-msgstr "За печат на всички детайли на всички записи в базата данни."
-
-#: index.docbook:221
-msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>Q</accel>uit</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Ф</accel>айл</guimenu> "
-"<guimenuitem><accel>И</accel>зход</guimenuitem>"
+"За печат на всички детайли на всички "
+"записи в базата данни."
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Из</keycap></keycombo>"
+" </shortcut> <guimenu>Файл</guimenu> "
+"<guimenuitem>Изход</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Quits</action> &kab;."
 msgstr "<action>Затваря</action> &kab;."
 
-#: index.docbook:332
+#: index.docbook:358
+#, no-c-format
 msgid "The <guimenu>Edit</guimenu> Menu"
 msgstr "Менюто <guimenu>Редакция</guimenu>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>A</accel>dd entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Add Entry...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem><accel>A</accel>dd entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Д</keycap></keycombo> "
+"</shortcut> <guimenu>Редакция</guimenu> <guimenuitem>Добави "
+"нов запис</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<action>Add a new entry to the address book</action>. This does the "
-"same as using the Toolbar <guiicon>New entry</guiicon> icon."
+"<action>Add a new entry to the address book</action>. This does the same as "
+"using the Toolbar <guiicon>New entry</guiicon> icon."
 msgstr ""
-"<action>Добавя нов запис в адресната книга</action>. Можете да използвате "
-"за същото бутона <guiicon>Нов запис</guiicon> от главния панел."
+"<action>Добавя нов запис в адресната "
+"книга</action>. Можете да използвате за "
+"същото бутона <guiicon>Нов запис</guiicon> от "
+"главния панел."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>E</accel>dit entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Edit entry...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem><accel>E</accel>dit entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Промяна</guimenu> <guimenuitem>Промяна "
+"на запис...</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"If you are in Business card view you can use this menu item (or the "
-"Toolbar <guiicon>Edit entry</guiicon> icon) when you want to "
-"<action>edit the current entry</action>, rather than changing to "
+"If you are in Business card view you can use this menu item (or the Toolbar "
+"<guiicon>Edit Entry...</guiicon> icon) when you want to <action>edit the "
+"current entry</action>, rather than changing to "
 "<guimenuitem>Editing</guimenuitem> view with the "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Editing</guimenuitem>"
 "</menuchoice> menu choice."
 msgstr ""
-"Ако изгледа е Визитна картичка, можете да използвате тази команда (или "
-"бутона <guiicon>Промяна на запис</guiicon> от главния панел), когато искате "
-"да <action>редактирате текущия запис</action>, вместо да сменяте изгледа "
-"на <guimenuitem>Редактиране<guimenuitem> от менюто "
-"<guimenu>Изглед</guimenu><guimenuitem>Редактиране</guimenuitem>."
+"Ако изгледа е Визитна картичка, можете да "
+"използвате тази команда (или бутона "
+"<guiicon>Промяна на запис...</guiicon> от главния "
+"панел), когато искате да <action>редактирате "
+"текущия запис</action>, вместо да сменяте "
+"изгледа на <guimenuitem>Редактиране<guimenuitem> от "
+"менюто "
+"<guimenu>Изглед</guimenu><guimenuitem>"
+"Редактиране</guimenuitem>."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>R</accel>emove entry</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Remove Entry</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem><accel>И</accel>зтриване на запис</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Из</keycap></keycombo>"
+" </shortcut> <guimenu>Редакция</guimenu> "
+"<guimenuitem>Изтриване на Запис</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid "Remove the current entry from the database."
 msgstr "Премахва текущия запис от базата данни."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>M</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Send "
-"an <accel>e</accel>mail.</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Send an Email</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>M</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> <guimenuitem>Изпр"
-"<accel>а</accel>ща ел. поща</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>М</keycap></keycombo> "
+"</shortcut> <guimenu>Редакция</guimenu> <guimenuitem>Изпраща "
+"ел. поща.</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
 "Does the same as <mousebutton>left</mousebutton> clicking on the "
-"<guilabel>email:</guilabel> line at the bottom of the Business card."
+"<guilabel>Email</guilabel> line at the bottom of the Business card."
 msgstr ""
-"Върши същото, като щракане с <mousebutton>левия бутон</mousebutton> "
-"върху реда <guilabel>ел. поща:</guilabel> на дъното на Визитната картичка."
+"Върши същото, като щракане с <mousebutton>левия "
+"бутон</mousebutton> върху реда <guilabel>Ел. "
+"поща:</guilabel> на дъното на Визитната "
+"картичка."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>B</accel>rowse</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Browse</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem>Прегле<accel>д</accel></guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>П</keycap></keycombo> "
+"</shortcut> <guimenu>Редакция</guimenu> "
+"<guimenuitem>Преглед</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<action>Open a browser</action> with the <acronym>URL</acronym> "
-"stored for the current &kab; entry."
+"<action>Open a browser</action> with the &URL; stored for the current &kab; "
+"entry."
 msgstr ""
-"<action>Отваря browser</action> с <acronym>URL</acronym> адреса на "
+"<action>Отваря browser</action> с &URL; адреса на "
 "текущия запис в &kab;."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>S</accel>earch entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Search "
+"Entries...</guimenuitem>"
 msgstr ""
-"<shortcut> "
-"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> "
-"</shortcut> <guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem><accel>S</accel>earch entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Т</keycap></keycombo> "
+"</shortcut> <guimenu>Редакция</guimenu> <guimenuitem>Търсене "
+"на Записи...</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid "<action>Search the database</action> for a particular entry."
-msgstr "<action>Претърсва базата данни</action> за специфичен запис."
-
-#: index.docbook:334
-msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Enable all "
-"<accel>m</accel>essages</guimenuitem>"
 msgstr ""
-"<guimenu><accel>Р</accel>едакция</guimenu> <guimenuitem>Разрешава вс"
-"<accel>и</accel>чки съобщения</guimenuitem>"
+"<action>Претърсва базата данни</action> за "
+"специфичен запис."
 
-#: index.docbook:334
-msgid ""
-"There are some messages that might be accidentally disabled by the "
-"user, such as one at start up informing him how to import his old "
-"KDE 1 addressbook. <action>Selecting this menu item makes all such "
-"messages reappear. </action>"
+#: index.docbook:360
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Enable all Messages</guimenuitem>"
 msgstr ""
-"Има някои съобщения, които случайно може да са забранени от потребителя, "
-"като онова при стартиране, което го информира колко важно е да се внесе "
-"адресната книга от KDE 1. <action>Избирайки тази команда, позволявате на "
-"всички съобщения да се появяват</action>."
+"<guimenu>Редакция</guimenu> <guimenuitem>Разрешава "
+"всички Съобщения</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>C</accel>onfigure this file...</guimenuitem>"
+"There are some messages that might be accidentally disabled by the user, "
+"such as one at start up informing him how to import his old &kde; 1 "
+"addressbook. <action>Selecting this menu item makes all such messages "
+"reappear. </action>"
 msgstr ""
-"<guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem>Кон<accel>ф</accel>игуриране на този файл...</guimenuitem>"
+"Има някои съобщения, които случайно може "
+"да са забранени от потребителя, като "
+"онова при стартиране, което го информира "
+"колко важно е да се внесе адресната книга "
+"от &kde; 1. <action>Избирайки тази команда, "
+"позволявате на всички съобщения да се "
+"появяват. </action>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Configure this File...</guimenuitem>"
+msgstr ""
+"<guimenu>Редакция</guimenu> <guimenuitem>Конфигурира "
+"този файл...</guimenuitem>"
+
+#: index.docbook:360
+#, no-c-format
 msgid ""
 "<action>Lets you configure some parameters of the current address "
-"book</action>. At present the <guilabel>User fields</guilabel> tab "
-"page does not function, but the <guilabel>Address types</guilabel> "
-"tab page can be used to set up default address <guilabel>Address "
-"type</guilabel> values."
+"book</action>. At present the <guilabel>User fields</guilabel>"
+" tab page does not function, but the <guilabel>Address types</guilabel> tab "
+"page can be used to set up default address <guilabel>Address "
+"types</guilabel> values."
 msgstr ""
-"Можете да <action>конфигурирате някои параметри на текущата адресна "
-"книга</action>. Понастоящем страницата <guilabel>Потребителски "
-"полета</guilabel> не функционира, но страницата <guilabel>Типове "
-"адреси</guilabel> може да бъде използвана за да се укажат стойностите "
-"по подразбиране за <guilabel>Заглавие:</guilabel> на адреса. "
+"Можете да <action>конфигурирате някои "
+"параметри на текущата адресна книга</action>"
+". Понастоящем страницата "
+"<guilabel>Потребителски полета</guilabel> не "
+"функционира, но страницата <guilabel>Типове "
+"адреси</guilabel> може да бъде използвана за "
+"да се укажат стойностите по подразбиране "
+"за <guilabel>Заглавие:</guilabel> на адреса. "
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>P</accel>references for the KDE address "
-"book...</guimenuitem>"
+"<guimenu>Edit</guimenu> <guimenuitem>Preferences for KDE Address "
+"Book...</guimenuitem>"
 msgstr ""
-"<guimenu><accel>Р</accel>едакция</guimenu> "
-"<guimenuitem>Предпо<accel>ч</accel>итания за адресната книга на "
-"KDE...</guimenuitem>"
+"<guimenu>Редакция</guimenu> <guimenuitem>Предпочитания "
+"за Адресната Книга на KDE...</guimenuitem>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid "Allows you to set up some general &kab; settings."
-msgstr "Ви позволява да направите някои основни настройки на &kab;."
+msgstr ""
+"Ви позволява да направите някои основни "
+"настройки на &kab;."
 
-#: index.docbook:452
+#: index.docbook:492
+#, no-c-format
 msgid "The <guimenu>View</guimenu> Menu"
 msgstr "Менюто <guimenu>Изглед</guimenu>"
 
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> "
-"<guimenuitem><accel>B</accel>usiness card</guimenuitem>"
+#: index.docbook:494
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Business Card</guimenuitem>"
 msgstr ""
-"<guimenu><accel>И</accel>зглед</guimenu> "
-"<guimenuitem><accel>В</accel>изитна картичка</guimenuitem>"
+"<guimenu>Изглед</guimenu> <guimenuitem>Визитна "
+"картичка</guimenuitem>"
 
-#: index.docbook:454
+#: index.docbook:494
+#, no-c-format
 msgid "Show the normal card index view."
-msgstr "Показва нормалния изглед на Визитна картичка."
-
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> "
-"<guimenuitem><accel>E</accel>diting</guimenuitem>"
 msgstr ""
-"<guimenu><accel>И</accel>зглед</guimenu> "
-"<guimenuitem>Р<accel>е</accel>дактиране</guimenuitem>"
+"Показва нормалния изглед на Визитна "
+"картичка."
 
-#: index.docbook:454
-msgid ""
-"<action>Change</action> the main &kab; window to allow the entry to "
-"be edited."
+#: index.docbook:494
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Editing</guimenuitem>"
 msgstr ""
-"<action>Променя</action> главния прозорец на &kab;, така че текущия запис "
-"да може за бъде променян."
+"<guimenu>Изглед</guimenu> "
+"<guimenuitem>Редактиране</guimenuitem>"
 
-#: index.docbook:454
+#: index.docbook:494
+#, no-c-format
 msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show main "
-"toolbar</guimenuitem>"
+"<action>Change</action> the main &kab; window to allow the entry to be "
+"edited."
 msgstr ""
-"<guimenu><accel>И</accel>зглед</guimenu> <guimenuitem>Показва главния "
+"<action>Променя</action> главния прозорец на &kab;, "
+"така че текущия запис да може за бъде "
+"променян."
+
+#: index.docbook:494
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Main Toolbar</guimenuitem>"
+msgstr ""
+"<guimenu>Изглед</guimenu> <guimenuitem>Показва главния "
 "панел</guimenuitem>"
 
-#: index.docbook:454
+#: index.docbook:494
+#, no-c-format
 msgid "<action>Show or hide the main toolbar</action>."
-msgstr "<action>Показва или скрива главния панел</action>."
-
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show entry "
-"navigation toolbar</guimenuitem>"
 msgstr ""
-"<guimenu><accel>И</accel>зглед</guimenu> <guimenuitem>Показва панела за "
-"навигация на записи</guimenuitem>"
+"<action>Показва или скрива главния "
+"панел</action>."
 
-#: index.docbook:454
+#: index.docbook:494
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation "
+"Toolbar</guimenuitem>"
+msgstr ""
+"<guimenu>Изглед</guimenu> <guimenuitem>Показва панела "
+"за навигация на записи</guimenuitem>"
+
+#: index.docbook:494
+#, no-c-format
 msgid ""
 "<action>Show or hide the toolbar used to navigate through your "
 "database</action>."
 msgstr ""
-"<action>Показва или скрива панелът, използван за навигация през базата "
+"<action>Показва или скрива панелът, "
+"използван за навигация през базата "
 "данни</action>."
 
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show entry "
-"navigation list</guimenuitem>"
+#: index.docbook:494
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation List</guimenuitem>"
 msgstr ""
-"<guimenu><accel>И</accel>зглед</guimenu> <guimenuitem>Show entry "
-"navigation list</guimenuitem>"
+"<guimenu>Изглед</guimenu> <guimenuitem>Show entry navigation "
+"list</guimenuitem>"
 
-#: index.docbook:454
+#: index.docbook:494
+#, no-c-format
 msgid ""
 "<action>Show or hide the entry list at the left side of &kab;'s "
 "window.</action>."
 msgstr ""
-"<action>Показва или скрива списъка със записи от лявата страна на главния "
+"<action>Показва или скрива списъка със "
+"записи от лявата страна на главния "
 "прозорец на &kab;</action>."
 
-#: index.docbook:505
+#: index.docbook:552
+#, no-c-format
 msgid "The <guimenu>Help</guimenu> Menu"
 msgstr "Менюто <guimenu>Помощ</guimenu>"
 
-#: index.docbook:507
-msgid ""
-"<shortcut><keycap>F1</keycap> </shortcut> "
-"<guimenu><accel>H</accel>elp</guimenu> "
-"<guimenuitem><accel>C</accel>ontents</guimenuitem>"
-msgstr ""
-"<shortcut><keycap>F1</keycap> </shortcut> "
-"<guimenu>Помо<accel>щ</accel></guimenu> "
-"<guimenuitem><accel>С</accel>ъдържание</guimenuitem>"
-
-#: index.docbook:507
-msgid "<action>View this manual</action>."
-msgstr "<action>Показва това ръководство</action>."
-
-#: index.docbook:507
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> "
-"<guimenuitem><accel>R</accel>eport Bug...</guimenuitem>"
-msgstr ""
-"<guimenu>Помо<accel>щ</accel></guimenu> "
-"<guimenuitem><accel>Р</accel>апорт за Грешки...</guimenuitem>"
-
-#: index.docbook:507
-msgid "Use this to <action>report any bugs you may find with &kab;</action>."
-msgstr ""
-"Използвайте това за да <action>съобщите за грешки, които сте намерили в "
-"&kab;</action>."
-
-#: index.docbook:507
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> "
-"<guimenuitem><accel>A</accel>bout &kghostview;</guimenuitem>"
-msgstr ""
-"<guimenu>Помо<accel>щ</accel></guimenu> "
-"<guimenuitem><accel>О</accel>тносно &kab;</guimenuitem>"
-
-#: index.docbook:507
-msgid ""
-"Use this to <action>see the version number of &kab; as well as brief "
-"information about the program author, copyright and license "
-"agreement</action>."
-msgstr ""
-"Използвайте това за да <action>видите номера на версията на &kab;, както и "
-"кратка информация за автора на програмата, авторските права и "
-"лицензионното споразумение</action>."
-
-#: index.docbook:507
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> <guimenuitem>About "
-"<accel>K</accel>DE</guimenuitem>"
-msgstr ""
-"<guimenu>Помо<accel>щ</accel></guimenu> <guimenuitem>Относно "
-"<accel>K</accel>DE</guimenuitem>"
-
-#: index.docbook:507
-msgid ""
-"To view <action>brief information about the K Desktop "
-"Environment</action>."
-msgstr "За да видите <action>кратка информация за KDE</action>."
-
-#: index.docbook:553
+#: index.docbook:562
+#, no-c-format
 msgid "Questions and Answers"
 msgstr "Въпроси и отговори"
 
-#: index.docbook:558
+#: index.docbook:568
+#, no-c-format
 msgid "Where does &kab; store the address book?"
 msgstr "Къде &kab; запазва адресната книга?"
 
-#: index.docbook:559
+#: index.docbook:571
+#, no-c-format
 msgid ""
 "The default address book database is stored at "
 "<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, any new "
 "databases that you have created will be stored wherever you put them."
 msgstr ""
-"Адресната книга по подразбиране, се записва в "
-"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>. Новите бази "
-"данни за адресни книги ще бъдат записани там, където укажете."
+"Адресната книга по подразбиране, се "
+"записва в "
+"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>. Новите "
+"бази данни за адресни книги ще бъдат "
+"записани там, където укажете."
 
-#: index.docbook:565
+#: index.docbook:580
+#, no-c-format
 msgid "What configuration files does &kab; use?"
-msgstr "Какви конфигурационни файлове бяха използвани от &kab;?"
-
-#: index.docbook:566
-msgid ""
-"The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds "
-"your &kab; <quote>preferences</quote> and the command strings for "
-"mail and talk."
 msgstr ""
-"Във файла <filename>~/.kde/share/apps/kab/kab.config</filename> се записват "
-"вашите <quote>настройки</quote> за &kab;, както и командите за ел. поща и "
+"Какви конфигурационни файлове бяха "
+"използвани от &kab;?"
+
+#: index.docbook:583
+#, no-c-format
+msgid ""
+"The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds your "
+"&kab; <quote>preferences</quote> and the command strings for mail and talk."
+msgstr ""
+"Във файла <filename>~/.kde/share/apps/kab/kab.config</filename>"
+" се записват вашите <quote>настройки</quote> за "
+"&kab;, както и командите за ел. поща и "
 "разговори."
 
-#: index.docbook:569
+#: index.docbook:587
+#, no-c-format
 msgid ""
 "<filename>~/.kde/share/config/kabrc</filename> holds general &kab; "
-"appearance parameters and a list of the most recently visited "
-"address books."
+"appearance parameters and a list of the most recently visited address books."
 msgstr ""
-"<filename>~/.kde/share/config/kabrc</filename> съдържа основните настройки "
-"на &kab; и списък с последните използвани адресни книги."
+"<filename>~/.kde/share/config/kabrc</filename> съдържа "
+"основните настройки на &kab; и списък с "
+"последните използвани адресни книги."
 
-#: index.docbook:571
+#: index.docbook:591
+#, no-c-format
 msgid ""
-"Don't modify these files unless you really know what you are doing "
-"(and have made a back up)."
+"Don't modify these files unless you really know what you are doing (and have "
+"made a back up)."
 msgstr ""
-"Не променяйте тези файлове, освен ако наистина знаете какво правите "
-"(и сте си направили резервно копие)."
+"Не променяйте тези файлове, освен ако "
+"наистина знаете какво правите (и сте си "
+"направили резервно копие)."
 
-#: index.docbook:582
+#: index.docbook:602
+#, no-c-format
 msgid "Credits and License"
 msgstr "Лиценз"
 
-#: index.docbook:584
+#: index.docbook:604
+#, no-c-format
 msgid "&kab;"
 msgstr "&kab;"
 
-#: index.docbook:585
+#: index.docbook:605
+#, no-c-format
 msgid "Program copyright 1996-2001 Mirko Boehm <email>mirko@kde.org</email>"
 msgstr ""
 "Запазени права за програмата 1996-2001 Mirko Boehm "
 "<email>mirko@kde.org</email>"
 
-#: index.docbook:588
+#: index.docbook:608
+#, no-c-format
 msgid "Documentation copyright 2001"
 msgstr "Запазени права за документацията 2001"
 
-#: index.docbook:590
+#: index.docbook:610
+#, no-c-format
 msgid "Mirko Boehm <email>mirko@kde.org</email>"
 msgstr "Mirko Boehm <email>mirko@kde.org</email>"
 
-#: index.docbook:590
+#: index.docbook:610
+#, no-c-format
 msgid "Pam Roberts <email>pam.roberts@btinternet.com</email>"
 msgstr "Pam Roberts <email>pam.roberts@btinternet.com</email>"
 
-#: index.docbook:602
+#: index.docbook:622
+#, no-c-format
 msgid "Installation"
 msgstr "Инсталация"
-
-#: index.docbook:604
-msgid ""
-"&kab; is part of the kdeutils package which is an essential part of "
-"the &kde; 2 project."
-msgstr "&kab; е част от пакета kdeutils, който е съставна част от проекта &kde; 2."
-
-#: index.docbook:607
-msgid ""
-"For details of &kde; visit <ulink "
-"url=\"http://www.kde.org\">http://www.kde.org</ulink>."
-msgstr ""
-"За подробности за &kde;, посетете <ulink "
-"url=\"http://www.kde.org\">http://www.kde.org</ulink>."
-
-#: index.docbook:610
-msgid ""
-"Source code for &kab; can be found in the kdeutils package on <ulink "
-"url=\"ftp://ftp.kde.org/pub/kde/\">ftp://ftp.kde.org/pub/kde/</ulink>"
-", the main ftp site of the &kde; project."
-msgstr ""
-"Изходния код на &kab; може да бъде намерен в пакета kdeutils в <ulink "
-"url=\"ftp://ftp.kde.org/pub/kde/\">ftp://ftp.kde.org/pub/kde/</ulink>"
-", главното ftp място на проекта &kde;."
-

@@ -6,885 +6,921 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2001-02-09 01:25+0100\n"
-"PO-Revision-Date: 2001-07-26 09:59MET\n"
-"Last-Translator: Jaime Robles <jaime@kde.org>\n"
-"Language-Team: Spanish <kde-es@kyb.uni-sttugart.de>\n"
+"PO-Revision-Date: 2002-02-21 11:35CET\n"
+"Last-Translator: Pablo de Vicente <vicente@oan.es>\n"
+"Language-Team: español <kde-es@kyb.uni-stuttgart.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.2\n"
+"X-Generator: KBabel 0.9.5\n"
 
-#: index.docbook:14
+#: index.docbook:13
+#, no-c-format
 msgid "The &kab; Handbook"
-msgstr ""
+msgstr "El manual de &kab;"
 
-#: index.docbook:17
+#: index.docbook:16
+#, no-c-format
 msgid ""
 "<firstname>Mirko</firstname> <surname>Boehm</surname> <affiliation> "
 "<address><email>mirko@kde.org</email></address> </affiliation>"
 msgstr ""
+"<firstname>Mirko</firstname> <surname>Boehm</surname> <affiliation> "
+"<address><email>mirko@kde.org</email></address> </affiliation>"
 
-#: index.docbook:25
+#: index.docbook:24
+#, no-c-format
 msgid ""
 "<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
 "<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 msgstr ""
+"<firstname>Pam</firstname> <surname>Roberts</surname> <affiliation> "
+"<address><email>pam.roberts@btinternet.com</email></address> </affiliation>"
 
-#: index.docbook:33
+#: index.docbook:32
+#, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
 msgstr ""
+"<othercredit "
+"role=\"translator\"><firstname>Mario</firstname><surname>Teijeiro "
+"Otero</surname><affiliation><address><email>emeteo@escomposlinux.org</email>"
+"</address></affiliation><contrib>Traductor</contrib></othercredit>"
 
-#: index.docbook:38
+#: index.docbook:37
+#, no-c-format
 msgid "Mirko Boehm, Pam Roberts"
+msgstr "Mirko Boehm, Pam Roberts"
+
+#: index.docbook:45
+#, no-c-format
+msgid "&kab; (&kde; Address book) is a simple address book for &kde;."
 msgstr ""
+"&kab; (Libreta de dirección de &kde;) es un simple libro de direcciones "
+"para &kde;."
 
-#: index.docbook:46
-#, fuzzy
-msgid ""
-"&kab; (KDE Addressbook) is a simple address book for &kde;. This document "
-"describes version 2.0."
-msgstr "&KDE Libreta de direcciones es para versión."
-
-#: index.docbook:50
-#, fuzzy
+#: index.docbook:49
+#, no-c-format
 msgid "<keyword>KDE</keyword>"
 msgstr "<keyword>KDE</keyword>"
 
-#: index.docbook:51
+#: index.docbook:50
+#, no-c-format
 msgid "<keyword>Kab</keyword>"
-msgstr ""
+msgstr "<keyword>Kab</keyword>"
+
+#: index.docbook:51
+#, no-c-format
+msgid "kdeutils"
+msgstr "kdeutils"
 
 #: index.docbook:52
-msgid "kdeutils"
-msgstr ""
-
-#: index.docbook:53
+#, no-c-format
 msgid "address book"
-msgstr ""
+msgstr "libreta de direcciones"
 
-#: index.docbook:59
-#, fuzzy
+#: index.docbook:58
+#, no-c-format
 msgid "Introduction"
-msgstr "Introducción"
+msgstr "Introducción "
 
-#: index.docbook:61
-#, fuzzy
+#: index.docbook:60
+#, no-c-format
 msgid ""
-"&kab; is an address book for use with &kde;2 that lets you save names, "
-"postal, email, talk and <acronym>www</acronym>"
+"&kab; is an address book for use with &kde; that lets you save names, "
+"postal, email, talk and <acronym>WWW</acronym>"
 " addresses, telephone numbers, important dates and other information in a "
 "card index form."
-msgstr "es para con correoe y<acronym></acronym> y Otros."
+msgstr ""
+"&kab; es una libreta de direcciones para usar con &kde; que permite guardar "
+"nombres, direcciones postales, de correo, de habla y <acronym>WWW</acronym>"
+"; números de teléfonos, fechas importantes y otra información en un "
+"índice de tarjetas."
 
 #: index.docbook:68
+#, no-c-format
 msgid "Using &kab;"
-msgstr ""
+msgstr "Usando &kab;"
 
 #: index.docbook:71
+#, no-c-format
 msgid "Entering Data"
-msgstr ""
+msgstr "Introduciendo datos"
 
 #: index.docbook:73
-#, fuzzy
+#, no-c-format
 msgid ""
-"You can import address book data from the KDE 1 version of &kab; or from "
+"You can import address book data from the &kde; 1 version of &kab; or from "
 "&Netscape; by using the "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Import</guisubmenu>"
 "</menuchoice> menu option."
 msgstr ""
-"Usted el KDE versió&n o por el<menuchoice><guimenu> "
-"Archivo</guimenu><guisubmenu> Importar</guisubmenu>."
+"Se puede importar datos de la libreta de direcciones de la versión de &kde; "
+"1 de &kab; o desde &Netscape; usando la opción de menú "
+"<menuchoice><guimenu>Archivo</guimenu> "
+"<guisubmenu>Importar</guisubmenu></menuchoice>."
 
 #: index.docbook:78
-#, fuzzy
+#, no-c-format
 msgid ""
 "You can also add individual entries by choosing the "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Add "
 "Entry...</guimenuitem></menuchoice> option, which brings up the following "
 "dialog box:"
 msgstr ""
-"Usted Añadir por el<menuchoice><guimenu> Editar</guimenu><guimenuitem> "
-"Añadir</guimenuitem></menuchoice> el:"
+"También se puede añadir entradas individuales eligiendo en la opción "
+"<menuchoice> <guimenu>Editar</guimenu><guimenuitem>Añadir "
+"entrada...</guimenuitem></menuchoice>, la cual muestra el siguiente cuadro "
+"de diálogo."
 
 #: index.docbook:83
-#, fuzzy
-msgid "Here's another screenshot of &kab;"
-msgstr "s"
+#, no-c-format
+msgid "Here's another screen-shot of &kab;"
+msgstr "Aquí hay otra captura de &kab;"
 
 #: index.docbook:83
-#, fuzzy
+#, no-c-format
 msgid "&kab; in edit view mode"
-msgstr "Vista"
+msgstr "    ; en modo edición&kab;"
 
 #: index.docbook:95
-#, fuzzy
+#, no-c-format
 msgid ""
 "This view is used to add or change the details for a card. It has four main "
 "tab pages; <guilabel>Person</guilabel>, <guilabel>Telephone</guilabel>, "
 "<guilabel>Address</guilabel> and <guilabel>Birthday</guilabel>."
 msgstr ""
-"Vista es usado a Añadir o el para<guilabel></guilabel><guilabel> "
-"Tel�ono</guilabel><guilabel> Dirección</guilabel> y<guilabel> "
-"Cumpleaños</guilabel>."
+"Esta vista se usa para añadir o cambiar detalles de una tarjeta. Tiene "
+"cinco pestañas; <guilabel>Persona</guilabel>, "
+"<guilabel>Teléfono</guilabel>, <guilabel> Direcciones</guilabel>, "
+"<guilabel>Fecha de nacimiento</guilabel>  y <guilabel>Comentarios</guilabel>"
 
-#: index.docbook:99
-#, fuzzy
+#: index.docbook:100
+#, no-c-format
 msgid ""
 "The <guilabel>Person</guilabel> tab page is where you enter the person's "
-"name and Email and Talk addresses and any associated "
-"<acronym>URL</acronym>s. Whatever you enter in the <guilabel>Formatted "
-"name:</guilabel> text box will appear as the entry's name in the entry "
-"navigation list, the Toolbar Drop Down list and at the top left of the card. "
-"If you do not enter anything in the <guilabel>Formatted name:</guilabel> "
-"text box then &kab; will automatically generate a formatted name such as "
-"<quote>Holmes, Sherlock</quote>."
+"name and email and Talk addresses and any associated &URL;s. Whatever you "
+"enter in the <guilabel>Formatted name:</guilabel> text box will appear as "
+"the entry's name in the entry navigation list, the Toolbar Drop Down list "
+"and at the top left of the card. If you do not enter anything in the "
+"<guilabel>Formatted name:</guilabel> text box then &kab; will automatically "
+"generate a formatted name such as <quote>Holmes, Sherlock</quote>."
 msgstr ""
-"<guilabel></guilabel> es donde el s nombre y Correo Electrónico y Hablar "
-"y<acronym> URL</acronym> s el<guilabel> nombre</guilabel> Texto como el s "
-"nombre el lista el Barra de Herramientas Abajo lista y el izquierda el "
-"el<guilabel> nombre</guilabel> Texto nombre como<quote></quote>."
+"La pestaña <guilabel>Persona</guilabel> es el lugar donde se introduce el "
+"nombre y las direcciones de correo electrónico, de charla y &URL; "
+"asociadas. Todo lo que se introduzca en el cuadro de texto <guilabel>Nombre "
+"formateado</guilabel> aparecerá como nombre de entrada en la lista de "
+"navegación de entradas, en la lista de selección en la barra de "
+"herramientas y en la parte superior izquierda de la tarjeta. Si no se "
+"introduce nada en cuadro de texto <guilabel>nombre formateado</guilabel> "
+"&kab; automáticamente generará un nombre formateado tal como "
+"<quote>Holmes, Sherlock</quote>."
 
-#: index.docbook:108
-#, fuzzy
+#: index.docbook:109
+#, no-c-format
 msgid ""
 "The <guilabel>Telephone</guilabel> tab page is, obviously, where you enter "
 "the telephone number(s)."
-msgstr "<guilabel> Tel�ono</guilabel> es donde el s."
+msgstr ""
+"La pestaña <guilabel>Teléfono</guilabel> es, obviamente, donde se "
+"introduce el/los número/s de teléfono/s."
 
-#: index.docbook:111
-#, fuzzy
+#: index.docbook:112
+#, no-c-format
 msgid ""
 "The <guilabel>Addresses</guilabel> tab page lets you enter one or more "
 "addresses for this entry."
-msgstr "<guilabel></guilabel> o para."
+msgstr ""
+"La pestaña <guilabel>Direcciones</guilabel> permite introducier una o más "
+"direcciones para esta entrada."
 
-#: index.docbook:114
-#, fuzzy
+#: index.docbook:115
+#, fuzzy, no-c-format
 msgid ""
 "For each address you want to enter, click on the <guibutton>Add</guibutton> "
 "button. It will display a drop down list containing the address types you "
 "have set up with the "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Configure this "
 "file...</guimenuitem></menuchoice> option. Choose one and it will appear in "
-"the <guilabel>Address type</guilabel> text box where you can edit it if "
+"the <guilabel>Address types</guilabel> text box where you can edit it if "
 "required."
 msgstr ""
-"a encendido el<guibutton> Añadir</guibutton> lista el con "
-"el<menuchoice><guimenu> Editar</guimenu><guimenuitem> "
-"archivo</guimenuitem></menuchoice> Elegir y el<guilabel> "
-"Dirección</guilabel> Texto donde."
+"Por cada dirección que se introduzca, haciendo click en el botón "
+"<guibutton>añadir</guibutton> mostrará una lista desplegable que contiene "
+"los tipos de dirección que se hayan configurado en la opción  "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Configurar este "
+"archivo...</guimenuitem></menuchoice>. Si se elige una aparecerá en el "
+"cuadro de texto <guilabel>Tipo de dirección</guilabel> donde se puede "
+"editar si se requiere."
 
-#: index.docbook:114
-#, fuzzy
+#: index.docbook:115
+#, no-c-format
 msgid "Then fill in the address details."
-msgstr "el."
+msgstr "Entonces se rellena los detalles de la dirección."
 
-#: index.docbook:114
-#, fuzzy
+#: index.docbook:115
+#, no-c-format
 msgid ""
-"Pressing the <guibutton>Organisation...</guibutton>"
+"Pressing the <guibutton>Organization...</guibutton>"
 " button brings up another dialog box where you can enter details of any "
-"organisation that the person works for and his position within it. However, "
+"organization that the person works for and his position within it. However, "
 "the current version of &kab; does not display this information in the "
 "<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"el<guibutton> Organización</guibutton> donde el para y Posición el El "
-"actual versión el<guimenuitem> Negocios</guimenuitem> Vista."
+"Presionando el botón <guibutton>Organización....</guibutton> muestra otro "
+"cuadro de diálogo dónde se puede introducir detalles de cualquier "
+"organización en la que la persona trabaja y su posición en ella. Sin "
+"embargo, la versión actual de &kab; no muestra esta información en la "
+"vista <guimenuitem>Tarjeta de negocios</guimenuitem>."
 
-#: index.docbook:129
-#, fuzzy
+#: index.docbook:137
+#, no-c-format
 msgid ""
 "The <guilabel>Birthday</guilabel>"
 " tab page is where you select a significant date to appear at the top right "
 "of the card view. It will only appear if you have checked the <guilabel>I "
 "know this person's birthday:</guilabel> box."
 msgstr ""
-"<guilabel> Cumpleaños</guilabel> es donde Fecha a el derecha el Vista "
-"el<guilabel> I s</guilabel>."
+"La pestaña <guilabel>Fecha de nacimiento</guilabel>"
+" es donde se seleccionan fechas significantes que aparecerán en la parte "
+"superior izquierda de la vista de tarjetas. Sólo aparecerán si se ha "
+"seleccionado <guilabel>Conozco la fecha de nacimiento de esta "
+"persona:</guilabel>."
 
-#: index.docbook:134
-#, fuzzy
+#: index.docbook:142
+#, no-c-format
 msgid ""
 "You will probably need to experiment with your entries in the "
 "<guilabel>Person</guilabel> and <guilabel>Addresses</guilabel> tab pages to "
 "get the kind of result you want in the Card view."
-msgstr "Usted a con el<guilabel></guilabel> y<guilabel></guilabel> a el el Vista."
+msgstr ""
+"Problamemente se necesite experimentar con las entradas en las pestañas "
+"<guilabel>Persona</guilabel> y <guilabel>direcciones</guilabel> para "
+"conseguir el resultado deseado en la vista de tarjetas."
 
-#: index.docbook:138
-#, fuzzy
+#: index.docbook:148
+#, no-c-format
 msgid ""
 "There are two other tab pages in this dialog box which may be useful in some "
 "circumstances:"
-msgstr "Otros:"
+msgstr ""
+"Hay otras dos pestañas en el cuadro de diálogo las cuales pueden ser "
+"útiles en ciertas circustancias."
 
-#: index.docbook:141
-#, fuzzy
+#: index.docbook:151
+#, no-c-format
 msgid ""
 "The <guilabel>Comment</guilabel> page. Any text you enter here will not "
 "appear in the <guimenuitem>Business Card</guimenuitem> view but will be "
 "included when you print out the card details."
 msgstr ""
-"<guilabel> Comentario</guilabel> Texto el<guimenuitem> "
-"Negocios</guimenuitem> Vista imprimir el."
+"La pestaña <guilabel>Comentario</guilabel>. Caualquier texto que aparezca "
+"aquí no aparecerá en la vista de <guimenuitem>Tarjetas de "
+"negocio</guimenuitem>"
+" pero será incluída cuando se imprima los detalles de la tarjeta."
 
-#: index.docbook:145
-#, fuzzy
+#: index.docbook:155
+#, no-c-format
 msgid ""
 "The <guilabel>User fields</guilabel> page. This lets you add information to "
 "the database file with user defined fields and data. This data is not shown "
 "in the <guimenuitem>Business Card</guimenuitem>"
 " view, nor is it printed out, but could be read by another program."
 msgstr ""
-"<guilabel> Usuario</guilabel> Añadir a el archivo con usuario y es "
-"el<guimenuitem> Negocios</guimenuitem> Vista es por."
+"La pestaña <guilabel>Campos de usuario</guilabel>. Esto permite añadir "
+"información al archivo de base de datos con los campos y datos definidos "
+"por el usuario. Estos datos no se mostrarán en la vista de "
+"<guimenuitem>Tarjeta de negocios</guimenuitem>, no serán impresos, pero "
+"podrán ser leídos por otro programa."
 
-#: index.docbook:154
+#: index.docbook:163
+#, no-c-format
 msgid "Viewing Data"
-msgstr ""
+msgstr "Viendo datos"
 
-#: index.docbook:156
-#, fuzzy
+#: index.docbook:165
+#, no-c-format
 msgid ""
 "&kab; has two basic views, <guimenuitem>Business Card</guimenuitem> and "
 "<guimenuitem>Editing</guimenuitem>. You can switch between them with the "
-"<guimenu>View</guimenu> menu. The screenshot below shows the "
+"<guimenu>View</guimenu> menu. The screen-shot below shows the "
 "<guimenuitem>Business Card</guimenuitem> view."
 msgstr ""
-"<guimenuitem> Negocios</guimenuitem> y<guimenuitem></guimenuitem> Usted "
-"entre con el<guimenu> Vista</guimenu> el<guimenuitem> Negocios</guimenuitem>"
-" Vista."
+"&kab;tiene dos vistas básicas, <guimenuitem>Tarjeta de "
+"negocios</guimenuitem> y <guimenuitem>Edición</guimenuitem>. Se puede "
+"cambiar entre ellas mediante el menú <guimenu>Vista</guimenu>"
+".La captura de pantalla siguiente muestra la vista <guimenuitem>Tarjeta de "
+"negocios</guimenuitem>."
 
-#: index.docbook:162
-#, fuzzy
-msgid "Here's a screenshot of &kab;"
-msgstr "s"
+#: index.docbook:172
+#, no-c-format
+msgid "Here's a screen-shot of &kab;"
+msgstr "Aquí hay una captura de pantalla de &kab;"
 
-#: index.docbook:162
-#, fuzzy
+#: index.docbook:172
+#, no-c-format
 msgid "&kab; in card view mode"
-msgstr "Vista"
+msgstr "      en modo vista de tarjetas&kab;"
 
-#: index.docbook:174
-#, fuzzy
+#: index.docbook:184
+#, no-c-format
 msgid ""
 "This view lets you search for an entry in &kab;'s database and see the "
 "information held for that entry."
-msgstr "Vista para s y el para."
+msgstr ""
+"Esta vista permite buscar una entrada en la base de datos de &kab; y ver la "
+"información mantenida para esta entrada."
 
-#: index.docbook:177
-#, fuzzy
+#: index.docbook:187
+#, no-c-format
 msgid ""
 "To select a particular entry you can pick it from the Drop Down box in the "
 "Toolbar or the entry navigation list, or you can step through the entries "
 "using the <guiicon>large Toolbar arrows</guiicon> or with your keyboard "
 "arrow keys."
 msgstr ""
-"Para el Abajo el Barra de Herramientas o el lista o el el<guiicon> grande "
-"Barra de Herramientas</guiicon> o con."
+"Para seleccionar una entrada particular se puede seleccionar en la caja "
+"desplegable en la barra de herramientas o en la lista de entradas de "
+"navegación, o se puede caminar a través de las entradas usando las "
+"<guiicon>flechas de la barra de herramientas</guiicon> o con las teclas de "
+"dirección del teclado."
 
-#: index.docbook:182
-#, fuzzy
+#: index.docbook:192
+#, no-c-format
 msgid ""
 "You can also search the database for a particular entry by using the <link "
 "linkend=\"kab-edit-menu\"><menuchoice><guimenu>Edit</guimenu><guimenuitem>"
 "Search entries...</guimenuitem></menuchoice></link>"
-" option or by entering an email adress, first name or last name into the "
+" option or by entering an email address, first name or last name into the "
 "text box at the top of the entry navigation list."
 msgstr ""
-"Usted el para por el<link linkend=\"kab-edit-menu\"><menuchoice><guimenu> "
-"Editar</guimenu></guimenuitem></menuchoice></link> o por correoe nombre o "
-"nombre el Texto el el lista."
+"Se puede buscar en la base de datos por una entrada particular usando la "
+"opción de menú <link "
+"linkend=\"kab-edit-menu\"><menuchoice><guimenu>Editar</guimenu><guimenuitem>"
+" Buscar entradas...</guimenuitem></menuchoice></link> o introduciendo una "
+"dirección de correo electrónico, nombre o apellidos en el cuadro de texto "
+"en la parte superior de la lista de navegación de entradas."
 
-#: index.docbook:189
-#, fuzzy
+#: index.docbook:199
+#, no-c-format
 msgid ""
 "At the top of the main card area you can see the name as it appears in the "
 "Toolbar Drop Down box list, and possibly an important date such as the "
 "person's Birthday."
 msgstr ""
-"el el el nombre como el Barra de Herramientas Abajo lista y Fecha como el s "
-"Cumpleaños."
+"En la parte superior del área de la tarjeta principal se puede ver el "
+"nombre que aparece en la lista desplegable de la barra de herramientas, y "
+"posiblemente una fecha importante tal como el cumpleaños de la persona."
 
-#: index.docbook:193
-#, fuzzy
+#: index.docbook:203
+#, no-c-format
 msgid ""
 "An address will be shown in the middle of the card. &kab; lets you enter "
 "more than one address, for - say - Home, Work and Holiday Dacha. The Drop "
 "Down box above the address then lets you select which of these is displayed."
-msgstr "el el para Casa Trabajo y Fiesta Abajo el es."
-
-#: index.docbook:197
-#, fuzzy
-msgid ""
-"The bottom of the card shows email addresses, <acronym>URL</acronym>s and "
-"telephone numbers. Left click on the email address to send an email, on the "
-"<acronym>URL</acronym> to open a browser window. If you have entered more "
-"than one email address or <acronym>URL</acronym>, then only one will be "
-"displayed on the card followed by [..] and when you click on it a little "
-"dialog box will appear so that you can choose the address you want."
 msgstr ""
-"el correoe<acronym> URL</acronym> s y Izquierda encendido el correoe a "
-"correoe encendido el<acronym> URL</acronym> a navegador correoe o<acronym> "
-"URL</acronym> encendido el por y encendido escoger el."
+"Una dirección será mostrada en la mitad de la tarjeta. &kab; permite "
+"introducir más de una dirección, por ejemplo casa, trabajo y vacaciones. "
+"La caja desplegable de debajo de las direccinoses permite seleccionar qué "
+"dirección se muestra."
 
-#: index.docbook:204
-#, fuzzy
+#: index.docbook:208
+#, no-c-format
+msgid ""
+"The bottom of the card shows email addresses, &URL;s and telephone numbers. "
+"Left click on the email address to send an email, on the &URL; to open a "
+"browser window. If you have entered more than one email address or &URL;, "
+"then only one will be displayed on the card followed by [..] and when you "
+"click on it a little dialog box will appear so that you can choose the "
+"address you want."
+msgstr ""
+"En la parte inferior de la tarjeta se muestra las direcciones de correo "
+"electrónico, &URL;s y números de teléfonos. Realizando un click con el "
+"botón izquierdo sobre la dirección de correo electrónico permite enviar "
+"un correo, sobre la &URL; abrirá la ventana de navegación. Si se ha "
+"introducido más de una dirección de correo electrónico o &URL;, sólo se "
+"mostrará una en la tarjeta seguido de [...] y cuando hagas click en ellos "
+"un pequeño cuadro de diálogo aparecerá permitiendo elegir las direcciones "
+"que se quieran."
+
+#: index.docbook:215
+#, no-c-format
 msgid ""
 "The <link linkend=\"kab-file-menu\"><guimenu>File</guimenu></link> menu has "
 "options allowing you to create and use more than one database, import your "
-"old KDE 1 or &Netscape; address book, or print one or all entries."
+"old &kde; 1 or &Netscape; address book, or print one or all entries."
 msgstr ""
-"<li&nk linkend=\"kab-file-menu\"><guimenu> Archivo</guimenu></link> a y KDE "
-"o o imprimir o todo."
+"El menú <link linkend=\"kab-file-menu\"><guimenu>Archivo</guimenu></link> "
+"tiene opciones que permiten crear y usar más de una base de datos, importar "
+"libretas de direcciones viejas de &kde; o &Netscape; o imprimir una o todas "
+"las entradas."
 
-#: index.docbook:213
-#, fuzzy
+#: index.docbook:224
+#, no-c-format
 msgid "Command Reference"
-msgstr "Comando"
+msgstr "Referencia de comandos"
 
-#: index.docbook:216
-msgid "The Menubar"
-msgstr ""
+#: index.docbook:227
+#, no-c-format
+msgid "The Menu bar"
+msgstr "La barra de menú"
 
-#: index.docbook:219
-#, fuzzy
+#: index.docbook:230
+#, no-c-format
 msgid "The <guimenu>File</guimenu> Menu"
-msgstr "<guimenu> Archivo</guimenu>"
+msgstr "El menú <guimenu> Archivo</guimenu>"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>C</accel>reate new database</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Create New "
+"Database...</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap></keycap></keycombo></shortcut>"
-"<guimenu><accel> F</accel></guimenu><guimenuitem><accel> "
-"C</accel></guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> "
+"</shortcut><guimenu>Archivo</guimenu><guimenuitem>Crear nueva base de datos "
+"</guimenuitem>"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid ""
 "Use this if you want to create another &kab; address book database so that "
 "you can keep separate address books for, say, business and personal contacts."
-msgstr "Usar a para y."
-
-#: index.docbook:221
-#, fuzzy
-msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>O</accel>pen...</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap> "
-"O</keycap></keycombo></shortcut><guimenu><accel> "
-"F</accel></guimenu><guimenuitem><accel> O</accel></guimenuitem>"
+"Úsese esto si se desea crear otra base de datos de libretas de direcciones "
+"de &kab; así se puede mantener libretas de direcciones separadas, por "
+"ejemplo, contactos de negocios y personales."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Open...</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
+"</shortcut><guimenu>Archivo</guimenu> <guimenuitem>Abrir...</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid ""
 "<action>Open</action> a &kab; database. This menu choice is used to open a "
 "new address book that you have created."
-msgstr "<action> Abrir</action> es usado a."
-
-#: index.docbook:221
-#, fuzzy
-msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> <guimenuitem>Open default "
-"<accel>d</accel>atabase</guimenuitem>"
 msgstr ""
-"<guimenu><accel> F</accel></guimenu><guimenuitem> Abrir "
-"predeterminado<accel></accel></guimenuitem>"
+"<action>Abre</action>"
+" una base de datos de &kab;. Esta elección de menú se usa para abrir una "
+"nueva libreta de direcciones que se haya creado con anterioridad."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Open Default Database</guimenuitem>"
+msgstr ""
+"<guimenu>Archivo</guimenu> <guimenuitem>Abrir base de datos "
+"predeterminada</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Opens the default</action> &kab; database."
-msgstr "<action> el predeterminado</action>."
+msgstr "<action>Abre la base de datos predeterminada</action> de &kab;"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>S</accel>ave</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Save</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap></keycap></keycombo></shortcut>"
-"<guimenu><accel> "
-"F</accel></guimenu><guimenuitem><accel></accel></guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
+"</shortcut> <guimenu>Archivo</guimenu> <guimenuitem>Guardar</guimenuitem>"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Save</action> the current &kab; database."
-msgstr "<action></action> el El actual."
+msgstr "<action>Guarda</action> la base de datos de &kab; actual."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
 msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>I</accel>mport</guisubmenu> "
-"<guimenuitem><accel>K</accel>DE 1 address book</guimenuitem>"
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> <guimenuitem>KDE 1 "
+"Address Book</guimenuitem>"
 msgstr ""
-"<guimenu><accel> F</accel></guimenu><guisubmenu><accel> "
-"I</accel></guisubmenu><guimenuitem><accel></accel></guimenuitem>"
+"<guimenu>Archivo</guimenu> <guisubmenu>Importar</guisubmenu> "
+"<guimenuitem>Libreta de direcciones de KDE 1</guimenuitem>"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid ""
 "Lets you <action>import an address book</action> generated by version 1 of "
 "&kab;, changing its format to that used by version 2, and saving it with a "
 "different name. Doing this does not destroy the original address book."
-msgstr "<action></action> por versión a usado por versión y con nombre el."
-
-#: index.docbook:221
-#, fuzzy
-msgid ""
-"<guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>I</accel>mport</guisubmenu> "
-"<guimenuitem><accel>N</accel>etscape address book</guimenuitem>"
 msgstr ""
-"<guimenu><accel> F</accel></guimenu><guisubmenu><accel> "
-"I</accel></guisubmenu><guimenuitem><accel></accel></guimenuitem>"
+"Permite <action>importar una libreta de direcciones</action>"
+" generada por la versión 1 de &kab;, cambiendo su formato a la usado por la "
+"versión 2, y guardando con un nombre diferente. Haciendo esto no se "
+"destruyen la libreta de direcciones original."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
+msgid ""
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> "
+"<guimenuitem>Netscape Address Book</guimenuitem>"
+msgstr ""
+"<guimenu>Archivo</guimenu> <guisubmenu>Importar</guisubmenu> "
+"<guimenuitem>Libreta de direcciones de Netscape</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid "Lets you <action>import an address book</action> generated by &Netscape;."
-msgstr "<actio&n></action> por."
-
-#: index.docbook:221
-#, fuzzy
-msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
-"entry</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap> "
-"T</keycap></keycombo></shortcut><guimenu><accel> "
-"F</accel></guimenu><guisubmenu><accel> P</accel></guisubmenu><guimenuitem> "
-"Imprimir</guimenuitem>"
+"Permite <action>importar una libreta de direcciones</action> generada por "
+"&Netscape;"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entry...</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> "
+"</shortcut> <guimenu>Archivo</guimenu> <guisubmenu>Imprimir</guisubmenu> "
+"<guimenuitem>Imprimir entrada...</guimenuitem>"
+
+#: index.docbook:232
+#, no-c-format
 msgid "To print out all details of the current entry."
-msgstr "Para imprimir todo el El actual."
+msgstr "Imprimir todos los detalles de la entrada actual."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guisubmenu><accel>P</accel>rint</guisubmenu> <guimenuitem>Print "
-"entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guisubmenu>Print</guisubmenu> "
+"<guimenuitem>Print Entries...</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap></keycap></keycombo></shortcut>"
-"<guimenu><accel> F</accel></guimenu><guisubmenu><accel> "
-"P</accel></guisubmenu><guimenuitem> Imprimir</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut><guimenu>Archivo</guimenu> <guisubmenu>Imprimir</guisubmenu> "
+"<guimenuitem>Imprimir entradas....</guimenuitem>"
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid "To print out all details of all entries in the database."
-msgstr "Para imprimir todo todo el."
+msgstr "Imprime todos los detalles de todas las entradas en la base de datos."
 
-#: index.docbook:221
-#, fuzzy
+#: index.docbook:232
+#, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu><accel>F</accel>ile</guimenu> "
-"<guimenuitem><accel>Q</accel>uit</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap></keycap></keycombo></shortcut>"
-"<guimenu><accel> "
-"F</accel></guimenu><guimenuitem><accel></accel></guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap></keycap></keycombo> "
+"</shortcut> <guimenu>Archivo</guimenu> <guimenuitem>Salir</guimenuitem>"
 
-#: index.docbook:221
+#: index.docbook:232
+#, no-c-format
 msgid "<action>Quits</action> &kab;."
-msgstr ""
+msgstr "<action>Sale</action> de &kab;"
 
-#: index.docbook:332
-#, fuzzy
+#: index.docbook:358
+#, no-c-format
 msgid "The <guimenu>Edit</guimenu> Menu"
-msgstr "<guimenu> Editar</guimenu>"
+msgstr "El menú <guimenu>Editar</guimenu>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>A</accel>dd entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Add Entry...</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap> "
-"A</keycap></keycombo></shortcut><guimenu><accel></accel></guimenu>"
-"<guimenuitem><accel> A</accel> dd</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
+"</shortcut> <guimenu>Editar</guimenu> <guimenuitem>Añadir "
+"entrada...</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid ""
 "<action>Add a new entry to the address book</action>. This does the same as "
 "using the Toolbar <guiicon>New entry</guiicon> icon."
 msgstr ""
-"<action> Añadir a el</action> el como el Barra de Herramientas<guiicon> "
-"Nuevo</guiicon>."
+"<action>Añade una nueva entrada a la libreta de direcciones</action>. Esto "
+"hace lo mismo que el icono de la barra de herramientas <guiicon>Nueva "
+"entrada</guiicon>."
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>E</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>E</accel>dit entry...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Edit entry...</guimenuitem>"
 msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> "
+"</shortcut> <guimenu>Editar</guimenu> <guimenuitem>Editar "
+"entrada...</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
 "If you are in Business card view you can use this menu item (or the Toolbar "
-"<guiicon>Edit entry</guiicon> icon) when you want to <action>edit the "
+"<guiicon>Edit Entry...</guiicon> icon) when you want to <action>edit the "
 "current entry</action>, rather than changing to "
 "<guimenuitem>Editing</guimenuitem> view with the "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Editing</guimenuitem>"
 "</menuchoice> menu choice."
 msgstr ""
-"Negocios Vista o el Barra de Herramientas<guiicon> Editar</guiicon> "
-"a<action> el El actual</action> a<guimenuitem></guimenuitem> Vista con "
-"el<menuchoice><guimenu> "
-"Vista</guimenu><guimenuitem></guimenuitem></menuchoice>."
+"Si se está en la vista de negocios se puede usar esta entrada de menú (o "
+"el icono de la barra de herramientas <guiicon>Editar entrada</guiicon>f) "
+"cuando se quiera <action>editar la entrada actual</action>"
+", o bien cambiando a la vista <guimenuitem>Editando</guimenuitem> con la "
+"opción de menú "
+"<menuchoice><guimenu>Vista</guimenu><guimenuitem>Editando</guimenuitem>"
+"</menuchoice>."
 
-#: index.docbook:334
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>R</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>R</accel>emove entry</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Remove Entry</guimenuitem>"
 msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
+"</shortcut> <guimenu>Editar</guimenu> <guimenuitem>Suprimir "
+"entrada</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid "Remove the current entry from the database."
-msgstr "el El actual el."
+msgstr "Suprime la entrada actual de la base de datos."
 
-#: index.docbook:334
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>M</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Send an "
-"<accel>e</accel>mail.</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Send an Email</guimenuitem>"
 msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> "
+"</shortcut><guimenu>Editar</guimenu> <guimenuitem>Envíar un "
+"mensaje</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
 "Does the same as <mousebutton>left</mousebutton> clicking on the "
-"<guilabel>email:</guilabel> line at the bottom of the Business card."
+"<guilabel>Email</guilabel> line at the bottom of the Business card."
 msgstr ""
-"el como<mousebutton> izquierda</mousebutton> encendido el<guilabel> "
-"correoe</guilabel> línea el el Negocios."
+"Realiza lo mismoq eu un click <mousebutton>izquierdo</mousebutton> en la "
+"línea <guilabel>Direccion de correo electrónico</guilabel>"
 
-#: index.docbook:334
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>B</accel>rowse</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Browse</guimenuitem>"
 msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
+"</shortcut><guimenu>Editar</guimenu> <guimenuitem>Navegar</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid ""
-"<action>Open a browser</action> with the <acronym>URL</acronym> stored for "
-"the current &kab; entry."
+"<action>Open a browser</action> with the &URL; stored for the current &kab; "
+"entry."
 msgstr ""
-"<action> Abrir navegador</action> con el<acronym> URL</acronym> para el El "
-"actual."
+"<action> Abre en navegador</action> con la &URL; almacenada en la entrada "
+"actual de &kab;."
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<shortcut> <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> "
-"</shortcut> <guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>S</accel>earch entries</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Search "
+"Entries...</guimenuitem>"
 msgstr ""
-"<shortcut><keycombo><keycap></keycap><keycap> "
-"F</keycap></keycombo></shortcut><guimenu><accel></accel></guimenu>"
-"<guimenuitem><accel></accel></guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl; <keycap>F</keycap></keycombo> "
+"</shortcut> <guimenu>Editar</guimenu> <guimenuitem>Buscar "
+"entradas</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid "<action>Search the database</action> for a particular entry."
-msgstr "<action> el</action> para."
+msgstr "<action>Busca en la base de datos </action> una entrada en particular."
 
-#: index.docbook:334
-#, fuzzy
-msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> <guimenuitem>Enable all "
-"<accel>m</accel>essages</guimenuitem>"
+#: index.docbook:360
+#, fuzzy, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Enable all Messages</guimenuitem>"
 msgstr ""
-"<guimenu><accel></accel></guimenu><guimenuitem> Activar "
-"todo<accel></accel></guimenuitem>"
+"<guimenu>Editar</guimenu> <guimenuitem>Habilitar todos los "
+"mensajes</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid ""
 "There are some messages that might be accidentally disabled by the user, "
-"such as one at start up informing him how to import his old KDE 1 "
+"such as one at start up informing him how to import his old &kde; 1 "
 "addressbook. <action>Selecting this menu item makes all such messages "
 "reappear. </action>"
-msgstr "Mensajes desactivado por el usuario como a KDE<action> todo Mensajes</action>"
-
-#: index.docbook:334
-#, fuzzy
-msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> <guimenuitem><accel>C</accel>"
-"onfigure this file...</guimenuitem>"
 msgstr ""
-"<guimenu><accel></accel></guimenu><guimenuitem><accel> C</accel> "
-"archivo</guimenuitem>"
+"Hay algunos mensajes que pueden ser accidentalmente deshabilitados por el "
+"usuario tales como el mensaje de inicio para importar la libreta de "
+"direcciones de &kde; 1. <action>Seleccionando este elemento de menú hace "
+"que todos estos mensajes reaparezcan.</action>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Configure this File...</guimenuitem>"
+msgstr ""
+"<guimenu>Editar</guimenu> <guimenuitem>Configurar este "
+"archivo...</guimenuitem>"
+
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
 "<action>Lets you configure some parameters of the current address "
 "book</action>. At present the <guilabel>User fields</guilabel>"
 " tab page does not function, but the <guilabel>Address types</guilabel> tab "
-"page can be used to set up default address <guilabel>Address type</guilabel>"
-" values."
+"page can be used to set up default address <guilabel>Address "
+"types</guilabel> values."
 msgstr ""
-"<action> el El actual</action> el<guilabel> Usuario</guilabel> el<guilabel> "
-"Dirección</guilabel> usado a predeterminado<guilabel> Dirección</guilabel>."
+"<action>Permite configurar algunos parémetros de la libreta de direcciones "
+"actual</action> . En la actualidad la pestaña <guilabel>campos de "
+"usuario</guilabel> no funciona, pero la pestaña <guilabel>tipos de "
+"direcciones</guilabel> pueden ser usadas para configurar los valores de los "
+"<guilabel>tipos de direcciones</guilabel> de la libreta predeterminada "
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, fuzzy, no-c-format
 msgid ""
-"<guimenu><accel>E</accel>dit</guimenu> "
-"<guimenuitem><accel>P</accel>references for the KDE address "
-"book...</guimenuitem>"
+"<guimenu>Edit</guimenu> <guimenuitem>Preferences for KDE Address "
+"Book...</guimenuitem>"
 msgstr ""
-"<guimenu><accel></accel></guimenu><guimenuitem><accel> P</accel> para el "
-"KDE</guimenuitem>"
+"<guimenu>Editar</guimenu> <guimenuitem>Preferencias para la libreta de "
+"direcciones de KDE...</guimenuitem>"
 
-#: index.docbook:334
-#, fuzzy
+#: index.docbook:360
+#, no-c-format
 msgid "Allows you to set up some general &kab; settings."
-msgstr "a general configurada por el usuario."
+msgstr "Permite configurar algunas opciones generales de &kab;"
 
-#: index.docbook:452
-#, fuzzy
+#: index.docbook:492
+#, no-c-format
 msgid "The <guimenu>View</guimenu> Menu"
-msgstr "<guimenu> Vista</guimenu>"
+msgstr "El menú <guimenu>Vista</guimenu>"
 
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem><accel>B</accel>usiness "
-"card</guimenuitem>"
-msgstr ""
+#: index.docbook:494
+#, fuzzy, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Business Card</guimenuitem>"
+msgstr "<guimenu>Vista</guimenu> <guimenuitem>Tarjeta de negocios</guimenuitem>"
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, no-c-format
 msgid "Show the normal card index view."
-msgstr "Mostrar el normal Vista."
+msgstr "Muestra la vista indexada de tarjetas normales."
 
-#: index.docbook:454
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> "
-"<guimenuitem><accel>E</accel>diting</guimenuitem>"
-msgstr ""
+#: index.docbook:494
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Editing</guimenuitem>"
+msgstr "<guimenu>Vista</guimenu> <guimenuitem>Editando</guimenuitem>"
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, no-c-format
 msgid ""
 "<action>Change</action> the main &kab; window to allow the entry to be "
 "edited."
-msgstr "<action> Cambiar</action> el a el a."
+msgstr ""
+"<action>Cambia</action>"
+" la ventana principal de &kab; permite que la entrada sea editada."
 
-#: index.docbook:454
-#, fuzzy
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show main "
-"toolbar</guimenuitem>"
-msgstr "<guimenu><accel></accel></guimenu><guimenuitem> Mostrar</guimenuitem>"
+#: index.docbook:494
+#, fuzzy, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Main Toolbar</guimenuitem>"
+msgstr ""
+"<guimenu>Vista </guimenu> <guimenuitem>Mostrar la barra de "
+"herramientas</guimenuitem>"
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, no-c-format
 msgid "<action>Show or hide the main toolbar</action>."
-msgstr "<action> Mostrar o el</action>."
+msgstr "<action>Muestra o oculta la barra de herramientas principal</action>."
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, fuzzy, no-c-format
 msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show entry navigation "
-"toolbar</guimenuitem>"
-msgstr "<guimenu><accel></accel></guimenu><guimenuitem> Mostrar</guimenuitem>"
+"<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation "
+"Toolbar</guimenuitem>"
+msgstr ""
+"<guimenu>Vista</guimenu> <guimenuitem>Mostrar la barra de herramientas de "
+"navegación</guimenuitem>"
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, no-c-format
 msgid ""
 "<action>Show or hide the toolbar used to navigate through your "
 "database</action>."
-msgstr "<action> Mostrar o el usado a</action>."
+msgstr ""
+"<action>Muestra u oculta la barra de herramientas usada para navegar a "
+"través de la base de datos</action>."
 
-#: index.docbook:454
-#, fuzzy
-msgid ""
-"<guimenu><accel>V</accel>iew</guimenu> <guimenuitem>Show entry navigation "
-"list</guimenuitem>"
-msgstr "<guimenu><accel></accel></guimenu><guimenuitem> Mostrar lista</guimenuitem>"
+#: index.docbook:494
+#, fuzzy, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Entry Navigation List</guimenuitem>"
+msgstr ""
+"<guimenu>Vista</guimenu> <guimenuitem>Mostrar lista de navegación de "
+"entradas</guimenuitem>"
 
-#: index.docbook:454
-#, fuzzy
+#: index.docbook:494
+#, no-c-format
 msgid ""
 "<action>Show or hide the entry list at the left side of &kab;'s "
 "window.</action>."
-msgstr "<action> Mostrar o el lista el izquierda s</action>."
+msgstr ""
+"<action>Muestra u oculta la lista del lado izquierdo de la ventana de "
+"&kab;.</action>."
 
-#: index.docbook:505
-#, fuzzy
+#: index.docbook:552
+#, no-c-format
 msgid "The <guimenu>Help</guimenu> Menu"
-msgstr "<guimenu> Ayuda</guimenu>"
+msgstr "El menú <guimenu>Ayuda</guimenu>"
 
-#: index.docbook:507
-#, fuzzy
-msgid ""
-"<shortcut><keycap>F1</keycap> </shortcut> "
-"<guimenu><accel>H</accel>elp</guimenu> "
-"<guimenuitem><accel>C</accel>ontents</guimenuitem>"
-msgstr ""
-"<shortcut><keycap></keycap></shortcut><guimenu><accel></accel></guimenu>"
-"<guimenuitem><accel> C</accel></guimenuitem>"
-
-#: index.docbook:507
-#, fuzzy
-msgid "<action>View this manual</action>."
-msgstr "<action> Vista</action>."
-
-#: index.docbook:507
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> <guimenuitem><accel>R</accel>eport "
-"Bug...</guimenuitem>"
-msgstr ""
-
-#: index.docbook:507
-#, fuzzy
-msgid "Use this to <action>report any bugs you may find with &kab;</action>."
-msgstr "Usar a<action> con</action>."
-
-#: index.docbook:507
-#, fuzzy
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> <guimenuitem><accel>A</accel>bout "
-"&kghostview;</guimenuitem>"
-msgstr ""
-"<guimenu><accel></accel></guimenu><guimenuitem><accel> "
-"A</accel></guimenuitem>"
-
-#: index.docbook:507
-#, fuzzy
-msgid ""
-"Use this to <action>see the version number of &kab; as well as brief "
-"information about the program author, copyright and license "
-"agreement</action>."
-msgstr "Usar a<action> el versión como como el autor y</action>."
-
-#: index.docbook:507
-#, fuzzy
-msgid ""
-"<guimenu><accel>H</accel>elp</guimenu> <guimenuitem>About "
-"<accel>K</accel>DE</guimenuitem>"
-msgstr ""
-"<guimenu><accel></accel></guimenu><guimenuitem> "
-"Acerca<accel></accel></guimenuitem>"
-
-#: index.docbook:507
-#, fuzzy
-msgid "To view <action>brief information about the K Desktop Environment</action>."
-msgstr "Para Vista<action> el</action>."
-
-#: index.docbook:553
-#, fuzzy
+#: index.docbook:562
+#, no-c-format
 msgid "Questions and Answers"
-msgstr "y"
+msgstr "Preguntas y respuestas"
 
-#: index.docbook:558
-#, fuzzy
+#: index.docbook:568
+#, no-c-format
 msgid "Where does &kab; store the address book?"
-msgstr "el?"
+msgstr "¿Dónde almacena &kab; la libreta de direcciones?"
 
-#: index.docbook:559
-#, fuzzy
+#: index.docbook:571
+#, no-c-format
 msgid ""
 "The default address book database is stored at "
 "<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, any new "
 "databases that you have created will be stored wherever you put them."
-msgstr "predeterminado es<filename></filename>."
+msgstr ""
+"La libreta de direcciones predeterminada se almacena en "
+"<filename>~/.kde/share/apps/kab/addressbook.kab</filename>, cualquiera base "
+"de datos nueva que haya sido creada será almacenada donde se quiera."
 
-#: index.docbook:565
-#, fuzzy
+#: index.docbook:580
+#, no-c-format
 msgid "What configuration files does &kab; use?"
-msgstr "archivos?"
+msgstr "¿Qué ficheros de configuración usa &kab;?"
 
-#: index.docbook:566
-#, fuzzy
+#: index.docbook:583
+#, no-c-format
 msgid ""
 "The file <filename>~/.kde/share/apps/kab/kab.config</filename> holds your "
 "&kab; <quote>preferences</quote> and the command strings for mail and talk."
-msgstr "archivo<filename></filename><quote></quote> y el comando para y."
+msgstr ""
+"El fichero <filename>~/.kde/share/apps/kab/kab.config</filename> mantiene "
+"las <quote>preferencias</quote> de &kab; y las cadenas de comandos para "
+"enviar correo y de <quote>talk</quote>"
 
-#: index.docbook:569
-#, fuzzy
+#: index.docbook:587
+#, no-c-format
 msgid ""
 "<filename>~/.kde/share/config/kabrc</filename> holds general &kab; "
 "appearance parameters and a list of the most recently visited address books."
-msgstr "<filename></filename> general y lista el."
+msgstr ""
+"<filename>~/.kde/share/config/kabrc</filename> mantiene los parámetros de "
+"apariencia general de &kab; y una lista de las libreta de direcciones más "
+"recientemente visitadas."
 
-#: index.docbook:571
-#, fuzzy
+#: index.docbook:591
+#, no-c-format
 msgid ""
 "Don't modify these files unless you really know what you are doing (and have "
 "made a back up)."
-msgstr "archivos si no y."
-
-#: index.docbook:582
-#, fuzzy
-msgid "Credits and License"
-msgstr "y"
-
-#: index.docbook:584
-msgid "&kab;"
 msgstr ""
-
-#: index.docbook:585
-msgid "Program copyright 1996-2001 Mirko Boehm <email>mirko@kde.org</email>"
-msgstr ""
-
-#: index.docbook:588
-#, fuzzy
-msgid "Documentation copyright 2001"
-msgstr "Documentación"
-
-#: index.docbook:590
-msgid "Mirko Boehm <email>mirko@kde.org</email>"
-msgstr ""
-
-#: index.docbook:590
-msgid "Pam Roberts <email>pam.roberts@btinternet.com</email>"
-msgstr ""
+"No se debe modificar estos ficheros al no ser que realmente se sepa lo que "
+"se está haciendo ( y se haya realizado una copia de seguridad)."
 
 #: index.docbook:602
-#, fuzzy
-msgid "Installation"
-msgstr "Instalación"
+#, no-c-format
+msgid "Credits and License"
+msgstr "Créditos y licencia"
 
 #: index.docbook:604
-#, fuzzy
-msgid ""
-"&kab; is part of the kdeutils package which is an essential part of the "
-"&kde; 2 project."
-msgstr "es el es esencial el."
+#, no-c-format
+msgid "&kab;"
+msgstr "&kab;"
 
-#: index.docbook:607
-#, fuzzy
-msgid ""
-"For details of &kde; visit <ulink "
-"url=\"http://www.kde.org\">http://www.kde.org</ulink>."
-msgstr "urlhttp://www.&kde.orghttp://www.kde.org</ulink>."
+#: index.docbook:605
+#, no-c-format
+msgid "Program copyright 1996-2001 Mirko Boehm <email>mirko@kde.org</email>"
+msgstr "Programa: copyright 1996-2001 Mirko Boehm <email>mirko@kde.org</email>"
+
+#: index.docbook:608
+#, no-c-format
+msgid "Documentation copyright 2001"
+msgstr "Documentación: copyright 2001"
 
 #: index.docbook:610
-#, fuzzy
-msgid ""
-"Source code for &kab; can be found in the kdeutils package on <ulink "
-"url=\"ftp://ftp.kde.org/pub/kde/\">ftp://ftp.kde.org/pub/kde/</ulink>, the "
-"main ftp site of the &kde; project."
-msgstr "Fuente para el encendido url</ulin&k> el el."
+#, no-c-format
+msgid "Mirko Boehm <email>mirko@kde.org</email>"
+msgstr "Mirko Boehm <email>mirko@kde.org</email>"
+
+#: index.docbook:610
+#, no-c-format
+msgid "Pam Roberts <email>pam.roberts@btinternet.com</email>"
+msgstr "Pam Roberts <email>pam.roberts@btinternet.com</email>"
+
+#: index.docbook:622
+#, no-c-format
+msgid "Installation"
+msgstr "Instalación"
