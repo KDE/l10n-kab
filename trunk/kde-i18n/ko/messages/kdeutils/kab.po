@@ -83,16 +83,15 @@ msgid "Choose ..."
 msgstr "선택 ..."
 
 #: rc.cpp:22
-msgid "Hide the search results window. This will not clear your search results."
+msgid ""
+"Hide the search results window. This will not clear your search results."
 msgstr "검색결과창 숨김. 검색결과를 비우지 않음"
 
 #: rc.cpp:23
 msgid ""
 "Hide the search results window. This will close the search results window "
 "and clear all results of previous searches."
-msgstr ""
-"검색결과창 숨김. 검색결과창이 닫혀지고, "
-"이전 검색 결과를 비움"
+msgstr "검색결과창 숨김. 검색결과창이 닫혀지고, 이전 검색 결과를 비움"
 
 #: rc.cpp:25
 msgid "Clear the search results and hide this window."
@@ -118,8 +117,7 @@ msgid ""
 "Window."
 msgstr ""
 "검색을 위해 필드를 선택. \n"
-"아래 주어진 패턴과 일치하는 필드의"
-" 모든 엔트리는 검색결과창에 나타날 "
+"아래 주어진 패턴과 일치하는 필드의 모든 엔트리는 검색결과창에 나타날 "
 "것입니다."
 
 #: rc.cpp:32
@@ -165,8 +163,10 @@ msgid "Regular expressions"
 msgstr ""
 
 #: rc.cpp:42
-msgid "Check this box if you use classical regular expressions in your pattern."
-msgstr "패턴에서 classical regular expressions을 사용하시려면 이 박스를 체크하십시오."
+msgid ""
+"Check this box if you use classical regular expressions in your pattern."
+msgstr ""
+"패턴에서 classical regular expressions을 사용하시려면 이 박스를 체크하십시오."
 
 #: rc.cpp:44
 msgid "Headline:"
@@ -215,10 +215,9 @@ msgid ""
 "<b>File->Import->KDE 1 addressbook</b> to use your old database with the new "
 "version.</qt>"
 msgstr ""
-"<qt>KDE 2 주소록은 이전 버젼과 호환되지 않습니다. 주소록 데이타베이스를"
-" 보호하기위해 새로운 파일을 사용하고, 예전 주소록을 사용하기 위해서는 "
-"<b>File->Import->KDE 1 addressbook</b>을 실행해 주시기 "
-"바랍니다. </qt>"
+"<qt>KDE 2 주소록은 이전 버젼과 호환되지 않습니다. 주소록 데이타베이스를 "
+"보호하기위해 새로운 파일을 사용하고, 예전 주소록을 사용하기 위해서는 "
+"<b>File->Import->KDE 1 addressbook</b>을 실행해 주시기 바랍니다. </qt>"
 
 #: kab_main.cc:56
 msgid "new format"
@@ -710,9 +709,8 @@ msgid ""
 "customized version of the template files delivered with your kab "
 "installation at another point.</qt>"
 msgstr ""
-"<qt><b>경고!</b><br>이 설정은 또 다시 주소록이 설치될 때"
-" 가져온 템플릿 파일이 커스터마이징 "
-"될 때까지 변경되지 않습니다.</qt>"
+"<qt><b>경고!</b><br>이 설정은 또 다시 주소록이 설치될 때 가져온 템플릿 "
+"파일이 커스터마이징 될 때까지 변경되지 않습니다.</qt>"
 
 #: kab_htmlexport.cc:338
 msgid "HTML Export Templates"
@@ -740,9 +738,9 @@ msgid ""
 "HTML is missing. Continue anyway?<br><br><i>(Resources are used as support "
 "files like backgrounds or bullets in the resulting HTML files.)</i></qt>"
 msgstr ""
-"<qt>HTML로 주소록 내보내기 <b>리소스 파일</b> 이 하나 이상 없습니다. 계속하시겠습니까?"
-"<br><br><i>(리소스 파일은 최종 HTML 파일을 구성하기 위한 버튼이나 배경 파일"
-"로서 사용됩니다.)</i></qt>"
+"<qt>HTML로 주소록 내보내기 <b>리소스 파일</b> 이 하나 이상 없습니다. "
+"계속하시겠습니까?<br><br><i>(리소스 파일은 최종 HTML 파일을 구성하기 위한 "
+"버튼이나 배경 파일로서 사용됩니다.)</i></qt>"
 
 #: kab_htmlexport.cc:467
 msgid ""
@@ -751,10 +749,9 @@ msgid ""
 "to create the HTML files themselves. The HTML export will most probably not "
 "work without it.)</i></qt>"
 msgstr ""
-"<qt>HTML로 주소록 내보내기<b>템플릿 파일</b>이 최소한 하나이상"
-" 없습니다. 계속하시겠스니까?<br><br><i>(템플리 파일은 HTML 파일"
-"을 만들기 위한 기본파일입니다. HTML내보내기는 이 파일 없이 "
-"이루어지지 않습니다.)</i></qt>"
+"<qt>HTML로 주소록 내보내기<b>템플릿 파일</b>이 최소한 하나이상 없습니다. "
+"계속하시겠스니까?<br><br><i>(템플리 파일은 HTML 파일을 만들기 위한 "
+"기본파일입니다. HTML내보내기는 이 파일 없이 이루어지지 않습니다.)</i></qt>"
 
 #: kab_htmlexport.cc:507
 msgid "Missing Resource"
@@ -777,11 +774,10 @@ msgid ""
 "mistakes in there may also cause errors. As a last possibility, the KDE "
 "address book may be buggy, too :-(.</qt>"
 msgstr ""
-"<qt><b>죄송합니다!</b><br><br>HTML 내보내기가 실패하였습니다."
-"원인은 대상 디렉토리에 대한 권한 문제이거나 "
-"KDE 2 설치시 설정문제입니다.<br><br>이런 경우에 템플릿 폴더를 "
-"만들려면 오류를 발생시킬 것입니다. "
-"마지막 가능성으로는 KDE 주소록 자체의 버그일 경우입니다, :-(. </qt>"
+"<qt><b>죄송합니다!</b><br><br>HTML 내보내기가 실패하였습니다.원인은 대상 "
+"디렉토리에 대한 권한 문제이거나 KDE 2 설치시 설정문제입니다.<br><br>이런 "
+"경우에 템플릿 폴더를 만들려면 오류를 발생시킬 것입니다. 마지막 가능성으로는 "
+"KDE 주소록 자체의 버그일 경우입니다, :-(. </qt>"
 
 #: kab_htmlexport.cc:566
 msgid "Error exporting to HTML"
@@ -1011,8 +1007,8 @@ msgid ""
 "<qt>Did you know that you may predefine types of addresses?<br>See "
 "<b>Edit->Configure this file</b>.</qt>"
 msgstr ""
-"<qt>주소록 형식을 사전정의해야 합니다.?<br>확인"
-"<b>Edit->Configure this file</b>.</qt>"
+"<qt>주소록 형식을 사전정의해야 합니다.?<br>확인<b>Edit->Configure this "
+"file</b>.</qt>"
 
 #: look_edit_tabaddresses.cc:229
 msgid "A note"
@@ -1194,4 +1190,3 @@ msgstr "부서:"
 #: dialog_insinuation.cc:31
 msgid "Sub-Department:"
 msgstr "팀:"
-
