@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-15 00:37+0000\n"
+"POT-Creation-Date: 2024-12-01 00:37+0000\n"
 "PO-Revision-Date: 2024-12-08 16:20+0100\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
 "Language-Team: Kabyle\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Unable to create KIO worker: %1"
 msgstr "Ur yezmir ara ad d-yesnulfu axeddam KIO: %1"
 
-#: core/copyjob.cpp:167 kioworkers/file/file_unix.cpp:1140
+#: core/copyjob.cpp:167 kioworkers/file/file_unix.cpp:1142
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -98,38 +98,38 @@ msgstr "Yella yakan am ufaylu"
 msgid "Trash"
 msgstr "Taqecwalt"
 
-#: core/desktopexecparser.cpp:329
+#: core/desktopexecparser.cpp:335
 #, kde-format
 msgid "No Exec field in %1"
 msgstr ""
 
-#: core/desktopexecparser.cpp:354
+#: core/desktopexecparser.cpp:360
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr ""
 
-#: core/desktopexecparser.cpp:357
+#: core/desktopexecparser.cpp:363
 #, kde-format
 msgid ""
 "The program '%1' was found at '%2' but it is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:359
+#: core/desktopexecparser.cpp:365
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
 msgstr ""
 
-#: core/desktopexecparser.cpp:373
+#: core/desktopexecparser.cpp:379
 #, kde-format
 msgid "Syntax error in command %1 coming from %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:503
+#: core/desktopexecparser.cpp:509
 #, kde-format
 msgid "Terminal %1 not found while trying to run %2"
 msgstr ""
 
-#: core/desktopexecparser.cpp:520
+#: core/desktopexecparser.cpp:526
 #, kde-format
 msgid "Syntax error in command %1 while trying to run %2"
 msgstr ""
@@ -1616,9 +1616,8 @@ msgstr ""
 #: core/job_error.cpp:909
 #, kde-format
 msgid ""
-"An attempt to determine information about the status of the resource "
-"<strong>%1</strong>, such as the resource name, type, size, etc., was "
-"unsuccessful."
+"An attempt to determine information about the status of the resource <strong>"
+"%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
 msgstr ""
 
 #: core/job_error.cpp:914
@@ -1929,8 +1928,8 @@ msgstr "D awezɣi abeddel n yisem n ufaylu aɣbalu"
 #: core/job_error.cpp:1167
 #, kde-format
 msgid ""
-"The requested operation required the renaming of the original file "
-"<strong>%1</strong>, however it could not be renamed."
+"The requested operation required the renaming of the original file <strong>"
+"%1</strong>, however it could not be renamed."
 msgstr ""
 
 #: core/job_error.cpp:1176
@@ -1941,8 +1940,8 @@ msgstr "Yegguma ad ibeddel isem n ufaylu ur yezgin ara"
 #: core/job_error.cpp:1178
 #, kde-format
 msgid ""
-"The requested operation required the creation of a temporary file "
-"<strong>%1</strong>, however it could not be created."
+"The requested operation required the creation of a temporary file <strong>"
+"%1</strong>, however it could not be created."
 msgstr ""
 
 #: core/job_error.cpp:1187
@@ -2889,8 +2888,8 @@ msgstr ""
 #: filewidgets/kfileplacesmodel.cpp:1514
 #, kde-kuit-format
 msgid ""
-"One or more files on this device are opened in application "
-"<application>\"%2\"</application>."
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
@@ -3533,7 +3532,7 @@ msgstr ""
 msgid "You are not authorized to execute this file."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:133 gui/commandlauncherjob.cpp:116
+#: gui/applicationlauncherjob.cpp:133 gui/commandlauncherjob.cpp:117
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
@@ -3557,7 +3556,7 @@ msgid ""
 "Internal error: could not prompt the user for which application to start"
 msgstr ""
 
-#: gui/commandlauncherjob.cpp:106
+#: gui/commandlauncherjob.cpp:107
 #, kde-format
 msgctxt "An error message"
 msgid "Empty command provided"
@@ -3923,17 +3922,17 @@ msgstr ""
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:938
+#: kioworkers/file/file_unix.cpp:940
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:1230
+#: kioworkers/file/file_unix.cpp:1232
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
-#: kioworkers/file/file_unix.cpp:1241
+#: kioworkers/file/file_unix.cpp:1243
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -3987,7 +3986,7 @@ msgstr ""
 msgid "Site:"
 msgstr "Asmel:"
 
-#: kioworkers/ftp/ftp.cpp:571 kioworkers/ftp/ftp.cpp:2492
+#: kioworkers/ftp/ftp.cpp:571 kioworkers/ftp/ftp.cpp:2497
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -4002,7 +4001,7 @@ msgstr "Iqqen akken iwata"
 msgid "Could not login to %1."
 msgstr "Ur izmir ara ad yeqqen ɣer %1."
 
-#: kioworkers/ftp/ftp.cpp:1032
+#: kioworkers/ftp/ftp.cpp:1036
 #, kde-format
 msgid ""
 "\n"
@@ -4011,19 +4010,19 @@ msgstr ""
 "\n"
 "Yenna-d uqeddac: \"%1\""
 
-#: kioworkers/ftp/ftp.cpp:2487 kioworkers/http/http.cpp:370
+#: kioworkers/ftp/ftp.cpp:2492 kioworkers/http/http.cpp:370
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
 
-#: kioworkers/ftp/ftp.cpp:2491 kioworkers/http/http.cpp:374
+#: kioworkers/ftp/ftp.cpp:2496 kioworkers/http/http.cpp:374
 #, kde-format
 msgid "Proxy:"
 msgstr "Apṛuksi:"
 
-#: kioworkers/ftp/ftp.cpp:2494
+#: kioworkers/ftp/ftp.cpp:2499
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr ""
@@ -5531,8 +5530,8 @@ msgstr "Bḍu"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"Could not save properties due to insufficient write access to:<nl/"
-"><filename>%1</filename>."
+"Could not save properties due to insufficient write access to:<nl/><filename>"
+"%1</filename>."
 msgstr ""
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:221

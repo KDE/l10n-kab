@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"POT-Creation-Date: 2024-12-07 00:38+0000\n"
 "PO-Revision-Date: 2024-12-08 16:20+0100\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@protonmail.com>\n"
 "Language-Team: Kabyle\n"
@@ -76,9 +76,9 @@ msgid ""
 "hundreds of applications, and the many software libraries that support them."
 "<br /><br />KDE is a cooperative enterprise: no single entity controls its "
 "direction or products. Instead, we work together to achieve the common goal "
-"of building the world's finest Free Software. Everyone is welcome to <a "
-"href=\"%2\">join and contribute</a> to KDE, including you.<br /><br />Visit "
-"<a href=\"%3\">%3</a> for more information about the KDE community and the "
+"of building the world's finest Free Software. Everyone is welcome to <a href="
+"\"%2\">join and contribute</a> to KDE, including you.<br /><br />Visit <a "
+"href=\"%3\">%3</a> for more information about the KDE community and the "
 "software we produce.</html>"
 msgstr ""
 "<html><b>KDE</b> d tamɣiwant yettwassnen akk deg umaḍal s yijenyuṛen n "
@@ -603,7 +603,7 @@ msgid "Change Icon"
 msgstr "Senfel tignit"
 
 #. i18n: ectx: Menu (help)
-#: khelpmenu.cpp:165 ui_standards.rc:179
+#: khelpmenu.cpp:167 ui_standards.rc:179
 #, kde-format
 msgid "&Help"
 msgstr "&Tallelt"
@@ -1274,7 +1274,7 @@ msgstr "Ulac aḍris"
 msgid "Find Action…"
 msgstr "Af-d tigawt…"
 
-#: kxmlguiwindow.cpp:529
+#: kxmlguiwindow.cpp:561
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1285,7 +1285,7 @@ msgstr ""
 "Yettban wagi d abug. Ttxil-k azen aneqqis deg <a href='https://bugs.kde."
 "org'>bugs.kde.org</a>"
 
-#: kxmlguiwindow.cpp:534
+#: kxmlguiwindow.cpp:566
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr "Inegzumen imsullsen"
