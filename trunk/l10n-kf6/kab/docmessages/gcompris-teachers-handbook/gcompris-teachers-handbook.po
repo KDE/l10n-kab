@@ -297,7 +297,8 @@ msgstr "Asebter-a yessirig asnulufu n yinelmaden d yigrawen i usmel."
 #, no-c-format
 msgid ""
 "The management screen where a teacher can view the list of groups and pupils."
-msgstr "Agdil n usefrek anida ara iwali uselmad umuɣen n yigrawen d yinelmaden."
+msgstr ""
+"Agdil n usefrek anida ara iwali uselmad umuɣen n yigrawen d yinelmaden."
 
 #. Tag: title
 #: index.docbook:162
@@ -567,8 +568,8 @@ msgid ""
 "config</quote> button."
 msgstr ""
 "Ɣef yidis n yibenkan n GCompris, ddu ɣer usebter <quote>Asesteb</quote> seg "
-"wumuɣ agejdan, syen drurem ɣer ukessar i wakken ad tafeḍ taqeffalt n <quote>"
-"Sesteb aqeddac n uselmad</quote>."
+"wumuɣ agejdan, syen drurem ɣer ukessar i wakken ad tafeḍ taqeffalt n "
+"<quote>Sesteb aqeddac n uselmad</quote>."
 
 #. Tag: phrase
 #: index.docbook:323
@@ -869,9 +870,9 @@ msgstr ""
 "yisefkan CGcompris i izemren ad ttwaẓergen (ihi ulac <quote>Ismilen "
 "inejrumen</quote> neɣ <quote>Awalen yeɣlin</quote> d amedya). Tzemreḍ ad "
 "tafeḍ umuɣ i yirmad yettwasefraken (i izemren ad aznen isefka neɣ ad sɛun "
-"amaẓrag n tegrumma n yisefka ɣef usebter-a n wiki-nneɣ n tneflit: <ulink "
-"url=\"https://invent.kde.org/education/gcompris/-/wikis/Teacher-"
-"administration-tool#supported-activities\"></ulink>"
+"amaẓrag n tegrumma n yisefka ɣef usebter-a n wiki-nneɣ n tneflit: <ulink url="
+"\"https://invent.kde.org/education/gcompris/-/wikis/Teacher-administration-"
+"tool#supported-activities\"></ulink>"
 
 #. Tag: para
 #: index.docbook:483
@@ -1067,7 +1068,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The general settings page showing information about the current session."
-msgstr "Asebter n yiɣewwaren agejdan i yeskanayen talɣut ɣef tɣimit-a tamirant."
+msgstr ""
+"Asebter n yiɣewwaren agejdan i yeskanayen talɣut ɣef tɣimit-a tamirant."
 
 #. Tag: title
 #: index.docbook:612
