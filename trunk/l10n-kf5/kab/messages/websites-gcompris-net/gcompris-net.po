@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2026-08-04 18:25+0000\n"
 "Last-Translator: Moonshadow <zirisut@proton.me>\n"
 "Language-Team: Kabyle <kde-i18n-doc@kde.org>\n"
@@ -18,105 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 2026.7.1\n"
 "Generated-By: Babel 2.9.0\n"
-
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr "Lqem n GCompris 26.0"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr "Assa, nleqqem lqem n GCompris 26.0."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-"Aql-aɣ daɣen la d-nettheyyi lqemunṣib amezwaru n ufecku-nneɣ ameddakkel i "
-"yiselmaden : GCompris-Iselmaden! Tzemreḍ ad tafeḍ ugar n yisalan fell-as deg "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\"> asebter aɣurbiz</a>."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Deg lqem amaynut llan 197 yirmad, rnu 2 imaynuten niḍen:"
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-"\\\"Asuneɣ n rrwadi\\\" d armud i usuneɣ s useqdec n rryac i itezzin deg "
-"rruda mm-tsennanin."
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-"\\\"Isteqsiyen s waṭas n tririyin\\\" d armud MCQ. Ẓer belli armud-a "
-"yettwaffer s wudem amezwer. Ad d-ibin seld kra n tegrumiwin n yisefka i t-"
-"yerzan i d-yettwaznen seg GCompris-teachers."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Deg-s daɣen ibugen ttṣeggimen, d usennerni deg waṭas n yirmad."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Nsifiḍ tisuqilin i snat tutlayin niḍen: Kannada d Tamil."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Yettwasuqel akken iwata s tutlayin-a:"
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Yettwasuqel daɣen s tuget deg tutlayin-a:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Tzemreḍ ad tafeḍ ikemmusen n lqem-a amaynut i GNU/Linux, Windows, Android, "
-"akked Raspberry Pi deg <a href=\\\"https://gcompris.net/downloads{{ suffix }}"
-".html\\\">usebtar n usadar</a>. Daɣen, lqem-a n umucceḍ ad yili deg ikufiyen "
-"n F-Droid, Android Play store akked deg tḥanut n Windows store."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Tanemmirt-nwen akk, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20260311.html"
@@ -165,14 +66,102 @@ msgid ""
 "Windows store."
 msgstr ""
 "Tzemreḍ ad tafeḍ ikemmusen n lqem-a amaynut i GNU/Linux, Windows, Android, "
-"akked Raspberry Pi deg <a href=\\\"https://gcompris.net/downloads{{ suffix }}"
-".html\\\">usebtar n usadar</a>. Daɣen ad yili deg ikufiyen n Play store n "
-"Android, F-Droid akked deg tḥanut n Windows."
+"akked Raspberry Pi deg <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">usebtar n usadar</a>. Daɣen ad yili deg "
+"ikufiyen n Play store n Android, F-Droid akked deg tḥanut n Windows."
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Tanemmirt-nwen, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Release GCompris 26.0"
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr "Lqem n GCompris 26.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr "Assa, nleqqem lqem n GCompris 26.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid "It contains bug fixes and improvements on many activities."
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr "Deg-s ibugen yettṣeggim yernu yesselhay deg waṭas n yirmad."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Yettwasuqel akken iwata s tutlayin-a:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Yettwasuqel daɣen s tuget deg tutlayin-a:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Tzemreḍ ad tafeḍ ikemmusen n lqem-a amaynut i GNU/Linux, Windows, Android, "
+"akked Raspberry Pi deg <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">usebtar n usadar</a>. Daɣen ad yili deg "
+"ikufiyen n Play store n Android, F-Droid akked deg tḥanut n Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260923.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Tanemmirt-nwen akk, <br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -772,9 +761,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"S wudem niḍen, tzemreḍ ad tesbeddeḍ GCompris seg <a href=\"https://"
-"flathub.org/apps/details/org.kde.gcompris\">Flathub</a> neɣ seg <a "
-"href=\"https://snapcraft.io/gcompris\">Snap store</a>."
+"S wudem niḍen, tzemreḍ ad tesbeddeḍ GCompris seg <a href=\"https://flathub."
+"org/apps/details/org.kde.gcompris\">Flathub</a> neɣ seg <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
 
 #: template/downloads.html:122
 msgid ""
@@ -815,9 +804,9 @@ msgstr "GCompris-teachers"
 msgid ""
 "GCompris-teachers is the companion application for teachers to enhance their "
 "use of GCompris in their classroom. You can learn more about it from our <a "
-"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-"
-"teachers\">Schools page</a>. Note that to use it, you should use the same "
-"version of the main GCompris application."
+"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">Schools page</a>. Note that to use it, you should use the same version of "
+"the main GCompris application."
 msgstr ""
 
 #: template/downloads.html:170
@@ -1150,11 +1139,11 @@ msgstr ""
 
 #: template/index.html:166
 msgid ""
-"The GCompris project is hosted and developed by <a target=\"_blank\" "
-"rel=\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
-"Asenfar GCompris yettwasezdeɣ, yettwasnefli sɣur <a target=\"_blank\" "
-"rel=\"noopener\" href=\"https://www.kde.org/\">takebbanit KDE</a>."
+"Asenfar GCompris yettwasezdeɣ, yettwasnefli sɣur <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">takebbanit KDE</a>."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
@@ -1340,3 +1329,59 @@ msgstr "Taɣuṛi"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Tasetṛatijit"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "We are also releasing the first official version of our companion tool "
+#~ "for teachers: GCompris-teachers! You can find more information about it "
+#~ "on the <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\">schools page</a>."
+#~ msgstr ""
+#~ "Aql-aɣ daɣen la d-nettheyyi lqemunṣib amezwaru n ufecku-nneɣ ameddakkel i "
+#~ "yiselmaden : GCompris-Iselmaden! Tzemreḍ ad tafeḍ ugar n yisalan fell-as "
+#~ "deg <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\"> asebter aɣurbiz</a>."
+
+#~ msgctxt "20260204.html"
+#~ msgid "This new version contains 197 activities, including 2 new ones:"
+#~ msgstr "Deg lqem amaynut llan 197 yirmad, rnu 2 imaynuten niḍen:"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating "
+#~ "in a cogwheel."
+#~ msgstr ""
+#~ "\\\"Asuneɣ n rrwadi\\\" d armud i usuneɣ s useqdec n rryac i itezzin deg "
+#~ "rruda mm-tsennanin."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+#~ "activity is hidden by default. It becomes visible after some datasets for "
+#~ "it have been sent from GCompris-teachers."
+#~ msgstr ""
+#~ "\\\"Isteqsiyen s waṭas n tririyin\\\" d armud MCQ. Ẓer belli armud-a "
+#~ "yettwaffer s wudem amezwer. Ad d-ibin seld kra n tegrumiwin n yisefka i t-"
+#~ "yerzan i d-yettwaznen seg GCompris-teachers."
+
+#~ msgctxt "20260204.html"
+#~ msgid "It also contains bug fixes and improvements on multiple activities."
+#~ msgstr "Deg-s daɣen ibugen ttṣeggimen, d usennerni deg waṭas n yirmad."
+
+#~ msgctxt "20260204.html"
+#~ msgid "We ship translations for two more languages: Kannada and Tamil."
+#~ msgstr "Nsifiḍ tisuqilin i snat tutlayin niḍen: Kannada d Tamil."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, Android "
+#~ "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#~ "be available soon in the Android Play store, the F-Droid repository and "
+#~ "the Windows store."
+#~ msgstr ""
+#~ "Tzemreḍ ad tafeḍ ikemmusen n lqem-a amaynut i GNU/Linux, Windows, "
+#~ "Android, akked Raspberry Pi deg <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">usebtar n usadar</a>. Daɣen, lqem-a n "
+#~ "umucceḍ ad yili deg ikufiyen n F-Droid, Android Play store akked deg "
+#~ "tḥanut n Windows store."
