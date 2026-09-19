@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-09 00:57+0000\n"
+"POT-Creation-Date: 2026-09-09 03:09+0000\n"
 "PO-Revision-Date: 2026-07-05 11:07+0000\n"
 "Last-Translator: Moonshadow <zirisut@proton.me>\n"
 "Language-Team: Kabyle <kde-i18n-doc@kde.org>\n"
@@ -54,15 +54,16 @@ msgstr "TILELLIYIN_N_YIMSUQQAL"
 
 #. Tag: date
 #: index.docbook:49
-#, no-c-format
-msgid "2026-03-11"
+#, fuzzy, no-c-format
+#| msgid "2026-03-11"
+msgid "2026-09-23"
 msgstr "2026-03-11"
 
 #. Tag: releaseinfo
 #: index.docbook:54
 #, no-c-format
-msgid "26.1"
-msgstr "26.1"
+msgid "26.2"
+msgstr ""
 
 #. Tag: para
 #: index.docbook:59
@@ -873,29 +874,14 @@ msgstr ""
 msgid "Run &gcompris; with the specified locale."
 msgstr ""
 
-#. Tag: entry
-#: index.docbook:344
-#, no-c-format
-msgid "--with-sequence=sequence.json"
-msgstr ""
-
-#. Tag: entry
-#: index.docbook:345
-#, no-c-format
-msgid ""
-"Run &gcompris; with the specific sequence. A sequence is a list of "
-"activities with specific datasets, forcing GCompris to run them in the "
-"specified order."
-msgstr ""
-
 #. Tag: title
-#: index.docbook:352
+#: index.docbook:348
 #, no-c-format
 msgid "&Windows; Example"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:353
+#: index.docbook:349
 #, no-c-format
 msgid ""
 "You can add these switches in the desktop icon properties. Here is an "
@@ -904,7 +890,7 @@ msgid ""
 msgstr ""
 
 #. Tag: command
-#: index.docbook:354
+#: index.docbook:350
 #, no-c-format
 msgid ""
 "\"C:\\Program Files\\GCompris-Qt\\bin\\GCompris.exe\" --enable-kioskmode -f -"
@@ -914,13 +900,13 @@ msgstr ""
 "C"
 
 #. Tag: title
-#: index.docbook:358
+#: index.docbook:354
 #, no-c-format
 msgid "&GNU;/&Linux; Example"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:359
+#: index.docbook:355
 #, no-c-format
 msgid ""
 "Create an application launcher and configure the command line parameters. "
@@ -929,37 +915,40 @@ msgid ""
 msgstr ""
 
 #. Tag: command
-#: index.docbook:360
+#: index.docbook:356
 #, no-c-format
 msgid "gcompris-qt --enable-kioskmode -f -C"
 msgstr "gcompris-qt --enable-kioskmode -f -C"
 
 #. Tag: title
-#: index.docbook:368
+#: index.docbook:364
 #, no-c-format
 msgid "Credits and License"
 msgstr "Ismad d Turagt"
 
 #. Tag: para
-#: index.docbook:370
+#: index.docbook:366
 #, no-c-format
 msgid "&gcompris;"
 msgstr "&gcompris;"
 
 #. Tag: para
-#: index.docbook:373
+#: index.docbook:369
 #, no-c-format
 msgid "Program copyright © 2000–2025 Timothée Giet and others"
 msgstr ""
 
 #. Tag: trans_comment
-#: index.docbook:377
+#: index.docbook:373
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "TADRIMT_I_YIMSUQQAL"
 
 #. Tag: chapter
-#: index.docbook:377
+#: index.docbook:373
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
+
+#~ msgid "26.1"
+#~ msgstr "26.1"
